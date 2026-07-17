@@ -3,19 +3,26 @@
 메커니즘·불변식 SSOT는 `.claude/skills/garden-to-wikidocs/SKILL.md`.
 릴리즈 이력은 `CHANGELOG.md`.
 
-## NOW — RELREF·TOC 품질 복구를 라이브 반영할 차례
+## NOW — 라이브 반영·사이드바 보정 완료, 확장문법 육안점검만 남음
 
-- **Current**: RELREF·TOC 복구 커밋 `6ce35a2`와 후속 따옴표·CSL 목록 변환까지 push.
-  전체 2238페이지 build·relink 완료, 테스트 12개와 `audit.py` 통과.
-- **Next**: 웹훅 동기화 폴링 → 참고문헌·노트·봇로그 TOC, 복구 callout, CSL 목록을
-  라이브에서 확인 → 남은 렌더 차이 판단.
-- **Blocker**: 위키독스 대량 동기화 완료 대기. 로컬 품질 블로커는 없음.
-- **Read**: `tests/test_build.py`,
+- **Current**: RELREF·TOC 복구(`6ce35a2`)+따옴표·CSL(`6130954`) push, 웹훅 동기화
+  **2238/2238(100%) 라이브 확인**(botlog 382592 = 172줄 복구). 사이드바 챕터 4·5
+  누락은 위키독스 서버측 TOC 1000노드 하드캡이 원인 → 책 설정 `user_script`로 보정 완료.
+- **Next**: 위키독스 확장문법 육안점검(정상 테이블 렌더, 각주 `[^name]`, `[TOC]` 실화).
+- **Blocker**: 없음.
+- **Read**: `wikidocs-user-script.js`(사이드바 보정 원본), `tests/test_build.py`,
   `.claude/skills/garden-to-wikidocs/scripts/audit.py`, 이 파일의 검증 기준.
 - **Do not touch**: `~/repos/gh/notes/content` 원본, 민감어 하드코딩, 기존 tag 이동.
 
 ## RECENT — 2026-07-17
 
+- 웹훅 대량 동기화 2238/2238(100%) 라이브 확인. 챕터 순서·노드 2243·botlog
+  `20260407T093255`(page 382592) 172줄 복구·mapping 2238/2238 모두 충족.
+- 사이드바에 챕터 4·5 누락 원인 규명: 위키독스 리더 TOC가 서버측에서 **1000노드
+  하드캡**(raw HTML `data-id` 정확히 1000). 2243노드라 참고문헌 중간에서 잘려 노트·
+  봇로그 헤더가 emit 안 됨. 접기(open_yn/localStorage)로는 복구 불가.
+- 책 설정 `user_script`(JS)로 사이드바 최상단에 전체 챕터 인덱스 주입 → 5개 챕터
+  전부 표시. 원본은 `wikidocs-user-script.js`. GitHub 콘텐츠 동기화가 안 건드려 유지됨.
 - RELREF가 일반 `[대괄호]`부터 뒤 링크까지 줄바꿈을 넘어 삼키던 결함 수정.
   전수 조사상 1788/2238페이지, 횡단 매치 2984건, 약 80759줄 손실 범위였음.
 - RELREF 치환 전후 줄바꿈 수가 달라지면 build가 즉시 실패하는 런타임 게이트 추가.

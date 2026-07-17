@@ -25,6 +25,7 @@ import json
 import re
 import shutil
 import sys
+from datetime import date
 from pathlib import Path
 
 GARDEN_URL = "https://notes.junghanacs.com"
@@ -58,10 +59,11 @@ def scrub_identity(text: str, rules) -> str:
         text = pat.sub(rep, text)
     return text
 
-# 폴더 -> 챕터 표시 이름
+# 폴더 -> 챕터 표시 이름. 위키독스는 표지 제목을 알파벳순 강제정렬하므로 숫자 접두어로
+# 원하는 순서를 만든다(저널·메타·참고문헌·노트·봇로그).
 CHAPTER_NAMES = {
-    "journal": "저널", "notes": "노트", "meta": "메타",
-    "bib": "참고문헌", "botlog": "봇로그", "talks": "토크",
+    "journal": "1 저널", "meta": "2 메타", "bib": "3 참고문헌",
+    "notes": "4 노트", "botlog": "5 봇로그", "talks": "토크",
 }
 
 # ---------------------------------------------------------------- 제목/식별자
@@ -134,19 +136,33 @@ RELREF = re.compile(r'\[((?:[^\]]|\](?!\())*)\]\(\{\{<\s*relref\s+"([^"]+)"\s*>\
 FIGURE = re.compile(r'\{\{<\s*figure\s+(.*?)>\}\}')
 IMG = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 
-# 대문(README) 전용: 가든 크롤러용 'AI visitors' 블록쿼트를 위키독스 미러 안내로 교체.
-# (llms.txt·sitemap·robots·RSS 는 위키독스 책 안에선 의미 없다.) 매치 못하면 맨 위에 삽입.
-AI_VISITORS_BQ = re.compile(r"^>\s*AI visitors: start here\..*$", re.MULTILINE)
-MIRROR_NOTICE = (
-    "> 📖 이 책은 [정한(Junghan Kim)의 디지털 가든 — notes.junghanacs.com]"
-    "(https://notes.junghanacs.com) 의 위키독스 미러입니다. "
-    "원본과 최신본은 가든에서 보실 수 있습니다."
-)
+# 대문(README) 전용: 가든 크롤러용 'AI visitors' 안내(블록쿼트 + H2 섹션)를 제거하고
+# 위키독스 책 메타데이터 섹션으로 대체한다. (llms.txt·sitemap·robots·RSS 는 책 안에선
+# 무의미.) 이 책 본문은 위키독스 책 대문(book summary)으로 동기화된다.
+AI_VISITORS_BQ = re.compile(r"^>\s*AI visitors: start here\..*$\n?", re.MULTILINE)
+AI_VISITORS_SEC = re.compile(r"^## AI visitors\b.*?(?=^## |\Z)", re.DOTALL | re.MULTILINE)
+GARDEN_HOME = "https://notes.junghanacs.com"
+GARDEN_REPO = "https://github.com/junghan0611/garden"
+MIRROR_REPO = "https://github.com/junghan0611/garden2wikidocs"
 
 
-def mirror_notice(readme_body: str) -> str:
-    body, n = AI_VISITORS_BQ.subn(MIRROR_NOTICE, readme_body, count=1)
-    return body if n else MIRROR_NOTICE + "\n\n" + body
+def readme_meta_block() -> str:
+    """책 대문 상단 메타데이터 섹션(헤딩 레벨). 마지막 동기화 = 빌드 날짜."""
+    return (
+        "## 이 책에 대하여\n\n"
+        "정한(Junghan Kim)의 디지털 가든을 위키독스로 미러링한 책입니다. "
+        "원본과 최신본은 가든에서 보실 수 있습니다.\n\n"
+        f"- 원본 가든: <{GARDEN_HOME}>\n"
+        f"- 가든 소스: <{GARDEN_REPO}>\n"
+        f"- 미러 리포: <{MIRROR_REPO}>\n"
+        f"- 마지막 동기화: {date.today().isoformat()}\n"
+    )
+
+
+def readme_head(readme_body: str) -> str:
+    body = AI_VISITORS_BQ.sub("", readme_body, count=1)
+    body = AI_VISITORS_SEC.sub("", body, count=1)
+    return readme_meta_block() + "\n" + body.lstrip("\n")
 
 
 def figure_repl(m):
@@ -341,7 +357,7 @@ def main():
     if index_src.exists():
         imeta, ibody = split_frontmatter(index_src.read_text(encoding="utf-8"))
         icontent = transform_body(ibody, garden_root, assets_dir, "", copied)
-        icontent = mirror_notice(icontent)          # AI visitors 블록쿼트 -> 미러 안내
+        icontent = readme_head(icontent)            # AI visitors 제거 + 메타데이터 섹션
         icontent = scrub_identity(icontent, scrub_rules)
         ititle = clean_title(imeta.get("title") or "Home")
         (out / "README.md").write_text(f"# {ititle}\n\n{icontent}", encoding="utf-8")

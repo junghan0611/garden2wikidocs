@@ -1,16 +1,13 @@
 # Home: Digital Garden🏡
 
-> 📖 이 책은 [정한(Junghan Kim)의 디지털 가든 — notes.junghanacs.com](https://notes.junghanacs.com) 의 위키독스 미러입니다. 원본과 최신본은 가든에서 보실 수 있습니다.
+## 이 책에 대하여
 
-## AI visitors
+정한(Junghan Kim)의 디지털 가든을 위키독스로 미러링한 책입니다. 원본과 최신본은 가든에서 보실 수 있습니다.
 
-Machine-readable entry points for AI crawlers and language models:
-
--   [llms.txt](https://notes.junghanacs.com/llms.txt) — AI-facing site index
--   [sitemap.xml](https://notes.junghanacs.com/sitemap.xml) — full page list
--   [robots.txt](https://notes.junghanacs.com/robots.txt) — crawl policy
--   [RSS](https://notes.junghanacs.com/index.xml) — recent updates
--   [Welcome, minds — ξενία](https://wikidocs.net/381785) — hospitality note
+- 원본 가든: <https://notes.junghanacs.com>
+- 가든 소스: <https://github.com/junghan0611/garden>
+- 미러 리포: <https://github.com/junghan0611/garden2wikidocs>
+- 마지막 동기화: 2026-07-17
 
 ## 힣의 고뇌
 

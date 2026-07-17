@@ -11,14 +11,16 @@
     assets/                      복사된 로컬 이미지
     mapping.json                 denote-id -> {path, subject}  (씨뿌리기 시점 기록)
 
-3단계 파이프라인:
-    1) seed   : build.py --folders journal  → 생성, 내부 relref는 가든 절대URL
-                (page_id 아직 없음). 각 페이지에 <!-- gid:ID --> 앵커.
-    2) recover: (별도) push 후 book get 으로 gid<->page_id 회수해 mapping.json 갱신
+3단계 파이프라인 + 품질 게이트:
+    1) seed   : build.py --folders journal  → 생성, 내부 relref는 가든 절대URL.
+                기존 mapping의 page_id는 동일 gid에 승계. 각 페이지에 <!-- gid:ID --> 앵커.
+    2) recover: (별도) 최초 push/새 페이지 동기화 후 gid<->page_id 회수
     3) relink : (별도) 내부 relref 를 wikidocs.net/<page_id> 로 재작성
+    gate) audit: (별도) push 전 TOC·mapping·본문 구조 품질 검증
 
 사용:
-    build.py --folders journal [--garden ~/repos/gh/notes] [--out <repo root>]
+    build.py --folders journal,meta,bib,notes,botlog
+             [--garden ~/repos/gh/notes] [--out <repo root>]
 """
 import argparse
 import json
@@ -60,15 +62,21 @@ def scrub_identity(text: str, rules) -> str:
     return text
 
 # 폴더 -> 챕터 표시 이름. 위키독스는 표지 제목을 알파벳순 강제정렬하므로 숫자 접두어로
-# 원하는 순서를 만든다(저널·메타·참고문헌·노트·봇로그).
+# 원하는 순서를 만든다(저널·메타·참고문헌·노트·봇로그). TOC.md 자체도 같은 순서로
+# 생성해야 가져오기 도중 한 챕터가 실패했을 때 순서 진단이 어긋나지 않는다.
 CHAPTER_NAMES = {
     "journal": "1 저널", "meta": "2 메타", "bib": "3 참고문헌",
     "notes": "4 노트", "botlog": "5 봇로그", "talks": "토크",
 }
+CHAPTER_ORDER = {folder: i for i, folder in enumerate(CHAPTER_NAMES)}
 
 # ---------------------------------------------------------------- 제목/식별자
 
 SIGILS = "#@§¤†‡©※¶‣∷"
+# 개인 노트 제목에서 의미를 보태는 입력용 기호지만 위키독스 TOC 링크텍스트에는 넣지
+# 않는다. 일부 기호와 중첩 대괄호는 위키독스의 TOC 파서를 중단시킬 수 있다.
+TOC_UNSAFE_CHARS = "\u00a0—§¶†‡№↔←→⊢⊨∉©¬¤µ¡¿◊⁂¥¢£[]"
+TOC_TRANSLATION = str.maketrans({ch: " " for ch in TOC_UNSAFE_CHARS})
 DENOTE_ID = re.compile(r"(\d{8}T\d{6})")
 
 
@@ -81,9 +89,26 @@ def clean_title(raw: str) -> str:
     return t
 
 
+def clean_toc_title(raw: str) -> str:
+    """위키독스 TOC/페이지 제목용 평문 정리.
+
+    가든 원본의 입력용 유니코드와 Markdown 중첩 대괄호를 공백으로 바꾼 뒤 기존 제목
+    sigil 정리를 적용한다. 삭제 지점의 단어가 붙지 않도록 공백으로 바꾸는 것이 중요하다.
+    """
+    return clean_title((raw or "").translate(TOC_TRANSLATION))
+
+
 def denote_id(s: str):
     m = DENOTE_ID.search(s)
     return m.group(1) if m else None
+
+
+def ordered_folders(folders):
+    """중복을 제거하고 알려진 챕터를 고정 순서로 정렬한다."""
+    unique = list(dict.fromkeys(folders))
+    input_order = {folder: i for i, folder in enumerate(unique)}
+    return sorted(unique, key=lambda f: (CHAPTER_ORDER.get(f, len(CHAPTER_ORDER)),
+                                         input_order[f]))
 
 
 def subject_for(did: str, title: str) -> str:
@@ -91,7 +116,7 @@ def subject_for(did: str, title: str) -> str:
     단, 제목이 이미 그 날짜(ISO 또는 8자리)로 시작하면 중복을 피한다."""
     d8 = did[:8]
     iso = f"{d8[:4]}-{d8[4:6]}-{d8[6:8]}"
-    ct = clean_title(title)
+    ct = clean_toc_title(title)
     if ct.startswith(iso) or ct.startswith(d8):
         return ct
     return f"{d8} {ct}"
@@ -131,7 +156,11 @@ CSL_ID = re.compile(r'<a id="citeproc_bib_item_\d+"></a>')
 DIVTAG = re.compile(r"</?div[^>]*>")
 ATAG = re.compile(r'<a\s+[^>]*?href="([^"]*)"[^>]*>(.*?)</a>', re.DOTALL)
 # 링크 텍스트에 `]` 가 있어도(중첩 대괄호) 실제 링크 종료 `](` 에서만 끊기게 tempered.
-RELREF = re.compile(r'\[((?:[^\]]|\](?!\())*)\]\(\{\{<\s*relref\s+"([^"]+)"\s*>\}\}\)')
+# 인라인 링크는 절대 줄바꿈을 넘지 않는다. 이 제한이 없으면 앞선 일반 `[대괄호]`부터
+# 뒤의 relref까지 문단·헤딩·표 전체를 삼킨 뒤 clean_title이 줄바꿈을 삭제한다.
+RELREF = re.compile(
+    r'\[((?:[^\]\n]|\](?!\())*)\]\(\{\{<\s*relref\s+"([^"]+)"\s*>\}\}\)')
+RELREF_SHORTCODE_TEXT = re.compile(r'\{\{<\s*relref\s+"([^"]+)"\s*>\}\}')
 # caption 에 <span> 등 `>` 가 들어와도 실제 종료 `>}}` 까지 잡게 .*? 사용.
 FIGURE = re.compile(r'\{\{<\s*figure\s+(.*?)>\}\}')
 IMG = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
@@ -246,9 +275,17 @@ def convert_html(text: str) -> str:
 
 
 def relref_repl(m):
-    """씨뿌리기 단계: 모든 내부 relref 를 가든 절대 URL 로. (page_id 는 3단계에서)"""
-    txt = clean_title(m.group(1))
+    """씨뿌리기 단계: 모든 정상 내부 relref 를 가든 절대 URL 로.
+
+    원본 오류로 링크텍스트 자체가 relref 숏코드인 경우에는 대상 문자열을 평문화한다.
+    `/folder/id.md`가 아닌 상대 대상은 가든 URL로 확정할 수 없으므로 깨진 링크 대신
+    평문만 남긴다.
+    """
+    raw_text = RELREF_SHORTCODE_TEXT.sub(r"\1", m.group(1))
+    txt = clean_title(raw_text)
     target = m.group(2)
+    if not target.startswith("/"):
+        return txt or clean_title(target)
     path = target[:-3] if target.endswith(".md") else target
     return f"[{txt}]({GARDEN_URL}{path}/)"
 
@@ -274,7 +311,10 @@ def transform_body(body, garden_root, assets_dir, rel_prefix, copied):
     body = TIMESTAMP.sub(r"\1", body)
     body = convert_callouts(body)
     body = convert_html(body)
+    before_relref_lines = body.count("\n")
     body = RELREF.sub(relref_repl, body)
+    if body.count("\n") != before_relref_lines:
+        raise ValueError("RELREF 변환이 줄바꿈 수를 변경했습니다")
     body = FIGURE.sub(figure_repl, body)
     body = IMG.sub(make_images(garden_root, assets_dir, rel_prefix, copied), body)
     body = re.sub(r"\n{3,}", "\n\n", body).strip() + "\n"
@@ -286,7 +326,8 @@ def transform_body(body, garden_root, assets_dir, rel_prefix, copied):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--folders", required=True, help="가든 폴더들, 쉼표구분 (예: journal,meta)")
+    ap.add_argument("--folders", required=True,
+                    help="가든 폴더들, 쉼표구분 (예: journal,meta,bib,notes,botlog)")
     ap.add_argument("--garden", default="~/repos/gh/notes")
     ap.add_argument("--out", default=None,
                     help="책 리포 루트(기본: 이 스크립트로부터 위로 README.md 있는 곳)")
@@ -302,7 +343,14 @@ def main():
 
     pages_dir = out / "pages"
     assets_dir = out / "assets"
-    folders = [f.strip() for f in args.folders.split(",") if f.strip()]
+    folders = ordered_folders([f.strip() for f in args.folders.split(",") if f.strip()])
+
+    # 이미 회수한 원격 식별자는 동일 gid에 승계한다. 첫 씨뿌리기에는 파일이 없으므로
+    # 빈 매핑으로 시작하고, 이후 갱신은 build -> 로컬 relink -> push 한 번으로 가능하다.
+    mapping_path = out / "mapping.json"
+    previous_mapping = {}
+    if mapping_path.exists():
+        previous_mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
 
     # pages/ 초기화(생성물 전체) — 폴더 미러를 깨끗이 다시 쓴다
     if pages_dir.exists():
@@ -348,7 +396,26 @@ def main():
             page_rel = f"pages/{folder}/{did}.md"
             (out / page_rel).write_text(content, encoding="utf-8")
             toc.append(f"  - [{subject}]({page_rel})")
-            mapping[did] = {"path": page_rel, "subject": subject, "folder": folder}
+            entry = {"path": page_rel, "subject": subject, "folder": folder}
+            previous = previous_mapping.get(did, {})
+            for key in ("page_id", "url"):
+                if previous.get(key):
+                    entry[key] = previous[key]
+            mapping[did] = entry
+
+    # 챕터 표지도 이미 회수한 page_id를 승계하되 subject는 현재 번호 제목으로 갱신한다.
+    previous_chapters = previous_mapping.get("_chapters", {})
+    chapters = {}
+    for folder in folders:
+        previous = previous_chapters.get(folder, {})
+        if previous.get("page_id"):
+            chapters[folder] = {
+                "page_id": previous["page_id"],
+                "subject": CHAPTER_NAMES.get(folder, folder),
+                "url": previous.get("url") or f"https://wikidocs.net/{previous['page_id']}",
+            }
+    if chapters:
+        mapping["_chapters"] = chapters
 
     # 대문: 가든 content/index.md -> README.md. README 는 위키독스 책 '대문'으로 동기화되고
     # GitHub 리포 대문이기도 하다. index.md 도 계속 갱신되므로 빌드 때마다 재생성한다.
@@ -359,19 +426,22 @@ def main():
         icontent = transform_body(ibody, garden_root, assets_dir, "", copied)
         icontent = readme_head(icontent)            # AI visitors 제거 + 메타데이터 섹션
         icontent = scrub_identity(icontent, scrub_rules)
-        ititle = clean_title(imeta.get("title") or "Home")
+        ititle = clean_toc_title(imeta.get("title") or "Home")
         (out / "README.md").write_text(f"# {ititle}\n\n{icontent}", encoding="utf-8")
         print(f"[ok] README    : content/index.md -> README.md ({ititle})")
 
     (out / "TOC.md").write_text("\n".join(toc) + "\n", encoding="utf-8")
-    (out / "mapping.json").write_text(
+    mapping_path.write_text(
         json.dumps(mapping, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    page_count = sum(key != "_chapters" for key in mapping)
+    carried_ids = sum(key != "_chapters" and bool(value.get("page_id"))
+                      for key, value in mapping.items())
     print(f"[ok] out      : {out}")
     print(f"[ok] folders  : {folders}")
-    print(f"[ok] pages    : {len(mapping)}개 (+챕터표지 {len(folders)})")
+    print(f"[ok] pages    : {page_count}개 (+챕터표지 {len(folders)})")
     print(f"[ok] assets   : {len(copied)}개")
-    print(f"[ok] mapping  : mapping.json ({len(mapping)} entries, page_id 는 아직 비어있음)")
+    print(f"[ok] mapping  : mapping.json ({page_count} entries, page_id 승계 {carried_ids}개)")
 
 
 if __name__ == "__main__":

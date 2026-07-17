@@ -15,10 +15,12 @@ Garden"** 과 깃허브 연동돼 있다. `git push` → 웹훅 → 위키독스
 ```
 [1] build.py   씨뿌리기 — 가든 폴더 → pages/<folder>/<denote-id>.md + TOC.md + mapping.json
                + content/index.md → README.md(위키독스 책 '대문').
-               내부 relref 는 가든 절대URL, 각 페이지에 <!-- gid:ID --> 앵커. → commit/push
-[2] recover.py 회수 — book get 으로 gid<->page_id 회수해 mapping.json 채움
+               내부 relref 는 가든 절대URL, 각 페이지에 <!-- gid:ID --> 앵커.
+               기존 mapping의 page_id/url은 동일 gid에 승계한다.
+[2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 회수
 [3] relink.py  링크 실화 — pages/**·README 의 가든 URL 중 page_id 있는 것만
-               wikidocs.net/<page_id> 로 재작성(없으면 가든 URL 유지, 하이브리드). → push
+               wikidocs.net/<page_id> 로 재작성(없으면 가든 URL 유지, 하이브리드).
+[검증] audit.py 품질 게이트 — TOC·mapping·gid·page_id·미처리 relref·원본/미러 헤딩 보존
 ```
 
 `pages/x.md` 같은 상대 링크는 위키독스에서 **작동하지 않는다**(메인으로 튕김). 페이지 간
@@ -29,7 +31,7 @@ Garden"** 과 깃허브 연동돼 있다. `git push` → 웹훅 → 위키독스
 
 ```bash
 # 1) 씨뿌리기 (가든 read-only, 이 리포에 생성물 작성)
-python3 .claude/skills/garden-to-wikidocs/scripts/build.py --folders journal
+python3 .claude/skills/garden-to-wikidocs/scripts/build.py --folders journal,meta,bib,notes,botlog
 git add -A && git commit -m "..." && git push origin main   # 웹훅 동기화
 
 # 2) 회수 (push·동기화 완료 후)
@@ -37,10 +39,13 @@ WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
   python3 .claude/skills/garden-to-wikidocs/scripts/recover.py --book-id 20676
 git add mapping.json && git commit -m "chore(export): recover journal page_ids"
 
-# 3) 링크 실화 (relink.py 구현 후)
+# 3) 링크 실화 + push 전 품질 감사
+python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
+python3 .claude/skills/garden-to-wikidocs/scripts/audit.py
 ```
 
-- `build.py --folders journal,meta,notes` 처럼 쉼표로 여러 폴더 동시 처리.
+- `build.py --folders journal,meta,bib,notes,botlog` 처럼 쉼표로 여러 폴더 동시 처리.
+  알려진 챕터는 입력 순서와 무관하게 `1 저널·2 메타·3 참고문헌·4 노트·5 봇로그`로 정렬.
 - `--garden` 기본 `~/repos/gh/notes`, `--out` 기본은 README.md 있는 리포 루트.
 - 의존성 0(Python 표준 라이브러리). 토큰은 `pass personal/token/wikidocs/junghanacs`.
 
@@ -64,7 +69,7 @@ git add mapping.json && git commit -m "chore(export): recover journal page_ids"
 
 | 가든 (Quartz/Hugo) | 위키독스 | 함수 |
 |---|---|---|
-| frontmatter `title` | `<날짜8> <제목>` → TOC 링크텍스트 (sigil 제거) | `subject_for`/`clean_title` |
+| frontmatter `title` | `<날짜8> <제목>` → TOC 평문 링크텍스트 (입력용 유니코드·중첩 `[]` 제거) | `subject_for`/`clean_toc_title` |
 | frontmatter 전체 | 제거 | `split_frontmatter` |
 | `## 제목 {#anchor}` | `## 제목` | `HEAD_ANCHOR` |
 | `<span class="timestamp-wrapper">…[날짜]…</span>` | `[날짜]` | `TIMESTAMP` |
@@ -86,7 +91,9 @@ push 하면 웹훅이 `README.md`(책 대문)·`TOC.md`·`pages/`·`assets/` 를
 (`.claude/`·`AGENTS.md`·`NEXT.md`·`mapping.json` 은 무시). `README.md` 는 가든
 `content/index.md` 를 변환한 책 대문이므로 index 가 바뀌면 build 가 재생성한다. 안 보이면:
 push 반영 확인 → GitHub `Settings > Webhooks` → 위키독스 `책 수정 > 깃허브` 연결/웹훅 →
-`지금 동기화`. 103페이지 동기화에 ~70초.
+`지금 동기화`. 103페이지 동기화에 ~70초. 갱신 때는 기존 page_id를 승계하므로
+`build → relink → audit → push`로 기존 페이지를 한 번에 복구할 수 있다. 새 페이지가 있으면
+동기화 뒤 `recover → relink → audit → push`를 한 번 더 수행한다.
 
 ## 알려진 다듬을 거리 (기능 아님)
 

@@ -79,6 +79,9 @@ def main():
         return m.group(0)
 
     md_files = sorted(pages_dir.rglob("*.md"))
+    readme = root / "README.md"          # 대문(가든 index.md 변환본)도 링크 실화 대상
+    if readme.exists():
+        md_files.append(readme)
     for f in md_files:
         text = f.read_text(encoding="utf-8")
         guarded, blocks = protect_code(text)

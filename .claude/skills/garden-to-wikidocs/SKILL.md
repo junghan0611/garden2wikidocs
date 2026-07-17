@@ -14,9 +14,11 @@ Garden"** 과 깃허브 연동돼 있다. `git push` → 웹훅 → 위키독스
 
 ```
 [1] build.py   씨뿌리기 — 가든 폴더 → pages/<folder>/<denote-id>.md + TOC.md + mapping.json
+               + content/index.md → README.md(위키독스 책 '대문').
                내부 relref 는 가든 절대URL, 각 페이지에 <!-- gid:ID --> 앵커. → commit/push
 [2] recover.py 회수 — book get 으로 gid<->page_id 회수해 mapping.json 채움
-[3] relink.py  링크 실화(미구현) — 내부 relref 를 wikidocs.net/<page_id> 로 재작성 → push
+[3] relink.py  링크 실화 — pages/**·README 의 가든 URL 중 page_id 있는 것만
+               wikidocs.net/<page_id> 로 재작성(없으면 가든 URL 유지, 하이브리드). → push
 ```
 
 `pages/x.md` 같은 상대 링크는 위키독스에서 **작동하지 않는다**(메인으로 튕김). 페이지 간
@@ -80,9 +82,11 @@ git add mapping.json && git commit -m "chore(export): recover journal page_ids"
 
 ## 배포·동기화
 
-push 하면 웹훅이 `TOC.md`·`pages/`·`assets/` 만 읽어 동기화(`.claude/`·`AGENTS.md`·`NEXT.md`
-·`mapping.json` 은 무시). 안 보이면: push 반영 확인 → GitHub `Settings > Webhooks` → 위키독스
-`책 수정 > 깃허브` 연결/웹훅 → `지금 동기화`. 103페이지 동기화에 ~70초.
+push 하면 웹훅이 `README.md`(책 대문)·`TOC.md`·`pages/`·`assets/` 를 읽어 동기화
+(`.claude/`·`AGENTS.md`·`NEXT.md`·`mapping.json` 은 무시). `README.md` 는 가든
+`content/index.md` 를 변환한 책 대문이므로 index 가 바뀌면 build 가 재생성한다. 안 보이면:
+push 반영 확인 → GitHub `Settings > Webhooks` → 위키독스 `책 수정 > 깃허브` 연결/웹훅 →
+`지금 동기화`. 103페이지 동기화에 ~70초.
 
 ## 알려진 다듬을 거리 (기능 아님)
 

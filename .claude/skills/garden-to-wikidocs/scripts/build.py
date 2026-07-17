@@ -320,6 +320,18 @@ def main():
             toc.append(f"  - [{subject}]({page_rel})")
             mapping[did] = {"path": page_rel, "subject": subject, "folder": folder}
 
+    # 대문: 가든 content/index.md -> README.md. README 는 위키독스 책 '대문'으로 동기화되고
+    # GitHub 리포 대문이기도 하다. index.md 도 계속 갱신되므로 빌드 때마다 재생성한다.
+    # README 는 리포 루트라 이미지 rel_prefix 는 "" (assets/... 직접 참조).
+    index_src = garden_root / "content" / "index.md"
+    if index_src.exists():
+        imeta, ibody = split_frontmatter(index_src.read_text(encoding="utf-8"))
+        icontent = transform_body(ibody, garden_root, assets_dir, "", copied)
+        icontent = scrub_identity(icontent, scrub_rules)
+        ititle = clean_title(imeta.get("title") or "Home")
+        (out / "README.md").write_text(f"# {ititle}\n\n{icontent}", encoding="utf-8")
+        print(f"[ok] README    : content/index.md -> README.md ({ititle})")
+
     (out / "TOC.md").write_text("\n".join(toc) + "\n", encoding="utf-8")
     (out / "mapping.json").write_text(
         json.dumps(mapping, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

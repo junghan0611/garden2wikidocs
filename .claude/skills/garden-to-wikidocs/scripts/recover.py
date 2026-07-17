@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+"""3단계 파이프라인 2단계: 회수(recover). stdlib only.
+
+씨뿌리기(build.py) push 후, 위키독스가 부여한 page_id 를 회수한다.
+각 페이지 본문에 심어둔 `<!-- gid:<denote-id> -->` 앵커를 book get 응답에서 읽어
+mapping.json 의 denote-id 항목에 page_id 와 위키독스 URL 을 채운다.
+
+사용:
+    WIKIDOCS_TOKEN=... recover.py --book-id 20676 [--mapping <repo>/mapping.json]
+
+인증: --token 우선, 없으면 환경변수 WIKIDOCS_TOKEN.
+"""
+import argparse
+import json
+import os
+import re
+import sys
+import urllib.request
+from pathlib import Path
+
+API = "https://wikidocs.net/napi"
+GID = re.compile(r"<!-- gid:(\d{8}T\d{6}) -->")
+
+
+def api_get(path, token):
+    req = urllib.request.Request(API + path, headers={"Authorization": f"Token {token}"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
+def walk(node, acc):
+    acc.append(node)
+    for c in node.get("children", []):
+        walk(c, acc)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--book-id", required=True)
+    ap.add_argument("--mapping", default=None,
+                    help="mapping.json 경로(기본: 이 스크립트로부터 위 README.md 있는 곳/mapping.json)")
+    ap.add_argument("--token", default=None)
+    args = ap.parse_args()
+
+    token = args.token or os.environ.get("WIKIDOCS_TOKEN")
+    if not token:
+        print("[err] 토큰 없음: --token 또는 WIKIDOCS_TOKEN", file=sys.stderr)
+        return 1
+
+    if args.mapping:
+        mapping_path = Path(args.mapping).expanduser()
+    else:
+        here = Path(__file__).resolve()
+        root = next((p for p in here.parents if (p / "README.md").exists()), here.parents[3])
+        mapping_path = root / "mapping.json"
+    mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
+
+    book = api_get(f"/books/{args.book_id}/", token)
+    nodes = []
+    for p in book.get("pages", []):
+        walk(p, nodes)
+
+    matched = 0
+    fetched = 0
+    for n in nodes:
+        content = n.get("content") or ""
+        if not content:                       # book get 이 content 를 안 주면 개별 조회
+            content = api_get(f"/pages/{n['id']}/", token).get("content", "")
+            fetched += 1
+        m = GID.search(content)
+        if m and m.group(1) in mapping:
+            gid = m.group(1)
+            mapping[gid]["page_id"] = n["id"]
+            mapping[gid]["url"] = f"https://wikidocs.net/{n['id']}"
+            matched += 1
+
+    mapping_path.write_text(json.dumps(mapping, ensure_ascii=False, indent=2) + "\n",
+                            encoding="utf-8")
+
+    total = len(mapping)
+    unmatched = [g for g, v in mapping.items() if not v.get("page_id")]
+    print(f"[ok] book_id  : {args.book_id}")
+    print(f"[ok] 위키독스 페이지 노드: {len(nodes)}개 (개별조회 {fetched})")
+    print(f"[ok] 회수 매칭 : {matched}/{total}")
+    if unmatched:
+        print(f"[warn] page_id 없는 항목 {len(unmatched)}개: {unmatched[:5]}{'...' if len(unmatched)>5 else ''}")
+    print(f"[ok] mapping  : {mapping_path}")
+
+
+if __name__ == "__main__":
+    sys.exit(main())

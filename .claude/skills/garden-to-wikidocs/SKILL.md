@@ -1,131 +1,90 @@
 ---
 name: garden-to-wikidocs
-description: 정한의 디지털 가든(Quartz/Hugo MD, ~/repos/gh/notes/content)을 위키독스 깃허브 연동 책 형식(README.md·TOC.md·pages/·assets/)으로 변환해 이 리포(garden2wikidocs)에 담을 때 사용한다. 가든 원본은 절대 수정하지 않고, sigil 타이틀·callout·relref 링크·citeproc·이미지를 위키독스 문법으로 변환한다. push 하면 웹훅이 위키독스 책을 동기화한다.
+description: 정한의 디지털 가든(Quartz/Hugo MD, ~/repos/gh/notes/content)을 위키독스 깃허브 연동 책(book_id 20676)으로 내보낼 때 사용한다. 폴더 미러 3단계 파이프라인(build 씨뿌리기 → recover 회수 → relink 링크 실화). 가든 원본은 절대 수정하지 않고, denote-id 파일명·날짜접두어 제목·callout·relref·citeproc·이미지·회사신원 난독화를 처리한다. push 하면 웹훅이 위키독스를 동기화한다.
 ---
 
-# 가든 → 위키독스 깃허브 연동 책 내보내기
+# 가든 → 위키독스 깃허브 연동 책 내보내기 (v2)
 
-이 리포(`junghan0611/garden2wikidocs`)는 위키독스와 **깃허브 연동**된 책이다.
-`git push` 하면 위키독스가 웹훅으로 당겨가 책을 동기화한다. 웹 UI 편집은 기준 경로가
-아니다 — **이 리포가 원본**이다.
+이 리포(`junghan0611/garden2wikidocs`)는 위키독스 책 **20676 "Junghanacs's Digital
+Garden"** 과 깃허브 연동돼 있다. `git push` → 웹훅 → 위키독스 동기화. **이 리포가 원본**이고
+위키독스 웹 UI 편집은 기준 경로가 아니다. 가든 전체를 폴더 단위로 올려 위키독스 안에서
+자기완결적으로 순회하게 하는 것이 목표(개별 노트가 아니라 가든 전체).
 
-이 스킬은 가든 노트를 그 형식으로 변환해 담는다. **담당자 없음**: 스크립트와
-manifest 로만 재현한다.
+## 3단계 파이프라인
 
-## 원칙
+```
+[1] build.py   씨뿌리기 — 가든 폴더 → pages/<folder>/<denote-id>.md + TOC.md + mapping.json
+               내부 relref 는 가든 절대URL, 각 페이지에 <!-- gid:ID --> 앵커. → commit/push
+[2] recover.py 회수 — book get 으로 gid<->page_id 회수해 mapping.json 채움
+[3] relink.py  링크 실화(미구현) — 내부 relref 를 wikidocs.net/<page_id> 로 재작성 → push
+```
 
-1. **가든은 read-only.** `~/repos/gh/notes/content` 는 절대 수정하지 않는다. 변환기가
-   읽어서 이 리포의 `pages/`·`TOC.md`·`assets/` 만 만든다.
-2. **push 는 GLG 만 결정.** 에이전트는 커밋까지만(commit 스킬), push 는 명시 요청 시에만.
-   push = 위키독스 라이브 반영이다.
-3. **전체 내보내기 전에 샘플로 검증.** 새 변환 규칙/스코프는 소수 노트로 먼저 확인한다.
-
-## 위키독스 깃허브 연동 책 형식 (SSOT)
-
-실측 검증한 규칙(ychoi-kr `wikidocs-ebook`, `skills/wikidocs-github-book` 기준):
-
-- **`README.md`** — 첫 `#` = 책 제목, 나머지 = 책 요약. 이미지는 `./assets/...`.
-- **`TOC.md`** — `# 목차` + `- [NN. 제목](pages/파일.md)` 불릿. **2칸 들여쓰기 = 계층.**
-  위키독스는 제목 알파벳순 정렬이므로 **번호 접두사로 순서를 고정**한다.
-- **`pages/*.md`** — **본문 맨 위에 H1(`#`) 을 쓰지 않는다.** 페이지 제목은 오로지
-  `TOC.md` 가 관리한다. frontmatter 없음. 페이지 상단에 `[TOC]` 선택 삽입 가능.
-  이미지는 `![](../assets/name.png)` (공백은 `%20`). 내부 페이지 링크는 `](pages/other.md)`.
-- **`assets/`** — 이미지 저장. 페이지에서 `../assets/`, README 에서 `./assets/`.
-- **`.gitignore`** — `.obsidian` (옵시디언으로도 열 수 있음). `.claude/` 는 위키독스가
-  무시하므로 이 스킬을 리포에 두어도 동기화에 영향 없다.
-
-### 위키독스 확장문법 (착지점)
-
-- `[[TIP]] … [[/TIP]]` / `[[TIP("라벨")]] … [[/TIP]]` — 팁/콜아웃 박스
-- `[[SubPages]]` — 하위 목차 자동 삽입 (챕터 인덱스 페이지용)
-- `[TOC]` — 페이지 내 목차
-- `[[MARK]]`/`[[SMARK]]` — 코드 강조/삭제 표시
-- `[[용어]]` — 용어 링크(위키독스 위키 팝업). 이 변환기는 쓰지 않는다.
-
-## 가든 → 위키독스 변환 매핑
-
-| 가든 (Quartz/Hugo) | 위키독스 | 처리 위치 |
-|---|---|---|
-| frontmatter `title` | TOC.md 링크 텍스트 (sigil 제거) | `clean_title` |
-| frontmatter 전체 | 제거 | `split_frontmatter` |
-| `## 제목 {#anchor}` | `## 제목` | `HEAD_ANCHOR` |
-| `<span class="timestamp-wrapper">…[날짜]…</span>` | `[날짜]` (HTML 제거, 날짜 유지) | `TIMESTAMP` |
-| `> [!type] 제목` callout (11종+) | `[[TIP("라벨")]] … [[/TIP]]` | `convert_callouts` |
-| `<div class="csl-bib-body">…` citeproc | 마크다운 텍스트/링크 | `convert_html` |
-| `<a href="#citeproc…">텍스트</a>` | `텍스트` | `convert_html` |
-| `<a href="url">텍스트</a>` | `[텍스트](url)` | `convert_html` |
-| `[텍스트]({{< relref "/x/y.md" >}})` | **하이브리드**(아래) | `make_relref` |
-| `![](/images/f.png)` | `![](../assets/f.png)` + assets 복사 | `make_images` |
-| 외부 URL 이미지 `![](http…)` | 그대로 | `make_images` |
-| 코드블록 ```` ``` ```` | 원형 보존(변환 제외) | `protect_code` |
-
-### relref 링크 정책 — 하이브리드
-
-- 대상 노트가 **이번 내보내기 집합 안**이면 → `](pages/NN-slug.md)` 내부 링크.
-- 밖이면 → `](https://notes.junghanacs.com/<path>/)` 절대 URL (가든으로 되돌려보냄).
-
-부분 내보내기여도 링크가 깨지지 않고, 스코프가 커질수록 내부 링크가 자동으로 늘어난다.
-"가든에서 나가되 뿌리는 가든" — 위키독스 책이 가든의 위성이 된다.
-
-### sigil 청소 규칙 (조정 가능)
-
-`# @ § ¤ † ‡ © ※ ¶ ‣ ∷` 문자를 제거하고 공백/선두 구두점을 정리한다.
-`힣:`·`이력서:`·`번역기:` 같은 네임스페이스 콜론 접두어는 **읽을 만해서 유지**한다.
-denote 시퀀스 코드(예: `0zw`)는 현재 남는다 — 필요하면 `SIGILS`/`clean_title` 을 조정.
+`pages/x.md` 같은 상대 링크는 위키독스에서 **작동하지 않는다**(메인으로 튕김). 페이지 간
+링크는 반드시 `https://wikidocs.net/<page_id>` 절대 URL이어야 하고, page_id 는 페이지 생성
+후에만 생기므로 3단계가 구조적으로 불가피하다.
 
 ## 실행
 
 ```bash
-# 가든은 건드리지 않고 이 리포에 TOC.md·pages/·assets/ 생성
-python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
-  --manifest .claude/skills/garden-to-wikidocs/sample.json
+# 1) 씨뿌리기 (가든 read-only, 이 리포에 생성물 작성)
+python3 .claude/skills/garden-to-wikidocs/scripts/build.py --folders journal
+git add -A && git commit -m "..." && git push origin main   # 웹훅 동기화
+
+# 2) 회수 (push·동기화 완료 후)
+WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
+  python3 .claude/skills/garden-to-wikidocs/scripts/recover.py --book-id 20676
+git add mapping.json && git commit -m "chore(export): recover journal page_ids"
+
+# 3) 링크 실화 (relink.py 구현 후)
 ```
 
-- `--garden <path>` : 가든 루트 (기본 `~/repos/gh/notes`)
-- `--out <path>` : 책 리포 루트 (기본: manifest 위로 올라가며 `README.md` 있는 곳)
-- `--toc-threshold N` : h2 헤딩 N개 이상이면 페이지 상단에 `[TOC]` 삽입 (기본 3)
+- `build.py --folders journal,meta,notes` 처럼 쉼표로 여러 폴더 동시 처리.
+- `--garden` 기본 `~/repos/gh/notes`, `--out` 기본은 README.md 있는 리포 루트.
+- 의존성 0(Python 표준 라이브러리). 토큰은 `pass personal/token/wikidocs/junghanacs`.
 
-의존성 0 (Python 표준 라이브러리만). CLI `wikidocs-cli`/`wikidocs-mcp` 는 참고만 했고
-이 파이프라인에는 쓰지 않는다 (깃허브 연동은 순수 `git push`, 토큰 불필요).
+## 실측으로 확정된 불변식 (깨지 말 것 — 실험으로 검증됨)
 
-### manifest 스키마
+- **URL = page_id 기반, 매우 안정적.** 파일명·제목·순서를 다 바꿔도 page_id 유지됨.
+  단 우리가 URL을 직접 지정할 수 없으므로 `mapping.json` 으로 회수·관리한다.
+- **파일명 = denote-id** (`pages/journal/20220310T000000.md`). URL 안정·회수 앵커·편집관리.
+- **제목(TOC 링크텍스트) 앞에 날짜 8자리 접두어.** 위키독스는 제목 알파벳순으로 강제
+  정렬하므로(번호/접두어 없으면 뒤죽박죽), 날짜 접두어로 시간순을 만든다. 제목이 이미
+  ISO 날짜로 시작하면(journal) 접두어를 생략한다.
+- **pages/ 서브디렉토리 지원됨.** `pages/<folder>/...` 로 가든 폴더 구조를 미러한다.
+- **폴더 = 챕터.** `pages/<folder>/_chapter.md` 에 `[[SubPages]]` 를 넣어 하위 자동 나열.
+- **본문 맨 위 H1 없음, frontmatter 없음.** 제목은 TOC 가 관리.
+- **회사/직장 신원 난독화 필수.** `scrub_identity` 가 가든 `change-text.sh` 의 치환 규칙을
+  런타임에 읽어 적용한다. 민감어를 이 스크립트나 문서에 하드코딩하지 않는다(그 자체가
+  pre-commit 훅에 걸린다). change-text.sh 가 어떤 핸들의 특정 번호 변형만 다루는 경우, build.py
+  가 그 베이스를 전 변형(숫자 0개 이상)으로 일반화해 훅이 막는 모든 형태를 덮는다.
 
-```json
-{
-  "book_title": "…",
-  "garden_root": "~/repos/gh/notes",
-  "entries": [
-    {"num": "01",   "src": "content/notes/2025….md"},
-    {"num": "05",   "src": "content/meta/2022….md"},
-    {"num": "05-1", "src": "content/notes/2025….md", "title": "제목 덮어쓰기(선택)"}
-  ]
-}
-```
+## 변환 매핑
 
-- `num` 의 `-` 개수 = TOC 계층 깊이. `05` 는 depth 0, `05-1` 은 depth 1.
-- `src` 는 `garden_root` 기준 상대 경로.
-- **전체 책의 목차(TOC 트리)는 곧 manifest 설계다.** 스코프를 넓힐 때는 챕터 뼈대
-  (섹션 기반 / meta 기반 / 큐레이션)를 정해 entries 를 생성하면 된다.
+| 가든 (Quartz/Hugo) | 위키독스 | 함수 |
+|---|---|---|
+| frontmatter `title` | `<날짜8> <제목>` → TOC 링크텍스트 (sigil 제거) | `subject_for`/`clean_title` |
+| frontmatter 전체 | 제거 | `split_frontmatter` |
+| `## 제목 {#anchor}` | `## 제목` | `HEAD_ANCHOR` |
+| `<span class="timestamp-wrapper">…[날짜]…</span>` | `[날짜]` | `TIMESTAMP` |
+| `> [!type] 제목` callout 11종+ | `[[TIP("라벨")]]…[[/TIP]]` | `convert_callouts` |
+| `<div class="csl-bib-body">`·`<a href>` citeproc | 마크다운 텍스트/링크 | `convert_html` |
+| `[텍스트]({{< relref "/x/y.md" >}})` | 가든 절대URL(씨뿌리기) → page_id URL(relink) | `relref_repl` |
+| `{{< figure src=… >}}` | `![](…)` → assets 복사 | `figure_repl` |
+| `![](/images/f.png)` | `![](../../assets/f.png)` + assets 복사 | `make_images` |
+| 코드펜스 ```` ```/```` ```` | 원형 보존(3+ backtick 개수 매칭, 줄앵커) | `protect_code` |
+| 회사/직장 신원 | change-text.sh 규칙으로 난독화 | `scrub_identity` |
 
-## 배포 흐름
+## 위키독스 확장문법 착지점
 
-1. `build.py` 로 `TOC.md`·`pages/`·`assets/` 생성.
-2. 상대 링크·이미지 경로 육안 점검.
-3. commit (commit 스킬).
-4. **GLG 요청 시** `git push origin main`.
-5. 위키독스가 웹훅으로 동기화. 안 보이면: push 반영 확인 → GitHub `Settings > Webhooks`
-   → 위키독스 `책 수정 > 깃허브` 연결/웹훅 URL → `지금 동기화` 수동 재시도.
+`[[TIP]]`/`[[TIP("라벨")]]`…`[[/TIP]]`, `[[SubPages]]`, `[TOC]`, `[[MARK]]`/`[[SMARK]]`.
 
-## 알려진 다듬을 거리 (기능 아님, 미관)
+## 배포·동기화
 
-- citeproc 항목 앞 2칸 들여쓰기가 남는다 (`  "제목."`). 마크다운상 문단이라 렌더는 정상.
-- LLM 대화 노트의 `@user`/`@assistant` 마커는 그대로 나간다. 필요하면 굵은 소제목으로 매핑.
-- `<https://…>` 오토링크는 유효한 마크다운이라 그대로 둔다.
+push 하면 웹훅이 `TOC.md`·`pages/`·`assets/` 만 읽어 동기화(`.claude/`·`AGENTS.md`·`NEXT.md`
+·`mapping.json` 은 무시). 안 보이면: push 반영 확인 → GitHub `Settings > Webhooks` → 위키독스
+`책 수정 > 깃허브` 연결/웹훅 → `지금 동기화`. 103페이지 동기화에 ~70초.
 
-## 참고
+## 알려진 다듬을 거리 (기능 아님)
 
-- 위키독스 확장문법·형식: 로그인 게이트(`wikidocs.net/321336`, `/289752`) → 실측한
-  `wikidocs-ebook` 리포가 실질 SSOT.
-- 형식 원 스킬: ychoi-kr `skills/wikidocs-github-book`.
-- API 방식(대안, 미사용): base `https://wikidocs.net/napi`, `Authorization: Token <token>`,
-  토큰은 `pass personal/token/wikidocs/junghanacs`.
+- citeproc 항목 앞 2칸 들여쓰기, LLM 대화 `@user`/`@assistant` 마커, `<url>` 오토링크.
+- 코드펜스(````markdown 예시) 안 relref 는 literal 로 남음(코드 예시라 정상).

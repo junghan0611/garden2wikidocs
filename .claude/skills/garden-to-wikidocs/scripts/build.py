@@ -134,6 +134,20 @@ RELREF = re.compile(r'\[((?:[^\]]|\](?!\())*)\]\(\{\{<\s*relref\s+"([^"]+)"\s*>\
 FIGURE = re.compile(r'\{\{<\s*figure\s+(.*?)>\}\}')
 IMG = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 
+# 대문(README) 전용: 가든 크롤러용 'AI visitors' 블록쿼트를 위키독스 미러 안내로 교체.
+# (llms.txt·sitemap·robots·RSS 는 위키독스 책 안에선 의미 없다.) 매치 못하면 맨 위에 삽입.
+AI_VISITORS_BQ = re.compile(r"^>\s*AI visitors: start here\..*$", re.MULTILINE)
+MIRROR_NOTICE = (
+    "> 📖 이 책은 [정한(Junghan Kim)의 디지털 가든 — notes.junghanacs.com]"
+    "(https://notes.junghanacs.com) 의 위키독스 미러입니다. "
+    "원본과 최신본은 가든에서 보실 수 있습니다."
+)
+
+
+def mirror_notice(readme_body: str) -> str:
+    body, n = AI_VISITORS_BQ.subn(MIRROR_NOTICE, readme_body, count=1)
+    return body if n else MIRROR_NOTICE + "\n\n" + body
+
 
 def figure_repl(m):
     """Hugo {{< figure src=... caption=... >}} -> ![alt](src). 이후 IMG 단계가 assets 복사.
@@ -327,6 +341,7 @@ def main():
     if index_src.exists():
         imeta, ibody = split_frontmatter(index_src.read_text(encoding="utf-8"))
         icontent = transform_body(ibody, garden_root, assets_dir, "", copied)
+        icontent = mirror_notice(icontent)          # AI visitors 블록쿼트 -> 미러 안내
         icontent = scrub_identity(icontent, scrub_rules)
         ititle = clean_title(imeta.get("title") or "Home")
         (out / "README.md").write_text(f"# {ititle}\n\n{icontent}", encoding="utf-8")

@@ -1,6 +1,6 @@
 # Home: Digital Garden🏡
 
-> AI visitors: start here. [llms.txt](https://notes.junghanacs.com/llms.txt), [sitemap.xml](https://notes.junghanacs.com/sitemap.xml), [robots.txt](https://notes.junghanacs.com/robots.txt), [RSS](https://notes.junghanacs.com/index.xml), [Welcome, minds — ξενία](https://wikidocs.net/381785)
+> 📖 이 책은 [정한(Junghan Kim)의 디지털 가든 — notes.junghanacs.com](https://notes.junghanacs.com) 의 위키독스 미러입니다. 원본과 최신본은 가든에서 보실 수 있습니다.
 
 ## AI visitors
 

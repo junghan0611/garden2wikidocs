@@ -3,16 +3,22 @@
 메커니즘·불변식 SSOT는 `.claude/skills/garden-to-wikidocs/SKILL.md`.
 릴리즈 이력은 `CHANGELOG.md`.
 
-## NOW — 라이브 반영·사이드바 보정 완료, 확장문법 육안점검만 남음
+## NOW — 가든 refresh 재내보내기 push, 웹훅 반영 모니터링 중
 
-- **Current**: RELREF·TOC 복구(`6ce35a2`)+따옴표·CSL(`6130954`) push, 웹훅 동기화
-  **2238/2238(100%) 라이브 확인**(botlog 382592 = 172줄 복구). 사이드바 챕터 4·5
-  누락은 위키독스 서버측 TOC 1000노드 하드캡이 원인 → 책 설정 `user_script`로 보정 완료.
-- **Next**: 위키독스 확장문법 육안점검(정상 테이블 렌더, 각주 `[^name]`, `[TOC]` 실화).
+- **Current**: 가든 refresh(notes `aa36a538`) 재내보내기 `build→relink→audit→push`
+  = `1f15570` push. 172 페이지 콘텐츠 갱신 + 신규 assets 20개, 신규 .md 0(recover 불필요).
+  웹훅 반영을 `status.py --list` 로 모니터링 중(대량 push 라 한 번에 안 돎).
+  직전 측정 **2215/2238(99.0%), pending 23, missing 0** 로 수렴 중.
+- **New tool**: `scripts/status.py` — book get 라이브 본문 vs 로컬 pages/ 대조로
+  synced/pending/missing 카운트(exit0=완료). 이미지 URL 은 위키독스 CDN 재작성 흡수 위해
+  `![](IMG)` 로 중립화. 이전 세션마다 재현하던 삽질을 스킬로 고정.
+- **Next**: status.py pending 0 될 때까지 확인, 멈추면 `지금 동기화` 수동 재트리거.
+  그 뒤 위키독스 확장문법 육안점검(테이블 렌더, 각주 `[^name]`, `[TOC]` 실화).
 - **Blocker**: 없음.
-- **Read**: `wikidocs-user-script.js`(사이드바 보정 원본), `tests/test_build.py`,
-  `.claude/skills/garden-to-wikidocs/scripts/audit.py`, 이 파일의 검증 기준.
+- **Read**: `scripts/status.py`, `wikidocs-user-script.js`(사이드바 보정), `tests/test_build.py`,
+  `scripts/audit.py`, SKILL.md 배포·동기화 절.
 - **Do not touch**: `~/repos/gh/notes/content` 원본, 민감어 하드코딩, 기존 tag 이동.
+  이 리포는 push=웹훅 재동기화 트리거 — 스킬/문서만 고친 커밋은 GLG 가 push 타이밍을 정한다.
 
 ## 이후 선택지
 
@@ -28,6 +34,7 @@ build.py --folders journal,meta,bib,notes,botlog
 → relink.py
 → audit.py
 → GLG push
+→ status.py --list   # 웹훅 반영 확인, pending 0 까지(멈추면 수동 재동기화)
 ```
 
 새 페이지가 생겨 page_id가 비어 있을 때만 첫 동기화 뒤 `recover → relink → audit → push`를

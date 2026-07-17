@@ -20,7 +20,9 @@ Garden"** 과 깃허브 연동돼 있다. `git push` → 웹훅 → 위키독스
 [2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 회수
 [3] relink.py  링크 실화 — pages/**·README 의 가든 URL 중 page_id 있는 것만
                wikidocs.net/<page_id> 로 재작성(없으면 가든 URL 유지, 하이브리드).
-[검증] audit.py 품질 게이트 — TOC·mapping·gid·page_id·미처리 relref·원본/미러 헤딩 보존
+[검증] audit.py  품질 게이트 — TOC·mapping·gid·page_id·미처리 relref·원본/미러 헤딩 보존
+[상태] status.py push 후 웹훅 반영 진척 — book get 라이브 본문 vs 로컬 pages/ 대조로
+               synced/pending/missing 카운트. 대량 push 는 한 번에 안 도는 일이 잦다.
 ```
 
 `pages/x.md` 같은 상대 링크는 위키독스에서 **작동하지 않는다**(메인으로 튕김). 페이지 간
@@ -42,6 +44,11 @@ git add mapping.json && git commit -m "chore(export): recover journal page_ids"
 # 3) 링크 실화 + push 전 품질 감사
 python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
 python3 .claude/skills/garden-to-wikidocs/scripts/audit.py
+
+# 4) push 후 동기화 진척 확인 (반영 완료면 exit 0, 아니면 exit 1 → 대기 루프에 쓸 수 있음)
+WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
+  python3 .claude/skills/garden-to-wikidocs/scripts/status.py --book-id 20676 --list
+# 진척이 멈춰 pending 이 남으면: 위키독스 `책 수정 > 깃허브 > 지금 동기화` 를 수동 재트리거.
 ```
 
 - `build.py --folders journal,meta,bib,notes,botlog` 처럼 쉼표로 여러 폴더 동시 처리.
@@ -60,6 +67,11 @@ python3 .claude/skills/garden-to-wikidocs/scripts/audit.py
 - **pages/ 서브디렉토리 지원됨.** `pages/<folder>/...` 로 가든 폴더 구조를 미러한다.
 - **폴더 = 챕터.** `pages/<folder>/_chapter.md` 에 `[[SubPages]]` 를 넣어 하위 자동 나열.
 - **본문 맨 위 H1 없음, frontmatter 없음.** 제목은 TOC 가 관리.
+- **위키독스는 인제스트 때 이미지를 자기 CDN 으로 재업로드·URL 재작성한다.** 로컬
+  `![](../../assets/x.png)` → 라이브 `![](https://static.wikidocs.net/images/page/<pid>/…)`.
+  텍스트·줄수·이미지 개수/위치는 보존되고 URL 만 바뀐다. 라이브 vs 로컬 본문 대조(status.py)
+  는 이미지 URL 을 `![](IMG)` 로 중립화해야 정확하다 — 안 하면 이미지 있는 페이지가 영영
+  pending 오탐으로 잡힌다.
 - **회사/직장 신원 난독화 필수.** `scrub_identity` 가 가든 `change-text.sh` 의 치환 규칙을
   런타임에 읽어 적용한다. 민감어를 이 스크립트나 문서에 하드코딩하지 않는다(그 자체가
   pre-commit 훅에 걸린다). change-text.sh 가 어떤 핸들의 특정 번호 변형만 다루는 경우, build.py
@@ -94,6 +106,13 @@ push 반영 확인 → GitHub `Settings > Webhooks` → 위키독스 `책 수정
 `지금 동기화`. 103페이지 동기화에 ~70초. 갱신 때는 기존 page_id를 승계하므로
 `build → relink → audit → push`로 기존 페이지를 한 번에 복구할 수 있다. 새 페이지가 있으면
 동기화 뒤 `recover → relink → audit → push`를 한 번 더 수행한다.
+
+**대량(2천여 페이지) push 는 웹훅이 한 번에 다 안 돈다.** 서버측에서 나눠 처리되거나 중간에
+멈춰, 반영이 부분적으로 끝나고 `지금 동기화` 수동 재트리거가 몇 번 필요할 수 있다. push 후
+`status.py --list` 로 synced/pending 을 재서 pending 이 0 이 될 때까지 확인한다(멈춰 있으면
+수동 재트리거). status.py 는 커밋 범위에 안 묶이고 라이브 vs 현재 리포를 비교하므로 언제
+돌려도 재현 가능하다. **주의: 이 리포는 push=웹훅 재동기화 트리거다.** 스킬/문서만 고쳐도
+push 하면 전체 재동기화가 도니, 콘텐츠 변경이 아닌 커밋은 GLG 가 타이밍을 정한다.
 
 ## 알려진 다듬을 거리 (기능 아님)
 

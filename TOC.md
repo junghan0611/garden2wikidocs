@@ -5,4 +5,4 @@
 - [03. 이력서: 김정한 (Junghan Kim)](pages/03-이력서-김정한-junghan-kim.md)
 - [04. 번역기: ImmersiveTranslate](pages/04-번역기-immersivetranslate.md)
 - [05. 데이터로그](pages/05-데이터로그.md)
-  - [05-1. 데이터로그 클로저 로직 프로그래밍](pages/05-1-데이터로그-클로저-로직-프로그래밍.md)
+  - [05-1. 데이터로그 클로저 로직 프로그래밍](pages/05-1-20250415T165756.md)

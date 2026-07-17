@@ -80,8 +80,20 @@ TOC_TRANSLATION = str.maketrans({ch: " " for ch in TOC_UNSAFE_CHARS})
 DENOTE_ID = re.compile(r"(\d{8}T\d{6})")
 
 
+def strip_wrapping_quotes(raw: str) -> str:
+    """양 끝이 같은 따옴표일 때만 바깥 한 쌍을 제거한다.
+
+    `str.strip("'")`는 제목 본문이 끝 따옴표로 끝나는 경우 그 문자만 지워
+    `'모델/도구'`를 `'모델/도구`로 훼손하므로 사용하지 않는다.
+    """
+    text = (raw or "").strip()
+    if len(text) >= 2 and text[0] == text[-1] and text[0] in {'"', "'"}:
+        return text[1:-1].strip()
+    return text
+
+
 def clean_title(raw: str) -> str:
-    t = (raw or "").strip().strip('"').strip("'")
+    t = strip_wrapping_quotes(raw)
     for ch in SIGILS:
         t = t.replace(ch, "")
     t = re.sub(r"\s+", " ", t).strip()
@@ -136,7 +148,7 @@ def split_frontmatter(text: str):
     for line in fm.split("\n"):
         m = re.match(r'^([A-Za-z0-9_]+):\s*(.*)$', line)
         if m:
-            meta[m.group(1)] = m.group(2).strip().strip('"').strip("'")
+            meta[m.group(1)] = strip_wrapping_quotes(m.group(2))
     return meta, body
 
 
@@ -152,6 +164,9 @@ TIMESTAMP = re.compile(
     r'(\[[^\]]*\])\s*</span>\s*</span>'
 )
 CALLOUT = re.compile(r"^>\s*\[!([A-Za-z]+)\]\s*(.*)$")
+# citeproc 참고문헌 한 항목은 한 줄짜리 목록으로 변환한다. 코드펜스는 이 단계 전에 보호됨.
+CSL_ENTRY = re.compile(
+    r'^[ \t]*<div class="csl-entry"[^>]*>(.*?)</div>[ \t]*$', re.MULTILINE)
 CSL_ID = re.compile(r'<a id="citeproc_bib_item_\d+"></a>')
 DIVTAG = re.compile(r"</?div[^>]*>")
 ATAG = re.compile(r'<a\s+[^>]*?href="([^"]*)"[^>]*>(.*?)</a>', re.DOTALL)
@@ -262,6 +277,7 @@ def convert_callouts(text: str) -> str:
 
 
 def convert_html(text: str) -> str:
+    text = CSL_ENTRY.sub(lambda m: f"- {m.group(1).strip()}", text)
     text = CSL_ID.sub("", text)
     text = DIVTAG.sub("", text)
 

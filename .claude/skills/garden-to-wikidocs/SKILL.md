@@ -74,7 +74,7 @@ python3 .claude/skills/garden-to-wikidocs/scripts/audit.py
 | `## 제목 {#anchor}` | `## 제목` | `HEAD_ANCHOR` |
 | `<span class="timestamp-wrapper">…[날짜]…</span>` | `[날짜]` | `TIMESTAMP` |
 | `> [!type] 제목` callout 11종+ | `[[TIP("라벨")]]…[[/TIP]]` | `convert_callouts` |
-| `<div class="csl-bib-body">`·`<a href>` citeproc | 마크다운 텍스트/링크 | `convert_html` |
+| `<div class="csl-entry">`·`<a href>` citeproc | `- 참고문헌` 마크다운 목록/링크 | `convert_html` |
 | `[텍스트]({{< relref "/x/y.md" >}})` | 가든 절대URL(씨뿌리기) → page_id URL(relink) | `relref_repl` |
 | `{{< figure src=… >}}` | `![](…)` → assets 복사 | `figure_repl` |
 | `![](/images/f.png)` | `![](../../assets/f.png)` + assets 복사 | `make_images` |

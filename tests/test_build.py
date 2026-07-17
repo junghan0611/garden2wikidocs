@@ -30,6 +30,16 @@ class TitleTests(unittest.TestCase):
             "20240215 332 192 모음",
         )
 
+    def test_balanced_inner_single_quotes_are_preserved(self):
+        frontmatter = '---\ntitle: "§OCR 여정 \'모델/도구\'"\n---\n본문\n'
+        meta, _ = BUILD.split_frontmatter(frontmatter)
+        self.assertEqual(meta["title"], "§OCR 여정 '모델/도구'")
+        self.assertEqual(BUILD.clean_toc_title(meta["title"]), "OCR 여정 '모델/도구'")
+
+    def test_only_matching_outer_quotes_are_removed(self):
+        self.assertEqual(BUILD.strip_wrapping_quotes("'바깥'"), "바깥")
+        self.assertEqual(BUILD.strip_wrapping_quotes("안쪽'"), "안쪽'")
+
     def test_folders_have_canonical_order_and_no_duplicates(self):
         self.assertEqual(
             BUILD.ordered_folders(["notes", "bib", "journal", "notes", "botlog", "meta"]),
@@ -78,6 +88,25 @@ class RelrefTests(unittest.TestCase):
     def test_malformed_relative_relref_in_link_text_becomes_plain_text(self):
         body = '[{{< relref "architecture" >}}]({{< relref "architecture" >}})\n'
         self.assertEqual(self.transform(body), "architecture\n")
+
+    def test_citeproc_entries_become_markdown_list_items(self):
+        body = (
+            "## BIBLIOGRAPHY\n\n"
+            '<div class="csl-bib-body">\n'
+            '  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>첫 항목. '
+            '<a href="https://example.com/1">링크 1</a>.</div>\n'
+            '  <div class="csl-entry"><a id="citeproc_bib_item_2"></a>둘째 항목. '
+            '<a href="https://example.com/2">링크 2</a>.</div>\n'
+            "</div>\n"
+        )
+        transformed = self.transform(body)
+        self.assertIn("- 첫 항목. [링크 1](https://example.com/1).", transformed)
+        self.assertIn("- 둘째 항목. [링크 2](https://example.com/2).", transformed)
+        self.assertNotIn('class="csl-entry"', transformed)
+
+    def test_citeproc_markup_in_code_fence_stays_literal(self):
+        body = '```html\n<div class="csl-entry">예시</div>\n```\n'
+        self.assertEqual(self.transform(body), body)
 
 
 class BuildIntegrationTests(unittest.TestCase):

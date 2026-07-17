@@ -5,11 +5,11 @@
 
 ## NOW — RELREF·TOC 품질 복구를 라이브 반영할 차례
 
-- **Current**: 전체 2238페이지 재빌드·로컬 relink 완료. 테스트 8개와 `audit.py` 통과.
-  작업 트리에 코드·테스트·감사 도구와 생성물 1788페이지 복구분이 있음.
-- **Next**: (1) diff/보안 훅 검토 후 커밋 → (2) GLG push → (3) 웹훅 동기화 폴링 →
-  (4) 참고문헌·노트·봇로그 TOC와 복구 페이지 라이브 확인.
-- **Blocker**: push는 GLG 결정. push 전 로컬 품질 블로커는 없음.
+- **Current**: RELREF·TOC 복구 커밋 `6ce35a2`와 후속 따옴표·CSL 목록 변환까지 push.
+  전체 2238페이지 build·relink 완료, 테스트 12개와 `audit.py` 통과.
+- **Next**: 웹훅 동기화 폴링 → 참고문헌·노트·봇로그 TOC, 복구 callout, CSL 목록을
+  라이브에서 확인 → 남은 렌더 차이 판단.
+- **Blocker**: 위키독스 대량 동기화 완료 대기. 로컬 품질 블로커는 없음.
 - **Read**: `tests/test_build.py`,
   `.claude/skills/garden-to-wikidocs/scripts/audit.py`, 이 파일의 검증 기준.
 - **Do not touch**: `~/repos/gh/notes/content` 원본, 민감어 하드코딩, 기존 tag 이동.
@@ -28,6 +28,8 @@
 - 원본의 상대 relref 오류 1건은 깨진 URL 대신 평문으로 안전하게 내보냄.
 - `audit.py`: TOC·mapping·gid·page_id·미처리 relref·원본/미러 헤딩 보존 검증.
 - 같은 파이프라인 재실행 전후 diff 해시가 동일하여 결정성 확인.
+- 양 끝이 같은 따옴표만 벗겨 내부 `'제목'`·`"제목"`의 닫는 문자를 보존.
+- citeproc 참고문헌 1123파일·3545항목을 들여쓰기 문단이 아닌 `- ` 목록으로 변환.
 
 ## 라이브 검증 기준
 

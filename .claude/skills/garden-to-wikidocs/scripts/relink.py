@@ -31,6 +31,9 @@ CODE_FENCE = re.compile(r"^[ \t]*(`{3,})[^\n]*\n.*?^[ \t]*\1`*[ \t]*$",
 # 가든 내부 노트 링크: 경로 마지막 세그먼트가 denote-id. 홈/index/static 은 안 걸린다.
 GARDEN_LINK = re.compile(
     r"https://notes\.junghanacs\.com/(?:[^()\s]*/)?(\d{8}T\d{6})/?")
+# 가든 폴더 인덱스 링크(denote-id 없음): 챕터 표지 URL 로 실화. 뒤에 숫자(=노트 id) 없어야.
+FOLDER_LINK = re.compile(
+    r"https://notes\.junghanacs\.com/(journal|meta|notes|bib|botlog)/(?![0-9])")
 
 
 def protect_code(text):
@@ -65,9 +68,12 @@ def main():
     mapping_path = Path(args.mapping).expanduser() if args.mapping else root / "mapping.json"
 
     mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
-    page_id = {did: v["page_id"] for did, v in mapping.items() if v.get("page_id")}
+    chapters = mapping.get("_chapters", {})
+    page_id = {did: v["page_id"] for did, v in mapping.items()
+               if did != "_chapters" and v.get("page_id")}
+    chapter_id = {f: c["page_id"] for f, c in chapters.items() if c.get("page_id")}
 
-    stats = {"reified": 0, "kept": 0, "files_changed": 0}
+    stats = {"reified": 0, "reified_folder": 0, "kept": 0, "files_changed": 0}
 
     def repl(m):
         did = m.group(1)
@@ -78,6 +84,14 @@ def main():
         stats["kept"] += 1
         return m.group(0)
 
+    def folder_repl(m):
+        cid = chapter_id.get(m.group(1))
+        if cid:
+            stats["reified_folder"] += 1
+            return f"{WIKIDOCS_URL}/{cid}"
+        stats["kept"] += 1
+        return m.group(0)
+
     md_files = sorted(pages_dir.rglob("*.md"))
     readme = root / "README.md"          # 대문(가든 index.md 변환본)도 링크 실화 대상
     if readme.exists():
@@ -85,8 +99,8 @@ def main():
     for f in md_files:
         text = f.read_text(encoding="utf-8")
         guarded, blocks = protect_code(text)
-        before = stats["reified"]
-        new = GARDEN_LINK.sub(repl, guarded)
+        new = GARDEN_LINK.sub(repl, guarded)      # 노트 링크 -> page_id URL
+        new = FOLDER_LINK.sub(folder_repl, new)   # 폴더 인덱스 링크 -> 챕터 표지 URL
         new = restore_code(new, blocks)
         if new != text:
             stats["files_changed"] += 1
@@ -96,8 +110,9 @@ def main():
     mode = "dry-run(미기록)" if args.dry_run else "기록완료"
     print(f"[ok] pages     : {pages_dir} ({len(md_files)}개 파일)")
     print(f"[ok] mapping   : {mapping_path} (page_id {len(page_id)}개)")
-    print(f"[ok] 실화       : {stats['reified']}개 링크 -> wikidocs.net/<id> [{mode}]")
-    print(f"[ok] 가든 유지  : {stats['kept']}개 링크 (아직 안 올린 폴더/매핑 없음)")
+    print(f"[ok] 노트 실화  : {stats['reified']}개 -> wikidocs.net/<page_id> [{mode}]")
+    print(f"[ok] 폴더 실화  : {stats['reified_folder']}개 -> wikidocs.net/<챕터 표지> (챕터 {len(chapter_id)}개)")
+    print(f"[ok] 가든 유지  : {stats['kept']}개 링크 (매핑 없음/미시드)")
     print(f"[ok] 바뀐 파일 : {stats['files_changed']}개")
 
 

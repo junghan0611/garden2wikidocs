@@ -15664,5 +15664,32 @@
     "folder": "botlog",
     "page_id": 382615,
     "url": "https://wikidocs.net/382615"
+  },
+  "_chapters": {
+    "notes": {
+      "page_id": 381016,
+      "subject": "노트",
+      "url": "https://wikidocs.net/381016"
+    },
+    "meta": {
+      "page_id": 380477,
+      "subject": "메타",
+      "url": "https://wikidocs.net/380477"
+    },
+    "botlog": {
+      "page_id": 382535,
+      "subject": "봇로그",
+      "url": "https://wikidocs.net/382535"
+    },
+    "journal": {
+      "page_id": 380373,
+      "subject": "저널",
+      "url": "https://wikidocs.net/380373"
+    },
+    "bib": {
+      "page_id": 381854,
+      "subject": "참고문헌",
+      "url": "https://wikidocs.net/381854"
+    }
   }
 }

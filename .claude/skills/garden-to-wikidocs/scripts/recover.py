@@ -74,14 +74,32 @@ def main():
             mapping[gid]["url"] = f"https://wikidocs.net/{n['id']}"
             matched += 1
 
+    # 챕터 표지(폴더) page_id 회수: 최상위 노드 = 챕터. 자식의 gid 로 폴더를 판별한다.
+    # (챕터 표지 자체엔 gid 앵커가 없으므로 자식 노트의 folder 로 역추적)
+    chapters = {}
+    for top in book.get("pages", []):
+        folder = None
+        for c in top.get("children", []):
+            cm = GID.search(c.get("content") or "")
+            if cm and cm.group(1) in mapping and mapping[cm.group(1)].get("folder"):
+                folder = mapping[cm.group(1)]["folder"]
+                break
+        if folder:
+            chapters[folder] = {"page_id": top["id"], "subject": top.get("subject"),
+                                "url": f"https://wikidocs.net/{top['id']}"}
+    if chapters:
+        mapping["_chapters"] = chapters
+
     mapping_path.write_text(json.dumps(mapping, ensure_ascii=False, indent=2) + "\n",
                             encoding="utf-8")
 
-    total = len(mapping)
-    unmatched = [g for g, v in mapping.items() if not v.get("page_id")]
+    pages_map = {g: v for g, v in mapping.items() if g != "_chapters"}
+    total = len(pages_map)
+    unmatched = [g for g, v in pages_map.items() if not v.get("page_id")]
     print(f"[ok] book_id  : {args.book_id}")
     print(f"[ok] 위키독스 페이지 노드: {len(nodes)}개 (개별조회 {fetched})")
     print(f"[ok] 회수 매칭 : {matched}/{total}")
+    print(f"[ok] 챕터 표지 : {len(chapters)}개 {sorted(chapters)}")
     if unmatched:
         print(f"[warn] page_id 없는 항목 {len(unmatched)}개: {unmatched[:5]}{'...' if len(unmatched)>5 else ''}")
     print(f"[ok] mapping  : {mapping_path}")

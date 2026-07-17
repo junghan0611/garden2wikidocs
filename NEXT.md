@@ -3,17 +3,16 @@
 메커니즘·불변식 SSOT는 `.claude/skills/garden-to-wikidocs/SKILL.md`.
 릴리즈 이력은 `CHANGELOG.md`.
 
-## NOW — 가든 refresh 재내보내기 push, 웹훅 반영 모니터링 중
+## NOW — 가든 refresh 재내보내기·웹훅 반영 100% 완료, 확장문법 육안점검만 남음
 
 - **Current**: 가든 refresh(notes `aa36a538`) 재내보내기 `build→relink→audit→push`
   = `1f15570` push. 172 페이지 콘텐츠 갱신 + 신규 assets 20개, 신규 .md 0(recover 불필요).
-  웹훅 반영을 `status.py --list` 로 모니터링 중(대량 push 라 한 번에 안 돎).
-  직전 측정 **2215/2238(99.0%), pending 23, missing 0** 로 수렴 중.
+  웹훅 반영 **2238/2238(100%), pending 0, missing 0 라이브 확인**(23:05 push→23:25 완료,
+  수동 재트리거 없이 자연 수렴). status.py 로 측정.
 - **New tool**: `scripts/status.py` — book get 라이브 본문 vs 로컬 pages/ 대조로
   synced/pending/missing 카운트(exit0=완료). 이미지 URL 은 위키독스 CDN 재작성 흡수 위해
   `![](IMG)` 로 중립화. 이전 세션마다 재현하던 삽질을 스킬로 고정.
-- **Next**: status.py pending 0 될 때까지 확인, 멈추면 `지금 동기화` 수동 재트리거.
-  그 뒤 위키독스 확장문법 육안점검(테이블 렌더, 각주 `[^name]`, `[TOC]` 실화).
+- **Next**: 위키독스 확장문법 육안점검(테이블 렌더, 각주 `[^name]`, `[TOC]` 실화).
 - **Blocker**: 없음.
 - **Read**: `scripts/status.py`, `wikidocs-user-script.js`(사이드바 보정), `tests/test_build.py`,
   `scripts/audit.py`, SKILL.md 배포·동기화 절.

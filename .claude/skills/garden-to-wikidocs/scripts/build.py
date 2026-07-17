@@ -1,23 +1,24 @@
 #!/usr/bin/env python3
-"""garden -> wikidocs github-book 변환기 (stdlib only).
+"""garden -> wikidocs github-book 변환기 v2 (stdlib only).
 
-가든(Quartz/Hugo-flavored MD)의 노트를 위키독스 깃허브 연동 책 형식으로 변환한다.
-가든 원본은 절대 수정하지 않는다(read-only). 산출물은 out 디렉토리의
-TOC.md / pages/*.md / assets/ 뿐이다.
+폴더 미러 방식. 가든의 각 폴더(journal/meta/notes/bib/botlog)를 위키독스 책의
+'챕터'로 만든다. 가든 원본은 절대 수정하지 않는다(read-only).
+
+산출물(이 리포 안):
+    TOC.md                       폴더=챕터 계층
+    pages/<folder>/_chapter.md   챕터 표지([[SubPages]])
+    pages/<folder>/<denote-id>.md  각 노트 (H1 없음, gid 앵커 포함)
+    assets/                      복사된 로컬 이미지
+    mapping.json                 denote-id -> {path, subject}  (씨뿌리기 시점 기록)
+
+3단계 파이프라인:
+    1) seed   : build.py --folders journal  → 생성, 내부 relref는 가든 절대URL
+                (page_id 아직 없음). 각 페이지에 <!-- gid:ID --> 앵커.
+    2) recover: (별도) push 후 book get 으로 gid<->page_id 회수해 mapping.json 갱신
+    3) relink : (별도) 내부 relref 를 wikidocs.net/<page_id> 로 재작성
 
 사용:
-    build.py --manifest sample.json [--garden ~/repos/gh/notes] [--out <repo root>]
-
-manifest(JSON) 스키마:
-    {
-      "book_title": "...",              # README 참고용(현재 README는 건드리지 않음)
-      "garden_root": "~/repos/gh/notes",# --garden 로 덮어쓸 수 있음
-      "entries": [
-        {"num": "01", "src": "content/notes/2025....md"},
-        {"num": "05", "src": "content/meta/2022....md"},
-        {"num": "05-1", "src": "content/notes/2025....md"}  # num 의 '-' 깊이가 계층
-      ]
-    }
+    build.py --folders journal [--garden ~/repos/gh/notes] [--out <repo root>]
 """
 import argparse
 import json
@@ -26,14 +27,50 @@ import shutil
 import sys
 from pathlib import Path
 
-# ---------------------------------------------------------------- 제목/슬러그
+GARDEN_URL = "https://notes.junghanacs.com"
 
-# 가든 내부 표식 문자(태그/시퀀스/저자 마커). 위키독스 제목/링크에선 제거한다.
+
+def load_scrub_rules(garden_root: Path):
+    """회사/직장 신원 난독화 규칙을 가든의 change-text.sh 에서 런타임에 읽는다.
+
+    이 스크립트에 민감어를 하드코딩하지 않기 위함(그 자체가 pre-commit 훅에 걸린다).
+    change-text.sh 의 `s/PAT/REP/flags` 규칙을 파싱하고, 번호 접미(예: 6)가 붙은
+    규칙은 전 변형(숫자 0개 이상)까지 커버하도록 일반화한다."""
+    script = garden_root / "change-text.sh"
+    rules = []
+    if not script.exists():
+        return rules
+    text = script.read_text(encoding="utf-8")
+    for m in re.finditer(r"s([/|])(.+?)\1(.+?)\1([giI]*)", text):
+        pat, rep, flags = m.group(2), m.group(3), m.group(4)
+        fl = re.I if "I" in flags or "i" in flags else 0
+        rules.append((re.compile(re.escape(pat), fl), rep.replace("\\", "\\\\")))
+        base = re.sub(r"\d+$", "", pat)
+        rbase = re.sub(r"\d+$", "", rep)
+        if base and base != pat:
+            rules.append((re.compile(re.escape(base) + r"([0-9]*)", fl),
+                          rbase.replace("\\", "\\\\") + r"\1"))
+    return rules
+
+
+def scrub_identity(text: str, rules) -> str:
+    for pat, rep in rules:
+        text = pat.sub(rep, text)
+    return text
+
+# 폴더 -> 챕터 표시 이름
+CHAPTER_NAMES = {
+    "journal": "저널", "notes": "노트", "meta": "메타",
+    "bib": "참고문헌", "botlog": "봇로그", "talks": "토크",
+}
+
+# ---------------------------------------------------------------- 제목/식별자
+
 SIGILS = "#@§¤†‡©※¶‣∷"
+DENOTE_ID = re.compile(r"(\d{8}T\d{6})")
 
 
 def clean_title(raw: str) -> str:
-    """가든 sigil 을 제거해 사람이 읽을 제목으로. (규칙은 SKILL.md 에 문서화, 조정 가능)"""
     t = (raw or "").strip().strip('"').strip("'")
     for ch in SIGILS:
         t = t.replace(ch, "")
@@ -42,25 +79,25 @@ def clean_title(raw: str) -> str:
     return t
 
 
-def slugify(title: str) -> str:
-    s = clean_title(title).lower()
-    s = re.sub(r"[^0-9a-z가-힣]+", "-", s)
-    s = re.sub(r"-+", "-", s).strip("-")
-    return s[:60] or "page"
-
-
-DENOTE_ID = re.compile(r"(\d{8}T\d{6})")
-
-
-def denote_id(path_or_name: str):
-    m = DENOTE_ID.search(path_or_name)
+def denote_id(s: str):
+    m = DENOTE_ID.search(s)
     return m.group(1) if m else None
+
+
+def subject_for(did: str, title: str) -> str:
+    """제목 앞에 날짜 8자리 접두어를 붙여 알파벳순=시간순으로 정렬되게 한다.
+    단, 제목이 이미 그 날짜(ISO 또는 8자리)로 시작하면 중복을 피한다."""
+    d8 = did[:8]
+    iso = f"{d8[:4]}-{d8[4:6]}-{d8[6:8]}"
+    ct = clean_title(title)
+    if ct.startswith(iso) or ct.startswith(d8):
+        return ct
+    return f"{d8} {ct}"
 
 
 # ---------------------------------------------------------------- frontmatter
 
 def split_frontmatter(text: str):
-    """(meta dict, body) 반환. title 등 최상위 단순 key 만 파싱(YAML 라이브러리 미사용)."""
     if not text.startswith("---"):
         return {}, text
     end = text.find("\n---", 3)
@@ -78,7 +115,10 @@ def split_frontmatter(text: str):
 
 # ---------------------------------------------------------------- 본문 변환
 
-CODE_FENCE = re.compile(r"```.*?```", re.DOTALL)
+# 펜스는 줄 시작(들여쓰기 허용)에서만 열고 닫힌다. 여는 backtick 개수(3+)를 기억해
+# 같은 개수 이상으로 닫는 줄까지 매칭 → 4-backtick 블록/혼재 펜스에서 산문 오보호 방지.
+CODE_FENCE = re.compile(r"^[ \t]*(`{3,})[^\n]*\n.*?^[ \t]*\1`*[ \t]*$",
+                        re.DOTALL | re.MULTILINE)
 HEAD_ANCHOR = re.compile(r"[ \t]*\{#[^}]*\}[ \t]*$", re.M)
 TIMESTAMP = re.compile(
     r'<span class="timestamp-wrapper">\s*<span class="timestamp">\s*'
@@ -88,8 +128,23 @@ CALLOUT = re.compile(r"^>\s*\[!([A-Za-z]+)\]\s*(.*)$")
 CSL_ID = re.compile(r'<a id="citeproc_bib_item_\d+"></a>')
 DIVTAG = re.compile(r"</?div[^>]*>")
 ATAG = re.compile(r'<a\s+[^>]*?href="([^"]*)"[^>]*>(.*?)</a>', re.DOTALL)
-RELREF = re.compile(r'\[([^\]]*)\]\(\{\{<\s*relref\s+"([^"]+)"\s*>\}\}\)')
+# 링크 텍스트에 `]` 가 있어도(중첩 대괄호) 실제 링크 종료 `](` 에서만 끊기게 tempered.
+RELREF = re.compile(r'\[((?:[^\]]|\](?!\())*)\]\(\{\{<\s*relref\s+"([^"]+)"\s*>\}\}\)')
+# caption 에 <span> 등 `>` 가 들어와도 실제 종료 `>}}` 까지 잡게 .*? 사용.
+FIGURE = re.compile(r'\{\{<\s*figure\s+(.*?)>\}\}')
 IMG = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
+
+
+def figure_repl(m):
+    """Hugo {{< figure src=... caption=... >}} -> ![alt](src). 이후 IMG 단계가 assets 복사.
+    caption 에 HTML(<span> 등)이 섞이면 alt 를 비운다(위키독스 렌더 깔끔)."""
+    attrs = m.group(1)
+    src = re.search(r'src="([^"]*)"', attrs)
+    if not src:
+        return ""
+    cap = re.search(r'(?:title|caption|alt)="([^"]*)"', attrs)
+    alt = cap.group(1) if (cap and "<" not in cap.group(1)) else ""
+    return f'![{alt}]({src.group(1)})'
 
 CALLOUT_LABELS = {
     "abstract": "요약", "summary": "요약", "tldr": "요약",
@@ -119,7 +174,6 @@ def restore_code(text, blocks):
 
 
 def convert_callouts(text: str) -> str:
-    """> [!type] title  블록 -> [[TIP("label")]] ... [[/TIP]]"""
     lines = text.split("\n")
     out = []
     i = 0
@@ -140,10 +194,8 @@ def convert_callouts(text: str) -> str:
             body.pop(0)
         while body and not body[-1].strip():
             body.pop()
-        if ctitle and ctitle.lower() != ctype:
-            label = clean_title(ctitle)
-        else:
-            label = CALLOUT_LABELS.get(ctype, ctype)
+        label = clean_title(ctitle) if (ctitle and ctitle.lower() != ctype) \
+            else CALLOUT_LABELS.get(ctype, ctype)
         out.append(f'[[TIP("{label}")]]')
         out.extend(body)
         out.append("[[/TIP]]")
@@ -157,25 +209,21 @@ def convert_html(text: str) -> str:
     def a_repl(m):
         href, inner = m.group(1), m.group(2).strip()
         if href.startswith("#"):
-            return inner            # 인용 앵커 -> 텍스트만
+            return inner
         return f"[{inner}]({href})"
 
     return ATAG.sub(a_repl, text)
 
 
-def make_relref(export_map: dict):
-    def repl(m):
-        txt = clean_title(m.group(1))
-        target = m.group(2)                 # 예: /journal/20250217T000000.md
-        did = denote_id(target)
-        if did and did in export_map:       # 하이브리드: 내보낸 집합 안이면 내부 링크
-            return f"[{txt}](pages/{export_map[did]})"
-        path = target[:-3] if target.endswith(".md") else target
-        return f"[{txt}](https://notes.junghanacs.com{path}/)"
-    return repl
+def relref_repl(m):
+    """씨뿌리기 단계: 모든 내부 relref 를 가든 절대 URL 로. (page_id 는 3단계에서)"""
+    txt = clean_title(m.group(1))
+    target = m.group(2)
+    path = target[:-3] if target.endswith(".md") else target
+    return f"[{txt}]({GARDEN_URL}{path}/)"
 
 
-def make_images(garden_root: Path, assets_dir: Path, copied: list):
+def make_images(garden_root: Path, assets_dir: Path, rel_prefix: str, copied: list):
     def repl(m):
         alt, src = m.group(1), m.group(2)
         if src.startswith("/images/"):
@@ -185,98 +233,102 @@ def make_images(garden_root: Path, assets_dir: Path, copied: list):
                 assets_dir.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(src_file, assets_dir / fn)
                 copied.append(fn)
-                enc = fn.replace(" ", "%20")
-                return f"![{alt}](../assets/{enc})"
-        return m.group(0)               # 외부 URL 이미지는 그대로
+                return f"![{alt}]({rel_prefix}assets/{fn.replace(' ', '%20')})"
+        return m.group(0)
     return repl
 
 
-def transform_body(body, garden_root, assets_dir, export_map, copied):
+def transform_body(body, garden_root, assets_dir, rel_prefix, copied):
     body, blocks = protect_code(body)
     body = HEAD_ANCHOR.sub("", body)
     body = TIMESTAMP.sub(r"\1", body)
     body = convert_callouts(body)
     body = convert_html(body)
-    body = RELREF.sub(make_relref(export_map), body)
-    body = IMG.sub(make_images(garden_root, assets_dir, copied), body)
+    body = RELREF.sub(relref_repl, body)
+    body = FIGURE.sub(figure_repl, body)
+    body = IMG.sub(make_images(garden_root, assets_dir, rel_prefix, copied), body)
     body = re.sub(r"\n{3,}", "\n\n", body).strip() + "\n"
     body = restore_code(body, blocks)
     return body
 
 
-# ---------------------------------------------------------------- 빌드
-
-def depth_of(num: str) -> int:
-    return num.count("-")
-
+# ---------------------------------------------------------------- 빌드(씨뿌리기)
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--manifest", required=True)
-    ap.add_argument("--garden", default=None)
+    ap.add_argument("--folders", required=True, help="가든 폴더들, 쉼표구분 (예: journal,meta)")
+    ap.add_argument("--garden", default="~/repos/gh/notes")
     ap.add_argument("--out", default=None,
-                    help="책 리포 루트(기본: manifest 로부터 위로 올라가며 README.md 있는 곳)")
-    ap.add_argument("--toc-threshold", type=int, default=3,
-                    help="이 개수 이상 h2 헤딩이면 페이지 상단에 [TOC] 삽입")
+                    help="책 리포 루트(기본: 이 스크립트로부터 위로 README.md 있는 곳)")
+    ap.add_argument("--toc-threshold", type=int, default=3)
     args = ap.parse_args()
 
-    manifest_path = Path(args.manifest).expanduser().resolve()
-    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-
-    garden_root = Path(args.garden or manifest.get("garden_root", "~/repos/gh/notes")).expanduser()
+    garden_root = Path(args.garden).expanduser()
     if args.out:
         out = Path(args.out).expanduser()
     else:
-        out = next((p for p in manifest_path.parents if (p / "README.md").exists()),
-                   manifest_path.parents[2])
+        here = Path(__file__).resolve()
+        out = next((p for p in here.parents if (p / "README.md").exists()), here.parents[3])
+
     pages_dir = out / "pages"
     assets_dir = out / "assets"
+    folders = [f.strip() for f in args.folders.split(",") if f.strip()]
 
-    entries = manifest["entries"]
-
-    # 1) export_map(denote-id -> page filename) 선계산 → 내부 링크 해석에 사용
-    export_map = {}
-    for e in entries:
-        src = garden_root / e["src"]
-        meta, _ = split_frontmatter(src.read_text(encoding="utf-8"))
-        title = e.get("title") or meta.get("title") or src.stem
-        fn = f"{e['num']}-{slugify(title)}.md"
-        e["_title"] = clean_title(title)
-        e["_fname"] = fn
-        did = denote_id(e["src"])
-        if did:
-            export_map[did] = fn
-
-    # 2) pages/ 초기화(기존 생성물만 제거) 후 각 페이지 작성
+    # pages/ 초기화(생성물 전체) — 폴더 미러를 깨끗이 다시 쓴다
     if pages_dir.exists():
-        for f in pages_dir.glob("*.md"):
-            f.unlink()
-    pages_dir.mkdir(parents=True, exist_ok=True)
+        shutil.rmtree(pages_dir)
+    pages_dir.mkdir(parents=True)
 
+    scrub_rules = load_scrub_rules(garden_root)
+    mapping = {}
     copied = []
-    for e in entries:
-        src = garden_root / e["src"]
-        _, body = split_frontmatter(src.read_text(encoding="utf-8"))
-        content = transform_body(body, garden_root, assets_dir, export_map, copied)
-        if content.count("\n## ") >= args.toc_threshold:
-            content = "[TOC]\n\n" + content
-        (pages_dir / e["_fname"]).write_text(content, encoding="utf-8")
-
-    # 3) TOC.md
     toc = ["# 목차", ""]
-    for e in entries:
-        indent = "  " * depth_of(e["num"])
-        toc.append(f"{indent}- [{e['num']}. {e['_title']}](pages/{e['_fname']})")
-    (out / "TOC.md").write_text("\n".join(toc) + "\n", encoding="utf-8")
 
-    # 요약 출력
-    print(f"[ok] book_title : {manifest.get('book_title','')}")
-    print(f"[ok] garden     : {garden_root}")
-    print(f"[ok] out        : {out}")
-    print(f"[ok] pages      : {len(entries)}개")
-    print(f"[ok] assets 복사 : {len(copied)}개 {copied if copied else ''}")
-    for e in entries:
-        print(f"      {e['_fname']}   <-  {e['src']}")
+    for folder in folders:
+        src_dir = garden_root / "content" / folder
+        notes = sorted(src_dir.glob("*.md"), key=lambda p: p.name)
+        if not notes:
+            print(f"[warn] {folder}: 노트 없음, 건너뜀")
+            continue
+
+        (pages_dir / folder).mkdir(parents=True, exist_ok=True)
+        chapter_name = CHAPTER_NAMES.get(folder, folder)
+
+        # 챕터 표지: [[SubPages]] 로 하위 자동 나열
+        cover_rel = f"pages/{folder}/_chapter.md"
+        (out / cover_rel).write_text(f"[[SubPages]]\n", encoding="utf-8")
+        toc.append(f"- [{chapter_name}]({cover_rel})")
+
+        # 페이지는 pages/<folder>/<id>.md → assets 는 두 단계 위
+        rel_prefix = "../../"
+        for src in notes:
+            did = denote_id(src.name)
+            if not did:
+                continue
+            meta, body = split_frontmatter(src.read_text(encoding="utf-8"))
+            title = meta.get("title") or src.stem
+            subject = subject_for(did, title)
+            content = transform_body(body, garden_root, assets_dir, rel_prefix, copied)
+            content = scrub_identity(content, scrub_rules)   # 공개 전 회사/직장 신원 난독화
+            if content.count("\n## ") >= args.toc_threshold:
+                content = "[TOC]\n\n" + content
+            # 회수 앵커(렌더 비표시) — 2단계에서 gid<->page_id 매핑
+            content = f"<!-- gid:{did} -->\n" + content
+
+            page_rel = f"pages/{folder}/{did}.md"
+            (out / page_rel).write_text(content, encoding="utf-8")
+            toc.append(f"  - [{subject}]({page_rel})")
+            mapping[did] = {"path": page_rel, "subject": subject, "folder": folder}
+
+    (out / "TOC.md").write_text("\n".join(toc) + "\n", encoding="utf-8")
+    (out / "mapping.json").write_text(
+        json.dumps(mapping, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    print(f"[ok] out      : {out}")
+    print(f"[ok] folders  : {folders}")
+    print(f"[ok] pages    : {len(mapping)}개 (+챕터표지 {len(folders)})")
+    print(f"[ok] assets   : {len(copied)}개")
+    print(f"[ok] mapping  : mapping.json ({len(mapping)} entries, page_id 는 아직 비어있음)")
 
 
 if __name__ == "__main__":

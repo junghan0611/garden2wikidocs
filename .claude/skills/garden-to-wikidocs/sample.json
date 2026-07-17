@@ -1,0 +1,13 @@
+{
+  "book_title": "정한의 디지털 가든 — 변환 샘플",
+  "garden_root": "~/repos/gh/notes",
+  "_note": "변환기 검증용 대표 6개 노트. 이미지/citeproc/callout 4종/sigil 타이틀/relref(내부·외부)/코드블록을 모두 덮는다. num 의 '-' 깊이가 TOC 계층이 된다.",
+  "entries": [
+    {"num": "01", "src": "content/notes/20250218T071249.md"},
+    {"num": "02", "src": "content/notes/20220330T140100.md"},
+    {"num": "03", "src": "content/notes/20230814T142800.md"},
+    {"num": "04", "src": "content/notes/20230913T131900.md"},
+    {"num": "05", "src": "content/meta/20220328T092700.md"},
+    {"num": "05-1", "src": "content/notes/20250415T165756.md"}
+  ]
+}

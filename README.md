@@ -7,7 +7,7 @@
 - 원본 가든: <https://notes.junghanacs.com>
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 미러 리포: <https://github.com/junghan0611/garden2wikidocs>
-- 마지막 동기화: 2026-07-17
+- 마지막 동기화: 2026-07-18
 
 ## 힣의 고뇌
 

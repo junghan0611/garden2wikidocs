@@ -34,6 +34,9 @@ GARDEN_LINK = re.compile(
 # 가든 폴더 인덱스 링크(denote-id 없음): 챕터 표지 URL 로 실화. 뒤에 숫자(=노트 id) 없어야.
 FOLDER_LINK = re.compile(
     r"https://notes\.junghanacs\.com/(journal|meta|notes|bib|botlog)/(?![0-9])")
+# 페이지별 provenance의 exact source URL은 원본 귀환 경로이므로 절대 실화하지 않는다.
+PROVENANCE_BLOCK = re.compile(
+    r"<!-- provenance:source:start -->.*?<!-- provenance:source:end -->", re.DOTALL)
 
 
 def protect_code(text):
@@ -49,6 +52,22 @@ def protect_code(text):
 def restore_code(text, blocks):
     for i, b in enumerate(blocks):
         text = text.replace(f"\x00CODE{i}\x00", b)
+    return text
+
+
+def protect_provenance(text):
+    blocks = []
+
+    def repl(m):
+        blocks.append(m.group(0))
+        return f"\x00PROVENANCE{len(blocks)-1}\x00"
+
+    return PROVENANCE_BLOCK.sub(repl, text), blocks
+
+
+def restore_provenance(text, blocks):
+    for i, block in enumerate(blocks):
+        text = text.replace(f"\x00PROVENANCE{i}\x00", block)
     return text
 
 
@@ -98,10 +117,12 @@ def main():
         md_files.append(readme)
     for f in md_files:
         text = f.read_text(encoding="utf-8")
-        guarded, blocks = protect_code(text)
+        guarded, code_blocks = protect_code(text)
+        guarded, provenance_blocks = protect_provenance(guarded)
         new = GARDEN_LINK.sub(repl, guarded)      # 노트 링크 -> page_id URL
         new = FOLDER_LINK.sub(folder_repl, new)   # 폴더 인덱스 링크 -> 챕터 표지 URL
-        new = restore_code(new, blocks)
+        new = restore_provenance(new, provenance_blocks)
+        new = restore_code(new, code_blocks)
         if new != text:
             stats["files_changed"] += 1
             if not args.dry_run:

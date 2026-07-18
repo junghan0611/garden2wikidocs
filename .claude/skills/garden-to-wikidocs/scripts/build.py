@@ -6,10 +6,11 @@
 
 산출물(이 리포 안):
     TOC.md                       폴더=챕터 계층
-    pages/<folder>/_chapter.md   챕터 표지([[SubPages]])
+    pages/<folder>/_chapter.md   챕터 표지(explicit recent-first index)
     pages/<folder>/<denote-id>.md  각 노트 (H1 없음, gid 앵커 포함)
     assets/                      복사된 로컬 이미지
-    mapping.json                 denote-id -> {path, subject}  (씨뿌리기 시점 기록)
+    mapping.json                 denote-id -> page/source metadata ledger
+    BUILD-MANIFEST.json          canonical garden commit + deterministic input hash
 
 3단계 파이프라인 + 품질 게이트:
     1) seed   : build.py --folders journal  → 생성, 내부 relref는 가든 절대URL.
@@ -23,14 +24,19 @@
              [--garden ~/repos/gh/notes] [--out <repo root>]
 """
 import argparse
+import hashlib
 import json
 import re
 import shutil
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
 
 GARDEN_URL = "https://notes.junghanacs.com"
+SOURCE_REPOSITORY = "https://github.com/junghan0611/garden"
+BOOK_ID = 20676
+MANIFEST_NAME = "BUILD-MANIFEST.json"
 
 
 def load_scrub_rules(garden_root: Path):
@@ -123,10 +129,114 @@ def ordered_folders(folders):
                                          input_order[f]))
 
 
-def subject_for(did: str, title: str) -> str:
-    """제목 앞에 날짜 8자리 접두어를 붙여 알파벳순=시간순으로 정렬되게 한다.
-    단, 제목이 이미 그 날짜(ISO 또는 8자리)로 시작하면 중복을 피한다."""
-    d8 = did[:8]
+def git_output(garden_root: Path, *args) -> str:
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(garden_root), *args],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except subprocess.CalledProcessError as error:
+        detail = (error.stderr or error.stdout or str(error)).strip()
+        raise ValueError(f"garden git 조회 실패: {detail}") from error
+    return result.stdout.strip()
+
+
+def selected_source_paths(garden_root: Path, folders):
+    """변환 결과를 결정하는 authored Markdown/scrub 입력을 상대경로순으로 고른다."""
+    paths = [garden_root / "content" / "index.md", garden_root / "change-text.sh"]
+    for folder in folders:
+        paths.extend((garden_root / "content" / folder).glob("*.md"))
+    missing = [path for path in paths if not path.is_file()]
+    if missing:
+        raise ValueError(f"garden build input 없음: {[str(path) for path in missing]}")
+    return sorted(set(paths), key=lambda path: path.relative_to(garden_root).as_posix())
+
+
+def source_content_sha256(garden_root: Path, folders) -> str:
+    """상대경로와 bytes를 length-framed 순서로 해시한다."""
+    digest = hashlib.sha256()
+    for path in selected_source_paths(garden_root, folders):
+        relative = path.relative_to(garden_root).as_posix().encode("utf-8")
+        content = path.read_bytes()
+        digest.update(len(relative).to_bytes(8, "big"))
+        digest.update(relative)
+        digest.update(len(content).to_bytes(8, "big"))
+        digest.update(content)
+    return digest.hexdigest()
+
+
+def make_build_manifest(garden_root: Path, folders, pages: int):
+    """clean canonical garden commit을 pin한 deterministic build provenance."""
+    folders = ordered_folders(folders)
+    source_commit = git_output(garden_root, "rev-parse", "HEAD")
+    if not re.fullmatch(r"[0-9a-f]{40}", source_commit):
+        raise ValueError(f"garden source commit 형식 오류: {source_commit!r}")
+    dirty = git_output(
+        garden_root,
+        "status", "--porcelain=v1", "--untracked-files=all", "--",
+        "content", "change-text.sh",
+    )
+    if dirty:
+        preview = " | ".join(dirty.splitlines()[:5])
+        raise ValueError(
+            "garden content/change-text.sh가 dirty/untracked입니다. "
+            f"canonical commit 후 build하세요: {preview}"
+        )
+    return {
+        "schema_version": 1,
+        "source_repository": SOURCE_REPOSITORY,
+        "source_commit": source_commit,
+        "source_content_clean": True,
+        "source_content_sha256": source_content_sha256(garden_root, folders),
+        "folders": folders,
+        "pages": pages,
+        "book_id": BOOK_ID,
+    }
+
+
+SOURCE_TIMESTAMP = re.compile(r"^(\d{4})-(\d{2})-(\d{2})(?:T|$)")
+
+
+def source_sort_timestamp(source: dict) -> str:
+    """가든 목록과 같은 정렬/제목 날짜 원천을 고른다.
+
+    journal은 created(`date`), 나머지는 modified(`lastmod`, 없을 때 `date`)다.
+    """
+    if source.get("folder") == "journal":
+        value = source.get("date")
+    else:
+        value = source.get("lastmod") or source.get("date")
+    if not SOURCE_TIMESTAMP.match(value or ""):
+        raise ValueError(f"garden source date/lastmod 형식 오류: {value!r}")
+    return value
+
+
+def source_title_date(source: dict) -> str:
+    """folder별 source sort timestamp를 8자리 제목 날짜로 바꾼다."""
+    match = SOURCE_TIMESTAMP.match(source_sort_timestamp(source))
+    return "".join(match.groups())
+
+
+def source_sort_key(source: dict):
+    """newest-first 정렬 키. 같은 timestamp는 Denote ID newest-first로 고정한다."""
+    return source_sort_timestamp(source), source["id"]
+
+
+def subject_for(source_timestamp: str, title: str) -> str:
+    """source lastmod(없으면 date) 8자리 접두어로 WikiDocs 제목을 정렬한다.
+
+    제목이 선택된 source 날짜(ISO 또는 8자리)로 이미 시작할 때만 중복을 피한다.
+    build/git/mtime/WikiDocs sync 시각은 이 함수에 들어올 수 없다.
+    """
+    match = SOURCE_TIMESTAMP.match(source_timestamp or "")
+    if match:
+        d8 = "".join(match.groups())
+    elif re.fullmatch(r"\d{8}(?:T\d{6})?", source_timestamp or ""):
+        d8 = source_timestamp[:8]
+    else:
+        raise ValueError(f"source timestamp 형식 오류: {source_timestamp!r}")
     iso = f"{d8[:4]}-{d8[4:6]}-{d8[6:8]}"
     ct = clean_toc_title(title)
     if ct.startswith(iso) or ct.startswith(d8):
@@ -137,6 +247,12 @@ def subject_for(did: str, title: str) -> str:
 # ---------------------------------------------------------------- frontmatter
 
 def split_frontmatter(text: str):
+    """현재 garden의 한 줄 YAML scalar frontmatter를 명시적으로 읽는다.
+
+    전체 YAML 구현이 아니라 garden export 형식에 맞춘 parser다. 첫 `:` 뒤의 값을
+    그대로 보존하고, 양끝이 같은 ASCII quote 한 쌍만 벗긴다. 따라서 quoted
+    title/description의 내부 따옴표와 ISO timestamp(+09:00)는 훼손하지 않는다.
+    """
     if not text.startswith("---"):
         return {}, text
     end = text.find("\n---", 3)
@@ -150,6 +266,27 @@ def split_frontmatter(text: str):
         if m:
             meta[m.group(1)] = strip_wrapping_quotes(m.group(2))
     return meta, body
+
+
+def read_source(src: Path, folder: str):
+    """garden 원본의 authored metadata와 body를 하나의 record로 읽는다."""
+    did = denote_id(src.name)
+    if not did:
+        raise ValueError(f"Denote ID 없는 source filename: {src}")
+    meta, body = split_frontmatter(src.read_text(encoding="utf-8"))
+    missing = [field for field in ("title", "date") if not meta.get(field)]
+    if missing:
+        raise ValueError(f"garden frontmatter 필수값 없음 {missing}: {src}")
+    return {
+        "id": did,
+        "folder": folder,
+        "title": meta["title"],
+        "description": meta.get("description", ""),
+        "date": meta["date"],
+        "lastmod": meta.get("lastmod", ""),
+        "source_url": f"{GARDEN_URL}/{folder}/{did}/",
+        "body": body,
+    }
 
 
 # ---------------------------------------------------------------- 본문 변환
@@ -229,6 +366,74 @@ CALLOUT_LABELS = {
     "bug": "버그", "example": "예시", "quote": "인용", "cite": "인용",
     "done": "완료", "success": "완료", "check": "완료",
 }
+
+# 저자가 쓴 대표 abstract만 시스템 provenance와 분리해 페이지 맨 앞으로 옮긴다.
+# 내부 섹션의 [!abstract] 예시는 건드리지 않고 정확한 제목 `이 노트에 대하여`만 잡는다.
+AUTHOR_ABSTRACT = re.compile(
+    r'^>\s*\[!abstract\]\s+이 노트에 대하여[ \t]*\n(?:^>[^\n]*(?:\n|\Z))*',
+    re.MULTILINE,
+)
+PROVENANCE_START = "<!-- provenance:source:start -->"
+PROVENANCE_END = "<!-- provenance:source:end -->"
+CHAPTER_INDEX_START = "<!-- chapter-index:recent-first:start -->"
+CHAPTER_INDEX_END = "<!-- chapter-index:recent-first:end -->"
+
+
+def extract_author_abstract(body: str):
+    """대표 abstract와 나머지 authored body를 분리한다."""
+    match = AUTHOR_ABSTRACT.search(body)
+    if not match:
+        return "", body
+    abstract = match.group(0).strip() + "\n"
+    rest = (body[:match.start()] + body[match.end():]).strip()
+    return abstract, (rest + "\n" if rest else "")
+
+
+def provenance_block(source: dict) -> str:
+    """가든 정본으로 돌아가는 페이지별 시스템 provenance 블록."""
+    modified = source["lastmod"] or f'{source["date"]} (lastmod 없음: date fallback)'
+    return (
+        f"{PROVENANCE_START}\n"
+        '[[TIP("원본·최신본")]]\n'
+        "이 페이지는 한국어 검색과 읽기를 위한 WikiDocs 미러입니다. "
+        f'[원본·최신본은 가든]({source["source_url"]})에 있습니다. '
+        "최신 수정 내용·백링크·태그·히스토리·댓글·출처 정보는 원본 가든에서 확인하세요.\n\n"
+        f'- 작성: `{source["date"]}`\n'
+        f"- 최근 수정: `{modified}`\n"
+        "[[/TIP]]\n"
+        f"{PROVENANCE_END}"
+    )
+
+
+def compose_page(author_abstract: str, body: str, source: dict, include_toc: bool) -> str:
+    """abstract → provenance → navigation/body publication ordering을 고정한다."""
+    blocks = []
+    if author_abstract:
+        blocks.append(author_abstract.strip())
+    blocks.append(provenance_block(source))
+    if include_toc:
+        blocks.append("[TOC]")
+    if body.strip():
+        blocks.append(body.strip())
+    return "\n\n".join(blocks) + "\n"
+
+
+def chapter_index(folder: str, entries: list) -> str:
+    """WikiDocs sidebar 오름차순과 분리된 안정적 recent-first chapter index."""
+    basis = "작성일(source_date)" if folder == "journal" \
+        else "최근 수정일(source_lastmod, 없으면 source_date)"
+    lines = [
+        CHAPTER_INDEX_START,
+        "## 최신순 목록",
+        "",
+        f"가든과 같은 {basis} 기준의 최신순 목록입니다.",
+        "",
+    ]
+    for subject, entry in entries:
+        target = entry.get("url") or entry["source_url"]
+        lines.append(f"- [{subject}]({target})")
+    lines.extend([CHAPTER_INDEX_END, ""])
+    return "\n".join(lines)
 
 
 def protect_code(text):
@@ -361,8 +566,16 @@ def main():
     assets_dir = out / "assets"
     folders = ordered_folders([f.strip() for f in args.folders.split(",") if f.strip()])
 
+    # canonical garden commit/clean gate는 생성물을 지우거나 쓰기 전에 먼저 통과한다.
+    source_page_count = sum(
+        1 for folder in folders
+        for path in (garden_root / "content" / folder).glob("*.md")
+        if denote_id(path.name)
+    )
+    manifest = make_build_manifest(garden_root, folders, source_page_count)
+
     # 이미 회수한 원격 식별자는 동일 gid에 승계한다. 첫 씨뿌리기에는 파일이 없으므로
-    # 빈 매핑으로 시작하고, 이후 갱신은 build -> 로컬 relink -> push 한 번으로 가능하다.
+    # 빈 매핑으로 시작하고, 이후 갱신은 build -> relink -> audit -> 승인된 push로 가능하다.
     mapping_path = out / "mapping.json"
     previous_mapping = {}
     if mapping_path.exists():
@@ -388,36 +601,53 @@ def main():
         (pages_dir / folder).mkdir(parents=True, exist_ok=True)
         chapter_name = CHAPTER_NAMES.get(folder, folder)
 
-        # 챕터 표지: [[SubPages]] 로 하위 자동 나열
+        # 챕터 표지는 아래에서 stable page URL을 사용한 recent-first index로 완성한다.
         cover_rel = f"pages/{folder}/_chapter.md"
-        (out / cover_rel).write_text(f"[[SubPages]]\n", encoding="utf-8")
         toc.append(f"- [{chapter_name}]({cover_rel})")
+        chapter_entries = []
 
-        # 페이지는 pages/<folder>/<id>.md → assets 는 두 단계 위
+        # 페이지는 pages/<folder>/<id>.md → assets 는 두 단계 위.
+        # TOC와 mapping 생성 순서도 가든 folder listing과 같이 newest-first다.
         rel_prefix = "../../"
-        for src in notes:
-            did = denote_id(src.name)
-            if not did:
-                continue
-            meta, body = split_frontmatter(src.read_text(encoding="utf-8"))
-            title = meta.get("title") or src.stem
-            subject = subject_for(did, title)
-            content = transform_body(body, garden_root, assets_dir, rel_prefix, copied)
+        sources = [read_source(src, folder) for src in notes]
+        sources.sort(key=source_sort_key, reverse=True)
+        for source in sources:
+            did = source["id"]
+            title_date = source_title_date(source)
+            subject = subject_for(title_date, source["title"])
+
+            raw_abstract, raw_body = extract_author_abstract(source["body"])
+            abstract = transform_body(
+                raw_abstract, garden_root, assets_dir, rel_prefix, copied
+            ) if raw_abstract else ""
+            body = transform_body(raw_body, garden_root, assets_dir, rel_prefix, copied)
+            include_toc = body.count("\n## ") >= args.toc_threshold
+            content = compose_page(abstract, body, source, include_toc)
             content = scrub_identity(content, scrub_rules)   # 공개 전 회사/직장 신원 난독화
-            if content.count("\n## ") >= args.toc_threshold:
-                content = "[TOC]\n\n" + content
             # 회수 앵커(렌더 비표시) — 2단계에서 gid<->page_id 매핑
             content = f"<!-- gid:{did} -->\n" + content
 
             page_rel = f"pages/{folder}/{did}.md"
             (out / page_rel).write_text(content, encoding="utf-8")
             toc.append(f"  - [{subject}]({page_rel})")
-            entry = {"path": page_rel, "subject": subject, "folder": folder}
+            entry = {
+                "path": page_rel,
+                "subject": subject,
+                "folder": folder,
+                "source_url": source["source_url"],
+                "source_date": source["date"],
+                "source_lastmod": source["lastmod"],
+            }
             previous = previous_mapping.get(did, {})
             for key in ("page_id", "url"):
                 if previous.get(key):
                     entry[key] = previous[key]
             mapping[did] = entry
+            chapter_entries.append((subject, entry))
+
+        (out / cover_rel).write_text(
+            chapter_index(folder, chapter_entries), encoding="utf-8"
+        )
 
     # 챕터 표지도 이미 회수한 page_id를 승계하되 subject는 현재 번호 제목으로 갱신한다.
     previous_chapters = previous_mapping.get("_chapters", {})
@@ -451,6 +681,12 @@ def main():
         json.dumps(mapping, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     page_count = sum(key != "_chapters" for key in mapping)
+    if page_count != manifest["pages"]:
+        raise ValueError(f"manifest page count drift: {manifest['pages']} != {page_count}")
+    (out / MANIFEST_NAME).write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    manifest_sha = hashlib.sha256((out / MANIFEST_NAME).read_bytes()).hexdigest()
     carried_ids = sum(key != "_chapters" and bool(value.get("page_id"))
                       for key, value in mapping.items())
     print(f"[ok] out      : {out}")
@@ -458,6 +694,7 @@ def main():
     print(f"[ok] pages    : {page_count}개 (+챕터표지 {len(folders)})")
     print(f"[ok] assets   : {len(copied)}개")
     print(f"[ok] mapping  : mapping.json ({page_count} entries, page_id 승계 {carried_ids}개)")
+    print(f"[ok] manifest : {MANIFEST_NAME} ({manifest['source_commit']}, sha256 {manifest_sha})")
 
 
 if __name__ == "__main__":

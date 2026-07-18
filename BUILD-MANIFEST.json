@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/junghan0611/garden",
+  "source_commit": "cdaec167238ed01536f92389518d1e331772f782",
+  "source_content_clean": true,
+  "source_content_sha256": "0d9dc10c9911f6d9c257b6896706c8cbe987f0b88b6754fb48eec010f8a27ad9",
+  "folders": [
+    "journal",
+    "meta",
+    "bib",
+    "notes",
+    "botlog"
+  ],
+  "pages": 2238,
+  "book_id": 20676
+}

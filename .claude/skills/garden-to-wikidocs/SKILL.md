@@ -6,21 +6,37 @@ description: 정한의 디지털 가든(Quartz/Hugo MD, ~/repos/gh/notes/content
 # 가든 → 위키독스 깃허브 연동 책 내보내기 (v2)
 
 이 리포(`junghan0611/garden2wikidocs`)는 위키독스 책 **20676 "Junghanacs's Digital
-Garden"** 과 깃허브 연동돼 있다. `git push` → 웹훅 → 위키독스 동기화. **이 리포가 원본**이고
-위키독스 웹 UI 편집은 기준 경로가 아니다. 가든 전체를 폴더 단위로 올려 위키독스 안에서
-자기완결적으로 순회하게 하는 것이 목표(개별 노트가 아니라 가든 전체).
+Garden"** 과 깃허브 연동돼 있다. `git push` → 웹훅 → 위키독스 동기화.
+
+## 정본·발견면 계약
+
+cross-repo 정책 SSOT는 garden의
+[`docs/WIKIDOCS_MIRROR.md`](https://github.com/junghan0611/garden/blob/main/docs/WIKIDOCS_MIRROR.md)
+(로컬: `/home/junghan/repos/gh/notes/docs/WIKIDOCS_MIRROR.md`)다.
+
+- **garden은 canonical/latest/authored source**다.
+- **WikiDocs는 한국어 검색과 읽기를 위한 discovery mirror**다.
+- **garden2wikidocs는 garden 원본을 바꾸지 않는 read-only translation harness**다.
+
+이 리포는 미러 생성물·`page_id`·WikiDocs URL의 기준 경로이며, 위키독스 웹 UI 편집은
+기준 경로가 아니다. source authority와 publication ordering은 위 정책 SSOT가 소유한다.
+구현 세부는 이 skill이 소유하지만 그 정책을 독자적으로 재정의하지 않는다. 가든 전체를
+폴더 단위로 올려 위키독스 안에서 자기완결적으로 순회하게 하는 것이 목표다.
 
 ## 3단계 파이프라인
 
 ```
 [1] build.py   씨뿌리기 — 가든 폴더 → pages/<folder>/<denote-id>.md + TOC.md + mapping.json
-               + content/index.md → README.md(위키독스 책 '대문').
-               내부 relref 는 가든 절대URL, 각 페이지에 <!-- gid:ID --> 앵커.
-               기존 mapping의 page_id/url은 동일 gid에 승계한다.
+               + BUILD-MANIFEST.json, content/index.md → README.md(위키독스 책 '대문').
+               garden frontmatter의 title/description/date/lastmod를 읽고, 각 페이지에
+               abstract-first `원본·최신본` block + <!-- gid:ID --> 앵커를 둔다.
+               내부 relref 는 가든 절대URL, provenance source URL은 relink에서 보호.
+               기존 mapping의 page_id/url은 동일 Denote ID에 승계한다.
 [2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 회수
 [3] relink.py  링크 실화 — pages/**·README 의 가든 URL 중 page_id 있는 것만
                wikidocs.net/<page_id> 로 재작성(없으면 가든 URL 유지, 하이브리드).
-[검증] audit.py  품질 게이트 — TOC·mapping·gid·page_id·미처리 relref·원본/미러 헤딩 보존
+[검증] audit.py  품질 게이트 — TOC·mapping·gid·page_id·source metadata/provenance·
+               uniqueness/completeness·abstract ordering·미처리 relref·원본/미러 헤딩 보존
 [상태] status.py push 후 웹훅 반영 진척 — book get 라이브 본문 vs 로컬 pages/ 대조로
                synced/pending/missing 카운트. 대량 push 는 한 번에 안 도는 일이 잦다.
 ```
@@ -29,31 +45,47 @@ Garden"** 과 깃허브 연동돼 있다. `git push` → 웹훅 → 위키독스
 링크는 반드시 `https://wikidocs.net/<page_id>` 절대 URL이어야 하고, page_id 는 페이지 생성
 후에만 생기므로 3단계가 구조적으로 불가피하다.
 
-## 실행
+## 실행 — audit 이전 push 금지
+
+push 한 번이 약 20분짜리 전체 WikiDocs webhook을 촉발한다. **build 직후 push하지 말고,
+반드시 relink와 audit을 먼저 통과한다.**
+
+### 정상 갱신(existing page_id 완비)
 
 ```bash
-# 1) 씨뿌리기 (가든 read-only, 이 리포에 생성물 작성)
 python3 .claude/skills/garden-to-wikidocs/scripts/build.py --folders journal,meta,bib,notes,botlog
-git add -A && git commit -m "..." && git push origin main   # 웹훅 동기화
-
-# 2) 회수 (push·동기화 완료 후)
-WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
-  python3 .claude/skills/garden-to-wikidocs/scripts/recover.py --book-id 20676
-git add mapping.json && git commit -m "chore(export): recover journal page_ids"
-
-# 3) 링크 실화 + push 전 품질 감사
 python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
 python3 .claude/skills/garden-to-wikidocs/scripts/audit.py
-
-# 4) push 후 동기화 진척 확인 (반영 완료면 exit 0, 아니면 exit 1 → 대기 루프에 쓸 수 있음)
+python3 -m unittest discover -s tests -q                         # gate
+# gitleaks dir . --no-banner --redact                           # optional gate
+# 위 gate 뒤 GLG 승인 시에만 commit/push
+# git add -A && git commit -m "..." && git push origin main
 WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
   python3 .claude/skills/garden-to-wikidocs/scripts/status.py --book-id 20676 --list
-# 진척이 멈춰 pending 이 남으면: 위키독스 `책 수정 > 깃허브 > 지금 동기화` 를 수동 재트리거.
 ```
+
+### 신규 page_id가 있는 갱신
+
+```bash
+python3 .claude/skills/garden-to-wikidocs/scripts/build.py --folders journal,meta,bib,notes,botlog
+python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
+python3 .claude/skills/garden-to-wikidocs/scripts/audit.py --allow-missing-page-ids
+# GLG 승인 후 1차 commit/push → status.py 로 생성 동기화 확인
+WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
+  python3 .claude/skills/garden-to-wikidocs/scripts/recover.py --book-id 20676
+python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
+python3 .claude/skills/garden-to-wikidocs/scripts/audit.py
+python3 -m unittest discover -s tests -q
+# GLG 승인 후 2차 commit/push → status.py --list 로 pending 0 확인
+```
+
+진척이 멈춰 pending이 남으면 위키독스 `책 수정 > 깃허브 > 지금 동기화`를 수동 재트리거한다.
 
 - `build.py --folders journal,meta,bib,notes,botlog` 처럼 쉼표로 여러 폴더 동시 처리.
   알려진 챕터는 입력 순서와 무관하게 `1 저널·2 메타·3 참고문헌·4 노트·5 봇로그`로 정렬.
 - `--garden` 기본 `~/repos/gh/notes`, `--out` 기본은 README.md 있는 리포 루트.
+- build는 garden `content/`·`change-text.sh`가 dirty/untracked면 생성물 쓰기 전에 실패한다.
+  canonical garden commit 뒤에만 미러를 생성한다.
 - 의존성 0(Python 표준 라이브러리). 토큰은 `pass personal/token/wikidocs/junghanacs`.
 
 ## 실측으로 확정된 불변식 (깨지 말 것 — 실험으로 검증됨)
@@ -61,11 +93,27 @@ WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
 - **URL = page_id 기반, 매우 안정적.** 파일명·제목·순서를 다 바꿔도 page_id 유지됨.
   단 우리가 URL을 직접 지정할 수 없으므로 `mapping.json` 으로 회수·관리한다.
 - **파일명 = denote-id** (`pages/journal/20220310T000000.md`). URL 안정·회수 앵커·편집관리.
-- **제목(TOC 링크텍스트) 앞에 날짜 8자리 접두어.** 위키독스는 제목 알파벳순으로 강제
-  정렬하므로(번호/접두어 없으면 뒤죽박죽), 날짜 접두어로 시간순을 만든다. 제목이 이미
-  ISO 날짜로 시작하면(journal) 접두어를 생략한다.
+- **제목(TOC 링크텍스트) 앞에 source 날짜 8자리 접두어.** journal은 garden `date`
+  (주간/일간 저널이 나타내는 created date), meta/bib/notes/botlog는 garden `lastmod`를 쓰고
+  없을 때만 `date`로 fallback한다. build/git/file mtime/WikiDocs sync 시각은 금지한다.
+  제목이 선택된 source 날짜(ISO 또는 8자리)로 이미 시작하면 중복 접두어를 생략한다.
+- **recent-first 목록.** TOC.md와 각 챕터 cover는 위 source 날짜 기준 내림차순이다.
+  WikiDocs sidebar는 제목 오름차순을 강제하므로 stable title/page_id를 깨는 순번 재부여를
+  하지 않는다. `_chapter.md`에 stable WikiDocs URL(미회수면 garden URL)의 명시적 최신순
+  목록을 생성하고 sidebar 오름차순 한계와 분리한다.
+- **페이지 provenance 순서.** 저자의 `이 노트에 대하여` abstract가 있으면
+  `abstract → 원본·최신본 → [TOC]/본문`, 없으면 provenance가 첫 본문 블록이다. 블록의
+  exact garden source URL은 relink하지 않는다. source date/lastmod만 페이지에 표시하고
+  mirror sync date는 README 책 수준에만 둔다.
+- **mapping의 source metadata는 cache.** Denote ID가 join key다. 기존 `page_id`, `url`,
+  `path`, `folder`, `subject`를 호환 보존하고 `source_url`, `source_date`,
+  `source_lastmod`를 garden frontmatter에서 매 build마다 다시 파생한다.
+- **재현 입력 manifest.** build는 루트 `BUILD-MANIFEST.json`에 garden full commit SHA,
+  relevant source clean 여부, canonical folders/page count/book id, 선택 입력의 deterministic
+  content SHA256을 기록한다. manifest는 commit 대상 운영 provenance이며 WikiDocs ingest 대상이
+  아니다. audit은 현재 garden 입력과 exact match를 검증한다. 생성 시각은 넣지 않는다.
 - **pages/ 서브디렉토리 지원됨.** `pages/<folder>/...` 로 가든 폴더 구조를 미러한다.
-- **폴더 = 챕터.** `pages/<folder>/_chapter.md` 에 `[[SubPages]]` 를 넣어 하위 자동 나열.
+- **폴더 = 챕터.** `pages/<folder>/_chapter.md`에 explicit recent-first index를 생성한다.
 - **본문 맨 위 H1 없음, frontmatter 없음.** 제목은 TOC 가 관리.
 - **위키독스는 인제스트 때 이미지를 자기 CDN 으로 재업로드·URL 재작성한다.** 로컬
   `![](../../assets/x.png)` → 라이브 `![](https://static.wikidocs.net/images/page/<pid>/…)`.
@@ -81,7 +129,7 @@ WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
 
 | 가든 (Quartz/Hugo) | 위키독스 | 함수 |
 |---|---|---|
-| frontmatter `title` | `<날짜8> <제목>` → TOC 평문 링크텍스트 (입력용 유니코드·중첩 `[]` 제거) | `subject_for`/`clean_toc_title` |
+| frontmatter `title/date/lastmod` | journal=`date`, 그 외=`lastmod→date`의 `<날짜8> <제목>` + recent-first TOC/chapter index | `source_sort_timestamp`/`subject_for` |
 | frontmatter 전체 | 제거 | `split_frontmatter` |
 | `## 제목 {#anchor}` | `## 제목` | `HEAD_ANCHOR` |
 | `<span class="timestamp-wrapper">…[날짜]…</span>` | `[날짜]` | `TIMESTAMP` |
@@ -95,12 +143,15 @@ WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
 
 ## 위키독스 확장문법 착지점
 
-`[[TIP]]`/`[[TIP("라벨")]]`…`[[/TIP]]`, `[[SubPages]]`, `[TOC]`, `[[MARK]]`/`[[SMARK]]`.
+`[[TIP]]`/`[[TIP("라벨")]]`…`[[/TIP]]`, `[TOC]`, `[[MARK]]`/`[[SMARK]]`.
+`[[SubPages]]`는 WikiDocs가 지원하지만 generator는 안정적인 explicit recent-first index를 위해
+의도적으로 사용하지 않는다.
 
 ## 배포·동기화
 
 push 하면 웹훅이 `README.md`(책 대문)·`TOC.md`·`pages/`·`assets/` 를 읽어 동기화
-(`.claude/`·`AGENTS.md`·`NEXT.md`·`mapping.json` 은 무시). `README.md` 는 가든
+(`.claude/`·`AGENTS.md`·`NEXT.md`·`mapping.json`·`BUILD-MANIFEST.json` 은 무시).
+`README.md` 는 가든
 `content/index.md` 를 변환한 책 대문이므로 index 가 바뀌면 build 가 재생성한다. 안 보이면:
 push 반영 확인 → GitHub `Settings > Webhooks` → 위키독스 `책 수정 > 깃허브` 연결/웹훅 →
 `지금 동기화`. 103페이지 동기화에 ~70초. 갱신 때는 기존 page_id를 승계하므로

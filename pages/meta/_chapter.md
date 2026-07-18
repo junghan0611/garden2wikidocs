@@ -243,7 +243,7 @@
 - [20250526 창조 창의 창발](https://wikidocs.net/380584)
 - [20250525 저자 작가 글쓴이](https://wikidocs.net/380714)
 - [20250525 둠이맥스 스페이스맥스](https://wikidocs.net/380689)
-- [20250525 바칼로레아IB교육](https://wikidocs.net/380605)
+- [20250525 바칼로레아 IB교육](https://wikidocs.net/380605)
 - [20250525 다운로드](https://wikidocs.net/380582)
 - [20250525 번역기 번역도구](https://wikidocs.net/380501)
 - [20250524 웹클리퍼 크롤러](https://wikidocs.net/380705)

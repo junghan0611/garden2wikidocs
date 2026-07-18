@@ -1029,6 +1029,16 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250424T233558": {
+    "path": "pages/meta/20250424T233558.md",
+    "subject": "20260718 보편 특수 범용 특이",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T233558/",
+    "source_date": "2025-04-24T23:35:00+09:00",
+    "source_lastmod": "2026-07-18T19:00:00+09:00",
+    "page_id": 380947,
+    "url": "https://wikidocs.net/380947"
+  },
   "20240902T173233": {
     "path": "pages/meta/20240902T173233.md",
     "subject": "20260717 글쓰기 쓰기 라이팅허브",
@@ -3231,7 +3241,7 @@
   },
   "20241202T133400": {
     "path": "pages/meta/20241202T133400.md",
-    "subject": "20250602 계획 스케줄 캘린더 어젠다 일정",
+    "subject": "20250602 계획 스케줄 캘린더 어젠다 일정 커리큘럼",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20241202T133400/",
     "source_date": "2024-12-02T13:34:00+09:00",
@@ -3938,16 +3948,6 @@
     "source_lastmod": "2025-04-24T23:36:00+09:00",
     "page_id": 380948,
     "url": "https://wikidocs.net/380948"
-  },
-  "20250424T233558": {
-    "path": "pages/meta/20250424T233558.md",
-    "subject": "20250424 보편 특수 범용 특이",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T233558/",
-    "source_date": "2025-04-24T23:35:00+09:00",
-    "source_lastmod": "2025-04-24T23:35:00+09:00",
-    "page_id": 380947,
-    "url": "https://wikidocs.net/380947"
   },
   "20250424T233520": {
     "path": "pages/meta/20250424T233520.md",
@@ -6409,6 +6409,16 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20250213T073105": {
+    "path": "pages/bib/20250213T073105.md",
+    "subject": "20260718 김승환 인문학 개념어 사전 - 논리 사상 철학 역사 사회 자연 문학 예술 미학",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250213T073105/",
+    "source_date": "2025-02-13T07:31:00+09:00",
+    "source_lastmod": "2026-07-18T16:59:00+09:00",
+    "page_id": 382274,
+    "url": "https://wikidocs.net/382274"
+  },
   "20230222T123300": {
     "path": "pages/bib/20230222T123300.md",
     "subject": "20260717 제임스조이스 김종건 피네간의 경야 율리시스 문학 읽기",
@@ -7968,16 +7978,6 @@
     "source_lastmod": "2025-06-22T00:00:00+09:00",
     "page_id": 381869,
     "url": "https://wikidocs.net/381869"
-  },
-  "20250213T073105": {
-    "path": "pages/bib/20250213T073105.md",
-    "subject": "20250621 김승환 인문학 개념어 사전 - 논리 사상 철학 역사 사회 자연 문학 예술 미학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250213T073105/",
-    "source_date": "2025-02-13T07:31:00+09:00",
-    "source_lastmod": "2025-06-21T00:00:00+09:00",
-    "page_id": 382274,
-    "url": "https://wikidocs.net/382274"
   },
   "20241226T101418": {
     "path": "pages/bib/20241226T101418.md",
@@ -13209,6 +13209,76 @@
     "page_id": 381893,
     "url": "https://wikidocs.net/381893"
   },
+  "20241228T123259": {
+    "path": "pages/notes/20241228T123259.md",
+    "subject": "20260718 제텔카스텐: 폴게제텔",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241228T123259/",
+    "source_date": "2024-12-28T12:32:00+09:00",
+    "source_lastmod": "2026-07-18T19:40:00+09:00",
+    "page_id": 381479,
+    "url": "https://wikidocs.net/381479"
+  },
+  "20241222T114446": {
+    "path": "pages/notes/20241222T114446.md",
+    "subject": "20260718 베르탈란피 일반체계이론 보편학 루만 바렐라",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241222T114446/",
+    "source_date": "2024-12-22T11:44:00+09:00",
+    "source_lastmod": "2026-07-18T19:15:00+09:00",
+    "page_id": 381460,
+    "url": "https://wikidocs.net/381460"
+  },
+  "20250516T090655": {
+    "path": "pages/notes/20250516T090655.md",
+    "subject": "20260718 모티머애들러 파이데이아 관점 - 보편학 이해",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250516T090655/",
+    "source_date": "2025-05-16T09:06:00+09:00",
+    "source_lastmod": "2026-07-18T19:10:00+09:00",
+    "page_id": 381714,
+    "url": "https://wikidocs.net/381714"
+  },
+  "20241222T114848": {
+    "path": "pages/notes/20241222T114848.md",
+    "subject": "20260718 힣: 지식의 커리큘럼 살아 있는 프로피디아와 평생공부의 얼개",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241222T114848/",
+    "source_date": "2024-12-22T11:48:00+09:00",
+    "source_lastmod": "2026-07-18T18:20:00+09:00",
+    "page_id": 381461,
+    "url": "https://wikidocs.net/381461"
+  },
+  "20241209T235932": {
+    "path": "pages/notes/20241209T235932.md",
+    "subject": "20260718 힣: 질문은 남기고 답은 내려놓는다 쿤·패퍼트·애들러를 다시 묻다",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241209T235932/",
+    "source_date": "2024-12-09T23:59:00+09:00",
+    "source_lastmod": "2026-07-18T18:20:00+09:00",
+    "page_id": 381419,
+    "url": "https://wikidocs.net/381419"
+  },
+  "20241206T132604": {
+    "path": "pages/notes/20241206T132604.md",
+    "subject": "20260718 힣: 은퇴한 할아버지들의 AI 스터디 누구도 뒤에 두지 않는 배움",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241206T132604/",
+    "source_date": "2024-12-06T13:26:00+09:00",
+    "source_lastmod": "2026-07-18T17:26:00+09:00",
+    "page_id": 381405,
+    "url": "https://wikidocs.net/381405"
+  },
+  "20240517T153722": {
+    "path": "pages/notes/20240517T153722.md",
+    "subject": "20260718 힣: 03:22를 08:29에 잇는다 시간축 내부링크와 에이전트",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240517T153722/",
+    "source_date": "2024-05-17T15:37:00+09:00",
+    "source_lastmod": "2026-07-18T14:57:00+09:00",
+    "page_id": 381223,
+    "url": "https://wikidocs.net/381223"
+  },
   "20251124T164312": {
     "path": "pages/notes/20251124T164312.md",
     "subject": "20260717 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스",
@@ -14348,16 +14418,6 @@
     "source_lastmod": "2026-02-02T00:00:00+09:00",
     "page_id": 381848,
     "url": "https://wikidocs.net/381848"
-  },
-  "20250224T172456": {
-    "path": "pages/notes/20250224T172456.md",
-    "subject": "20260202 제텔카스텐: 폴게제텔3 구현 denote-sequence",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250224T172456/",
-    "source_date": "2025-02-24T17:24:00+09:00",
-    "source_lastmod": "2026-02-02T00:00:00+09:00",
-    "page_id": 381554,
-    "url": "https://wikidocs.net/381554"
   },
   "20241204T095412": {
     "path": "pages/notes/20241204T095412.md",
@@ -15499,16 +15559,6 @@
     "page_id": 381141,
     "url": "https://wikidocs.net/381141"
   },
-  "20240517T153722": {
-    "path": "pages/notes/20240517T153722.md",
-    "subject": "20250611 링크 조직모드: 하이퍼링크 커스텀링크 내부링크",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240517T153722/",
-    "source_date": "2024-05-17T15:37:00+09:00",
-    "source_lastmod": "2025-06-11T00:00:00+09:00",
-    "page_id": 381223,
-    "url": "https://wikidocs.net/381223"
-  },
   "20230916T180500": {
     "path": "pages/notes/20230916T180500.md",
     "subject": "20250611 EditorConfig 코딩 스타일 설정 일관성",
@@ -16368,26 +16418,6 @@
     "source_lastmod": "2025-05-18T00:00:00+09:00",
     "page_id": 381282,
     "url": "https://wikidocs.net/381282"
-  },
-  "20250516T090655": {
-    "path": "pages/notes/20250516T090655.md",
-    "subject": "20250516 모티머애들러 파이데이아 관점 - '보편학' 이해",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250516T090655/",
-    "source_date": "2025-05-16T09:06:00+09:00",
-    "source_lastmod": "2025-05-16T00:00:00+09:00",
-    "page_id": 381714,
-    "url": "https://wikidocs.net/381714"
-  },
-  "20241222T114848": {
-    "path": "pages/notes/20241222T114848.md",
-    "subject": "20250516 힣: 지식의 커리큘럼 - 보편학 체계이론 파이데이아 바칼로레아",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241222T114848/",
-    "source_date": "2024-12-22T11:48:00+09:00",
-    "source_lastmod": "2025-05-16T00:00:00+09:00",
-    "page_id": 381461,
-    "url": "https://wikidocs.net/381461"
   },
   "20240829T193505": {
     "path": "pages/notes/20240829T193505.md",
@@ -19089,15 +19119,15 @@
     "page_id": 381557,
     "url": "https://wikidocs.net/381557"
   },
-  "20231116T232654": {
-    "path": "pages/notes/20231116T232654.md",
-    "subject": "20250225 제텔카스텐: 폴게제텔2 분류 - 프로피디아 십진분류",
+  "20250224T172456": {
+    "path": "pages/notes/20250224T172456.md",
+    "subject": "20250224 임시 빈방",
     "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20231116T232654/",
-    "source_date": "2023-11-16T23:26:00+09:00",
-    "source_lastmod": "2025-02-25T00:00:00+09:00",
-    "page_id": 381167,
-    "url": "https://wikidocs.net/381167"
+    "source_url": "https://notes.junghanacs.com/notes/20250224T172456/",
+    "source_date": "2025-02-24T17:24:00+09:00",
+    "source_lastmod": "2025-02-24T17:24:00+09:00",
+    "page_id": 381554,
+    "url": "https://wikidocs.net/381554"
   },
   "20250224T125854": {
     "path": "pages/notes/20250224T125854.md",
@@ -19909,16 +19939,6 @@
     "page_id": 381480,
     "url": "https://wikidocs.net/381480"
   },
-  "20241228T123259": {
-    "path": "pages/notes/20241228T123259.md",
-    "subject": "20241228 제텔카스텐: 폴게제텔1 개념",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241228T123259/",
-    "source_date": "2024-12-28T12:32:00+09:00",
-    "source_lastmod": "2024-12-28T12:32:00+09:00",
-    "page_id": 381479,
-    "url": "https://wikidocs.net/381479"
-  },
   "20241228T000249": {
     "path": "pages/notes/20241228T000249.md",
     "subject": "20241228 웹분석 도구 비교 GoogleAnalytics Plausible umami goatcounter",
@@ -19998,16 +20018,6 @@
     "source_lastmod": "2024-12-22T23:40:00+09:00",
     "page_id": 381462,
     "url": "https://wikidocs.net/381462"
-  },
-  "20241222T114446": {
-    "path": "pages/notes/20241222T114446.md",
-    "subject": "20241222 베르탈란피 일반체계이론 보편학 루만 바렐라",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241222T114446/",
-    "source_date": "2024-12-22T11:44:00+09:00",
-    "source_lastmod": "2024-12-22T11:44:00+09:00",
-    "page_id": 381460,
-    "url": "https://wikidocs.net/381460"
   },
   "20241220T154648": {
     "path": "pages/notes/20241220T154648.md",
@@ -20269,16 +20279,6 @@
     "page_id": 381420,
     "url": "https://wikidocs.net/381420"
   },
-  "20241209T235932": {
-    "path": "pages/notes/20241209T235932.md",
-    "subject": "20241209 교육: 토머스쿤 패러다임 - 시모어패퍼트 구성주의 - 애들러 항존주의",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241209T235932/",
-    "source_date": "2024-12-09T23:59:00+09:00",
-    "source_lastmod": "2024-12-09T23:59:00+09:00",
-    "page_id": 381419,
-    "url": "https://wikidocs.net/381419"
-  },
   "20241130T183311": {
     "path": "pages/notes/20241130T183311.md",
     "subject": "20241209 소셜네트워크서비스: 블루스카이 도메인핸들",
@@ -20388,16 +20388,6 @@
     "source_lastmod": "2024-12-06T15:01:00+09:00",
     "page_id": 381406,
     "url": "https://wikidocs.net/381406"
-  },
-  "20241206T132604": {
-    "path": "pages/notes/20241206T132604.md",
-    "subject": "20241206 인공지능: 낙관론자 옹호자",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241206T132604/",
-    "source_date": "2024-12-06T13:26:00+09:00",
-    "source_lastmod": "2024-12-06T13:26:00+09:00",
-    "page_id": 381405,
-    "url": "https://wikidocs.net/381405"
   },
   "20241206T123751": {
     "path": "pages/notes/20241206T123751.md",
@@ -21529,6 +21519,16 @@
     "page_id": 381173,
     "url": "https://wikidocs.net/381173"
   },
+  "20231116T232654": {
+    "path": "pages/notes/20231116T232654.md",
+    "subject": "20231116 임시 빈방",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20231116T232654/",
+    "source_date": "2023-11-16T23:26:00+09:00",
+    "source_lastmod": "2023-11-16T23:26:00+09:00",
+    "page_id": 381167,
+    "url": "https://wikidocs.net/381167"
+  },
   "20231111T094444": {
     "path": "pages/notes/20231111T094444.md",
     "subject": "20231111 remark",
@@ -21579,6 +21579,36 @@
     "page_id": 381024,
     "url": "https://wikidocs.net/381024"
   },
+  "20260304T004500": {
+    "path": "pages/botlog/20260304T004500.md",
+    "subject": "20260718 에이전트가 읽는 살아 있는 프로피디아 무의식 연상맵과 지식그래프",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260304T004500/",
+    "source_date": "2026-03-04T00:45:00+09:00",
+    "source_lastmod": "2026-07-18T18:20:00+09:00",
+    "page_id": 382557,
+    "url": "https://wikidocs.net/382557"
+  },
+  "20260301T091700": {
+    "path": "pages/botlog/20260301T091700.md",
+    "subject": "20260718 교육 지도 공통 세계와 저마다의 길, 파이데이아에서 마인드스톰까지",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260301T091700/",
+    "source_date": "2026-03-01T09:17:00+09:00",
+    "source_lastmod": "2026-07-18T18:20:00+09:00",
+    "page_id": 382551,
+    "url": "https://wikidocs.net/382551"
+  },
+  "20260220T201100": {
+    "path": "pages/botlog/20260220T201100.md",
+    "subject": "20260718 garden2wikidocs 원본 가든을 건드리지 않는 위키독스 미러",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260220T201100/",
+    "source_date": "2026-02-20T20:11:00+09:00",
+    "source_lastmod": "2026-07-18T16:16:00+09:00",
+    "page_id": 382538,
+    "url": "https://wikidocs.net/382538"
+  },
   "20260406T140411": {
     "path": "pages/botlog/20260406T140411.md",
     "subject": "20260717 andenken 내 PKM-AI 자리로 수렴하는 llm-wiki·OKF·EKG",
@@ -21598,16 +21628,6 @@
     "source_lastmod": "2026-07-17T22:40:00+09:00",
     "page_id": 382548,
     "url": "https://wikidocs.net/382548"
-  },
-  "20260220T201100": {
-    "path": "pages/botlog/20260220T201100.md",
-    "subject": "20260717 garden2wikidocs 원본 가든을 건드리지 않는 위키독스 미러",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260220T201100/",
-    "source_date": "2026-02-20T20:11:00+09:00",
-    "source_lastmod": "2026-07-17T20:43:00+09:00",
-    "page_id": 382538,
-    "url": "https://wikidocs.net/382538"
   },
   "20260518T094818": {
     "path": "pages/botlog/20260518T094818.md",
@@ -22041,7 +22061,7 @@
   },
   "20260324T153323": {
     "path": "pages/botlog/20260324T153323.md",
-    "subject": "20260402 entwurf 분신 에이전트 가이드",
+    "subject": "20260402 분신 에이전트 가이드",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260324T153323/",
     "source_date": "2026-03-24T15:33:00+09:00",
@@ -22088,16 +22108,6 @@
     "source_lastmod": "2026-03-30T16:38:00+09:00",
     "page_id": 382566,
     "url": "https://wikidocs.net/382566"
-  },
-  "20260304T004500": {
-    "path": "pages/botlog/20260304T004500.md",
-    "subject": "20260330 무의식 지식그래프 에이전트 연상맵 토큰절약 키워드 의미망",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260304T004500/",
-    "source_date": "2026-03-04T00:45:00+09:00",
-    "source_lastmod": "2026-03-30T14:43:00+09:00",
-    "page_id": 382557,
-    "url": "https://wikidocs.net/382557"
   },
   "20260304T200300": {
     "path": "pages/botlog/20260304T200300.md",
@@ -22328,16 +22338,6 @@
     "source_lastmod": "2026-03-02T00:00:00+09:00",
     "page_id": 382553,
     "url": "https://wikidocs.net/382553"
-  },
-  "20260301T091700": {
-    "path": "pages/botlog/20260301T091700.md",
-    "subject": "20260301 힣의-교육-지도-파이데이아에서-마인드스톰까지",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260301T091700/",
-    "source_date": "2026-03-01T09:17:00+09:00",
-    "source_lastmod": "2026-03-01T09:17:00+09:00",
-    "page_id": 382551,
-    "url": "https://wikidocs.net/382551"
   },
   "20260227T120800": {
     "path": "pages/botlog/20260227T120800.md",

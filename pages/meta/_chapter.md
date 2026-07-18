@@ -3,6 +3,7 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준의 최신순 목록입니다.
 
+- [20260718 보편 특수 범용 특이](https://wikidocs.net/380947)
 - [20260717 글쓰기 쓰기 라이팅허브](https://wikidocs.net/380662)
 - [20260717 에피파니 현현 깨달음 해탈 메타노이아 회심 경계](https://wikidocs.net/380809)
 - [20260717 진리 진실 정직 확증편향 아첨](https://wikidocs.net/380945)
@@ -223,7 +224,7 @@
 - [20250603 ADHD: 선택적집중](https://wikidocs.net/380489)
 - [20250602 눈물 슬픔 연민 공감 동조](https://wikidocs.net/380991)
 - [20250602 우주산업 우주개발](https://wikidocs.net/380990)
-- [20250602 계획 스케줄 캘린더 어젠다 일정](https://wikidocs.net/380751)
+- [20250602 계획 스케줄 캘린더 어젠다 일정 커리큘럼](https://wikidocs.net/380751)
 - [20250601 신경다양성](https://wikidocs.net/380989)
 - [20250601 메타](https://wikidocs.net/380739)
 - [20250601 과거 현재 미래](https://wikidocs.net/380656)
@@ -294,7 +295,6 @@
 - [20250424 의지 - 권력의지 생존의지 자유의지](https://wikidocs.net/380951)
 - [20250424 부 자산 돈](https://wikidocs.net/380950)
 - [20250424 덕 악덕 도덕](https://wikidocs.net/380948)
-- [20250424 보편 특수 범용 특이](https://wikidocs.net/380947)
 - [20250424 폭정전제정치](https://wikidocs.net/380946)
 - [20250424 time 시간](https://wikidocs.net/380944)
 - [20250424 신학](https://wikidocs.net/380943)

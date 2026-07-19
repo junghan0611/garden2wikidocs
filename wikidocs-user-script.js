@@ -5,8 +5,9 @@
  *
  * 왜 필요한가:
  *   위키독스 리더 사이드바 TOC는 서버가 HTML을 최대 1000노드까지만 렌더한다(하드캡).
- *   이 책은 2243노드(페이지 2238 + 챕터 5)라, seq 순서로 저널(103)+메타(538)+참고문헌
- *   자식 일부까지 채우고 1000에서 잘린다. 그 결과 "4 노트", "5 봇로그" 챕터 헤더가
+ *   이 책은 2244노드(페이지 2238 + 챕터/집합 6)라, seq 순서로 0 어쏠로그(1)+
+ *   저널(103)+메타(538)+참고문헌 자식 일부까지 채우고 1000에서 잘린다. 그 결과
+ *   "4 노트", "5 봇로그" 챕터 헤더가
  *   raw HTML에 아예 emit되지 않아 사이드바에서 사라진다(편집 트리는 별도 렌더러라 정상).
  *   접기(open_yn/toggleTocItem)는 localStorage 클라이언트 기능이라 서버 truncation을 못 되살린다.
  *   → 유일한 실질 해법: 클라이언트에서 전체 챕터 인덱스를 사이드바 최상단에 주입.
@@ -14,9 +15,21 @@
  * 유지보수: 챕터 page_id는 mapping.json 의 _chapters 와 일치해야 한다. 챕터가 추가/재생성되면
  *   아래 CH 배열을 갱신하고 위키독스 책 설정에 다시 붙여넣는다. (user_script는 GitHub 콘텐츠
  *   동기화가 건드리지 않으므로 한 번 저장하면 재동기화에도 유지된다.)
+ *   신규 0 어쏠로그는 page_id 회수 전에도 붙여넣을 수 있도록 null로 두고, 0순위라 서버
+ *   TOC에 항상 나타나는 원래 링크를 DOM에서 찾는다. recover 후 null을 실제 page_id로 바꿔도 된다.
  */
 (function(){
-  var CH=[[380373,'1 저널'],[380477,'2 메타'],[381854,'3 참고문헌'],[381016,'4 노트'],[382535,'5 봇로그']];
+  var CH=[[null,'0 어쏠로그'],[380373,'1 저널'],[380477,'2 메타'],[381854,'3 참고문헌'],[381016,'4 노트'],[382535,'5 봇로그']];
+  function chapterHref(c,sb){
+    if(c[0]) return '/'+c[0];
+    var links=sb.getElementsByTagName('a');
+    for(var i=0;i<links.length;i++){
+      if((links[i].textContent||'').replace(/\s+/g,' ').trim()===c[1]){
+        return links[i].getAttribute('href');
+      }
+    }
+    return null;
+  }
   function inject(){
     var sb=document.querySelector('.col-sm-3.sidebar .toc.toc-checker');
     if(!sb) return false;
@@ -29,10 +42,13 @@
     h.style.cssText='font-weight:600;font-size:12px;opacity:.55;padding:2px 14px 6px;';
     box.appendChild(h);
     CH.forEach(function(c){
+      var href=chapterHref(c,sb);
+      if(!href) return;
       var a=document.createElement('a');
-      a.href='/'+c[0];
+      a.href=href;
       a.textContent=c[1];
       a.style.cssText='display:block;padding:4px 14px;font-size:14px;text-decoration:none;color:inherit;';
+      if(c[0]===null) a.style.fontWeight='600';
       a.addEventListener('mouseover',function(){a.style.opacity='.65';});
       a.addEventListener('mouseout',function(){a.style.opacity='1';});
       box.appendChild(a);

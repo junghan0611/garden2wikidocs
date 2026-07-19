@@ -116,6 +116,14 @@ class TitleTests(unittest.TestCase):
             ["journal", "meta", "bib", "notes", "botlog"],
         )
 
+    def test_tags_are_read_as_string_array(self):
+        self.assertEqual(
+            BUILD.parse_tags('["autholog", "digitalgarden"]'),
+            ["autholog", "digitalgarden"],
+        )
+        with self.assertRaises(ValueError):
+            BUILD.parse_tags('"autholog"')
+
 
 class RelrefTests(unittest.TestCase):
     def transform(self, body):
@@ -229,6 +237,41 @@ class ProvenanceTests(unittest.TestCase):
         self.assertIn("https://wikidocs.net/999", rewritten)
         self.assertEqual(rewritten.count(self.SOURCE["source_url"]), 1)
 
+    def test_collection_index_uses_lastmod_order_and_preserves_source_route(self):
+        sources = [
+            {"id": "20240101T000000", "date": "2024-01-01T00:00:00+09:00",
+             "lastmod": "2026-07-17T09:00:00+09:00"},
+            {"id": "20240201T000000", "date": "2024-02-01T00:00:00+09:00",
+             "lastmod": "2026-07-18T09:00:00+09:00"},
+        ]
+        sources.sort(key=BUILD.collection_sort_key, reverse=True)
+        entries = [
+            (f"{source['id']} 제목", {
+                "url": f"https://wikidocs.net/{index}",
+                "source_url": f"https://notes.junghanacs.com/notes/{source['id']}/",
+            })
+            for index, source in enumerate(sources, start=1)
+        ]
+        index = BUILD.collection_index("autholog", entries)
+        self.assertLess(index.index("20240201T000000"), index.index("20240101T000000"))
+        self.assertIn("`autholog` 태그 문서 2개", index)
+        self.assertIn("https://notes.junghanacs.com/tags/autholog/", index)
+        self.assertEqual(index.count(BUILD.COLLECTION_INDEX_START), 1)
+
+    def test_relink_rewrites_autholog_tag_but_preserves_collection_provenance(self):
+        source_url = "https://notes.junghanacs.com/tags/autholog/"
+        text = (
+            f"{BUILD.PROVENANCE_START}\n[원본]({source_url})\n{BUILD.PROVENANCE_END}\n"
+            f"[집합]({source_url})\n"
+        )
+        guarded, blocks = RELINK.protect_provenance(text)
+        rewritten = RELINK.COLLECTION_LINK.sub(
+            lambda _: "https://wikidocs.net/999", guarded
+        )
+        rewritten = RELINK.restore_provenance(rewritten, blocks)
+        self.assertEqual(rewritten.count(source_url), 1)
+        self.assertIn("[집합](https://wikidocs.net/999)", rewritten)
+
     def test_chapter_index_uses_given_recent_first_order_and_stable_urls(self):
         entries = [
             ("20260718 최신", {
@@ -276,6 +319,7 @@ class BuildIntegrationTests(unittest.TestCase):
                     f'description: "{folder} 설명"\n'
                     f'date: {did[:4]}-{did[4:6]}-{did[6:8]}T00:00:00+09:00\n'
                     + (f"lastmod: {lastmod}\n" if lastmod else "")
+                    + ('tags: ["autholog"]\n' if folder in {"bib", "notes"} else "")
                     + "---\n\n"
                     + ("> [!abstract] 이 노트에 대하여\n> \n> 저자 요약\n\n"
                        if folder == "bib" else "")
@@ -296,6 +340,11 @@ class BuildIntegrationTests(unittest.TestCase):
                     "url": f"https://wikidocs.net/{page_id}",
                 }
                 for page_id, folder in enumerate(fixtures, start=201)
+            }
+            previous["_chapters"]["autholog"] = {
+                "page_id": 204,
+                "subject": "stale",
+                "url": "https://wikidocs.net/204",
             }
             (out / "mapping.json").write_text(
                 json.dumps(previous, ensure_ascii=False), encoding="utf-8"
@@ -327,6 +376,7 @@ class BuildIntegrationTests(unittest.TestCase):
             self.assertEqual(
                 chapter_lines,
                 [
+                    "- [0 어쏠로그](pages/autholog/_chapter.md)",
                     "- [1 저널](pages/journal/_chapter.md)",
                     "- [3 참고문헌](pages/bib/_chapter.md)",
                     "- [4 노트](pages/notes/_chapter.md)",
@@ -367,6 +417,12 @@ class BuildIntegrationTests(unittest.TestCase):
                 self.assertIn("source_date", mapping[did])
                 self.assertIn("source_lastmod", mapping[did])
             self.assertEqual(mapping["_chapters"]["bib"]["subject"], "3 참고문헌")
+            self.assertEqual(mapping["_chapters"]["autholog"]["page_id"], 204)
+            self.assertEqual(mapping["_chapters"]["autholog"]["subject"], "0 어쏠로그")
+            collection = (out / "pages/autholog/_chapter.md").read_text(encoding="utf-8")
+            self.assertIn("`autholog` 태그 문서 2개", collection)
+            self.assertLess(collection.index("20250607 332 참고문헌"),
+                            collection.index("20240301 노트 연결"))
             self.assertEqual((out / "README.md").read_text(encoding="utf-8").splitlines()[0],
                              "# 가든 대문")
 

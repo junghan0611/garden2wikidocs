@@ -31,6 +31,7 @@ from pathlib import Path
 
 API = "https://wikidocs.net/napi"
 GID_COMMENT = re.compile(r"<!-- gid:(\d{8}T\d{6}) -->")
+COLLECTION_COMMENT = re.compile(r"<!-- collection:([a-z0-9]+) -->")
 GID_NAME = re.compile(r"(\d{8}T\d{6})")
 IMG = re.compile(r"!\[([^\]]*)\]\([^)]*\)")
 
@@ -79,10 +80,15 @@ def main():
     for p in book.get("pages", []):
         walk(p, nodes)
     live = {}
+    live_collections = {}
     for n in nodes:
-        m = GID_COMMENT.search(n.get("content") or "")
+        content = n.get("content") or ""
+        m = GID_COMMENT.search(content)
         if m:
-            live[m.group(1)] = n.get("content") or ""
+            live[m.group(1)] = content
+        cm = COLLECTION_COMMENT.search(content)
+        if cm:
+            live_collections[cm.group(1)] = content
 
     # 로컬 페이지 대조
     synced, pending, missing = [], [], []
@@ -98,6 +104,21 @@ def main():
         if gid not in live:
             missing.append(rec)
         elif norm(live[gid]) == norm(path.read_text(encoding="utf-8")):
+            synced.append(rec)
+        else:
+            pending.append(rec)
+
+    # standalone 태그 집합 표지는 Denote ID가 없으므로 marker로 별도 대조한다.
+    for path in sorted(root.glob("pages/**/_chapter.md")):
+        local = path.read_text(encoding="utf-8")
+        match = COLLECTION_COMMENT.search(local)
+        if not match:
+            continue
+        tag = match.group(1)
+        rec = (f"collection:{tag}", "collection")
+        if tag not in live_collections:
+            missing.append(rec)
+        elif norm(live_collections[tag]) == norm(local):
             synced.append(rec)
         else:
             pending.append(rec)

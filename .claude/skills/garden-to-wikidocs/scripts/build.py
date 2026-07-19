@@ -7,6 +7,7 @@
 산출물(이 리포 안):
     TOC.md                       폴더=챕터 계층
     pages/<folder>/_chapter.md   챕터 표지(explicit recent-first index)
+    pages/autholog/_chapter.md   autholog 태그 집합(lastmod recent-first index)
     pages/<folder>/<denote-id>.md  각 노트 (H1 없음, gid 앵커 포함)
     assets/                      복사된 로컬 이미지
     mapping.json                 denote-id -> page/source metadata ledger
@@ -75,6 +76,16 @@ CHAPTER_NAMES = {
     "notes": "4 노트", "botlog": "5 봇로그", "talks": "토크",
 }
 CHAPTER_ORDER = {folder: i for i, folder in enumerate(CHAPTER_NAMES)}
+
+# WikiDocs에 없는 가든 태그 탐색면 가운데 보존할 가치가 큰 집합 페이지. 원본 노트를
+# 복제하지 않고 이미 미러된 페이지를 lastmod 최신순으로 모으는 가상 챕터다.
+COLLECTIONS = {
+    "autholog": {
+        "subject": "0 어쏠로그",
+        "path": "pages/autholog/_chapter.md",
+        "source_url": f"{GARDEN_URL}/tags/autholog/",
+    },
+}
 
 # ---------------------------------------------------------------- 제목/식별자
 
@@ -268,6 +279,19 @@ def split_frontmatter(text: str):
     return meta, body
 
 
+def parse_tags(raw: str) -> list:
+    """garden export의 한 줄 JSON/YAML 호환 태그 배열을 읽는다."""
+    if not raw:
+        return []
+    try:
+        tags = json.loads(raw)
+    except json.JSONDecodeError as error:
+        raise ValueError(f"garden frontmatter tags 형식 오류: {raw!r}") from error
+    if not isinstance(tags, list) or not all(isinstance(tag, str) for tag in tags):
+        raise ValueError(f"garden frontmatter tags 배열 아님: {raw!r}")
+    return tags
+
+
 def read_source(src: Path, folder: str):
     """garden 원본의 authored metadata와 body를 하나의 record로 읽는다."""
     did = denote_id(src.name)
@@ -284,6 +308,7 @@ def read_source(src: Path, folder: str):
         "description": meta.get("description", ""),
         "date": meta["date"],
         "lastmod": meta.get("lastmod", ""),
+        "tags": parse_tags(meta.get("tags", "")),
         "source_url": f"{GARDEN_URL}/{folder}/{did}/",
         "body": body,
     }
@@ -377,6 +402,9 @@ PROVENANCE_START = "<!-- provenance:source:start -->"
 PROVENANCE_END = "<!-- provenance:source:end -->"
 CHAPTER_INDEX_START = "<!-- chapter-index:recent-first:start -->"
 CHAPTER_INDEX_END = "<!-- chapter-index:recent-first:end -->"
+COLLECTION_MARKER = "<!-- collection:{tag} -->"
+COLLECTION_INDEX_START = "<!-- collection-index:recent-first:start -->"
+COLLECTION_INDEX_END = "<!-- collection-index:recent-first:end -->"
 
 
 def extract_author_abstract(body: str):
@@ -416,6 +444,39 @@ def compose_page(author_abstract: str, body: str, source: dict, include_toc: boo
     if body.strip():
         blocks.append(body.strip())
     return "\n\n".join(blocks) + "\n"
+
+
+def collection_sort_key(source: dict):
+    """태그 집합은 폴더와 무관하게 lastmod(없으면 date), ID 최신순이다."""
+    value = source.get("lastmod") or source.get("date")
+    if not SOURCE_TIMESTAMP.match(value or ""):
+        raise ValueError(f"garden collection lastmod/date 형식 오류: {value!r}")
+    return value, source["id"]
+
+
+def collection_index(tag: str, entries: list) -> str:
+    """원본을 복제하지 않고 기존 미러 페이지를 잇는 태그 집합 탐색면."""
+    spec = COLLECTIONS[tag]
+    lines = [
+        COLLECTION_MARKER.format(tag=tag),
+        PROVENANCE_START,
+        '[[TIP("원본·최신본")]]',
+        "이 페이지는 가든 태그 탐색면을 WikiDocs 안에서 순회하기 위한 집합 페이지입니다. "
+        f'[원본·최신본은 가든]({spec["source_url"]})에 있습니다.',
+        "[[/TIP]]",
+        PROVENANCE_END,
+        "",
+        "## 최근 수정순 목록",
+        "",
+        f"가든 `{tag}` 태그 문서 {len(entries)}개를 최근 수정일(lastmod) 역순으로 모았습니다.",
+        "",
+        COLLECTION_INDEX_START,
+    ]
+    for subject, entry in entries:
+        target = entry.get("url") or entry["source_url"]
+        lines.append(f"- [{subject}]({target})")
+    lines.extend([COLLECTION_INDEX_END, ""])
+    return "\n".join(lines)
 
 
 def chapter_index(folder: str, entries: list) -> str:
@@ -590,6 +651,11 @@ def main():
     mapping = {}
     copied = []
     toc = ["# 목차", ""]
+    # 태그 집합은 0순위 탐색면이므로 authored folder 챕터들보다 먼저 둔다.
+    toc.extend(
+        f'- [{spec["subject"]}]({spec["path"]})' for spec in COLLECTIONS.values()
+    )
+    collection_sources = {tag: [] for tag in COLLECTIONS}
 
     for folder in folders:
         src_dir = garden_root / "content" / folder
@@ -644,12 +710,31 @@ def main():
                     entry[key] = previous[key]
             mapping[did] = entry
             chapter_entries.append((subject, entry))
+            for tag in collection_sources:
+                if tag in source["tags"]:
+                    collection_sources[tag].append((source, subject, entry))
 
         (out / cover_rel).write_text(
             chapter_index(folder, chapter_entries), encoding="utf-8"
         )
 
-    # 챕터 표지도 이미 회수한 page_id를 승계하되 subject는 현재 번호 제목으로 갱신한다.
+    # 태그 집합은 authored page를 복제하지 않는 standalone top-level page다. 링크 대상은
+    # 기존 mapping의 stable WikiDocs URL을 우선하고 미회수 페이지는 가든 URL로 남긴다.
+    for tag, tagged in collection_sources.items():
+        tagged.sort(key=lambda item: collection_sort_key(item[0]), reverse=True)
+        spec = COLLECTIONS[tag]
+        collection_path = out / spec["path"]
+        collection_path.parent.mkdir(parents=True, exist_ok=True)
+        collection_path.write_text(
+            collection_index(tag, [
+                (subject_for(collection_sort_key(source)[0], source["title"]), entry)
+                for source, _, entry in tagged
+            ]),
+            encoding="utf-8",
+        )
+
+    # 폴더 표지와 태그 집합 표지의 page_id를 같은 top-level navigation ledger에 승계한다.
+    # `_chapters`는 garden importer가 통째로 제외하므로 Denote-ID mapping을 오염시키지 않는다.
     previous_chapters = previous_mapping.get("_chapters", {})
     chapters = {}
     for folder in folders:
@@ -660,8 +745,16 @@ def main():
                 "subject": CHAPTER_NAMES.get(folder, folder),
                 "url": previous.get("url") or f"https://wikidocs.net/{previous['page_id']}",
             }
-    if chapters:
-        mapping["_chapters"] = chapters
+    for tag, spec in COLLECTIONS.items():
+        previous = previous_chapters.get(tag, {})
+        entry = {"subject": spec["subject"], "path": spec["path"],
+                 "source_url": spec["source_url"]}
+        if previous.get("page_id"):
+            entry["page_id"] = previous["page_id"]
+            entry["url"] = previous.get("url") or \
+                f"https://wikidocs.net/{previous['page_id']}"
+        chapters[tag] = entry
+    mapping["_chapters"] = chapters
 
     # 대문: 가든 content/index.md -> README.md. README 는 위키독스 책 '대문'으로 동기화되고
     # GitHub 리포 대문이기도 하다. index.md 도 계속 갱신되므로 빌드 때마다 재생성한다.
@@ -691,7 +784,11 @@ def main():
                       for key, value in mapping.items())
     print(f"[ok] out      : {out}")
     print(f"[ok] folders  : {folders}")
-    print(f"[ok] pages    : {page_count}개 (+챕터표지 {len(folders)})")
+    collection_counts = ", ".join(
+        f"{tag} {len(entries)}개" for tag, entries in collection_sources.items()
+    )
+    print(f"[ok] pages    : {page_count}개 (+폴더표지 {len(folders)}, 태그집합 {len(COLLECTIONS)})")
+    print(f"[ok] collect  : {collection_counts}")
     print(f"[ok] assets   : {len(copied)}개")
     print(f"[ok] mapping  : mapping.json ({page_count} entries, page_id 승계 {carried_ids}개)")
     print(f"[ok] manifest : {MANIFEST_NAME} ({manifest['source_commit']}, sha256 {manifest_sha})")

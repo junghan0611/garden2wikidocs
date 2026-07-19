@@ -1,5 +1,6 @@
 # 목차
 
+- [0 어쏠로그](pages/autholog/_chapter.md)
 - [1 저널](pages/journal/_chapter.md)
   - [2026-07-13~2026-07-19_W28](pages/journal/20260713T000000.md)
   - [2026-07-06~2026-07-12_W27](pages/journal/20260706T000000.md)

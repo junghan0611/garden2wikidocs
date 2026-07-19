@@ -27,18 +27,22 @@ cross-repo 정책 SSOT는 garden의
 
 ```
 [1] build.py   씨뿌리기 — 가든 폴더 → pages/<folder>/<denote-id>.md + TOC.md + mapping.json
-               + BUILD-MANIFEST.json, content/index.md → README.md(위키독스 책 '대문').
+               + BUILD-MANIFEST.json, content/index.md → README.md(위키독스 책 '대문'),
+               autholog 태그 문서 → pages/autholog/_chapter.md(lastmod recent-first 집합면).
                garden frontmatter의 title/description/date/lastmod를 읽고, 각 페이지에
                abstract-first `원본·최신본` block + <!-- gid:ID --> 앵커를 둔다.
                내부 relref 는 가든 절대URL, provenance source URL은 relink에서 보호.
                기존 mapping의 page_id/url은 동일 Denote ID에 승계한다.
-[2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 회수
+[2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 및
+               collection marker<->standalone 표지 page_id 회수
 [3] relink.py  링크 실화 — pages/**·README 의 가든 URL 중 page_id 있는 것만
                wikidocs.net/<page_id> 로 재작성(없으면 가든 URL 유지, 하이브리드).
+               `/tags/autholog/` 링크도 회수된 어쏠로그 집합 표지로 실화한다.
 [검증] audit.py  품질 게이트 — TOC·mapping·gid·page_id·source metadata/provenance·
                uniqueness/completeness·abstract ordering·미처리 relref·원본/미러 헤딩 보존
 [상태] status.py push 후 웹훅 반영 진척 — book get 라이브 본문 vs 로컬 pages/ 대조로
-               synced/pending/missing 카운트. 대량 push 는 한 번에 안 도는 일이 잦다.
+               gid 페이지와 collection marker의 synced/pending/missing 카운트.
+               대량 push 는 한 번에 안 도는 일이 잦다.
 ```
 
 `pages/x.md` 같은 상대 링크는 위키독스에서 **작동하지 않는다**(메인으로 튕김). 페이지 간
@@ -114,6 +118,14 @@ python3 -m unittest discover -s tests -q
   아니다. audit은 현재 garden 입력과 exact match를 검증한다. 생성 시각은 넣지 않는다.
 - **pages/ 서브디렉토리 지원됨.** `pages/<folder>/...` 로 가든 폴더 구조를 미러한다.
 - **폴더 = 챕터.** `pages/<folder>/_chapter.md`에 explicit recent-first index를 생성한다.
+- **autholog = 0순위 가상 챕터.** WikiDocs에 태그 기능이 없으므로 전 canonical folder에서
+  frontmatter `tags`에 `autholog`가 있는 문서만 `pages/autholog/_chapter.md`에 모은다.
+  원본/본문을 복제하거나 수정하지 않고 기존 미러 URL을 잇는다. 정렬은 폴더와 무관하게
+  `lastmod` 내림차순(`date` fallback, 같은 시각은 Denote ID 내림차순)이다. standalone 표지는
+  `<!-- collection:autholog -->`로 회수하며 `_chapters.autholog`에 page_id를 보관한다.
+  TOC와 사용자 스크립트 탐색면에서는 authored folder보다 앞선 `0 어쏠로그`로 둔다.
+  첫 생성 때는 `audit --allow-missing-page-ids` → push/status → recover/relink → audit의 신규 ID
+  2단계가 필요하다. 그 전까지 README의 태그 링크는 가든 URL fallback이 정상이다.
 - **본문 맨 위 H1 없음, frontmatter 없음.** 제목은 TOC 가 관리.
 - **위키독스는 인제스트 때 이미지를 자기 CDN 으로 재업로드·URL 재작성한다.** 로컬
   `![](../../assets/x.png)` → 라이브 `![](https://static.wikidocs.net/images/page/<pid>/…)`.

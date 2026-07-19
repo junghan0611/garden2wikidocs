@@ -2,7 +2,7 @@
 """가든 -> 위키독스 생성물 품질 감사(audit). stdlib only.
 
 build/relink 뒤 push 전에 실행한다. 가든은 읽기만 하며 다음을 검증한다.
-- TOC 챕터 순서, 엔트리 수, 링크 경로, 안전하지 않은 제목 문자
+- TOC 챕터/태그 집합 순서, 엔트리 수, 링크 경로, 안전하지 않은 제목 문자
 - mapping과 생성 페이지의 1:1 대응, gid 앵커, page_id 완전성
 - 코드펜스 밖 미처리 relref 부재
 - 원본과 미러의 Markdown 헤딩 수 보존(줄바꿈 붕괴 탐지)
@@ -152,6 +152,8 @@ def main():
             chapters.append((label, path, line_number))
 
     expected_chapters = [
+        (spec["subject"], spec["path"]) for spec in BUILD.COLLECTIONS.values()
+    ] + [
         (BUILD.CHAPTER_NAMES.get(folder, folder), f"pages/{folder}/_chapter.md")
         for folder in folders
     ]
@@ -181,6 +183,34 @@ def main():
         )
         if not cover_path.exists() or cover_path.read_text(encoding="utf-8") != expected_index:
             errors.append(f"chapter index: {folder} recent-first 목록/링크 불일치")
+
+    collection_counts = {}
+    for tag, spec in BUILD.COLLECTIONS.items():
+        tagged = []
+        for gid, value in pages_map.items():
+            source_path = garden / "content" / value["folder"] / f"{gid}.md"
+            if not source_path.exists():
+                continue
+            source = BUILD.read_source(source_path, value["folder"])
+            if tag in source["tags"]:
+                tagged.append((source, value))
+        tagged.sort(key=lambda item: BUILD.collection_sort_key(item[0]), reverse=True)
+        collection_counts[tag] = len(tagged)
+        expected_index = BUILD.collection_index(tag, [
+            (BUILD.subject_for(BUILD.collection_sort_key(source)[0], source["title"]), value)
+            for source, value in tagged
+        ])
+        collection_path = out / spec["path"]
+        if (not collection_path.exists() or
+                collection_path.read_text(encoding="utf-8") != expected_index):
+            errors.append(f"collection index: {tag} lastmod recent-first 목록/링크 불일치")
+
+    expected_navigation = set(folders) | set(BUILD.COLLECTIONS)
+    actual_navigation = set(mapping.get("_chapters", {}))
+    if actual_navigation != expected_navigation:
+        errors.append(
+            f"mapping: navigation 표지 불일치: {sorted(actual_navigation)} != "
+            f"{sorted(expected_navigation)}")
     if len(child_paths) != len(expected_paths):
         errors.append(f"TOC: 페이지 수 불일치: {len(child_paths)} != {len(expected_paths)}")
     if len(child_paths) != len(set(child_paths)):
@@ -272,10 +302,22 @@ def main():
             heading_mismatches.append(
                 f"{value['path']}({source_headings}->{output_headings})")
 
-    if missing_ids and not args.allow_missing_page_ids:
-        errors.append(f"mapping: page_id 없는 항목 {len(missing_ids)}개: {missing_ids[:5]}")
-    elif missing_ids:
-        warnings.append(f"mapping: page_id 없는 항목 {len(missing_ids)}개")
+    missing_navigation_ids = [
+        key for key, value in mapping.get("_chapters", {}).items()
+        if not value.get("page_id")
+    ]
+    if (missing_ids or missing_navigation_ids) and not args.allow_missing_page_ids:
+        if missing_ids:
+            errors.append(f"mapping: page_id 없는 항목 {len(missing_ids)}개: {missing_ids[:5]}")
+        if missing_navigation_ids:
+            errors.append(
+                f"mapping: page_id 없는 표지 {len(missing_navigation_ids)}개: "
+                f"{missing_navigation_ids[:5]}")
+    elif missing_ids or missing_navigation_ids:
+        if missing_ids:
+            warnings.append(f"mapping: page_id 없는 항목 {len(missing_ids)}개")
+        if missing_navigation_ids:
+            warnings.append(f"mapping: page_id 없는 표지 {len(missing_navigation_ids)}개")
     if unresolved:
         errors.append(f"페이지: 코드펜스 밖 미처리 relref {len(unresolved)}개: {unresolved[:5]}")
     if metadata_errors:
@@ -301,7 +343,10 @@ def main():
 
     print(f"[ok] manifest : schema/source commit/clean/folders/pages/content hash 일치")
     print(f"[ok] TOC      : 챕터 {len(chapters)}개, 페이지 {len(children)}개, folder별 source newest-first")
-    print(f"[ok] chapters : explicit recent-first index {len(chapters)}개")
+    collection_summary = ", ".join(
+        f"{tag} {count}개" for tag, count in collection_counts.items()
+    )
+    print(f"[ok] chapters : folder recent-first {len(folders)}개, tag collection {collection_summary}")
     print(f"[ok] mapping  : {len(pages_map)}개, page_id {len(pages_map)-len(missing_ids)}개, uniqueness/completeness 보존")
     print(f"[ok] source   : garden metadata/title/provenance 전 페이지 일치 (abstract-first {abstract_pages}개)")
     print("[ok] headings : 원본/미러 전 페이지 보존")

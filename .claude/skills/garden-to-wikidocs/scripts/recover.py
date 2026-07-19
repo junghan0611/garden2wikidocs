@@ -3,7 +3,8 @@
 
 씨뿌리기(build.py) push 후, 위키독스가 부여한 page_id 를 회수한다.
 각 페이지 본문에 심어둔 `<!-- gid:<denote-id> -->` 앵커를 book get 응답에서 읽어
-mapping.json 의 denote-id 항목에 page_id 와 위키독스 URL 을 채운다.
+mapping.json 의 denote-id 항목에 page_id 와 위키독스 URL 을 채운다. 태그 집합 표지는
+`<!-- collection:<tag> -->` 앵커로 `_chapters` navigation ledger에 회수한다.
 
 사용:
     WIKIDOCS_TOKEN=... recover.py --book-id 20676 [--mapping <repo>/mapping.json]
@@ -20,6 +21,7 @@ from pathlib import Path
 
 API = "https://wikidocs.net/napi"
 GID = re.compile(r"<!-- gid:(\d{8}T\d{6}) -->")
+COLLECTION = re.compile(r"<!-- collection:([a-z0-9]+) -->")
 
 
 def api_get(path, token):
@@ -62,11 +64,13 @@ def main():
 
     matched = 0
     fetched = 0
+    resolved_content = {}
     for n in nodes:
         content = n.get("content") or ""
         if not content:                       # book get 이 content 를 안 주면 개별 조회
             content = api_get(f"/pages/{n['id']}/", token).get("content", "")
             fetched += 1
+        resolved_content[n["id"]] = content
         m = GID.search(content)
         if m and m.group(1) in mapping:
             gid = m.group(1)
@@ -76,17 +80,32 @@ def main():
 
     # 챕터 표지(폴더) page_id 회수: 최상위 노드 = 챕터. 자식의 gid 로 폴더를 판별한다.
     # (챕터 표지 자체엔 gid 앵커가 없으므로 자식 노트의 folder 로 역추적)
-    chapters = {}
+    chapters = dict(mapping.get("_chapters", {}))
+    recovered_collections = []
     for top in book.get("pages", []):
+        top_content = resolved_content.get(top["id"], top.get("content") or "")
+        collection_match = COLLECTION.search(top_content)
+        if collection_match and collection_match.group(1) in chapters:
+            tag = collection_match.group(1)
+            chapters[tag].update({
+                "page_id": top["id"], "subject": top.get("subject"),
+                "url": f"https://wikidocs.net/{top['id']}",
+            })
+            recovered_collections.append(tag)
+            continue
+
         folder = None
         for c in top.get("children", []):
-            cm = GID.search(c.get("content") or "")
+            cm = GID.search(resolved_content.get(c["id"], c.get("content") or ""))
             if cm and cm.group(1) in mapping and mapping[cm.group(1)].get("folder"):
                 folder = mapping[cm.group(1)]["folder"]
                 break
         if folder:
-            chapters[folder] = {"page_id": top["id"], "subject": top.get("subject"),
-                                "url": f"https://wikidocs.net/{top['id']}"}
+            previous = chapters.get(folder, {})
+            chapters[folder] = {
+                **previous, "page_id": top["id"], "subject": top.get("subject"),
+                "url": f"https://wikidocs.net/{top['id']}",
+            }
     if chapters:
         mapping["_chapters"] = chapters
 
@@ -100,6 +119,7 @@ def main():
     print(f"[ok] 위키독스 페이지 노드: {len(nodes)}개 (개별조회 {fetched})")
     print(f"[ok] 회수 매칭 : {matched}/{total}")
     print(f"[ok] 챕터 표지 : {len(chapters)}개 {sorted(chapters)}")
+    print(f"[ok] 태그 집합 : {len(recovered_collections)}개 {sorted(recovered_collections)}")
     if unmatched:
         print(f"[warn] page_id 없는 항목 {len(unmatched)}개: {unmatched[:5]}{'...' if len(unmatched)>5 else ''}")
     print(f"[ok] mapping  : {mapping_path}")

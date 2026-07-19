@@ -22404,6 +22404,11 @@
       "page_id": 382535,
       "subject": "5 봇로그",
       "url": "https://wikidocs.net/382535"
+    },
+    "autholog": {
+      "subject": "0 어쏠로그",
+      "path": "pages/autholog/_chapter.md",
+      "source_url": "https://notes.junghanacs.com/tags/autholog/"
     }
   }
 }

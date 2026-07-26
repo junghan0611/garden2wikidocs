@@ -25,6 +25,7 @@ TOC_LINE = re.compile(r"^(\s*)- \[([^\]]*)\]\(([^)]+)\)$")
 HEADING = re.compile(r"^#{2,6}[ \t]+", re.MULTILINE)
 GID_LINE = re.compile(r"^<!-- gid:(\d{8}T\d{6}) -->$")
 RELREF_SHORTCODE = re.compile(r"\{\{<\s*relref\b")
+WIKIDOCS_LINK = re.compile(r"https://wikidocs\.net/(\d+)")
 SOURCE_URL_ID = re.compile(r"^https://notes\.junghanacs\.com/[^/]+/(\d{8}T\d{6})/$")
 PROVENANCE_BLOCK = re.compile(
     r"<!-- provenance:source:start -->.*?<!-- provenance:source:end -->", re.DOTALL)
@@ -57,6 +58,10 @@ def main():
     ap.add_argument("--out", default=None,
                     help="미러 리포 루트(기본: 이 스크립트로부터 위 README.md 있는 곳)")
     ap.add_argument("--allow-missing-page-ids", action="store_true")
+    ap.add_argument("--core", action="store_true",
+                    help="build --core 로 만든 발행면을 검증한다(TOC = 코어만).")
+    ap.add_argument("--garden-links", action="store_true",
+                    help="build --garden-links 로 만든 표지를 검증한다(링크 전부 가든).")
     args = ap.parse_args()
 
     garden = Path(args.garden).expanduser()
@@ -151,9 +156,9 @@ def main():
         else:
             chapters.append((label, path, line_number))
 
-    expected_chapters = [
+    expected_chapters = ([] if args.core else [
         (spec["subject"], spec["path"]) for spec in BUILD.COLLECTIONS.values()
-    ] + [
+    ]) + [
         (BUILD.CHAPTER_NAMES.get(folder, folder), f"pages/{folder}/_chapter.md")
         for folder in folders
     ]
@@ -162,6 +167,27 @@ def main():
         errors.append(f"TOC: 챕터 순서/목록 불일치: {actual_chapters} != {expected_chapters}")
 
     child_paths = [path for _, path, _ in children]
+    # TOC 에 등록된 것만 위키독스가 라이브로 두므로, 발행면과 링크 기준을 여기서 정한다.
+    published = set(child_paths) | {path for _, path, _ in chapters}
+    link_scope = set() if args.garden_links else published
+    registered = len(child_paths) + len(chapters)
+    if registered > BUILD.PUBLISH_LIMIT:
+        errors.append(
+            f"TOC: 발행 {registered}개 > 위키독스 상한 {BUILD.PUBLISH_LIMIT}개 "
+            "(웹훅이 동기화를 통째로 거부한다)")
+
+    # 코어 판정에 필요한 garden source 를 한 번만 읽어 집합면 검증과 공유한다.
+    sources = {}
+    for gid, value in pages_map.items():
+        source_path = garden / "content" / value["folder"] / f"{gid}.md"
+        if source_path.exists():
+            sources[gid] = BUILD.read_source(source_path, value["folder"])
+
+    def is_core(gid, value):
+        source = sources.get(gid)
+        return (source is not None and BUILD.CORE_TAG in source["tags"]) \
+            or value.get("folder") in BUILD.CORE_FOLDERS
+
     expected_paths = []
     for folder in folders:
         folder_entries = [
@@ -176,36 +202,35 @@ def main():
             }),
             reverse=True,
         )
-        expected_paths.extend(value["path"] for _, value in folder_entries)
+        expected_paths.extend(
+            value["path"] for gid, value in folder_entries
+            if not args.core or is_core(gid, value)
+        )
+        # 표지 목록은 발행 여부와 무관하게 폴더 전량을 싣는다. 달라지는 건 링크 대상뿐이다.
         cover_path = out / f"pages/{folder}/_chapter.md"
         expected_index = BUILD.chapter_index(
-            folder, [(value["subject"], value) for _, value in folder_entries]
+            folder, [(value["subject"], value) for _, value in folder_entries], link_scope
         )
         if not cover_path.exists() or cover_path.read_text(encoding="utf-8") != expected_index:
             errors.append(f"chapter index: {folder} recent-first 목록/링크 불일치")
 
     collection_counts = {}
     for tag, spec in BUILD.COLLECTIONS.items():
-        tagged = []
-        for gid, value in pages_map.items():
-            source_path = garden / "content" / value["folder"] / f"{gid}.md"
-            if not source_path.exists():
-                continue
-            source = BUILD.read_source(source_path, value["folder"])
-            if tag in source["tags"]:
-                tagged.append((source, value))
+        tagged = [(source, pages_map[gid]) for gid, source in sources.items()
+                  if tag in source["tags"]]
         tagged.sort(key=lambda item: BUILD.collection_sort_key(item[0]), reverse=True)
         collection_counts[tag] = len(tagged)
         expected_index = BUILD.collection_index(tag, [
             (BUILD.subject_for(BUILD.collection_sort_key(source)[0], source["title"]), value)
             for source, value in tagged
-        ])
+        ], link_scope)
         collection_path = out / spec["path"]
         if (not collection_path.exists() or
                 collection_path.read_text(encoding="utf-8") != expected_index):
             errors.append(f"collection index: {tag} lastmod recent-first 목록/링크 불일치")
 
-    expected_navigation = set(folders) | set(BUILD.COLLECTIONS)
+    expected_navigation = set(folders) if args.core \
+        else set(folders) | set(BUILD.COLLECTIONS)
     actual_navigation = set(mapping.get("_chapters", {}))
     if actual_navigation != expected_navigation:
         errors.append(
@@ -232,6 +257,25 @@ def main():
     if extra_toc:
         errors.append(f"TOC: 미등록 경로 {len(extra_toc)}개: {extra_toc[:5]}")
 
+    # 발행면 밖 page_id 로 나가는 링크는 라이브에서 404 다(TOC 에서 빠지면 삭제되므로).
+    # 우리 mapping 이 소유한 page_id 만 본다 — 저자가 인용한 외부 위키독스 링크는 대상이 아니다.
+    owned_ids = {str(value["page_id"]): gid for gid, value in pages_map.items()
+                 if value.get("page_id")}
+    live_ids = {str(value["page_id"]) for gid, value in pages_map.items()
+                if value.get("page_id") and value["path"] in published}
+    live_ids |= {str(cover["page_id"]) for cover in mapping.get("_chapters", {}).values()
+                 if cover.get("page_id")}
+    dead_links = []
+    for path in sorted(out.glob("pages/**/*.md")) + [out / "README.md"]:
+        if not path.exists():
+            continue
+        for page_id in set(WIKIDOCS_LINK.findall(path.read_text(encoding="utf-8"))):
+            if page_id in owned_ids and page_id not in live_ids:
+                dead_links.append(f"{path.relative_to(out)}->{page_id}")
+    if dead_links:
+        errors.append(
+            f"링크: 발행면 밖 page_id 참조 {len(dead_links)}개(라이브 404): {dead_links[:5]}")
+
     missing_ids = []
     heading_mismatches = []
     unresolved = []
@@ -248,7 +292,8 @@ def main():
         gid_match = GID_LINE.match(first_line)
         if not gid_match or gid_match.group(1) != gid:
             errors.append(f"mapping: gid 앵커 불일치: {value['path']}")
-        if not value.get("page_id"):
+        # page_id 는 위키독스가 발행할 때 부여한다. 발행면 밖 페이지는 없는 게 정상이다.
+        if not value.get("page_id") and value["path"] in published:
             missing_ids.append(gid)
         if RELREF_SHORTCODE.search(unprotected(output)):
             unresolved.append(value["path"])
@@ -278,7 +323,10 @@ def main():
             metadata_errors.append(f"{gid}:subject date")
 
         provenance = list(PROVENANCE_BLOCK.finditer(output))
-        if len(provenance) != 1 or output.count(source["source_url"]) != 1:
+        # source URL 개수는 provenance block 안에서만 센다. 본문이 같은 노트를 가리키는
+        # 저자 링크(문서 내 헤딩 참조 등)는 정상이고, relink 전에는 가든 URL 그대로다.
+        if len(provenance) != 1 or \
+                provenance[0].group(0).count(source["source_url"]) != 1:
             provenance_errors.append(f"{gid}:block/url count")
         else:
             provenance_match = provenance[0]
@@ -347,7 +395,11 @@ def main():
         f"{tag} {count}개" for tag, count in collection_counts.items()
     )
     print(f"[ok] chapters : folder recent-first {len(folders)}개, tag collection {collection_summary}")
-    print(f"[ok] mapping  : {len(pages_map)}개, page_id {len(pages_map)-len(missing_ids)}개, uniqueness/completeness 보존")
+    carried_ids = sum(1 for value in pages_map.values() if value.get("page_id"))
+    published_pages = sum(1 for value in pages_map.values()
+                          if value["path"] in published)
+    print(f"[ok] mapping  : {len(pages_map)}개, page_id {carried_ids}개, "
+          f"발행 {published_pages}개/{BUILD.PUBLISH_LIMIT}, uniqueness/completeness 보존")
     print(f"[ok] source   : garden metadata/title/provenance 전 페이지 일치 (abstract-first {abstract_pages}개)")
     print("[ok] headings : 원본/미러 전 페이지 보존")
     print("[ok] relref   : 코드펜스 밖 미처리 0개")

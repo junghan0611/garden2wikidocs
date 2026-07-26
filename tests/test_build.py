@@ -506,5 +506,120 @@ class BuildIntegrationTests(unittest.TestCase):
             self.assertFalse((out / "BUILD-MANIFEST.json").exists())
 
 
+class PublishGateTests(unittest.TestCase):
+    """위키독스는 TOC 등록 페이지만 라이브로 두고 나머지는 삭제한다(500 상한)."""
+
+    ENTRY = {
+        "path": "pages/notes/20260718T000000.md",
+        "url": "https://wikidocs.net/7",
+        "source_url": "https://notes.junghanacs.com/notes/20260718T000000/",
+    }
+
+    def test_link_target_prefers_page_id_when_publication_is_unknown(self):
+        self.assertEqual(BUILD.link_target(self.ENTRY), "https://wikidocs.net/7")
+
+    def test_link_target_keeps_page_id_for_published_page(self):
+        target = BUILD.link_target(self.ENTRY, {self.ENTRY["path"]})
+        self.assertEqual(target, "https://wikidocs.net/7")
+
+    def test_link_target_falls_back_to_garden_for_unpublished_page(self):
+        # TOC 밖 페이지의 page_id 는 라이브에서 404 다.
+        self.assertEqual(BUILD.link_target(self.ENTRY, set()), self.ENTRY["source_url"])
+
+    def test_chapter_index_sends_unpublished_entries_to_garden(self):
+        index = BUILD.chapter_index("notes", [("20260718 제목", self.ENTRY)], set())
+        self.assertIn(f"[20260718 제목]({self.ENTRY['source_url']})", index)
+        self.assertNotIn("wikidocs.net/7", index)
+
+    def test_readme_core_block_states_edition_not_mirror(self):
+        block = BUILD.readme_meta_block(published=244, total=2239, core=True)
+        self.assertIn("디지털가든 코어", block)
+        self.assertNotIn("미러링한 책입니다", block)
+        self.assertIn("가든 2,239개 중 244개", block)
+        self.assertIn(BUILD.CORE_NOTE_URL, block)
+
+    def test_readme_full_mirror_block_is_unchanged(self):
+        self.assertIn("미러링한 책입니다", BUILD.readme_meta_block())
+
+
+class CoreBuildIntegrationTests(unittest.TestCase):
+    def test_core_publishes_only_core_but_keeps_every_page_on_disk(self):
+        with tempfile.TemporaryDirectory() as td:
+            base = Path(td)
+            garden, out = base / "garden", base / "out"
+            (garden / "content").mkdir(parents=True)
+            out.mkdir()
+            (out / "README.md").write_text("placeholder\n", encoding="utf-8")
+
+            # journal 은 코어 밖, notes 는 autholog 태그로 코어, botlog 는 폴더째 코어.
+            fixtures = {
+                "journal": ("20240101T000000", ""),
+                "notes": ("20240301T000000", 'tags: ["autholog"]\n'),
+                "botlog": ("20240401T000000", ""),
+            }
+            for folder, (did, tags) in fixtures.items():
+                (garden / "content" / folder).mkdir()
+                (garden / "content" / folder / f"{did}.md").write_text(
+                    f'---\ntitle: "{folder} 제목"\ndescription: "설명"\n'
+                    f"date: {did[:4]}-{did[4:6]}-{did[6:8]}T00:00:00+09:00\n"
+                    f"{tags}---\n\n본문\n",
+                    encoding="utf-8",
+                )
+            (garden / "content/index.md").write_text(
+                '---\ntitle: "대문"\n---\n\n본문\n', encoding="utf-8")
+            (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
+            init_git_repo(garden)
+
+            subprocess.run(
+                [sys.executable, str(BUILD_PATH), "--folders", "journal,notes,botlog",
+                 "--garden", str(garden), "--out", str(out), "--core", "--garden-links"],
+                check=True, capture_output=True, text=True,
+            )
+
+            toc = (out / "TOC.md").read_text(encoding="utf-8")
+            children = [line for line in toc.splitlines() if line.startswith("  - [")]
+            self.assertEqual(
+                sorted(line.split("(")[-1].rstrip(")") for line in children),
+                ["pages/botlog/20240401T000000.md", "pages/notes/20240301T000000.md"],
+            )
+            # 코어 밖 저널도 표지도 발행면에서만 빠지고 파일과 mapping 은 남는다.
+            self.assertNotIn("0 어쏠로그", toc)
+            self.assertTrue((out / "pages/journal/20240101T000000.md").exists())
+            mapping = json.loads((out / "mapping.json").read_text(encoding="utf-8"))
+            self.assertIn("20240101T000000", mapping)
+            self.assertNotIn("autholog", mapping["_chapters"])
+
+            cover = (out / "pages/journal/_chapter.md").read_text(encoding="utf-8")
+            self.assertIn("https://notes.junghanacs.com/journal/20240101T000000/", cover)
+            self.assertIn("디지털가든 코어",
+                          (out / "README.md").read_text(encoding="utf-8"))
+
+    def test_build_refuses_to_write_when_toc_exceeds_publish_limit(self):
+        with tempfile.TemporaryDirectory() as td:
+            base = Path(td)
+            garden, out = base / "garden", base / "out"
+            (garden / "content/notes").mkdir(parents=True)
+            out.mkdir()
+            (out / "README.md").write_text("placeholder\n", encoding="utf-8")
+            for i in range(BUILD.PUBLISH_LIMIT + 1):
+                did = f"2024{i // 400 + 1:02d}{i % 28 + 1:02d}T{i // 60:02d}{i % 60:02d}00"
+                (garden / "content/notes" / f"{did}.md").write_text(
+                    f'---\ntitle: "제목 {i}"\ndescription: "d"\n'
+                    f"date: 2024-01-01T00:00:00+09:00\n---\n\n본문\n", encoding="utf-8")
+            (garden / "content/index.md").write_text(
+                '---\ntitle: "대문"\n---\n\n본문\n', encoding="utf-8")
+            (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
+            init_git_repo(garden)
+
+            rejected = subprocess.run(
+                [sys.executable, str(BUILD_PATH), "--folders", "notes",
+                 "--garden", str(garden), "--out", str(out)],
+                check=False, capture_output=True, text=True,
+            )
+            self.assertNotEqual(rejected.returncode, 0)
+            self.assertIn(f"위키독스 상한 {BUILD.PUBLISH_LIMIT}", rejected.stderr)
+            self.assertFalse((out / "TOC.md").exists())
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -87,6 +87,15 @@ COLLECTIONS = {
     },
 }
 
+# 위키독스 책은 TOC.md 에 등록된 페이지를 최대 500개까지만 받는다(2026-07 실측). 초과하면
+# 웹훅 동기화 자체가 거부되고, 반대로 TOC 에서 빠진 페이지는 라이브에서 삭제된다(404).
+# 그래서 TOC 는 목차가 아니라 발행 목록이고, mapping 에 page_id 가 남아 있어도 TOC 밖
+# 페이지의 위키독스 URL 은 죽은 링크다. `--core` 는 상한 아래로 내리는 발행면이며
+# pages/ 와 mapping 은 가든 전량을 그대로 보존한다.
+PUBLISH_LIMIT = 500
+CORE_TAG = "autholog"
+CORE_FOLDERS = ("botlog",)
+
 # ---------------------------------------------------------------- 제목/식별자
 
 SIGILS = "#@§¤†‡©※¶‣∷"
@@ -350,25 +359,50 @@ AI_VISITORS_SEC = re.compile(r"^## AI visitors\b.*?(?=^## |\Z)", re.DOTALL | re.
 GARDEN_HOME = "https://notes.junghanacs.com"
 GARDEN_REPO = "https://github.com/junghan0611/garden"
 MIRROR_REPO = "https://github.com/junghan0611/garden2wikidocs"
+# 코어가 왜 가든 전량이 아닌지를 저자가 직접 쓴 글. 대문에서 여기로 보낸다.
+CORE_NOTE_URL = f"{GARDEN_URL}/notes/20230706T160800"
 
 
-def readme_meta_block() -> str:
-    """책 대문 상단 메타데이터 섹션(헤딩 레벨). 마지막 동기화 = 빌드 날짜."""
+def readme_meta_block(published: int = 0, total: int = 0, core: bool = False) -> str:
+    """책 대문 상단 메타데이터 섹션(헤딩 레벨). 마지막 동기화 = 빌드 날짜.
+
+    코어 판본일 때 '미러링한 책'이라고 쓰면 거짓이다. 가든 전량이 아니라 골라 낸
+    현재 판본임을 숫자와 함께 밝히고, 왜 전체가 아닌지를 설명한 노트로 보낸다.
+    """
+    if not core:
+        return (
+            "## 이 책에 대하여\n\n"
+            "정한(Junghan Kim)의 디지털 가든을 위키독스로 미러링한 책입니다. "
+            "원본과 최신본은 가든에서 보실 수 있습니다.\n\n"
+            f"- 원본 가든: <{GARDEN_HOME}>\n"
+            f"- 가든 소스: <{GARDEN_REPO}>\n"
+            f"- 미러 리포: <{MIRROR_REPO}>\n"
+            f"- 마지막 동기화: {date.today().isoformat()}\n"
+        )
     return (
         "## 이 책에 대하여\n\n"
-        "정한(Junghan Kim)의 디지털 가든을 위키독스로 미러링한 책입니다. "
-        "원본과 최신본은 가든에서 보실 수 있습니다.\n\n"
+        "정한(Junghan Kim)의 **디지털가든 코어**입니다. 가든 전체를 미러링한 책이 "
+        "아닙니다. 어쏠로그(생생날것)와 봇로그를 중심으로 "
+        f"가든 {total:,}개 문서 가운데 {published:,}개를 골라 낸 현재 판본입니다. "
+        "여기 없는 글도 지워진 것이 아니라 가든에 그대로 있고, 원본과 최신본은 "
+        "언제나 가든입니다.\n\n"
+        "코어는 가장 좋은 글의 목록이 아니라, 지금 불러낼 수 있는 이름과 말과 그 관계를 "
+        "쌓아온 시간축의 현재 판본입니다. 왜 전체가 아니라 코어인지는 "
+        f"[생생날것 500개 문턱 — 디지털가든 코어는 시간축의 판본이다]({CORE_NOTE_URL})에 "
+        "적혀 있습니다.\n\n"
         f"- 원본 가든: <{GARDEN_HOME}>\n"
         f"- 가든 소스: <{GARDEN_REPO}>\n"
-        f"- 미러 리포: <{MIRROR_REPO}>\n"
+        f"- 코어 리포: <{MIRROR_REPO}>\n"
+        f"- 이 판본: 가든 {total:,}개 중 {published:,}개\n"
         f"- 마지막 동기화: {date.today().isoformat()}\n"
     )
 
 
-def readme_head(readme_body: str) -> str:
+def readme_head(readme_body: str, published: int = 0, total: int = 0,
+                core: bool = False) -> str:
     body = AI_VISITORS_BQ.sub("", readme_body, count=1)
     body = AI_VISITORS_SEC.sub("", body, count=1)
-    return readme_meta_block() + "\n" + body.lstrip("\n")
+    return readme_meta_block(published, total, core) + "\n" + body.lstrip("\n")
 
 
 def figure_repl(m):
@@ -454,7 +488,19 @@ def collection_sort_key(source: dict):
     return value, source["id"]
 
 
-def collection_index(tag: str, entries: list) -> str:
+def link_target(entry: dict, published=None) -> str:
+    """발행된 페이지만 위키독스 URL로 잇고, 나머지는 가든 원본으로 보낸다.
+
+    `published` 는 TOC 에 등록된 page 경로 집합이다. TOC 밖 페이지는 위키독스가
+    삭제하므로 mapping 에 page_id 가 남아 있어도 그 URL 은 404 다. None 이면
+    (전량 발행) 종전대로 page_id 우선이다.
+    """
+    if published is not None and entry["path"] not in published:
+        return entry["source_url"]
+    return entry.get("url") or entry["source_url"]
+
+
+def collection_index(tag: str, entries: list, published=None) -> str:
     """원본을 복제하지 않고 기존 미러 페이지를 잇는 태그 집합 탐색면."""
     spec = COLLECTIONS[tag]
     lines = [
@@ -473,13 +519,12 @@ def collection_index(tag: str, entries: list) -> str:
         COLLECTION_INDEX_START,
     ]
     for subject, entry in entries:
-        target = entry.get("url") or entry["source_url"]
-        lines.append(f"- [{subject}]({target})")
+        lines.append(f"- [{subject}]({link_target(entry, published)})")
     lines.extend([COLLECTION_INDEX_END, ""])
     return "\n".join(lines)
 
 
-def chapter_index(folder: str, entries: list) -> str:
+def chapter_index(folder: str, entries: list, published=None) -> str:
     """WikiDocs sidebar 오름차순과 분리된 안정적 recent-first chapter index."""
     basis = "작성일(source_date)" if folder == "journal" \
         else "최근 수정일(source_lastmod, 없으면 source_date)"
@@ -491,8 +536,7 @@ def chapter_index(folder: str, entries: list) -> str:
         "",
     ]
     for subject, entry in entries:
-        target = entry.get("url") or entry["source_url"]
-        lines.append(f"- [{subject}]({target})")
+        lines.append(f"- [{subject}]({link_target(entry, published)})")
     lines.extend([CHAPTER_INDEX_END, ""])
     return "\n".join(lines)
 
@@ -614,6 +658,14 @@ def main():
     ap.add_argument("--out", default=None,
                     help="책 리포 루트(기본: 이 스크립트로부터 위로 README.md 있는 곳)")
     ap.add_argument("--toc-threshold", type=int, default=3)
+    ap.add_argument("--core", action="store_true",
+                    help=f"TOC 등록을 발행 코어(`{CORE_TAG}` 태그 ∪ "
+                         f"{','.join(CORE_FOLDERS)} 폴더)로 제한한다. 위키독스 "
+                         f"{PUBLISH_LIMIT}개 상한 대응. pages/·mapping 은 전량 유지.")
+    ap.add_argument("--garden-links", action="store_true",
+                    help="표지·집합면의 모든 링크를 가든 원본 URL로 낸다. 위키독스 URL은 "
+                         "발행된 페이지에만 살아 있으므로, 발행면이 바뀌는 동안에는 "
+                         "가든 한 곳으로 보내는 편이 끊기지 않는다.")
     args = ap.parse_args()
 
     garden_root = Path(args.garden).expanduser()
@@ -651,11 +703,16 @@ def main():
     mapping = {}
     copied = []
     toc = ["# 목차", ""]
-    # 태그 집합은 0순위 탐색면이므로 authored folder 챕터들보다 먼저 둔다.
-    toc.extend(
-        f'- [{spec["subject"]}]({spec["path"]})' for spec in COLLECTIONS.values()
-    )
+    # 태그 집합은 0순위 탐색면이므로 authored folder 챕터들보다 먼저 둔다. 코어 모드에서는
+    # 아직 page_id 가 없어 새 페이지를 만들게 되므로 발행면에서 뺀다(표지 파일은 계속 생성).
+    if not args.core:
+        toc.extend(
+            f'- [{spec["subject"]}]({spec["path"]})' for spec in COLLECTIONS.values()
+        )
     collection_sources = {tag: [] for tag in COLLECTIONS}
+    published = set()          # TOC 에 등록된 = 라이브가 될 page 경로
+    # 링크 대상 판단 기준. --garden-links 면 빈 집합이라 모든 목록이 가든으로 나간다.
+    link_scope = set() if args.garden_links else published
 
     for folder in folders:
         src_dir = garden_root / "content" / folder
@@ -695,7 +752,9 @@ def main():
 
             page_rel = f"pages/{folder}/{did}.md"
             (out / page_rel).write_text(content, encoding="utf-8")
-            toc.append(f"  - [{subject}]({page_rel})")
+            if not args.core or CORE_TAG in source["tags"] or folder in CORE_FOLDERS:
+                toc.append(f"  - [{subject}]({page_rel})")
+                published.add(page_rel)
             entry = {
                 "path": page_rel,
                 "subject": subject,
@@ -715,7 +774,7 @@ def main():
                     collection_sources[tag].append((source, subject, entry))
 
         (out / cover_rel).write_text(
-            chapter_index(folder, chapter_entries), encoding="utf-8"
+            chapter_index(folder, chapter_entries, link_scope), encoding="utf-8"
         )
 
     # 태그 집합은 authored page를 복제하지 않는 standalone top-level page다. 링크 대상은
@@ -729,7 +788,7 @@ def main():
             collection_index(tag, [
                 (subject_for(collection_sort_key(source)[0], source["title"]), entry)
                 for source, _, entry in tagged
-            ]),
+            ], link_scope),
             encoding="utf-8",
         )
 
@@ -745,7 +804,7 @@ def main():
                 "subject": CHAPTER_NAMES.get(folder, folder),
                 "url": previous.get("url") or f"https://wikidocs.net/{previous['page_id']}",
             }
-    for tag, spec in COLLECTIONS.items():
+    for tag, spec in (() if args.core else COLLECTIONS.items()):
         previous = previous_chapters.get(tag, {})
         entry = {"subject": spec["subject"], "path": spec["path"],
                  "source_url": spec["source_url"]}
@@ -763,11 +822,23 @@ def main():
     if index_src.exists():
         imeta, ibody = split_frontmatter(index_src.read_text(encoding="utf-8"))
         icontent = transform_body(ibody, garden_root, assets_dir, "", copied)
-        icontent = readme_head(icontent)            # AI visitors 제거 + 메타데이터 섹션
+        # AI visitors 제거 + 메타데이터 섹션. 코어 판본이면 발행 규모를 그대로 밝힌다.
+        icontent = readme_head(icontent, len(published),
+                               sum(key != "_chapters" for key in mapping), args.core)
         icontent = scrub_identity(icontent, scrub_rules)
         ititle = clean_toc_title(imeta.get("title") or "Home")
         (out / "README.md").write_text(f"# {ititle}\n\n{icontent}", encoding="utf-8")
         print(f"[ok] README    : content/index.md -> README.md ({ititle})")
+
+    # 발행 예산은 TOC·mapping 을 쓰기 전에 막는다. 상한을 넘긴 TOC 는 웹훅이 통째로
+    # 거부하므로 그런 TOC 는 아예 만들지 않는다. pages/ 는 이미 다시 쓰였으니 옵션을
+    # 고쳐 build 를 한 번 더 돌려야 생성물이 일관된 상태로 돌아온다.
+    toc_registered = sum(1 for line in toc if "](pages/" in line)
+    if toc_registered > PUBLISH_LIMIT:
+        raise ValueError(
+            f"TOC 등록 {toc_registered}개 > 위키독스 상한 {PUBLISH_LIMIT}개. "
+            f"--core 로 발행면을 줄이거나 코어 정의를 조정한 뒤 다시 build 한다 "
+            f"(TOC·mapping 은 쓰지 않았고 pages/ 는 재생성됐다).")
 
     (out / "TOC.md").write_text("\n".join(toc) + "\n", encoding="utf-8")
     mapping_path.write_text(

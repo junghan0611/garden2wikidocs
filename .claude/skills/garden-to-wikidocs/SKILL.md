@@ -54,12 +54,12 @@ cross-repo 정책 SSOT는 garden의
 push 한 번이 약 20분짜리 전체 WikiDocs webhook을 촉발한다. **build 직후 push하지 말고,
 반드시 relink와 audit을 먼저 통과한다.**
 
-### 정상 갱신(existing page_id 완비)
+### 정상 갱신(코어 발행면 — 500 상한 아래)
 
 ```bash
-python3 .claude/skills/garden-to-wikidocs/scripts/build.py --folders journal,meta,bib,notes,botlog
-python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
-python3 .claude/skills/garden-to-wikidocs/scripts/audit.py
+python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
+  --folders journal,meta,bib,notes,botlog --core --garden-links
+python3 .claude/skills/garden-to-wikidocs/scripts/audit.py --core --garden-links
 python3 -m unittest discover -s tests -q                         # gate
 # gitleaks dir . --no-banner --redact                           # optional gate
 # 위 gate 뒤 GLG 승인 시에만 commit/push
@@ -87,6 +87,14 @@ python3 -m unittest discover -s tests -q
 
 - `build.py --folders journal,meta,bib,notes,botlog` 처럼 쉼표로 여러 폴더 동시 처리.
   알려진 챕터는 입력 순서와 무관하게 `1 저널·2 메타·3 참고문헌·4 노트·5 봇로그`로 정렬.
+- `--core` 는 TOC 등록을 발행 코어(`autholog` 태그 ∪ `botlog` 폴더)로 제한한다. 500 상한
+  대응이며 `pages/`·`mapping.json` 은 가든 전량을 그대로 만든다. 상한을 넘기면 build 가
+  생성물을 쓰기 전에 실패한다. 코어에서 저널을 뺀 이유는 저널만이 시간축으로 계속 늘어나는
+  유일한 발행 증가원이기 때문이다(나머지는 새 노트 생성이 아니라 수선으로 자란다).
+- `--garden-links` 는 표지·집합면의 링크를 전부 가든 원본으로 낸다. 발행면이 바뀌는 동안
+  가장 안전한 기본값이다. 코어끼리 위키독스 내부 순회를 살리려면 이 옵션을 빼고 `relink.py`
+  를 돌린다 — relink 는 현재 TOC 에 등록된 대상만 실화하므로 죽은 링크가 생기지 않는다.
+  `audit` 에는 build 와 같은 옵션을 그대로 넘긴다.
 - `--garden` 기본 `~/repos/gh/notes`, `--out` 기본은 README.md 있는 리포 루트.
 - build는 garden `content/`·`change-text.sh`가 dirty/untracked면 생성물 쓰기 전에 실패한다.
   canonical garden commit 뒤에만 미러를 생성한다.
@@ -94,6 +102,20 @@ python3 -m unittest discover -s tests -q
 
 ## 실측으로 확정된 불변식 (깨지 말 것 — 실험으로 검증됨)
 
+- **책 한 권의 상한은 TOC.md 등록 페이지 500개다.** 넘으면 웹훅이 동기화를 통째로
+  거부한다(`GitHub 동기화 실패: TOC.md에 2244개의 페이지가 등록되어 있습니다.
+  책의 페이지는 최대 500개까지만 가능합니다.`). 커밋 델타 크기와 무관하게 매번 걸리므로
+  TOC 를 줄이는 것 외에 우회로가 없다. 2026-07-18 까지는 없던 규칙이 사후 도입됐다.
+- **TOC.md 는 목차가 아니라 발행 목록이다.** TOC 에서 뺀 페이지는 라이브에서 삭제된다.
+  2026-07-26 실측: 2,243 → 249 노드, 뺀 페이지 URL 은 404, 복구 경로 없음(TOC 를
+  되돌리는 push 도 500 에 다시 막힌다). 리포의 `pages/`·`mapping.json` 은 전량 보존되므로
+  상한이 풀리면 TOC 복원만으로 되돌아간다.
+- **살아남은 페이지의 page_id 는 흔들리지 않는다.** 같은 실측에서 생존 244개 전부
+  page_id 유지(변경 0). 대량 삭제와 page_id 안정성은 별개다.
+- **위키독스 URL 은 발행된 페이지에만 유효하다.** mapping 에 page_id 가 남아 있어도 TOC
+  밖이면 404 다. `build --garden-links`(표지·집합면)와 `relink` 의 TOC 게이트가 이 규칙을
+  강제하고, `audit` 이 발행면 밖 page_id 참조를 오류로 잡는다. 저자가 본문에 직접 쓴 외부
+  위키독스 링크는 mapping 소유가 아니므로 대상이 아니다.
 - **URL = page_id 기반, 매우 안정적.** 파일명·제목·순서를 다 바꿔도 page_id 유지됨.
   단 우리가 URL을 직접 지정할 수 없으므로 `mapping.json` 으로 회수·관리한다.
 - **파일명 = denote-id** (`pages/journal/20220310T000000.md`). URL 안정·회수 앵커·편집관리.
@@ -126,6 +148,9 @@ python3 -m unittest discover -s tests -q
   TOC와 사용자 스크립트 탐색면에서는 authored folder보다 앞선 `0 어쏠로그`로 둔다.
   첫 생성 때는 `audit --allow-missing-page-ids` → push/status → recover/relink → audit의 신규 ID
   2단계가 필요하다. 그 전까지 README의 태그 링크는 가든 URL fallback이 정상이다.
+  `--core` 에서는 아직 page_id 가 없어 새 페이지를 만들게 되므로 발행면에서 제외한다
+  (표지 파일 `pages/autholog/_chapter.md` 는 계속 생성되고 리포에만 남는다). 코어에 다시
+  올릴 때가 이 2단계를 밟을 시점이다.
 - **본문 맨 위 H1 없음, frontmatter 없음.** 제목은 TOC 가 관리.
 - **위키독스는 인제스트 때 이미지를 자기 CDN 으로 재업로드·URL 재작성한다.** 로컬
   `![](../../assets/x.png)` → 라이브 `![](https://static.wikidocs.net/images/page/<pid>/…)`.

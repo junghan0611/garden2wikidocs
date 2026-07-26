@@ -10,6 +10,10 @@ mapping 에 없거나 page_id 가 아직 없는 링크는 가든 URL 그대로 �
 이렇게 하면 이미 올린 폴더 내부(및 폴더 간) 순회는 위키독스 안에서 살아나고,
 아직 안 올린 폴더로의 링크는 가든으로 나간다. 폴더를 더 올릴수록 실화 비율이 오른다.
 
+발행면 게이트: 위키독스는 TOC.md 에 등록된 페이지만 라이브로 두고 빠진 페이지는
+삭제한다(2026-07 실측). 그래서 mapping 에 page_id 가 남아 있어도 TOC 밖 페이지의
+위키독스 URL 은 404 다. 실화 대상은 항상 현재 TOC 에 등록된 경로로 제한한다.
+
 - 코드펜스 안 URL 은 건드리지 않는다(코드 예시는 literal 유지).
 - 가든 URL 형태가 아닌 것(홈 `/`, `/index`, `/static/...`)은 denote-id 가 없어 자동 제외.
 - 보존 대상 태그 집합(`/tags/autholog/`)은 회수된 standalone 표지 page_id로 실화한다.
@@ -25,6 +29,9 @@ import sys
 from pathlib import Path
 
 WIKIDOCS_URL = "https://wikidocs.net"
+
+# TOC.md 의 링크 대상 경로(`- [제목](pages/...)`). 발행면 게이트의 입력이다.
+TOC_TARGET = re.compile(r"^\s*- \[[^\]]*\]\((pages/[^)]+)\)\s*$", re.M)
 
 # build.py 와 동일한 펜스 규칙: 줄 시작(들여쓰기 허용) 3+ backtick, 여는 개수 이상으로 닫기.
 CODE_FENCE = re.compile(r"^[ \t]*(`{3,})[^\n]*\n.*?^[ \t]*\1`*[ \t]*$",
@@ -92,9 +99,22 @@ def main():
 
     mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
     chapters = mapping.get("_chapters", {})
+
+    # 현재 TOC 에 등록된 경로 = 라이브가 되는 페이지. 여기 없는 page_id 는 죽은 URL이다.
+    toc_path = root / "TOC.md"
+    published = set(TOC_TARGET.findall(toc_path.read_text(encoding="utf-8"))) \
+        if toc_path.exists() else None
+    if published is None:
+        print(f"[warn] TOC.md 없음: {toc_path} — 발행면 게이트 없이 실화한다")
+
+    def is_published(path):
+        return published is None or path in published
+
     page_id = {did: v["page_id"] for did, v in mapping.items()
-               if did != "_chapters" and v.get("page_id")}
-    chapter_id = {f: c["page_id"] for f, c in chapters.items() if c.get("page_id")}
+               if did != "_chapters" and v.get("page_id") and is_published(v["path"])}
+    chapter_id = {f: c["page_id"] for f, c in chapters.items()
+                  if c.get("page_id") and is_published(c.get("path")
+                                                       or f"pages/{f}/_chapter.md")}
 
     stats = {"reified": 0, "reified_folder": 0, "reified_collection": 0,
              "kept": 0, "files_changed": 0}

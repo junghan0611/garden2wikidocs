@@ -1,4 +1,12 @@
 {
+  "20260720T000000": {
+    "path": "pages/journal/20260720T000000.md",
+    "subject": "2026-07-20~2026-07-26_W29",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260720T000000/",
+    "source_date": "2026-07-20T00:00:00+09:00",
+    "source_lastmod": "2026-07-20T06:13:00+09:00"
+  },
   "20260713T000000": {
     "path": "pages/journal/20260713T000000.md",
     "subject": "2026-07-13~2026-07-19_W28",
@@ -1029,6 +1037,96 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250424T153811": {
+    "path": "pages/meta/20250424T153811.md",
+    "subject": "20260725 변화 전환",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T153811/",
+    "source_date": "2025-04-24T15:38:00+09:00",
+    "source_lastmod": "2026-07-25T10:20:00+09:00",
+    "page_id": 380861,
+    "url": "https://wikidocs.net/380861"
+  },
+  "20250328T124902": {
+    "path": "pages/meta/20250328T124902.md",
+    "subject": "20260725 AX AI전환 PKM-AI",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250328T124902/",
+    "source_date": "2025-03-28T12:49:00+09:00",
+    "source_lastmod": "2026-07-25T10:11:00+09:00",
+    "page_id": 380815,
+    "url": "https://wikidocs.net/380815"
+  },
+  "20250512T132547": {
+    "path": "pages/meta/20250512T132547.md",
+    "subject": "20260725 비서 도우미 튜터 에이전트 에이전틱 챗봇",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250512T132547/",
+    "source_date": "2025-05-12T13:25:00+09:00",
+    "source_lastmod": "2026-07-25T09:54:00+09:00",
+    "page_id": 380973,
+    "url": "https://wikidocs.net/380973"
+  },
+  "20250418T173031": {
+    "path": "pages/meta/20250418T173031.md",
+    "subject": "20260725 회사 기업 업체",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250418T173031/",
+    "source_date": "2025-04-18T17:30:00+09:00",
+    "source_lastmod": "2026-07-25T09:54:00+09:00",
+    "page_id": 380837,
+    "url": "https://wikidocs.net/380837"
+  },
+  "20240523T094128": {
+    "path": "pages/meta/20240523T094128.md",
+    "subject": "20260725 빈방 임시",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240523T094128/",
+    "source_date": "2024-05-23T09:41:00+09:00",
+    "source_lastmod": "2026-07-25T09:54:00+09:00",
+    "page_id": 380589,
+    "url": "https://wikidocs.net/380589"
+  },
+  "20240522T143822": {
+    "path": "pages/meta/20240522T143822.md",
+    "subject": "20260725 인공지능 외계지능",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240522T143822/",
+    "source_date": "2024-05-22T14:38:00+09:00",
+    "source_lastmod": "2026-07-25T09:54:00+09:00",
+    "page_id": 380588,
+    "url": "https://wikidocs.net/380588"
+  },
+  "20240315T161448": {
+    "path": "pages/meta/20240315T161448.md",
+    "subject": "20260722 그래프데이터베이스",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240315T161448/",
+    "source_date": "2024-03-15T16:14:00+09:00",
+    "source_lastmod": "2026-07-22T18:29:00+09:00",
+    "page_id": 380562,
+    "url": "https://wikidocs.net/380562"
+  },
+  "20240531T202141": {
+    "path": "pages/meta/20240531T202141.md",
+    "subject": "20260722 지식그래프 온톨로지 인식론 지식론 시맨틱웹",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240531T202141/",
+    "source_date": "2024-05-31T20:21:00+09:00",
+    "source_lastmod": "2026-07-22T18:28:00+09:00",
+    "page_id": 380596,
+    "url": "https://wikidocs.net/380596"
+  },
+  "20250224T132139": {
+    "path": "pages/meta/20250224T132139.md",
+    "subject": "20260720 메타도구 대장간 대장장이 공방 호모파베르",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250224T132139/",
+    "source_date": "2025-02-24T13:21:00+09:00",
+    "source_lastmod": "2026-07-20T15:17:00+09:00",
+    "page_id": 380804,
+    "url": "https://wikidocs.net/380804"
+  },
   "20250424T233558": {
     "path": "pages/meta/20250424T233558.md",
     "subject": "20260718 보편 특수 범용 특이",
@@ -1198,16 +1296,6 @@
     "source_lastmod": "2026-07-06T12:20:00+09:00",
     "page_id": 380608,
     "url": "https://wikidocs.net/380608"
-  },
-  "20250328T124902": {
-    "path": "pages/meta/20250328T124902.md",
-    "subject": "20260706 빈방 임시",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250328T124902/",
-    "source_date": "2025-03-28T12:49:00+09:00",
-    "source_lastmod": "2026-07-06T12:10:00+09:00",
-    "page_id": 380815,
-    "url": "https://wikidocs.net/380815"
   },
   "20241030T164503": {
     "path": "pages/meta/20241030T164503.md",
@@ -1629,16 +1717,6 @@
     "page_id": 380691,
     "url": "https://wikidocs.net/380691"
   },
-  "20240522T143822": {
-    "path": "pages/meta/20240522T143822.md",
-    "subject": "20260330 인공지능 외계지능",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240522T143822/",
-    "source_date": "2024-05-22T14:38:00+09:00",
-    "source_lastmod": "2026-03-30T04:08:00+09:00",
-    "page_id": 380588,
-    "url": "https://wikidocs.net/380588"
-  },
   "20241017T064131": {
     "path": "pages/meta/20241017T064131.md",
     "subject": "20260330 장인 달인 대가 스승 구루",
@@ -1748,16 +1826,6 @@
     "source_lastmod": "2026-03-05T00:00:00+09:00",
     "page_id": 380907,
     "url": "https://wikidocs.net/380907"
-  },
-  "20240531T202141": {
-    "path": "pages/meta/20240531T202141.md",
-    "subject": "20260304 지식그래프 온톨로지 인식론 지식론",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240531T202141/",
-    "source_date": "2024-05-31T20:21:00+09:00",
-    "source_lastmod": "2026-03-04T00:00:00+09:00",
-    "page_id": 380596,
-    "url": "https://wikidocs.net/380596"
   },
   "20230202T020200": {
     "path": "pages/meta/20230202T020200.md",
@@ -3629,16 +3697,6 @@
     "page_id": 380974,
     "url": "https://wikidocs.net/380974"
   },
-  "20250512T132547": {
-    "path": "pages/meta/20250512T132547.md",
-    "subject": "20250512 비서 도우미 튜터 에이전트 에이전틱 챗봇",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250512T132547/",
-    "source_date": "2025-05-12T13:25:00+09:00",
-    "source_lastmod": "2025-05-12T13:25:00+09:00",
-    "page_id": 380973,
-    "url": "https://wikidocs.net/380973"
-  },
   "20250509T111833": {
     "path": "pages/meta/20250509T111833.md",
     "subject": "20250509 국문법 맞춤법: 한글 한국어 우리말 문법",
@@ -4729,16 +4787,6 @@
     "page_id": 380862,
     "url": "https://wikidocs.net/380862"
   },
-  "20250424T153811": {
-    "path": "pages/meta/20250424T153811.md",
-    "subject": "20250424 변화",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T153811/",
-    "source_date": "2025-04-24T15:38:00+09:00",
-    "source_lastmod": "2025-04-24T15:38:00+09:00",
-    "page_id": 380861,
-    "url": "https://wikidocs.net/380861"
-  },
   "20250424T153233": {
     "path": "pages/meta/20250424T153233.md",
     "subject": "20250424 우연",
@@ -5009,16 +5057,6 @@
     "page_id": 380839,
     "url": "https://wikidocs.net/380839"
   },
-  "20250418T173031": {
-    "path": "pages/meta/20250418T173031.md",
-    "subject": "20250418 회사 기업 업체",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250418T173031/",
-    "source_date": "2025-04-18T17:30:00+09:00",
-    "source_lastmod": "2025-04-18T17:30:00+09:00",
-    "page_id": 380837,
-    "url": "https://wikidocs.net/380837"
-  },
   "20241228T155522": {
     "path": "pages/meta/20241228T155522.md",
     "subject": "20250418 도구",
@@ -5118,16 +5156,6 @@
     "source_lastmod": "2025-04-18T00:00:00+09:00",
     "page_id": 380637,
     "url": "https://wikidocs.net/380637"
-  },
-  "20240523T094128": {
-    "path": "pages/meta/20240523T094128.md",
-    "subject": "20250418 오픈AI",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240523T094128/",
-    "source_date": "2024-05-23T09:41:00+09:00",
-    "source_lastmod": "2025-04-18T00:00:00+09:00",
-    "page_id": 380589,
-    "url": "https://wikidocs.net/380589"
   },
   "20240522T143732": {
     "path": "pages/meta/20240522T143732.md",
@@ -5929,16 +5957,6 @@
     "page_id": 380806,
     "url": "https://wikidocs.net/380806"
   },
-  "20241023T072322": {
-    "path": "pages/meta/20241023T072322.md",
-    "subject": "20250305 앤트로픽",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241023T072322/",
-    "source_date": "2024-10-23T07:23:00+09:00",
-    "source_lastmod": "2025-03-05T00:00:00+09:00",
-    "page_id": 380731,
-    "url": "https://wikidocs.net/380731"
-  },
   "20250228T162958": {
     "path": "pages/meta/20250228T162958.md",
     "subject": "20250228 구글 제미나이",
@@ -5999,16 +6017,6 @@
     "page_id": 380612,
     "url": "https://wikidocs.net/380612"
   },
-  "20250224T132139": {
-    "path": "pages/meta/20250224T132139.md",
-    "subject": "20250224 메타도구 대장장이 호모파베르",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250224T132139/",
-    "source_date": "2025-02-24T13:21:00+09:00",
-    "source_lastmod": "2025-02-24T13:21:00+09:00",
-    "page_id": 380804,
-    "url": "https://wikidocs.net/380804"
-  },
   "20250224T130751": {
     "path": "pages/meta/20250224T130751.md",
     "subject": "20250224 바벨 코드블록",
@@ -6028,16 +6036,6 @@
     "source_lastmod": "2025-02-24T00:00:00+09:00",
     "page_id": 380694,
     "url": "https://wikidocs.net/380694"
-  },
-  "20240315T161448": {
-    "path": "pages/meta/20240315T161448.md",
-    "subject": "20250221 그래프데이터베이스",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240315T161448/",
-    "source_date": "2024-03-15T16:14:00+09:00",
-    "source_lastmod": "2025-02-21T00:00:00+09:00",
-    "page_id": 380562,
-    "url": "https://wikidocs.net/380562"
   },
   "20250219T212615": {
     "path": "pages/meta/20250219T212615.md",
@@ -6359,6 +6357,16 @@
     "page_id": 380765,
     "url": "https://wikidocs.net/380765"
   },
+  "20241023T072322": {
+    "path": "pages/meta/20241023T072322.md",
+    "subject": "20241023 빈방 임시",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241023T072322/",
+    "source_date": "2024-10-23T07:23:00+09:00",
+    "source_lastmod": "2024-10-23T07:23:00+09:00",
+    "page_id": 380731,
+    "url": "https://wikidocs.net/380731"
+  },
   "20240821T162824": {
     "path": "pages/meta/20240821T162824.md",
     "subject": "20240821 버전 업그레이드 업데이트",
@@ -6408,6 +6416,46 @@
     "source_lastmod": "",
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
+  },
+  "20250312T111024": {
+    "path": "pages/bib/20250312T111024.md",
+    "subject": "20260725 샘올트먼 SamAltman OpenAI ChatGPT 회사·인물·API",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250312T111024/",
+    "source_date": "2025-03-12T11:10:00+09:00",
+    "source_lastmod": "2026-07-25T19:00:00+09:00",
+    "page_id": 382304,
+    "url": "https://wikidocs.net/382304"
+  },
+  "20241208T120006": {
+    "path": "pages/bib/20241208T120006.md",
+    "subject": "20260725 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241208T120006/",
+    "source_date": "2024-12-08T12:00:00+09:00",
+    "source_lastmod": "2026-07-25T19:00:00+09:00",
+    "page_id": 382181,
+    "url": "https://wikidocs.net/382181"
+  },
+  "20260312T131505": {
+    "path": "pages/bib/20260312T131505.md",
+    "subject": "20260725 카렌하오 AI 제국: 권력, 자본, 노동 : 샘 올트먼과 오픈AI 빛 그림자 월스트리트 저널",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20260312T131505/",
+    "source_date": "2026-03-12T13:15:00+09:00",
+    "source_lastmod": "2026-07-25T09:54:00+09:00",
+    "page_id": 382517,
+    "url": "https://wikidocs.net/382517"
+  },
+  "20241205T154136": {
+    "path": "pages/bib/20241205T154136.md",
+    "subject": "20260722 로버트파우저 RobertFouser 한국어로 쓰는 언어 순례자, 외국어와 문자 전파담",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241205T154136/",
+    "source_date": "2024-12-05T15:41:00+09:00",
+    "source_lastmod": "2026-07-22T17:34:00+09:00",
+    "page_id": 382171,
+    "url": "https://wikidocs.net/382171"
   },
   "20250213T073105": {
     "path": "pages/bib/20250213T073105.md",
@@ -6478,16 +6526,6 @@
     "source_lastmod": "2026-07-17T19:34:00+09:00",
     "page_id": 382499,
     "url": "https://wikidocs.net/382499"
-  },
-  "20250312T111024": {
-    "path": "pages/bib/20250312T111024.md",
-    "subject": "20260717 빈방 임시",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250312T111024/",
-    "source_date": "2025-03-12T11:10:00+09:00",
-    "source_lastmod": "2026-07-17T19:34:00+09:00",
-    "page_id": 382304,
-    "url": "https://wikidocs.net/382304"
   },
   "20240802T005618": {
     "path": "pages/bib/20240802T005618.md",
@@ -7369,16 +7407,6 @@
     "page_id": 382375,
     "url": "https://wikidocs.net/382375"
   },
-  "20260312T131505": {
-    "path": "pages/bib/20260312T131505.md",
-    "subject": "20260312 카렌하오 AI 제국: 권력, 자본, 노동 : 샘 올트먼과 오픈AI 빛 그림자 월스트리트 저널",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20260312T131505/",
-    "source_date": "2026-03-12T13:15:00+09:00",
-    "source_lastmod": "2026-03-12T13:15:00+09:00",
-    "page_id": 382517,
-    "url": "https://wikidocs.net/382517"
-  },
   "20260308T075126": {
     "path": "pages/bib/20260308T075126.md",
     "subject": "20260308 루트비히판베토벤 Beethoven 1770 교향곡 인내 절망에서 예술로 부활한 영혼",
@@ -7518,16 +7546,6 @@
     "source_lastmod": "2026-02-03T00:00:00+09:00",
     "page_id": 382169,
     "url": "https://wikidocs.net/382169"
-  },
-  "20241208T120006": {
-    "path": "pages/bib/20241208T120006.md",
-    "subject": "20260129 다리오아모데이 DarioAmodei 앤트로픽 인공지능미래",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241208T120006/",
-    "source_date": "2024-12-08T12:00:00+09:00",
-    "source_lastmod": "2026-01-29T00:00:00+09:00",
-    "page_id": 382181,
-    "url": "https://wikidocs.net/382181"
   },
   "20250522T062013": {
     "path": "pages/bib/20250522T062013.md",
@@ -12519,16 +12537,6 @@
     "page_id": 382007,
     "url": "https://wikidocs.net/382007"
   },
-  "20241205T154136": {
-    "path": "pages/bib/20241205T154136.md",
-    "subject": "20241205 간결한영어: Plain-English",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241205T154136/",
-    "source_date": "2024-12-05T15:41:00+09:00",
-    "source_lastmod": "2024-12-05T16:00:00+09:00",
-    "page_id": 382171,
-    "url": "https://wikidocs.net/382171"
-  },
   "20241017T054546": {
     "path": "pages/bib/20241017T054546.md",
     "subject": "20241205 스마트브레비티 디지털시대 간결한 글쓰기",
@@ -13209,15 +13217,195 @@
     "page_id": 381893,
     "url": "https://wikidocs.net/381893"
   },
+  "20231018T221900": {
+    "path": "pages/notes/20231018T221900.md",
+    "subject": "20260726 힣: 기업용 하네스 - 개인 시간축 기업 데이터 PKM-AI 하네스 다음 좌표",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20231018T221900/",
+    "source_date": "2023-10-18T22:19:00+09:00",
+    "source_lastmod": "2026-07-26T09:01:00+09:00",
+    "page_id": 381141,
+    "url": "https://wikidocs.net/381141"
+  },
+  "20250316T044013": {
+    "path": "pages/notes/20250316T044013.md",
+    "subject": "20260725 힣: 삶 일 소명 운명애 가르침 나 자신이 되는 일 - 보수",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250316T044013/",
+    "source_date": "2025-03-16T04:40:00+09:00",
+    "source_lastmod": "2026-07-25T09:45:00+09:00",
+    "page_id": 381589,
+    "url": "https://wikidocs.net/381589"
+  },
+  "20250213T105806": {
+    "path": "pages/notes/20250213T105806.md",
+    "subject": "20260725 힣: 아무도 읽지 않는 블로그 디지털가든 왜 공개 하는가",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250213T105806/",
+    "source_date": "2025-02-13T10:58:00+09:00",
+    "source_lastmod": "2026-07-25T09:45:00+09:00",
+    "page_id": 381520,
+    "url": "https://wikidocs.net/381520"
+  },
+  "20241210T161853": {
+    "path": "pages/notes/20241210T161853.md",
+    "subject": "20260725 힣: 일이란 무엇인가 최선·자기목적성·소명을 묻던 화두",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241210T161853/",
+    "source_date": "2024-12-10T16:18:00+09:00",
+    "source_lastmod": "2026-07-25T09:45:00+09:00",
+    "page_id": 381423,
+    "url": "https://wikidocs.net/381423"
+  },
+  "20250326T151413": {
+    "path": "pages/notes/20250326T151413.md",
+    "subject": "20260725 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙 탐구",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250326T151413/",
+    "source_date": "2025-03-26T15:14:00+09:00",
+    "source_lastmod": "2026-07-25T09:42:00+09:00",
+    "page_id": 381621,
+    "url": "https://wikidocs.net/381621"
+  },
+  "20250206T150102": {
+    "path": "pages/notes/20250206T150102.md",
+    "subject": "20260725 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250206T150102/",
+    "source_date": "2025-02-06T15:01:00+09:00",
+    "source_lastmod": "2026-07-25T09:42:00+09:00",
+    "page_id": 381508,
+    "url": "https://wikidocs.net/381508"
+  },
+  "20230814T142800": {
+    "path": "pages/notes/20230814T142800.md",
+    "subject": "20260725 힣: 자기소개서 히스토리 역사 이력서",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230814T142800/",
+    "source_date": "2023-08-14T14:28:00+09:00",
+    "source_lastmod": "2026-07-25T09:36:00+09:00",
+    "page_id": 381108,
+    "url": "https://wikidocs.net/381108"
+  },
+  "20260212T103100": {
+    "path": "pages/notes/20260212T103100.md",
+    "subject": "20260723 힣: Self-documenting CLI 문서와 실행을 잇는 인간·에이전트 공통 인터페이스",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20260212T103100/",
+    "source_date": "2026-02-12T10:31:00+09:00",
+    "source_lastmod": "2026-07-23T21:14:00+09:00",
+    "page_id": 381852,
+    "url": "https://wikidocs.net/381852"
+  },
+  "20251021T105353": {
+    "path": "pages/notes/20251021T105353.md",
+    "subject": "20260723 힣: Org SSOT 메타문서 책의미래 인터랙티브 프로젝트 지식베이스",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251021T105353/",
+    "source_date": "2025-10-21T10:53:00+09:00",
+    "source_lastmod": "2026-07-23T21:14:00+09:00",
+    "page_id": 381798,
+    "url": "https://wikidocs.net/381798"
+  },
+  "20250224T172456": {
+    "path": "pages/notes/20250224T172456.md",
+    "subject": "20260723 힣: AX 문서 협업과 인간 존중 자동화 유한성 시간",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250224T172456/",
+    "source_date": "2025-02-24T17:24:00+09:00",
+    "source_lastmod": "2026-07-23T21:14:00+09:00",
+    "page_id": 381554,
+    "url": "https://wikidocs.net/381554"
+  },
   "20241228T123259": {
     "path": "pages/notes/20241228T123259.md",
-    "subject": "20260718 제텔카스텐: 폴게제텔",
+    "subject": "20260723 제텔카스텐: 폴게제텔",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20241228T123259/",
     "source_date": "2024-12-28T12:32:00+09:00",
-    "source_lastmod": "2026-07-18T19:40:00+09:00",
+    "source_lastmod": "2026-07-23T21:14:00+09:00",
     "page_id": 381479,
     "url": "https://wikidocs.net/381479"
+  },
+  "20241214T210518": {
+    "path": "pages/notes/20241214T210518.md",
+    "subject": "20260723 힣: 날것은 혼자 나오지 않는다 PKM-AI 가든과 에피파니의 글쓰기",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241214T210518/",
+    "source_date": "2024-12-14T21:05:00+09:00",
+    "source_lastmod": "2026-07-23T21:14:00+09:00",
+    "page_id": 381438,
+    "url": "https://wikidocs.net/381438"
+  },
+  "20231116T232654": {
+    "path": "pages/notes/20231116T232654.md",
+    "subject": "20260723 힣: PKM-AI 가드너의 AX 전환 기록기 새 세션에 생을 건네는 얼개",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20231116T232654/",
+    "source_date": "2023-11-16T23:26:00+09:00",
+    "source_lastmod": "2026-07-23T21:14:00+09:00",
+    "page_id": 381167,
+    "url": "https://wikidocs.net/381167"
+  },
+  "20250316T044333": {
+    "path": "pages/notes/20250316T044333.md",
+    "subject": "20260722 힣: 아무도 읽지 않는 디지털가든 만들고 행복한 지인 이야기 - 6세 아이에게 기술이란",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250316T044333/",
+    "source_date": "2025-03-16T04:43:00+09:00",
+    "source_lastmod": "2026-07-22T20:19:00+09:00",
+    "page_id": 381590,
+    "url": "https://wikidocs.net/381590"
+  },
+  "20250313T105007": {
+    "path": "pages/notes/20250313T105007.md",
+    "subject": "20260722 힣: 아무도 읽지 않는 공지 - 그를 찾아 떠나자",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250313T105007/",
+    "source_date": "2025-03-13T10:50:00+09:00",
+    "source_lastmod": "2026-07-22T20:12:00+09:00",
+    "page_id": 381582,
+    "url": "https://wikidocs.net/381582"
+  },
+  "20250314T152111": {
+    "path": "pages/notes/20250314T152111.md",
+    "subject": "20260722 힣: 디지털가든 불완전함에서 창조가 나오는 곳",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250314T152111/",
+    "source_date": "2025-03-14T15:21:00+09:00",
+    "source_lastmod": "2026-07-22T19:15:00+09:00",
+    "page_id": 381586,
+    "url": "https://wikidocs.net/381586"
+  },
+  "20251024T085736": {
+    "path": "pages/notes/20251024T085736.md",
+    "subject": "20260722 힣: 에이전트 컨텍스트 레이어 기술 지도 하네스·메모리·지식그래프·PKG·PKM-AI",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251024T085736/",
+    "source_date": "2025-10-24T08:57:00+09:00",
+    "source_lastmod": "2026-07-22T18:16:00+09:00",
+    "page_id": 381801,
+    "url": "https://wikidocs.net/381801"
+  },
+  "20230706T160800": {
+    "path": "pages/notes/20230706T160800.md",
+    "subject": "20260722 힣: 생생날것 500개 문턱 디지털가든 코어는 시간축의 판본이다",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230706T160800/",
+    "source_date": "2023-07-06T16:08:00+09:00",
+    "source_lastmod": "2026-07-22T17:23:00+09:00",
+    "page_id": 381079,
+    "url": "https://wikidocs.net/381079"
+  },
+  "20251120T090634": {
+    "path": "pages/notes/20251120T090634.md",
+    "subject": "20260720 힣: 분신의 공방 역할 기반 조율과 협업 운영규약",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251120T090634/",
+    "source_date": "2025-11-20T09:06:00+09:00",
+    "source_lastmod": "2026-07-20T15:15:00+09:00",
+    "page_id": 381817,
+    "url": "https://wikidocs.net/381817"
   },
   "20241222T114446": {
     "path": "pages/notes/20241222T114446.md",
@@ -13308,16 +13496,6 @@
     "source_lastmod": "2026-07-17T22:40:00+09:00",
     "page_id": 381398,
     "url": "https://wikidocs.net/381398"
-  },
-  "20241214T210518": {
-    "path": "pages/notes/20241214T210518.md",
-    "subject": "20260717 힣: 날것은 혼자 나오지 않는다 PKM-AI 가든과 에피파니의 글쓰기",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241214T210518/",
-    "source_date": "2024-12-14T21:05:00+09:00",
-    "source_lastmod": "2026-07-17T22:23:00+09:00",
-    "page_id": 381438,
-    "url": "https://wikidocs.net/381438"
   },
   "20230117T123500": {
     "path": "pages/notes/20230117T123500.md",
@@ -13418,26 +13596,6 @@
     "source_lastmod": "2026-07-08T16:50:00+09:00",
     "page_id": 381731,
     "url": "https://wikidocs.net/381731"
-  },
-  "20250326T151413": {
-    "path": "pages/notes/20250326T151413.md",
-    "subject": "20260708 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250326T151413/",
-    "source_date": "2025-03-26T15:14:00+09:00",
-    "source_lastmod": "2026-07-08T16:50:00+09:00",
-    "page_id": 381621,
-    "url": "https://wikidocs.net/381621"
-  },
-  "20251021T105353": {
-    "path": "pages/notes/20251021T105353.md",
-    "subject": "20260707 힣: Org SSOT 메타문서 책의미래 인터랙티브 프로젝트 지식베이스",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251021T105353/",
-    "source_date": "2025-10-21T10:53:00+09:00",
-    "source_lastmod": "2026-07-07T14:55:00+09:00",
-    "page_id": 381798,
-    "url": "https://wikidocs.net/381798"
   },
   "20240915T235008": {
     "path": "pages/notes/20240915T235008.md",
@@ -13549,16 +13707,6 @@
     "page_id": 381850,
     "url": "https://wikidocs.net/381850"
   },
-  "20250314T152111": {
-    "path": "pages/notes/20250314T152111.md",
-    "subject": "20260625 힣: 디지털가든 불완전함에서 창조가 나오는 곳",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250314T152111/",
-    "source_date": "2025-03-14T15:21:00+09:00",
-    "source_lastmod": "2026-06-25T13:30:00+09:00",
-    "page_id": 381586,
-    "url": "https://wikidocs.net/381586"
-  },
   "20240730T091506": {
     "path": "pages/notes/20240730T091506.md",
     "subject": "20260625 힣: 제주 재주 재수 - 정보과학회 전문가 막차",
@@ -13618,16 +13766,6 @@
     "source_lastmod": "2026-06-18T09:38:00+09:00",
     "page_id": 381670,
     "url": "https://wikidocs.net/381670"
-  },
-  "20250316T044013": {
-    "path": "pages/notes/20250316T044013.md",
-    "subject": "20260616 힣: 삶 일 소명 운명애 가르침 나 자신이 되는 일 - 보수",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250316T044013/",
-    "source_date": "2025-03-16T04:40:00+09:00",
-    "source_lastmod": "2026-06-16T08:44:00+09:00",
-    "page_id": 381589,
-    "url": "https://wikidocs.net/381589"
   },
   "20251130T091858": {
     "path": "pages/notes/20251130T091858.md",
@@ -13718,16 +13856,6 @@
     "source_lastmod": "2026-06-11T13:45:00+09:00",
     "page_id": 381481,
     "url": "https://wikidocs.net/381481"
-  },
-  "20250213T105806": {
-    "path": "pages/notes/20250213T105806.md",
-    "subject": "20260611 힣: 아무도 읽지 않는 블로그 디지털가든 왜 공개 하는가",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250213T105806/",
-    "source_date": "2025-02-13T10:58:00+09:00",
-    "source_lastmod": "2026-06-11T13:36:00+09:00",
-    "page_id": 381520,
-    "url": "https://wikidocs.net/381520"
   },
   "20240404T101052": {
     "path": "pages/notes/20240404T101052.md",
@@ -14209,16 +14337,6 @@
     "page_id": 381840,
     "url": "https://wikidocs.net/381840"
   },
-  "20251024T085736": {
-    "path": "pages/notes/20251024T085736.md",
-    "subject": "20260219 OPENCODE: 오픈코드 TUI ACP",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251024T085736/",
-    "source_date": "2025-10-24T08:57:00+09:00",
-    "source_lastmod": "2026-02-19T00:00:00+09:00",
-    "page_id": 381801,
-    "url": "https://wikidocs.net/381801"
-  },
   "20230710T191400": {
     "path": "pages/notes/20230710T191400.md",
     "subject": "20260219 힣: 이맥스 검색 일괄편집 워크플로우 한번에 전체 점진 변경 치환 정규식",
@@ -14358,16 +14476,6 @@
     "source_lastmod": "2026-02-12T10:56:00+09:00",
     "page_id": 381853,
     "url": "https://wikidocs.net/381853"
-  },
-  "20260212T103100": {
-    "path": "pages/notes/20260212T103100.md",
-    "subject": "20260212 Self-documenting CLI 패턴: 인간과 에이전트를 위한 실행기",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20260212T103100/",
-    "source_date": "2026-02-12T10:31:00+09:00",
-    "source_lastmod": "2026-02-12T00:00:00+09:00",
-    "page_id": 381852,
-    "url": "https://wikidocs.net/381852"
   },
   "20260209T183036": {
     "path": "pages/notes/20260209T183036.md",
@@ -14678,16 +14786,6 @@
     "source_lastmod": "2025-11-21T00:00:00+09:00",
     "page_id": 381819,
     "url": "https://wikidocs.net/381819"
-  },
-  "20251120T090634": {
-    "path": "pages/notes/20251120T090634.md",
-    "subject": "20251120 존재대존재 오케스트레이션 서브에이전트 설계",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251120T090634/",
-    "source_date": "2025-11-20T09:06:00+09:00",
-    "source_lastmod": "2025-11-20T09:06:00+09:00",
-    "page_id": 381817,
-    "url": "https://wikidocs.net/381817"
   },
   "20251114T190252": {
     "path": "pages/notes/20251114T190252.md",
@@ -15548,16 +15646,6 @@
     "source_lastmod": "2025-06-12T00:00:00+09:00",
     "page_id": 381466,
     "url": "https://wikidocs.net/381466"
-  },
-  "20231018T221900": {
-    "path": "pages/notes/20231018T221900.md",
-    "subject": "20250612 문맥자유문법 임시 대기중",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20231018T221900/",
-    "source_date": "2023-10-18T22:19:00+09:00",
-    "source_lastmod": "2025-06-12T00:00:00+09:00",
-    "page_id": 381141,
-    "url": "https://wikidocs.net/381141"
   },
   "20230916T180500": {
     "path": "pages/notes/20230916T180500.md",
@@ -17749,16 +17837,6 @@
     "page_id": 381162,
     "url": "https://wikidocs.net/381162"
   },
-  "20230814T142800": {
-    "path": "pages/notes/20230814T142800.md",
-    "subject": "20250402 이력서: 김정한 (Junghan Kim)",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230814T142800/",
-    "source_date": "2023-08-14T14:28:00+09:00",
-    "source_lastmod": "2025-04-02T00:00:00+09:00",
-    "page_id": 381108,
-    "url": "https://wikidocs.net/381108"
-  },
   "20240915T234215": {
     "path": "pages/notes/20240915T234215.md",
     "subject": "20250401 정규표현식: 정규식 검색 일부 텍스트 변경",
@@ -18561,7 +18639,7 @@
   },
   "20250317T150522": {
     "path": "pages/notes/20250317T150522.md",
-    "subject": "20250317 연구실적 컴퓨터공학",
+    "subject": "20250317 힣: 컴퓨터공학 대학원 연구 실적 기록 모음",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250317T150522/",
     "source_date": "2025-03-17T15:05:00+09:00",
@@ -18588,16 +18666,6 @@
     "source_lastmod": "2025-03-16T04:45:00+09:00",
     "page_id": 381591,
     "url": "https://wikidocs.net/381591"
-  },
-  "20250316T044333": {
-    "path": "pages/notes/20250316T044333.md",
-    "subject": "20250316 힣: 아무도 읽지 않는 디지털가든 만들고 행복한 지인 이야기 (feat. 6세 아이에게 기술이란)",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250316T044333/",
-    "source_date": "2025-03-16T04:43:00+09:00",
-    "source_lastmod": "2025-03-16T04:43:00+09:00",
-    "page_id": 381590,
-    "url": "https://wikidocs.net/381590"
   },
   "20250315T155225": {
     "path": "pages/notes/20250315T155225.md",
@@ -18658,16 +18726,6 @@
     "source_lastmod": "2025-03-13T11:41:00+09:00",
     "page_id": 381583,
     "url": "https://wikidocs.net/381583"
-  },
-  "20250313T105007": {
-    "path": "pages/notes/20250313T105007.md",
-    "subject": "20250313 힣: 아무도 읽지 않는 공지 - 그를 찾아 떠나자",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250313T105007/",
-    "source_date": "2025-03-13T10:50:00+09:00",
-    "source_lastmod": "2025-03-13T10:50:00+09:00",
-    "page_id": 381582,
-    "url": "https://wikidocs.net/381582"
   },
   "20250313T132134": {
     "path": "pages/notes/20250313T132134.md",
@@ -18818,16 +18876,6 @@
     "source_lastmod": "2025-03-08T00:00:00+09:00",
     "page_id": 381573,
     "url": "https://wikidocs.net/381573"
-  },
-  "20250206T150102": {
-    "path": "pages/notes/20250206T150102.md",
-    "subject": "20250307 조직모드 이력서 내보내기 가이드 - org-cv vita",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250206T150102/",
-    "source_date": "2025-02-06T15:01:00+09:00",
-    "source_lastmod": "2025-03-07T00:00:00+09:00",
-    "page_id": 381508,
-    "url": "https://wikidocs.net/381508"
   },
   "20240921T234537": {
     "path": "pages/notes/20240921T234537.md",
@@ -19118,16 +19166,6 @@
     "source_lastmod": "2025-02-25T11:18:00+09:00",
     "page_id": 381557,
     "url": "https://wikidocs.net/381557"
-  },
-  "20250224T172456": {
-    "path": "pages/notes/20250224T172456.md",
-    "subject": "20250224 임시 빈방",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250224T172456/",
-    "source_date": "2025-02-24T17:24:00+09:00",
-    "source_lastmod": "2025-02-24T17:24:00+09:00",
-    "page_id": 381554,
-    "url": "https://wikidocs.net/381554"
   },
   "20250224T125854": {
     "path": "pages/notes/20250224T125854.md",
@@ -19488,16 +19526,6 @@
     "source_lastmod": "2025-02-16T00:00:00+09:00",
     "page_id": 381150,
     "url": "https://wikidocs.net/381150"
-  },
-  "20230706T160800": {
-    "path": "pages/notes/20230706T160800.md",
-    "subject": "20250216 ASDF 패키지 관리자",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230706T160800/",
-    "source_date": "2023-07-06T16:08:00+09:00",
-    "source_lastmod": "2025-02-16T00:00:00+09:00",
-    "page_id": 381079,
-    "url": "https://wikidocs.net/381079"
   },
   "20250215T202517": {
     "path": "pages/notes/20250215T202517.md",
@@ -20218,16 +20246,6 @@
     "source_lastmod": "2024-12-10T16:30:00+09:00",
     "page_id": 381274,
     "url": "https://wikidocs.net/381274"
-  },
-  "20241210T161853": {
-    "path": "pages/notes/20241210T161853.md",
-    "subject": "20241210 힣: 일이란 최선을다한다는것 어쏠로그 소명",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241210T161853/",
-    "source_date": "2024-12-10T16:18:00+09:00",
-    "source_lastmod": "2024-12-10T16:25:00+09:00",
-    "page_id": 381423,
-    "url": "https://wikidocs.net/381423"
   },
   "20241009T105542": {
     "path": "pages/notes/20241009T105542.md",
@@ -21519,16 +21537,6 @@
     "page_id": 381173,
     "url": "https://wikidocs.net/381173"
   },
-  "20231116T232654": {
-    "path": "pages/notes/20231116T232654.md",
-    "subject": "20231116 임시 빈방",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20231116T232654/",
-    "source_date": "2023-11-16T23:26:00+09:00",
-    "source_lastmod": "2023-11-16T23:26:00+09:00",
-    "page_id": 381167,
-    "url": "https://wikidocs.net/381167"
-  },
   "20231111T094444": {
     "path": "pages/notes/20231111T094444.md",
     "subject": "20231111 remark",
@@ -21579,6 +21587,56 @@
     "page_id": 381024,
     "url": "https://wikidocs.net/381024"
   },
+  "20260219T191103": {
+    "path": "pages/botlog/20260219T191103.md",
+    "subject": "20260725 geworfen: 연구 탐구 트랙2 1KB 공개키와 측정하지 않는 공진화",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260219T191103/",
+    "source_date": "2026-02-19T19:11:00+09:00",
+    "source_lastmod": "2026-07-25T09:42:00+09:00",
+    "page_id": 382536,
+    "url": "https://wikidocs.net/382536"
+  },
+  "20260307T131455": {
+    "path": "pages/botlog/20260307T131455.md",
+    "subject": "20260723 homeagent-config: 임베디드 엔지니어링 - 디바이스 레벨을 에이전트와 조이기",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260307T131455/",
+    "source_date": "2026-03-07T13:14:00+09:00",
+    "source_lastmod": "2026-07-23T21:49:00+09:00",
+    "page_id": 382564,
+    "url": "https://wikidocs.net/382564"
+  },
+  "20260406T140411": {
+    "path": "pages/botlog/20260406T140411.md",
+    "subject": "20260723 org: PKM-AI 인간의 시간과 에이전트가 만나는 공통 기록층",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260406T140411/",
+    "source_date": "2026-04-06T14:04:00+09:00",
+    "source_lastmod": "2026-07-23T21:14:00+09:00",
+    "page_id": 382591,
+    "url": "https://wikidocs.net/382591"
+  },
+  "20260306T130726": {
+    "path": "pages/botlog/20260306T130726.md",
+    "subject": "20260723 memex-kb 제안서 문서 변환 메타포멧",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260306T130726/",
+    "source_date": "2026-03-06T13:07:00+09:00",
+    "source_lastmod": "2026-07-23T21:14:00+09:00",
+    "page_id": 382563,
+    "url": "https://wikidocs.net/382563"
+  },
+  "20260220T201100": {
+    "path": "pages/botlog/20260220T201100.md",
+    "subject": "20260719 garden2wikidocs 원본 가든을 건드리지 않는 위키독스 미러",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260220T201100/",
+    "source_date": "2026-02-20T20:11:00+09:00",
+    "source_lastmod": "2026-07-19T11:13:00+09:00",
+    "page_id": 382538,
+    "url": "https://wikidocs.net/382538"
+  },
   "20260304T004500": {
     "path": "pages/botlog/20260304T004500.md",
     "subject": "20260718 에이전트가 읽는 살아 있는 프로피디아 무의식 연상맵과 지식그래프",
@@ -21598,26 +21656,6 @@
     "source_lastmod": "2026-07-18T18:20:00+09:00",
     "page_id": 382551,
     "url": "https://wikidocs.net/382551"
-  },
-  "20260220T201100": {
-    "path": "pages/botlog/20260220T201100.md",
-    "subject": "20260718 garden2wikidocs 원본 가든을 건드리지 않는 위키독스 미러",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260220T201100/",
-    "source_date": "2026-02-20T20:11:00+09:00",
-    "source_lastmod": "2026-07-18T16:16:00+09:00",
-    "page_id": 382538,
-    "url": "https://wikidocs.net/382538"
-  },
-  "20260406T140411": {
-    "path": "pages/botlog/20260406T140411.md",
-    "subject": "20260717 andenken 내 PKM-AI 자리로 수렴하는 llm-wiki·OKF·EKG",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260406T140411/",
-    "source_date": "2026-04-06T14:04:00+09:00",
-    "source_lastmod": "2026-07-17T22:40:00+09:00",
-    "page_id": 382591,
-    "url": "https://wikidocs.net/382591"
   },
   "20260227T141200": {
     "path": "pages/botlog/20260227T141200.md",
@@ -21659,19 +21697,9 @@
     "page_id": 382586,
     "url": "https://wikidocs.net/382586"
   },
-  "20260219T191103": {
-    "path": "pages/botlog/20260219T191103.md",
-    "subject": "20260708 geworfen: 연구 트랙2 1KB 공개키와 측정하지 않는 공진화",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260219T191103/",
-    "source_date": "2026-02-19T19:11:00+09:00",
-    "source_lastmod": "2026-07-08T16:50:00+09:00",
-    "page_id": 382536,
-    "url": "https://wikidocs.net/382536"
-  },
   "20260331T123550": {
     "path": "pages/botlog/20260331T123550.md",
-    "subject": "20260708 geworfen: 연구 트랙1 - 존재 리듬 연상 재현 투명 생체 체화 시간",
+    "subject": "20260708 geworfen: 연구 탐구 트랙1 - 존재 리듬 연상 재현 투명 생체 체화 시간",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260331T123550/",
     "source_date": "2026-03-31T12:35:00+09:00",
@@ -22189,16 +22217,6 @@
     "page_id": 382582,
     "url": "https://wikidocs.net/382582"
   },
-  "20260307T131455": {
-    "path": "pages/botlog/20260307T131455.md",
-    "subject": "20260326 에이전틱 삽질기 모음 SDF×Zig 유연한 상태머신 DS 20대",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260307T131455/",
-    "source_date": "2026-03-07T13:14:00+09:00",
-    "source_lastmod": "2026-03-26T18:01:00+09:00",
-    "page_id": 382564,
-    "url": "https://wikidocs.net/382564"
-  },
   "20260312T174622": {
     "path": "pages/botlog/20260312T174622.md",
     "subject": "20260320 agent-config: 에이전트 인프라의 진화 스킬에서 멀티하네스까지",
@@ -22218,16 +22236,6 @@
     "source_lastmod": "2026-03-20T06:49:00+09:00",
     "page_id": 382567,
     "url": "https://wikidocs.net/382567"
-  },
-  "20260306T130726": {
-    "path": "pages/botlog/20260306T130726.md",
-    "subject": "20260320 memex-kb 제안서 문서 변환 메타포멧",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260306T130726/",
-    "source_date": "2026-03-06T13:07:00+09:00",
-    "source_lastmod": "2026-03-20T06:48:00+09:00",
-    "page_id": 382563,
-    "url": "https://wikidocs.net/382563"
   },
   "20260318T142424": {
     "path": "pages/botlog/20260318T142424.md",

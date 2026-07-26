@@ -535,7 +535,7 @@ class PublishGateTests(unittest.TestCase):
         block = BUILD.readme_meta_block(published=244, total=2239, core=True)
         self.assertIn("디지털가든 코어", block)
         self.assertNotIn("미러링한 책입니다", block)
-        self.assertIn("가든 2,239개 중 244개", block)
+        self.assertIn("미러 대상 2,239개 중 244개", block)
         self.assertIn(BUILD.CORE_NOTE_URL, block)
 
     def test_readme_full_mirror_block_is_unchanged(self):
@@ -618,7 +618,20 @@ class CoreBuildIntegrationTests(unittest.TestCase):
             )
             self.assertNotEqual(rejected.returncode, 0)
             self.assertIn(f"위키독스 상한 {BUILD.PUBLISH_LIMIT}", rejected.stderr)
+            # 예산은 생성물을 건드리기 전에 막는다 — pages/ 도 지우거나 쓰지 않는다.
             self.assertFalse((out / "TOC.md").exists())
+            self.assertFalse((out / "pages").exists())
+            self.assertFalse((out / "mapping.json").exists())
+            self.assertEqual((out / "README.md").read_text(encoding="utf-8"),
+                             "placeholder\n")
+
+    def test_readme_core_block_names_the_mirrored_folder_scope(self):
+        # 2,239 는 가든 전체가 아니라 미러 대상 폴더의 후보군이다.
+        block = BUILD.readme_meta_block(published=244, total=2239, core=True,
+                                        folders=["journal", "notes"])
+        self.assertIn("미러 대상 2개 폴더(저널·노트)", block)
+        self.assertIn("미러 대상 2,239개 중 244개", block)
+        self.assertNotIn("가든 2,239개 문서", block)
 
 
 if __name__ == "__main__":

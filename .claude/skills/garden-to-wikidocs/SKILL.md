@@ -71,17 +71,22 @@ WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
 ### 신규 page_id가 있는 갱신
 
 ```bash
-python3 .claude/skills/garden-to-wikidocs/scripts/build.py --folders journal,meta,bib,notes,botlog
-python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
-python3 .claude/skills/garden-to-wikidocs/scripts/audit.py --allow-missing-page-ids
+python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
+  --folders journal,meta,bib,notes,botlog --core --garden-links
+python3 .claude/skills/garden-to-wikidocs/scripts/audit.py \
+  --core --garden-links --allow-missing-page-ids
 # GLG 승인 후 1차 commit/push → status.py 로 생성 동기화 확인
 WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
   python3 .claude/skills/garden-to-wikidocs/scripts/recover.py --book-id 20676
-python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
-python3 .claude/skills/garden-to-wikidocs/scripts/audit.py
+python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
+  --folders journal,meta,bib,notes,botlog --core --garden-links
+python3 .claude/skills/garden-to-wikidocs/scripts/audit.py --core --garden-links
 python3 -m unittest discover -s tests -q
 # GLG 승인 후 2차 commit/push → status.py --list 로 pending 0 확인
 ```
+
+`--core` 발행면에서는 새 표지 하나를 올리는 데도 이 2단계가 필요하다. 회수 뒤 build 를
+다시 돌려야 회수한 page_id 가 표지 목록에 반영된다.
 
 진척이 멈춰 pending이 남으면 위키독스 `책 수정 > 깃허브 > 지금 동기화`를 수동 재트리거한다.
 

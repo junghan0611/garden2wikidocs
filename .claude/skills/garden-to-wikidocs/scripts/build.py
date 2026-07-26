@@ -96,6 +96,11 @@ PUBLISH_LIMIT = 500
 CORE_TAG = "autholog"
 CORE_FOLDERS = ("botlog",)
 
+
+def is_core_member(folder: str, tags, core: bool) -> bool:
+    """발행 코어 판정. 예산 사전검사와 TOC 생성이 같은 규칙을 쓰도록 한 곳에 둔다."""
+    return not core or CORE_TAG in tags or folder in CORE_FOLDERS
+
 # ---------------------------------------------------------------- 제목/식별자
 
 SIGILS = "#@§¤†‡©※¶‣∷"
@@ -363,7 +368,8 @@ MIRROR_REPO = "https://github.com/junghan0611/garden2wikidocs"
 CORE_NOTE_URL = f"{GARDEN_URL}/notes/20230706T160800"
 
 
-def readme_meta_block(published: int = 0, total: int = 0, core: bool = False) -> str:
+def readme_meta_block(published: int = 0, total: int = 0, core: bool = False,
+                      folders=()) -> str:
     """책 대문 상단 메타데이터 섹션(헤딩 레벨). 마지막 동기화 = 빌드 날짜.
 
     코어 판본일 때 '미러링한 책'이라고 쓰면 거짓이다. 가든 전량이 아니라 골라 낸
@@ -379,13 +385,15 @@ def readme_meta_block(published: int = 0, total: int = 0, core: bool = False) ->
             f"- 미러 리포: <{MIRROR_REPO}>\n"
             f"- 마지막 동기화: {date.today().isoformat()}\n"
         )
+    scope = "·".join(CHAPTER_NAMES[folder][2:] for folder in folders
+                     if folder in CHAPTER_NAMES) if folders else ""
     return (
         "## 이 책에 대하여\n\n"
         "정한(Junghan Kim)의 **디지털가든 코어**입니다. 가든 전체를 미러링한 책이 "
         "아닙니다. 어쏠로그(생생날것)와 봇로그를 중심으로 "
-        f"가든 {total:,}개 문서 가운데 {published:,}개를 골라 낸 현재 판본입니다. "
-        "여기 없는 글도 지워진 것이 아니라 가든에 그대로 있고, 원본과 최신본은 "
-        "언제나 가든입니다.\n\n"
+        f"미러 대상 {len(folders)}개 폴더({scope}) {total:,}개 문서 가운데 "
+        f"{published:,}개를 골라 낸 현재 판본입니다. 여기 없는 글도 지워진 것이 아니라 "
+        "가든에 그대로 있고, 원본과 최신본은 언제나 가든입니다.\n\n"
         "코어는 가장 좋은 글의 목록이 아니라, 지금 불러낼 수 있는 이름과 말과 그 관계를 "
         "쌓아온 시간축의 현재 판본입니다. 왜 전체가 아니라 코어인지는 "
         f"[생생날것 500개 문턱 — 디지털가든 코어는 시간축의 판본이다]({CORE_NOTE_URL})에 "
@@ -393,16 +401,16 @@ def readme_meta_block(published: int = 0, total: int = 0, core: bool = False) ->
         f"- 원본 가든: <{GARDEN_HOME}>\n"
         f"- 가든 소스: <{GARDEN_REPO}>\n"
         f"- 코어 리포: <{MIRROR_REPO}>\n"
-        f"- 이 판본: 가든 {total:,}개 중 {published:,}개\n"
+        f"- 이 판본: 미러 대상 {total:,}개 중 {published:,}개\n"
         f"- 마지막 동기화: {date.today().isoformat()}\n"
     )
 
 
 def readme_head(readme_body: str, published: int = 0, total: int = 0,
-                core: bool = False) -> str:
+                core: bool = False, folders=()) -> str:
     body = AI_VISITORS_BQ.sub("", readme_body, count=1)
     body = AI_VISITORS_SEC.sub("", body, count=1)
-    return readme_meta_block(published, total, core) + "\n" + body.lstrip("\n")
+    return readme_meta_block(published, total, core, folders) + "\n" + body.lstrip("\n")
 
 
 def figure_repl(m):
@@ -694,6 +702,28 @@ def main():
     if mapping_path.exists():
         previous_mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
 
+    # 입력을 먼저 다 읽어 발행 규모를 확정한다(가든 5폴더 28MB 수준). 상한을 넘기면
+    # 생성물은 하나도 건드리지 않고 실패한다 — 웹훅이 거부할 TOC 는 만들지 않는다.
+    folder_sources = {}
+    for folder in folders:
+        notes = sorted((garden_root / "content" / folder).glob("*.md"),
+                       key=lambda path: path.name)
+        if not notes:
+            print(f"[warn] {folder}: 노트 없음, 건너뜀")
+            continue
+        sources = [read_source(src, folder) for src in notes]
+        sources.sort(key=source_sort_key, reverse=True)
+        folder_sources[folder] = sources
+
+    registered = len(folder_sources) + (0 if args.core else len(COLLECTIONS)) + sum(
+        1 for folder, sources in folder_sources.items() for source in sources
+        if is_core_member(folder, source["tags"], args.core)
+    )
+    if registered > PUBLISH_LIMIT:
+        raise ValueError(
+            f"TOC 등록 {registered}개 > 위키독스 상한 {PUBLISH_LIMIT}개. "
+            f"--core 로 발행면을 줄이거나 코어 정의를 조정한다(생성물은 건드리지 않았다).")
+
     # pages/ 초기화(생성물 전체) — 폴더 미러를 깨끗이 다시 쓴다
     if pages_dir.exists():
         shutil.rmtree(pages_dir)
@@ -714,13 +744,7 @@ def main():
     # 링크 대상 판단 기준. --garden-links 면 빈 집합이라 모든 목록이 가든으로 나간다.
     link_scope = set() if args.garden_links else published
 
-    for folder in folders:
-        src_dir = garden_root / "content" / folder
-        notes = sorted(src_dir.glob("*.md"), key=lambda p: p.name)
-        if not notes:
-            print(f"[warn] {folder}: 노트 없음, 건너뜀")
-            continue
-
+    for folder, sources in folder_sources.items():
         (pages_dir / folder).mkdir(parents=True, exist_ok=True)
         chapter_name = CHAPTER_NAMES.get(folder, folder)
 
@@ -730,10 +754,8 @@ def main():
         chapter_entries = []
 
         # 페이지는 pages/<folder>/<id>.md → assets 는 두 단계 위.
-        # TOC와 mapping 생성 순서도 가든 folder listing과 같이 newest-first다.
+        # TOC와 mapping 생성 순서도 가든 folder listing과 같이 newest-first다(사전 정렬됨).
         rel_prefix = "../../"
-        sources = [read_source(src, folder) for src in notes]
-        sources.sort(key=source_sort_key, reverse=True)
         for source in sources:
             did = source["id"]
             title_date = source_title_date(source)
@@ -752,7 +774,7 @@ def main():
 
             page_rel = f"pages/{folder}/{did}.md"
             (out / page_rel).write_text(content, encoding="utf-8")
-            if not args.core or CORE_TAG in source["tags"] or folder in CORE_FOLDERS:
+            if is_core_member(folder, source["tags"], args.core):
                 toc.append(f"  - [{subject}]({page_rel})")
                 published.add(page_rel)
             entry = {
@@ -824,21 +846,19 @@ def main():
         icontent = transform_body(ibody, garden_root, assets_dir, "", copied)
         # AI visitors 제거 + 메타데이터 섹션. 코어 판본이면 발행 규모를 그대로 밝힌다.
         icontent = readme_head(icontent, len(published),
-                               sum(key != "_chapters" for key in mapping), args.core)
+                               sum(key != "_chapters" for key in mapping), args.core,
+                               list(folder_sources))
         icontent = scrub_identity(icontent, scrub_rules)
         ititle = clean_toc_title(imeta.get("title") or "Home")
         (out / "README.md").write_text(f"# {ititle}\n\n{icontent}", encoding="utf-8")
         print(f"[ok] README    : content/index.md -> README.md ({ititle})")
 
-    # 발행 예산은 TOC·mapping 을 쓰기 전에 막는다. 상한을 넘긴 TOC 는 웹훅이 통째로
-    # 거부하므로 그런 TOC 는 아예 만들지 않는다. pages/ 는 이미 다시 쓰였으니 옵션을
-    # 고쳐 build 를 한 번 더 돌려야 생성물이 일관된 상태로 돌아온다.
+    # 예산은 생성물을 건드리기 전에 이미 확정했다. 여기서는 그 계산이 실제 TOC 와
+    # 어긋나지 않았는지만 확인한다(사전검사와 생성이 같은 is_core_member 를 쓴다).
     toc_registered = sum(1 for line in toc if "](pages/" in line)
-    if toc_registered > PUBLISH_LIMIT:
+    if toc_registered != registered:
         raise ValueError(
-            f"TOC 등록 {toc_registered}개 > 위키독스 상한 {PUBLISH_LIMIT}개. "
-            f"--core 로 발행면을 줄이거나 코어 정의를 조정한 뒤 다시 build 한다 "
-            f"(TOC·mapping 은 쓰지 않았고 pages/ 는 재생성됐다).")
+            f"발행 예산 사전검사와 실제 TOC 불일치: {registered} != {toc_registered}")
 
     (out / "TOC.md").write_text("\n".join(toc) + "\n", encoding="utf-8")
     mapping_path.write_text(

@@ -3,28 +3,33 @@
 메커니즘·불변식 SSOT는 `.claude/skills/garden-to-wikidocs/SKILL.md`.
 정본/미러 정책은 garden `docs/WIKIDOCS_MIRROR.md`.
 
-## NOW — 코어 판본 발행 완료, status.py만 코어를 모른다
+## NOW — 코어 판본 발행 완료, 검수 이슈 3건 반영
 
 - **Current**: 위키독스가 `TOC.md` 등록 500개 상한을 사후 도입해 07-19부터 동기화가
   막혀 있었다. 2026-07-26에 발행면을 코어로 줄여 되살렸다. 라이브 249개
   (챕터 표지 5 + 본문 244 = autholog 태그 170 ∪ botlog 폴더 80). 저널·메타·참고문헌·노트
   본문은 발행면 밖이고 표지에서 가든으로 잇는다. 리포는 2,239개 전량을 보존한다.
 - **파이프라인**: `build --core --garden-links` → `audit --core --garden-links` → tests.
-  relink는 현재 돌리지 않는다(링크 전부 가든). 상한 초과 TOC는 build가 쓰기 전에 실패한다.
-- **Next**: (1) `status.py`에 발행면 개념을 넣는다 — 지금은 로컬 `pages/**` 전량을 분모로
-  써서 코어 모드에서 `미생성 1996개`가 정상인데도 오류처럼 보인다. TOC 등록분만
-  synced/pending으로 세고 나머지는 `unpublished`로 따로 보고할 것. (2) 그 다음에야
-  `0 어쏠로그` 집합 표지 복원을 검토한다(신규 page_id 2단계 push 필요, 여유 251).
-- **Blocker**: 없음. 07-26 12:42 push는 생성 0/삭제 0의 본문 갱신이고 웹훅이 정상 처리 중이다.
-- **Verify**: `audit --core --garden-links` 통과 + `unittest` 31/31 + 같은 명령 두 번 빌드
-  sha256 diff 0줄. push 전에는 라이브 gid와 새 TOC를 대조해 생성/삭제 0을 확인한다.
+  relink는 현재 돌리지 않는다(링크 전부 가든).
+- **Next**: 가든 org 원문(`20230706T160800`)이 07-26 12:45까지 갱신됐지만 가든 markdown
+  export 는 아직 07-22 판본이다. org export → garden commit → `build --core --garden-links`
+  → audit → 승인 push 로 코어에 반영한다. 그 다음에 `0 어쏠로그` 집합 표지 복원을
+  검토한다(신규 page_id 2단계 push 필요, 여유 251).
+- **Blocker**: 없음.
+- **Verify**: `audit --core --garden-links` 통과 + `unittest` 32/32 + 같은 명령 두 번 빌드
+  sha256 diff 0줄 + `status.py` 가 발행면 기준 100%/exit 0. push 전에는 라이브 gid와 새
+  TOC를 대조해 생성/삭제 수를 먼저 확인한다.
 - **Read**: SKILL.md의 「실측으로 확정된 불변식」 상단 4개, `build.py`의 `PUBLISH_LIMIT`/
-  `link_target`/`readme_meta_block`, `relink.py`의 발행면 게이트.
+  `is_core_member`/`link_target`/`readme_meta_block`, `relink.py`·`status.py`의 발행면 게이트.
 - **Do not touch**: `~/repos/gh/notes` 원본, 민감어 하드코딩. 발행면 밖 page_id로 링크를
   만들지 않는다(audit이 잡는다). push는 웹훅 전체를 촉발하므로 GLG의 현재 세션 명시 요청 전 금지.
 
 ## RECENT
 
+- [2026-07-26] 별동대 검수 이슈 3건을 반영했다. #1 status.py가 TOC 발행면을 분모로
+  쓰고 미발행을 따로 보고한다. #2 발행 예산을 생성물 삭제·재생성 전에 검사한다
+  (입력을 먼저 읽고 `is_core_member` 한 규칙으로 사전·사후 계산을 맞춘다). #3 대문
+  분모를 '미러 대상 5개 폴더 2,239개'로 명시했다. 테스트 31→32.
 - [2026-07-26] 500 상한의 정체를 실측 확정했다. 게이트는 `TOC.md` 등록 줄 수이고 델타
   크기와 무관하다. TOC에서 뺀 페이지는 라이브에서 삭제되며(2243→249, 빠진 주소 404)
   복구 경로가 없다. 다만 살아남은 244개는 page_id가 하나도 안 바뀌었다. 계약을 build/

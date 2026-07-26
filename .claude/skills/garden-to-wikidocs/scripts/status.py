@@ -33,6 +33,8 @@ API = "https://wikidocs.net/napi"
 GID_COMMENT = re.compile(r"<!-- gid:(\d{8}T\d{6}) -->")
 COLLECTION_COMMENT = re.compile(r"<!-- collection:([a-z0-9]+) -->")
 GID_NAME = re.compile(r"(\d{8}T\d{6})")
+# TOC.md 의 링크 대상 경로. 발행면 = 여기 등록된 것뿐이다.
+TOC_TARGET = re.compile(r"^\s*- \[[^\]]*\]\((pages/[^)]+)\)\s*$", re.M)
 IMG = re.compile(r"!\[([^\]]*)\]\([^)]*\)")
 
 
@@ -90,8 +92,20 @@ def main():
         if cm:
             live_collections[cm.group(1)] = content
 
+    # 발행면. TOC.md 에 등록된 것만 위키독스가 라이브로 두므로 분모는 전량이 아니라
+    # 등록분이다. 코어 판본에서 미등록 페이지가 라이브에 없는 것은 정상이라 별도로 센다.
+    toc_path = root / "TOC.md"
+    published = set(TOC_TARGET.findall(toc_path.read_text(encoding="utf-8"))) \
+        if toc_path.exists() else None
+    if published is None:
+        print(f"[warn] TOC.md 없음: {toc_path} — 로컬 전량을 발행면으로 본다")
+
+    def is_published(path):
+        return published is None or \
+            path.relative_to(root).as_posix() in published
+
     # 로컬 페이지 대조
-    synced, pending, missing = [], [], []
+    synced, pending, missing, unpublished = [], [], [], []
     for path in sorted(root.glob("pages/**/*.md")):
         if path.name.endswith("_chapter.md"):
             continue
@@ -101,7 +115,9 @@ def main():
         gid = m.group(1)
         folder = path.relative_to(root / "pages").parts[0]
         rec = (gid, folder)
-        if gid not in live:
+        if not is_published(path):
+            unpublished.append(rec)
+        elif gid not in live:
             missing.append(rec)
         elif norm(live[gid]) == norm(path.read_text(encoding="utf-8")):
             synced.append(rec)
@@ -116,7 +132,9 @@ def main():
             continue
         tag = match.group(1)
         rec = (f"collection:{tag}", "collection")
-        if tag not in live_collections:
+        if not is_published(path):
+            unpublished.append(rec)
+        elif tag not in live_collections:
             missing.append(rec)
         elif norm(live_collections[tag]) == norm(local):
             synced.append(rec)
@@ -130,13 +148,15 @@ def main():
         print(json.dumps({
             "book_id": args.book_id, "total": total, "synced": len(synced),
             "pending": len(pending), "missing": len(missing), "pct": round(pct, 1),
-            "live_nodes": len(nodes),
+            "unpublished": len(unpublished), "live_nodes": len(nodes),
         }, ensure_ascii=False))
     else:
         print(f"[status] book_id  : {args.book_id}  (라이브 노드 {len(nodes)}개)")
         print(f"[status] 반영 완료: {len(synced)}/{total}  ({pct:.1f}%)")
         print(f"[status] 미반영   : {len(pending)}개")
         print(f"[status] 미생성   : {len(missing)}개")
+        print(f"[status] 미발행   : {len(unpublished)}개 "
+              f"(TOC 밖 — 리포에만 있고 라이브에 없는 것이 정상)")
 
     if args.list:
         def by_folder(recs):

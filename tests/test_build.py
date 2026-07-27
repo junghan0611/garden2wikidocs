@@ -247,8 +247,13 @@ class ProvenanceTests(unittest.TestCase):
         sources.sort(key=BUILD.collection_sort_key, reverse=True)
         entries = [
             (f"{source['id']} 제목", {
+                "path": f"pages/notes/{source['id']}.md",
                 "url": f"https://wikidocs.net/{index}",
                 "source_url": f"https://notes.junghanacs.com/notes/{source['id']}/",
+                "source_date": source["date"],
+                "source_lastmod": source["lastmod"],
+                "description": f"{source['id']} 설명",
+                "tags": ["autholog"],
             })
             for index, source in enumerate(sources, start=1)
         ]
@@ -274,20 +279,87 @@ class ProvenanceTests(unittest.TestCase):
 
     def test_chapter_index_uses_given_recent_first_order_and_stable_urls(self):
         entries = [
-            ("20260718 최신", {
+            ("최신", {
+                "path": "pages/notes/20260718T000000.md",
                 "url": "https://wikidocs.net/2",
                 "source_url": "https://notes.junghanacs.com/notes/20260718T000000/",
+                "source_date": "2026-07-18T00:00:00+09:00",
+                "source_lastmod": "2026-07-19T00:00:00+09:00",
+                "description": "최신 설명",
+                "tags": ["autholog", "pkm"],
             }),
-            ("20260717 이전", {
+            ("이전", {
+                "path": "pages/notes/20260717T000000.md",
                 "url": "https://wikidocs.net/1",
                 "source_url": "https://notes.junghanacs.com/notes/20260717T000000/",
+                "source_date": "2026-07-17T00:00:00+09:00",
+                "source_lastmod": "",
+                "description": "이전 설명",
+                "tags": [],
             }),
         ]
         index = BUILD.chapter_index("notes", entries)
         self.assertNotIn("[[SubPages]]", index)
-        self.assertLess(index.index("20260718 최신"), index.index("20260717 이전"))
-        self.assertIn("[20260718 최신](https://wikidocs.net/2)", index)
+        self.assertNotIn("## 최신순 목록", index)
+        self.assertLess(index.index("## 최신"), index.index("## 이전"))
+        self.assertIn("작성 2026-07-18 · 수정 2026-07-19 · 태그 autholog, pkm", index)
+        self.assertIn("[위키독스에서 읽기 →](https://wikidocs.net/2)", index)
         self.assertEqual(index.count(BUILD.CHAPTER_INDEX_START), 1)
+
+
+class AeoIndexTests(unittest.TestCase):
+    def entry(self, did, date, description="설명", tags=None, lastmod=""):
+        return {
+            "path": f"pages/meta/{did}.md",
+            "url": f"https://wikidocs.net/{int(did[:8])}",
+            "source_url": f"https://notes.junghanacs.com/meta/{did}/",
+            "source_date": f"{date}T00:00:00+09:00",
+            "source_lastmod": lastmod,
+            "description": description,
+            "tags": tags or [],
+        }
+
+    def test_public_index_metadata_is_scrubbed_before_cache_and_render(self):
+        source = {"description": "private6 설명", "tags": ["private", "safe"]}
+        rules = [(BUILD.re.compile(r"private([0-9]*)"), r"public\1")]
+        self.assertEqual(BUILD.public_index_metadata(source, rules), {
+            "description": "public6 설명", "tags": ["public", "safe"]})
+
+    def test_plain_summary_only_escapes_active_markdown_and_html(self):
+        self.assertEqual(BUILD.plain_summary("#메타인지"), "#메타인지")
+        self.assertEqual(BUILD.plain_summary("2026-03-23_W12 T*"),
+                         "2026-03-23_W12 T*")
+        self.assertEqual(BUILD.plain_summary("*현재성*"), "*현재성*")
+        self.assertEqual(BUILD.plain_summary("Org -&gt; Markdown"),
+                         "Org -&gt; Markdown")
+        self.assertEqual(BUILD.plain_summary("R&D"), "R&D")
+        self.assertEqual(BUILD.plain_summary("NEXT--<branch>.md"),
+                         "NEXT--&lt;branch&gt;.md")
+        self.assertEqual(BUILD.plain_summary("# 제목"), r"\# 제목")
+
+    def test_duplicate_headings_get_date_then_gid_fallback(self):
+        entries = [
+            ("빈방 임시", self.entry("20240101T010101", "2024-01-01")),
+            ("빈방 임시", self.entry("20240202T020202", "2024-02-02")),
+            ("같은 날", self.entry("20240303T030301", "2024-03-03")),
+            ("같은 날", self.entry("20240303T030302", "2024-03-03")),
+        ]
+        headings = BUILD.index_headings(entries)
+        self.assertEqual(headings[:2],
+                         ["빈방 임시 — 2024-01-01", "빈방 임시 — 2024-02-02"])
+        self.assertEqual(headings[2:], [
+            "같은 날 — 2024-03-03 — 20240303T030301",
+            "같은 날 — 2024-03-03 — 20240303T030302",
+        ])
+
+    def test_empty_description_tags_and_lastmod_are_omitted(self):
+        index = BUILD.chapter_index(
+            "meta", [("요약 없는 노트", self.entry("20240101T010101", "2024-01-01",
+                                                     description=""))])
+        self.assertIn("## 요약 없는 노트\n\n작성 2024-01-01\n\n[위키독스", index)
+        self.assertNotIn("수정 ", index)
+        self.assertNotIn("태그 ", index)
+        self.assertEqual(sum(line.startswith("## ") for line in index.splitlines()), 1)
 
 
 class BuildIntegrationTests(unittest.TestCase):
@@ -416,13 +488,16 @@ class BuildIntegrationTests(unittest.TestCase):
                 )
                 self.assertIn("source_date", mapping[did])
                 self.assertIn("source_lastmod", mapping[did])
+                self.assertEqual(mapping[did]["description"], f"{folder} 설명")
+                self.assertEqual(mapping[did]["tags"],
+                                 ["autholog"] if folder in {"bib", "notes"} else [])
             self.assertEqual(mapping["_chapters"]["bib"]["subject"], "3 참고문헌")
             self.assertEqual(mapping["_chapters"]["autholog"]["page_id"], 204)
             self.assertEqual(mapping["_chapters"]["autholog"]["subject"], "0 어쏠로그")
             collection = (out / "pages/autholog/_chapter.md").read_text(encoding="utf-8")
             self.assertIn("`autholog` 태그 문서 2개", collection)
-            self.assertLess(collection.index("20250607 332 참고문헌"),
-                            collection.index("20240301 노트 연결"))
+            self.assertLess(collection.index("## 332 참고문헌"),
+                            collection.index("## 노트 연결"))
             self.assertEqual((out / "README.md").read_text(encoding="utf-8").splitlines()[0],
                              "# 가든 대문")
 
@@ -513,6 +588,10 @@ class PublishGateTests(unittest.TestCase):
         "path": "pages/notes/20260718T000000.md",
         "url": "https://wikidocs.net/7",
         "source_url": "https://notes.junghanacs.com/notes/20260718T000000/",
+        "source_date": "2026-07-18T00:00:00+09:00",
+        "source_lastmod": "",
+        "description": "설명",
+        "tags": [],
     }
 
     def test_link_target_prefers_page_id_when_publication_is_unknown(self):
@@ -528,7 +607,7 @@ class PublishGateTests(unittest.TestCase):
 
     def test_chapter_index_sends_unpublished_entries_to_garden(self):
         index = BUILD.chapter_index("notes", [("20260718 제목", self.ENTRY)], set())
-        self.assertIn(f"[20260718 제목]({self.ENTRY['source_url']})", index)
+        self.assertIn(f"[가든 원본에서 읽기 →]({self.ENTRY['source_url']})", index)
         self.assertNotIn("wikidocs.net/7", index)
 
     def test_readme_core_block_states_edition_not_mirror(self):
@@ -640,7 +719,8 @@ class CoreBuildIntegrationTests(unittest.TestCase):
             )
 
             collection = (out / "pages/autholog/_chapter.md").read_text(encoding="utf-8")
-            items = [line for line in collection.splitlines() if line.startswith("- [")]
+            items = [line for line in collection.splitlines()
+                     if line.startswith("[위키독스에서 읽기 →]")]
             self.assertEqual(len(items), 1)
             self.assertIn("https://wikidocs.net/111", items[0])
             self.assertNotIn("notes.junghanacs.com/notes/", "\n".join(items))

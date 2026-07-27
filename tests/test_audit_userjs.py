@@ -16,6 +16,46 @@ AUDIT = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(AUDIT)
 
 
+class AeoIndexContractTests(unittest.TestCase):
+    ENTRIES = [
+        ("첫째", {"path": "pages/notes/20260102T000000.md",
+                  "url": "https://wikidocs.net/2",
+                  "source_url": "https://notes.junghanacs.com/notes/20260102T000000/"}),
+        ("둘째", {"path": "pages/notes/20260101T000000.md",
+                  "url": "https://wikidocs.net/1",
+                  "source_url": "https://notes.junghanacs.com/notes/20260101T000000/"}),
+    ]
+
+    def test_heading_count_and_read_link_order_match(self):
+        text = (
+            "안내\n\n## 첫째\n\n[위키독스에서 읽기 →](https://wikidocs.net/2)\n\n"
+            "## 둘째\n\n[위키독스에서 읽기 →](https://wikidocs.net/1)\n")
+        self.assertEqual(
+            AUDIT.index_structure_findings("notes", text, self.ENTRIES, None), [])
+
+    def test_description_heading_injection_changes_count(self):
+        text = (
+            "## 첫째\n\n## 설명이 만든 가짜 헤딩\n\n"
+            "[위키독스에서 읽기 →](https://wikidocs.net/2)\n\n"
+            "## 둘째\n\n[위키독스에서 읽기 →](https://wikidocs.net/1)\n")
+        errors = AUDIT.index_structure_findings("notes", text, self.ENTRIES, None)
+        self.assertTrue(any("## 항목 수 불일치" in error for error in errors))
+
+    def test_duplicate_headings_are_rejected(self):
+        text = (
+            "## 같은 제목\n\n[위키독스에서 읽기 →](https://wikidocs.net/2)\n\n"
+            "## 같은 제목\n\n[위키독스에서 읽기 →](https://wikidocs.net/1)\n")
+        errors = AUDIT.index_structure_findings("notes", text, self.ENTRIES, None)
+        self.assertTrue(any("중복 heading" in error for error in errors))
+
+    def test_reordered_read_links_are_rejected(self):
+        text = (
+            "## 첫째\n\n[위키독스에서 읽기 →](https://wikidocs.net/1)\n\n"
+            "## 둘째\n\n[위키독스에서 읽기 →](https://wikidocs.net/2)\n")
+        errors = AUDIT.index_structure_findings("notes", text, self.ENTRIES, None)
+        self.assertTrue(any("순서/대상 불일치" in error for error in errors))
+
+
 class UserScriptParseTests(unittest.TestCase):
     def test_ch_array_is_read_as_page_id_and_subject(self):
         script = ("var CH=[[null,'0 어쏠로그'],[380373,'1 저널'],"

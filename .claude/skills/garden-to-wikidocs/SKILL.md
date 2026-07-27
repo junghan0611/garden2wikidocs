@@ -28,9 +28,9 @@ cross-repo 정책 SSOT는 garden의
 ```
 [1] build.py   씨뿌리기 — 가든 폴더 → pages/<folder>/<denote-id>.md + TOC.md + mapping.json
                + BUILD-MANIFEST.json, content/index.md → README.md(위키독스 책 '대문'),
-               autholog 태그 문서 → pages/autholog/_chapter.md(lastmod recent-first 집합면).
-               garden frontmatter의 title/description/date/lastmod를 읽고, 각 페이지에
-               abstract-first `원본·최신본` block + <!-- gid:ID --> 앵커를 둔다.
+               폴더·autholog 표지 → `## 제목` + 날짜·태그 + description + 읽기 링크의
+               AEO recent-first 집합면. garden frontmatter의 title/description/date/lastmod를
+               읽고, 각 본문 페이지에 abstract-first `원본·최신본` block + <!-- gid:ID --> 앵커를 둔다.
                내부 relref 는 가든 절대URL, provenance source URL은 relink에서 보호.
                기존 mapping의 page_id/url은 동일 Denote ID에 승계한다.
 [2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 및
@@ -40,7 +40,8 @@ cross-repo 정책 SSOT는 garden의
                가든 URL 유지, 하이브리드). 발행면 밖 파일은 아예 열지 않는다.
                `/tags/autholog/` 링크도 회수된 어쏠로그 집합 표지로 실화한다.
 [검증] audit.py  품질 게이트 — TOC·mapping·gid·page_id·source metadata/provenance·
-               uniqueness/completeness·abstract ordering·미처리 relref·원본/미러 헤딩 보존
+               AEO 표지 exact match + `##`/읽기 링크 수·순서·uniqueness/completeness·
+               abstract ordering·미처리 relref·원본/미러 헤딩 보존
 [상태] status.py push 후 웹훅 반영 진척 — book get 라이브 본문 vs 로컬 pages/ 대조로
                gid 페이지와 collection marker의 synced/pending/missing 카운트.
                대량 push 는 한 번에 안 도는 일이 잦다.
@@ -145,27 +146,39 @@ python3 -m unittest discover -s tests -q
   (주간/일간 저널이 나타내는 created date), meta/bib/notes/botlog는 garden `lastmod`를 쓰고
   없을 때만 `date`로 fallback한다. build/git/file mtime/WikiDocs sync 시각은 금지한다.
   제목이 선택된 source 날짜(ISO 또는 8자리)로 이미 시작하면 중복 접두어를 생략한다.
-- **recent-first 목록.** TOC.md와 각 챕터 cover는 위 source 날짜 기준 내림차순이다.
+- **recent-first AEO 표지.** TOC.md와 각 챕터 cover는 위 source 날짜 기준 내림차순이다.
   WikiDocs sidebar는 제목 오름차순을 강제하므로 stable title/page_id를 깨는 순번 재부여를
-  하지 않는다. `_chapter.md`에 stable WikiDocs URL(미회수면 garden URL)의 명시적 최신순
-  목록을 생성하고 sidebar 오름차순 한계와 분리한다.
+  하지 않는다. `_chapter.md`의 항목은 `##` 깨끗한 원제목 → 작성·수정일·태그 → frontmatter
+  `description` → 읽기 링크 순서다. TOC의 날짜접두어 `subject`와 표지 heading은 역할이
+  다르다. 같은 표지 안의 중복 제목만 `— 작성일`(그래도 겹치면 Denote ID)로 구분한다.
+  발행면 안은 WikiDocs, 밖은 garden 원본으로 보내며 링크 문구도 목적지를 밝힌다. 표지에는
+  `[TOC]`를 넣지 않는다(수백 heading 폭발 방지). audit은 exact regeneration과 별개로
+  item `##` 수·heading 유일성·읽기 링크 수/순서를 독립 검증한다.
 - **페이지 provenance 순서.** 저자의 `이 노트에 대하여` abstract가 있으면
   `abstract → 원본·최신본 → [TOC]/본문`, 없으면 provenance가 첫 본문 블록이다. 블록의
   exact garden source URL은 relink하지 않는다. source date/lastmod만 페이지에 표시하고
   mirror sync date는 README 책 수준에만 둔다.
 - **mapping의 source metadata는 cache.** Denote ID가 join key다. 기존 `page_id`, `url`,
   `path`, `folder`, `subject`를 호환 보존하고 `source_url`, `source_date`,
-  `source_lastmod`를 garden frontmatter에서 매 build마다 다시 파생한다.
+  `source_lastmod`, `description`, `tags`를 garden frontmatter에서 매 build마다 다시 파생한다.
+  표지에 공개되는 description/tags cache에는 본문과 같은 신원 난독화를 적용한다. description이
+  비면(현재 1건) 요약 문단만 생략하고 abstract를 대신 복사하지 않는다. tags/lastmod가 없으면
+  해당 메타 segment만 생략한다.
 - **재현 입력 manifest.** build는 루트 `BUILD-MANIFEST.json`에 garden full commit SHA,
   relevant source clean 여부, canonical folders/page count/book id, 선택 입력의 deterministic
   content SHA256을 기록한다. manifest는 commit 대상 운영 provenance이며 WikiDocs ingest 대상이
   아니다. audit은 현재 garden 입력과 exact match를 검증한다. 생성 시각은 넣지 않는다.
 - **pages/ 서브디렉토리 지원됨.** `pages/<folder>/...` 로 가든 폴더 구조를 미러한다.
-- **폴더 = 챕터.** `pages/<folder>/_chapter.md`에 explicit recent-first index를 생성한다.
+- **폴더 = 챕터.** `pages/<folder>/_chapter.md`에 전 항목 AEO recent-first index를 생성한다.
+  단순 링크 목록이 아니라 제목·source 날짜·태그·description·목적지 명시 링크를 싣는다.
+  description은 plain text를 기본으로 다루되 authored `*강조*`/`_강조_`와 중간 `#태그`,
+  기존 HTML entity는 보존한다. angle bracket의 HTML 소실과 미래의 줄 시작 Markdown block
+  문법만 방어하며, `&`를 바꿔 기존 entity를 이중 인코딩하지 않는다.
 - **autholog = 0순위 가상 챕터.** WikiDocs에 태그 기능이 없으므로 전 canonical folder에서
   frontmatter `tags`에 `autholog`가 있는 문서만 `pages/autholog/_chapter.md`에 모은다.
-  원본/본문을 복제하거나 수정하지 않고 기존 미러 URL을 잇는다. 정렬은 폴더와 무관하게
-  `lastmod` 내림차순(`date` fallback, 같은 시각은 Denote ID 내림차순)이다. standalone 표지는
+  원본/본문을 복제하지 않고 폴더 표지와 같은 AEO 항목 renderer로 기존 미러 URL을 잇는다.
+  정렬은 폴더와 무관하게 `lastmod` 내림차순(`date` fallback, 같은 시각은 Denote ID
+  내림차순)이다. standalone 표지는
   `<!-- collection:autholog -->`로 회수하며 `_chapters.autholog`에 page_id를 보관한다.
   TOC와 사용자 스크립트 탐색면에서는 authored folder보다 앞선 `0 어쏠로그`로 둔다.
   첫 생성 때는 `audit --allow-missing-page-ids` → push/status → recover/relink → audit의 신규 ID
@@ -187,7 +200,8 @@ python3 -m unittest discover -s tests -q
   는 이미지 URL 을 `![](IMG)` 로 중립화해야 정확하다 — 안 하면 이미지 있는 페이지가 영영
   pending 오탐으로 잡힌다.
 - **회사/직장 신원 난독화 필수.** `scrub_identity` 가 가든 `change-text.sh` 의 치환 규칙을
-  런타임에 읽어 적용한다. 민감어를 이 스크립트나 문서에 하드코딩하지 않는다(그 자체가
+  런타임에 읽어 본문뿐 아니라 AEO 표지의 title/description/tags 공개값에도 적용한다.
+  민감어를 이 스크립트나 문서에 하드코딩하지 않는다(그 자체가
   pre-commit 훅에 걸린다). change-text.sh 가 어떤 핸들의 특정 번호 변형만 다루는 경우, build.py
   가 그 베이스를 전 변형(숫자 0개 이상)으로 일반화해 훅이 막는 모든 형태를 덮는다.
 
@@ -195,8 +209,9 @@ python3 -m unittest discover -s tests -q
 
 | 가든 (Quartz/Hugo) | 위키독스 | 함수 |
 |---|---|---|
-| frontmatter `title/date/lastmod` | journal=`date`, 그 외=`lastmod→date`의 `<날짜8> <제목>` + recent-first TOC/chapter index | `source_sort_timestamp`/`subject_for` |
-| frontmatter 전체 | 제거 | `split_frontmatter` |
+| frontmatter `title/date/lastmod` | journal=`date`, 그 외=`lastmod→date`의 `<날짜8> <제목>` + recent-first TOC | `source_sort_timestamp`/`subject_for` |
+| frontmatter `title/description/date/lastmod/tags` | 챕터 표지의 `## 제목` + 메타 + plain-text 요약 + 목적지 링크 | `public_index_metadata`/`index_item_blocks` |
+| 본문 페이지의 frontmatter | 제거 | `split_frontmatter` |
 | `## 제목 {#anchor}` | `## 제목` | `HEAD_ANCHOR` |
 | `<span class="timestamp-wrapper">…[날짜]…</span>` | `[날짜]` | `TIMESTAMP` |
 | `> [!type] 제목` callout 11종+ | `[[TIP("라벨")]]…[[/TIP]]` | `convert_callouts` |

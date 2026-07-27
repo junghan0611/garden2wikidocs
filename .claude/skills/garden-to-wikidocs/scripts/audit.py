@@ -3,6 +3,7 @@
 
 build/relink 뒤 push 전에 실행한다. 가든은 읽기만 하며 다음을 검증한다.
 - TOC 챕터/태그 집합 순서, 엔트리 수, 링크 경로, 안전하지 않은 제목 문자
+- 챕터 표지의 AEO `##` 항목 수·읽기 링크 수/순서 및 exact regeneration
 - mapping과 생성 페이지의 1:1 대응, gid 앵커, page_id 완전성
 - 코드펜스 밖 미처리 relref 부재
 - 원본과 미러의 Markdown 헤딩 수 보존(줄바꿈 붕괴 탐지)
@@ -40,6 +41,9 @@ OUTPUT_ABSTRACT = re.compile(
     r'^\[\[TIP\("이 노트에 대하여"\)\]\].*?^\[\[/TIP\]\]$',
     re.DOTALL | re.MULTILINE,
 )
+INDEX_ITEM_HEADING = re.compile(r"^## (.+)$", re.MULTILINE)
+INDEX_READ_LINK = re.compile(
+    r"^\[(?:위키독스|가든 원본)에서 읽기 →\]\(([^)]+)\)$", re.MULTILINE)
 
 
 def duplicates(values):
@@ -57,6 +61,34 @@ def duplicates(values):
 def unprotected(text: str) -> str:
     guarded, _ = BUILD.protect_code(text)
     return guarded
+
+
+def index_structure_findings(label: str, text: str, entries, published):
+    """exact regeneration과 별개로 AEO 항목 수·링크 수/순서를 검증한다."""
+    errors = []
+    headings = INDEX_ITEM_HEADING.findall(text)
+    links = INDEX_READ_LINK.findall(text)
+    expected_links = [BUILD.link_target(entry, published) for _, entry in entries]
+    if len(headings) != len(entries):
+        errors.append(f"{label}: AEO ## 항목 수 불일치 {len(headings)} != {len(entries)}")
+    duplicate_headings = duplicates(headings)
+    if duplicate_headings:
+        errors.append(
+            f"{label}: AEO ## 중복 heading {len(duplicate_headings)}개: "
+            f"{duplicate_headings[:3]}")
+    if len(links) != len(entries):
+        errors.append(f"{label}: AEO 읽기 링크 수 불일치 {len(links)} != {len(entries)}")
+    if links != expected_links:
+        first_difference = next(
+            (i for i, (actual, expected) in enumerate(zip(links, expected_links))
+             if actual != expected),
+            min(len(links), len(expected_links)),
+        )
+        errors.append(
+            f"{label}: AEO 읽기 링크 순서/대상 불일치 at {first_difference}: "
+            f"{links[first_difference:first_difference+2]} != "
+            f"{expected_links[first_difference:first_difference+2]}")
+    return errors
 
 
 def user_script_chapters(text: str):
@@ -125,6 +157,7 @@ def main():
     args = ap.parse_args()
 
     garden = Path(args.garden).expanduser()
+    scrub_rules = BUILD.load_scrub_rules(garden)
     if args.out:
         out = Path(args.out).expanduser()
     else:
@@ -249,6 +282,7 @@ def main():
             or value.get("folder") in BUILD.CORE_FOLDERS
 
     expected_paths = []
+    chapter_index_count = 0
     for folder in folders:
         folder_entries = [
             (gid, value) for gid, value in pages_map.items() if value.get("folder") == folder
@@ -262,17 +296,26 @@ def main():
             }),
             reverse=True,
         )
+        chapter_index_count += len(folder_entries)
         expected_paths.extend(
             value["path"] for gid, value in folder_entries
             if not args.core or is_core(gid, value)
         )
         # 표지 목록은 발행 여부와 무관하게 폴더 전량을 싣는다. 달라지는 건 링크 대상뿐이다.
         cover_path = out / f"pages/{folder}/_chapter.md"
-        expected_index = BUILD.chapter_index(
-            folder, [(value["subject"], value) for _, value in folder_entries], link_scope
-        )
-        if not cover_path.exists() or cover_path.read_text(encoding="utf-8") != expected_index:
-            errors.append(f"chapter index: {folder} recent-first 목록/링크 불일치")
+        index_entries = [
+            (BUILD.public_index_title(sources[gid], scrub_rules), value)
+            for gid, value in folder_entries if gid in sources
+        ]
+        expected_index = BUILD.chapter_index(folder, index_entries, link_scope)
+        if not cover_path.exists():
+            errors.append(f"chapter index: {folder} 파일 없음")
+        else:
+            actual_index = cover_path.read_text(encoding="utf-8")
+            if actual_index != expected_index:
+                errors.append(f"chapter index: {folder} recent-first AEO 목록/링크 불일치")
+            errors.extend(index_structure_findings(
+                f"chapter index: {folder}", actual_index, index_entries, link_scope))
 
     collection_counts = {}
     for tag, spec in BUILD.COLLECTIONS.items():
@@ -280,14 +323,20 @@ def main():
                   if tag in source["tags"]]
         tagged.sort(key=lambda item: BUILD.collection_sort_key(item[0]), reverse=True)
         collection_counts[tag] = len(tagged)
-        expected_index = BUILD.collection_index(tag, [
-            (BUILD.subject_for(BUILD.collection_sort_key(source)[0], source["title"]), value)
+        index_entries = [
+            (BUILD.public_index_title(source, scrub_rules), value)
             for source, value in tagged
-        ], link_scope)
+        ]
+        expected_index = BUILD.collection_index(tag, index_entries, link_scope)
         collection_path = out / spec["path"]
-        if (not collection_path.exists() or
-                collection_path.read_text(encoding="utf-8") != expected_index):
-            errors.append(f"collection index: {tag} lastmod recent-first 목록/링크 불일치")
+        if not collection_path.exists():
+            errors.append(f"collection index: {tag} 파일 없음")
+        else:
+            actual_index = collection_path.read_text(encoding="utf-8")
+            if actual_index != expected_index:
+                errors.append(f"collection index: {tag} lastmod recent-first AEO 목록/링크 불일치")
+            errors.extend(index_structure_findings(
+                f"collection index: {tag}", actual_index, index_entries, link_scope))
 
     expected_navigation = set(folders) | set(BUILD.COLLECTIONS)
     actual_navigation = set(mapping.get("_chapters", {}))
@@ -386,6 +435,7 @@ def main():
             "source_url": source["source_url"],
             "source_date": source["date"],
             "source_lastmod": source["lastmod"],
+            **BUILD.public_index_metadata(source, scrub_rules),
         }
         for key, expected in expected_cache.items():
             if value.get(key) != expected:
@@ -471,7 +521,8 @@ def main():
     collection_summary = ", ".join(
         f"{tag} {count}개" for tag, count in collection_counts.items()
     )
-    print(f"[ok] chapters : folder recent-first {len(folders)}개, tag collection {collection_summary}")
+    print(f"[ok] chapters : AEO folder {len(folders)}개/{chapter_index_count}항목, "
+          f"tag collection {collection_summary}")
     carried_ids = sum(1 for value in pages_map.values() if value.get("page_id"))
     published_pages = sum(1 for value in pages_map.values()
                           if value["path"] in published)

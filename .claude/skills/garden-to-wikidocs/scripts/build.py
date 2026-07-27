@@ -6,8 +6,8 @@
 
 산출물(이 리포 안):
     TOC.md                       폴더=챕터 계층
-    pages/<folder>/_chapter.md   챕터 표지(explicit recent-first index)
-    pages/autholog/_chapter.md   autholog 태그 집합(lastmod recent-first index)
+    pages/<folder>/_chapter.md   챕터 표지(AEO recent-first 제목/메타/요약/링크)
+    pages/autholog/_chapter.md   autholog 태그 집합(AEO lastmod recent-first index)
     pages/<folder>/<denote-id>.md  각 노트 (H1 없음, gid 앵커 포함)
     assets/                      복사된 로컬 이미지
     mapping.json                 denote-id -> page/source metadata ledger
@@ -35,6 +35,7 @@ from datetime import date
 from pathlib import Path
 
 GARDEN_URL = "https://notes.junghanacs.com"
+WIKIDOCS_URL = "https://wikidocs.net"
 SOURCE_REPOSITORY = "https://github.com/junghan0611/garden"
 BOOK_ID = 20676
 MANIFEST_NAME = "BUILD-MANIFEST.json"
@@ -508,10 +509,88 @@ def link_target(entry: dict, published=None) -> str:
     return entry.get("url") or entry["source_url"]
 
 
+def public_index_metadata(source: dict, scrub_rules) -> dict:
+    """표지와 mapping에 싣는 공개용 description/tags 캐시."""
+    return {
+        "description": scrub_identity(source.get("description", ""), scrub_rules),
+        "tags": [scrub_identity(tag, scrub_rules) for tag in source.get("tags", [])],
+    }
+
+
+def public_index_title(source: dict, scrub_rules) -> str:
+    """날짜 접두어 없는 AEO 표지 heading. 공개 난독화 경계를 함께 적용한다."""
+    return scrub_identity(clean_toc_title(source["title"]), scrub_rules)
+
+
+def plain_summary(text: str) -> str:
+    """frontmatter의 한 줄 plain text를 Markdown에서 같은 글자로 보이게 한다.
+
+    중간의 `#태그`와 authored `*강조*`/`_강조_`는 그대로 둔다. 기존 HTML entity의
+    `&`도 이중 인코딩하지 않는다. 실제 텍스트 소실을 만드는 angle bracket과 미래의
+    줄 시작 block 문법만 막는다.
+    """
+    text = (text or "").replace("<", "&lt;").replace(">", "&gt;")
+    text = re.sub(r"(?m)^(\s*)(#{1,6})(?=\s)", r"\1\\\2", text)
+    text = re.sub(r"(?m)^(\s*)([-+*>])(?=\s)", r"\1\\\2", text)
+    text = re.sub(r"(?m)^(\s*)(\d+\.)(?=\s)", r"\1\\\2", text)
+    return text
+
+
+def source_day(value: str) -> str:
+    """ISO source timestamp를 표지 메타의 YYYY-MM-DD로 줄인다."""
+    match = SOURCE_TIMESTAMP.match(value or "")
+    if not match:
+        raise ValueError(f"source timestamp 형식 오류: {value!r}")
+    year, month, day = match.groups()
+    return f"{year}-{month}-{day}"
+
+
+def index_headings(entries: list) -> list:
+    """깨끗한 제목을 쓰되 같은 표지 안의 중복 제목만 작성일로 구분한다."""
+    title_counts = {}
+    for title, _ in entries:
+        title_counts[title] = title_counts.get(title, 0) + 1
+    dated_counts = {}
+    for title, entry in entries:
+        if title_counts[title] > 1:
+            dated = (title, source_day(entry["source_date"]))
+            dated_counts[dated] = dated_counts.get(dated, 0) + 1
+
+    headings = []
+    for title, entry in entries:
+        heading = title
+        if title_counts[title] > 1:
+            day = source_day(entry["source_date"])
+            heading = f"{title} — {day}"
+            if dated_counts[(title, day)] > 1:
+                heading += f" — {Path(entry['path']).stem}"
+        headings.append(plain_summary(heading))
+    return headings
+
+
+def index_item_blocks(entries: list, published=None) -> list:
+    """제목/메타/description/읽기 링크를 AEO용 section들로 렌더한다."""
+    blocks = []
+    for heading, (_, entry) in zip(index_headings(entries), entries):
+        metadata = [f"작성 {source_day(entry['source_date'])}"]
+        if entry.get("source_lastmod"):
+            metadata.append(f"수정 {source_day(entry['source_lastmod'])}")
+        if entry.get("tags"):
+            metadata.append("태그 " + ", ".join(plain_summary(tag) for tag in entry["tags"]))
+        target = link_target(entry, published)
+        destination = "위키독스" if target.startswith(f"{WIKIDOCS_URL}/") else "가든 원본"
+        parts = [f"## {heading}", " · ".join(metadata)]
+        if entry.get("description"):
+            parts.append(plain_summary(entry["description"]))
+        parts.append(f"[{destination}에서 읽기 →]({target})")
+        blocks.append("\n\n".join(parts))
+    return blocks
+
+
 def collection_index(tag: str, entries: list, published=None) -> str:
-    """원본을 복제하지 않고 기존 미러 페이지를 잇는 태그 집합 탐색면."""
+    """원본을 복제하지 않고 기존 미러 페이지를 잇는 AEO 태그 집합 탐색면."""
     spec = COLLECTIONS[tag]
-    lines = [
+    provenance = "\n".join([
         COLLECTION_MARKER.format(tag=tag),
         PROVENANCE_START,
         '[[TIP("원본·최신본")]]',
@@ -519,34 +598,29 @@ def collection_index(tag: str, entries: list, published=None) -> str:
         f'[원본·최신본은 가든]({spec["source_url"]})에 있습니다.',
         "[[/TIP]]",
         PROVENANCE_END,
-        "",
-        "## 최근 수정순 목록",
-        "",
-        f"가든 `{tag}` 태그 문서 {len(entries)}개를 최근 수정일(lastmod) 역순으로 모았습니다.",
-        "",
-        COLLECTION_INDEX_START,
-    ]
-    for subject, entry in entries:
-        lines.append(f"- [{subject}]({link_target(entry, published)})")
-    lines.extend([COLLECTION_INDEX_END, ""])
-    return "\n".join(lines)
+    ])
+    intro = (
+        f"가든 `{tag}` 태그 문서 {len(entries)}개를 최근 수정일(lastmod) 역순으로 모았습니다. "
+        "각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다."
+    )
+    blocks = [provenance, intro, COLLECTION_INDEX_START]
+    blocks.extend(index_item_blocks(entries, published))
+    blocks.append(COLLECTION_INDEX_END)
+    return "\n\n".join(blocks) + "\n"
 
 
 def chapter_index(folder: str, entries: list, published=None) -> str:
-    """WikiDocs sidebar 오름차순과 분리된 안정적 recent-first chapter index."""
+    """WikiDocs sidebar 오름차순과 분리된 AEO recent-first chapter index."""
     basis = "작성일(source_date)" if folder == "journal" \
         else "최근 수정일(source_lastmod, 없으면 source_date)"
-    lines = [
-        CHAPTER_INDEX_START,
-        "## 최신순 목록",
-        "",
-        f"가든과 같은 {basis} 기준의 최신순 목록입니다.",
-        "",
-    ]
-    for subject, entry in entries:
-        lines.append(f"- [{subject}]({link_target(entry, published)})")
-    lines.extend([CHAPTER_INDEX_END, ""])
-    return "\n".join(lines)
+    intro = (
+        f"가든과 같은 {basis} 기준으로 {len(entries)}개 문서를 최신순으로 모았습니다. "
+        "각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다."
+    )
+    blocks = [CHAPTER_INDEX_START, intro]
+    blocks.extend(index_item_blocks(entries, published))
+    blocks.append(CHAPTER_INDEX_END)
+    return "\n\n".join(blocks) + "\n"
 
 
 def protect_code(text):
@@ -784,13 +858,14 @@ def main():
                 "source_url": source["source_url"],
                 "source_date": source["date"],
                 "source_lastmod": source["lastmod"],
+                **public_index_metadata(source, scrub_rules),
             }
             previous = previous_mapping.get(did, {})
             for key in ("page_id", "url"):
                 if previous.get(key):
                     entry[key] = previous[key]
             mapping[did] = entry
-            chapter_entries.append((subject, entry))
+            chapter_entries.append((public_index_title(source, scrub_rules), entry))
             for tag in collection_sources:
                 if tag in source["tags"]:
                     collection_sources[tag].append((source, subject, entry))
@@ -808,7 +883,7 @@ def main():
         collection_path.parent.mkdir(parents=True, exist_ok=True)
         collection_path.write_text(
             collection_index(tag, [
-                (subject_for(collection_sort_key(source)[0], source["title"]), entry)
+                (public_index_title(source, scrub_rules), entry)
                 for source, _, entry in tagged
             ], link_scope),
             encoding="utf-8",

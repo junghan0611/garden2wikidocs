@@ -3,33 +3,36 @@
 메커니즘·불변식 SSOT는 `.claude/skills/garden-to-wikidocs/SKILL.md`.
 정본/미러 정책은 garden `docs/WIKIDOCS_MIRROR.md`.
 
-## NOW — 가든 7846623 증분 2단계 push (1차 완료, 회수 대기)
+## NOW — 다음 가든 export 를 기다린다 (이번 판 종료)
 
-- **Current**: 가든 `2af482c98 → 7846623fa`(수정 70, 신규·삭제 0). `autholog` 172→173 으로
-  발행면이 246→247 이 됐다. 새로 들어온 `notes/20250428T155929`(탐구의 이름)은 500 컷 때
-  삭제된 페이지라 mapping 의 `381698` 이 죽은 값이었고, 어제 심은 가드가 첫 실전에서
-  승계를 막았다(`[warn] 미회수 1개 / 그중 1개 신규 진입`). 1차 push 완료.
-- **Next**: `status.py --list` 로 생성 확인 → `recover --book-id 20676` 으로 새 page_id 회수
-  → `build --core` → `relink` → `audit --core`(무옵션) → 테스트 → 2차 push →
-  `status.py --list` pending 0.
+- **Current**: 가든 `7846623fa` 증분이 2단계 push 로 라이브에 도달했다. 어제 심은 죽은
+  page_id 가드가 첫 실전에서 정확히 걸렸고, 절차대로 새 번호를 받아 실화했다.
+  라이브 253 노드 247/247, worktree clean.
+- **Next**: org 원문을 garden markdown 으로 export·commit 한 뒤 이 리포에서
+  `build --core` → `relink` → `audit --core` → 테스트 → 승인 push. build 가
+  `[warn] 발행면 page_id 미회수 N개` 를 찍으면 2단계 push 로 간다(어쏠로그 태그를 새로
+  붙였으면 거의 항상 찍힌다).
 - **Blocker**: 없음.
-- **Verify**: 2차 push 후 `audit --core` 경고 0, unittest 84/84, 라이브 253 노드 247/247 100%,
-  `20250428T155929` 에 새 page_id 가 붙고 옛 `381698` 참조 0.
+- **Verify**: `audit --core` 경고 0, unittest 84/84, build→relink 후 생성물 diff 0줄
+  (스킬/테스트 파일만 변경), `status.py --list` 미생성 0 / pending 0.
 - **Read**: SKILL.md 「삭제된 페이지의 page_id 는 부활하지 않는다」 + 그 뒤 두 불변식
   (fail-closed 경계, warning 두 층), `build.py` 의 `previous_publish_surface`/
   `has_recovered_ids`/`inherit_remote_id`.
 - **Do not touch**: `~/repos/gh/notes` 또는 `pages/` 생성물을 손편집하지 않는다. 항상 정본
   export를 입력으로 전체 재생성한다.
 
-## DONE — 가든 증분 미러 + 죽은 page_id 차단 (2026-07-27 push 완료)
+## DONE — 가든 7846623 증분 (2026-07-27 2단계 push 완료)
 
-- 가든 `8fe0ff7a8 → 2af482c98`(수정 103, 신규 주간저널 1). 라이브 **252개**, 247/247 100%.
-- `autholog` 170→172 로 발행면이 244→246 이 됐는데, 새로 들어온 두 노트가 하필 500 컷 때
-  삭제된 페이지였다. mapping 의 옛 page_id 는 죽은 값이었고 링크 20개(13개 파일)가 404 로
-  나갈 뻔했다. `status.py` 의 `미생성` 이 유일한 신호였다.
-- 2단계 push: `3cee8c7`(1차, 죽은 id 를 비운 채) → recover(**387071/387072** 신규 발급 확인,
-  옛 381403/381716 은 부활하지 않음) → `d9e68bc`(2차, 링크 20개 실화).
-- 이전 판: 2단계 push `75af479` → 어쏠로그 표지 page_id **386464** → `af09168`.
+- 가든 `2af482c98 → 7846623fa`(수정 70, 신규·삭제 0). `autholog` 172→173, 발행면 246→247.
+  `notes/20250428T155929`(탐구의 이름)이 태그 하나로 발행면에 진입했다.
+- 그 노트도 500 컷 때 삭제된 페이지였고 mapping 의 `381698` 은 죽은 값이었다. 어제 심은
+  가드가 **첫 실전에서 승계를 막았다** — `[warn] 미회수 1개 / 그중 1개 신규 진입`.
+- 2단계 push: `01b2453`(1차, 죽은 id 를 비운 채) → recover(**387108** 신규 발급, 옛 381698 은
+  부활하지 않음) → 2차(링크 7곳 실화, 5개 파일).
+- 이전 판(같은 날): 가든 `8fe0ff7a8 → 2af482c98`, `autholog` 170→172, 발행면 244→246.
+  같은 함정을 실측으로 처음 발견한 판이다 — `3cee8c7` → **387071/387072** → `d9e68bc`.
+  그때는 `status.py` 의 `미생성` 만이 신호였고, 이번엔 build 가 push 전에 울렸다.
+- 그 이전: 2단계 push `75af479` → 어쏠로그 표지 page_id **386464** → `af09168`.
   GLG 가 `wikidocs-user-script.js` 를 책 설정에 붙여넣어 반영 확인(`CH[0]`=386464).
 - GitHub 이슈 #1·#2·#3 전부 CLOSED.
 
@@ -58,6 +61,10 @@
 
 ## RECENT
 
+- [2026-07-27] 가드의 첫 실전. 태그 하나(`autholog`)가 붙은 것만으로 노트가 발행면에
+  들어왔고, 그 노트의 옛 page_id 는 죽어 있었다. 어제는 push 후 `status.py` 의 `미생성`
+  으로 사후에 알았는데, 이번엔 build 가 push 전에 울려서 절차가 먼저 정해졌다. 안전장치의
+  값어치는 막은 것보다 **언제 울리느냐**에 있었다.
 - [2026-07-27] 삭제된 페이지의 page_id 가 부활하지 않는다는 걸 실측하고, 그 죽은 값이
   발행면에 되들어올 때 조용히 실리는 경로를 `build.py` 에서 닫았다. 게이트 셋(`link_target`
   ·`relink`·`audit`)이 전부 TOC 멤버십만 보고 라이브 존재를 안 봐서 아무도 안 울렸다.

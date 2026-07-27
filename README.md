@@ -76,7 +76,7 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
--   [연구가 아닌 물음과 탐험](https://notes.junghanacs.com/notes/20250428T155929/)
+-   [연구가 아닌 물음과 탐험](https://wikidocs.net/387108)
 -   [유니콘과 적토마 — 알아봄과 공존](https://wikidocs.net/387072)
 -   [기업용 하네스 - PKM-AI 하네스 엔지니어의 다음 좌표](https://wikidocs.net/381141)
 -   [벌목꾼·대장장이·엔지니어의 구직 좌표](https://wikidocs.net/381508)

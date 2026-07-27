@@ -2,9 +2,17 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## agent-config: 스킬 SSOT와 시험소 멀티하네스 이후
+
+작성 2026-03-12 · 수정 2026-07-27 · 태그 agent, botlog, entwurf, harness, skill
+
+agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382571)
+
 ## geworfen: 연구 탐구 트랙2 1KB 공개키와 측정하지 않는 공진화
 
-작성 2026-02-19 · 수정 2026-07-25 · 태그 being, botlog, coevolution
+작성 2026-02-19 · 수정 2026-07-25 · 태그 being, botlog, coevolution, metahuman
 
 트랙2, 곧 1KB 공개키와 각 인간의 살아있는 발화가 만드는 비재현적 만남을 실험 스펙이 아니라 장기 화두로 정박하는 botlog이다.
 
@@ -505,14 +513,6 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 힣맨 세계관을 펭귄 캐릭터와 장면 프롬프트로 구체화하며, 이미지 생성 워크플로우까지 재현 가능하게 남긴다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382582)
-
-## agent-config: 에이전트 인프라의 진화 스킬에서 멀티하네스까지
-
-작성 2026-03-12 · 수정 2026-03-20 · 태그 botlog, embedding, gemini, harness, rag, semantic
-
-agent-config가 스킬 모음에서 멀티하네스 에이전트 인프라로 진화하는 과정과 3층 검색 구조의 접점을 정리한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382571)
 
 ## geworfen: 게보르펜 존재-데이터-뷰어: WebTUI SF 터미널 어젠다
 

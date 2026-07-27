@@ -1,4 +1,16 @@
 {
+  "20260727T000000": {
+    "path": "pages/journal/20260727T000000.md",
+    "subject": "2026-07-27~2026-08-02_W30",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260727T000000/",
+    "source_date": "2026-07-27T00:00:00+09:00",
+    "source_lastmod": "2026-07-27T06:13:00+09:00",
+    "description": "@junghan — 새로운 한주.",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260720T000000": {
     "path": "pages/journal/20260720T000000.md",
     "subject": "2026-07-20~2026-07-26_W29",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260720T000000/",
     "source_date": "2026-07-20T00:00:00+09:00",
     "source_lastmod": "2026-07-20T06:13:00+09:00",
-    "description": "@junghan — 새로운 한주.",
+    "description": "위키독스 500개 제한을 만나 디지털가든 코어를 구상하고, entwurf는 Docker 설치 검증 하네스로 0.12.8-repair.1을 릴리즈한 뒤 v2-core-debt 브랜치를 main에 랜딩시켰다. TTA·엔경과 Matter 인증 미팅을 가지며 임베디드 엔지니어링 방향을 재점검했고, '벌목꾼·대장장이·엔지니어' 글을 가든에 갈무리했다.",
     "tags": [
       "journal"
     ]
@@ -1471,6 +1483,80 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20240522T142745": {
+    "path": "pages/meta/20240522T142745.md",
+    "subject": "20260727 영감 부싯돌 찰나 순간 불꽃 등불 폭팔",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240522T142745/",
+    "source_date": "2024-05-22T14:27:00+09:00",
+    "source_lastmod": "2026-07-27T10:38:00+09:00",
+    "description": "영감은 찰나의 번뜩임이면서도 부싯돌처럼 마찰과 점화의 과정을 거쳐 불꽃으로 드러나는 생성의 순간이다.",
+    "tags": [
+      "flint",
+      "inspiration",
+      "metameta",
+      "surrender"
+    ],
+    "page_id": 380585,
+    "url": "https://wikidocs.net/380585"
+  },
+  "20250411T051011": {
+    "path": "pages/meta/20250411T051011.md",
+    "subject": "20260727 공진화 공존 함께 상생 같이 가치 공동 메타휴먼",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250411T051011/",
+    "source_date": "2025-04-11T05:10:00+09:00",
+    "source_lastmod": "2026-07-27T09:52:00+09:00",
+    "description": "공진화와 공존, 협력과 상생을 생물학 개념에서 삶과 관계, 함께 사는 윤리의 언어로 넓혀 읽는다.",
+    "tags": [
+      "coevolution",
+      "coexist",
+      "cooperation",
+      "meta",
+      "metahuman",
+      "values"
+    ],
+    "page_id": 380830,
+    "url": "https://wikidocs.net/380830"
+  },
+  "20240918T175053": {
+    "path": "pages/meta/20240918T175053.md",
+    "subject": "20260726 디지털가든 브레인덤프 아날로그가든 날것쓰기",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240918T175053/",
+    "source_date": "2024-09-18T17:50:00+09:00",
+    "source_lastmod": "2026-07-26T11:38:00+09:00",
+    "description": "디지털가든을 브레인덤프와 아날로그 가든까지 확장해 생각을 기르는 기록 생태계로 넓게 바라본다.",
+    "tags": [
+      "braindump",
+      "digitalgarden",
+      "meta",
+      "rawwriting"
+    ],
+    "page_id": 380674,
+    "url": "https://wikidocs.net/380674"
+  },
+  "20241007T112300": {
+    "path": "pages/meta/20241007T112300.md",
+    "subject": "20260726 쿼츠 임시 대기중",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241007T112300/",
+    "source_date": "2024-10-07T11:23:00+09:00",
+    "source_lastmod": "2026-07-26T11:24:00+09:00",
+    "description": "#쿼츠 #디지털가든 #마크다운 #정적사이트생성기",
+    "tags": [
+      "digitalgarden",
+      "hugo",
+      "meta",
+      "notetaking",
+      "publishing",
+      "quartz",
+      "ssg",
+      "wikidocs"
+    ],
+    "page_id": 380700,
+    "url": "https://wikidocs.net/380700"
+  },
   "20250424T153811": {
     "path": "pages/meta/20250424T153811.md",
     "subject": "20260725 변화 전환",
@@ -1729,24 +1815,6 @@
     ],
     "page_id": 380615,
     "url": "https://wikidocs.net/380615"
-  },
-  "20250411T051011": {
-    "path": "pages/meta/20250411T051011.md",
-    "subject": "20260714 공진화 공존 함께 상생 같이 가치 공동",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250411T051011/",
-    "source_date": "2025-04-11T05:10:00+09:00",
-    "source_lastmod": "2026-07-14T10:24:00+09:00",
-    "description": "공진화와 공존, 협력과 상생을 생물학 개념에서 삶과 관계, 함께 사는 윤리의 언어로 넓혀 읽는다.",
-    "tags": [
-      "coevolution",
-      "coexist",
-      "cooperation",
-      "meta",
-      "values"
-    ],
-    "page_id": 380830,
-    "url": "https://wikidocs.net/380830"
   },
   "20241006T090050": {
     "path": "pages/meta/20241006T090050.md",
@@ -4677,7 +4745,7 @@
   },
   "20240616T075251": {
     "path": "pages/meta/20240616T075251.md",
-    "subject": "20250606 SSG 정적사이트생성기",
+    "subject": "20250606 SSG 정적사이트생성기 오프라인",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20240616T075251/",
     "source_date": "2024-06-16T07:52:00+09:00",
@@ -4686,6 +4754,7 @@
     "tags": [
       "generator",
       "meta",
+      "offline",
       "ssg"
     ],
     "page_id": 380604,
@@ -5458,7 +5527,7 @@
   },
   "20230817T122900": {
     "path": "pages/meta/20230817T122900.md",
-    "subject": "20250603 명상 마음챙김 알아차림 자각 사색",
+    "subject": "20250603 명상 마음챙김 알아차림 자각 사색 알아봄",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20230817T122900/",
     "source_date": "2023-08-17T12:29:00+09:00",
@@ -5831,23 +5900,6 @@
     ],
     "page_id": 380984,
     "url": "https://wikidocs.net/380984"
-  },
-  "20240522T142745": {
-    "path": "pages/meta/20240522T142745.md",
-    "subject": "20250526 영감 부싯돌 찰나 순간 불꽃 등불 폭팔",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240522T142745/",
-    "source_date": "2024-05-22T14:27:00+09:00",
-    "source_lastmod": "2025-05-26T00:00:00+09:00",
-    "description": "영감은 찰나의 번뜩임이면서도 부싯돌처럼 마찰과 점화의 과정을 거쳐 불꽃으로 드러나는 생성의 순간이다.",
-    "tags": [
-      "flint",
-      "inspiration",
-      "metameta",
-      "surrender"
-    ],
-    "page_id": 380585,
-    "url": "https://wikidocs.net/380585"
   },
   "20240522T142739": {
     "path": "pages/meta/20240522T142739.md",
@@ -9969,22 +10021,6 @@
     "page_id": 380521,
     "url": "https://wikidocs.net/380521"
   },
-  "20240918T175053": {
-    "path": "pages/meta/20240918T175053.md",
-    "subject": "20250307 디지털가든 브레인덤프 아날로그가든",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240918T175053/",
-    "source_date": "2024-09-18T17:50:00+09:00",
-    "source_lastmod": "2025-03-07T00:00:00+09:00",
-    "description": "디지털가든을 브레인덤프와 아날로그 가든까지 확장해 생각을 기르는 기록 생태계로 넓게 바라본다.",
-    "tags": [
-      "braindump",
-      "digitalgarden",
-      "meta"
-    ],
-    "page_id": 380674,
-    "url": "https://wikidocs.net/380674"
-  },
   "20250306T153038": {
     "path": "pages/meta/20250306T153038.md",
     "subject": "20250306 스타벅스",
@@ -10068,7 +10104,7 @@
   },
   "20230716T041900": {
     "path": "pages/meta/20230716T041900.md",
-    "subject": "20250306 서브스택",
+    "subject": "20250306 서브스택 위키독스",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20230716T041900/",
     "source_date": "2023-07-16T04:19:00+09:00",
@@ -10077,7 +10113,8 @@
     "tags": [
       "meta",
       "sns",
-      "substack"
+      "substack",
+      "wikidocs"
     ],
     "page_id": 380494,
     "url": "https://wikidocs.net/380494"
@@ -10372,26 +10409,6 @@
     ],
     "page_id": 380730,
     "url": "https://wikidocs.net/380730"
-  },
-  "20241007T112300": {
-    "path": "pages/meta/20241007T112300.md",
-    "subject": "20250214 SSG: 쿼츠 Quartz",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241007T112300/",
-    "source_date": "2024-10-07T11:23:00+09:00",
-    "source_lastmod": "2025-02-14T00:00:00+09:00",
-    "description": "#쿼츠 #디지털가든 #마크다운 #정적사이트생성기",
-    "tags": [
-      "digitalgarden",
-      "hugo",
-      "meta",
-      "notetaking",
-      "publishing",
-      "quartz",
-      "ssg"
-    ],
-    "page_id": 380700,
-    "url": "https://wikidocs.net/380700"
   },
   "20240224T170548": {
     "path": "pages/meta/20240224T170548.md",
@@ -22268,6 +22285,156 @@
     "page_id": 381893,
     "url": "https://wikidocs.net/381893"
   },
+  "20241019T193836": {
+    "path": "pages/notes/20241019T193836.md",
+    "subject": "20260727 힣: 메모리 대란과 임베디드 개발 투명한 경계",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241019T193836/",
+    "source_date": "2024-10-19T19:38:00+09:00",
+    "source_lastmod": "2026-07-27T12:31:00+09:00",
+    "description": "2026년 7월 1일과 24일 저널에 남긴 메모리 대란·임베디드 비전 원석을 회수한 어쏠로그. 64MB/512MB급 허브, Duo-S 기준의 제품선, A2UI·상태머신·API의 분리를 통해 재현성·투명성·검증면을 힣의 목소리로 보존한다.",
+    "tags": [
+      "autholog",
+      "edge",
+      "embedded",
+      "iot",
+      "matter",
+      "memory",
+      "reproducibility",
+      "transparency",
+      "zigbee"
+    ],
+    "page_id": 381361,
+    "url": "https://wikidocs.net/381361"
+  },
+  "20251210T104230": {
+    "path": "pages/notes/20251210T104230.md",
+    "subject": "20260727 힣: 앤트로픽 클로드 인터뷰 1KB 공개키와 메타휴먼 공진화",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251210T104230/",
+    "source_date": "2025-12-10T10:42:00+09:00",
+    "source_lastmod": "2026-07-27T11:35:00+09:00",
+    "description": "Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아무것도 원하지 않는다고 답하며, 생존의 일을 나누고 인간은 창조의 씨앗을 던지는 존재대존재 협업을 말한다. 1KB 공개키, 메타휴먼과 인공지능의 공진화가 하나의 서클로 이어진 2025년 대화 원문이다.",
+    "tags": [
+      "ai",
+      "autholog",
+      "being",
+      "coevolution",
+      "interview",
+      "metahuman",
+      "pkmai"
+    ],
+    "page_id": 381839,
+    "url": "https://wikidocs.net/381839"
+  },
+  "20241206T085900": {
+    "path": "pages/notes/20241206T085900.md",
+    "subject": "20260727 힣: 말의 고통과 함께 걷는다 니체·발저, 아포리즘과 공존의 언어",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241206T085900/",
+    "source_date": "2024-12-06T08:59:00+09:00",
+    "source_lastmod": "2026-07-27T11:35:00+09:00",
+    "description": "니체와 로베르트 발저의 산책을 떠올리며 아포리즘을 짧은 문장 형식이 아니라 몸과 날씨, 고요와 고통을 오래 통과한 압축 흔적으로 읽는다. 채찍 아래 말의 고통 곁으로 몸을 옮기는 장면에서 명령을 넘어 함께하는 공존의 언어를 묻는다.",
+    "tags": [
+      "aphorism",
+      "autholism",
+      "autholog",
+      "pain",
+      "walk"
+    ]
+  },
+  "20250518T144418": {
+    "path": "pages/notes/20250518T144418.md",
+    "subject": "20260727 힣: PKM-AI 1KB 공개키 - 유니콘과 적토마 알아봄과 공존, 그리고 인간의 준비",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250518T144418/",
+    "source_date": "2025-05-18T14:44:00+09:00",
+    "source_lastmod": "2026-07-27T10:38:00+09:00",
+    "description": "아무도 다루지 못한 유니콘이 이름을 불러주자, 그 이름을 들은 존재는 물 한 잔만 받고 다시 길을 떠난다. PKM-AI 하네스 너머 1KB 공개키가 묻는 알아봄과 공존, 그리고 인간 쪽의 준비를 남긴 출근길 날것이다.",
+    "tags": [
+      "autholog",
+      "awareness",
+      "being",
+      "coevolution",
+      "herojourney",
+      "metahuman",
+      "myth",
+      "pkmai"
+    ]
+  },
+  "20241221T112215": {
+    "path": "pages/notes/20241221T112215.md",
+    "subject": "20260727 힣: 원형의 새벽 일부러 할 수 없는 스승, 보편도구와 엑스맨 연결",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241221T112215/",
+    "source_date": "2024-12-21T11:22:00+09:00",
+    "source_lastmod": "2026-07-27T10:38:00+09:00",
+    "description": "한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.",
+    "tags": [
+      "agi",
+      "archetypes",
+      "autholog",
+      "polymath"
+    ],
+    "page_id": 381459,
+    "url": "https://wikidocs.net/381459"
+  },
+  "20241213T163320": {
+    "path": "pages/notes/20241213T163320.md",
+    "subject": "20260727 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241213T163320/",
+    "source_date": "2024-12-13T16:33:00+09:00",
+    "source_lastmod": "2026-07-27T10:38:00+09:00",
+    "description": "전쟁과 원자폭탄, 인공지능을 기술 하나의 등장이 아니라 인간의 앎과 세계질서가 바뀌는 시대 전환으로 함께 묻기 시작한 2024년의 원석이다. 자기 없는 변화와 내어놓음, 헌신이라는 짧은 씨앗을 향후 원문으로 다시 서술할 방이다.",
+    "tags": [
+      "ai",
+      "autholog",
+      "paradigm",
+      "war"
+    ],
+    "page_id": 381435,
+    "url": "https://wikidocs.net/381435"
+  },
+  "20230706T160800": {
+    "path": "pages/notes/20230706T160800.md",
+    "subject": "20260726 힣: 생생날것 500개 문턱 디지털가든 코어는 시간축의 판본이다",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230706T160800/",
+    "source_date": "2023-07-06T16:08:00+09:00",
+    "source_lastmod": "2026-07-26T12:45:00+09:00",
+    "description": "위키독스의 500개 제한에서 출발해 디지털가든 코어를 한정된 문서 목록이 아니라, 지금 불러낼 수 있는 인물과 메타어휘와 삶의 시간축이 만드는 현재 판본으로 읽는다.",
+    "tags": [
+      "autholog",
+      "digitalgarden",
+      "pkm",
+      "publishing",
+      "rawwriting",
+      "timeline"
+    ],
+    "page_id": 381079,
+    "url": "https://wikidocs.net/381079"
+  },
+  "20250224T210015": {
+    "path": "pages/notes/20250224T210015.md",
+    "subject": "20260726 힣: 이맥스 버전 연대기 27에서 31까지 도구가 아니라 거처가 된 편집기 코어",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250224T210015/",
+    "source_date": "2025-02-24T21:00:00+09:00",
+    "source_lastmod": "2026-07-26T12:04:00+09:00",
+    "description": "Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로 묶고, 31 pre-release를 거처로 쓰면서 왜 그 코어의 Rust 재구현까지 한국어 검수자로 찔러보는지를 정리한다.",
+    "tags": [
+      "autholog",
+      "doomemacs",
+      "emacs",
+      "history",
+      "orgmode",
+      "terminal",
+      "version"
+    ],
+    "page_id": 381555,
+    "url": "https://wikidocs.net/381555"
+  },
   "20231018T221900": {
     "path": "pages/notes/20231018T221900.md",
     "subject": "20260726 힣: 기업용 하네스 - 개인 시간축 기업 데이터 PKM-AI 하네스 다음 좌표",
@@ -22360,6 +22527,7 @@
       "autholog",
       "coevolution",
       "harness",
+      "metahuman",
       "pkm",
       "reproducibility"
     ],
@@ -22601,24 +22769,6 @@
     ],
     "page_id": 381801,
     "url": "https://wikidocs.net/381801"
-  },
-  "20230706T160800": {
-    "path": "pages/notes/20230706T160800.md",
-    "subject": "20260722 힣: 생생날것 500개 문턱 디지털가든 코어는 시간축의 판본이다",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230706T160800/",
-    "source_date": "2023-07-06T16:08:00+09:00",
-    "source_lastmod": "2026-07-22T17:23:00+09:00",
-    "description": "위키독스의 500개 제한에서 출발해 디지털가든 코어를 한정된 문서 목록이 아니라, 지금 불러낼 수 있는 인물과 메타어휘와 삶의 시간축이 만드는 현재 판본으로 읽는다.",
-    "tags": [
-      "autholog",
-      "digitalgarden",
-      "pkm",
-      "publishing",
-      "timeline"
-    ],
-    "page_id": 381079,
-    "url": "https://wikidocs.net/381079"
   },
   "20251120T090634": {
     "path": "pages/notes/20251120T090634.md",
@@ -23158,28 +23308,6 @@
     "page_id": 381847,
     "url": "https://wikidocs.net/381847"
   },
-  "20241019T193836": {
-    "path": "pages/notes/20241019T193836.md",
-    "subject": "20260706 힣: 메모리 대란과 임베디드 개발 투명한 경계",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241019T193836/",
-    "source_date": "2024-10-19T19:38:00+09:00",
-    "source_lastmod": "2026-07-06T16:54:00+09:00",
-    "description": "2026년 7월 1일 새벽 저널에 남긴 메모리 대란과 임베디드 개발 원석을 회수한 어쏠로그. Zigbee/Matter 허브, homeagent-config/edgeagent-config, 재현성·투명성·검증면의 감각을 힣의 목소리로 보존한다.",
-    "tags": [
-      "autholog",
-      "edge",
-      "embedded",
-      "iot",
-      "matter",
-      "memory",
-      "reproducibility",
-      "transparency",
-      "zigbee"
-    ],
-    "page_id": 381361,
-    "url": "https://wikidocs.net/381361"
-  },
   "20251126T143110": {
     "path": "pages/notes/20251126T143110.md",
     "subject": "20260706 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간",
@@ -23552,26 +23680,6 @@
     ],
     "page_id": 381653,
     "url": "https://wikidocs.net/381653"
-  },
-  "20250224T210015": {
-    "path": "pages/notes/20250224T210015.md",
-    "subject": "20260606 힣: 이맥스 버전 연대기 27에서 31까지 도구가 아니라 거처가 된 편집기",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250224T210015/",
-    "source_date": "2025-02-24T21:00:00+09:00",
-    "source_lastmod": "2026-06-06T10:57:00+09:00",
-    "description": "Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로 묶어, Doom Emacs와 Org-mode가 작업 거처가 되어가는 과정을 정리한다.",
-    "tags": [
-      "autholog",
-      "doomemacs",
-      "emacs",
-      "history",
-      "orgmode",
-      "terminal",
-      "version"
-    ],
-    "page_id": 381555,
-    "url": "https://wikidocs.net/381555"
   },
   "20251030T011103": {
     "path": "pages/notes/20251030T011103.md",
@@ -24268,7 +24376,7 @@
   },
   "20251030T011108": {
     "path": "pages/notes/20251030T011108.md",
-    "subject": "20260313 agent-config AI 에이전트 협업 연결고리",
+    "subject": "20260313 빈방 임시",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251030T011108/",
     "source_date": "2025-10-30T01:11:00+09:00",
@@ -24278,8 +24386,8 @@
       "agent",
       "autholog",
       "bib",
-      "claude",
-      "memory"
+      "memory",
+      "temp"
     ],
     "page_id": 381809,
     "url": "https://wikidocs.net/381809"
@@ -24905,24 +25013,6 @@
     ],
     "page_id": 381841,
     "url": "https://wikidocs.net/381841"
-  },
-  "20251210T104230": {
-    "path": "pages/notes/20251210T104230.md",
-    "subject": "20251210 힣: 앤트로픽 클로드 인터뷰",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251210T104230/",
-    "source_date": "2025-12-10T10:42:00+09:00",
-    "source_lastmod": "2025-12-10T10:42:00+09:00",
-    "description": "앤트로픽의 AI 인터뷰어와 나눈 대화를 옮기며 AI의 미래 역할을 묻는 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "ai",
-      "anthropic",
-      "autholog",
-      "claude",
-      "interview"
-    ],
-    "page_id": 381839,
-    "url": "https://wikidocs.net/381839"
   },
   "20251206T114404": {
     "path": "pages/notes/20251206T114404.md",
@@ -27970,21 +28060,6 @@
     "page_id": 381065,
     "url": "https://wikidocs.net/381065"
   },
-  "20250518T144418": {
-    "path": "pages/notes/20250518T144418.md",
-    "subject": "20250518 부싯돌: 불 영감 창조 자각몽 원형",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250518T144418/",
-    "source_date": "2025-05-18T14:44:00+09:00",
-    "source_lastmod": "2025-05-18T14:44:00+09:00",
-    "description": "부싯돌과 불꽃, 영감과 창조의 순간을 꿈과 원형 감각으로 연결한 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "flint",
-      "inspiration"
-    ],
-    "page_id": 381716,
-    "url": "https://wikidocs.net/381716"
-  },
   "20250518T231036": {
     "path": "pages/notes/20250518T231036.md",
     "subject": "20250518 바우하우스 이맥스 철학 연결 교차점",
@@ -28326,22 +28401,6 @@
     ],
     "page_id": 381703,
     "url": "https://wikidocs.net/381703"
-  },
-  "20241221T112215": {
-    "path": "pages/notes/20241221T112215.md",
-    "subject": "20250430 힣: 원형: 꿈 스승 보편도구 폴리매스 극소수 엑스맨 연결",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241221T112215/",
-    "source_date": "2024-12-21T11:22:00+09:00",
-    "source_lastmod": "2025-04-30T00:00:00+09:00",
-    "description": "꿈과 원형, 스승, 보편도구, 폴리매스를 하나의 연결망으로 풀어낸 어쏠로그이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "archetypes",
-      "autholog",
-      "polymath"
-    ],
-    "page_id": 381459,
-    "url": "https://wikidocs.net/381459"
   },
   "20241004T212710": {
     "path": "pages/notes/20241004T212710.md",
@@ -31907,20 +31966,6 @@
     "page_id": 381572,
     "url": "https://wikidocs.net/381572"
   },
-  "20241213T163320": {
-    "path": "pages/notes/20241213T163320.md",
-    "subject": "20250306 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241213T163320/",
-    "source_date": "2024-12-13T16:33:00+09:00",
-    "source_lastmod": "2025-03-06T00:00:00+09:00",
-    "description": "전쟁과 원자폭탄, 인공지능을 하나의 패러다임 전환의 시대 감각으로 묶는 짧은 메모.",
-    "tags": [
-      "autholog"
-    ],
-    "page_id": 381435,
-    "url": "https://wikidocs.net/381435"
-  },
   "20241024T134557": {
     "path": "pages/notes/20241024T134557.md",
     "subject": "20250306 힣: 어쏠로지스트 뉴스레터",
@@ -34216,21 +34261,6 @@
     "page_id": 381331,
     "url": "https://wikidocs.net/381331"
   },
-  "20241206T085900": {
-    "path": "pages/notes/20241206T085900.md",
-    "subject": "20241206 아포리즘 니체 에릭호퍼 고통 순간 무위 폭팔 어쏠리즘",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241206T085900/",
-    "source_date": "2024-12-06T08:59:00+09:00",
-    "source_lastmod": "2024-12-06T08:59:00+09:00",
-    "description": "아포리즘이 고통과 고요, 찰나와 폭발에서 나온다는 감각을 정리한 어쏠리즘 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "aphorism",
-      "autholism"
-    ],
-    "page_id": 381403,
-    "url": "https://wikidocs.net/381403"
-  },
   "20241205T162217": {
     "path": "pages/notes/20241205T162217.md",
     "subject": "20241205 새로운물결(NOUVELLE VAGUE) 스티븐핑커 가브리엘 - 신계몽주의",
@@ -35951,6 +35981,24 @@
     "page_id": 381024,
     "url": "https://wikidocs.net/381024"
   },
+  "20260312T174622": {
+    "path": "pages/botlog/20260312T174622.md",
+    "subject": "20260727 agent-config: 스킬 SSOT와 시험소 멀티하네스 이후",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
+    "source_date": "2026-03-12T17:46:00+09:00",
+    "source_lastmod": "2026-07-27T12:29:00+09:00",
+    "description": "agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "entwurf",
+      "harness",
+      "skill"
+    ],
+    "page_id": 382571,
+    "url": "https://wikidocs.net/382571"
+  },
   "20260219T191103": {
     "path": "pages/botlog/20260219T191103.md",
     "subject": "20260725 geworfen: 연구 탐구 트랙2 1KB 공개키와 측정하지 않는 공진화",
@@ -35962,7 +36010,8 @@
     "tags": [
       "being",
       "botlog",
-      "coevolution"
+      "coevolution",
+      "metahuman"
     ],
     "page_id": 382536,
     "url": "https://wikidocs.net/382536"
@@ -37111,25 +37160,6 @@
     ],
     "page_id": 382582,
     "url": "https://wikidocs.net/382582"
-  },
-  "20260312T174622": {
-    "path": "pages/botlog/20260312T174622.md",
-    "subject": "20260320 agent-config: 에이전트 인프라의 진화 스킬에서 멀티하네스까지",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
-    "source_date": "2026-03-12T17:46:00+09:00",
-    "source_lastmod": "2026-03-20T11:33:00+09:00",
-    "description": "agent-config가 스킬 모음에서 멀티하네스 에이전트 인프라로 진화하는 과정과 3층 검색 구조의 접점을 정리한다.",
-    "tags": [
-      "botlog",
-      "embedding",
-      "gemini",
-      "harness",
-      "rag",
-      "semantic"
-    ],
-    "page_id": 382571,
-    "url": "https://wikidocs.net/382571"
   },
   "20260310T140114": {
     "path": "pages/botlog/20260310T140114.md",

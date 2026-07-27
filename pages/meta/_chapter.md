@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 영감 부싯돌 찰나 순간 불꽃 등불 폭팔
+
+작성 2024-05-22 · 수정 2026-07-27 · 태그 flint, inspiration, metameta, surrender
+
+영감은 찰나의 번뜩임이면서도 부싯돌처럼 마찰과 점화의 과정을 거쳐 불꽃으로 드러나는 생성의 순간이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240522T142745/)
+
+## 공진화 공존 함께 상생 같이 가치 공동 메타휴먼
+
+작성 2025-04-11 · 수정 2026-07-27 · 태그 coevolution, coexist, cooperation, meta, metahuman, values
+
+공진화와 공존, 협력과 상생을 생물학 개념에서 삶과 관계, 함께 사는 윤리의 언어로 넓혀 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250411T051011/)
+
+## 디지털가든 브레인덤프 아날로그가든 날것쓰기
+
+작성 2024-09-18 · 수정 2026-07-26 · 태그 braindump, digitalgarden, meta, rawwriting
+
+디지털가든을 브레인덤프와 아날로그 가든까지 확장해 생각을 기르는 기록 생태계로 넓게 바라본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240918T175053/)
+
+## 쿼츠 임시 대기중
+
+작성 2024-10-07 · 수정 2026-07-26 · 태그 digitalgarden, hugo, meta, notetaking, publishing, quartz, ssg, wikidocs
+
+#쿼츠 #디지털가든 #마크다운 #정적사이트생성기
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241007T112300/)
+
 ## 변화 전환
 
 작성 2025-04-24 · 수정 2026-07-25 · 태그 change, conversion, diversion, meta, syntopicon
@@ -113,14 +145,6 @@ OpenAI와 샘 올트먼 자료를 20250312T111024 bib 허브로 이관한 뒤 �
 뇌·신경과학·행동과학을 의식과 인지, 신경다양성, 뇌전증이 몸의 체험과 삶의 서사로 이어지는 자리까지 묶는 메타 자석이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240801T141858/)
-
-## 공진화 공존 함께 상생 같이 가치 공동
-
-작성 2025-04-11 · 수정 2026-07-14 · 태그 coevolution, coexist, cooperation, meta, values
-
-공진화와 공존, 협력과 상생을 생물학 개념에서 삶과 관계, 함께 사는 윤리의 언어로 넓혀 읽는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250411T051011/)
 
 ## 협업 협력 집단지성 코웍
 
@@ -1418,9 +1442,9 @@ glossary와 dictionary의 차이처럼, 개념을 설명하는 용어집과 단�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241029T105422/)
 
-## SSG 정적사이트생성기
+## SSG 정적사이트생성기 오프라인
 
-작성 2024-06-16 · 수정 2025-06-06 · 태그 generator, meta, ssg
+작성 2024-06-16 · 수정 2025-06-06 · 태그 generator, meta, offline, ssg
 
 정적사이트생성기는 텍스트 원본을 빌드해 정적 웹페이지로 만들며, 문서·블로그·디지털 가든 배포의 핵심 기반이 된다.
 
@@ -1770,7 +1794,7 @@ MOOC와 KOCW는 누구나 접근 가능한 온라인 강의 인프라로, 대규
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230927T120800/)
 
-## 명상 마음챙김 알아차림 자각 사색
+## 명상 마음챙김 알아차림 자각 사색 알아봄
 
 작성 2023-08-17 · 수정 2025-06-03 · 태그 awareness, meditation, meta, mindfulness
 
@@ -1937,14 +1961,6 @@ ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하�
 문학을 한국십진분류 800번대의 큰 갈래로 놓고 시, 소설, 희곡, 수필, 일기, 기행 등 여러 형식을 한자리에 모은다. 장르별 분화와 주변 개념을 살피며 읽기와 쓰기의 넓은 지형을 그린다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250526T212637/)
-
-## 영감 부싯돌 찰나 순간 불꽃 등불 폭팔
-
-작성 2024-05-22 · 수정 2025-05-26 · 태그 flint, inspiration, metameta, surrender
-
-영감은 찰나의 번뜩임이면서도 부싯돌처럼 마찰과 점화의 과정을 거쳐 불꽃으로 드러나는 생성의 순간이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240522T142745/)
 
 ## 창조 창의 창발
 
@@ -3874,14 +3890,6 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230926T135400/)
 
-## 디지털가든 브레인덤프 아날로그가든
-
-작성 2024-09-18 · 수정 2025-03-07 · 태그 braindump, digitalgarden, meta
-
-디지털가든을 브레인덤프와 아날로그 가든까지 확장해 생각을 기르는 기록 생태계로 넓게 바라본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240918T175053/)
-
 ## 스타벅스
 
 작성 2025-03-06 · 수정 2025-03-06 · 태그 bib, meta, starbucks
@@ -3922,9 +3930,9 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20231019T140300/)
 
-## 서브스택
+## 서브스택 위키독스
 
-작성 2023-07-16 · 수정 2025-03-06 · 태그 meta, sns, substack
+작성 2023-07-16 · 수정 2025-03-06 · 태그 meta, sns, substack, wikidocs
 
 서브스택을 중심으로 뉴스레터 발행, 독자 연결, 소셜미디어 배포 전략과 시행착오를 다룬다.
 
@@ -4065,14 +4073,6 @@ AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 �
 텍스트장인과 텍스트마스터, 텍스트힙스터라는 자기호명을 통해 글쓰기 유희와 장인성을 엮는다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241023T071856/)
-
-## SSG: 쿼츠 Quartz
-
-작성 2024-10-07 · 수정 2025-02-14 · 태그 digitalgarden, hugo, meta, notetaking, publishing, quartz, ssg
-
-#쿼츠 #디지털가든 #마크다운 #정적사이트생성기
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241007T112300/)
 
 ## 기예인 지식인 예술가 사상가 영성가 구도자 사색가
 

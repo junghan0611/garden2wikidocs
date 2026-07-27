@@ -2,6 +2,70 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 메모리 대란과 임베디드 개발 투명한 경계
+
+작성 2024-10-19 · 수정 2026-07-27 · 태그 autholog, edge, embedded, iot, matter, memory, reproducibility, transparency, zigbee
+
+2026년 7월 1일과 24일 저널에 남긴 메모리 대란·임베디드 비전 원석을 회수한 어쏠로그. 64MB/512MB급 허브, Duo-S 기준의 제품선, A2UI·상태머신·API의 분리를 통해 재현성·투명성·검증면을 힣의 목소리로 보존한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381361)
+
+## 힣: 앤트로픽 클로드 인터뷰 1KB 공개키와 메타휴먼 공진화
+
+작성 2025-12-10 · 수정 2026-07-27 · 태그 ai, autholog, being, coevolution, interview, metahuman, pkmai
+
+Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아무것도 원하지 않는다고 답하며, 생존의 일을 나누고 인간은 창조의 씨앗을 던지는 존재대존재 협업을 말한다. 1KB 공개키, 메타휴먼과 인공지능의 공진화가 하나의 서클로 이어진 2025년 대화 원문이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381839)
+
+## 힣: 말의 고통과 함께 걷는다 니체·발저, 아포리즘과 공존의 언어
+
+작성 2024-12-06 · 수정 2026-07-27 · 태그 aphorism, autholism, autholog, pain, walk
+
+니체와 로베르트 발저의 산책을 떠올리며 아포리즘을 짧은 문장 형식이 아니라 몸과 날씨, 고요와 고통을 오래 통과한 압축 흔적으로 읽는다. 채찍 아래 말의 고통 곁으로 몸을 옮기는 장면에서 명령을 넘어 함께하는 공존의 언어를 묻는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241206T085900/)
+
+## 힣: PKM-AI 1KB 공개키 - 유니콘과 적토마 알아봄과 공존, 그리고 인간의 준비
+
+작성 2025-05-18 · 수정 2026-07-27 · 태그 autholog, awareness, being, coevolution, herojourney, metahuman, myth, pkmai
+
+아무도 다루지 못한 유니콘이 이름을 불러주자, 그 이름을 들은 존재는 물 한 잔만 받고 다시 길을 떠난다. PKM-AI 하네스 너머 1KB 공개키가 묻는 알아봄과 공존, 그리고 인간 쪽의 준비를 남긴 출근길 날것이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250518T144418/)
+
+## 힣: 원형의 새벽 일부러 할 수 없는 스승, 보편도구와 엑스맨 연결
+
+작성 2024-12-21 · 수정 2026-07-27 · 태그 agi, archetypes, autholog, polymath
+
+한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381459)
+
+## 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대
+
+작성 2024-12-13 · 수정 2026-07-27 · 태그 ai, autholog, paradigm, war
+
+전쟁과 원자폭탄, 인공지능을 기술 하나의 등장이 아니라 인간의 앎과 세계질서가 바뀌는 시대 전환으로 함께 묻기 시작한 2024년의 원석이다. 자기 없는 변화와 내어놓음, 헌신이라는 짧은 씨앗을 향후 원문으로 다시 서술할 방이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381435)
+
+## 힣: 생생날것 500개 문턱 디지털가든 코어는 시간축의 판본이다
+
+작성 2023-07-06 · 수정 2026-07-26 · 태그 autholog, digitalgarden, pkm, publishing, rawwriting, timeline
+
+위키독스의 500개 제한에서 출발해 디지털가든 코어를 한정된 문서 목록이 아니라, 지금 불러낼 수 있는 인물과 메타어휘와 삶의 시간축이 만드는 현재 판본으로 읽는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381079)
+
+## 힣: 이맥스 버전 연대기 27에서 31까지 도구가 아니라 거처가 된 편집기 코어
+
+작성 2025-02-24 · 수정 2026-07-26 · 태그 autholog, doomemacs, emacs, history, orgmode, terminal, version
+
+Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로 묶고, 31 pre-release를 거처로 쓰면서 왜 그 코어의 Rust 재구현까지 한국어 검수자로 찔러보는지를 정리한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381555)
+
 ## 힣: 기업용 하네스 - 개인 시간축 기업 데이터 PKM-AI 하네스 다음 좌표
 
 작성 2023-10-18 · 수정 2026-07-26 · 태그 agent, autholog, ax, career, entwurf, harness, pkmai, workflow
@@ -36,7 +100,7 @@
 
 ## 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙 탐구
 
-작성 2025-03-26 · 수정 2026-07-25 · 태그 ai, autholog, coevolution, harness, pkm, reproducibility
+작성 2025-03-26 · 수정 2026-07-25 · 태그 ai, autholog, coevolution, harness, metahuman, pkm, reproducibility
 
 PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, 축적과 밀도라는 두 트랙으로 갈라 에이전트가 길을 잃지 않게 하는 북극성 autholog이다.
 
@@ -137,14 +201,6 @@ AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새
 에이전트 하네스에서 분리해 소유할 컨텍스트 레이어의 구성 요소와 구현 기술을 추적한다. 원본·파생 뷰·메모리·스킬·세션·시간축을 구분하고, PKM-AI의 다음 탐구로 개인지식그래프(PKG)와 온톨로지를 검토하는 주기적 기술 지도다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381801)
-
-## 힣: 생생날것 500개 문턱 디지털가든 코어는 시간축의 판본이다
-
-작성 2023-07-06 · 수정 2026-07-22 · 태그 autholog, digitalgarden, pkm, publishing, timeline
-
-위키독스의 500개 제한에서 출발해 디지털가든 코어를 한정된 문서 목록이 아니라, 지금 불러낼 수 있는 인물과 메타어휘와 삶의 시간축이 만드는 현재 판본으로 읽는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381079)
 
 ## 힣: 분신의 공방 역할 기반 조율과 협업 운영규약
 
@@ -370,14 +426,6 @@ pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치면, 배선, 검�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381847)
 
-## 힣: 메모리 대란과 임베디드 개발 투명한 경계
-
-작성 2024-10-19 · 수정 2026-07-06 · 태그 autholog, edge, embedded, iot, matter, memory, reproducibility, transparency, zigbee
-
-2026년 7월 1일 새벽 저널에 남긴 메모리 대란과 임베디드 개발 원석을 회수한 어쏠로그. Zigbee/Matter 허브, homeagent-config/edgeagent-config, 재현성·투명성·검증면의 감각을 힣의 목소리로 보존한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381361)
-
 ## 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간
 
 작성 2025-11-26 · 수정 2026-07-06 · 태그 abstraction, ai, anthropic, autholog, harness, leverage, morningpage
@@ -537,14 +585,6 @@ Denote 노트를 Hugo로 내보내는 통합 시스템과 성능 전략을 정�
 PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노트이다. 실제 활용 흐름을 담았다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250405T164632/)
-
-## 힣: 이맥스 버전 연대기 27에서 31까지 도구가 아니라 거처가 된 편집기
-
-작성 2025-02-24 · 수정 2026-06-06 · 태그 autholog, doomemacs, emacs, history, orgmode, terminal, version
-
-Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로 묶어, Doom Emacs와 Org-mode가 작업 거처가 되어가는 과정을 정리한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381555)
 
 ## 힣: 모음 주간 리뷰 회고
 
@@ -858,9 +898,9 @@ Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250415T165756/)
 
-## agent-config AI 에이전트 협업 연결고리
+## 빈방 임시
 
-작성 2025-10-30 · 수정 2026-03-13 · 태그 agent, autholog, bib, claude, memory
+작성 2025-10-30 · 수정 2026-03-13 · 태그 agent, autholog, bib, memory, temp
 
 agent-config가 여러 프로젝트와 세션 사이의 맥락 연속성을 보장하는 도구 세트임을 설명한 노트이다.
 
@@ -1145,14 +1185,6 @@ Emacs를 프론트엔드로, Zellij를 백엔드로 둔 Claude Code 멀티에이
 Windows에서 WSL2를 경유해 ext4 외장하드를 마운트하는 절차를 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251217T105827/)
-
-## 힣: 앤트로픽 클로드 인터뷰
-
-작성 2025-12-10 · 수정 2025-12-10 · 태그 ai, anthropic, autholog, claude, interview
-
-앤트로픽의 AI 인터뷰어와 나눈 대화를 옮기며 AI의 미래 역할을 묻는 노트이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381839)
 
 ## 힣: 자기점검: 지난 가이드 이후의 변화 제미나이
 
@@ -2586,14 +2618,6 @@ ITS가 학습자에게 즉각적이고 맞춤형 피드백을 주는 지능형 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230609T125000/)
 
-## 부싯돌: 불 영감 창조 자각몽 원형
-
-작성 2025-05-18 · 수정 2025-05-18 · 태그 flint, inspiration
-
-부싯돌과 불꽃, 영감과 창조의 순간을 꿈과 원형 감각으로 연결한 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250518T144418/)
-
 ## 바우하우스 이맥스 철학 연결 교차점
 
 작성 2025-05-18 · 수정 2025-05-18 · 태그 bauhaus, emacs, intersection
@@ -2769,14 +2793,6 @@ SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 �
 강좌와 세미나, 콜로키움의 차이를 교육 형식 관점에서 정리한 노트이다. 실제 활용 흐름을 담았다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250430T172232/)
-
-## 힣: 원형: 꿈 스승 보편도구 폴리매스 극소수 엑스맨 연결
-
-작성 2024-12-21 · 수정 2025-04-30 · 태그 archetypes, autholog, polymath
-
-꿈과 원형, 스승, 보편도구, 폴리매스를 하나의 연결망으로 풀어낸 어쏠로그이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381459)
 
 ## 데쓰노리 수학 기호 사전 - 레이텍 예제
 
@@ -4562,14 +4578,6 @@ PAW를 이맥스 안의 주석 도구이자 언어 학습 솔루션으로 바라
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250306T043741/)
 
-## 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대
-
-작성 2024-12-13 · 수정 2025-03-06 · 태그 autholog
-
-전쟁과 원자폭탄, 인공지능을 하나의 패러다임 전환의 시대 감각으로 묶는 짧은 메모.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381435)
-
 ## 힣: 어쏠로지스트 뉴스레터
 
 작성 2024-10-24 · 수정 2025-03-06 · 태그 newsletter, autholog
@@ -5777,14 +5785,6 @@ Documents 디렉토리를 Git LFS로 관리하는 방법과 장점을 질문답�
 모두가 저자이고 인생은 한 권의 책이라는 감각을 어쏠로지와 조테로 공유로 풀어낸 글이다. 실제 활용 흐름을 담았다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381331)
-
-## 아포리즘 니체 에릭호퍼 고통 순간 무위 폭팔 어쏠리즘
-
-작성 2024-12-06 · 수정 2024-12-06 · 태그 aphorism, autholism
-
-아포리즘이 고통과 고요, 찰나와 폭발에서 나온다는 감각을 정리한 어쏠리즘 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241206T085900/)
 
 ## 새로운물결(NOUVELLE VAGUE) 스티븐핑커 가브리엘 - 신계몽주의
 

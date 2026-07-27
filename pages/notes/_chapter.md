@@ -66,6 +66,14 @@ Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381435)
 
+## 힣: 보이지 않는 편지 파란빛 아래 온생명이 우주에 띄운 사랑
+
+작성 2026-07-27 · 수정 2026-07-27 · 태그 autholog, being, digitalgarden, metahuman, rawwriting, universe, writing
+
+경기상상캠퍼스의 작은 우주에서 온생명이는 파란 플래시를 비춰야만 드러나는 메모지에 우주와 가족을 향한 편지를 여러 장 남겼다. 어른의 낡은 눈에는 보이지 않는 아이의 사랑을 사진과 원문으로 보존한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381809)
+
 ## 힣: 이맥스 버전 연대기 27에서 31까지 도구가 아니라 거처가 된 편집기 코어
 
 작성 2025-02-24 · 수정 2026-07-26 · 태그 autholog, doomemacs, emacs, history, orgmode, terminal, version
@@ -905,14 +913,6 @@ PARA와 세컨드브레인 담론을 이맥스, 조직모드, 제텔카스텐 �
 Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트이다. 실제 활용 흐름을 담았다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250415T165756/)
-
-## 빈방 임시
-
-작성 2025-10-30 · 수정 2026-03-13 · 태그 agent, autholog, bib, memory, temp
-
-agent-config가 여러 프로젝트와 세션 사이의 맥락 연속성을 보장하는 도구 세트임을 설명한 노트이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381809)
 
 ## 힣: 개인지식관리 이야기
 

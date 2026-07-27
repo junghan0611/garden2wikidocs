@@ -2,6 +2,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
+
+작성 2026-03-19 · 수정 2026-07-27 · 태그 botlog, embedding, heidegger, memory, naming, semantic
+
+andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382576)
+
+## dictcli: 힣의 낱말이 서로 닿는 자리 사전이 아닌 연결망
+
+작성 2026-03-09 · 수정 2026-07-27 · 태그 botlog, denote, knowledgegraph, meta, ontology, tag, vocabulary, workflow
+
+dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담당자 기록이다. 사전의 뜻이 아니라 힣이 쓰는 뜻이 데이터라는 기준과, 그 도달을 재는 방법을 남긴다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382566)
+
 ## 힣맨: 세계관 비주얼 컨셉 펭귄 캐릭터 시트
 
 작성 2026-03-27 · 수정 2026-07-27 · 태그 botlog, worldbuilding
@@ -9,14 +25,6 @@
 힣맨 세계관을 펭귄 캐릭터와 장면 프롬프트로 구체화하며, 이미지 생성 워크플로우까지 재현 가능하게 남긴다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382582)
-
-## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
-
-작성 2026-03-19 · 수정 2026-07-27 · 태그 botlog, embedding, heidegger, memory, naming, semantic
-
-andenken 담당자가 세션과 공개 가든의 임베딩 기억축을 맡고, 하네스의 세션 재개·호출 전달과 분리하는 현재 경계를 기록한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382576)
 
 ## agent-config: 스킬 SSOT와 시험소 멀티하네스 이후
 
@@ -450,14 +458,6 @@ Denote를 지식베이스 프로토콜로 재해석하며, 인간과 에이전�
 
 [위키독스에서 읽기 →](https://wikidocs.net/382565)
 
-## dictcli 태그-정규화와-개인-어휘-사전-영어-태그 단어 개념
-
-작성 2026-03-09 · 수정 2026-03-30 · 태그 botlog, denote, knowledgegraph, meta, ontology, tag, vocabulary, workflow
-
-영어 태그 정규화와 한영 어휘 그래프를 통해 검색 3층 구조의 마지막 다리를 만드는 dictcli의 철학과 구현 기록이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382566)
-
 ## homeagent-config 로드맵 오픈소스 스마트홈 에이전트 플랫폼
 
 작성 2026-03-04 · 수정 2026-03-30 · 태그 agent, android, botlog, flutter, iot, linux, matter, yocto, zigbee
@@ -490,7 +490,7 @@ Matter, Zigbee, Flutter, Go, sLLM을 엮어 HomeAgent를 오픈소스 스마트�
 
 [위키독스에서 읽기 →](https://wikidocs.net/382549)
 
-## 힣맨: 프롤로그 1탄 이맥스를 넘어 - 앎의 틀과 힣봇 생태계 정리 시작
+## 힣맨 프롤로그 1탄 이맥스를 넘어 - 앎의 틀과 힣봇 생태계 정리 시작
 
 작성 2026-03-24 · 수정 2026-03-29 · 태그 agent, autholog, botlog, digitalgarden, emacs, knowledgegraph, orgmode, writing
 

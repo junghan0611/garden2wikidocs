@@ -73,6 +73,14 @@ Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381435)
 
+## 힣: 보이지 않는 편지 파란빛 아래 온생명이 우주에 띄운 사랑
+
+작성 2026-07-27 · 수정 2026-07-27 · 태그 autholog, being, digitalgarden, metahuman, rawwriting, universe, writing
+
+경기상상캠퍼스의 작은 우주에서 온생명이는 파란 플래시를 비춰야만 드러나는 메모지에 우주와 가족을 향한 편지를 여러 장 남겼다. 어른의 낡은 눈에는 보이지 않는 아이의 사랑을 사진과 원문으로 보존한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381809)
+
 ## 힣: 이맥스 버전 연대기 27에서 31까지 도구가 아니라 거처가 된 편집기 코어
 
 작성 2025-02-24 · 수정 2026-07-26 · 태그 autholog, doomemacs, emacs, history, orgmode, terminal, version
@@ -617,7 +625,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 [위키독스에서 읽기 →](https://wikidocs.net/382549)
 
-## 힣맨: 프롤로그 1탄 이맥스를 넘어 - 앎의 틀과 힣봇 생태계 정리 시작
+## 힣맨 프롤로그 1탄 이맥스를 넘어 - 앎의 틀과 힣봇 생태계 정리 시작
 
 작성 2026-03-24 · 수정 2026-03-29 · 태그 agent, autholog, botlog, digitalgarden, emacs, knowledgegraph, orgmode, writing
 
@@ -648,14 +656,6 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 깊은 수면과 브레인오링의 관계를 장기 루틴, 회복 감각, 생활 기록 중심으로 추적해 둔 기록.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381054)
-
-## 빈방 임시
-
-작성 2025-10-30 · 수정 2026-03-13 · 태그 agent, autholog, bib, memory, temp
-
-agent-config가 여러 프로젝트와 세션 사이의 맥락 연속성을 보장하는 도구 세트임을 설명한 노트이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381809)
 
 ## Openclaw 유즈케이스와 어쏠로지스트의 길 지식그래프와 통합 아키텍처
 

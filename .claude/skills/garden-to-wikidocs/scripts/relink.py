@@ -10,9 +10,16 @@ mapping 에 없거나 page_id 가 아직 없는 링크는 가든 URL 그대로 �
 이렇게 하면 이미 올린 폴더 내부(및 폴더 간) 순회는 위키독스 안에서 살아나고,
 아직 안 올린 폴더로의 링크는 가든으로 나간다. 폴더를 더 올릴수록 실화 비율이 오른다.
 
-발행면 게이트: 위키독스는 TOC.md 에 등록된 페이지만 라이브로 두고 빠진 페이지는
-삭제한다(2026-07 실측). 그래서 mapping 에 page_id 가 남아 있어도 TOC 밖 페이지의
-위키독스 URL 은 404 다. 실화 대상은 항상 현재 TOC 에 등록된 경로로 제한한다.
+발행면 게이트는 두 방향 모두에 건다. 위키독스는 TOC.md 에 등록된 페이지만 라이브로
+두고 빠진 페이지는 삭제한다(2026-07 실측).
+
+- 링크 대상(target): mapping 에 page_id 가 남아 있어도 TOC 밖 페이지의 위키독스 URL 은
+  404 다. 실화하는 대상은 항상 현재 TOC 에 등록된 경로로 제한한다.
+- 실화 파일(source): TOC 밖 페이지는 라이브에 존재하지 않는다. 그 안의 위키독스 URL 은
+  아무도 볼 수 없는데, 발행면이 바뀔 때마다 리포 전체를 흔든다(2026-07 실측: 코어
+  발행면 249개인데 게이트 없는 relink 가 826개 파일을 고쳤고 그 중 639개가 발행면
+  밖이었다). 그래서 쓰기 대상도 발행면으로 제한한다. 책 대문(README.md)은 TOC 밖이지만
+  항상 라이브이므로 예외로 포함한다.
 
 - 코드펜스 안 URL 은 건드리지 않는다(코드 예시는 literal 유지).
 - 가든 URL 형태가 아닌 것(홈 `/`, `/index`, `/static/...`)은 denote-id 가 없어 자동 제외.
@@ -20,7 +27,7 @@ mapping 에 없거나 page_id 가 아직 없는 링크는 가든 URL 그대로 �
 - 이미 wikidocs.net URL 인 링크는 가든 패턴에 안 걸리므로 반복 실행에 안전(idempotent).
 
 사용:
-    relink.py [--pages <repo>/pages] [--mapping <repo>/mapping.json] [--dry-run]
+    relink.py [--repo <root>] [--pages <dir>] [--mapping <file>] [--dry-run]
 """
 import argparse
 import json
@@ -82,18 +89,48 @@ def restore_provenance(text, blocks):
     return text
 
 
-def main():
+def toc_path_of(path: Path, pages_dir: Path) -> str:
+    """pages 디렉토리 안의 파일을 TOC.md 가 쓰는 경로 표기로 되돌린다.
+
+    TOC 경로는 build 규약상 항상 리포 루트 기준 `pages/<folder>/<name>.md` 다.
+    `--pages` 로 다른 위치를 물려도 같은 규약으로 맞춰야 게이트가 동작한다.
+    """
+    return f"pages/{path.relative_to(pages_dir).as_posix()}"
+
+
+def relink_targets(pages_dir: Path, published):
+    """실화할 파일 = 현재 발행면.
+
+    발행면을 모르는 채로 전량을 고치는 fail-open 은 이 스크립트의 불변식과 정반대다
+    (라이브에 없는 페이지를 흔들고, 죽은 URL 을 심을 수 있다). 그래서 published 가
+    없으면 목록을 만들지 않고 실패한다.
+    """
+    if published is None:
+        raise ValueError("발행면(published) 없이는 실화 대상을 정할 수 없다")
+    live, skipped = [], []
+    for path in sorted(pages_dir.rglob("*.md")):
+        (live if toc_path_of(path, pages_dir) in published else skipped).append(path)
+    return live, skipped
+
+
+def main(argv=None):
     ap = argparse.ArgumentParser()
+    ap.add_argument("--repo", default=None,
+                    help="리포 루트(기본: 이 스크립트 기준 README.md 있는 곳). "
+                         "TOC.md/README.md 를 여기서 찾는다.")
     ap.add_argument("--pages", default=None,
-                    help="pages 디렉토리(기본: 이 스크립트로부터 위 README.md 있는 곳/pages)")
+                    help="pages 디렉토리(기본: 리포 루트/pages)")
     ap.add_argument("--mapping", default=None,
                     help="mapping.json 경로(기본: 리포 루트/mapping.json)")
     ap.add_argument("--dry-run", action="store_true",
                     help="파일을 쓰지 않고 실화될 링크 수만 보고")
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
 
     here = Path(__file__).resolve()
-    root = next((p for p in here.parents if (p / "README.md").exists()), here.parents[3])
+    if args.repo:
+        root = Path(args.repo).expanduser()
+    else:
+        root = next((p for p in here.parents if (p / "README.md").exists()), here.parents[3])
     pages_dir = Path(args.pages).expanduser() if args.pages else root / "pages"
     mapping_path = Path(args.mapping).expanduser() if args.mapping else root / "mapping.json"
 
@@ -101,14 +138,17 @@ def main():
     chapters = mapping.get("_chapters", {})
 
     # 현재 TOC 에 등록된 경로 = 라이브가 되는 페이지. 여기 없는 page_id 는 죽은 URL이다.
+    # TOC 가 없으면 무엇이 발행면인지 알 수 없다 — 게이트를 풀고 전량 실화하는 fail-open
+    # 대신 멈춘다(잘못된 --repo 나 TOC 유실이 2천 파일을 흔드는 사고를 막는다).
     toc_path = root / "TOC.md"
-    published = set(TOC_TARGET.findall(toc_path.read_text(encoding="utf-8"))) \
-        if toc_path.exists() else None
-    if published is None:
-        print(f"[warn] TOC.md 없음: {toc_path} — 발행면 게이트 없이 실화한다")
+    if not toc_path.exists():
+        print(f"[err] TOC.md 없음: {toc_path} — 발행면을 모르면 실화할 대상을 정할 수 "
+              "없다. build 를 먼저 돌린다.", file=sys.stderr)
+        return 1
+    published = set(TOC_TARGET.findall(toc_path.read_text(encoding="utf-8")))
 
     def is_published(path):
-        return published is None or path in published
+        return path in published
 
     page_id = {did: v["page_id"] for did, v in mapping.items()
                if did != "_chapters" and v.get("page_id") and is_published(v["path"])}
@@ -144,7 +184,8 @@ def main():
         stats["kept"] += 1
         return m.group(0)
 
-    md_files = sorted(pages_dir.rglob("*.md"))
+    md_files, skipped = relink_targets(pages_dir, published)
+    live_pages = len(md_files)
     readme = root / "README.md"          # 대문(가든 index.md 변환본)도 링크 실화 대상
     if readme.exists():
         md_files.append(readme)
@@ -163,7 +204,8 @@ def main():
                 f.write_text(new, encoding="utf-8")
 
     mode = "dry-run(미기록)" if args.dry_run else "기록완료"
-    print(f"[ok] pages     : {pages_dir} ({len(md_files)}개 파일)")
+    print(f"[ok] pages     : {pages_dir} (대상 {len(md_files)}개 = 발행면 {live_pages} "
+          f"+ 대문 {len(md_files) - live_pages}, 발행면 밖 {len(skipped)}개 건너뜀)")
     print(f"[ok] mapping   : {mapping_path} (page_id {len(page_id)}개)")
     print(f"[ok] 노트 실화  : {stats['reified']}개 -> wikidocs.net/<page_id> [{mode}]")
     print(f"[ok] 폴더 실화  : {stats['reified_folder']}개 -> wikidocs.net/<챕터 표지>")

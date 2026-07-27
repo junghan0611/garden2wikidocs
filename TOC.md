@@ -1,5 +1,6 @@
 # 목차
 
+- [0 어쏠로그](pages/autholog/_chapter.md)
 - [1 저널](pages/journal/_chapter.md)
 - [2 메타](pages/meta/_chapter.md)
   - [20250315 어쏠로그](pages/meta/20241206T090648.md)

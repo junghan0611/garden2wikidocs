@@ -582,17 +582,74 @@ class CoreBuildIntegrationTests(unittest.TestCase):
                 sorted(line.split("(")[-1].rstrip(")") for line in children),
                 ["pages/botlog/20240401T000000.md", "pages/notes/20240301T000000.md"],
             )
-            # 코어 밖 저널도 표지도 발행면에서만 빠지고 파일과 mapping 은 남는다.
-            self.assertNotIn("0 어쏠로그", toc)
+            # 어쏠로그 집합 표지는 코어 정의의 절반이라 코어 판본에서도 0순위로 발행한다.
+            self.assertEqual(toc.splitlines()[2],
+                             "- [0 어쏠로그](pages/autholog/_chapter.md)")
+            # 코어 밖 저널은 발행면에서만 빠지고 파일과 mapping 은 남는다.
             self.assertTrue((out / "pages/journal/20240101T000000.md").exists())
             mapping = json.loads((out / "mapping.json").read_text(encoding="utf-8"))
             self.assertIn("20240101T000000", mapping)
-            self.assertNotIn("autholog", mapping["_chapters"])
+            self.assertIn("autholog", mapping["_chapters"])
 
             cover = (out / "pages/journal/_chapter.md").read_text(encoding="utf-8")
             self.assertIn("https://notes.junghanacs.com/journal/20240101T000000/", cover)
             self.assertIn("디지털가든 코어",
                           (out / "README.md").read_text(encoding="utf-8"))
+
+    def test_core_collection_cover_links_stay_inside_the_publish_surface(self):
+        """어쏠로그 집합면은 코어와 정확히 겹치므로 링크가 전부 위키독스 안이다.
+
+        폴더 표지는 발행 여부와 무관하게 폴더 전량을 실어 코어 밖 항목이 가든으로
+        나가지만(정상), 집합면은 태그=코어 정의라 이탈이 0이어야 한다.
+        """
+        with tempfile.TemporaryDirectory() as td:
+            base = Path(td)
+            garden, out = base / "garden", base / "out"
+            (garden / "content").mkdir(parents=True)
+            out.mkdir()
+            (out / "README.md").write_text("placeholder\n", encoding="utf-8")
+
+            fixtures = {
+                "journal": ("20240101T000000", ""),           # 코어 밖
+                "notes": ("20240301T000000", 'tags: ["autholog"]\n'),
+            }
+            for folder, (did, tags) in fixtures.items():
+                (garden / "content" / folder).mkdir()
+                (garden / "content" / folder / f"{did}.md").write_text(
+                    f'---\ntitle: "{folder} 제목"\ndescription: "설명"\n'
+                    f"date: {did[:4]}-{did[4:6]}-{did[6:8]}T00:00:00+09:00\n"
+                    f"{tags}---\n\n본문\n",
+                    encoding="utf-8",
+                )
+            (garden / "content/index.md").write_text(
+                '---\ntitle: "대문"\n---\n\n본문\n', encoding="utf-8")
+            (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
+            init_git_repo(garden)
+
+            # 회수된 page_id 가 있어야 실화 대상이 생긴다.
+            (out / "mapping.json").write_text(json.dumps({
+                "20240301T000000": {"page_id": 111, "url": "https://wikidocs.net/111"},
+                "20240101T000000": {"page_id": 222, "url": "https://wikidocs.net/222"},
+            }, ensure_ascii=False), encoding="utf-8")
+
+            # --garden-links 없이 = 평상시 코어 갱신
+            subprocess.run(
+                [sys.executable, str(BUILD_PATH), "--folders", "journal,notes",
+                 "--garden", str(garden), "--out", str(out), "--core"],
+                check=True, capture_output=True, text=True,
+            )
+
+            collection = (out / "pages/autholog/_chapter.md").read_text(encoding="utf-8")
+            items = [line for line in collection.splitlines() if line.startswith("- [")]
+            self.assertEqual(len(items), 1)
+            self.assertIn("https://wikidocs.net/111", items[0])
+            self.assertNotIn("notes.junghanacs.com/notes/", "\n".join(items))
+
+            # 발행면 밖(저널)을 가리키는 표지 링크는 page_id 가 있어도 가든으로 남는다.
+            journal_cover = (out / "pages/journal/_chapter.md").read_text(encoding="utf-8")
+            self.assertIn("https://notes.junghanacs.com/journal/20240101T000000/",
+                          journal_cover)
+            self.assertNotIn("https://wikidocs.net/222", journal_cover)
 
     def test_build_refuses_to_write_when_toc_exceeds_publish_limit(self):
         with tempfile.TemporaryDirectory() as td:

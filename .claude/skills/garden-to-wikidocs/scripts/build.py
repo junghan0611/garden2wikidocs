@@ -715,7 +715,7 @@ def main():
         sources.sort(key=source_sort_key, reverse=True)
         folder_sources[folder] = sources
 
-    registered = len(folder_sources) + (0 if args.core else len(COLLECTIONS)) + sum(
+    registered = len(folder_sources) + len(COLLECTIONS) + sum(
         1 for folder, sources in folder_sources.items() for source in sources
         if is_core_member(folder, source["tags"], args.core)
     )
@@ -733,12 +733,12 @@ def main():
     mapping = {}
     copied = []
     toc = ["# 목차", ""]
-    # 태그 집합은 0순위 탐색면이므로 authored folder 챕터들보다 먼저 둔다. 코어 모드에서는
-    # 아직 page_id 가 없어 새 페이지를 만들게 되므로 발행면에서 뺀다(표지 파일은 계속 생성).
-    if not args.core:
-        toc.extend(
-            f'- [{spec["subject"]}]({spec["path"]})' for spec in COLLECTIONS.values()
-        )
+    # 태그 집합은 0순위 탐색면이므로 authored folder 챕터들보다 먼저 둔다. 코어 모드에서도
+    # 발행한다 — `autholog` 는 코어 정의의 절반이고, 그 집합면은 링크가 전부 발행면 안이라
+    # 위키독스에서 온전히 순회되는 유일한 탐색면이다(botlog 는 `5 봇로그` 표지가 커버).
+    toc.extend(
+        f'- [{spec["subject"]}]({spec["path"]})' for spec in COLLECTIONS.values()
+    )
     collection_sources = {tag: [] for tag in COLLECTIONS}
     published = set()          # TOC 에 등록된 = 라이브가 될 page 경로
     # 링크 대상 판단 기준. --garden-links 면 빈 집합이라 모든 목록이 가든으로 나간다.
@@ -826,7 +826,7 @@ def main():
                 "subject": CHAPTER_NAMES.get(folder, folder),
                 "url": previous.get("url") or f"https://wikidocs.net/{previous['page_id']}",
             }
-    for tag, spec in (() if args.core else COLLECTIONS.items()):
+    for tag, spec in COLLECTIONS.items():
         previous = previous_chapters.get(tag, {})
         entry = {"subject": spec["subject"], "path": spec["path"],
                  "source_url": spec["source_url"]}

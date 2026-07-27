@@ -35,8 +35,9 @@ cross-repo 정책 SSOT는 garden의
                기존 mapping의 page_id/url은 동일 Denote ID에 승계한다.
 [2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 및
                collection marker<->standalone 표지 page_id 회수
-[3] relink.py  링크 실화 — pages/**·README 의 가든 URL 중 page_id 있는 것만
-               wikidocs.net/<page_id> 로 재작성(없으면 가든 URL 유지, 하이브리드).
+[3] relink.py  링크 실화 — 현재 TOC 발행면 페이지 + README 안에서, 가든 URL 중
+               발행면에 있는 page_id 만 wikidocs.net/<page_id> 로 재작성(나머지는
+               가든 URL 유지, 하이브리드). 발행면 밖 파일은 아예 열지 않는다.
                `/tags/autholog/` 링크도 회수된 어쏠로그 집합 표지로 실화한다.
 [검증] audit.py  품질 게이트 — TOC·mapping·gid·page_id·source metadata/provenance·
                uniqueness/completeness·abstract ordering·미처리 relref·원본/미러 헤딩 보존
@@ -58,8 +59,9 @@ push 한 번이 약 20분짜리 전체 WikiDocs webhook을 촉발한다. **build
 
 ```bash
 python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
-  --folders journal,meta,bib,notes,botlog --core --garden-links
-python3 .claude/skills/garden-to-wikidocs/scripts/audit.py --core --garden-links
+  --folders journal,meta,bib,notes,botlog --core
+python3 .claude/skills/garden-to-wikidocs/scripts/relink.py         # 코어 내부 순회
+python3 .claude/skills/garden-to-wikidocs/scripts/audit.py --core
 python3 -m unittest discover -s tests -q                         # gate
 # gitleaks dir . --no-banner --redact                           # optional gate
 # 위 gate 뒤 GLG 승인 시에만 commit/push
@@ -68,19 +70,25 @@ WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
   python3 .claude/skills/garden-to-wikidocs/scripts/status.py --book-id 20676 --list
 ```
 
+build 는 pages/ 를 통째로 다시 쓰므로 relink 결과가 매번 지워진다. **build 를 돌렸으면
+relink 도 반드시 다시 돌린다.** audit 은 relink 뒤에 돌려야 발행면 밖 page_id 참조까지
+검사한다.
+
 ### 신규 page_id가 있는 갱신
 
 ```bash
 python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
-  --folders journal,meta,bib,notes,botlog --core --garden-links
+  --folders journal,meta,bib,notes,botlog --core
+python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
 python3 .claude/skills/garden-to-wikidocs/scripts/audit.py \
-  --core --garden-links --allow-missing-page-ids
+  --core --allow-missing-page-ids
 # GLG 승인 후 1차 commit/push → status.py 로 생성 동기화 확인
 WIKIDOCS_TOKEN="$(pass personal/token/wikidocs/junghanacs)" \
   python3 .claude/skills/garden-to-wikidocs/scripts/recover.py --book-id 20676
 python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
-  --folders journal,meta,bib,notes,botlog --core --garden-links
-python3 .claude/skills/garden-to-wikidocs/scripts/audit.py --core --garden-links
+  --folders journal,meta,bib,notes,botlog --core
+python3 .claude/skills/garden-to-wikidocs/scripts/relink.py
+python3 .claude/skills/garden-to-wikidocs/scripts/audit.py --core
 python3 -m unittest discover -s tests -q
 # GLG 승인 후 2차 commit/push → status.py --list 로 pending 0 확인
 ```
@@ -96,10 +104,12 @@ python3 -m unittest discover -s tests -q
   대응이며 `pages/`·`mapping.json` 은 가든 전량을 그대로 만든다. 상한을 넘기면 build 가
   생성물을 쓰기 전에 실패한다. 코어에서 저널을 뺀 이유는 저널만이 시간축으로 계속 늘어나는
   유일한 발행 증가원이기 때문이다(나머지는 새 노트 생성이 아니라 수선으로 자란다).
-- `--garden-links` 는 표지·집합면의 링크를 전부 가든 원본으로 낸다. 발행면이 바뀌는 동안
-  가장 안전한 기본값이다. 코어끼리 위키독스 내부 순회를 살리려면 이 옵션을 빼고 `relink.py`
-  를 돌린다 — relink 는 현재 TOC 에 등록된 대상만 실화하므로 죽은 링크가 생기지 않는다.
-  `audit` 에는 build 와 같은 옵션을 그대로 넘긴다.
+- `--garden-links` 는 표지·집합면의 링크를 전부 가든 원본으로 낸다. **기본값이 아니다.**
+  코어에 담은 노트끼리는 위키독스 안에서 순회해야 읽기가 끊기지 않으므로, 평소에는 이
+  옵션 없이 build 하고 `relink.py` 를 돌린다(2026-07 실측: 발행면 249개 안에서 내부
+  순회율 33%, 나머지는 코어 밖 노트라 가든으로 나가는 게 맞다). 발행면을 크게 갈아엎는
+  전환기에 링크를 한 곳으로 몰고 싶을 때만 켜는 안전판이다. `audit` 에는 build 와 같은
+  옵션을 그대로 넘긴다.
 - `--garden` 기본 `~/repos/gh/notes`, `--out` 기본은 README.md 있는 리포 루트.
 - build는 garden `content/`·`change-text.sh`가 dirty/untracked면 생성물 쓰기 전에 실패한다.
   canonical garden commit 뒤에만 미러를 생성한다.
@@ -121,6 +131,13 @@ python3 -m unittest discover -s tests -q
   밖이면 404 다. `build --garden-links`(표지·집합면)와 `relink` 의 TOC 게이트가 이 규칙을
   강제하고, `audit` 이 발행면 밖 page_id 참조를 오류로 잡는다. 저자가 본문에 직접 쓴 외부
   위키독스 링크는 mapping 소유가 아니므로 대상이 아니다.
+- **relink 는 발행면 안팎 양쪽에 게이트를 건다.** 링크 *대상*이 TOC 안이어야 실화하고,
+  링크를 담은 *파일*도 TOC 안이어야 연다. 발행면 밖 페이지는 라이브에 없어서 그 안의
+  위키독스 URL 을 아무도 볼 수 없는데, 고치면 발행면이 바뀔 때마다 리포 전체가 흔들린다
+  (2026-07 실측: 코어 249개 발행면인데 file 게이트 없이는 826개 파일이 바뀌었고 그 중
+  639개가 발행면 밖이었다. 게이트 후 185개). 책 대문 `README.md` 만 TOC 밖 예외다.
+  **`TOC.md` 가 없으면 relink 는 게이트를 풀지 않고 exit 1 로 멈춘다.** 발행면을 모르는
+  채 전량을 고치는 fail-open 이 바로 이 게이트가 막으려는 사고이기 때문이다.
 - **URL = page_id 기반, 매우 안정적.** 파일명·제목·순서를 다 바꿔도 page_id 유지됨.
   단 우리가 URL을 직접 지정할 수 없으므로 `mapping.json` 으로 회수·관리한다.
 - **파일명 = denote-id** (`pages/journal/20220310T000000.md`). URL 안정·회수 앵커·편집관리.
@@ -153,9 +170,16 @@ python3 -m unittest discover -s tests -q
   TOC와 사용자 스크립트 탐색면에서는 authored folder보다 앞선 `0 어쏠로그`로 둔다.
   첫 생성 때는 `audit --allow-missing-page-ids` → push/status → recover/relink → audit의 신규 ID
   2단계가 필요하다. 그 전까지 README의 태그 링크는 가든 URL fallback이 정상이다.
-  `--core` 에서는 아직 page_id 가 없어 새 페이지를 만들게 되므로 발행면에서 제외한다
-  (표지 파일 `pages/autholog/_chapter.md` 는 계속 생성되고 리포에만 남는다). 코어에 다시
-  올릴 때가 이 2단계를 밟을 시점이다.
+  **`--core` 에서도 발행한다.** `autholog` 는 코어 정의(`autholog` 태그 ∪ `botlog` 폴더)의
+  절반인데 `botlog` 만 `5 봇로그` 표지로 커버되고 있었다. 이 집합면은 항목이 전부 발행면
+  안이라 링크 이탈이 0인 유일한 탐색면이다(2026-07 실측: 어쏠로그 170/170·봇로그 80/80 이
+  위키독스 내부, 노트 163/837, 메타 1/538, 저널·참고문헌 0). 발행 비용은 TOC 1칸이다.
+- **사이드바 사용자 스크립트는 웹훅 밖에 있다.** `wikidocs-user-script.js` 는 위키독스 책
+  설정(`책 수정 > 사용자 스타일/스크립트`)에 손으로 붙여넣는다. GitHub 동기화가 건드리지
+  않으므로 리포와 조용히 어긋날 수 있어, `audit` 이 `CH` 배열을 TOC 챕터 목록·순서와
+  `mapping._chapters` 의 page_id 에 대조한다(목록/순서 불일치·page_id 불일치·미회수인데
+  숫자 선언="출처 없는 ID"=오류, 회수했는데 null=경고, 파일 자체가 없으면 경고). 챕터를
+  더하거나 표지를 재생성하면 `CH` 를 고치고 **위키독스에 다시 붙여넣어야** 반영된다.
 - **본문 맨 위 H1 없음, frontmatter 없음.** 제목은 TOC 가 관리.
 - **위키독스는 인제스트 때 이미지를 자기 CDN 으로 재업로드·URL 재작성한다.** 로컬
   `![](../../assets/x.png)` → 라이브 `![](https://static.wikidocs.net/images/page/<pid>/…)`.

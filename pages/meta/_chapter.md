@@ -475,7 +475,7 @@
 - [20250321 이블 모달](https://notes.junghanacs.com/meta/20240927T143312/)
 - [20250316 합격 승인 수락 수용 받아들임 인정](https://notes.junghanacs.com/meta/20240322T053641/)
 - [20250315 전체상 큰그림 총체 총아 모든것 집합체](https://notes.junghanacs.com/meta/20250315T162718/)
-- [20250315 어쏠로그](https://notes.junghanacs.com/meta/20241206T090648/)
+- [20250315 어쏠로그](https://wikidocs.net/380758)
 - [20250313 스크래치 - 어린이 코딩 교육](https://notes.junghanacs.com/meta/20241016T170035/)
 - [20250313 참고 레퍼런스 부록 첨부 예제 예시](https://notes.junghanacs.com/meta/20240824T210333/)
 - [20250313 안드로이드 모바일 스마트폰](https://notes.junghanacs.com/meta/20240819T161739/)

@@ -22,6 +22,13 @@ BUILD = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(BUILD)
 
 TOC_LINE = re.compile(r"^(\s*)- \[([^\]]*)\]\(([^)]+)\)$")
+# 위키독스 책 설정에 손으로 붙여넣는 사이드바 스크립트. GitHub 동기화 대상이 아니라서
+# 리포와 조용히 어긋날 수 있으므로 CH 배열을 TOC/mapping 과 대조한다.
+USER_SCRIPT_NAME = "wikidocs-user-script.js"
+# `var CH=[...]` 선언부만 잘라 낸 뒤 그 안에서 항목을 읽는다. 파일 전체에서 항목 패턴을
+# 찾으면 주석에 적은 예시([380373,'1 저널'] 같은)까지 챕터로 오인한다.
+USER_SCRIPT_CH_ARRAY = re.compile(r"var\s+CH\s*=\s*\[(.*?)\]\s*;", re.DOTALL)
+USER_SCRIPT_CH_ITEM = re.compile(r"\[(\d+|null)\s*,\s*'([^']*)'\]")
 HEADING = re.compile(r"^#{2,6}[ \t]+", re.MULTILINE)
 GID_LINE = re.compile(r"^<!-- gid:(\d{8}T\d{6}) -->$")
 RELREF_SHORTCODE = re.compile(r"\{\{<\s*relref\b")
@@ -50,6 +57,59 @@ def duplicates(values):
 def unprotected(text: str) -> str:
     guarded, _ = BUILD.protect_code(text)
     return guarded
+
+
+def user_script_chapters(text: str):
+    """사용자 스크립트 CH 배열을 (page_id|None, subject) 목록으로 읽는다.
+
+    `var CH=[...]` 선언 밖(주석·다른 코드)은 보지 않는다. 선언이 없으면 빈 목록이라
+    audit 은 '챕터 목록 불일치' 오류로 잡는다.
+    """
+    declaration = USER_SCRIPT_CH_ARRAY.search(text)
+    if not declaration:
+        return []
+    return [(None if raw == "null" else int(raw), subject)
+            for raw, subject in USER_SCRIPT_CH_ITEM.findall(declaration.group(1))]
+
+
+def chapter_key(path: str) -> str:
+    """`pages/<key>/_chapter.md` 의 key(폴더명 또는 태그명)."""
+    parts = path.split("/")
+    return parts[1] if len(parts) > 2 else path
+
+
+def user_script_findings(declared, expected_nav):
+    """CH 배열 대조 결과를 (errors, warnings)로 돌려준다.
+
+    - 챕터 목록/순서가 TOC 와 다르면 오류. 사이드바에 없는 챕터를 넣거나 빠뜨린다.
+    - 선언한 page_id 가 mapping 과 다르면 오류. 독자가 죽은 링크를 본다.
+    - mapping 이 아직 미회수(None)인데 page_id 를 선언했으면 오류. 회수 전에는 그 숫자의
+      출처가 없다 — 재생성 전 옛 ID 이거나 임의값이고, 둘 다 엉뚱한 페이지로 보낸다.
+    - 회수된 page_id 가 있는데 아직 null 이면 경고. DOM 폴백으로 돌긴 하지만
+      제목 매칭에 기대는 상태라 회수한 값으로 고정하는 편이 낫다.
+    """
+    errors, warnings = [], []
+    if [label for _, label in declared] != [label for _, label in expected_nav]:
+        errors.append(
+            f"{USER_SCRIPT_NAME}: 챕터 목록/순서가 TOC 와 다름: "
+            f"{[label for _, label in declared]} != "
+            f"{[label for _, label in expected_nav]}")
+        return errors, warnings
+    for (declared_id, label), (actual_id, _) in zip(declared, expected_nav):
+        if declared_id is not None and actual_id is None:
+            errors.append(
+                f"{USER_SCRIPT_NAME}: '{label}' 은 mapping 에 회수된 page_id 가 없는데 "
+                f"{declared_id} 를 선언했다(출처 없는 ID)")
+        elif declared_id is not None and actual_id is not None \
+                and declared_id != actual_id:
+            errors.append(
+                f"{USER_SCRIPT_NAME}: '{label}' page_id 불일치: "
+                f"{declared_id} != {actual_id}")
+        elif declared_id is None and actual_id is not None:
+            warnings.append(
+                f"{USER_SCRIPT_NAME}: '{label}' 은 회수된 page_id {actual_id} 가 "
+                "있는데 아직 null(DOM 폴백). CH 갱신 권장")
+    return errors, warnings
 
 
 def main():
@@ -156,9 +216,9 @@ def main():
         else:
             chapters.append((label, path, line_number))
 
-    expected_chapters = ([] if args.core else [
+    expected_chapters = [
         (spec["subject"], spec["path"]) for spec in BUILD.COLLECTIONS.values()
-    ]) + [
+    ] + [
         (BUILD.CHAPTER_NAMES.get(folder, folder), f"pages/{folder}/_chapter.md")
         for folder in folders
     ]
@@ -229,8 +289,7 @@ def main():
                 collection_path.read_text(encoding="utf-8") != expected_index):
             errors.append(f"collection index: {tag} lastmod recent-first 목록/링크 불일치")
 
-    expected_navigation = set(folders) if args.core \
-        else set(folders) | set(BUILD.COLLECTIONS)
+    expected_navigation = set(folders) | set(BUILD.COLLECTIONS)
     actual_navigation = set(mapping.get("_chapters", {}))
     if actual_navigation != expected_navigation:
         errors.append(
@@ -275,6 +334,24 @@ def main():
     if dead_links:
         errors.append(
             f"링크: 발행면 밖 page_id 참조 {len(dead_links)}개(라이브 404): {dead_links[:5]}")
+
+    # 사이드바 스크립트는 웹훅이 아니라 손으로 위키독스에 붙여넣는다. 리포가 정본이므로
+    # 여기서 어긋나면 독자는 죽은 챕터 링크를 보게 된다.
+    script_path = out / USER_SCRIPT_NAME
+    declared = []
+    if not script_path.exists():
+        # canonical 리포에는 항상 있다. 임시 --out 검증에서는 없는 게 정상이라 오류로는
+        # 올리지 않되, 정본에서 사라진 것을 조용히 넘기지도 않는다.
+        warnings.append(f"{USER_SCRIPT_NAME}: 없음 — 사이드바 챕터 대조를 건너뛴다")
+    else:
+        declared = user_script_chapters(script_path.read_text(encoding="utf-8"))
+        navigation = mapping.get("_chapters", {})
+        script_errors, script_warnings = user_script_findings(
+            declared,
+            [(navigation.get(chapter_key(path), {}).get("page_id"), label)
+             for label, path, _ in chapters])
+        errors.extend(script_errors)
+        warnings.extend(script_warnings)
 
     missing_ids = []
     heading_mismatches = []
@@ -401,6 +478,10 @@ def main():
     print(f"[ok] mapping  : {len(pages_map)}개, page_id {carried_ids}개, "
           f"발행 {published_pages}개/{BUILD.PUBLISH_LIMIT}, uniqueness/completeness 보존")
     print(f"[ok] source   : garden metadata/title/provenance 전 페이지 일치 (abstract-first {abstract_pages}개)")
+    if declared:
+        pinned = sum(1 for page_id, _ in declared if page_id is not None)
+        print(f"[ok] userjs   : {USER_SCRIPT_NAME} 챕터 {len(declared)}개 TOC 일치 "
+              f"(page_id 고정 {pinned}, DOM 폴백 {len(declared) - pinned})")
     print("[ok] headings : 원본/미러 전 페이지 보존")
     print("[ok] relref   : 코드펜스 밖 미처리 0개")
     print("[ok] audit    : 통과")

@@ -34,7 +34,7 @@
 -   [영어로 좀 적어주시게](https://wikidocs.net/382575) — §junghan0611: English Public Key
 -   [그는 지금 뭐하는가](https://agenda.junghanacs.com/) — §geworfen: thrown into the world
 -   [그는 오늘 뭐 하는가](https://notes.junghanacs.com/journal/20260720T000000/) — Weekly journal
--   [그의 생각: 어쏠로그(autholog)](https://notes.junghanacs.com/tags/autholog/)
+-   [그의 생각: 어쏠로그(autholog)](https://wikidocs.net/386464)
 -   [그의 외침: 어쏠리즘(autholism)](https://wikidocs.net/381579)
 -   [근데 왜 힣 인가](https://wikidocs.net/381605)
 
@@ -114,7 +114,7 @@
 
 autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 눌러 담고 있다네!
 
--   [tags: autholog (170)](https://notes.junghanacs.com/tags/autholog/)
+-   [tags: autholog (170)](https://wikidocs.net/386464)
 
 ## 어쏠로지스트: 인간-상
 

@@ -3,29 +3,32 @@
 메커니즘·불변식 SSOT는 `.claude/skills/garden-to-wikidocs/SKILL.md`.
 정본/미러 정책은 garden `docs/WIKIDOCS_MIRROR.md`.
 
-## NOW — 가든 재export 뒤 AEO 판본 갱신
+## NOW — 발행면 신규 진입 자동 처리 (커밋 완료, push 대기)
 
-- **Current**: 챕터 표지 6개를 `## 제목 / source 날짜·태그 / description / 읽기 링크`의
-  AEO 구조로 전환했다. 2,239개 폴더 항목 + autholog 170개를 exact regeneration과 독립
-  구조 게이트로 검증하며, 원본 노트나 생성물을 손편집하지 않는다.
-- **Next**: 다음 텀에 org 원문을 garden markdown으로 export·commit → 이 리포에서
-  `build --core` → `relink` → `audit --core` → 테스트 → 승인 push. 신규 page_id가 없으면
-  1단계로 끝난다.
-- **Blocker**: 없음. 이번 AEO 판본은 현재 garden commit 기준으로 push하고, 원문 추가 갱신은
-  다음 텀으로 분리한다.
-- **Verify**: `audit --core` 경고 0, unittest 72/72, build→relink 2회 sha256 diff 0,
-  relink 재실행 변경 0, TOC 250노드·죽은 page_id 링크 0.
-- **Read**: `.claude/skills/garden-to-wikidocs/SKILL.md`의 recent-first AEO 표지·mapping cache.
+- **Current**: 죽은 page_id 승계를 `build.py` 에서 막았다. 덮어쓰기 전 `TOC.md` 를 읽어
+  발행면에 새로 들어오는 항목의 page_id 를 승계하지 않고 `[warn] 발행면 신규 진입 N개` 를
+  찍는다. 발행면 밖에 머무는 항목은 건드리지 않는다. 생성물은 바이트 동일(no-op)이다.
+- **Next**: 지피티 교차검수 회신 반영 → GLG 타이밍에 push. **콘텐츠 변경이 아니라 스킬
+  수선 커밋이므로 push 하면 웹훅 전체 재동기화가 돈다** — 다음 가든 export 와 묶어 한 번에
+  내보내는 편이 싸다.
+- **Blocker**: 없음.
+- **Verify**: `audit --core` 경고 0, unittest 79/79, build→relink 후 생성물 diff 0줄
+  (스킬/테스트 파일만 변경), 라이브 247/247 100%.
+- **Read**: SKILL.md 「삭제된 페이지의 page_id 는 부활하지 않는다」 불변식,
+  `build.py` 의 `previous_publish_surface`/`inherit_remote_id`.
 - **Do not touch**: `~/repos/gh/notes` 또는 `pages/` 생성물을 손편집하지 않는다. 항상 정본
   export를 입력으로 전체 재생성한다.
 
-## DONE — 코어 내부 순회 살림 + 어쏠로그 표지 발행 (2026-07-27 push 완료)
+## DONE — 가든 증분 미러 + 죽은 page_id 차단 (2026-07-27 push 완료)
 
-- 라이브 **250개**(챕터 표지 6 + 본문 244), 245/245 100% 동기화 확인.
-- 2단계 push 완료: `75af479`(1차) → recover(어쏠로그 표지 page_id **386464**) →
-  `af09168`(2차). `audit --core` 가 `--allow-missing-page-ids` 없이 경고 0으로 통과한다.
-- GLG 가 `wikidocs-user-script.js` 를 위키독스 책 설정에 붙여넣어 반영 확인했다
-  (`CH[0]` = 386464, DOM 폴백 0).
+- 가든 `8fe0ff7a8 → 2af482c98`(수정 103, 신규 주간저널 1). 라이브 **252개**, 247/247 100%.
+- `autholog` 170→172 로 발행면이 244→246 이 됐는데, 새로 들어온 두 노트가 하필 500 컷 때
+  삭제된 페이지였다. mapping 의 옛 page_id 는 죽은 값이었고 링크 20개(13개 파일)가 404 로
+  나갈 뻔했다. `status.py` 의 `미생성` 이 유일한 신호였다.
+- 2단계 push: `3cee8c7`(1차, 죽은 id 를 비운 채) → recover(**387071/387072** 신규 발급 확인,
+  옛 381403/381716 은 부활하지 않음) → `d9e68bc`(2차, 링크 20개 실화).
+- 이전 판: 2단계 push `75af479` → 어쏠로그 표지 page_id **386464** → `af09168`.
+  GLG 가 `wikidocs-user-script.js` 를 책 설정에 붙여넣어 반영 확인(`CH[0]`=386464).
 - GitHub 이슈 #1·#2·#3 전부 CLOSED.
 
 ### 상시 유지 규칙 (이 리포에서 계속 지킬 것)
@@ -33,13 +36,17 @@
 - **파이프라인**: `build --core` → `relink` → `audit --core`. `--garden-links` 는 기본이
   아니라 발행면을 갈아엎을 때만 켜는 안전판이다. build 가 `pages/` 를 rmtree 하므로
   **build 를 돌렸으면 relink 도 반드시 다시 돌린다.**
-- **Verify**: `audit --core` 통과 + `unittest` 72/72 + 같은 명령 두 번 빌드 sha256 diff 0줄
+- **Verify**: `audit --core` 통과 + `unittest` 79/79 + 같은 명령 두 번 빌드 sha256 diff 0줄
   + relink 재실행 시 바뀐 파일 0 + `status.py` 가 발행면 기준 100%/exit 0. push 전에는
   라이브 gid와 새 TOC 를 대조해 생성/삭제 수를 먼저 확인한다.
 - **신규 page_id 가 생기면 2단계 push**: `audit --core --allow-missing-page-ids` → 1차 push
   → status → `recover` → build/relink → `audit --core` → 2차 push. 표지가 새로 생겼다면
   회수한 page_id 로 `wikidocs-user-script.js` 의 `CH` 를 고치고 **위키독스 책 설정에 다시
   붙여넣는다**(웹훅이 안 나르는 파일이다).
+- **어쏠로그 태그를 붙이면 그게 신규 page_id 다.** 새 노트가 없어도 기존 노트가 발행면에
+  들어오면 컷 때 삭제된 페이지라 옛 id 가 죽어 있다. build 의 `[warn] 발행면 신규 진입 N개`
+  가 그 신호이며, 그때는 위 2단계로 간다. push 전 `status.py --list` 의 `미생성` 으로
+  라이브를 한 번 재는 것이 유일한 실측 확인이다.
 - **Read**: SKILL.md의 「실측으로 확정된 불변식」 — 특히 relink 양방향 게이트, 어쏠로그
   0순위 챕터, 사용자 스크립트 항목. `build.py`의 `PUBLISH_LIMIT`/`is_core_member`/
   `link_target`, `relink.py`의 `relink_targets`, `audit.py`의 `user_script_findings`.
@@ -48,6 +55,10 @@
 
 ## RECENT
 
+- [2026-07-27] 삭제된 페이지의 page_id 가 부활하지 않는다는 걸 실측하고, 그 죽은 값이
+  발행면에 되들어올 때 조용히 실리는 경로를 `build.py` 에서 닫았다. 게이트 셋(`link_target`
+  ·`relink`·`audit`)이 전부 TOC 멤버십만 보고 라이브 존재를 안 봐서 아무도 안 울렸다.
+  테스트 72→79.
 - [2026-07-27] 챕터 표지 6개를 AEO 구조로 바꿨다. 폴더 2,239개 항목과 autholog 170개가
   깨끗한 `##` 제목, 작성·수정일·태그, description, 목적지 명시 링크를 가진다. mapping은
   scrub된 description/tags를 cache하고 audit은 exact match + heading 유일성 + 링크 수·순서를

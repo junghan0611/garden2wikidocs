@@ -32,7 +32,8 @@ cross-repo 정책 SSOT는 garden의
                AEO recent-first 집합면. garden frontmatter의 title/description/date/lastmod를
                읽고, 각 본문 페이지에 abstract-first `원본·최신본` block + <!-- gid:ID --> 앵커를 둔다.
                내부 relref 는 가든 절대URL, provenance source URL은 relink에서 보호.
-               기존 mapping의 page_id/url은 동일 Denote ID에 승계한다.
+               기존 mapping의 page_id/url은 동일 Denote ID에 승계하되, 직전 판 TOC 밖이던
+               항목이 발행면에 새로 들어오면 죽은 id라 승계하지 않는다(`[warn] 신규 진입`).
 [2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 및
                collection marker<->standalone 표지 page_id 회수
 [3] relink.py  링크 실화 — 현재 TOC 발행면 페이지 + README 안에서, 가든 URL 중
@@ -76,6 +77,10 @@ relink 도 반드시 다시 돌린다.** audit 은 relink 뒤에 돌려야 발�
 검사한다.
 
 ### 신규 page_id가 있는 갱신
+
+새 노트만이 아니다. **가든에서 기존 노트에 `autholog` 태그를 붙이면 그 노트가 발행면에
+새로 들어오면서 같은 2단계가 필요해진다.** 어쏠로그 회수는 계속 도는 작업이라 이 경우가
+정상 갱신보다 흔하다. build 가 `[warn] 발행면 신규 진입 N개` 를 찍으면 이 절차다.
 
 ```bash
 python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
@@ -125,9 +130,20 @@ python3 -m unittest discover -s tests -q
 - **TOC.md 는 목차가 아니라 발행 목록이다.** TOC 에서 뺀 페이지는 라이브에서 삭제된다.
   2026-07-26 실측: 2,243 → 249 노드, 뺀 페이지 URL 은 404, 복구 경로 없음(TOC 를
   되돌리는 push 도 500 에 다시 막힌다). 리포의 `pages/`·`mapping.json` 은 전량 보존되므로
-  상한이 풀리면 TOC 복원만으로 되돌아간다.
+  상한이 풀리면 TOC 복원으로 **본문은** 되돌아간다. 다만 URL 은 아니다(아래).
 - **살아남은 페이지의 page_id 는 흔들리지 않는다.** 같은 실측에서 생존 244개 전부
   page_id 유지(변경 0). 대량 삭제와 page_id 안정성은 별개다.
+- **삭제된 페이지의 page_id 는 부활하지 않는다.** 2026-07-27 실측: 컷 때 지워진 두 노트가
+  `autholog` 태그로 발행면에 다시 들어오자 위키독스는 옛 381403/381716 이 아니라 새
+  387071/387072 를 발급했다. 그래서 mapping 의 page_id 는 **그 페이지가 직전 판 발행면에
+  있었을 때만** 살아 있다. 이 조건은 조용히 깨진다 — 죽은 id 도 숫자가 멀쩡히 있고 TOC
+  안이라 `link_target`·`relink`·`audit` 이 전부 통과한다. 라이브를 재는 `status.py` 의
+  `미생성` 만이 신호다. 그래서 `build` 가 덮어쓰기 전 `TOC.md` 를 읽어 발행면에 새로
+  들어오는 항목의 page_id 를 승계하지 않고(`[warn] 발행면 신규 진입 N개`), relink 가 가든
+  원본으로 내보내게 한 뒤 push→recover 로 새 id 를 받는다. 직전 판 TOC 가 없으면(첫
+  씨뿌리기·fresh clone) 판정 불가라 종전대로 승계한다. 발행면 **밖**에 머무는 항목의 죽은
+  id 는 그대로 둔다 — 노출 경로가 없고, 2천여 항목을 흔들면 실제 위험 구간이 diff 에 묻힌다.
+  가든에서 기존 노트에 `autholog` 를 붙이는 것만으로 이 경로를 타므로 드문 일이 아니다.
 - **위키독스 URL 은 발행된 페이지에만 유효하다.** mapping 에 page_id 가 남아 있어도 TOC
   밖이면 404 다. `build --garden-links`(표지·집합면)와 `relink` 의 TOC 게이트가 이 규칙을
   강제하고, `audit` 이 발행면 밖 page_id 참조를 오류로 잡는다. 저자가 본문에 직접 쓴 외부

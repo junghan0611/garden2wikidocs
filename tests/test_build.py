@@ -621,6 +621,133 @@ class PublishGateTests(unittest.TestCase):
         self.assertIn("미러링한 책입니다", BUILD.readme_meta_block())
 
 
+class PublishSurfaceEntryTests(unittest.TestCase):
+    """발행면에 새로 들어오는 페이지는 승계한 page_id 가 죽은 값이다.
+
+    2026-07-27 실측: 500 상한 컷 때 지워졌던 두 노트가 어쏠로그 태그로 발행면에 다시
+    들어오자 위키독스는 옛 381403/381716 이 아니라 새 387071/387072 를 발급했다. 삭제된
+    페이지의 id 는 부활하지 않는다.
+    """
+
+    PREVIOUS_TOC = (
+        "# 목차\n\n"
+        "- [0 어쏠로그](pages/autholog/_chapter.md)\n"
+        "- [1 저널](pages/journal/_chapter.md)\n"
+        "  - [20240101 저널 제목](pages/journal/20240101T000000.md)\n"
+    )
+
+    def test_previous_publish_surface_reads_toc_targets(self):
+        with tempfile.TemporaryDirectory() as td:
+            toc = Path(td) / "TOC.md"
+            toc.write_text(self.PREVIOUS_TOC, encoding="utf-8")
+            self.assertEqual(BUILD.previous_publish_surface(toc), {
+                "pages/autholog/_chapter.md",
+                "pages/journal/_chapter.md",
+                "pages/journal/20240101T000000.md",
+            })
+
+    def test_missing_or_empty_toc_disables_the_rule(self):
+        """직전 판을 모르면 승계를 끄지 않는다 — 첫 씨뿌리기가 전량을 날리면 안 된다."""
+        with tempfile.TemporaryDirectory() as td:
+            absent = Path(td) / "TOC.md"
+            self.assertIsNone(BUILD.previous_publish_surface(absent))
+            absent.write_text("# 목차\n", encoding="utf-8")
+            self.assertIsNone(BUILD.previous_publish_surface(absent))
+
+    def test_entering_the_publish_surface_withholds_the_stale_id(self):
+        entry, previous = {}, {"page_id": 381403, "url": "https://wikidocs.net/381403"}
+        withheld = BUILD.inherit_remote_id(
+            entry, previous, "pages/notes/20241206T085900.md", {"pages/botlog/x.md"})
+        self.assertTrue(withheld)
+        self.assertNotIn("page_id", entry)
+
+    def test_page_already_published_keeps_its_id(self):
+        entry, path = {}, "pages/notes/20241206T085900.md"
+        self.assertFalse(BUILD.inherit_remote_id(
+            entry, {"page_id": 387071}, path, {path}))
+        self.assertEqual(entry["page_id"], 387071)
+
+    def test_page_staying_outside_the_surface_is_left_alone(self):
+        """TOC 밖 id 도 죽은 값이지만 노출 경로가 없다. 흔들면 실제 위험이 diff 에 묻힌다."""
+        entry = {}
+        self.assertFalse(BUILD.inherit_remote_id(
+            entry, {"page_id": 222}, "pages/journal/x.md", set(), publishing=False))
+        self.assertEqual(entry["page_id"], 222)
+
+    def test_unknown_previous_surface_carries_the_id(self):
+        entry = {}
+        self.assertFalse(BUILD.inherit_remote_id(
+            entry, {"page_id": 222}, "pages/notes/x.md", None))
+        self.assertEqual(entry["page_id"], 222)
+
+    def test_build_withholds_then_recovers_an_id_across_the_two_push_stages(self):
+        with tempfile.TemporaryDirectory() as td:
+            base = Path(td)
+            garden, out = base / "garden", base / "out"
+            (garden / "content").mkdir(parents=True)
+            out.mkdir()
+            (out / "README.md").write_text("placeholder\n", encoding="utf-8")
+
+            fixtures = {
+                "journal": ("20240101T000000", ""),                    # 코어 밖
+                "notes": ("20240301T000000", 'tags: ["autholog"]\n'),  # 이번에 진입
+            }
+            for folder, (did, tags) in fixtures.items():
+                (garden / "content" / folder).mkdir()
+                (garden / "content" / folder / f"{did}.md").write_text(
+                    f'---\ntitle: "{folder} 제목"\ndescription: "설명"\n'
+                    f"date: {did[:4]}-{did[4:6]}-{did[6:8]}T00:00:00+09:00\n"
+                    f"{tags}---\n\n본문\n",
+                    encoding="utf-8",
+                )
+            (garden / "content/index.md").write_text(
+                '---\ntitle: "대문"\n---\n\n본문\n', encoding="utf-8")
+            (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
+            init_git_repo(garden)
+
+            # 직전 판: notes 는 발행면 밖이었고, mapping 에는 컷 이전 page_id 가 남아 있다.
+            (out / "TOC.md").write_text(self.PREVIOUS_TOC, encoding="utf-8")
+            (out / "mapping.json").write_text(json.dumps({
+                "20240301T000000": {"page_id": 381403,
+                                    "url": "https://wikidocs.net/381403"},
+                "20240101T000000": {"page_id": 222, "url": "https://wikidocs.net/222"},
+                "_chapters": {"notes": {"page_id": 333,
+                                        "url": "https://wikidocs.net/333"}},
+            }, ensure_ascii=False), encoding="utf-8")
+
+            def build():
+                return subprocess.run(
+                    [sys.executable, str(BUILD_PATH), "--folders", "journal,notes",
+                     "--garden", str(garden), "--out", str(out), "--core"],
+                    check=True, capture_output=True, text=True,
+                ).stdout
+
+            # 1차: 진입한 노트와 그 챕터 표지 둘 다 죽은 id 를 승계하지 않는다.
+            self.assertIn("발행면 신규 진입 2개", build())
+            mapping = json.loads((out / "mapping.json").read_text(encoding="utf-8"))
+            self.assertNotIn("page_id", mapping["20240301T000000"])
+            self.assertNotIn("notes", mapping["_chapters"])
+            # 발행면 밖에 머무는 저널은 건드리지 않는다.
+            self.assertEqual(mapping["20240101T000000"]["page_id"], 222)
+            # 그래서 집합 표지 링크가 404 대신 가든 원본으로 나간다.
+            collection = (out / "pages/autholog/_chapter.md").read_text(encoding="utf-8")
+            self.assertIn("https://notes.junghanacs.com/notes/20240301T000000/", collection)
+            self.assertNotIn("wikidocs.net/381403", collection)
+
+            # push 후 recover 가 새로 발급된 id 를 채운 상태.
+            mapping["20240301T000000"]["page_id"] = 387071
+            mapping["20240301T000000"]["url"] = "https://wikidocs.net/387071"
+            (out / "mapping.json").write_text(json.dumps(mapping, ensure_ascii=False),
+                                              encoding="utf-8")
+
+            # 2차: 이제 직전 판 TOC 안이라 승계하고 링크가 실화된다.
+            self.assertNotIn("발행면 신규 진입", build())
+            mapping = json.loads((out / "mapping.json").read_text(encoding="utf-8"))
+            self.assertEqual(mapping["20240301T000000"]["page_id"], 387071)
+            collection = (out / "pages/autholog/_chapter.md").read_text(encoding="utf-8")
+            self.assertIn("https://wikidocs.net/387071", collection)
+
+
 class CoreBuildIntegrationTests(unittest.TestCase):
     def test_core_publishes_only_core_but_keeps_every_page_on_disk(self):
         with tempfile.TemporaryDirectory() as td:

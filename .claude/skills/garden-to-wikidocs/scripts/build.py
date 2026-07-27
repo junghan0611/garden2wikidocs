@@ -102,6 +102,46 @@ def is_core_member(folder: str, tags, core: bool) -> bool:
     """발행 코어 판정. 예산 사전검사와 TOC 생성이 같은 규칙을 쓰도록 한 곳에 둔다."""
     return not core or CORE_TAG in tags or folder in CORE_FOLDERS
 
+
+# 직전 판 TOC 의 링크 대상. 이번 build 가 덮어쓰기 전에 읽어 "발행면에 새로 들어오는
+# 페이지"를 가른다. 삭제된 페이지의 page_id 는 되살아나지 않는다 — 2026-07-27 실측:
+# 상한 컷 때 지워졌던 두 노트가 발행면에 다시 들어오자 위키독스는 옛 381403/381716 이
+# 아니라 새 387071/387072 를 발급했다.
+TOC_TARGET = re.compile(r"^\s*- \[[^\]]*\]\((pages/[^)]+)\)\s*$", re.M)
+
+
+def previous_publish_surface(toc_path: Path):
+    """직전 판 발행 경로 집합. TOC 가 없거나 비면 None = 판정 불가라 규칙을 끈다.
+
+    첫 씨뿌리기와 fresh clone 에는 직전 판이 없다. 그때 빈 집합으로 다루면 전량이
+    "신규 진입"이 되어 승계를 통째로 날리므로, 모르면 종전대로 승계한다.
+    """
+    if not toc_path.exists():
+        return None
+    return set(TOC_TARGET.findall(toc_path.read_text(encoding="utf-8"))) or None
+
+
+def inherit_remote_id(entry: dict, previous: dict, page_rel: str, live_paths,
+                      publishing: bool = True) -> bool:
+    """page_id 를 승계하되 발행면 신규 진입이면 보류한다. 보류했으면 True.
+
+    발행면에 새로 들어오는 페이지는 라이브에 없으니 mapping 의 page_id 가 죽은 값이다.
+    그대로 승계하면 relink 가 404 URL 을 심는데 어떤 게이트도 울리지 않는다 — page_id 가
+    있고 TOC 안이라 link_target 도 relink 도 audit 도 통과한다. 여기서 비워야 relink 가
+    가든 원본으로 내보내고, push 후 recover 가 새로 발급된 id 를 채운다.
+
+    발행면 밖에 머무는 페이지의 page_id 도 컷 이후로는 죽은 값이지만 그대로 둔다. TOC
+    게이트가 그 URL 을 어디에도 내보내지 않아 노출 경로가 없고, 언젠가 발행면에 들어올
+    때 이 규칙이 그 자리에서 잡는다. 죽었다고 지금 전량을 비우면 2천여 항목이 흔들려
+    실제 위험 구간이 diff 에 묻힌다.
+    """
+    if publishing and live_paths is not None and page_rel not in live_paths:
+        return bool(previous.get("page_id"))
+    for key in ("page_id", "url"):
+        if previous.get(key):
+            entry[key] = previous[key]
+    return False
+
 # ---------------------------------------------------------------- 제목/식별자
 
 SIGILS = "#@§¤†‡©※¶‣∷"
@@ -776,6 +816,10 @@ def main():
     if mapping_path.exists():
         previous_mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
 
+    # 승계 판정 기준. TOC 를 덮어쓰기 전에 직전 판 발행면을 읽어둔다.
+    live_paths = previous_publish_surface(out / "TOC.md")
+    withheld = 0
+
     # 입력을 먼저 다 읽어 발행 규모를 확정한다(가든 5폴더 28MB 수준). 상한을 넘기면
     # 생성물은 하나도 건드리지 않고 실패한다 — 웹훅이 거부할 TOC 는 만들지 않는다.
     folder_sources = {}
@@ -848,7 +892,8 @@ def main():
 
             page_rel = f"pages/{folder}/{did}.md"
             (out / page_rel).write_text(content, encoding="utf-8")
-            if is_core_member(folder, source["tags"], args.core):
+            publishing = is_core_member(folder, source["tags"], args.core)
+            if publishing:
                 toc.append(f"  - [{subject}]({page_rel})")
                 published.add(page_rel)
             entry = {
@@ -860,10 +905,8 @@ def main():
                 "source_lastmod": source["lastmod"],
                 **public_index_metadata(source, scrub_rules),
             }
-            previous = previous_mapping.get(did, {})
-            for key in ("page_id", "url"):
-                if previous.get(key):
-                    entry[key] = previous[key]
+            withheld += inherit_remote_id(
+                entry, previous_mapping.get(did, {}), page_rel, live_paths, publishing)
             mapping[did] = entry
             chapter_entries.append((public_index_title(source, scrub_rules), entry))
             for tag in collection_sources:
@@ -894,21 +937,22 @@ def main():
     previous_chapters = previous_mapping.get("_chapters", {})
     chapters = {}
     for folder in folders:
-        previous = previous_chapters.get(folder, {})
-        if previous.get("page_id"):
+        carried = {}
+        withheld += inherit_remote_id(carried, previous_chapters.get(folder, {}),
+                                      f"pages/{folder}/_chapter.md", live_paths)
+        if carried.get("page_id"):
             chapters[folder] = {
-                "page_id": previous["page_id"],
+                "page_id": carried["page_id"],
                 "subject": CHAPTER_NAMES.get(folder, folder),
-                "url": previous.get("url") or f"https://wikidocs.net/{previous['page_id']}",
+                "url": carried.get("url") or f"https://wikidocs.net/{carried['page_id']}",
             }
     for tag, spec in COLLECTIONS.items():
-        previous = previous_chapters.get(tag, {})
         entry = {"subject": spec["subject"], "path": spec["path"],
                  "source_url": spec["source_url"]}
-        if previous.get("page_id"):
-            entry["page_id"] = previous["page_id"]
-            entry["url"] = previous.get("url") or \
-                f"https://wikidocs.net/{previous['page_id']}"
+        withheld += inherit_remote_id(entry, previous_chapters.get(tag, {}),
+                                      spec["path"], live_paths)
+        if entry.get("page_id") and not entry.get("url"):
+            entry["url"] = f"https://wikidocs.net/{entry['page_id']}"
         chapters[tag] = entry
     mapping["_chapters"] = chapters
 
@@ -957,6 +1001,9 @@ def main():
     print(f"[ok] collect  : {collection_counts}")
     print(f"[ok] assets   : {len(copied)}개")
     print(f"[ok] mapping  : mapping.json ({page_count} entries, page_id 승계 {carried_ids}개)")
+    if withheld:
+        print(f"[warn] 발행면 신규 진입 {withheld}개: 직전 판 TOC 밖이라 죽은 page_id 를 "
+              f"승계하지 않았다. push 후 recover 로 새 id 를 회수한다.")
     print(f"[ok] manifest : {MANIFEST_NAME} ({manifest['source_commit']}, sha256 {manifest_sha})")
 
 

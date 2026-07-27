@@ -846,6 +846,34 @@ class PublishSurfaceEntryTests(unittest.TestCase):
             self.assertNotEqual(empty.returncode, 0)
             self.assertIn("등록 페이지 0개", empty.stderr)
 
+    def test_skipped_empty_folder_is_not_counted_as_pending_recovery(self):
+        """노트 없는 폴더는 표지를 발행하지 않으므로 회수 대상도 아니다."""
+        with tempfile.TemporaryDirectory() as td:
+            base = Path(td)
+            garden, out = base / "garden", base / "out"
+            (garden / "content/journal").mkdir(parents=True)   # 비어 있음 → 건너뜀
+            (garden / "content/botlog").mkdir(parents=True)
+            out.mkdir()
+            (out / "README.md").write_text("placeholder\n", encoding="utf-8")
+            (garden / "content/botlog/20240401T000000.md").write_text(
+                '---\ntitle: "봇로그 제목"\ndescription: "설명"\n'
+                "date: 2024-04-01T00:00:00+09:00\n---\n\n본문\n", encoding="utf-8")
+            (garden / "content/index.md").write_text(
+                '---\ntitle: "대문"\n---\n\n본문\n', encoding="utf-8")
+            (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
+            init_git_repo(garden)
+
+            stdout = subprocess.run(
+                [sys.executable, str(BUILD_PATH), "--folders", "journal,botlog",
+                 "--garden", str(garden), "--out", str(out), "--core"],
+                check=True, capture_output=True, text=True,
+            ).stdout
+            self.assertIn("노트 없음, 건너뜀", stdout)
+            # 봇로그 페이지 + 봇로그 표지 + 어쏠로그 집합 = 3. 저널 표지는 발행 안 됐다.
+            self.assertIn("발행면 page_id 미회수 3개", stdout)
+            self.assertNotIn("pages/journal/_chapter.md",
+                             (out / "TOC.md").read_text(encoding="utf-8"))
+
     def test_pure_bootstrap_without_recovered_ids_still_builds(self):
         """회수 이력이 없으면 비울 id 도 없다 — 첫 씨뿌리기는 그대로 통과시킨다."""
         with tempfile.TemporaryDirectory() as td:

@@ -12,7 +12,7 @@
 - **Next**: GLG 타이밍에 push. **콘텐츠 변경이 아니라 스킬 수선 커밋이므로 push 하면 웹훅
   전체 재동기화가 돈다** — 다음 가든 export 와 묶어 한 번에 내보내는 편이 싸다.
 - **Blocker**: 없음.
-- **Verify**: `audit --core` 경고 0, unittest 83/83, build→relink 후 생성물 diff 0줄
+- **Verify**: `audit --core` 경고 0, unittest 84/84, build→relink 후 생성물 diff 0줄
   (스킬/테스트 파일만 변경), 라이브 247/247 100%.
 - **Read**: SKILL.md 「삭제된 페이지의 page_id 는 부활하지 않는다」 + 그 뒤 두 불변식
   (fail-closed 경계, warning 두 층), `build.py` 의 `previous_publish_surface`/
@@ -37,7 +37,7 @@
 - **파이프라인**: `build --core` → `relink` → `audit --core`. `--garden-links` 는 기본이
   아니라 발행면을 갈아엎을 때만 켜는 안전판이다. build 가 `pages/` 를 rmtree 하므로
   **build 를 돌렸으면 relink 도 반드시 다시 돌린다.**
-- **Verify**: `audit --core` 통과 + `unittest` 83/83 + 같은 명령 두 번 빌드 sha256 diff 0줄
+- **Verify**: `audit --core` 통과 + `unittest` 84/84 + 같은 명령 두 번 빌드 sha256 diff 0줄
   + relink 재실행 시 바뀐 파일 0 + `status.py` 가 발행면 기준 100%/exit 0. push 전에는
   라이브 gid와 새 TOC 를 대조해 생성/삭제 수를 먼저 확인한다.
 - **신규 page_id 가 생기면 2단계 push**: `audit --core --allow-missing-page-ids` → 1차 push
@@ -63,7 +63,7 @@
   지피티 교차검수에서 2건을 더 잡았다 — 내 fresh-clone 가드가 "TOC 없음"과 "TOC 손상"을
   뭉개 정작 위험한 상태에서 fail-open 했고(회수 이력 있으면 abort 로 정정), warning 이
   죽은 id 를 비운 항목만 세서 처음 올라가는 페이지를 놓쳤다(미회수/보류 두 층으로 분리).
-  테스트 72→83.
+  테스트 72→84.
 - [2026-07-27] 챕터 표지 6개를 AEO 구조로 바꿨다. 폴더 2,239개 항목과 autholog 170개가
   깨끗한 `##` 제목, 작성·수정일·태그, description, 목적지 명시 링크를 가진다. mapping은
   scrub된 description/tags를 cache하고 audit은 exact match + heading 유일성 + 링크 수·순서를

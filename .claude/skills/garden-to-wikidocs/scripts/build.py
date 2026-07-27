@@ -1029,7 +1029,8 @@ def main():
         1 for key, entry in mapping.items()
         if key != "_chapters" and entry["path"] in published and not entry.get("page_id")
     ) + sum(
-        1 for folder in folders if folder not in chapters
+        # 표지를 실제로 발행한 폴더만 센다. 노트 없는 폴더는 건너뛰어 TOC 에 없다.
+        1 for folder in folder_sources if folder not in chapters
     ) + sum(
         1 for tag in COLLECTIONS if not chapters[tag].get("page_id")
     )

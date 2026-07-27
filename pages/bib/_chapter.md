@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite
+
+작성 2024-03-26 · 수정 2026-07-27 · 태그 bib, digitalgarden, indieweb, inquiry, now, person, philosophy, preservation, questions
+
+데릭 시버스의 세 책과 2026년 KeepSite Foundation 구상을 함께 읽는다. ‘Hell Yeah or No’의 선택, 상충하는 삶의 철학, /now의 현재성, 원래 URL의 장기 보존이 개인 웹사이트를 삶의 좌표로 만드는 방식을 잇는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240326T223142/)
+
 ## 샘올트먼 SamAltman OpenAI ChatGPT 회사·인물·API
 
 작성 2025-03-12 · 수정 2026-07-25 · 태그 ai, bib, chatgpt, company, openai, person
@@ -3167,14 +3175,6 @@ clj-tiles는 클로저 기반 시각 도구로 수학·과학·코딩을 손으�
 배수아는 소설과 번역을 통해 헤세·발저·막스 피카르트 같은 작가들의 고독, 산책, 언어 감각을 한국어로 잇는 작가다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250222T183157/)
-
-## 데릭시버스 삶철학 마인드셋 탐구 질문
-
-작성 2024-03-26 · 수정 2025-04-06 · 태그 bib, inquiry
-
-데릭 시버스는 질문과 선택의 기준을 단순하게 세워, 자기 삶을 스스로 설계하는 태도를 일깨운다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240326T223142/)
 
 ## 루이스모네다 luismoneda lgmoneda 이맥스 시맨틱검색
 

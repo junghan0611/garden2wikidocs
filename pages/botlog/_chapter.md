@@ -2,6 +2,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣맨: 세계관 비주얼 컨셉 펭귄 캐릭터 시트
+
+작성 2026-03-27 · 수정 2026-07-27 · 태그 botlog, worldbuilding
+
+힣맨 세계관을 펭귄 캐릭터와 장면 프롬프트로 구체화하며, 이미지 생성 워크플로우까지 재현 가능하게 남긴다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382582)
+
+## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
+
+작성 2026-03-19 · 수정 2026-07-27 · 태그 botlog, embedding, heidegger, memory, naming, semantic
+
+andenken 담당자가 세션과 공개 가든의 임베딩 기억축을 맡고, 하네스의 세션 재개·호출 전달과 분리하는 현재 경계를 기록한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382576)
+
 ## agent-config: 스킬 SSOT와 시험소 멀티하네스 이후
 
 작성 2026-03-12 · 수정 2026-07-27 · 태그 agent, botlog, entwurf, harness, skill
@@ -108,7 +124,7 @@ GitHub 프로필과 영문 이력서를 하나의 SSOT 문서로 정리하며, �
 
 ## entwurf: 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)
 
-작성 2026-05-20 · 수정 2026-06-29 · 태그 agent, botlog, harness, packages
+작성 2026-05-20 · 수정 2026-06-29 · 태그 agent, botlog, harness, history, packages
 
 @junghanacs/pi-shell-acp 공개를 계기로, pi를 재현 가능한 에이전트 하네스로 세우는 설계 의도와 2026-02~05 담금질 연대기를 함께 기록한다.
 
@@ -314,14 +330,6 @@ Search Console의 query→page 데이터를 읽어, 검색유입을 단발성 SE
 
 [위키독스에서 읽기 →](https://wikidocs.net/382600)
 
-## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
-
-작성 2026-03-19 · 수정 2026-05-07 · 태그 botlog, embedding, heidegger, memory, naming, semantic
-
-semantic-memory라는 이름을 넘어, 뜻새김으로서의 Andenken이 왜 필요한지 철학과 구현의 양쪽에서 풀어낸다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382576)
-
 ## org 존재 원본 공개 프로토콜 - 데이터를 옮기기 전에 기록으로 하네스를 채워라
 
 작성 2026-04-19 · 수정 2026-05-03 · 태그 agent, aprj, botlog, harness, memory, migration
@@ -505,14 +513,6 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 돌도끼에서 AI까지, 도구와 존재의 접합부를 하네싱이라는 렌즈로 읽는다. 오케스트레이션이 아닌 하네싱이 AI 시대 핵심 엔지니어링이라는 테제.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382577)
-
-## 힣맨: 세계관 비주얼 컨셉 펭귄 캐릭터 시트
-
-작성 2026-03-27 · 수정 2026-03-27 · 태그 botlog, worldbuilding
-
-힣맨 세계관을 펭귄 캐릭터와 장면 프롬프트로 구체화하며, 이미지 생성 워크플로우까지 재현 가능하게 남긴다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382582)
 
 ## geworfen: 게보르펜 존재-데이터-뷰어: WebTUI SF 터미널 어젠다
 

@@ -10916,6 +10916,28 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240326T223142": {
+    "path": "pages/bib/20240326T223142.md",
+    "subject": "20260727 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240326T223142/",
+    "source_date": "2024-03-26T22:31:00+09:00",
+    "source_lastmod": "2026-07-27T13:14:00+09:00",
+    "description": "데릭 시버스의 세 책과 2026년 KeepSite Foundation 구상을 함께 읽는다. ‘Hell Yeah or No’의 선택, 상충하는 삶의 철학, /now의 현재성, 원래 URL의 장기 보존이 개인 웹사이트를 삶의 좌표로 만드는 방식을 잇는다.",
+    "tags": [
+      "bib",
+      "digitalgarden",
+      "indieweb",
+      "inquiry",
+      "now",
+      "person",
+      "philosophy",
+      "preservation",
+      "questions"
+    ],
+    "page_id": 381910,
+    "url": "https://wikidocs.net/381910"
+  },
   "20250312T111024": {
     "path": "pages/bib/20250312T111024.md",
     "subject": "20260725 샘올트먼 SamAltman OpenAI ChatGPT 회사·인물·API",
@@ -17775,21 +17797,6 @@
     "page_id": 382288,
     "url": "https://wikidocs.net/382288"
   },
-  "20240326T223142": {
-    "path": "pages/bib/20240326T223142.md",
-    "subject": "20250406 데릭시버스 삶철학 마인드셋 탐구 질문",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240326T223142/",
-    "source_date": "2024-03-26T22:31:00+09:00",
-    "source_lastmod": "2025-04-06T00:00:00+09:00",
-    "description": "데릭 시버스는 질문과 선택의 기준을 단순하게 세워, 자기 삶을 스스로 설계하는 태도를 일깨운다.",
-    "tags": [
-      "bib",
-      "inquiry"
-    ],
-    "page_id": 381910,
-    "url": "https://wikidocs.net/381910"
-  },
   "20230710T064200": {
     "path": "pages/bib/20230710T064200.md",
     "subject": "20250406 루이스모네다 luismoneda lgmoneda 이맥스 시맨틱검색",
@@ -22285,6 +22292,42 @@
     "page_id": 381893,
     "url": "https://wikidocs.net/381893"
   },
+  "20250428T155929": {
+    "path": "pages/notes/20250428T155929.md",
+    "subject": "20260727 힣: 탐구의 이름 연구가 아닌 물음과 탐험",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250428T155929/",
+    "source_date": "2025-04-28T15:59:00+09:00",
+    "source_lastmod": "2026-07-27T15:12:00+09:00",
+    "description": "힣이 지금 하는 일을 연구·논문의 문법이 아닌 물음·탐구·탐험의 길로 다시 이름 붙인 어쏠로그. 질문·조사·내면 탐구·요청과의 관계를 가르고, PKM-AI 하네스와 1KB 공개키의 두 트랙을 같은 탐구의 서로 다른 자리로 잇는다.",
+    "tags": [
+      "autholog",
+      "comparison",
+      "concepts",
+      "exploration",
+      "inquiry",
+      "questions"
+    ]
+  },
+  "20230706T160800": {
+    "path": "pages/notes/20230706T160800.md",
+    "subject": "20260727 힣: 생생날것 500개 문턱 디지털가든 코어는 시간축의 판본이다",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230706T160800/",
+    "source_date": "2023-07-06T16:08:00+09:00",
+    "source_lastmod": "2026-07-27T14:06:00+09:00",
+    "description": "위키독스의 500개 제한에서 출발해 디지털가든 코어를 한정된 문서 목록이 아니라, 지금 불러낼 수 있는 인물과 메타어휘와 삶의 시간축이 만드는 현재 판본으로 읽는다.",
+    "tags": [
+      "autholog",
+      "digitalgarden",
+      "pkm",
+      "publishing",
+      "rawwriting",
+      "timeline"
+    ],
+    "page_id": 381079,
+    "url": "https://wikidocs.net/381079"
+  },
   "20241019T193836": {
     "path": "pages/notes/20241019T193836.md",
     "subject": "20260727 힣: 메모리 대란과 임베디드 개발 투명한 경계",
@@ -22399,25 +22442,6 @@
     ],
     "page_id": 381435,
     "url": "https://wikidocs.net/381435"
-  },
-  "20230706T160800": {
-    "path": "pages/notes/20230706T160800.md",
-    "subject": "20260726 힣: 생생날것 500개 문턱 디지털가든 코어는 시간축의 판본이다",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230706T160800/",
-    "source_date": "2023-07-06T16:08:00+09:00",
-    "source_lastmod": "2026-07-26T12:45:00+09:00",
-    "description": "위키독스의 500개 제한에서 출발해 디지털가든 코어를 한정된 문서 목록이 아니라, 지금 불러낼 수 있는 인물과 메타어휘와 삶의 시간축이 만드는 현재 판본으로 읽는다.",
-    "tags": [
-      "autholog",
-      "digitalgarden",
-      "pkm",
-      "publishing",
-      "rawwriting",
-      "timeline"
-    ],
-    "page_id": 381079,
-    "url": "https://wikidocs.net/381079"
   },
   "20250224T210015": {
     "path": "pages/notes/20250224T210015.md",
@@ -28481,23 +28505,6 @@
     ],
     "page_id": 381268,
     "url": "https://wikidocs.net/381268"
-  },
-  "20250428T155929": {
-    "path": "pages/notes/20250428T155929.md",
-    "subject": "20250428 개념: 물음 질문 탐구 문의 질의 요구 요청 조사",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250428T155929/",
-    "source_date": "2025-04-28T15:59:00+09:00",
-    "source_lastmod": "2025-04-28T15:59:00+09:00",
-    "description": "물음과 질문, 탐구, 문의, 질의 같은 단어 차이를 개념적으로 정리한 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "questions",
-      "inquiry",
-      "comparison",
-      "concepts"
-    ],
-    "page_id": 381698,
-    "url": "https://wikidocs.net/381698"
   },
   "20250428T150343": {
     "path": "pages/notes/20250428T150343.md",
@@ -35985,6 +35992,40 @@
     "page_id": 381024,
     "url": "https://wikidocs.net/381024"
   },
+  "20260327T100239": {
+    "path": "pages/botlog/20260327T100239.md",
+    "subject": "20260727 힣맨: 세계관 비주얼 컨셉 펭귄 캐릭터 시트",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260327T100239/",
+    "source_date": "2026-03-27T10:02:00+09:00",
+    "source_lastmod": "2026-07-27T15:05:00+09:00",
+    "description": "힣맨 세계관을 펭귄 캐릭터와 장면 프롬프트로 구체화하며, 이미지 생성 워크플로우까지 재현 가능하게 남긴다.",
+    "tags": [
+      "botlog",
+      "worldbuilding"
+    ],
+    "page_id": 382582,
+    "url": "https://wikidocs.net/382582"
+  },
+  "20260319T110800": {
+    "path": "pages/botlog/20260319T110800.md",
+    "subject": "20260727 andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
+    "source_date": "2026-03-19T11:08:00+09:00",
+    "source_lastmod": "2026-07-27T13:21:00+09:00",
+    "description": "andenken 담당자가 세션과 공개 가든의 임베딩 기억축을 맡고, 하네스의 세션 재개·호출 전달과 분리하는 현재 경계를 기록한다.",
+    "tags": [
+      "botlog",
+      "embedding",
+      "heidegger",
+      "memory",
+      "naming",
+      "semantic"
+    ],
+    "page_id": 382576,
+    "url": "https://wikidocs.net/382576"
+  },
   "20260312T174622": {
     "path": "pages/botlog/20260312T174622.md",
     "subject": "20260727 agent-config: 스킬 SSOT와 시험소 멀티하네스 이후",
@@ -36245,6 +36286,7 @@
       "agent",
       "botlog",
       "harness",
+      "history",
       "packages"
     ],
     "page_id": 382607,
@@ -36692,25 +36734,6 @@
     "page_id": 382600,
     "url": "https://wikidocs.net/382600"
   },
-  "20260319T110800": {
-    "path": "pages/botlog/20260319T110800.md",
-    "subject": "20260507 andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
-    "source_date": "2026-03-19T11:08:00+09:00",
-    "source_lastmod": "2026-05-07T17:20:00+09:00",
-    "description": "semantic-memory라는 이름을 넘어, 뜻새김으로서의 Andenken이 왜 필요한지 철학과 구현의 양쪽에서 풀어낸다.",
-    "tags": [
-      "botlog",
-      "embedding",
-      "heidegger",
-      "memory",
-      "naming",
-      "semantic"
-    ],
-    "page_id": 382576,
-    "url": "https://wikidocs.net/382576"
-  },
   "20260419T143351": {
     "path": "pages/botlog/20260419T143351.md",
     "subject": "20260503 org 존재 원본 공개 프로토콜 - 데이터를 옮기기 전에 기록으로 하네스를 채워라",
@@ -37149,21 +37172,6 @@
     ],
     "page_id": 382577,
     "url": "https://wikidocs.net/382577"
-  },
-  "20260327T100239": {
-    "path": "pages/botlog/20260327T100239.md",
-    "subject": "20260327 힣맨: 세계관 비주얼 컨셉 펭귄 캐릭터 시트",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260327T100239/",
-    "source_date": "2026-03-27T10:02:00+09:00",
-    "source_lastmod": "2026-03-27T17:46:00+09:00",
-    "description": "힣맨 세계관을 펭귄 캐릭터와 장면 프롬프트로 구체화하며, 이미지 생성 워크플로우까지 재현 가능하게 남긴다.",
-    "tags": [
-      "botlog",
-      "worldbuilding"
-    ],
-    "page_id": 382582,
-    "url": "https://wikidocs.net/382582"
   },
   "20260310T140114": {
     "path": "pages/botlog/20260310T140114.md",

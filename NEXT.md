@@ -3,17 +3,18 @@
 메커니즘·불변식 SSOT는 `.claude/skills/garden-to-wikidocs/SKILL.md`.
 정본/미러 정책은 garden `docs/WIKIDOCS_MIRROR.md`.
 
-## NOW — 발행면 신규 진입 자동 처리 (커밋 완료, push 대기)
+## NOW — 가든 7846623 증분 2단계 push (1차 완료, 회수 대기)
 
-- **Current**: 죽은 page_id 승계를 `build.py` 에서 막았다. 덮어쓰기 전 `TOC.md` 를 읽어
-  발행면에 새로 들어오는 항목의 page_id 를 승계하지 않는다. 발행면 밖에 머무는 항목은
-  건드리지 않는다. 회수 이력이 있는데 직전 판 TOC 를 못 읽으면 생성물을 쓰기 전에 멈춘다
-  (fail-closed). 생성물은 바이트 동일(no-op)이다.
-- **Next**: GLG 타이밍에 push. **콘텐츠 변경이 아니라 스킬 수선 커밋이므로 push 하면 웹훅
-  전체 재동기화가 돈다** — 다음 가든 export 와 묶어 한 번에 내보내는 편이 싸다.
+- **Current**: 가든 `2af482c98 → 7846623fa`(수정 70, 신규·삭제 0). `autholog` 172→173 으로
+  발행면이 246→247 이 됐다. 새로 들어온 `notes/20250428T155929`(탐구의 이름)은 500 컷 때
+  삭제된 페이지라 mapping 의 `381698` 이 죽은 값이었고, 어제 심은 가드가 첫 실전에서
+  승계를 막았다(`[warn] 미회수 1개 / 그중 1개 신규 진입`). 1차 push 완료.
+- **Next**: `status.py --list` 로 생성 확인 → `recover --book-id 20676` 으로 새 page_id 회수
+  → `build --core` → `relink` → `audit --core`(무옵션) → 테스트 → 2차 push →
+  `status.py --list` pending 0.
 - **Blocker**: 없음.
-- **Verify**: `audit --core` 경고 0, unittest 84/84, build→relink 후 생성물 diff 0줄
-  (스킬/테스트 파일만 변경), 라이브 247/247 100%.
+- **Verify**: 2차 push 후 `audit --core` 경고 0, unittest 84/84, 라이브 253 노드 247/247 100%,
+  `20250428T155929` 에 새 page_id 가 붙고 옛 `381698` 참조 0.
 - **Read**: SKILL.md 「삭제된 페이지의 page_id 는 부활하지 않는다」 + 그 뒤 두 불변식
   (fail-closed 경계, warning 두 층), `build.py` 의 `previous_publish_surface`/
   `has_recovered_ids`/`inherit_remote_id`.

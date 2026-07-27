@@ -421,6 +421,14 @@ class BuildIntegrationTests(unittest.TestCase):
             (out / "mapping.json").write_text(
                 json.dumps(previous, ensure_ascii=False), encoding="utf-8"
             )
+            # 회수한 id 가 있으면 직전 판 발행면도 있어야 한다(없으면 build 가 멈춘다).
+            (out / "TOC.md").write_text("# 목차\n\n"
+                                        "- [0 어쏠로그](pages/autholog/_chapter.md)\n"
+                                        + "".join(
+                f"- [{folder}](pages/{folder}/_chapter.md)\n"
+                f"  - [stale](pages/{folder}/{did}.md)\n"
+                for folder, (did, _) in fixtures.items()
+            ), encoding="utf-8")
             (garden / "content/index.md").write_text(
                 '---\ntitle: "§가든 — 대문"\n---\n\n대문\n', encoding="utf-8"
             )
@@ -646,13 +654,19 @@ class PublishSurfaceEntryTests(unittest.TestCase):
                 "pages/journal/20240101T000000.md",
             })
 
-    def test_missing_or_empty_toc_disables_the_rule(self):
-        """직전 판을 모르면 승계를 끄지 않는다 — 첫 씨뿌리기가 전량을 날리면 안 된다."""
+    def test_absent_and_empty_toc_are_distinguished(self):
+        """둘을 같은 값으로 접으면 판정 불가 상태에서 조용히 승계가 열린다."""
         with tempfile.TemporaryDirectory() as td:
-            absent = Path(td) / "TOC.md"
-            self.assertIsNone(BUILD.previous_publish_surface(absent))
-            absent.write_text("# 목차\n", encoding="utf-8")
-            self.assertIsNone(BUILD.previous_publish_surface(absent))
+            toc = Path(td) / "TOC.md"
+            self.assertIsNone(BUILD.previous_publish_surface(toc))
+            toc.write_text("# 목차\n", encoding="utf-8")
+            self.assertEqual(BUILD.previous_publish_surface(toc), set())
+
+    def test_has_recovered_ids_sees_pages_and_chapter_covers(self):
+        self.assertFalse(BUILD.has_recovered_ids({}))
+        self.assertFalse(BUILD.has_recovered_ids({"20240301T000000": {"path": "x"}}))
+        self.assertTrue(BUILD.has_recovered_ids({"20240301T000000": {"page_id": 1}}))
+        self.assertTrue(BUILD.has_recovered_ids({"_chapters": {"notes": {"page_id": 1}}}))
 
     def test_entering_the_publish_surface_withholds_the_stale_id(self):
         entry, previous = {}, {"page_id": 381403, "url": "https://wikidocs.net/381403"}
@@ -723,7 +737,9 @@ class PublishSurfaceEntryTests(unittest.TestCase):
                 ).stdout
 
             # 1차: 진입한 노트와 그 챕터 표지 둘 다 죽은 id 를 승계하지 않는다.
-            self.assertIn("발행면 신규 진입 2개", build())
+            first = build()
+            self.assertIn("그중 2개는 발행면 신규 진입", first)
+            self.assertIn("발행면 page_id 미회수", first)
             mapping = json.loads((out / "mapping.json").read_text(encoding="utf-8"))
             self.assertNotIn("page_id", mapping["20240301T000000"])
             self.assertNotIn("notes", mapping["_chapters"])
@@ -746,6 +762,112 @@ class PublishSurfaceEntryTests(unittest.TestCase):
             self.assertEqual(mapping["20240301T000000"]["page_id"], 387071)
             collection = (out / "pages/autholog/_chapter.md").read_text(encoding="utf-8")
             self.assertIn("https://wikidocs.net/387071", collection)
+
+    def test_first_time_page_is_reported_even_though_no_id_was_withheld(self):
+        """처음 올라가는 발행면 페이지도 회수 2단계가 필요하다.
+
+        죽은 id 를 비운 항목만 세면 previous 가 비어 있는 신규 노트가 신호에서 빠져,
+        warning 을 신규-ID 절차의 신호로 읽는 운영 문서와 어긋난다.
+        """
+        with tempfile.TemporaryDirectory() as td:
+            base = Path(td)
+            garden, out = base / "garden", base / "out"
+            (garden / "content/botlog").mkdir(parents=True)
+            out.mkdir()
+            (out / "README.md").write_text("placeholder\n", encoding="utf-8")
+            (garden / "content/botlog/20240401T000000.md").write_text(
+                '---\ntitle: "봇로그 제목"\ndescription: "설명"\n'
+                "date: 2024-04-01T00:00:00+09:00\n---\n\n본문\n", encoding="utf-8")
+            (garden / "content/index.md").write_text(
+                '---\ntitle: "대문"\n---\n\n본문\n', encoding="utf-8")
+            (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
+            init_git_repo(garden)
+
+            # 직전 판은 있고(발행 이력 있음) 이 노트만 처음 올라간다.
+            (out / "TOC.md").write_text(
+                "# 목차\n\n"
+                "- [0 어쏠로그](pages/autholog/_chapter.md)\n"
+                "- [5 봇로그](pages/botlog/_chapter.md)\n", encoding="utf-8")
+            (out / "mapping.json").write_text(json.dumps({
+                "_chapters": {"botlog": {"page_id": 555,
+                                         "url": "https://wikidocs.net/555"},
+                              "autholog": {"page_id": 556,
+                                           "url": "https://wikidocs.net/556"}},
+            }, ensure_ascii=False), encoding="utf-8")
+
+            stdout = subprocess.run(
+                [sys.executable, str(BUILD_PATH), "--folders", "botlog",
+                 "--garden", str(garden), "--out", str(out), "--core"],
+                check=True, capture_output=True, text=True,
+            ).stdout
+            # 비운 id 는 없지만(승계 보류 0) 회수는 필요하다.
+            self.assertIn("발행면 page_id 미회수 1개", stdout)
+            self.assertNotIn("발행면 신규 진입", stdout)
+
+    def test_build_stops_when_recovered_ids_have_no_previous_surface(self):
+        """회수 이력이 있는데 직전 판 TOC 가 없거나 비면 판정 불가라 멈춘다.
+
+        여기서 fail-open 하면 이 안전장치가 막으려던 죽은 id 승계가 그대로 열린다.
+        `relink` 가 TOC 부재에 exit 1 로 닫는 것과 같은 방향이다.
+        """
+        with tempfile.TemporaryDirectory() as td:
+            base = Path(td)
+            garden, out = base / "garden", base / "out"
+            (garden / "content/notes").mkdir(parents=True)
+            out.mkdir()
+            (out / "README.md").write_text("placeholder\n", encoding="utf-8")
+            (garden / "content/notes/20240301T000000.md").write_text(
+                '---\ntitle: "노트 제목"\ndescription: "설명"\n'
+                'date: 2024-03-01T00:00:00+09:00\ntags: ["autholog"]\n---\n\n본문\n',
+                encoding="utf-8")
+            (garden / "content/index.md").write_text(
+                '---\ntitle: "대문"\n---\n\n본문\n', encoding="utf-8")
+            (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
+            init_git_repo(garden)
+            (out / "mapping.json").write_text(json.dumps({
+                "20240301T000000": {"page_id": 381403,
+                                    "url": "https://wikidocs.net/381403"},
+            }, ensure_ascii=False), encoding="utf-8")
+
+            def build():
+                return subprocess.run(
+                    [sys.executable, str(BUILD_PATH), "--folders", "notes",
+                     "--garden", str(garden), "--out", str(out), "--core"],
+                    capture_output=True, text=True,
+                )
+
+            absent = build()                      # TOC 없음
+            self.assertNotEqual(absent.returncode, 0)
+            self.assertIn("회수된 page_id 가 있다", absent.stderr)
+            self.assertFalse((out / "pages").exists())   # 생성물은 건드리지 않는다
+
+            (out / "TOC.md").write_text("# 목차\n", encoding="utf-8")
+            empty = build()                       # 파일은 있으나 등록 0개
+            self.assertNotEqual(empty.returncode, 0)
+            self.assertIn("등록 페이지 0개", empty.stderr)
+
+    def test_pure_bootstrap_without_recovered_ids_still_builds(self):
+        """회수 이력이 없으면 비울 id 도 없다 — 첫 씨뿌리기는 그대로 통과시킨다."""
+        with tempfile.TemporaryDirectory() as td:
+            base = Path(td)
+            garden, out = base / "garden", base / "out"
+            (garden / "content/botlog").mkdir(parents=True)
+            out.mkdir()
+            (out / "README.md").write_text("placeholder\n", encoding="utf-8")
+            (garden / "content/botlog/20240401T000000.md").write_text(
+                '---\ntitle: "봇로그 제목"\ndescription: "설명"\n'
+                "date: 2024-04-01T00:00:00+09:00\n---\n\n본문\n", encoding="utf-8")
+            (garden / "content/index.md").write_text(
+                '---\ntitle: "대문"\n---\n\n본문\n', encoding="utf-8")
+            (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
+            init_git_repo(garden)
+
+            subprocess.run(
+                [sys.executable, str(BUILD_PATH), "--folders", "botlog",
+                 "--garden", str(garden), "--out", str(out), "--core"],
+                check=True, capture_output=True, text=True,
+            )
+            self.assertTrue((out / "pages/botlog/20240401T000000.md").exists())
 
 
 class CoreBuildIntegrationTests(unittest.TestCase):
@@ -832,11 +954,20 @@ class CoreBuildIntegrationTests(unittest.TestCase):
             (garden / "change-text.sh").write_text("#!/bin/sh\n", encoding="utf-8")
             init_git_repo(garden)
 
-            # 회수된 page_id 가 있어야 실화 대상이 생긴다.
+            # 회수된 page_id 가 있어야 실화 대상이 생긴다. 직전 판 발행면도 함께 둔다 —
+            # 회수 이력만 있고 TOC 가 없으면 build 는 판정 불가로 멈춘다.
             (out / "mapping.json").write_text(json.dumps({
                 "20240301T000000": {"page_id": 111, "url": "https://wikidocs.net/111"},
                 "20240101T000000": {"page_id": 222, "url": "https://wikidocs.net/222"},
             }, ensure_ascii=False), encoding="utf-8")
+            (out / "TOC.md").write_text(
+                "# 목차\n\n"
+                "- [0 어쏠로그](pages/autholog/_chapter.md)\n"
+                "- [1 저널](pages/journal/_chapter.md)\n"
+                "  - [stale](pages/journal/20240101T000000.md)\n"
+                "- [4 노트](pages/notes/_chapter.md)\n"
+                "  - [stale](pages/notes/20240301T000000.md)\n",
+                encoding="utf-8")
 
             # --garden-links 없이 = 평상시 코어 갱신
             subprocess.run(

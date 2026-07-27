@@ -111,14 +111,23 @@ TOC_TARGET = re.compile(r"^\s*- \[[^\]]*\]\((pages/[^)]+)\)\s*$", re.M)
 
 
 def previous_publish_surface(toc_path: Path):
-    """직전 판 발행 경로 집합. TOC 가 없거나 비면 None = 판정 불가라 규칙을 끈다.
+    """직전 판 발행 경로 집합. 파일이 아예 없으면 None.
 
-    첫 씨뿌리기와 fresh clone 에는 직전 판이 없다. 그때 빈 집합으로 다루면 전량이
-    "신규 진입"이 되어 승계를 통째로 날리므로, 모르면 종전대로 승계한다.
+    "없음"과 "있는데 링크 0개"를 뭉개지 않는다. 후자는 bootstrap 이 아니라 손상이고,
+    둘을 같은 값으로 접으면 판정 불가 상태에서 조용히 승계가 열린다. 어느 쪽을
+    허용할지는 mapping 의 회수 이력을 함께 보는 호출부가 정한다.
     """
     if not toc_path.exists():
         return None
-    return set(TOC_TARGET.findall(toc_path.read_text(encoding="utf-8"))) or None
+    return set(TOC_TARGET.findall(toc_path.read_text(encoding="utf-8")))
+
+
+def has_recovered_ids(previous_mapping: dict) -> bool:
+    """직전 mapping 에 회수된 remote id 가 하나라도 있는가 = 발행 이력이 있는가."""
+    return any(entry.get("page_id")
+               for key, entry in previous_mapping.items() if key != "_chapters") or \
+        any(entry.get("page_id")
+            for entry in previous_mapping.get("_chapters", {}).values())
 
 
 def inherit_remote_id(entry: dict, previous: dict, page_rel: str, live_paths,
@@ -817,7 +826,20 @@ def main():
         previous_mapping = json.loads(mapping_path.read_text(encoding="utf-8"))
 
     # 승계 판정 기준. TOC 를 덮어쓰기 전에 직전 판 발행면을 읽어둔다.
+    #
+    # 회수 이력이 있는데 직전 판 발행면을 읽을 수 없으면 어느 id 가 살아 있는지 판정할
+    # 수 없다. 그 상태에서 승계하면 이 안전장치가 막으려던 사고가 그대로 열리므로, 500
+    # 상한 사전검사와 같이 생성물을 건드리기 전에 멈춘다. 순수 bootstrap(회수 이력 자체가
+    # 없음)만 통과시킨다 — 비울 id 가 없으니 위험도 없다.
     live_paths = previous_publish_surface(out / "TOC.md")
+    if not live_paths and has_recovered_ids(previous_mapping):
+        raise ValueError(
+            f"직전 판 발행면을 읽을 수 없는데 mapping 에 회수된 page_id 가 있다"
+            f"({out / 'TOC.md'}: "
+            f"{'없음' if live_paths is None else '등록 페이지 0개'}). "
+            f"어느 id 가 살아 있는지 판정할 수 없어 죽은 id 를 승계할 위험이 있다"
+            f"(생성물은 건드리지 않았다). TOC 를 복원하거나, 정말 처음부터 다시 "
+            f"씨뿌리는 것이면 mapping.json 의 page_id 를 비운다.")
     withheld = 0
 
     # 입력을 먼저 다 읽어 발행 규모를 확정한다(가든 5폴더 28MB 수준). 상한을 넘기면
@@ -1001,9 +1023,22 @@ def main():
     print(f"[ok] collect  : {collection_counts}")
     print(f"[ok] assets   : {len(copied)}개")
     print(f"[ok] mapping  : mapping.json ({page_count} entries, page_id 승계 {carried_ids}개)")
+    # 2단계 push 가 필요한 항목 = 발행면인데 page_id 가 없는 것. 죽은 id 를 비운 항목만
+    # 세면 처음 올라가는 페이지가 신호에서 빠진다 — 그쪽도 회수 절차는 똑같이 필요하다.
+    pending_recovery = sum(
+        1 for key, entry in mapping.items()
+        if key != "_chapters" and entry["path"] in published and not entry.get("page_id")
+    ) + sum(
+        1 for folder in folders if folder not in chapters
+    ) + sum(
+        1 for tag in COLLECTIONS if not chapters[tag].get("page_id")
+    )
+    if pending_recovery:
+        print(f"[warn] 발행면 page_id 미회수 {pending_recovery}개: 2단계 push 가 필요하다 "
+              f"(1차 push → status → recover → build/relink → 2차 push).")
     if withheld:
-        print(f"[warn] 발행면 신규 진입 {withheld}개: 직전 판 TOC 밖이라 죽은 page_id 를 "
-              f"승계하지 않았다. push 후 recover 로 새 id 를 회수한다.")
+        print(f"[warn] 그중 {withheld}개는 발행면 신규 진입이라 직전 판 TOC 밖의 죽은 "
+              f"page_id 를 승계하지 않았다.")
     print(f"[ok] manifest : {MANIFEST_NAME} ({manifest['source_commit']}, sha256 {manifest_sha})")
 
 

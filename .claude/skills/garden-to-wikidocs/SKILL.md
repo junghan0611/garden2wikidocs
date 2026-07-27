@@ -33,7 +33,8 @@ cross-repo 정책 SSOT는 garden의
                읽고, 각 본문 페이지에 abstract-first `원본·최신본` block + <!-- gid:ID --> 앵커를 둔다.
                내부 relref 는 가든 절대URL, provenance source URL은 relink에서 보호.
                기존 mapping의 page_id/url은 동일 Denote ID에 승계하되, 직전 판 TOC 밖이던
-               항목이 발행면에 새로 들어오면 죽은 id라 승계하지 않는다(`[warn] 신규 진입`).
+               항목이 발행면에 새로 들어오면 죽은 id라 승계하지 않는다. 회수 이력이 있는데
+               직전 판 TOC를 못 읽으면 판정 불가라 생성물을 쓰기 전에 멈춘다.
 [2] recover.py 회수 — 최초 push 또는 새 페이지 동기화 후 book get 으로 gid<->page_id 및
                collection marker<->standalone 표지 page_id 회수
 [3] relink.py  링크 실화 — 현재 TOC 발행면 페이지 + README 안에서, 가든 URL 중
@@ -80,7 +81,7 @@ relink 도 반드시 다시 돌린다.** audit 은 relink 뒤에 돌려야 발�
 
 새 노트만이 아니다. **가든에서 기존 노트에 `autholog` 태그를 붙이면 그 노트가 발행면에
 새로 들어오면서 같은 2단계가 필요해진다.** 어쏠로그 회수는 계속 도는 작업이라 이 경우가
-정상 갱신보다 흔하다. build 가 `[warn] 발행면 신규 진입 N개` 를 찍으면 이 절차다.
+정상 갱신보다 흔하다. build 가 `[warn] 발행면 page_id 미회수 N개` 를 찍으면 이 절차다.
 
 ```bash
 python3 .claude/skills/garden-to-wikidocs/scripts/build.py \
@@ -139,11 +140,20 @@ python3 -m unittest discover -s tests -q
   있었을 때만** 살아 있다. 이 조건은 조용히 깨진다 — 죽은 id 도 숫자가 멀쩡히 있고 TOC
   안이라 `link_target`·`relink`·`audit` 이 전부 통과한다. 라이브를 재는 `status.py` 의
   `미생성` 만이 신호다. 그래서 `build` 가 덮어쓰기 전 `TOC.md` 를 읽어 발행면에 새로
-  들어오는 항목의 page_id 를 승계하지 않고(`[warn] 발행면 신규 진입 N개`), relink 가 가든
-  원본으로 내보내게 한 뒤 push→recover 로 새 id 를 받는다. 직전 판 TOC 가 없으면(첫
-  씨뿌리기·fresh clone) 판정 불가라 종전대로 승계한다. 발행면 **밖**에 머무는 항목의 죽은
-  id 는 그대로 둔다 — 노출 경로가 없고, 2천여 항목을 흔들면 실제 위험 구간이 diff 에 묻힌다.
-  가든에서 기존 노트에 `autholog` 를 붙이는 것만으로 이 경로를 타므로 드문 일이 아니다.
+  들어오는 항목의 page_id 를 승계하지 않고, relink 가 가든 원본으로 내보내게 한 뒤
+  push→recover 로 새 id 를 받는다. 발행면 **밖**에 머무는 항목의 죽은 id 는 그대로 둔다 —
+  노출 경로가 없고, 2천여 항목을 흔들면 실제 위험 구간이 diff 에 묻힌다. 가든에서 기존
+  노트에 `autholog` 를 붙이는 것만으로 이 경로를 타므로 드문 일이 아니다.
+- **회수 이력이 있는데 직전 판 발행면을 못 읽으면 build 는 멈춘다.** `TOC.md` 가 없거나
+  등록 0개인데 mapping 에 `page_id` 가 있으면 어느 id 가 살아 있는지 판정할 수 없다. 여기서
+  fail-open 하면 위 안전장치가 막으려던 승계가 그대로 열리므로, 500 상한 사전검사와 같이
+  생성물을 건드리기 전에 실패한다(`relink` 의 TOC 부재 exit 1 과 같은 방향). 통과하는 것은
+  회수 이력 자체가 없는 순수 bootstrap 뿐이다 — 비울 id 가 없으니 위험도 없다. 정상 clone
+  에는 tracked `TOC.md` 가 있으므로 이 경로를 밟지 않는다.
+- **build 의 두 warning 은 층이 다르다.** `발행면 page_id 미회수 N개` 는 2단계 push 가
+  필요하다는 운영 신호로, 죽은 id 를 비운 항목과 처음 올라가는 항목을 함께 센다. `그중 M개는
+  발행면 신규 진입` 은 그 부분집합이자 안전장치가 실제로 발동했다는 신호다. 앞의 것만
+  절차 트리거로 읽는다 — 뒤의 것은 0 이어도 회수는 필요할 수 있다.
 - **위키독스 URL 은 발행된 페이지에만 유효하다.** mapping 에 page_id 가 남아 있어도 TOC
   밖이면 404 다. `build --garden-links`(표지·집합면)와 `relink` 의 TOC 게이트가 이 규칙을
   강제하고, `audit` 이 발행면 밖 page_id 참조를 오류로 잡는다. 저자가 본문에 직접 쓴 외부

@@ -6,16 +6,17 @@
 ## NOW — 발행면 신규 진입 자동 처리 (커밋 완료, push 대기)
 
 - **Current**: 죽은 page_id 승계를 `build.py` 에서 막았다. 덮어쓰기 전 `TOC.md` 를 읽어
-  발행면에 새로 들어오는 항목의 page_id 를 승계하지 않고 `[warn] 발행면 신규 진입 N개` 를
-  찍는다. 발행면 밖에 머무는 항목은 건드리지 않는다. 생성물은 바이트 동일(no-op)이다.
-- **Next**: 지피티 교차검수 회신 반영 → GLG 타이밍에 push. **콘텐츠 변경이 아니라 스킬
-  수선 커밋이므로 push 하면 웹훅 전체 재동기화가 돈다** — 다음 가든 export 와 묶어 한 번에
-  내보내는 편이 싸다.
+  발행면에 새로 들어오는 항목의 page_id 를 승계하지 않는다. 발행면 밖에 머무는 항목은
+  건드리지 않는다. 회수 이력이 있는데 직전 판 TOC 를 못 읽으면 생성물을 쓰기 전에 멈춘다
+  (fail-closed). 생성물은 바이트 동일(no-op)이다.
+- **Next**: GLG 타이밍에 push. **콘텐츠 변경이 아니라 스킬 수선 커밋이므로 push 하면 웹훅
+  전체 재동기화가 돈다** — 다음 가든 export 와 묶어 한 번에 내보내는 편이 싸다.
 - **Blocker**: 없음.
-- **Verify**: `audit --core` 경고 0, unittest 79/79, build→relink 후 생성물 diff 0줄
+- **Verify**: `audit --core` 경고 0, unittest 83/83, build→relink 후 생성물 diff 0줄
   (스킬/테스트 파일만 변경), 라이브 247/247 100%.
-- **Read**: SKILL.md 「삭제된 페이지의 page_id 는 부활하지 않는다」 불변식,
-  `build.py` 의 `previous_publish_surface`/`inherit_remote_id`.
+- **Read**: SKILL.md 「삭제된 페이지의 page_id 는 부활하지 않는다」 + 그 뒤 두 불변식
+  (fail-closed 경계, warning 두 층), `build.py` 의 `previous_publish_surface`/
+  `has_recovered_ids`/`inherit_remote_id`.
 - **Do not touch**: `~/repos/gh/notes` 또는 `pages/` 생성물을 손편집하지 않는다. 항상 정본
   export를 입력으로 전체 재생성한다.
 
@@ -36,7 +37,7 @@
 - **파이프라인**: `build --core` → `relink` → `audit --core`. `--garden-links` 는 기본이
   아니라 발행면을 갈아엎을 때만 켜는 안전판이다. build 가 `pages/` 를 rmtree 하므로
   **build 를 돌렸으면 relink 도 반드시 다시 돌린다.**
-- **Verify**: `audit --core` 통과 + `unittest` 79/79 + 같은 명령 두 번 빌드 sha256 diff 0줄
+- **Verify**: `audit --core` 통과 + `unittest` 83/83 + 같은 명령 두 번 빌드 sha256 diff 0줄
   + relink 재실행 시 바뀐 파일 0 + `status.py` 가 발행면 기준 100%/exit 0. push 전에는
   라이브 gid와 새 TOC 를 대조해 생성/삭제 수를 먼저 확인한다.
 - **신규 page_id 가 생기면 2단계 push**: `audit --core --allow-missing-page-ids` → 1차 push
@@ -44,9 +45,10 @@
   회수한 page_id 로 `wikidocs-user-script.js` 의 `CH` 를 고치고 **위키독스 책 설정에 다시
   붙여넣는다**(웹훅이 안 나르는 파일이다).
 - **어쏠로그 태그를 붙이면 그게 신규 page_id 다.** 새 노트가 없어도 기존 노트가 발행면에
-  들어오면 컷 때 삭제된 페이지라 옛 id 가 죽어 있다. build 의 `[warn] 발행면 신규 진입 N개`
-  가 그 신호이며, 그때는 위 2단계로 간다. push 전 `status.py --list` 의 `미생성` 으로
-  라이브를 한 번 재는 것이 유일한 실측 확인이다.
+  들어오면 컷 때 삭제된 페이지라 옛 id 가 죽어 있다. build 의 `[warn] 발행면 page_id
+  미회수 N개` 가 절차 트리거이고, 뒤따르는 `그중 M개는 발행면 신규 진입` 은 안전장치가
+  발동했다는 부분집합 신호다(0 이어도 회수는 필요할 수 있다). push 전 `status.py --list`
+  의 `미생성` 으로 라이브를 한 번 재는 것이 유일한 실측 확인이다.
 - **Read**: SKILL.md의 「실측으로 확정된 불변식」 — 특히 relink 양방향 게이트, 어쏠로그
   0순위 챕터, 사용자 스크립트 항목. `build.py`의 `PUBLISH_LIMIT`/`is_core_member`/
   `link_target`, `relink.py`의 `relink_targets`, `audit.py`의 `user_script_findings`.
@@ -58,7 +60,10 @@
 - [2026-07-27] 삭제된 페이지의 page_id 가 부활하지 않는다는 걸 실측하고, 그 죽은 값이
   발행면에 되들어올 때 조용히 실리는 경로를 `build.py` 에서 닫았다. 게이트 셋(`link_target`
   ·`relink`·`audit`)이 전부 TOC 멤버십만 보고 라이브 존재를 안 봐서 아무도 안 울렸다.
-  테스트 72→79.
+  지피티 교차검수에서 2건을 더 잡았다 — 내 fresh-clone 가드가 "TOC 없음"과 "TOC 손상"을
+  뭉개 정작 위험한 상태에서 fail-open 했고(회수 이력 있으면 abort 로 정정), warning 이
+  죽은 id 를 비운 항목만 세서 처음 올라가는 페이지를 놓쳤다(미회수/보류 두 층으로 분리).
+  테스트 72→83.
 - [2026-07-27] 챕터 표지 6개를 AEO 구조로 바꿨다. 폴더 2,239개 항목과 autholog 170개가
   깨끗한 `##` 제목, 작성·수정일·태그, description, 목적지 명시 링크를 가진다. mapping은
   scrub된 description/tags를 cache하고 audit은 exact match + heading 유일성 + 링크 수·순서를

@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 개념어 단어 용어 어휘 전문 키워드 동의어 다의어
+
+작성 2024-08-06 · 수정 2026-07-27 · 태그 concepts, easywords, keywords, metameta, polysemy, synonyms
+
+개념어와 단어, 용어, 키워드의 차이를 가다듬고 동의어·다의어·전문용어를 정리하는 기준을 세운다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240806T124350/)
+
 ## 영감 부싯돌 찰나 순간 불꽃 등불 폭팔
 
 작성 2024-05-22 · 수정 2026-07-27 · 태그 flint, inspiration, metameta, surrender
@@ -2210,14 +2218,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250504T175903/)
 
-## 개념어 단어 용어 어휘 전문_키워드 동의어 다의어
-
-작성 2024-08-06 · 수정 2025-05-03 · 태그 concepts, easywords, keywords, metameta, polysemy, synonyms
-
-개념어와 단어, 용어, 키워드의 차이를 가다듬고 동의어·다의어·전문용어를 정리하는 기준을 세운다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240806T124350/)
-
 ## 한국십진분류법 KDC
 
 작성 2024-03-12 · 수정 2025-05-02 · 태그 classification, kdc, meta
@@ -3362,9 +3362,9 @@ HCI는 인간과 컴퓨터가 맞닿는 인터페이스와 상호작용을 다�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230725T144900/)
 
-## 이맥스 지식그래프 ekg
+## 이맥스 지식그래프
 
-작성 2023-02-23 · 수정 2025-04-18 · 태그 ekg, emacs, knowledgegraph, meta
+작성 2023-02-23 · 수정 2025-04-18 · 태그 ekg, emacs, knowledgegraph, meta, pkg
 
 #이맥스지식그래프
 

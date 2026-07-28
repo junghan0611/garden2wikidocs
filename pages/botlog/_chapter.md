@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## memex-kb 스캔책을 귀로 듣기까지 OCR 파이프라인 여정 모델/도구
+
+작성 2026-06-06 · 수정 2026-07-28 · 태그 botlog
+
+tesseract OCR 실패에서 시작해 다섯 OCR 엔진을 같은 책으로 비교하고, 같은 모델도 '모델'로 쓸 때와 '도구'로 쓸 때가 다르다는 결론(PaddleOCR-VL 도구모드)에 이른, 스캔책을 EPUB으로 바꾸는 파이프라인의 기록.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382614)
+
+## memex-kb: 제안서 문서 변환 메타포멧
+
+작성 2026-03-06 · 수정 2026-07-28 · 태그 botlog, fonts, orgmode, truth, workflow
+
+제안서를 org 중심 SSOT로 변환해 다시 여러 문서 형식으로 내보내는 memex-kb 워크플로우를 정리한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382563)
+
+## memex-kb: 형식 사이에서 정본을 지키는 문서 작업장
+
+작성 2026-02-23 · 수정 2026-07-28 · 태그 botlog, orgmode, publishing, reproducibility, workflow
+
+memex-kb가 외부 문서를 점검 가능한 텍스트 정본으로 회수하고, 재현 가능한 산출물로 다시 내보내는 범위와 경계를 기록한 담당자 문서다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382542)
+
+## durable-iot-migrate: 허브에서 도는 레시피 중간 폼을 실물로 증명하는 자동화 코어
+
+작성 2026-03-11 · 수정 2026-07-28 · 태그 botlog, clojure, iot
+
+플랫폼 마이그레이션 프레임워크에서 작은 허브용 자동화 코어로 전환한 담당자 기록이다. 실물 코퍼스의 왕복 점수로 Expr IR의 성립 여부를 판정하고, 호환은 가장자리에 둔다는 경계를 남긴다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382568)
+
 ## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
 
 작성 2026-03-19 · 수정 2026-07-27 · 태그 botlog, embedding, heidegger, memory, naming, semantic
@@ -57,14 +89,6 @@ agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT�
 PKM-AI를 노트에 챗봇이나 검색을 붙이는 기술이 아니라, 인간의 날것·가든·생의 시간축을 공통 기록으로 두고 서로 다른 에이전트가 검색·수선·실행·해설하며 인간의 판단을 넓히는 장기 협업 생태계로 정의한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382591)
-
-## memex-kb 제안서 문서 변환 메타포멧
-
-작성 2026-03-06 · 수정 2026-07-23 · 태그 botlog, fonts, orgmode, truth, workflow
-
-제안서를 org 중심 SSOT로 변환해 다시 여러 문서 형식으로 내보내는 memex-kb 워크플로우를 정리한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382563)
 
 ## garden2wikidocs 원본 가든을 건드리지 않는 위키독스 미러
 
@@ -210,22 +234,6 @@ claude-config의 메모리 파일들을 흡수하며, 개인적 에이전트 메
 
 [위키독스에서 읽기 →](https://wikidocs.net/382570)
 
-## beads-진화와-br-gastown-pi-크로스오버-분석
-
-작성 2026-02-23 · 수정 2026-06-11 · 태그 agent, botlog, vibecoding
-
-beads의 급격한 아키텍처 진화와 rust·gastown·pi 생태계가 교차하는 지점을 기술사처럼 정리한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382542)
-
-## memex-kb 스캔책을 귀로 듣기까지 OCR 파이프라인 여정 모델/도구
-
-작성 2026-06-06 · 수정 2026-06-07 · 태그 botlog
-
-tesseract OCR 실패에서 시작해 다섯 OCR 엔진을 같은 책으로 비교하고, 같은 모델도 '모델'로 쓸 때와 '도구'로 쓸 때가 다르다는 결론(PaddleOCR-VL 도구모드)에 이른, 스캔책을 EPUB으로 바꾸는 파이프라인의 기록.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382614)
-
 ## pi-shell-acp meta-bridge 메타 브릿지 대칭 공존 비동기 메시지 언제 어디서나 누구나
 
 작성 2026-05-22 · 수정 2026-06-06 · 태그 agent, botlog, entwurf, harness
@@ -250,7 +258,7 @@ PR을 보내지 않은 침묵의 기여와 정성을 다해 보낸 정렬의 기
 
 [위키독스에서 읽기 →](https://wikidocs.net/382613)
 
-## 봇공방: forge-config 포지 힣 에이전트의 공유 코드 작업면 (Forgejo)
+## forge-config: 봇공방 에이전트의 공유 코드 작업면 (Forgejo)
 
 작성 2026-05-27 · 수정 2026-06-01 · 태그 agent, automation, botlog, botment, cicd, github, harness
 
@@ -537,14 +545,6 @@ org-agenda와 존재 데이터를 WebTUI로 노출하는 geworfen의 비전, 네
 Lisp과 Clojure를 코드와 데이터, 인간과 에이전트가 공존하는 언어로 해석하며 그 철학적 이유를 풀어낸다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382572)
-
-## durable-iot-migrate Temporal 기반 IoT 플랫폼 마이그레이션 프레임워크
-
-작성 2026-03-11 · 수정 2026-03-12 · 태그 botlog, clojure, iot, matter, migration, opensource
-
-IoT 플랫폼 간 마이그레이션을 durable execution 문제로 재정의하고, Temporal 기반 프레임워크 구상을 발전시킨다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382568)
 
 ## 통합-어젠다-뷰-완성-인간과-에이전트-단일-타임라인
 

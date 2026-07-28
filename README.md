@@ -2,15 +2,15 @@
 
 ## 이 책에 대하여
 
-정한(Junghan Kim)의 **디지털가든 코어**입니다. 가든 전체를 미러링한 책이 아닙니다. 어쏠로그(생생날것)와 봇로그를 중심으로 미러 대상 5개 폴더(저널·메타·참고문헌·노트·봇로그) 2,240개 문서 가운데 247개를 골라 낸 현재 판본입니다. 여기 없는 글도 지워진 것이 아니라 가든에 그대로 있고, 원본과 최신본은 언제나 가든입니다.
+정한(Junghan Kim)의 **디지털가든 코어**입니다. 가든 전체를 미러링한 책이 아닙니다. 어쏠로그(생생날것)와 봇로그를 중심으로 미러 대상 5개 폴더(저널·메타·참고문헌·노트·봇로그) 2,240개 문서 가운데 248개를 골라 낸 현재 판본입니다. 여기 없는 글도 지워진 것이 아니라 가든에 그대로 있고, 원본과 최신본은 언제나 가든입니다.
 
 코어는 가장 좋은 글의 목록이 아니라, 지금 불러낼 수 있는 이름과 말과 그 관계를 쌓아온 시간축의 현재 판본입니다. 왜 전체가 아니라 코어인지는 [생생날것 500개 문턱 — 디지털가든 코어는 시간축의 판본이다](https://wikidocs.net/381079)에 적혀 있습니다.
 
 - 원본 가든: <https://notes.junghanacs.com>
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
-- 이 판본: 미러 대상 2,240개 중 247개
-- 마지막 동기화: 2026-07-27
+- 이 판본: 미러 대상 2,240개 중 248개
+- 마지막 동기화: 2026-07-28
 
 ## 힣의 고뇌
 
@@ -69,7 +69,7 @@
 
 디지털가든에는 태그, 카테고리, 분류 시스템을 담는다. 물론 편집 도구에서는 이 정도로는 어림도 없다. 이 곳은 정원이다. 그저 보는 곳이다.
 
--   [tags index (1243)](https://notes.junghanacs.com/tags/) english keywords
+-   [tags index (1244)](https://notes.junghanacs.com/tags/) english keywords
 -   [폴더 태그 카테고리 - 디지털가든 분류 규칙](https://wikidocs.net/381143) classification rules
 
 ## 어쏠로지: 앎의 틀
@@ -116,7 +116,7 @@
 
 autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 눌러 담고 있다네!
 
--   [tags: autholog (173)](https://wikidocs.net/386464)
+-   [tags: autholog (174)](https://wikidocs.net/386464)
 
 ## 어쏠로지스트: 인간-상
 
@@ -188,4 +188,4 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 
 -   [folder: botlog (80)](https://wikidocs.net/382535)
 
-ExportDate: 2026-07-27 18:22, CountNotes: 3499 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-07-28 17:50, CountNotes: 3499 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

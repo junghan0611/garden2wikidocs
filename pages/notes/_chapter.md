@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 작가라는 입구 디지털가든 코어를 책판본으로 낸다
+
+작성 2024-05-17 · 수정 2026-07-28 · 태그 autholog, author, books, digitalgarden, ebook, memex, orgmode, publishing, reproducibility, wikidocs
+
+판매 부수보다 저자됨의 사회적 입구를 만들기 위해, 살아 있는 가든의 어쏠로그를 이미지까지 수선하고 Org SSOT와 memex-kb로 재현 가능한 『디지털가든 코어』 책판본을 주기적으로 고정한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240517T110508/)
+
+## 힣: 임시 대기 - 범용 지식베이스 변환 시스템
+
+작성 2025-10-30 · 수정 2026-07-28 · 태그 autholog, bib, denote, digitalgarden, hangul, memex, migration, notetaking, rag, synchronization, thread, wikipedia, zettelkasten
+
+@힣: §memex-kb 힣의 범용 #지식베이스 변환 시스템 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381806)
+
+## 힣: 책을 쓰지 않는 이유 가든을 멈추지 않는 책판본
+
+작성 2024-09-27 · 수정 2026-07-28 · 태그 autholog, author, bib, books, digitalgarden, publishing, reproducibility, writing
+
+Gwern이 경고한 장기 집필의 기회비용과 작가 고정의 위험을 받아, 살아 있는 가든을 멈추지 않고 이미 수선된 어쏠로그를 주기적인 책판본으로 닫는 경계를 세운다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381334)
+
+## 힣: 힣은 일어났다 명상하는 글쓰기와 평균 밖의 개개인성
+
+작성 2024-09-21 · 수정 2026-07-28 · 태그 audiobook, autholog, awareness, education, meditation, morningpage, reading, unicode, writing
+
+한글 유니코드의 마지막 음절 '힣'을 자기 호명으로 삼아, 손가락이 먼저 시작하는 명상적 글쓰기와 귀로 듣는 책, 평균의 틀 밖에서 만나는 개개인성을 하나의 작가 탄생 장면으로 묶는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381320)
+
 ## 힣: 탐구의 이름 연구가 아닌 물음과 탐험
 
 작성 2025-04-28 · 수정 2026-07-27 · 태그 autholog, comparison, concepts, exploration, inquiry, questions
@@ -12,7 +44,7 @@
 
 ## 힣: 생생날것 500개 문턱 디지털가든 코어는 시간축의 판본이다
 
-작성 2023-07-06 · 수정 2026-07-27 · 태그 autholog, digitalgarden, pkm, publishing, rawwriting, timeline
+작성 2023-07-06 · 수정 2026-07-27 · 태그 autholog, digitalgarden, pkm, publishing, rawwriting, timeline, wikidocs
 
 위키독스의 500개 제한에서 출발해 디지털가든 코어를 한정된 문서 목록이 아니라, 지금 불러낼 수 있는 인물과 메타어휘와 삶의 시간축이 만드는 현재 판본으로 읽는다.
 
@@ -802,9 +834,9 @@ Claude Code를 쓰던 전환기에 oh-my-opencode와 GAS-TOWN을 경유하며 �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381068)
 
-## 쿼츠: 디지털가든 설치 Org Hugo Quartz 파이프라인
+## 힣: 디지털가든 배포 파이프라인
 
-작성 2023-08-11 · 수정 2026-04-13 · 태그 autholog, digitalgarden, install, obsidian, quartz, templates
+작성 2023-08-11 · 수정 2026-04-13 · 태그 autholog, digitalgarden, install, obsidian, publishing, quartz, templates
 
 Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프라인의 변천과 현황을 담은 기록.
 
@@ -1065,14 +1097,6 @@ LLM 자문자답 — 턴 경계 침범, 신뢰 보정, 존재의 경계
 ML 파인튜닝 파이프라인을 운영 인프라 관점에서 설계하기 위한 도구세트 전략을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20260209T183036/)
-
-## 힣: memex-kb 힣의 범용 지식베이스 변환 시스템
-
-작성 2025-10-30 · 수정 2026-02-12 · 태그 autholog, bib, denote, digitalgarden, hangul, memex, migration, notetaking, rag, synchronization, thread, wikipedia, zettelkasten
-
-@힣: §memex-kb 힣의 범용 #지식베이스 변환 시스템 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381806)
 
 ## 힣: ADHD AI 시대 - 해방에서 경계까지
 
@@ -4010,14 +4034,6 @@ Jira와 Confluence를 협업 도구로 보고 Emacs 연동 가능성을 정리�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250326T170451/)
 
-## 힣: 힣의시작 명상하는글쓰기 개개인성 평균의종말 오디오북
-
-작성 2024-09-21 · 수정 2025-03-26 · 태그 audiobook, autholog, morningpage, unicode
-
-힣이 뭔가. 에고를 끊어내는 힣의 외침이여!
-
-[위키독스에서 읽기 →](https://wikidocs.net/381320)
-
 ## 호스팅 호스팅케이알 넷리파이 - 서브도메인
 
 작성 2024-08-14 · 수정 2025-03-26 · 태그 bib
@@ -5074,14 +5090,6 @@ Exercism을 언어 학습과 멘토링형 코딩 훈련 도구로 바라보며 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250207T120452/)
 
-## 힣: 책을 쓰지 않는/말아야 하는 이유
-
-작성 2024-09-27 · 수정 2025-02-15 · 태그 bib, autholog
-
-왜 책을 쓰지 않거나 미뤄야 하는지에 대한 글을 읽고 자신의 맥락으로 되비춘 사유 노트이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381334)
-
 ## 힣: 모두가 생산자 작은 소통 공간 커뮤니티
 
 작성 2024-09-22 · 수정 2025-02-15 · 태그 autholog, communication, sns, subscriber, newsletter, community
@@ -5809,14 +5817,6 @@ Mathematica 설치와 울프람엔진 차이를 이맥스 활용 맥락으로 �
 스마트폰과 옵시디언, 갤럭시 AI를 이용해 읽기·요약·소리내어읽기를 엮는 모바일 노트. 관련 내용을 정리한 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240613T064804/)
-
-## 출판: 자가출판 서비스 모음
-
-작성 2024-05-17 · 수정 2024-12-04 · 태그 collection, publishing
-
-위키독스와 린북스, 부크크 같은 자가출판 서비스를 가볍게 모아 둔 출판 컬렉션 노트. 관련 내용을 정리한 기록.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240517T110508/)
 
 ## 모음: 디지털가든 브레인덤프
 

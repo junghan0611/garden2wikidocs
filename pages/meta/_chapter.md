@@ -2,6 +2,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 기술 7 보유기술
+
+작성 2025-04-24 · 수정 2026-07-29 · 태그 meta, propaedia, skills, technology
+
+기술을 도구의 집합이 아니라 인간의 일, 조직, 앎의 방식까지 바꾸는 실천의 역사로 바라본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143631/)
+
+## 재능 재주 능력 노력 연습 지루함 익숙함
+
+작성 2024-04-14 · 수정 2026-07-29 · 태그 ability, effort, meta, practice, skills, talent
+
+재능과 재주, 능력과 기술, 보유기술과 스킬 매트릭스, 노력과 연습은 능력이 형성되고 평가되는 과정을 함께 설명한다. 링크드인·이력서의 보유기술은 소유물이 아니라 시간축 위에서 형성되고 사용되는 능력의 공개 표면이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240414T224508/)
+
+## 채용 구직 취업
+
+작성 2023-08-14 · 수정 2026-07-29 · 태그 career, jobfair, meta, recruit, resume
+
+채용 공고, 구직 플랫폼, 직무·포지션, 이력과 경력 정리 등 일과 커리어 이동에 필요한 자료를 모은다. Software Engineer, AI Engineer, Forward Deployed Engineer, Developer Experience Engineer 같은 공개 채용어를 힣의 가든 좌표와 연결한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230814T144500/)
+
 ## 개념어 단어 용어 어휘 전문 키워드 동의어 다의어
 
 작성 2024-08-06 · 수정 2026-07-27 · 태그 concepts, easywords, keywords, metameta, polysemy, synonyms
@@ -282,14 +306,6 @@ AI 프롬프트는 모델의 응답 방식과 작업 결과를 좌우하는 지�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T225036/)
 
-## 재능 재주 능력 노력 연습 지루함 익숙함
-
-작성 2024-04-14 · 수정 2026-06-25 · 태그 ability, effort, meta, practice, skill, talent
-
-재능과 재주, 능력과 기술, 노력과 연습은 능력이 형성되고 평가되는 과정을 함께 설명하며, 지루함과 익숙함조차 숙련의 한 국면으로 읽게 한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240414T224508/)
-
 ## 수선 정비 유지보수 일관성
 
 작성 2024-11-26 · 수정 2026-06-15 · 태그 consistency, maintenance, mend, meta, repair
@@ -425,14 +441,6 @@ AI 프롬프트는 모델의 응답 방식과 작업 결과를 좌우하는 지�
 추론·예측·가추·인과추론은 증거에서 설명과 결론에 이르는 사고의 서로 다른 층위를 가리키며, reasoning과 inference의 차이를 함께 분별하게 한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240221T134820/)
-
-## 채용 구직 취업
-
-작성 2023-08-14 · 수정 2026-04-19 · 태그 career, jobfair, meta, recruit, resume
-
-채용 공고, 구직 플랫폼, 이력과 경력 정리 등 일과 커리어 이동에 필요한 자료를 모은다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230814T144500/)
 
 ## 프로그래밍 코딩 코드카타 코테 개발
 
@@ -3097,14 +3105,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 종교를 지식과 이해, 상징과 제도, 실천과 삶의 양식을 함께 다루는 넓은 인간사의 장으로 펼친다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143717/)
-
-## 기술 7
-
-작성 2025-04-24 · 수정 2025-04-24 · 태그 meta, propaedia, technology
-
-기술을 도구의 집합이 아니라 인간의 일, 조직, 앎의 방식까지 바꾸는 실천의 역사로 바라본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143631/)
 
 ## 예술 6
 

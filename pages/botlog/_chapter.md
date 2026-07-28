@@ -60,7 +60,7 @@ dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담
 
 ## agent-config: 스킬 SSOT와 시험소 멀티하네스 이후
 
-작성 2026-03-12 · 수정 2026-07-27 · 태그 agent, botlog, entwurf, harness, skill
+작성 2026-03-12 · 수정 2026-07-27 · 태그 agent, botlog, entwurf, harness, skills
 
 agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.
 
@@ -316,7 +316,7 @@ Samsung Health 수동 export에 묶여 있던 lifetract를 Health Connect와 Hom
 
 ## logickocli 한국어 자연어 추론 표준 논리 좌표계
 
-작성 2026-05-13 · 수정 2026-05-15 · 태그 agent, aprj, botlog, logic, skill
+작성 2026-05-13 · 수정 2026-05-15 · 태그 agent, aprj, botlog, logic, skills
 
 한국어 자연어 추론을 표준 논리 좌표계로 정규화하는 logickocli의 문제의식, 리포 분리, Phase 1 정비, 다음 로드맵을 공개용 botlog 형식으로 정리했다.
 

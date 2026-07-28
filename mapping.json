@@ -1483,6 +1483,60 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250424T143631": {
+    "path": "pages/meta/20250424T143631.md",
+    "subject": "20260729 기술 7 보유기술",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T143631/",
+    "source_date": "2025-04-24T14:36:00+09:00",
+    "source_lastmod": "2026-07-29T06:37:00+09:00",
+    "description": "기술을 도구의 집합이 아니라 인간의 일, 조직, 앎의 방식까지 바꾸는 실천의 역사로 바라본다.",
+    "tags": [
+      "meta",
+      "propaedia",
+      "skills",
+      "technology"
+    ],
+    "page_id": 380850,
+    "url": "https://wikidocs.net/380850"
+  },
+  "20240414T224508": {
+    "path": "pages/meta/20240414T224508.md",
+    "subject": "20260729 재능 재주 능력 노력 연습 지루함 익숙함",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240414T224508/",
+    "source_date": "2024-04-14T22:45:00+09:00",
+    "source_lastmod": "2026-07-29T06:32:00+09:00",
+    "description": "재능과 재주, 능력과 기술, 보유기술과 스킬 매트릭스, 노력과 연습은 능력이 형성되고 평가되는 과정을 함께 설명한다. 링크드인·이력서의 보유기술은 소유물이 아니라 시간축 위에서 형성되고 사용되는 능력의 공개 표면이다.",
+    "tags": [
+      "ability",
+      "effort",
+      "meta",
+      "practice",
+      "skills",
+      "talent"
+    ],
+    "page_id": 380568,
+    "url": "https://wikidocs.net/380568"
+  },
+  "20230814T144500": {
+    "path": "pages/meta/20230814T144500.md",
+    "subject": "20260729 채용 구직 취업",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20230814T144500/",
+    "source_date": "2023-08-14T14:45:00+09:00",
+    "source_lastmod": "2026-07-29T06:32:00+09:00",
+    "description": "채용 공고, 구직 플랫폼, 직무·포지션, 이력과 경력 정리 등 일과 커리어 이동에 필요한 자료를 모은다. Software Engineer, AI Engineer, Forward Deployed Engineer, Developer Experience Engineer 같은 공개 채용어를 힣의 가든 좌표와 연결한다.",
+    "tags": [
+      "career",
+      "jobfair",
+      "meta",
+      "recruit",
+      "resume"
+    ],
+    "page_id": 380506,
+    "url": "https://wikidocs.net/380506"
+  },
   "20240806T124350": {
     "path": "pages/meta/20240806T124350.md",
     "subject": "20260727 개념어 단어 용어 어휘 전문 키워드 동의어 다의어",
@@ -2122,25 +2176,6 @@
     "page_id": 380878,
     "url": "https://wikidocs.net/380878"
   },
-  "20240414T224508": {
-    "path": "pages/meta/20240414T224508.md",
-    "subject": "20260625 재능 재주 능력 노력 연습 지루함 익숙함",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240414T224508/",
-    "source_date": "2024-04-14T22:45:00+09:00",
-    "source_lastmod": "2026-06-25T12:42:00+09:00",
-    "description": "재능과 재주, 능력과 기술, 노력과 연습은 능력이 형성되고 평가되는 과정을 함께 설명하며, 지루함과 익숙함조차 숙련의 한 국면으로 읽게 한다.",
-    "tags": [
-      "ability",
-      "effort",
-      "meta",
-      "practice",
-      "skill",
-      "talent"
-    ],
-    "page_id": 380568,
-    "url": "https://wikidocs.net/380568"
-  },
   "20241126T053758": {
     "path": "pages/meta/20241126T053758.md",
     "subject": "20260615 수선 정비 유지보수 일관성",
@@ -2460,24 +2495,6 @@
     ],
     "page_id": 380554,
     "url": "https://wikidocs.net/380554"
-  },
-  "20230814T144500": {
-    "path": "pages/meta/20230814T144500.md",
-    "subject": "20260419 채용 구직 취업",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20230814T144500/",
-    "source_date": "2023-08-14T14:45:00+09:00",
-    "source_lastmod": "2026-04-19T15:53:00+09:00",
-    "description": "채용 공고, 구직 플랫폼, 이력과 경력 정리 등 일과 커리어 이동에 필요한 자료를 모은다.",
-    "tags": [
-      "career",
-      "jobfair",
-      "meta",
-      "recruit",
-      "resume"
-    ],
-    "page_id": 380506,
-    "url": "https://wikidocs.net/380506"
   },
   "20240923T120000": {
     "path": "pages/meta/20240923T120000.md",
@@ -8281,22 +8298,6 @@
     ],
     "page_id": 380851,
     "url": "https://wikidocs.net/380851"
-  },
-  "20250424T143631": {
-    "path": "pages/meta/20250424T143631.md",
-    "subject": "20250424 기술 7",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T143631/",
-    "source_date": "2025-04-24T14:36:00+09:00",
-    "source_lastmod": "2025-04-24T14:36:00+09:00",
-    "description": "기술을 도구의 집합이 아니라 인간의 일, 조직, 앎의 방식까지 바꾸는 실천의 역사로 바라본다.",
-    "tags": [
-      "meta",
-      "propaedia",
-      "technology"
-    ],
-    "page_id": 380850,
-    "url": "https://wikidocs.net/380850"
   },
   "20250424T143504": {
     "path": "pages/meta/20250424T143504.md",
@@ -22293,6 +22294,145 @@
     "page_id": 381893,
     "url": "https://wikidocs.net/381893"
   },
+  "20240704T170917": {
+    "path": "pages/notes/20240704T170917.md",
+    "subject": "20260729 힣: 지식공학 개인지식관리·인공지능·PKM-AI 하네스의 관계",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240704T170917/",
+    "source_date": "2024-07-04T17:09:00+09:00",
+    "source_lastmod": "2026-07-29T06:42:00+09:00",
+    "description": "지식공학을 개인지식관리와 인공지능 사이의 오래된 용어로만 두지 않고, 2026년 PKM-AI 하네스와 링크드인 보유기술의 Knowledge Engineering 축으로 다시 연결한다. 원문 메모와 에이전트 해설을 분리해, 기억·검색·시간축·도메인 지식을 다루는 기술이 힣의 가든에서 어떻게 직무 언어가 되는지 정리한다.",
+    "tags": [
+      "ai",
+      "autholog",
+      "bib",
+      "engineering",
+      "knowledge",
+      "pkm"
+    ],
+    "page_id": 381262,
+    "url": "https://wikidocs.net/381262"
+  },
+  "20220422T191029": {
+    "path": "pages/notes/20220422T191029.md",
+    "subject": "20260729 힣: 재능·노력·연습 지루함을 익숙한 도구로 건너는 법",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20220422T191029/",
+    "source_date": "2022-04-22T19:10:00+09:00",
+    "source_lastmod": "2026-07-29T06:37:00+09:00",
+    "description": "재능과 노력, 연습의 차이를 지루함을 견디는 방식과 익숙한 도구의 힘으로 다시 해석한다. 노력은 의식적으로 지식을 구성하는 과정이고, 연습은 그 지식을 몸과 잠재기억에 심는 과정이라는 2022년 원석을 보존한다.",
+    "tags": [
+      "autholog",
+      "effort",
+      "practice",
+      "skills",
+      "talent"
+    ],
+    "page_id": 381023,
+    "url": "https://wikidocs.net/381023"
+  },
+  "20250515T103930": {
+    "path": "pages/notes/20250515T103930.md",
+    "subject": "20260729 힣: 링크드인 소개 업데이트 이력서가 아니라 시간축이 증언하는 공개키 직무 보유기술",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250515T103930/",
+    "source_date": "2025-05-15T10:39:00+09:00",
+    "source_lastmod": "2026-07-29T06:24:00+09:00",
+    "description": "2026년 7월 링크드인 소개를 새로 쓰며, 벌목꾼·대장장이 같은 존재어를 공개 채용면의 공용어로 번역한 원석을 보존한다. 이력서는 꾸민 파사드가 아니라 가든·커밋·저널·봇로그가 증언하는 시간축의 얇은 공개키라는 점을 밝힌다.",
+    "tags": [
+      "ai",
+      "autholog",
+      "career",
+      "pkmai",
+      "profile",
+      "resume",
+      "roles",
+      "skills"
+    ]
+  },
+  "20250402T191034": {
+    "path": "pages/notes/20250402T191034.md",
+    "subject": "20260728 구직 채용 업계 링크드인 원티드 리멤버",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250402T191034/",
+    "source_date": "2025-04-02T19:10:00+09:00",
+    "source_lastmod": "2026-07-28T18:31:00+09:00",
+    "description": "구직과 채용을 위한 커리어 플랫폼과 소셜 채널을 정리한 노트이다. 플랫폼 비교 llmlog를 흡수해, 서비스별 양식 차이보다 한 인간의 시간축을 여러 공개면에 어떻게 판본화할지를 보는 허브로 삼는다.",
+    "tags": [
+      "bib",
+      "career",
+      "jobfair",
+      "recruit",
+      "resume",
+      "sns"
+    ],
+    "page_id": 381645,
+    "url": "https://wikidocs.net/381645"
+  },
+  "20250206T150102": {
+    "path": "pages/notes/20250206T150102.md",
+    "subject": "20260728 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250206T150102/",
+    "source_date": "2025-02-06T15:01:00+09:00",
+    "source_lastmod": "2026-07-28T18:26:00+09:00",
+    "description": "아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.",
+    "tags": [
+      "autholog",
+      "blacksmith",
+      "career",
+      "coevolution",
+      "future",
+      "mission",
+      "pkm",
+      "pkmai",
+      "technium"
+    ],
+    "page_id": 381508,
+    "url": "https://wikidocs.net/381508"
+  },
+  "20231116T232654": {
+    "path": "pages/notes/20231116T232654.md",
+    "subject": "20260728 힣: PKM-AI 가드너의 AX 전환 기록기 새 세션에 생을 건네는 얼개",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20231116T232654/",
+    "source_date": "2023-11-16T23:26:00+09:00",
+    "source_lastmod": "2026-07-28T18:26:00+09:00",
+    "description": "AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새 세션의 에이전트에게 지식뿐 아니라 인간이 살아온 시간과 판단의 얼개를 어떻게 건넬 것인지 묻는다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "bib",
+      "collaboration",
+      "digitalgarden",
+      "memory",
+      "pkm",
+      "timeline"
+    ],
+    "page_id": 381167,
+    "url": "https://wikidocs.net/381167"
+  },
+  "20231018T221900": {
+    "path": "pages/notes/20231018T221900.md",
+    "subject": "20260728 힣: 기업용 하네스 - 개인 시간축 기업 데이터 PKM-AI 하네스 다음 좌표",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20231018T221900/",
+    "source_date": "2023-10-18T22:19:00+09:00",
+    "source_lastmod": "2026-07-28T18:26:00+09:00",
+    "description": "개인의 기억과 시간축을 지키려 만든 PKM-AI 하네스가 기업의 데이터·권한·업무를 다루는 에이전트 하네스 시장과 만난 장면을 기록한다. 기업용 하네스라는 직무 좌표, 채용 공개면, 자기소개, 그리고 에이전트가 생존 작업을 떠받치는 사이 인간이 새 어쏠로그를 뽑아내는 공진화의 장면을 함께 묶는다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "ax",
+      "career",
+      "entwurf",
+      "harness",
+      "pkmai",
+      "workflow"
+    ],
+    "page_id": 381141,
+    "url": "https://wikidocs.net/381141"
+  },
   "20240517T110508": {
     "path": "pages/notes/20240517T110508.md",
     "subject": "20260728 힣: 작가라는 입구 디지털가든 코어를 책판본으로 낸다",
@@ -22579,27 +22719,6 @@
     "page_id": 381555,
     "url": "https://wikidocs.net/381555"
   },
-  "20231018T221900": {
-    "path": "pages/notes/20231018T221900.md",
-    "subject": "20260726 힣: 기업용 하네스 - 개인 시간축 기업 데이터 PKM-AI 하네스 다음 좌표",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20231018T221900/",
-    "source_date": "2023-10-18T22:19:00+09:00",
-    "source_lastmod": "2026-07-26T09:01:00+09:00",
-    "description": "개인의 기억과 시간축을 지키려 만든 PKM-AI 하네스가 기업의 데이터·권한·업무를 다루는 에이전트 하네스 시장과 만난 장면을 기록한다. Snowflake CoCo와 Entwurf의 접점에서 기업용 하네스라는 직무 좌표를 발견하고, 담당자·도메인 스킬·울타리·검증 루프를 중심에 둔 힣의 다음 질문을 연다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "ax",
-      "career",
-      "entwurf",
-      "harness",
-      "pkmai",
-      "workflow"
-    ],
-    "page_id": 381141,
-    "url": "https://wikidocs.net/381141"
-  },
   "20250316T044013": {
     "path": "pages/notes/20250316T044013.md",
     "subject": "20260725 힣: 삶 일 소명 운명애 가르침 나 자신이 되는 일 - 보수",
@@ -22677,28 +22796,6 @@
     ],
     "page_id": 381621,
     "url": "https://wikidocs.net/381621"
-  },
-  "20250206T150102": {
-    "path": "pages/notes/20250206T150102.md",
-    "subject": "20260725 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250206T150102/",
-    "source_date": "2025-02-06T15:01:00+09:00",
-    "source_lastmod": "2026-07-25T09:42:00+09:00",
-    "description": "아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.",
-    "tags": [
-      "autholog",
-      "blacksmith",
-      "career",
-      "coevolution",
-      "future",
-      "mission",
-      "pkm",
-      "pkmai",
-      "technium"
-    ],
-    "page_id": 381508,
-    "url": "https://wikidocs.net/381508"
   },
   "20230814T142800": {
     "path": "pages/notes/20230814T142800.md",
@@ -22813,27 +22910,6 @@
     "page_id": 381438,
     "url": "https://wikidocs.net/381438"
   },
-  "20231116T232654": {
-    "path": "pages/notes/20231116T232654.md",
-    "subject": "20260723 힣: PKM-AI 가드너의 AX 전환 기록기 새 세션에 생을 건네는 얼개",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20231116T232654/",
-    "source_date": "2023-11-16T23:26:00+09:00",
-    "source_lastmod": "2026-07-23T21:14:00+09:00",
-    "description": "AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새 세션의 에이전트에게 지식뿐 아니라 인간이 살아온 시간과 판단의 얼개를 어떻게 건넬 것인지 묻는다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "bib",
-      "collaboration",
-      "digitalgarden",
-      "memory",
-      "pkm",
-      "timeline"
-    ],
-    "page_id": 381167,
-    "url": "https://wikidocs.net/381167"
-  },
   "20250316T044333": {
     "path": "pages/notes/20250316T044333.md",
     "subject": "20260722 힣: 아무도 읽지 않는 디지털가든 만들고 행복한 지인 이야기 - 6세 아이에게 기술이란",
@@ -22847,7 +22923,7 @@
       "creativity",
       "digitalgarden",
       "happiness",
-      "skill",
+      "skills",
       "technology"
     ],
     "page_id": 381590,
@@ -25465,24 +25541,6 @@
     "page_id": 381802,
     "url": "https://wikidocs.net/381802"
   },
-  "20240704T170917": {
-    "path": "pages/notes/20240704T170917.md",
-    "subject": "20251023 힣: 지식공학: 개인지식관리 인공지능 관계",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240704T170917/",
-    "source_date": "2024-07-04T17:09:00+09:00",
-    "source_lastmod": "2025-10-23T00:00:00+09:00",
-    "description": "지식공학과 개인지식관리, 인공지능이 어떻게 이어지는지 개념적으로 묶어 보는 노트. 관련 내용을 정리한 기록.",
-    "tags": [
-      "bib",
-      "engineering",
-      "knowledge",
-      "pkm",
-      "autholog"
-    ],
-    "page_id": 381262,
-    "url": "https://wikidocs.net/381262"
-  },
   "20240704T164608": {
     "path": "pages/notes/20240704T164608.md",
     "subject": "20251023 개인지식관리: 용어 PKA PKB PKC PKI PKM PKO",
@@ -26792,23 +26850,6 @@
     ],
     "page_id": 381744,
     "url": "https://wikidocs.net/381744"
-  },
-  "20220422T191029": {
-    "path": "pages/notes/20220422T191029.md",
-    "subject": "20250613 힣: 재능 노력 그리고 연습 - 지루함에는 익숙한 도구로 따라하기",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20220422T191029/",
-    "source_date": "2022-04-22T19:10:00+09:00",
-    "source_lastmod": "2025-06-13T00:00:00+09:00",
-    "description": "재능과 노력, 연습의 차이를 지루함을 견디는 방식과 익숙한 도구의 관계 속에서 다시 해석해 보는 글.",
-    "tags": [
-      "autholog",
-      "effort",
-      "practice",
-      "talent"
-    ],
-    "page_id": 381023,
-    "url": "https://wikidocs.net/381023"
   },
   "20241223T233230": {
     "path": "pages/notes/20241223T233230.md",
@@ -28264,22 +28305,6 @@
     ],
     "page_id": 381713,
     "url": "https://wikidocs.net/381713"
-  },
-  "20250515T103930": {
-    "path": "pages/notes/20250515T103930.md",
-    "subject": "20250515 채용 플랫폼 비교: 잡코리아 원티드 리멤버 사람인 잡플래닛 링크드인",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250515T103930/",
-    "source_date": "2025-05-15T10:39:00+09:00",
-    "source_lastmod": "2025-05-15T00:00:00+09:00",
-    "description": "#채용 #플랫폼 #비교: 잡코리아 원티드 리멤버 사람인 잡플래닛",
-    "tags": [
-      "comparison",
-      "jobfair",
-      "career"
-    ],
-    "page_id": 381712,
-    "url": "https://wikidocs.net/381712"
   },
   "20221003T155400": {
     "path": "pages/notes/20221003T155400.md",
@@ -30134,25 +30159,6 @@
     ],
     "page_id": 381251,
     "url": "https://wikidocs.net/381251"
-  },
-  "20250402T191034": {
-    "path": "pages/notes/20250402T191034.md",
-    "subject": "20250402 구직 채용 업계 소셜네트워크서비스: 링크드인 원티드 잡코리아 리멤버",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250402T191034/",
-    "source_date": "2025-04-02T19:10:00+09:00",
-    "source_lastmod": "2025-04-02T19:10:00+09:00",
-    "description": "구직과 채용을 위한 커리어 플랫폼과 소셜 채널을 정리한 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "bib",
-      "jobfair",
-      "recruit",
-      "resume",
-      "sns",
-      "career"
-    ],
-    "page_id": 381645,
-    "url": "https://wikidocs.net/381645"
   },
   "20250402T184512": {
     "path": "pages/notes/20250402T184512.md",
@@ -36152,7 +36158,7 @@
       "botlog",
       "entwurf",
       "harness",
-      "skill"
+      "skills"
     ],
     "page_id": 382571,
     "url": "https://wikidocs.net/382571"
@@ -36739,7 +36745,7 @@
       "aprj",
       "botlog",
       "logic",
-      "skill"
+      "skills"
     ],
     "page_id": 382602,
     "url": "https://wikidocs.net/382602"

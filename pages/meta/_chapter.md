@@ -2,6 +2,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 지식그래프 온톨로지 RDF 인식론 지식론 시맨틱웹
+
+작성 2024-05-31 · 수정 2026-07-29 · 태그 knowledge, knowledgegraph, meta, ontology, rdf, semanticweb
+
+지식그래프와 온톨로지, RDF와 시맨틱웹은 지식을 관계망과 개념 구조로 표현하며, 인식론·지식론의 질문을 계산 가능한 형식으로 잇는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240531T202141/)
+
+## 필모그래피 디스코그래피 크레딧 인용수 포트폴리오 커밋기여수 실적 프로필 커리어 이력서
+
+작성 2024-10-21 · 수정 2026-07-29 · 태그 career, contribution, credits, filmography, meta, portfolio, profile, publication, resume
+
+필모그래피, 디스코그래피, 크레딧, 포트폴리오, 커밋기여수, 실적, 프로필, 이력서처럼 사람이 남긴 작업의 궤적을 묶는 형식들을 모은다. dossier는 특정 지원 건에 이력서·포트폴리오·커버레터·증거를 한 벌로 묶는 제출 패키지 어휘로 연결한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241021T105127/)
+
+## 채용 구직 취업 서류철 제출서류 증거
+
+작성 2023-08-14 · 수정 2026-07-29 · 태그 career, dossier, jobfair, meta, recruit, resume
+
+채용 공고, 구직 플랫폼, 직무·포지션, 제출서류 묶음(dossier), 이력과 경력 정리 등 일과 커리어 이동에 필요한 자료를 모은다. Software Engineer, AI Engineer, Forward Deployed Engineer, Developer Experience Engineer 같은 공개 채용어와 job dossier 같은 제출 패키지 어휘를 힣의 가든 좌표와 연결한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230814T144500/)
+
 ## 기술 7 보유기술
 
 작성 2025-04-24 · 수정 2026-07-29 · 태그 meta, propaedia, skills, technology
@@ -17,14 +41,6 @@
 재능과 재주, 능력과 기술, 보유기술과 스킬 매트릭스, 노력과 연습은 능력이 형성되고 평가되는 과정을 함께 설명한다. 링크드인·이력서의 보유기술은 소유물이 아니라 시간축 위에서 형성되고 사용되는 능력의 공개 표면이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240414T224508/)
-
-## 채용 구직 취업
-
-작성 2023-08-14 · 수정 2026-07-29 · 태그 career, jobfair, meta, recruit, resume
-
-채용 공고, 구직 플랫폼, 직무·포지션, 이력과 경력 정리 등 일과 커리어 이동에 필요한 자료를 모은다. Software Engineer, AI Engineer, Forward Deployed Engineer, Developer Experience Engineer 같은 공개 채용어를 힣의 가든 좌표와 연결한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230814T144500/)
 
 ## 개념어 단어 용어 어휘 전문 키워드 동의어 다의어
 
@@ -121,14 +137,6 @@ OpenAI와 샘 올트먼 자료를 20250312T111024 bib 허브로 이관한 뒤 �
 그래프 데이터베이스는 노드·엣지·속성으로 관계를 직접 표현하며, 연결 자체를 중심으로 데이터를 저장하고 탐색한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240315T161448/)
-
-## 지식그래프 온톨로지 인식론 지식론 시맨틱웹
-
-작성 2024-05-31 · 수정 2026-07-22 · 태그 knowledge, knowledgegraph, meta, ontology, semanticweb
-
-지식그래프와 온톨로지는 지식을 관계망과 개념 구조로 표현하며, 인식론·지식론의 질문을 계산 가능한 형식으로 잇는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240531T202141/)
 
 ## 메타도구 대장간 대장장이 공방 호모파베르
 
@@ -362,9 +370,9 @@ AI 프롬프트는 모델의 응답 방식과 작업 결과를 좌우하는 지�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240923T134438/)
 
-## 전쟁 평화 비둘기
+## 전쟁 평화 비둘기 무기
 
-작성 2025-04-24 · 수정 2026-05-10 · 태그 meta, peace, soldier, syntopicon, war, warrior
+작성 2025-04-24 · 수정 2026-05-10 · 태그 meta, peace, soldier, syntopicon, war, warrior, weapons
 
 전쟁과 평화를 군사와 정치의 문제로만이 아니라, 기술·노동·시대 전환의 긴장까지 함께 읽는 메타 자석.
 
@@ -1225,14 +1233,6 @@ VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보
 #안드로이드 #이맥스
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230829T110900/)
-
-## 필모그래피 디스코그래피 크레딧 인용수 포트폴리오 커밋기여수 실적 프로필 커리어 이력서
-
-작성 2024-10-21 · 수정 2025-06-12 · 태그 career, contribution, credits, filmography, meta, portfolio, profile, publication, resume
-
-#필모그래피 #디스코그래피 #크레딧 #인용수 #포트폴리오 #커밋수 #기여수 #실적 #프로필
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241021T105127/)
 
 ## 자연어처리 언어
 
@@ -3458,7 +3458,7 @@ HCI는 인간과 컴퓨터가 맞닿는 인터페이스와 상호작용을 다�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250411T054535/)
 
-## 콜로폰판권
+## 콜로폰 판권
 
 작성 2025-04-11 · 수정 2025-04-11 · 태그 bib, colophon, meta, usesthis
 

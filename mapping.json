@@ -1483,6 +1483,66 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20240531T202141": {
+    "path": "pages/meta/20240531T202141.md",
+    "subject": "20260729 지식그래프 온톨로지 RDF 인식론 지식론 시맨틱웹",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240531T202141/",
+    "source_date": "2024-05-31T20:21:00+09:00",
+    "source_lastmod": "2026-07-29T14:10:00+09:00",
+    "description": "지식그래프와 온톨로지, RDF와 시맨틱웹은 지식을 관계망과 개념 구조로 표현하며, 인식론·지식론의 질문을 계산 가능한 형식으로 잇는다.",
+    "tags": [
+      "knowledge",
+      "knowledgegraph",
+      "meta",
+      "ontology",
+      "rdf",
+      "semanticweb"
+    ],
+    "page_id": 380596,
+    "url": "https://wikidocs.net/380596"
+  },
+  "20241021T105127": {
+    "path": "pages/meta/20241021T105127.md",
+    "subject": "20260729 필모그래피 디스코그래피 크레딧 인용수 포트폴리오 커밋기여수 실적 프로필 커리어 이력서",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241021T105127/",
+    "source_date": "2024-10-21T10:51:00+09:00",
+    "source_lastmod": "2026-07-29T09:47:00+09:00",
+    "description": "필모그래피, 디스코그래피, 크레딧, 포트폴리오, 커밋기여수, 실적, 프로필, 이력서처럼 사람이 남긴 작업의 궤적을 묶는 형식들을 모은다. dossier는 특정 지원 건에 이력서·포트폴리오·커버레터·증거를 한 벌로 묶는 제출 패키지 어휘로 연결한다.",
+    "tags": [
+      "career",
+      "contribution",
+      "credits",
+      "filmography",
+      "meta",
+      "portfolio",
+      "profile",
+      "publication",
+      "resume"
+    ],
+    "page_id": 380725,
+    "url": "https://wikidocs.net/380725"
+  },
+  "20230814T144500": {
+    "path": "pages/meta/20230814T144500.md",
+    "subject": "20260729 채용 구직 취업 서류철 제출서류 증거",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20230814T144500/",
+    "source_date": "2023-08-14T14:45:00+09:00",
+    "source_lastmod": "2026-07-29T09:47:00+09:00",
+    "description": "채용 공고, 구직 플랫폼, 직무·포지션, 제출서류 묶음(dossier), 이력과 경력 정리 등 일과 커리어 이동에 필요한 자료를 모은다. Software Engineer, AI Engineer, Forward Deployed Engineer, Developer Experience Engineer 같은 공개 채용어와 job dossier 같은 제출 패키지 어휘를 힣의 가든 좌표와 연결한다.",
+    "tags": [
+      "career",
+      "dossier",
+      "jobfair",
+      "meta",
+      "recruit",
+      "resume"
+    ],
+    "page_id": 380506,
+    "url": "https://wikidocs.net/380506"
+  },
   "20250424T143631": {
     "path": "pages/meta/20250424T143631.md",
     "subject": "20260729 기술 7 보유기술",
@@ -1518,24 +1578,6 @@
     ],
     "page_id": 380568,
     "url": "https://wikidocs.net/380568"
-  },
-  "20230814T144500": {
-    "path": "pages/meta/20230814T144500.md",
-    "subject": "20260729 채용 구직 취업",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20230814T144500/",
-    "source_date": "2023-08-14T14:45:00+09:00",
-    "source_lastmod": "2026-07-29T06:32:00+09:00",
-    "description": "채용 공고, 구직 플랫폼, 직무·포지션, 이력과 경력 정리 등 일과 커리어 이동에 필요한 자료를 모은다. Software Engineer, AI Engineer, Forward Deployed Engineer, Developer Experience Engineer 같은 공개 채용어를 힣의 가든 좌표와 연결한다.",
-    "tags": [
-      "career",
-      "jobfair",
-      "meta",
-      "recruit",
-      "resume"
-    ],
-    "page_id": 380506,
-    "url": "https://wikidocs.net/380506"
   },
   "20240806T124350": {
     "path": "pages/meta/20240806T124350.md",
@@ -1750,24 +1792,6 @@
     ],
     "page_id": 380562,
     "url": "https://wikidocs.net/380562"
-  },
-  "20240531T202141": {
-    "path": "pages/meta/20240531T202141.md",
-    "subject": "20260722 지식그래프 온톨로지 인식론 지식론 시맨틱웹",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240531T202141/",
-    "source_date": "2024-05-31T20:21:00+09:00",
-    "source_lastmod": "2026-07-22T18:28:00+09:00",
-    "description": "지식그래프와 온톨로지는 지식을 관계망과 개념 구조로 표현하며, 인식론·지식론의 질문을 계산 가능한 형식으로 잇는다.",
-    "tags": [
-      "knowledge",
-      "knowledgegraph",
-      "meta",
-      "ontology",
-      "semanticweb"
-    ],
-    "page_id": 380596,
-    "url": "https://wikidocs.net/380596"
   },
   "20250224T132139": {
     "path": "pages/meta/20250224T132139.md",
@@ -2304,7 +2328,7 @@
   },
   "20250424T233704": {
     "path": "pages/meta/20250424T233704.md",
-    "subject": "20260510 전쟁 평화 비둘기",
+    "subject": "20260510 전쟁 평화 비둘기 무기",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T233704/",
     "source_date": "2025-04-24T23:37:00+09:00",
@@ -2316,7 +2340,8 @@
       "soldier",
       "syntopicon",
       "war",
-      "warrior"
+      "warrior",
+      "weapons"
     ],
     "page_id": 380949,
     "url": "https://wikidocs.net/380949"
@@ -4270,28 +4295,6 @@
     ],
     "page_id": 380513,
     "url": "https://wikidocs.net/380513"
-  },
-  "20241021T105127": {
-    "path": "pages/meta/20241021T105127.md",
-    "subject": "20250612 필모그래피 디스코그래피 크레딧 인용수 포트폴리오 커밋기여수 실적 프로필 커리어 이력서",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241021T105127/",
-    "source_date": "2024-10-21T10:51:00+09:00",
-    "source_lastmod": "2025-06-12T00:00:00+09:00",
-    "description": "#필모그래피 #디스코그래피 #크레딧 #인용수 #포트폴리오 #커밋수 #기여수 #실적 #프로필",
-    "tags": [
-      "career",
-      "contribution",
-      "credits",
-      "filmography",
-      "meta",
-      "portfolio",
-      "profile",
-      "publication",
-      "resume"
-    ],
-    "page_id": 380725,
-    "url": "https://wikidocs.net/380725"
   },
   "20240524T154302": {
     "path": "pages/meta/20240524T154302.md",
@@ -9070,7 +9073,7 @@
   },
   "20250411T163844": {
     "path": "pages/meta/20250411T163844.md",
-    "subject": "20250411 콜로폰판권",
+    "subject": "20250411 콜로폰 판권",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250411T163844/",
     "source_date": "2025-04-11T16:38:00+09:00",
@@ -10918,6 +10921,191 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240214T174015": {
+    "path": "pages/bib/20240214T174015.md",
+    "subject": "20260729 김학래 온톨로지 지식그래프 시맨틱웹",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240214T174015/",
+    "source_date": "2024-02-14T17:40:00+09:00",
+    "source_lastmod": "2026-07-29T14:12:00+09:00",
+    "description": "온톨로지·지식그래프·RDF·시맨틱웹을 andenken의 임베딩 기억축과 연결해, 벡터가 여는 문 뒤에 걸어갈 관계망을 세우는 기준점이다.",
+    "tags": [
+      "bib",
+      "embedding",
+      "knowledgegraph",
+      "ontology",
+      "rdf",
+      "retrieval",
+      "semanticweb"
+    ],
+    "page_id": 381875,
+    "url": "https://wikidocs.net/381875"
+  },
+  "20240312T173738": {
+    "path": "pages/bib/20240312T173738.md",
+    "subject": "20260729 송용진 신정수 개념서 수리논리 위상수학 수학기초론 과학기술철학",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240312T173738/",
+    "source_date": "2024-03-12T17:37:00+09:00",
+    "source_lastmod": "2026-07-29T13:56:00+09:00",
+    "description": "수리논리, 위상수학, 수학기초론, 과학기술철학을 아우르는 개념서들을 모아 수학적 사고의 뼈대를 세우는 묶음이다.",
+    "tags": [
+      "ai",
+      "bib",
+      "foundation",
+      "logic",
+      "mathematics",
+      "philosophy",
+      "principle",
+      "science",
+      "technology",
+      "topology"
+    ],
+    "page_id": 381897,
+    "url": "https://wikidocs.net/381897"
+  },
+  "20240224T163743": {
+    "path": "pages/bib/20240224T163743.md",
+    "subject": "20260729 송길영 마인드마이너 시대예보 핵개인 호명시대",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240224T163743/",
+    "source_date": "2024-02-24T16:37:00+09:00",
+    "source_lastmod": "2026-07-29T13:55:00+09:00",
+    "description": "송길영은 데이터로 시대의 미세한 변화를 읽어내며 핵개인과 호명 시대를 설명하는 마인드 마이너다.",
+    "tags": [
+      "ai",
+      "author",
+      "bib",
+      "career",
+      "datascience",
+      "future",
+      "society"
+    ],
+    "page_id": 381882,
+    "url": "https://wikidocs.net/381882"
+  },
+  "20240619T143205": {
+    "path": "pages/bib/20240619T143205.md",
+    "subject": "20260729 김대식 뇌과학 인공지능 철학 예술",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240619T143205/",
+    "source_date": "2024-06-19T14:32:00+09:00",
+    "source_lastmod": "2026-07-29T13:54:00+09:00",
+    "description": "김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.",
+    "tags": [
+      "ai",
+      "arts",
+      "bib",
+      "brain",
+      "cognition",
+      "intelligence",
+      "neuroscience",
+      "philosophy"
+    ],
+    "page_id": 381984,
+    "url": "https://wikidocs.net/381984"
+  },
+  "20240312T140859": {
+    "path": "pages/bib/20240312T140859.md",
+    "subject": "20260729 민태기 조선 아인슈타인 판타레이 혁명 낭만 유체역학 과학사",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240312T140859/",
+    "source_date": "2024-03-12T14:08:00+09:00",
+    "source_lastmod": "2026-07-29T13:53:00+09:00",
+    "description": "『조선이 만난 아인슈타인』은 상대성이론 수용사를 통해 근대 조선 지식인과 과학사의 접점을 복원한 책이다.",
+    "tags": [
+      "bib",
+      "history",
+      "physics",
+      "science"
+    ],
+    "page_id": 381896,
+    "url": "https://wikidocs.net/381896"
+  },
+  "20240307T103507": {
+    "path": "pages/bib/20240307T103507.md",
+    "subject": "20260729 이종필 김상욱 물리학자 교양과학 대중서",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240307T103507/",
+    "source_date": "2024-03-07T10:35:00+09:00",
+    "source_lastmod": "2026-07-29T13:52:00+09:00",
+    "description": "이종필은 아인슈타인과 상대성이론을 일반 독자의 눈높이에서 풀어내며 물리학의 아름다움을 생활 언어로 옮긴다.",
+    "tags": [
+      "bib",
+      "physics",
+      "science"
+    ],
+    "page_id": 381893,
+    "url": "https://wikidocs.net/381893"
+  },
+  "20240515T150226": {
+    "path": "pages/bib/20240515T150226.md",
+    "subject": "20260729 제임스글릭 리처드로즈 인포메이션 정보이론 시간여행 파인만 원자폭탄만들기 핵무기",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240515T150226/",
+    "source_date": "2024-05-15T15:02:00+09:00",
+    "source_lastmod": "2026-07-29T11:49:00+09:00",
+    "description": "정보이론에서 원자폭탄 서사까지 아우르며, 정보가 인간과 우주의 질서를 어떻게 바꿨는지 조망한다.",
+    "tags": [
+      "bib",
+      "information",
+      "time",
+      "travel",
+      "weapons"
+    ],
+    "page_id": 381925,
+    "url": "https://wikidocs.net/381925"
+  },
+  "20241003T153321": {
+    "path": "pages/bib/20241003T153321.md",
+    "subject": "20260729 알베르트아인슈타인 물리학자 상대성이론",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241003T153321/",
+    "source_date": "2024-10-03T15:33:00+09:00",
+    "source_lastmod": "2026-07-29T11:47:00+09:00",
+    "description": "아인슈타인은 상대성이론의 창시자이자 평화·노동·종교를 두루 사유한 공적 지식인으로, 과학과 세계관을 함께 읽게 한다.",
+    "tags": [
+      "bib",
+      "guru",
+      "physics"
+    ],
+    "page_id": 382095,
+    "url": "https://wikidocs.net/382095"
+  },
+  "20241122T154234": {
+    "path": "pages/bib/20241122T154234.md",
+    "subject": "20260729 리처드파인만 물리학자 봉고 계산이론",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241122T154234/",
+    "source_date": "2024-11-22T15:42:00+09:00",
+    "source_lastmod": "2026-07-29T11:46:00+09:00",
+    "description": "리처드 파인만의 강의와 전기를 축으로 물리학적 상상력, 계산이론, 장난기 어린 탐구 정신을 함께 조망한다.",
+    "tags": [
+      "bib",
+      "physics"
+    ],
+    "page_id": 382159,
+    "url": "https://wikidocs.net/382159"
+  },
+  "20240815T133910": {
+    "path": "pages/bib/20240815T133910.md",
+    "subject": "20260729 제프리웨스트 스케일 - 생물 도시 기업 보편 법칙",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240815T133910/",
+    "source_date": "2024-08-15T13:39:00+09:00",
+    "source_lastmod": "2026-07-29T11:45:00+09:00",
+    "description": "생물, 도시, 기업의 성장과 죽음을 관통하는 스케일 법칙으로 복잡계의 보편 패턴을 설명한다.",
+    "tags": [
+      "bib",
+      "death",
+      "law",
+      "life",
+      "person",
+      "universal"
+    ],
+    "page_id": 382047,
+    "url": "https://wikidocs.net/382047"
+  },
   "20240326T223142": {
     "path": "pages/bib/20240326T223142.md",
     "subject": "20260727 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite",
@@ -11555,21 +11743,6 @@
     "page_id": 382533,
     "url": "https://wikidocs.net/382533"
   },
-  "20241122T154234": {
-    "path": "pages/bib/20241122T154234.md",
-    "subject": "20260603 리처드파인만 물리학자 봉고 계산이론",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241122T154234/",
-    "source_date": "2024-11-22T15:42:00+09:00",
-    "source_lastmod": "2026-06-03T09:17:00+09:00",
-    "description": "리처드 파인만의 강의와 전기를 축으로 물리학적 상상력, 계산이론, 장난기 어린 탐구 정신을 함께 조망한다.",
-    "tags": [
-      "bib",
-      "physics"
-    ],
-    "page_id": 382159,
-    "url": "https://wikidocs.net/382159"
-  },
   "20241011T134015": {
     "path": "pages/bib/20241011T134015.md",
     "subject": "20260528 폰노이만 JohnVonNeumann 천재 미래 외계인 맨해튼",
@@ -12056,25 +12229,6 @@
     ],
     "page_id": 382532,
     "url": "https://wikidocs.net/382532"
-  },
-  "20240815T133910": {
-    "path": "pages/bib/20240815T133910.md",
-    "subject": "20260416 제프리웨스트 스케일 - 생물 도시 기업 보편 법칙",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240815T133910/",
-    "source_date": "2024-08-15T13:39:00+09:00",
-    "source_lastmod": "2026-04-16T16:41:00+09:00",
-    "description": "생물, 도시, 기업의 성장과 죽음을 관통하는 스케일 법칙으로 복잡계의 보편 패턴을 설명한다.",
-    "tags": [
-      "bib",
-      "death",
-      "law",
-      "life",
-      "person",
-      "universal"
-    ],
-    "page_id": 382047,
-    "url": "https://wikidocs.net/382047"
   },
   "20240306T151520": {
     "path": "pages/bib/20240306T151520.md",
@@ -12577,7 +12731,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20260215T144023/",
     "source_date": "2026-02-15T14:40:00+09:00",
     "source_lastmod": "2026-03-22T08:59:00+09:00",
-    "description": "@안톤체호프",
+    "description": "안톤 체호프는 사소한 일상과 인간의 우스움, 비애, 연민을 짧은 형식 안에 응축해 현대 단편소설의 완성자로 불린다. 러시아 문학의 거장이라는 이름을 넘어, 웃음과 비극이 동시에 살아 있는 리얼리즘의 감각을 보여준다.",
     "tags": [
       "bib",
       "literature",
@@ -13248,23 +13402,6 @@
     "page_id": 381923,
     "url": "https://wikidocs.net/381923"
   },
-  "20240515T150226": {
-    "path": "pages/bib/20240515T150226.md",
-    "subject": "20251003 제임스글릭 리처드로즈 인포메이션 정보이론 시간여행 파인만 원자폭탄",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240515T150226/",
-    "source_date": "2024-05-15T15:02:00+09:00",
-    "source_lastmod": "2025-10-03T00:00:00+09:00",
-    "description": "정보이론에서 원자폭탄 서사까지 아우르며, 정보가 인간과 우주의 질서를 어떻게 바꿨는지 조망한다.",
-    "tags": [
-      "bib",
-      "information",
-      "time",
-      "travel"
-    ],
-    "page_id": 381925,
-    "url": "https://wikidocs.net/381925"
-  },
   "20250930T075718": {
     "path": "pages/bib/20250930T075718.md",
     "subject": "20250930 알베르카뮈 이방인",
@@ -13279,24 +13416,6 @@
     ],
     "page_id": 382501,
     "url": "https://wikidocs.net/382501"
-  },
-  "20240619T143205": {
-    "path": "pages/bib/20240619T143205.md",
-    "subject": "20250918 김대식 뇌과학 인공지능 철학 예술",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240619T143205/",
-    "source_date": "2024-06-19T14:32:00+09:00",
-    "source_lastmod": "2025-09-18T00:00:00+09:00",
-    "description": "김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.",
-    "tags": [
-      "ai",
-      "arts",
-      "bib",
-      "brain",
-      "philosophy"
-    ],
-    "page_id": 381984,
-    "url": "https://wikidocs.net/381984"
   },
   "20250830T065342": {
     "path": "pages/bib/20250830T065342.md",
@@ -15939,26 +16058,6 @@
     "page_id": 381919,
     "url": "https://wikidocs.net/381919"
   },
-  "20240312T173738": {
-    "path": "pages/bib/20240312T173738.md",
-    "subject": "20250516 송용진 신정수 개념서 수리논리 위상수학 수학기초론 과학기술철학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240312T173738/",
-    "source_date": "2024-03-12T17:37:00+09:00",
-    "source_lastmod": "2025-05-16T00:00:00+09:00",
-    "description": "수리논리, 위상수학, 수학기초론, 과학기술철학을 아우르는 개념서들을 모아 수학적 사고의 뼈대를 세우는 묶음이다.",
-    "tags": [
-      "ai",
-      "bib",
-      "mathematics",
-      "philosophy",
-      "principle",
-      "science",
-      "technology"
-    ],
-    "page_id": 381897,
-    "url": "https://wikidocs.net/381897"
-  },
   "20250515T153224": {
     "path": "pages/bib/20250515T153224.md",
     "subject": "20250515 아난드기리다라다스 엘리트 독식 사회 - 세상을 바꾸겠다는 그들의 열망과 위선",
@@ -18599,7 +18698,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20241004T120828/",
     "source_date": "2024-10-04T12:08:00+09:00",
     "source_lastmod": "2025-03-27T00:00:00+09:00",
-    "description": "joyHong님 연재글 정리",
+    "description": "joyHong의 글은 지식그래프·온톨로지·추론을 LLM 시대의 문제와 연결해 설명하며, 구조화된 지식이 왜 다시 중요해지는지 보여준다. 팔란티어 사례와 함께 읽으면 개념이 더 구체화된다.",
     "tags": [
       "bib",
       "knowledgegraph",
@@ -21031,23 +21130,6 @@
     "page_id": 382184,
     "url": "https://wikidocs.net/382184"
   },
-  "20240214T174015": {
-    "path": "pages/bib/20240214T174015.md",
-    "subject": "20241209 김학래 온톨로지 지식그래프 시맨틱웹",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240214T174015/",
-    "source_date": "2024-02-14T17:40:00+09:00",
-    "source_lastmod": "2024-12-09T13:35:00+09:00",
-    "description": "김학래는 온톨로지와 지식그래프, 시맨틱웹의 핵심 개념을 엮어 기계가 이해하는 지식 구조를 체계적으로 설명한다.",
-    "tags": [
-      "bib",
-      "knowledgegraph",
-      "ontology",
-      "semanticweb"
-    ],
-    "page_id": 381875,
-    "url": "https://wikidocs.net/381875"
-  },
   "20241106T231129": {
     "path": "pages/bib/20241106T231129.md",
     "subject": "20241209 모리스클라인 수학의확실성 수학기초론 역사",
@@ -21120,38 +21202,6 @@
     ],
     "page_id": 381892,
     "url": "https://wikidocs.net/381892"
-  },
-  "20240224T163743": {
-    "path": "pages/bib/20240224T163743.md",
-    "subject": "20241208 송길영 마인드마이너 시대예보 핵개인 호명시대",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240224T163743/",
-    "source_date": "2024-02-24T16:37:00+09:00",
-    "source_lastmod": "2024-12-08T22:31:00+09:00",
-    "description": "송길영은 데이터로 시대의 미세한 변화를 읽어내며 핵개인과 호명 시대를 설명하는 마인드 마이너다.",
-    "tags": [
-      "author",
-      "bib",
-      "person"
-    ],
-    "page_id": 381882,
-    "url": "https://wikidocs.net/381882"
-  },
-  "20241003T153321": {
-    "path": "pages/bib/20241003T153321.md",
-    "subject": "20241207 알베르트아인슈타인 물리학자 상대성이론",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241003T153321/",
-    "source_date": "2024-10-03T15:33:00+09:00",
-    "source_lastmod": "2024-12-07T07:42:00+09:00",
-    "description": "아인슈타인은 상대성이론의 창시자이자 평화·노동·종교를 두루 사유한 공적 지식인으로, 과학과 세계관을 함께 읽게 한다.",
-    "tags": [
-      "bib",
-      "guru",
-      "physics"
-    ],
-    "page_id": 382095,
-    "url": "https://wikidocs.net/382095"
   },
   "20241022T043406": {
     "path": "pages/bib/20241022T043406.md",
@@ -22168,21 +22218,6 @@
     "page_id": 381900,
     "url": "https://wikidocs.net/381900"
   },
-  "20240312T140859": {
-    "path": "pages/bib/20240312T140859.md",
-    "subject": "20241201 민태기 조선이 만난 아인슈타인",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240312T140859/",
-    "source_date": "2024-03-12T14:08:00+09:00",
-    "source_lastmod": "2024-12-01T06:33:00+09:00",
-    "description": "『조선이 만난 아인슈타인』은 상대성이론 수용사를 통해 근대 조선 지식인과 과학사의 접점을 복원한 책이다.",
-    "tags": [
-      "bib",
-      "physics"
-    ],
-    "page_id": 381896,
-    "url": "https://wikidocs.net/381896"
-  },
   "20240305T064621": {
     "path": "pages/bib/20240305T064621.md",
     "subject": "20241201 지미소니 클로드섀넌 디지털 세상을 설계하다",
@@ -22279,20 +22314,143 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
-  "20240307T103507": {
-    "path": "pages/bib/20240307T103507.md",
-    "subject": "20240307 이종필: 아인슈타인 물리학 대중과학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240307T103507/",
-    "source_date": "2024-03-07T10:35:00+09:00",
-    "source_lastmod": "2024-03-07T10:35:00+09:00",
-    "description": "이종필은 아인슈타인과 상대성이론을 일반 독자의 눈높이에서 풀어내며 물리학의 아름다움을 생활 언어로 옮긴다.",
+  "20250326T151413": {
+    "path": "pages/notes/20250326T151413.md",
+    "subject": "20260729 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙 탐구",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250326T151413/",
+    "source_date": "2025-03-26T15:14:00+09:00",
+    "source_lastmod": "2026-07-29T18:09:00+09:00",
+    "description": "PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, 축적과 밀도라는 두 트랙으로 갈라 에이전트가 길을 잃지 않게 하는 북극성 autholog이다.",
     "tags": [
-      "bib",
-      "physics"
+      "ai",
+      "autholog",
+      "coevolution",
+      "harness",
+      "metahuman",
+      "pkm",
+      "reproducibility"
     ],
-    "page_id": 381893,
-    "url": "https://wikidocs.net/381893"
+    "page_id": 381621,
+    "url": "https://wikidocs.net/381621"
+  },
+  "20250206T150102": {
+    "path": "pages/notes/20250206T150102.md",
+    "subject": "20260729 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250206T150102/",
+    "source_date": "2025-02-06T15:01:00+09:00",
+    "source_lastmod": "2026-07-29T17:50:00+09:00",
+    "description": "아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.",
+    "tags": [
+      "autholog",
+      "blacksmith",
+      "career",
+      "coevolution",
+      "dossier",
+      "future",
+      "mission",
+      "pkm",
+      "pkmai",
+      "technium"
+    ],
+    "page_id": 381508,
+    "url": "https://wikidocs.net/381508"
+  },
+  "20250214T145957": {
+    "path": "pages/notes/20250214T145957.md",
+    "subject": "20260729 힣: 왜 나는 지식그래프를 계속 묻는가 문과 길, 자석과 살아 있는 프로피디아",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250214T145957/",
+    "source_date": "2025-02-14T14:59:00+09:00",
+    "source_lastmod": "2026-07-29T17:48:00+09:00",
+    "description": "Folgezettel 시그니처로 이미 붙인 지식 주소를 발견하고, 임베딩의 문·자석의 길·프로피디아의 공용 지형·시간축의 삶을 하나의 작동으로 잇는다.",
+    "tags": [
+      "autholog",
+      "denote",
+      "embedding",
+      "folgezettel",
+      "knowledgegraph",
+      "ontology",
+      "propaedia",
+      "syntopicon",
+      "zettelkasten"
+    ]
+  },
+  "20250316T044013": {
+    "path": "pages/notes/20250316T044013.md",
+    "subject": "20260729 힣: 삶 일 소명 운명애 가르침 나 자신이 되는 일 - 보수",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250316T044013/",
+    "source_date": "2025-03-16T04:40:00+09:00",
+    "source_lastmod": "2026-07-29T16:13:00+09:00",
+    "description": "생존을 위한 일과 나 자신이 되는 소명 사이에서 보수, 가르침, 몰입, 운명애가 어떻게 한 삶으로 합쳐지는지 묻는 어쏠로그.",
+    "tags": [
+      "autholog",
+      "autotelic",
+      "education",
+      "eudaimonia",
+      "flow",
+      "happiness",
+      "master",
+      "salary"
+    ],
+    "page_id": 381589,
+    "url": "https://wikidocs.net/381589"
+  },
+  "20241210T161853": {
+    "path": "pages/notes/20241210T161853.md",
+    "subject": "20260729 힣: 일이란 무엇인가 최선·자기목적성·소명을 묻던 화두",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241210T161853/",
+    "source_date": "2024-12-10T16:18:00+09:00",
+    "source_lastmod": "2026-07-29T16:00:00+09:00",
+    "description": "일이란 무엇이며 최선을 다한다는 것은 무엇인지 묻던 2024~2025년의 초기 화두를 보존한다. 자기목적성·몰입·운명애·소명을 자기소모나 무급 헌신으로 오독하지 않고, 이미 하던 일이 생존 가능한 보수와 조건을 만나는 길을 다시 읽는다.",
+    "tags": [
+      "autholog",
+      "autotelic",
+      "bib",
+      "fate",
+      "flow",
+      "mission",
+      "workhard"
+    ],
+    "page_id": 381423,
+    "url": "https://wikidocs.net/381423"
+  },
+  "20241221T112215": {
+    "path": "pages/notes/20241221T112215.md",
+    "subject": "20260729 힣: 원형의 새벽 일부러 할 수 없는 스승, 보편도구와 엑스맨 연결",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241221T112215/",
+    "source_date": "2024-12-21T11:22:00+09:00",
+    "source_lastmod": "2026-07-29T15:33:00+09:00",
+    "description": "한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.",
+    "tags": [
+      "agi",
+      "archetypes",
+      "autholog",
+      "polymath"
+    ],
+    "page_id": 381459,
+    "url": "https://wikidocs.net/381459"
+  },
+  "20241213T163320": {
+    "path": "pages/notes/20241213T163320.md",
+    "subject": "20260729 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241213T163320/",
+    "source_date": "2024-12-13T16:33:00+09:00",
+    "source_lastmod": "2026-07-29T11:40:00+09:00",
+    "description": "전쟁과 원자폭탄, 인공지능을 같은 것이라 뭉개지 않고, 인간이 만든 거대한 힘 앞에서 스승·헌신·책임·스케일 감각을 함께 묻는 autholog다.",
+    "tags": [
+      "ai",
+      "autholog",
+      "paradigm",
+      "war"
+    ],
+    "page_id": 381435,
+    "url": "https://wikidocs.net/381435"
   },
   "20240704T170917": {
     "path": "pages/notes/20240704T170917.md",
@@ -22308,7 +22466,8 @@
       "bib",
       "engineering",
       "knowledge",
-      "pkm"
+      "pkm",
+      "pkmai"
     ],
     "page_id": 381262,
     "url": "https://wikidocs.net/381262"
@@ -22371,31 +22530,9 @@
     "page_id": 381645,
     "url": "https://wikidocs.net/381645"
   },
-  "20250206T150102": {
-    "path": "pages/notes/20250206T150102.md",
-    "subject": "20260728 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250206T150102/",
-    "source_date": "2025-02-06T15:01:00+09:00",
-    "source_lastmod": "2026-07-28T18:26:00+09:00",
-    "description": "아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.",
-    "tags": [
-      "autholog",
-      "blacksmith",
-      "career",
-      "coevolution",
-      "future",
-      "mission",
-      "pkm",
-      "pkmai",
-      "technium"
-    ],
-    "page_id": 381508,
-    "url": "https://wikidocs.net/381508"
-  },
   "20231116T232654": {
     "path": "pages/notes/20231116T232654.md",
-    "subject": "20260728 힣: PKM-AI 가드너의 AX 전환 기록기 새 세션에 생을 건네는 얼개",
+    "subject": "20260728 힣: PKM-AI 가드너의 AX 전환 기록기 새 세션에 생을 건네는 얼개 깊이",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20231116T232654/",
     "source_date": "2023-11-16T23:26:00+09:00",
@@ -22409,6 +22546,7 @@
       "digitalgarden",
       "memory",
       "pkm",
+      "pkmai",
       "timeline"
     ],
     "page_id": 381167,
@@ -22647,40 +22785,6 @@
     "page_id": 387072,
     "url": "https://wikidocs.net/387072"
   },
-  "20241221T112215": {
-    "path": "pages/notes/20241221T112215.md",
-    "subject": "20260727 힣: 원형의 새벽 일부러 할 수 없는 스승, 보편도구와 엑스맨 연결",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241221T112215/",
-    "source_date": "2024-12-21T11:22:00+09:00",
-    "source_lastmod": "2026-07-27T10:38:00+09:00",
-    "description": "한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.",
-    "tags": [
-      "agi",
-      "archetypes",
-      "autholog",
-      "polymath"
-    ],
-    "page_id": 381459,
-    "url": "https://wikidocs.net/381459"
-  },
-  "20241213T163320": {
-    "path": "pages/notes/20241213T163320.md",
-    "subject": "20260727 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241213T163320/",
-    "source_date": "2024-12-13T16:33:00+09:00",
-    "source_lastmod": "2026-07-27T10:38:00+09:00",
-    "description": "전쟁과 원자폭탄, 인공지능을 기술 하나의 등장이 아니라 인간의 앎과 세계질서가 바뀌는 시대 전환으로 함께 묻기 시작한 2024년의 원석이다. 자기 없는 변화와 내어놓음, 헌신이라는 짧은 씨앗을 향후 원문으로 다시 서술할 방이다.",
-    "tags": [
-      "ai",
-      "autholog",
-      "paradigm",
-      "war"
-    ],
-    "page_id": 381435,
-    "url": "https://wikidocs.net/381435"
-  },
   "20251030T011108": {
     "path": "pages/notes/20251030T011108.md",
     "subject": "20260727 힣: 보이지 않는 편지 파란빛 아래 온생명이 우주에 띄운 사랑",
@@ -22721,27 +22825,6 @@
     "page_id": 381555,
     "url": "https://wikidocs.net/381555"
   },
-  "20250316T044013": {
-    "path": "pages/notes/20250316T044013.md",
-    "subject": "20260725 힣: 삶 일 소명 운명애 가르침 나 자신이 되는 일 - 보수",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250316T044013/",
-    "source_date": "2025-03-16T04:40:00+09:00",
-    "source_lastmod": "2026-07-25T09:45:00+09:00",
-    "description": "생존을 위한 일과 나 자신이 되는 소명 사이에서 보수, 가르침, 몰입, 운명애가 어떻게 한 삶으로 합쳐지는지 묻는 어쏠로그.",
-    "tags": [
-      "autholog",
-      "autotelic",
-      "education",
-      "eudaimonia",
-      "flow",
-      "happiness",
-      "master",
-      "salary"
-    ],
-    "page_id": 381589,
-    "url": "https://wikidocs.net/381589"
-  },
   "20250213T105806": {
     "path": "pages/notes/20250213T105806.md",
     "subject": "20260725 힣: 아무도 읽지 않는 블로그 디지털가든 왜 공개 하는가",
@@ -22758,46 +22841,6 @@
     ],
     "page_id": 381520,
     "url": "https://wikidocs.net/381520"
-  },
-  "20241210T161853": {
-    "path": "pages/notes/20241210T161853.md",
-    "subject": "20260725 힣: 일이란 무엇인가 최선·자기목적성·소명을 묻던 화두",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241210T161853/",
-    "source_date": "2024-12-10T16:18:00+09:00",
-    "source_lastmod": "2026-07-25T09:45:00+09:00",
-    "description": "일이란 무엇이며 최선을 다한다는 것은 무엇인지 묻던 2024~2025년의 초기 화두를 보존한다. 자기목적성·몰입·운명애·소명을 자기소모나 무급 헌신으로 오독하지 않고, 이미 하던 일이 생존 가능한 보수와 조건을 만나는 길을 다시 읽는다.",
-    "tags": [
-      "autholog",
-      "autotelic",
-      "bib",
-      "fate",
-      "flow",
-      "mission",
-      "workhard"
-    ],
-    "page_id": 381423,
-    "url": "https://wikidocs.net/381423"
-  },
-  "20250326T151413": {
-    "path": "pages/notes/20250326T151413.md",
-    "subject": "20260725 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙 탐구",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250326T151413/",
-    "source_date": "2025-03-26T15:14:00+09:00",
-    "source_lastmod": "2026-07-25T09:42:00+09:00",
-    "description": "PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, 축적과 밀도라는 두 트랙으로 갈라 에이전트가 길을 잃지 않게 하는 북극성 autholog이다.",
-    "tags": [
-      "ai",
-      "autholog",
-      "coevolution",
-      "harness",
-      "metahuman",
-      "pkm",
-      "reproducibility"
-    ],
-    "page_id": 381621,
-    "url": "https://wikidocs.net/381621"
   },
   "20230814T142800": {
     "path": "pages/notes/20230814T142800.md",
@@ -22981,12 +23024,14 @@
       "architecture",
       "autholog",
       "context",
+      "folgezettel",
       "graphdb",
       "harness",
       "knowledgegraph",
       "mcp",
       "memory",
       "ontology",
+      "pkg",
       "pkmai"
     ],
     "page_id": 381801,
@@ -23432,10 +23477,8 @@
     "description": "앤트로픽의 J-space 논문, 케빈켈리의 창발 자아 루프, 그리고 exoself를 한 시간축에 묶어 Claude 안쪽과 인간 바깥쪽의 작업공간을 함께 읽는다.",
     "tags": [
       "ai",
-      "anthropic",
       "autholog",
       "bib",
-      "claude",
       "emergence",
       "exoself",
       "technium"
@@ -23967,12 +24010,11 @@
     "description": "케빈 켈리의 「The Emergent Self Loop」(2026-05-12)와 힣이 2025-12 앤트로픽 인터뷰에서 같이 본다.",
     "tags": [
       "ai",
-      "anthropic",
       "autholog",
       "bib",
-      "claude",
       "emergence",
       "entwurf",
+      "metahuman",
       "soul",
       "technium"
     ],
@@ -24437,25 +24479,6 @@
     ],
     "page_id": 381567,
     "url": "https://wikidocs.net/381567"
-  },
-  "20250214T145957": {
-    "path": "pages/notes/20250214T145957.md",
-    "subject": "20260330 지식그래프 검색증강생성 RAG의 의미 전환 LLM 보조에서 분신의 기억으로",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250214T145957/",
-    "source_date": "2025-02-14T14:59:00+09:00",
-    "source_lastmod": "2026-03-30T11:50:00+09:00",
-    "description": "RAG가 단순 보조 도구에서 분신의 기억 인프라로 바뀌는 의미 전환을 다룬 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "augmented",
-      "bib",
-      "generation",
-      "knowledgegraph",
-      "rag",
-      "retrieval"
-    ],
-    "page_id": 381529,
-    "url": "https://wikidocs.net/381529"
   },
   "20231005T135300": {
     "path": "pages/notes/20231005T135300.md",
@@ -27032,20 +27055,14 @@
   },
   "20240601T210854": {
     "path": "pages/notes/20240601T210854.md",
-    "subject": "20250607 프로젝트: 이맥스 AI 코딩도구 : 코파일럿 바이브코딩",
+    "subject": "20250607 임시 빈방",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20240601T210854/",
     "source_date": "2024-06-01T21:08:00+09:00",
     "source_lastmod": "2025-06-07T00:00:00+09:00",
     "description": "이맥스 안에서 코파일럿과 AI 코딩 도구를 어떻게 페어 프로그래밍에 쓸지 탐색한 프로젝트 노트.",
     "tags": [
-      "ai",
-      "bib",
-      "copilot",
-      "emacs",
-      "pair",
-      "programming",
-      "vibecoding"
+      "temp"
     ],
     "page_id": 381235,
     "url": "https://wikidocs.net/381235"
@@ -27438,16 +27455,14 @@
   },
   "20250601T145258": {
     "path": "pages/notes/20250601T145258.md",
-    "subject": "20250601 바이브코딩: 파이썬 2주 실무 커리큘럼 예제 - 커서 이맥스",
+    "subject": "20250601 임시 빈방",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250601T145258/",
     "source_date": "2025-06-01T14:52:00+09:00",
     "source_lastmod": "2025-06-01T14:52:00+09:00",
     "description": "#바이브코딩: 커서 파이썬 2주 실무 커리큘럼 예제",
     "tags": [
-      "vibecoding",
-      "training",
-      "python"
+      "temp"
     ],
     "page_id": 381736,
     "url": "https://wikidocs.net/381736"

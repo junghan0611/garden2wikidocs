@@ -2,6 +2,86 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 김학래 온톨로지 지식그래프 시맨틱웹
+
+작성 2024-02-14 · 수정 2026-07-29 · 태그 bib, embedding, knowledgegraph, ontology, rdf, retrieval, semanticweb
+
+온톨로지·지식그래프·RDF·시맨틱웹을 andenken의 임베딩 기억축과 연결해, 벡터가 여는 문 뒤에 걸어갈 관계망을 세우는 기준점이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240214T174015/)
+
+## 송용진 신정수 개념서 수리논리 위상수학 수학기초론 과학기술철학
+
+작성 2024-03-12 · 수정 2026-07-29 · 태그 ai, bib, foundation, logic, mathematics, philosophy, principle, science, technology, topology
+
+수리논리, 위상수학, 수학기초론, 과학기술철학을 아우르는 개념서들을 모아 수학적 사고의 뼈대를 세우는 묶음이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240312T173738/)
+
+## 송길영 마인드마이너 시대예보 핵개인 호명시대
+
+작성 2024-02-24 · 수정 2026-07-29 · 태그 ai, author, bib, career, datascience, future, society
+
+송길영은 데이터로 시대의 미세한 변화를 읽어내며 핵개인과 호명 시대를 설명하는 마인드 마이너다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240224T163743/)
+
+## 김대식 뇌과학 인공지능 철학 예술
+
+작성 2024-06-19 · 수정 2026-07-29 · 태그 ai, arts, bib, brain, cognition, intelligence, neuroscience, philosophy
+
+김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240619T143205/)
+
+## 민태기 조선 아인슈타인 판타레이 혁명 낭만 유체역학 과학사
+
+작성 2024-03-12 · 수정 2026-07-29 · 태그 bib, history, physics, science
+
+『조선이 만난 아인슈타인』은 상대성이론 수용사를 통해 근대 조선 지식인과 과학사의 접점을 복원한 책이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240312T140859/)
+
+## 이종필 김상욱 물리학자 교양과학 대중서
+
+작성 2024-03-07 · 수정 2026-07-29 · 태그 bib, physics, science
+
+이종필은 아인슈타인과 상대성이론을 일반 독자의 눈높이에서 풀어내며 물리학의 아름다움을 생활 언어로 옮긴다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240307T103507/)
+
+## 제임스글릭 리처드로즈 인포메이션 정보이론 시간여행 파인만 원자폭탄만들기 핵무기
+
+작성 2024-05-15 · 수정 2026-07-29 · 태그 bib, information, time, travel, weapons
+
+정보이론에서 원자폭탄 서사까지 아우르며, 정보가 인간과 우주의 질서를 어떻게 바꿨는지 조망한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240515T150226/)
+
+## 알베르트아인슈타인 물리학자 상대성이론
+
+작성 2024-10-03 · 수정 2026-07-29 · 태그 bib, guru, physics
+
+아인슈타인은 상대성이론의 창시자이자 평화·노동·종교를 두루 사유한 공적 지식인으로, 과학과 세계관을 함께 읽게 한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241003T153321/)
+
+## 리처드파인만 물리학자 봉고 계산이론
+
+작성 2024-11-22 · 수정 2026-07-29 · 태그 bib, physics
+
+리처드 파인만의 강의와 전기를 축으로 물리학적 상상력, 계산이론, 장난기 어린 탐구 정신을 함께 조망한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241122T154234/)
+
+## 제프리웨스트 스케일 - 생물 도시 기업 보편 법칙
+
+작성 2024-08-15 · 수정 2026-07-29 · 태그 bib, death, law, life, person, universal
+
+생물, 도시, 기업의 성장과 죽음을 관통하는 스케일 법칙으로 복잡계의 보편 패턴을 설명한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240815T133910/)
+
 ## 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite
 
 작성 2024-03-26 · 수정 2026-07-27 · 태그 bib, digitalgarden, indieweb, inquiry, now, person, philosophy, preservation, questions
@@ -258,14 +338,6 @@ U.G.와 지두 크리슈나무르티가 공유한 길 없음과, 관찰·가르�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260611T135000/)
 
-## 리처드파인만 물리학자 봉고 계산이론
-
-작성 2024-11-22 · 수정 2026-06-03 · 태그 bib, physics
-
-리처드 파인만의 강의와 전기를 축으로 물리학적 상상력, 계산이론, 장난기 어린 탐구 정신을 함께 조망한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241122T154234/)
-
 ## 폰노이만 JohnVonNeumann 천재 미래 외계인 맨해튼
 
 작성 2024-10-11 · 수정 2026-05-28 · 태그 architecture, bib, computer, computing, theory
@@ -490,14 +562,6 @@ Daniel Kahneman의 Thinking, Fast and Slow는 behavioral economics, cognitive bi
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260417T114051/)
 
-## 제프리웨스트 스케일 - 생물 도시 기업 보편 법칙
-
-작성 2024-08-15 · 수정 2026-04-16 · 태그 bib, death, law, life, person, universal
-
-생물, 도시, 기업의 성장과 죽음을 관통하는 스케일 법칙으로 복잡계의 보편 패턴을 설명한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240815T133910/)
-
 ## 에릭재슬로 양적추론 - 숫자 직관 사고실험
 
 작성 2024-03-06 · 수정 2026-04-15 · 태그 bib, intuition, reasoning
@@ -718,7 +782,7 @@ pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Arm
 
 작성 2026-02-15 · 수정 2026-03-22 · 태그 bib, literature, novel, shortstory
 
-@안톤체호프
+안톤 체호프는 사소한 일상과 인간의 우스움, 비애, 연민을 짧은 형식 안에 응축해 현대 단편소설의 완성자로 불린다. 러시아 문학의 거장이라는 이름을 넘어, 웃음과 비극이 동시에 살아 있는 리얼리즘의 감각을 보여준다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260215T144023/)
 
@@ -1042,14 +1106,6 @@ Emanuel Jeff는 beads의 Rust 포팅과 멀티에이전트 오케스트레이션
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240515T121928/)
 
-## 제임스글릭 리처드로즈 인포메이션 정보이론 시간여행 파인만 원자폭탄
-
-작성 2024-05-15 · 수정 2025-10-03 · 태그 bib, information, time, travel
-
-정보이론에서 원자폭탄 서사까지 아우르며, 정보가 인간과 우주의 질서를 어떻게 바꿨는지 조망한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240515T150226/)
-
 ## 알베르카뮈 이방인
 
 작성 2025-09-30 · 수정 2025-09-30 · 태그 novel, bib
@@ -1057,14 +1113,6 @@ Emanuel Jeff는 beads의 Rust 포팅과 멀티에이전트 오케스트레이션
 @알베르카뮈 이방인
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250930T075718/)
-
-## 김대식 뇌과학 인공지능 철학 예술
-
-작성 2024-06-19 · 수정 2025-09-18 · 태그 ai, arts, bib, brain, philosophy
-
-김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240619T143205/)
 
 ## 앤서니그레일링 지식의 최전선 - 고고학 경계 과학 역사 조망
 
@@ -2289,14 +2337,6 @@ Cursor와 Windsurf 같은 AI IDE는 GUI 기반 코딩 에이전트가 개발 흐
 현상학과 일반체계이론을 함께 읽으며 학문이 서로 돕는 보편 학문 이론의 가능성을 탐색한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240508T112324/)
-
-## 송용진 신정수 개념서 수리논리 위상수학 수학기초론 과학기술철학
-
-작성 2024-03-12 · 수정 2025-05-16 · 태그 ai, bib, mathematics, philosophy, principle, science, technology
-
-수리논리, 위상수학, 수학기초론, 과학기술철학을 아우르는 개념서들을 모아 수학적 사고의 뼈대를 세우는 묶음이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240312T173738/)
 
 ## 아난드기리다라다스 엘리트 독식 사회 - 세상을 바꾸겠다는 그들의 열망과 위선
 
@@ -3564,7 +3604,7 @@ defrecord는 클로저·하이·조직모드·AI를 엮어 기술서 지식베�
 
 작성 2024-10-04 · 수정 2025-03-27 · 태그 bib, knowledgegraph, llm, ontology, reasoning
 
-joyHong님 연재글 정리
+joyHong의 글은 지식그래프·온톨로지·추론을 LLM 시대의 문제와 연결해 설명하며, 구조화된 지식이 왜 다시 중요해지는지 보여준다. 팔란티어 사례와 함께 읽으면 개념이 더 구체화된다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241004T120828/)
 
@@ -4776,14 +4816,6 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241209T163938/)
 
-## 김학래 온톨로지 지식그래프 시맨틱웹
-
-작성 2024-02-14 · 수정 2024-12-09 · 태그 bib, knowledgegraph, ontology, semanticweb
-
-김학래는 온톨로지와 지식그래프, 시맨틱웹의 핵심 개념을 엮어 기계가 이해하는 지식 구조를 체계적으로 설명한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240214T174015/)
-
 ## 모리스클라인 수학의확실성 수학기초론 역사
 
 작성 2024-11-06 · 수정 2024-12-09 · 태그 bib, mathematics
@@ -4823,22 +4855,6 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 우쥔은 수학의 아이디어가 검색, 언어처리, 알고리즘 같은 컴퓨팅 문제를 어떻게 푸는지 명료하게 설명한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240306T155325/)
-
-## 송길영 마인드마이너 시대예보 핵개인 호명시대
-
-작성 2024-02-24 · 수정 2024-12-08 · 태그 author, bib, person
-
-송길영은 데이터로 시대의 미세한 변화를 읽어내며 핵개인과 호명 시대를 설명하는 마인드 마이너다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240224T163743/)
-
-## 알베르트아인슈타인 물리학자 상대성이론
-
-작성 2024-10-03 · 수정 2024-12-07 · 태그 bib, guru, physics
-
-아인슈타인은 상대성이론의 창시자이자 평화·노동·종교를 두루 사유한 공적 지식인으로, 과학과 세계관을 함께 읽게 한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241003T153321/)
 
 ## 필부아시에르 Thriving with Adult ADHD 실리콘밸리 잠재력
 
@@ -5376,14 +5392,6 @@ countvajhula의 drym 실험은 이맥스 생태계에서 유지보수와 보상 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240318T120005/)
 
-## 민태기 조선이 만난 아인슈타인
-
-작성 2024-03-12 · 수정 2024-12-01 · 태그 bib, physics
-
-『조선이 만난 아인슈타인』은 상대성이론 수용사를 통해 근대 조선 지식인과 과학사의 접점을 복원한 책이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240312T140859/)
-
 ## 지미소니 클로드섀넌 디지털 세상을 설계하다
 
 작성 2024-03-05 · 수정 2024-12-01 · 태그 bib, information
@@ -5431,13 +5439,5 @@ Sacha Chua는 이맥스, 개인지식관리, 뉴스레터 실천을 꾸준히 �
 데이터 과학자가 꼭 알아야 할 통계 개념을 파이썬과 R 예제로 추려서 설명하는 실용 입문서다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240617T120208/)
-
-## 이종필: 아인슈타인 물리학 대중과학
-
-작성 2024-03-07 · 수정 2024-03-07 · 태그 bib, physics
-
-이종필은 아인슈타인과 상대성이론을 일반 독자의 눈높이에서 풀어내며 물리학의 아름다움을 생활 언어로 옮긴다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240307T103507/)
 
 <!-- chapter-index:recent-first:end -->

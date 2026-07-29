@@ -2,9 +2,65 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙 탐구
+
+작성 2025-03-26 · 수정 2026-07-29 · 태그 ai, autholog, coevolution, harness, metahuman, pkm, reproducibility
+
+PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, 축적과 밀도라는 두 트랙으로 갈라 에이전트가 길을 잃지 않게 하는 북극성 autholog이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381621)
+
+## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표
+
+작성 2025-02-06 · 수정 2026-07-29 · 태그 autholog, blacksmith, career, coevolution, dossier, future, mission, pkm, pkmai, technium
+
+아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381508)
+
+## 힣: 왜 나는 지식그래프를 계속 묻는가 문과 길, 자석과 살아 있는 프로피디아
+
+작성 2025-02-14 · 수정 2026-07-29 · 태그 autholog, denote, embedding, folgezettel, knowledgegraph, ontology, propaedia, syntopicon, zettelkasten
+
+Folgezettel 시그니처로 이미 붙인 지식 주소를 발견하고, 임베딩의 문·자석의 길·프로피디아의 공용 지형·시간축의 삶을 하나의 작동으로 잇는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T145957/)
+
+## 힣: 삶 일 소명 운명애 가르침 나 자신이 되는 일 - 보수
+
+작성 2025-03-16 · 수정 2026-07-29 · 태그 autholog, autotelic, education, eudaimonia, flow, happiness, master, salary
+
+생존을 위한 일과 나 자신이 되는 소명 사이에서 보수, 가르침, 몰입, 운명애가 어떻게 한 삶으로 합쳐지는지 묻는 어쏠로그.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381589)
+
+## 힣: 일이란 무엇인가 최선·자기목적성·소명을 묻던 화두
+
+작성 2024-12-10 · 수정 2026-07-29 · 태그 autholog, autotelic, bib, fate, flow, mission, workhard
+
+일이란 무엇이며 최선을 다한다는 것은 무엇인지 묻던 2024~2025년의 초기 화두를 보존한다. 자기목적성·몰입·운명애·소명을 자기소모나 무급 헌신으로 오독하지 않고, 이미 하던 일이 생존 가능한 보수와 조건을 만나는 길을 다시 읽는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381423)
+
+## 힣: 원형의 새벽 일부러 할 수 없는 스승, 보편도구와 엑스맨 연결
+
+작성 2024-12-21 · 수정 2026-07-29 · 태그 agi, archetypes, autholog, polymath
+
+한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381459)
+
+## 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대
+
+작성 2024-12-13 · 수정 2026-07-29 · 태그 ai, autholog, paradigm, war
+
+전쟁과 원자폭탄, 인공지능을 같은 것이라 뭉개지 않고, 인간이 만든 거대한 힘 앞에서 스승·헌신·책임·스케일 감각을 함께 묻는 autholog다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381435)
+
 ## 힣: 지식공학 개인지식관리·인공지능·PKM-AI 하네스의 관계
 
-작성 2024-07-04 · 수정 2026-07-29 · 태그 ai, autholog, bib, engineering, knowledge, pkm
+작성 2024-07-04 · 수정 2026-07-29 · 태그 ai, autholog, bib, engineering, knowledge, pkm, pkmai
 
 지식공학을 개인지식관리와 인공지능 사이의 오래된 용어로만 두지 않고, 2026년 PKM-AI 하네스와 링크드인 보유기술의 Knowledge Engineering 축으로 다시 연결한다. 원문 메모와 에이전트 해설을 분리해, 기억·검색·시간축·도메인 지식을 다루는 기술이 힣의 가든에서 어떻게 직무 언어가 되는지 정리한다.
 
@@ -34,17 +90,9 @@
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250402T191034/)
 
-## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표
+## 힣: PKM-AI 가드너의 AX 전환 기록기 새 세션에 생을 건네는 얼개 깊이
 
-작성 2025-02-06 · 수정 2026-07-28 · 태그 autholog, blacksmith, career, coevolution, future, mission, pkm, pkmai, technium
-
-아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381508)
-
-## 힣: PKM-AI 가드너의 AX 전환 기록기 새 세션에 생을 건네는 얼개
-
-작성 2023-11-16 · 수정 2026-07-28 · 태그 agent, autholog, bib, collaboration, digitalgarden, memory, pkm, timeline
+작성 2023-11-16 · 수정 2026-07-28 · 태그 agent, autholog, bib, collaboration, digitalgarden, memory, pkm, pkmai, timeline
 
 AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새 세션의 에이전트에게 지식뿐 아니라 인간이 살아온 시간과 판단의 얼개를 어떻게 건넬 것인지 묻는다.
 
@@ -138,22 +186,6 @@ Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아�
 
 [위키독스에서 읽기 →](https://wikidocs.net/387072)
 
-## 힣: 원형의 새벽 일부러 할 수 없는 스승, 보편도구와 엑스맨 연결
-
-작성 2024-12-21 · 수정 2026-07-27 · 태그 agi, archetypes, autholog, polymath
-
-한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381459)
-
-## 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대
-
-작성 2024-12-13 · 수정 2026-07-27 · 태그 ai, autholog, paradigm, war
-
-전쟁과 원자폭탄, 인공지능을 기술 하나의 등장이 아니라 인간의 앎과 세계질서가 바뀌는 시대 전환으로 함께 묻기 시작한 2024년의 원석이다. 자기 없는 변화와 내어놓음, 헌신이라는 짧은 씨앗을 향후 원문으로 다시 서술할 방이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381435)
-
 ## 힣: 보이지 않는 편지 파란빛 아래 온생명이 우주에 띄운 사랑
 
 작성 2026-07-27 · 수정 2026-07-27 · 태그 autholog, being, digitalgarden, metahuman, rawwriting, universe, writing
@@ -170,14 +202,6 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 [위키독스에서 읽기 →](https://wikidocs.net/381555)
 
-## 힣: 삶 일 소명 운명애 가르침 나 자신이 되는 일 - 보수
-
-작성 2025-03-16 · 수정 2026-07-25 · 태그 autholog, autotelic, education, eudaimonia, flow, happiness, master, salary
-
-생존을 위한 일과 나 자신이 되는 소명 사이에서 보수, 가르침, 몰입, 운명애가 어떻게 한 삶으로 합쳐지는지 묻는 어쏠로그.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381589)
-
 ## 힣: 아무도 읽지 않는 블로그 디지털가든 왜 공개 하는가
 
 작성 2025-02-13 · 수정 2026-07-25 · 태그 autholog, creativity, life, toolsforthought
@@ -185,22 +209,6 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 아무도 읽지 않아도 오늘의 삶을 다시 만나기 위해 디지털가든을 공개하고, 불완전한 기록과 AI와의 대화를 삶의 흔적으로 남기는 이유를 말한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381520)
-
-## 힣: 일이란 무엇인가 최선·자기목적성·소명을 묻던 화두
-
-작성 2024-12-10 · 수정 2026-07-25 · 태그 autholog, autotelic, bib, fate, flow, mission, workhard
-
-일이란 무엇이며 최선을 다한다는 것은 무엇인지 묻던 2024~2025년의 초기 화두를 보존한다. 자기목적성·몰입·운명애·소명을 자기소모나 무급 헌신으로 오독하지 않고, 이미 하던 일이 생존 가능한 보수와 조건을 만나는 길을 다시 읽는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381423)
-
-## 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙 탐구
-
-작성 2025-03-26 · 수정 2026-07-25 · 태그 ai, autholog, coevolution, harness, metahuman, pkm, reproducibility
-
-PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, 축적과 밀도라는 두 트랙으로 갈라 에이전트가 길을 잃지 않게 하는 북극성 autholog이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381621)
 
 ## 힣: 자기소개서 히스토리 역사 이력서
 
@@ -276,7 +284,7 @@ PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, �
 
 ## 힣: 에이전트 컨텍스트 레이어 기술 지도 하네스·메모리·지식그래프·PKG·PKM-AI
 
-작성 2025-10-24 · 수정 2026-07-22 · 태그 agent, architecture, autholog, context, graphdb, harness, knowledgegraph, mcp, memory, ontology, pkmai
+작성 2025-10-24 · 수정 2026-07-22 · 태그 agent, architecture, autholog, context, folgezettel, graphdb, harness, knowledgegraph, mcp, memory, ontology, pkg, pkmai
 
 에이전트 하네스에서 분리해 소유할 컨텍스트 레이어의 구성 요소와 구현 기술을 추적한다. 원본·파생 뷰·메모리·스킬·세션·시간축을 구분하고, PKM-AI의 다음 탐구로 개인지식그래프(PKG)와 온톨로지를 검토하는 주기적 기술 지도다.
 
@@ -460,7 +468,7 @@ doomemacs-config를 단순 닷파일이 아닌 인간과 에이전트 협업 전
 
 ## 힣: 앤트로픽 J-space 케빈켈리 창발자아루프 외자아
 
-작성 2024-12-13 · 수정 2026-07-07 · 태그 ai, anthropic, autholog, bib, claude, emergence, exoself, technium
+작성 2024-12-13 · 수정 2026-07-07 · 태그 ai, autholog, bib, emergence, exoself, technium
 
 앤트로픽의 J-space 논문, 케빈켈리의 창발 자아 루프, 그리고 exoself를 한 시간축에 묶어 Claude 안쪽과 인간 바깥쪽의 작업공간을 함께 읽는다.
 
@@ -692,7 +700,7 @@ andenken 시멘틱 메모리 백엔드와 doomemacs-config 측 얇은 이맥스 
 
 ## 힣: 공개키와 무무 케빈켈리 창발하는 자아의 루프
 
-작성 2025-11-27 · 수정 2026-05-19 · 태그 ai, anthropic, autholog, bib, claude, emergence, entwurf, soul, technium
+작성 2025-11-27 · 수정 2026-05-19 · 태그 ai, autholog, bib, emergence, entwurf, metahuman, soul, technium
 
 케빈 켈리의 「The Emergent Self Loop」(2026-05-12)와 힣이 2025-12 앤트로픽 인터뷰에서 같이 본다.
 
@@ -905,14 +913,6 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 유리알유희를 오늘날의 구슬과 놀이, 메타노트 감각으로 다시 풀어내는 글이다. 실제 활용 흐름을 담았다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381567)
-
-## 지식그래프 검색증강생성 RAG의 의미 전환 LLM 보조에서 분신의 기억으로
-
-작성 2025-02-14 · 수정 2026-03-30 · 태그 augmented, bib, generation, knowledgegraph, rag, retrieval
-
-RAG가 단순 보조 도구에서 분신의 기억 인프라로 바뀌는 의미 전환을 다룬 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T145957/)
 
 ## 이맥스: 조직모드 파라 세컨드브레인
 
@@ -2098,9 +2098,9 @@ Quarto 사이트에 Waline 댓글 시스템을 붙이는 방법을 살펴보는 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240704T161606/)
 
-## 프로젝트: 이맥스 AI 코딩도구 : 코파일럿 바이브코딩
+## 임시 빈방 — 2024-06-01
 
-작성 2024-06-01 · 수정 2025-06-07 · 태그 ai, bib, copilot, emacs, pair, programming, vibecoding
+작성 2024-06-01 · 수정 2025-06-07 · 태그 temp
 
 이맥스 안에서 코파일럿과 AI 코딩 도구를 어떻게 페어 프로그래밍에 쓸지 탐색한 프로젝트 노트.
 
@@ -2290,9 +2290,9 @@ Elfeed와 유튜브 구독을 연결하는 elfeed-tube 흐름을 짧게 메모�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250601T145754/)
 
-## 바이브코딩: 파이썬 2주 실무 커리큘럼 예제 - 커서 이맥스
+## 임시 빈방 — 2025-06-01
 
-작성 2025-06-01 · 수정 2025-06-01 · 태그 vibecoding, training, python
+작성 2025-06-01 · 수정 2025-06-01 · 태그 temp
 
 #바이브코딩: 커서 파이썬 2주 실무 커리큘럼 예제
 
@@ -2954,7 +2954,7 @@ Immersive Translate용 사용자 용어 사전 저장소를 기록한 번역 노
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250421T211120/)
 
-## 임시 빈방
+## 임시 빈방 — 2024-12-13
 
 작성 2024-12-13 · 수정 2025-04-21 · 태그 temp
 

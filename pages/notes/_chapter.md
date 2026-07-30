@@ -2,6 +2,78 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 지식의 커리큘럼 살아 있는 프로피디아와 평생공부의 얼개
+
+작성 2024-12-22 · 수정 2026-07-30 · 태그 autholog, education, knowledge, paideia, polymath, propaedia, universalism
+
+프로피디아를 공용 지형으로, 지식의 커리큘럼을 한 존재가 실제로 지나온 시간축의 길로 읽으며 평생공부와 인간-에이전트 협업의 얼개를 세운다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381461)
+
+## 힣: Self-documenting CLI 문서와 실행을 잇는 인간·에이전트 공통 인터페이스
+
+작성 2026-02-12 · 수정 2026-07-30 · 태그 autholog, automation, human, interface, scripts, workflow
+
+프로젝트의 설명서와 실행기를 하나로 묶어 인간은 대화형 메뉴로, 에이전트는 안정된 인자로 같은 기능에 접근하게 하는 Self-documenting CLI의 변하지 않는 원칙을 정리한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381852)
+
+## 힣: Org SSOT 메타문서 책의미래 인터랙티브 프로젝트 지식베이스
+
+작성 2025-10-21 · 수정 2026-07-30 · 태그 autholog, denote, future, interactive, literate, memex, orgmode, quarto, reproducibility
+
+프로젝트 문서를 Org-mode와 Denote 중심 SSOT로 삼고, 논문 HTML의 JS 번들·소스블록·캡슐까지 품어 원본 URL 없이 재현 가능한 인터랙티브 문서를 만들 수 있다는 힣의 메타 문서 전략을 담는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381798)
+
+## 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버
+
+작성 2026-01-02 · 수정 2026-07-30 · 태그 agent, autholog, boundary, entwurf, harness, install, verification
+
+pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치면, 배선, 검증, 경계 조임의 철학을 2026년 6~7월 원문 세 편으로 보존하고, 0.12.3~0.13.0의 후속 릴리즈로 그 결계가 계속 조여진 자취를 잇는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381847)
+
+## 힣: 분신의 공방 역할 기반 조율과 협업 운영규약
+
+작성 2025-11-20 · 수정 2026-07-30 · 태그 agent, autholog, collaboration, entwurf, orchestration, workshop
+
+대등한 에이전트들이 공장식 병렬화가 아닌 공방식 역할 기반 조율로 함께 일하는 Entwurf 협업 운영규약이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381817)
+
+## 힣: 영성: 알아차림 마음챙김 훈련 도구 - 창조적 인간론
+
+작성 2023-01-28 · 수정 2026-07-30 · 태그 artisan, autholog, awareness, craft, creativity, mindfulness, resilience, spirituality
+
+마음챙김 프로그램을 만들기 전에 나부터 마스터해야 한다는 2022년의 다짐. 창조적 인간론(기예인)과 '나'를 위한 기록 프로그램 설계가 만나는 자리, 힘들었던 시절의 날것을 지금 와서 덧칠하지 않는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381051)
+
+## 힣: 집중력 듀얼 모니터가 필요한가
+
+작성 2022-10-22 · 수정 2026-07-30 · 태그 adhd, autholog, distraction, flow, focus, i3wm
+
+듀얼 모니터가 집중에 실제로 도움이 되는지, 2022년의 실험과 2023년의 방치, 2025년의 재확인을 거쳐 QHD 싱글 모니터로 내린 3년짜리 결론.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381038)
+
+## 힣: AI 시대에 왜 우리 개인은 더 지식에 목마른가
+
+작성 2022-03-30 · 수정 2026-07-30 · 태그 adhd, ai, autholog, individuation, knowledge, pkm, self, toolsforthought, zettelkasten
+
+AI와 빅데이터 시대에도 개인이 자기 지식을 갈망하는 이유를 언어, 교육, 의미 생산의 관점에서 풀어낸 글.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381018)
+
+## 힣: AI노트 지식도구 핵심: 질문과 답변 - 불완전함
+
+작성 2025-05-08 · 수정 2026-07-30 · 태그 ai, ainotes, autholog, digitalgarden, llm, notetaking, pkm, pkmai, toolsforthought
+
+세상은 작년에도 지금도 '질문이 중요하다'고 말하지만, 힣은 2025년 5월에 답변이 먼저라고 썼다. 이 방은 그 대립을 서클로 푼다 — 답변을 버리지 않아 누더기가 쌓이고, 쌓인 것에서 앎의 나무가 자기생성으로 자라고, 그 나무가 다시 질문을 낸다. 질문은 입력이 아니라 산출이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381708)
+
 ## 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙 탐구
 
 작성 2025-03-26 · 수정 2026-07-29 · 태그 ai, autholog, coevolution, harness, metahuman, pkm, reproducibility
@@ -218,22 +290,6 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 [위키독스에서 읽기 →](https://wikidocs.net/381108)
 
-## 힣: Self-documenting CLI 문서와 실행을 잇는 인간·에이전트 공통 인터페이스
-
-작성 2026-02-12 · 수정 2026-07-23 · 태그 autholog, automation, human, interface, scripts, workflow
-
-프로젝트의 설명서와 실행기를 하나로 묶어 인간은 대화형 메뉴로, 에이전트는 안정된 인자로 같은 기능에 접근하게 하는 Self-documenting CLI의 변하지 않는 원칙을 정리한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381852)
-
-## 힣: Org SSOT 메타문서 책의미래 인터랙티브 프로젝트 지식베이스
-
-작성 2025-10-21 · 수정 2026-07-23 · 태그 anthropic, autholog, denote, future, interactive, literate, memex, orgmode, quarto, reproducibility
-
-프로젝트 문서를 Org-mode와 Denote 중심 SSOT로 삼고, 논문 HTML의 JS 번들·소스블록·캡슐까지 품어 원본 URL 없이 재현 가능한 인터랙티브 문서를 만들 수 있다는 힣의 메타 문서 전략을 담는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381798)
-
 ## 힣: AX 문서 협업과 인간 존중 자동화 유한성 시간
 
 작성 2025-02-24 · 수정 2026-07-23 · 태그 autholog, automation, collaboration, human, orgmode, workflow
@@ -290,14 +346,6 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 [위키독스에서 읽기 →](https://wikidocs.net/381801)
 
-## 힣: 분신의 공방 역할 기반 조율과 협업 운영규약
-
-작성 2025-11-20 · 수정 2026-07-20 · 태그 agent, autholog, collaboration, entwurf, orchestration, workshop
-
-대등한 에이전트들이 공장식 병렬화가 아닌 공방식 역할 기반 조율로 함께 일하는 Entwurf 협업 운영규약이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381817)
-
 ## 베르탈란피 일반체계이론 보편학 루만 바렐라
 
 작성 2024-12-22 · 수정 2026-07-18 · 태그 general, system, theory, universalism
@@ -313,14 +361,6 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 애들러의 파이데이아(보편교육)를 프로피디아·신토피콘(지식의 지형)과 보편학문이론(학문 간 협력)에서 갈라놓는 연결 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250516T090655/)
-
-## 힣: 지식의 커리큘럼 살아 있는 프로피디아와 평생공부의 얼개
-
-작성 2024-12-22 · 수정 2026-07-18 · 태그 autholog, education, knowledge, paideia, polymath, propaedia, universalism
-
-프로피디아를 공용 지형으로, 지식의 커리큘럼을 한 존재가 실제로 지나온 시간축의 길로 읽으며 평생공부와 인간-에이전트 협업의 얼개를 세운다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381461)
 
 ## 힣: 질문은 남기고 답은 내려놓는다 쿤·패퍼트·애들러를 다시 묻다
 
@@ -505,14 +545,6 @@ ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 
 제주 회식 뒤 주식·주식·픟롬프트를 겹쳐 읽으며, AGI 이후에도 사람들이 각자의 확인 루프로 생을 뜨겁게 태울 것이라는 감각을 담은 autholog이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381472)
-
-## 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버
-
-작성 2026-01-02 · 수정 2026-07-06 · 태그 agent, autholog, boundary, entwurf, harness, install, verification
-
-pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치면, 배선, 검증, 경계 조임의 철학을 2026년 6~7월 원문 세 편으로 보존한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381847)
 
 ## 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간
 
@@ -2642,14 +2674,6 @@ Kiwi를 중심으로 한국어 형태소분석과 구문분석 도구의 가능�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20221119T172000/)
 
-## 힣: 집중력: 듀얼 모니터가 필요한가
-
-작성 2022-10-22 · 수정 2025-05-21 · 태그 adhd, autholog, distraction, flow, focus
-
-집중과 산만함의 관점에서 듀얼 모니터가 실제로 도움이 되는지 작업 환경 전체와 함께 따져 보는 글.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381038)
-
 ## 지능 학습 도우미: ITS 지능형튜터링시스템
 
 작성 2025-05-20 · 수정 2025-05-20 · 태그 intelligence, tutors, system, ai, edutech
@@ -2761,14 +2785,6 @@ Org mode에서 스마트 타이포그래피를 파일 내용은 건드리지 않
 Windows에서 GitHub CLI를 설치하고 기본 명령을 쓰는 방법을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250508T155043/)
-
-## 힣: AI노트 지식도구 핵심: 질문과 답변 - 불완전함
-
-작성 2025-05-08 · 수정 2025-05-08 · 태그 autholog, pkm, ainotes
-
-AI 노트 지식도구의 핵심은 질문보다 답변과 불완전함에 있다는 글이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381708)
 
 ## 블루라이트 리눅스 redshift
 
@@ -3308,7 +3324,7 @@ tecosaur의 emacs-everywhere 패키지 설정과 활용 지점을 기록한 노�
 
 ## 디노트: 매뉴얼
 
-작성 2023-11-14 · 수정 2025-04-10 · 태그 denote, manual
+작성 2023-11-14 · 수정 2025-04-10 · 태그 denote, manual, zettelkasten
 
 Denote 공식 매뉴얼을 번역·포맷팅하며 기능을 체계적으로 익히기 위해 만든 긴 학습 노트.
 
@@ -3649,14 +3665,6 @@ Scicloj 커뮤니티를 중심으로 클로저 데이터과학 생태계를 살�
 Emacs 코드블록 중심 리터레이트 AI 패키지 흐름을 비교한 노트이다. 실제 활용 흐름을 담았다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250402T184512/)
-
-## 힣: AI 시대에 왜 우리 개인은 더 지식에 목마른가
-
-작성 2022-03-30 · 수정 2025-04-02 · 태그 ai, autholog, individuation, knowledge
-
-AI와 빅데이터 시대에도 개인이 자기 지식을 갈망하는 이유를 언어, 교육, 의미 생산의 관점에서 풀어낸 글.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381018)
 
 ## 인터렉티브 프로토타이핑 - 프로토파이 피그마 - 사용자경험
 
@@ -5913,14 +5921,6 @@ Markdownload 같은 웹클리퍼를 옵시디언 흐름과 함께 다시 살펴�
 디스코드 스레드가 오픈소스 커뮤니티 작업로그와 협업에 어떻게 쓰이는지 관찰한 노트이다. 실제 활용 흐름을 담았다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241006T083729/)
-
-## 힣: 영성: 알아차림 마음챙김 훈련 도구 - 창조적 인간론
-
-작성 2023-01-28 · 수정 2024-12-03 · 태그 autholog, awareness, mindfulness, spirituality
-
-알아차림과 마음챙김 훈련을 글쓰기·기록 도구와 연결해 창조적 인간론으로 확장하려는 사유의 기록.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381051)
 
 ## 프로젝트관리: 이맥스 도구 - 어젠다 프로젝타일
 

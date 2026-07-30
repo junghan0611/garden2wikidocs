@@ -10,7 +10,7 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,240개 중 250개
-- 마지막 동기화: 2026-07-29
+- 마지막 동기화: 2026-07-30
 
 ## 힣의 고뇌
 
@@ -76,6 +76,7 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
+-   [지식도구 질문과 답변 - 불완전함](https://wikidocs.net/381708)
 -   [지식그래프 자석 프로피디아](https://wikidocs.net/388290)
 -   [직무 보유기술 - 이력서 시간축 증언 공개키](https://wikidocs.net/388103)
 -   [연구가 아닌 물음과 탐험](https://wikidocs.net/387108)
@@ -190,4 +191,4 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 
 -   [folder: botlog (80)](https://wikidocs.net/382535)
 
-ExportDate: 2026-07-29 18:36, CountNotes: 3499 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-07-30 22:30, CountNotes: 3499 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

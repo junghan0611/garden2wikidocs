@@ -742,7 +742,7 @@ pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Arm
 
 작성 2024-12-26 · 수정 2026-03-22 · 태그 awareness, bib, meditation, religion, spirituality
 
-@법상 #스님 #법문 #스승 #수심결 #1강완성
+법상 스님은 불교 수행과 마음공부를 일상 언어로 풀어내며 알아차림과 자유, 수심결의 핵심을 대중에게 전한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241226T223317/)
 

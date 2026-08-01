@@ -2,6 +2,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 페르난두페소아 불안의 서
+
+작성 2025-04-09 · 수정 2026-08-01 · 태그 bib, diaries, disquiet, memoir, shard
+
+『불안의 서』는 파편적 단상과 자기분열의 목소리로 근대적 불안과 존재의 내면 풍경을 집요하게 기록한 책이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250409T071611/)
+
+## 배수아 소설가 번역가 - 로베르트발저 산책자 막스피카르트 말과언어
+
+작성 2025-02-22 · 수정 2026-08-01 · 태그 bib, essay, language, literature, translation, translator, walk
+
+배수아는 소설과 번역을 통해 헤세·발저·막스 피카르트 같은 작가들의 고독, 산책, 언어 감각을 한국어로 잇는 작가다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250222T183157/)
+
+## 루이스모네다 lgmoneda 이맥스 시맨틱검색
+
+작성 2023-07-10 · 수정 2026-08-01 · 태그 agent, assistant, bib, emacs, emacsian, pkm, search, semantic
+
+루이스 모네다는 org-roam과 LLM을 엮어 이맥스 안에서 시맨틱 검색과 개인 AI 보조의 가능성을 탐색해 온 실험가다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20230710T064200/)
+
 ## 다치바나다카시 독서론 지의세계 지식커리큘럼 자기역사 자서전
 
 작성 2024-06-29 · 수정 2026-07-31 · 태그 autobiography, bib, guru, pkm
@@ -3152,14 +3176,6 @@ Better BibTeX는 Zotero에서 안정적인 인용키와 BibLaTeX 내보내기를
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250409T072408/)
 
-## 페르난두페소아 불안의 서
-
-작성 2025-04-09 · 수정 2025-04-09 · 태그 bib, disquiet
-
-『불안의 서』는 파편적 단상과 자기분열의 목소리로 근대적 불안과 존재의 내면 풍경을 집요하게 기록한 책이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250409T071611/)
-
 ## Jabref 서지관리 프로그램 - 조테로 대체
 
 작성 2025-04-09 · 수정 2025-04-09 · 태그 alternative, bib, zotero, programs
@@ -3215,22 +3231,6 @@ clj-tiles는 클로저 기반 시각 도구로 수학·과학·코딩을 손으�
 @마리나반주일렌 평범하여 찬란한 삶을 향한 찬사 - 완벽하지 않아 완전한 온전한 삶에 대하여
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250406T040315/)
-
-## 배수아 소설가 번역가 - 로베르트발저 산책자 막스피카르트 말과언어
-
-작성 2025-02-22 · 수정 2025-04-06 · 태그 bib, essay
-
-배수아는 소설과 번역을 통해 헤세·발저·막스 피카르트 같은 작가들의 고독, 산책, 언어 감각을 한국어로 잇는 작가다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250222T183157/)
-
-## 루이스모네다 luismoneda lgmoneda 이맥스 시맨틱검색
-
-작성 2023-07-10 · 수정 2025-04-06 · 태그 bib, emacs, search, semantic
-
-루이스 모네다는 org-roam과 LLM을 엮어 이맥스 안에서 시맨틱 검색과 개인 AI 보조의 가능성을 탐색해 온 실험가다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20230710T064200/)
 
 ## 앤드류홀레첵 자각몽 삶을 깨우는 기술
 

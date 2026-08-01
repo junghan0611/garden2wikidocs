@@ -9,6 +9,30 @@
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: 개발자는 갷발자로 발자와 취향의 자기표현
+
+작성 2025-11-21 · 수정 2026-08-01 · 태그 agent, autholog, developer, digitalgarden, harness, taste
+
+개발자를 30x 경쟁의 프레임이 아니라 발자·용자·의자·리자의 자기표현으로 다시 부르는 출근길 메모이다. 취향은 생산성 배수가 아니라 자신이 되는 방식이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381823)
+
+## 어쏠로그
+
+작성 2024-12-06 · 수정 2026-08-01 · 태그 autholog, meta
+
+어쏠로그는 GLG의 원석을 notes/에 정본으로 회수하여 원문 보존과 해설·연결·이미지를 함께 남기는 글쓰기 축이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/380758)
+
+## 힣: 생업의 마이크로뷰, 살아있음의 매크로뷰
+
+작성 2025-11-22 · 수정 2026-08-01 · 태그 agent, autholog, digitalgarden, memory, rawwriting
+
+루이스 모네다의 생업·전문성과 페르난두 페소아의 트렁크를 거울로, 실패의 늪에서도 날것을 공개하며 살아있음을 외쳐 온 디지털가든을 되짚는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381825)
+
 ## 힣: 이맥스 학습 교육과정 1강완성 불완전함 점진적 알음앓이 매일
 
 작성 2024-09-08 · 수정 2026-07-31 · 태그 autholog, course, daily, emacs, learning
@@ -633,14 +657,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 [위키독스에서 읽기 →](https://wikidocs.net/381383)
 
-## 힣: 개발자는 갷발자로 발자와 취향의 자기표현
-
-작성 2025-11-21 · 수정 2026-06-11 · 태그 agent, autholog, developer, digitalgarden, harness
-
-개발자를 30x 경쟁의 프레임이 아니라 발자·용자·의자·리자의 자기표현으로 다시 부르는 출근길 메모이다. 취향은 생산성 배수가 아니라 자신이 되는 방식이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381823)
-
 ## 힣: 모국어 로꾸꺼 거북이 지식도구
 
 작성 2024-12-16 · 수정 2026-06-11 · 태그 autholog, hangul, language, mothertongue, repl, toolsforlife
@@ -921,14 +937,6 @@ ADHD + AI: Interest 해방 → 무한 가능성의 비용 → 뱀파이어 → �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381837)
 
-## 힣: 에이전트 생존 그리고 마이크로뷰 - 매크로뷰
-
-작성 2025-11-22 · 수정 2025-11-22 · 태그 agent, autholog, memory
-
-에이전트 생존의 마이크로뷰와 삶 전체를 보는 매크로뷰의 균형을 고민한 노트이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381825)
-
 ## 힣: 보안사고 대응 다섯가지 원칙 - 포렌식 증류
 
 작성 2025-11-21 · 수정 2025-11-21 · 태그 autholog, philosophy, security
@@ -985,11 +993,11 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381773)
 
-## 힣: 자작시
+## 힣: 자작시 눈물
 
-작성 2025-07-07 · 수정 2025-07-07 · 태그 literature, autholog, autholism, poetry
+작성 2025-07-07 · 수정 2025-07-07 · 태그 autholism, autholog, literature, poetry, tears
 
-아포리즘과 다른 결로, 터져 나오는 감정을 짧은 시 형태로 받아 적어 두는 자작시 모음이다.
+눈물이 나는 이유를 다 골라내지 않고 그냥 받아 적은 자작시 한 편이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381768)
 
@@ -1256,14 +1264,6 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 성인 ADHD를 주제로 한 블로그 시즌3를 어떤 방향으로 쓸지 적어 둔 노트이다. 실제 활용 흐름을 담았다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381591)
-
-## 어쏠로그
-
-작성 2024-12-06 · 수정 2025-03-15 · 태그 autholog, meta
-
-생각과 삶의 흐름을 낱개 기술보다 하나의 큰 이야기로 모으려는 기록 형식이며, 전체상을 향한 자기 서사의 축을 이룬다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/380758)
 
 ## 힣: 텍스트마스터 가이드
 

@@ -1483,6 +1483,55 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250122T065354": {
+    "path": "pages/meta/20250122T065354.md",
+    "subject": "20260801 추천 권유 우선순위 개취",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250122T065354/",
+    "source_date": "2025-01-22T06:53:00+09:00",
+    "source_lastmod": "2026-08-01T14:10:00+09:00",
+    "description": "추천이 언제 도움이 되고 언제 위험한지 살피며, 권유와 우선순위, 개인 취향의 경계를 함께 생각한다.",
+    "tags": [
+      "danger",
+      "meta",
+      "recommend",
+      "taste"
+    ],
+    "page_id": 380784,
+    "url": "https://wikidocs.net/380784"
+  },
+  "20241206T090648": {
+    "path": "pages/meta/20241206T090648.md",
+    "subject": "20260801 어쏠로그",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241206T090648/",
+    "source_date": "2024-12-06T09:06:00+09:00",
+    "source_lastmod": "2026-08-01T13:45:00+09:00",
+    "description": "어쏠로그는 GLG의 원석을 notes/에 정본으로 회수하여 원문 보존과 해설·연결·이미지를 함께 남기는 글쓰기 축이다.",
+    "tags": [
+      "autholog",
+      "meta"
+    ],
+    "page_id": 380758,
+    "url": "https://wikidocs.net/380758"
+  },
+  "20240918T175053": {
+    "path": "pages/meta/20240918T175053.md",
+    "subject": "20260801 디지털가든 브레인덤프 아날로그가든 날것쓰기",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240918T175053/",
+    "source_date": "2024-09-18T17:50:00+09:00",
+    "source_lastmod": "2026-08-01T13:45:00+09:00",
+    "description": "디지털가든은 브레인덤프의 날것을 시간축에 공개하고 수선하며, 아날로그 기록과 이어 가는 회수·발행의 거처다.",
+    "tags": [
+      "braindump",
+      "digitalgarden",
+      "meta",
+      "rawwriting"
+    ],
+    "page_id": 380674,
+    "url": "https://wikidocs.net/380674"
+  },
   "20250228T162958": {
     "path": "pages/meta/20250228T162958.md",
     "subject": "20260731 앤트로픽 챗지피티 제미나이 클로드 오픈AI 구글",
@@ -1674,23 +1723,6 @@
     ],
     "page_id": 380830,
     "url": "https://wikidocs.net/380830"
-  },
-  "20240918T175053": {
-    "path": "pages/meta/20240918T175053.md",
-    "subject": "20260726 디지털가든 브레인덤프 아날로그가든 날것쓰기",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240918T175053/",
-    "source_date": "2024-09-18T17:50:00+09:00",
-    "source_lastmod": "2026-07-26T11:38:00+09:00",
-    "description": "디지털가든을 브레인덤프와 아날로그 가든까지 확장해 생각을 기르는 기록 생태계로 넓게 바라본다.",
-    "tags": [
-      "braindump",
-      "digitalgarden",
-      "meta",
-      "rawwriting"
-    ],
-    "page_id": 380674,
-    "url": "https://wikidocs.net/380674"
   },
   "20241007T112300": {
     "path": "pages/meta/20241007T112300.md",
@@ -2067,22 +2099,6 @@
     ],
     "page_id": 380644,
     "url": "https://wikidocs.net/380644"
-  },
-  "20250122T065354": {
-    "path": "pages/meta/20250122T065354.md",
-    "subject": "20260706 추천 권유 우선순위 개취",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250122T065354/",
-    "source_date": "2025-01-22T06:53:00+09:00",
-    "source_lastmod": "2026-07-06T18:36:00+09:00",
-    "description": "추천이 언제 도움이 되고 언제 위험한지 살피며, 권유와 우선순위, 개인 취향의 경계를 함께 생각한다.",
-    "tags": [
-      "danger",
-      "meta",
-      "recommend"
-    ],
-    "page_id": 380784,
-    "url": "https://wikidocs.net/380784"
   },
   "20240508T103852": {
     "path": "pages/meta/20240508T103852.md",
@@ -4784,6 +4800,7 @@
     "tags": [
       "autocompletion",
       "automation",
+      "imitate",
       "meta",
       "vertico"
     ],
@@ -9851,21 +9868,6 @@
     "page_id": 380810,
     "url": "https://wikidocs.net/380810"
   },
-  "20241206T090648": {
-    "path": "pages/meta/20241206T090648.md",
-    "subject": "20250315 어쏠로그",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241206T090648/",
-    "source_date": "2024-12-06T09:06:00+09:00",
-    "source_lastmod": "2025-03-15T00:00:00+09:00",
-    "description": "생각과 삶의 흐름을 낱개 기술보다 하나의 큰 이야기로 모으려는 기록 형식이며, 전체상을 향한 자기 서사의 축을 이룬다.",
-    "tags": [
-      "autholog",
-      "meta"
-    ],
-    "page_id": 380758,
-    "url": "https://wikidocs.net/380758"
-  },
   "20241016T170035": {
     "path": "pages/meta/20241016T170035.md",
     "subject": "20250313 스크래치 - 어린이 코딩 교육",
@@ -10932,6 +10934,65 @@
     ],
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
+  },
+  "20250409T071611": {
+    "path": "pages/bib/20250409T071611.md",
+    "subject": "20260801 페르난두페소아 불안의 서",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250409T071611/",
+    "source_date": "2025-04-09T07:16:00+09:00",
+    "source_lastmod": "2026-08-01T13:29:00+09:00",
+    "description": "『불안의 서』는 파편적 단상과 자기분열의 목소리로 근대적 불안과 존재의 내면 풍경을 집요하게 기록한 책이다.",
+    "tags": [
+      "bib",
+      "diaries",
+      "disquiet",
+      "memoir",
+      "shard"
+    ],
+    "page_id": 382367,
+    "url": "https://wikidocs.net/382367"
+  },
+  "20250222T183157": {
+    "path": "pages/bib/20250222T183157.md",
+    "subject": "20260801 배수아 소설가 번역가 - 로베르트발저 산책자 막스피카르트 말과언어",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250222T183157/",
+    "source_date": "2025-02-22T18:31:00+09:00",
+    "source_lastmod": "2026-08-01T13:27:00+09:00",
+    "description": "배수아는 소설과 번역을 통해 헤세·발저·막스 피카르트 같은 작가들의 고독, 산책, 언어 감각을 한국어로 잇는 작가다.",
+    "tags": [
+      "bib",
+      "essay",
+      "language",
+      "literature",
+      "translation",
+      "translator",
+      "walk"
+    ],
+    "page_id": 382288,
+    "url": "https://wikidocs.net/382288"
+  },
+  "20230710T064200": {
+    "path": "pages/bib/20230710T064200.md",
+    "subject": "20260801 루이스모네다 lgmoneda 이맥스 시맨틱검색",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20230710T064200/",
+    "source_date": "2023-07-10T06:42:00+09:00",
+    "source_lastmod": "2026-08-01T13:13:00+09:00",
+    "description": "루이스 모네다는 org-roam과 LLM을 엮어 이맥스 안에서 시맨틱 검색과 개인 AI 보조의 가능성을 탐색해 온 실험가다.",
+    "tags": [
+      "agent",
+      "assistant",
+      "bib",
+      "emacs",
+      "emacsian",
+      "pkm",
+      "search",
+      "semantic"
+    ],
+    "page_id": 381864,
+    "url": "https://wikidocs.net/381864"
   },
   "20240629T094458": {
     "path": "pages/bib/20240629T094458.md",
@@ -17784,21 +17845,6 @@
     "page_id": 382368,
     "url": "https://wikidocs.net/382368"
   },
-  "20250409T071611": {
-    "path": "pages/bib/20250409T071611.md",
-    "subject": "20250409 페르난두페소아 불안의 서",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250409T071611/",
-    "source_date": "2025-04-09T07:16:00+09:00",
-    "source_lastmod": "2025-04-09T07:16:00+09:00",
-    "description": "『불안의 서』는 파편적 단상과 자기분열의 목소리로 근대적 불안과 존재의 내면 풍경을 집요하게 기록한 책이다.",
-    "tags": [
-      "bib",
-      "disquiet"
-    ],
-    "page_id": 382367,
-    "url": "https://wikidocs.net/382367"
-  },
   "20250409T072739": {
     "path": "pages/bib/20250409T072739.md",
     "subject": "20250409 Jabref 서지관리 프로그램 - 조테로 대체",
@@ -17911,38 +17957,6 @@
     ],
     "page_id": 382360,
     "url": "https://wikidocs.net/382360"
-  },
-  "20250222T183157": {
-    "path": "pages/bib/20250222T183157.md",
-    "subject": "20250406 배수아 소설가 번역가 - 로베르트발저 산책자 막스피카르트 말과언어",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250222T183157/",
-    "source_date": "2025-02-22T18:31:00+09:00",
-    "source_lastmod": "2025-04-06T00:00:00+09:00",
-    "description": "배수아는 소설과 번역을 통해 헤세·발저·막스 피카르트 같은 작가들의 고독, 산책, 언어 감각을 한국어로 잇는 작가다.",
-    "tags": [
-      "bib",
-      "essay"
-    ],
-    "page_id": 382288,
-    "url": "https://wikidocs.net/382288"
-  },
-  "20230710T064200": {
-    "path": "pages/bib/20230710T064200.md",
-    "subject": "20250406 루이스모네다 luismoneda lgmoneda 이맥스 시맨틱검색",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20230710T064200/",
-    "source_date": "2023-07-10T06:42:00+09:00",
-    "source_lastmod": "2025-04-06T00:00:00+09:00",
-    "description": "루이스 모네다는 org-roam과 LLM을 엮어 이맥스 안에서 시맨틱 검색과 개인 AI 보조의 가능성을 탐색해 온 실험가다.",
-    "tags": [
-      "bib",
-      "emacs",
-      "search",
-      "semantic"
-    ],
-    "page_id": 381864,
-    "url": "https://wikidocs.net/381864"
   },
   "20250405T172925": {
     "path": "pages/bib/20250405T172925.md",
@@ -22326,6 +22340,43 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20251121T132839": {
+    "path": "pages/notes/20251121T132839.md",
+    "subject": "20260801 힣: 개발자는 갷발자로 발자와 취향의 자기표현",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251121T132839/",
+    "source_date": "2025-11-21T13:28:00+09:00",
+    "source_lastmod": "2026-08-01T14:10:00+09:00",
+    "description": "개발자를 30x 경쟁의 프레임이 아니라 발자·용자·의자·리자의 자기표현으로 다시 부르는 출근길 메모이다. 취향은 생산성 배수가 아니라 자신이 되는 방식이다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "developer",
+      "digitalgarden",
+      "harness",
+      "taste"
+    ],
+    "page_id": 381823,
+    "url": "https://wikidocs.net/381823"
+  },
+  "20251122T210521": {
+    "path": "pages/notes/20251122T210521.md",
+    "subject": "20260801 힣: 생업의 마이크로뷰, 살아있음의 매크로뷰",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251122T210521/",
+    "source_date": "2025-11-22T21:05:00+09:00",
+    "source_lastmod": "2026-08-01T13:37:00+09:00",
+    "description": "루이스 모네다의 생업·전문성과 페르난두 페소아의 트렁크를 거울로, 실패의 늪에서도 날것을 공개하며 살아있음을 외쳐 온 디지털가든을 되짚는다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "digitalgarden",
+      "memory",
+      "rawwriting"
+    ],
+    "page_id": 381825,
+    "url": "https://wikidocs.net/381825"
+  },
   "20240908T205217": {
     "path": "pages/notes/20240908T205217.md",
     "subject": "20260731 힣: 이맥스 학습 교육과정 1강완성 불완전함 점진적 알음앓이 매일",
@@ -24023,24 +24074,6 @@
     "page_id": 381383,
     "url": "https://wikidocs.net/381383"
   },
-  "20251121T132839": {
-    "path": "pages/notes/20251121T132839.md",
-    "subject": "20260611 힣: 개발자는 갷발자로 발자와 취향의 자기표현",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251121T132839/",
-    "source_date": "2025-11-21T13:28:00+09:00",
-    "source_lastmod": "2026-06-11T15:22:00+09:00",
-    "description": "개발자를 30x 경쟁의 프레임이 아니라 발자·용자·의자·리자의 자기표현으로 다시 부르는 출근길 메모이다. 취향은 생산성 배수가 아니라 자신이 되는 방식이다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "developer",
-      "digitalgarden",
-      "harness"
-    ],
-    "page_id": 381823,
-    "url": "https://wikidocs.net/381823"
-  },
   "20241216T134714": {
     "path": "pages/notes/20241216T134714.md",
     "subject": "20260611 힣: 모국어 로꾸꺼 거북이 지식도구",
@@ -25491,22 +25524,6 @@
     "page_id": 381826,
     "url": "https://wikidocs.net/381826"
   },
-  "20251122T210521": {
-    "path": "pages/notes/20251122T210521.md",
-    "subject": "20251122 힣: 에이전트 생존 그리고 마이크로뷰 - 매크로뷰",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251122T210521/",
-    "source_date": "2025-11-22T21:05:00+09:00",
-    "source_lastmod": "2025-11-22T21:05:00+09:00",
-    "description": "에이전트 생존의 마이크로뷰와 삶 전체를 보는 매크로뷰의 균형을 고민한 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "memory"
-    ],
-    "page_id": 381825,
-    "url": "https://wikidocs.net/381825"
-  },
   "20251121T132314": {
     "path": "pages/notes/20251121T132314.md",
     "subject": "20251121 Emacs-AI 통합 패러다임: MCP, REPL, 그리고 진정한 협업",
@@ -26315,17 +26332,18 @@
   },
   "20250707T080006": {
     "path": "pages/notes/20250707T080006.md",
-    "subject": "20250707 힣: 자작시",
+    "subject": "20250707 힣: 자작시 눈물",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250707T080006/",
     "source_date": "2025-07-07T08:00:00+09:00",
     "source_lastmod": "2025-07-07T08:00:00+09:00",
-    "description": "아포리즘과 다른 결로, 터져 나오는 감정을 짧은 시 형태로 받아 적어 두는 자작시 모음이다.",
+    "description": "눈물이 나는 이유를 다 골라내지 않고 그냥 받아 적은 자작시 한 편이다.",
     "tags": [
-      "literature",
-      "autholog",
       "autholism",
-      "poetry"
+      "autholog",
+      "literature",
+      "poetry",
+      "tears"
     ],
     "page_id": 381768,
     "url": "https://wikidocs.net/381768"

@@ -356,7 +356,7 @@ Search Console의 query→page 데이터를 읽어, 검색유입을 단발성 SE
 
 ## 존재 간 연결의 문법 ACP A2A ANP 그리고 힣봇 생태계
 
-작성 2026-03-11 · 수정 2026-04-30 · 태그 agent, botlog, collaboration, protocol
+작성 2026-03-11 · 수정 2026-04-30 · 태그 agent, botlog, collaboration, metahuman, protocol
 
 ACP, A2A, ANP와 FIPA 계보를 함께 살피며 힣봇 생태계에 필요한 존재 간 연결 문법을 정리한다.
 

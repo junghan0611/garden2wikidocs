@@ -2,6 +2,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 자작시 눈물
+
+작성 2025-07-07 · 수정 2026-08-02 · 태그 autholism, autholog, literature, poetry, tears
+
+눈물이 나는 이유를 다 골라내지 않고 그냥 받아 적은 자작시 한 편이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381768)
+
+## remember
+
+작성 2023-10-20 · 수정 2026-08-02
+
+빌트인 remember와 org-remark, ELFEED 메모를 한곳에 쌓아 가는 개인 기억 저장소.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231020T210500/)
+
 ## 힣: 개발자는 갷발자로 발자와 취향의 자기표현
 
 작성 2025-11-21 · 수정 2026-08-01 · 태그 agent, autholog, developer, digitalgarden, harness, taste
@@ -572,7 +588,7 @@ doomemacs-config를 단순 닷파일이 아닌 인간과 에이전트 협업 전
 
 ## 힣: 앤트로픽 J-space 케빈켈리 창발자아루프 외자아
 
-작성 2024-12-13 · 수정 2026-07-07 · 태그 ai, autholog, bib, emergence, exoself, technium
+작성 2024-12-13 · 수정 2026-07-07 · 태그 ai, anthropic, autholog, bib, claude, emergence, exoself, technium
 
 앤트로픽의 J-space 논문, 케빈켈리의 창발 자아 루프, 그리고 exoself를 한 시간축에 묶어 Claude 안쪽과 인간 바깥쪽의 작업공간을 함께 읽는다.
 
@@ -628,7 +644,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 ## 힣: 제주 재주 재수 - 정보과학회 전문가 막차
 
-작성 2024-07-30 · 수정 2026-06-25 · 태그 autholog, coevolution, computing, expert, fortune, luck, talent, travel
+작성 2024-07-30 · 수정 2026-06-25 · 태그 autholog, coevolution, computing, expert, fortune, luck, rawwriting, talent, travel
 
 제주 출장과 정보과학회라는 옛 전문가 무대를 지나며, 재주로 줄 세우던 정한의 시간을 재수와 운, 빈그릇과 젛문가의 자리로 다시 통과하는 링크드인 날것 어쏠로그.
 
@@ -1065,14 +1081,6 @@ Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트�
 안드로이드에서 Emacs를 네이티브와 Termux 방식으로 설치하는 방법을 기록한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250413T183642/)
-
-## remember
-
-작성 2023-10-20 · 수정 2026-02-26
-
-빌트인 remember와 org-remark, ELFEED 메모를 한곳에 쌓아 가는 개인 기억 저장소.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231020T210500/)
 
 ## 힣: 나는허브다 - 상태머신과 에이전트 협업
 
@@ -1753,14 +1761,6 @@ AI 클러스터를 운영하는 인프라 담당자가 구축 이후 맡게 되�
 SSH 비밀키와 에이전트, ProxyJump를 엮어 내부망과 외부망 원격 접근 구조를 설계하는 기록이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250708T121006/)
-
-## 힣: 자작시 눈물
-
-작성 2025-07-07 · 수정 2025-07-07 · 태그 autholism, autholog, literature, poetry, tears
-
-눈물이 나는 이유를 다 골라내지 않고 그냥 받아 적은 자작시 한 편이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381768)
 
 ## 힣: 회사 직장 생활 - 체험 삶의현장 인간시대
 

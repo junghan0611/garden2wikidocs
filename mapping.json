@@ -22340,6 +22340,36 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250707T080006": {
+    "path": "pages/notes/20250707T080006.md",
+    "subject": "20260802 힣: 자작시 눈물",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250707T080006/",
+    "source_date": "2025-07-07T08:00:00+09:00",
+    "source_lastmod": "2026-08-02T08:41:00+09:00",
+    "description": "눈물이 나는 이유를 다 골라내지 않고 그냥 받아 적은 자작시 한 편이다.",
+    "tags": [
+      "autholism",
+      "autholog",
+      "literature",
+      "poetry",
+      "tears"
+    ],
+    "page_id": 381768,
+    "url": "https://wikidocs.net/381768"
+  },
+  "20231020T210500": {
+    "path": "pages/notes/20231020T210500.md",
+    "subject": "20260802 remember",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20231020T210500/",
+    "source_date": "2023-10-20T21:05:00+09:00",
+    "source_lastmod": "2026-08-02T06:31:00+09:00",
+    "description": "빌트인 remember와 org-remark, ELFEED 메모를 한곳에 쌓아 가는 개인 기억 저장소.",
+    "tags": [],
+    "page_id": 381142,
+    "url": "https://wikidocs.net/381142"
+  },
   "20251121T132839": {
     "path": "pages/notes/20251121T132839.md",
     "subject": "20260801 힣: 개발자는 갷발자로 발자와 취향의 자기표현",
@@ -23751,8 +23781,10 @@
     "description": "앤트로픽의 J-space 논문, 케빈켈리의 창발 자아 루프, 그리고 exoself를 한 시간축에 묶어 Claude 안쪽과 인간 바깥쪽의 작업공간을 함께 읽는다.",
     "tags": [
       "ai",
+      "anthropic",
       "autholog",
       "bib",
+      "claude",
       "emergence",
       "exoself",
       "technium"
@@ -23879,6 +23911,7 @@
       "expert",
       "fortune",
       "luck",
+      "rawwriting",
       "talent",
       "travel"
     ],
@@ -24857,18 +24890,6 @@
     ],
     "page_id": 381676,
     "url": "https://wikidocs.net/381676"
-  },
-  "20231020T210500": {
-    "path": "pages/notes/20231020T210500.md",
-    "subject": "20260226 remember",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20231020T210500/",
-    "source_date": "2023-10-20T21:05:00+09:00",
-    "source_lastmod": "2026-02-26T00:00:00+09:00",
-    "description": "빌트인 remember와 org-remark, ELFEED 메모를 한곳에 쌓아 가는 개인 기억 저장소.",
-    "tags": [],
-    "page_id": 381142,
-    "url": "https://wikidocs.net/381142"
   },
   "20251212T162004": {
     "path": "pages/notes/20251212T162004.md",
@@ -26329,24 +26350,6 @@
     ],
     "page_id": 381769,
     "url": "https://wikidocs.net/381769"
-  },
-  "20250707T080006": {
-    "path": "pages/notes/20250707T080006.md",
-    "subject": "20250707 힣: 자작시 눈물",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250707T080006/",
-    "source_date": "2025-07-07T08:00:00+09:00",
-    "source_lastmod": "2025-07-07T08:00:00+09:00",
-    "description": "눈물이 나는 이유를 다 골라내지 않고 그냥 받아 적은 자작시 한 편이다.",
-    "tags": [
-      "autholism",
-      "autholog",
-      "literature",
-      "poetry",
-      "tears"
-    ],
-    "page_id": 381768,
-    "url": "https://wikidocs.net/381768"
   },
   "20250707T075312": {
     "path": "pages/notes/20250707T075312.md",
@@ -36907,6 +36910,7 @@
       "agent",
       "botlog",
       "collaboration",
+      "metahuman",
       "protocol"
     ],
     "page_id": 382569,

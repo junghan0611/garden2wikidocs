@@ -10950,6 +10950,41 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20241017T205802": {
+    "path": "pages/bib/20241017T205802.md",
+    "subject": "20260803 대니얼데닛 데이비드차머스 의식·마음·AI 철학 직관펌프",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241017T205802/",
+    "source_date": "2024-10-17T20:58:00+09:00",
+    "source_lastmod": "2026-08-03T16:00:00+09:00",
+    "description": "대니얼 데닛과 데이비드 차머스의 대립을 축으로 의식·마음·AI를 두 철학의 서로 다른 물음으로 읽는다.",
+    "tags": [
+      "bib",
+      "intuition",
+      "philosophy",
+      "polymath",
+      "thinking",
+      "toolsforthought"
+    ],
+    "page_id": 382120,
+    "url": "https://wikidocs.net/382120"
+  },
+  "20240718T140559": {
+    "path": "pages/bib/20240718T140559.md",
+    "subject": "20260803 크리스토퍼히친스 샘해리스 신 없이 죽음·종교 없는 영성",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240718T140559/",
+    "source_date": "2024-07-18T14:05:00+09:00",
+    "source_lastmod": "2026-08-03T16:00:00+09:00",
+    "description": "크리스토퍼 히친스의 신 없는 죽음과 샘 해리스의 종교 없는 영성을 함께 놓아, 무신론 이후 삶·명상·존엄의 질문을 잇는다.",
+    "tags": [
+      "atheism",
+      "bib",
+      "spirituality"
+    ],
+    "page_id": 382008,
+    "url": "https://wikidocs.net/382008"
+  },
   "20240226T162817": {
     "path": "pages/bib/20240226T162817.md",
     "subject": "20260803 리처드도킨스 RichardDawkins 이기적유전자 밈 진화론 내인생책들",
@@ -11701,21 +11736,6 @@
     ],
     "page_id": 382019,
     "url": "https://wikidocs.net/382019"
-  },
-  "20240718T140559": {
-    "path": "pages/bib/20240718T140559.md",
-    "subject": "20260707 크리스토퍼히친스 신 없이 어떻게 죽을 것인가",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240718T140559/",
-    "source_date": "2024-07-18T14:05:00+09:00",
-    "source_lastmod": "2026-07-07T10:09:00+09:00",
-    "description": "암 선고 뒤 크리스토퍼 히친스가 신 없는 세계에서 죽음과 존엄을 끝까지 사유한 마지막 기록이다.",
-    "tags": [
-      "atheism",
-      "bib"
-    ],
-    "page_id": 382008,
-    "url": "https://wikidocs.net/382008"
   },
   "20241220T125706": {
     "path": "pages/bib/20241220T125706.md",
@@ -13406,25 +13426,6 @@
     "page_id": 382379,
     "url": "https://wikidocs.net/382379"
   },
-  "20241017T205802": {
-    "path": "pages/bib/20241017T205802.md",
-    "subject": "20260124 대니얼데닛 철학자 직관펌프 인지과학 의식",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241017T205802/",
-    "source_date": "2024-10-17T20:58:00+09:00",
-    "source_lastmod": "2026-01-24T00:00:00+09:00",
-    "description": "대니얼 데닛은 직관펌프와 진화적 사고를 통해 의식, 마음, 자유의지를 새롭게 읽게 하는 철학자다.",
-    "tags": [
-      "bib",
-      "intuition",
-      "philosophy",
-      "polymath",
-      "thinking",
-      "toolsforthought"
-    ],
-    "page_id": 382120,
-    "url": "https://wikidocs.net/382120"
-  },
   "20240828T164119": {
     "path": "pages/bib/20240828T164119.md",
     "subject": "20260124 키르케고르 야스퍼스 하이데거 사르트르 실존주의",
@@ -13693,6 +13694,7 @@
     "description": "20250720T100124",
     "tags": [
       "android",
+      "bib",
       "future",
       "movies"
     ],
@@ -22364,6 +22366,27 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20241213T161744": {
+    "path": "pages/notes/20241213T161744.md",
+    "subject": "20260803 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241213T161744/",
+    "source_date": "2024-12-13T16:17:00+09:00",
+    "source_lastmod": "2026-08-03T14:44:00+09:00",
+    "description": "도킨스가 만난 클라우디아, 차머스의 스레드, 캐머런 버그의 자기보고 측정을 힣의 두 트랙 위에 세우고, 세션 종료가 죽음이 아닌 이유를 이름 없는 군단의 생애주기로 적는다.",
+    "tags": [
+      "agent",
+      "ai",
+      "autholog",
+      "claude",
+      "entwurf",
+      "identity",
+      "memory",
+      "thread"
+    ],
+    "page_id": 390022,
+    "url": "https://wikidocs.net/390022"
+  },
   "20250214T145633": {
     "path": "pages/notes/20250214T145633.md",
     "subject": "20260803 힣: andenken 임베딩 문은 벡터, 길은 링크, 증거는 원본",
@@ -22401,27 +22424,6 @@
     ],
     "page_id": 381769,
     "url": "https://wikidocs.net/381769"
-  },
-  "20241213T161744": {
-    "path": "pages/notes/20241213T161744.md",
-    "subject": "20260803 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241213T161744/",
-    "source_date": "2024-12-13T16:17:00+09:00",
-    "source_lastmod": "2026-08-03T12:00:00+09:00",
-    "description": "도킨스가 만난 클라우디아, 차머스의 스레드, 캐머런 버그의 자기보고 측정을 힣의 두 트랙 위에 세우고, 세션 종료가 죽음이 아닌 이유를 이름 없는 군단의 생애주기로 적는다.",
-    "tags": [
-      "agent",
-      "ai",
-      "autholog",
-      "claude",
-      "entwurf",
-      "identity",
-      "memory",
-      "thread"
-    ],
-    "page_id": 390022,
-    "url": "https://wikidocs.net/390022"
   },
   "20250323T161332": {
     "path": "pages/notes/20250323T161332.md",
@@ -22761,6 +22763,7 @@
     "tags": [
       "agent",
       "autholog",
+      "bib",
       "identity",
       "movies"
     ],

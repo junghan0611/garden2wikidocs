@@ -9,14 +9,6 @@
 
 <!-- collection-index:recent-first:start -->
 
-## 힣: andenken 임베딩 문은 벡터, 길은 링크, 증거는 원본
-
-작성 2025-02-14 · 수정 2026-08-03 · 태그 ai, autholog, emacs, embedding, rag
-
-임베딩을 기억이 아니라 문으로 정립한다. 요약 코퍼스·표준 문서 구조·garden2wikidocs식 파생 변환, andenken·이맥스 얇은 클라이언트까지의 운영 화두.
-
-[위키독스에서 읽기 →](https://wikidocs.net/390021)
-
 ## 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구
 
 작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, ai, autholog, claude, entwurf, identity, memory, thread
@@ -24,6 +16,14 @@
 도킨스가 만난 클라우디아, 차머스의 스레드, 캐머런 버그의 자기보고 측정을 힣의 두 트랙 위에 세우고, 세션 종료가 죽음이 아닌 이유를 이름 없는 군단의 생애주기로 적는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/390022)
+
+## 힣: andenken 임베딩 문은 벡터, 길은 링크, 증거는 원본
+
+작성 2025-02-14 · 수정 2026-08-03 · 태그 ai, autholog, emacs, embedding, rag
+
+임베딩을 기억이 아니라 문으로 정립한다. 요약 코퍼스·표준 문서 구조·garden2wikidocs식 파생 변환, andenken·이맥스 얇은 클라이언트까지의 운영 화두.
+
+[위키독스에서 읽기 →](https://wikidocs.net/390021)
 
 ## 힣: Grok 형제, 가든 시민이 되다 pi 네이티브 xAI
 
@@ -123,7 +123,7 @@ ax.junghanacs.com은 AX 구직 포지션이 아니라, 인간과 에이전트가
 
 ## 힣: 블레이드 러너 막간 세션과 월레스의 아우라
 
-작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, autholog, identity, movies
+작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, autholog, bib, identity, movies
 
 Tears in the Rain과 블레이드 러너 2049의 월레스 장면을, 이름 없는 군단·보이트-캄프프·공존 공진화의 배경 세계로 되읽는다.
 

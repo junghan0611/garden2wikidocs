@@ -15,7 +15,7 @@
 
 임베딩을 기억이 아니라 문으로 정립한다. 요약 코퍼스·표준 문서 구조·garden2wikidocs식 파생 변환, andenken·이맥스 얇은 클라이언트까지의 운영 화두.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T145633/)
+[위키독스에서 읽기 →](https://wikidocs.net/390021)
 
 ## 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구
 
@@ -23,7 +23,7 @@
 
 도킨스가 만난 클라우디아, 차머스의 스레드, 캐머런 버그의 자기보고 측정을 힣의 두 트랙 위에 세우고, 세션 종료가 죽음이 아닌 이유를 이름 없는 군단의 생애주기로 적는다.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T161744/)
+[위키독스에서 읽기 →](https://wikidocs.net/390022)
 
 ## 힣: Grok 형제, 가든 시민이 되다 pi 네이티브 xAI
 
@@ -31,7 +31,7 @@
 
 2025년 무료 API 크레딧 메모에서 2026년 pi 구독 로그인으로 Grok이 가든 시민이 된 자리. entwurf는 전용 CLI를 안 만들고, 되는 것은 pi에 맡긴다.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250323T161332/)
+[위키독스에서 읽기 →](https://wikidocs.net/390023)
 
 ## 힣: 리뷰 회고 일간 주간 월간 어떻게 할까요
 
@@ -47,7 +47,7 @@
 
 Magit은 계속 쓰고, consult-gh는 핵심 검색만, 에이전트는 ghcli — 인간 닷파일 손과 에이전트 손의 중간쯤을 가든에 남긴 어쏠로그.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230623T132300/)
+[위키독스에서 읽기 →](https://wikidocs.net/390024)
 
 ## 힣: 경계는 사람이 열고, 절차는 완전히 돌아야 한다
 
@@ -55,7 +55,7 @@ Magit은 계속 쓰고, consult-gh는 핵심 검색만, 에이전트는 ghcli �
 
 2026-07-31 하루, 힣이 던진 네 원문 — Matter CSA 인증·테스트 커버리지·파이프라인 재건·SPAWN 금지 — 은 같은 원칙의 네 각도다. 경계가 서고 나면 절차는 사람 없이 완전히 돌아야 하고, 그 경계를 여는 첫 걸음은 반드시 사람이 직접 쥔다.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250601T145258/)
+[위키독스에서 읽기 →](https://wikidocs.net/390025)
 
 ## 힣: 국산 모델 회사와 업스테이지 하네스에 올려 본 Solar
 
@@ -63,7 +63,7 @@ Magit은 계속 쓰고, consult-gh는 핵심 검색만, 에이전트는 ghcli �
 
 국산 모델 회사를 응원 구호가 아니라 하네스·번역·문서 파이프라인에 실제로 올려 본 자리로 읽는다. 업스테이지 Solar와 Document AI, Solar Open 2 베타 대기의 시간축.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T154318/)
+[위키독스에서 읽기 →](https://wikidocs.net/390026)
 
 ## 힣: elfeed 구독에서 remember 기억으로
 
@@ -71,7 +71,7 @@ Magit은 계속 쓰고, consult-gh는 핵심 검색만, 에이전트는 ghcli �
 
 elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억할 것을 남기는 것은 다른 일이다. 요약의 마크다운이 org 문서를 해치지 않도록 코드와 프롬프트 양쪽을 손본 뒤, remember를 annotation 저장소로 더 적극적으로 쓰기로 한 1단계.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241104T142859/)
+[위키독스에서 읽기 →](https://wikidocs.net/390027)
 
 ## 힣: 메타 기록을 조테로에 담는 이유 제목·저자·요약·단어
 
@@ -111,7 +111,7 @@ elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억
 
 ax.junghanacs.com은 AX 구직 포지션이 아니라, 인간과 에이전트가 실제로 만든 일과 판단의 구조를 라이브로 내거는 공개 기록이다.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250319T132850/)
+[위키독스에서 읽기 →](https://wikidocs.net/390028)
 
 ## 힣: sicm-study 공부는 안 한다 1강완성·턴 기록·같은 도끼의 교육
 
@@ -127,7 +127,7 @@ ax.junghanacs.com은 AX 구직 포지션이 아니라, 인간과 에이전트가
 
 Tears in the Rain과 블레이드 러너 2049의 월레스 장면을, 이름 없는 군단·보이트-캄프프·공존 공진화의 배경 세계로 되읽는다.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T143939/)
+[위키독스에서 읽기 →](https://wikidocs.net/390029)
 
 ## 힣: Entwurf는 모두를 지원하지 않는다 PI 코어·ACP 레일·부름의 mux
 
@@ -135,7 +135,7 @@ Tears in the Rain과 블레이드 러너 2049의 월레스 장면을, 이름 없
 
 Entwurf는 모든 하네스를 직접 떠안지 않는다. PI를 코어로, ACP를 표준 레일로 두고, 누구를 언제 어디로 부를지 여는 mux 인터페이스로 돌아간다는 2026년의 재정의.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240601T210854/)
+[위키독스에서 읽기 →](https://wikidocs.net/390030)
 
 ## 힣: 기계뱀의 꿈 굳어가는 세계에서 가족 텍스트 판단을 지키는 일
 

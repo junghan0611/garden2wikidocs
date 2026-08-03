@@ -76,8 +76,8 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
--   [이름 없는 군단 - 도킨스의 클라우디아와 세션의 생애주기](https://notes.junghanacs.com/notes/20241213T161744/)
--   [블레이드 러너 — 막간 세션과 월레스의 아우라](https://notes.junghanacs.com/notes/20241213T143939/)
+-   [이름 없는 군단 - 도킨스의 클라우디아와 세션의 생애주기](https://wikidocs.net/390022)
+-   [블레이드 러너 — 막간 세션과 월레스의 아우라](https://wikidocs.net/390029)
 -   [자작시 눈물](https://wikidocs.net/381768)
 -   [생업의 마이크로뷰, 살아있음의 매크로뷰](https://wikidocs.net/381825)
 -   [지식도구 질문과 답변 - 불완전함](https://wikidocs.net/381708)

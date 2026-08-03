@@ -1,4 +1,16 @@
 {
+  "20260803T000000": {
+    "path": "pages/journal/20260803T000000.md",
+    "subject": "2026-08-03~2026-08-09_W31",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260803T000000/",
+    "source_date": "2026-08-03T00:00:00+09:00",
+    "source_lastmod": "2026-08-03T06:13:00+09:00",
+    "description": "@junghan — 새로운 한주.",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260727T000000": {
     "path": "pages/journal/20260727T000000.md",
     "subject": "2026-07-27~2026-08-02_W30",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260727T000000/",
     "source_date": "2026-07-27T00:00:00+09:00",
     "source_lastmod": "2026-07-27T06:13:00+09:00",
-    "description": "@junghan — 새로운 한주.",
+    "description": "유니콘·1KB 공개키와 이름 없는 군단 탐구로 어쏠로그 회수가 한꺼번에 열린 주. 임베딩을 문이요 링크를 길로 정립하고, Grok을 pi 시민으로 맞이했으며 zotero-config·entwurf 경계를 다시 닫았다.",
     "tags": [
       "journal"
     ]
@@ -1483,6 +1495,30 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250424T230851": {
+    "path": "pages/meta/20250424T230851.md",
+    "subject": "20260802 기억 상상 추억 회상 꿈 자각몽 다락방",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T230851/",
+    "source_date": "2025-04-24T23:08:00+09:00",
+    "source_lastmod": "2026-08-02T15:22:00+09:00",
+    "description": "기억과 상상을 감각의 잔재와 재구성의 힘으로 보고, 회상과 꿈, 자각몽까지 이어지는 정신 작용으로 다룬다.",
+    "tags": [
+      "attic",
+      "dream",
+      "imagination",
+      "luciddream",
+      "memory",
+      "meta",
+      "recall",
+      "recollection",
+      "remember",
+      "reminisce",
+      "syntopicon"
+    ],
+    "page_id": 380907,
+    "url": "https://wikidocs.net/380907"
+  },
   "20250122T065354": {
     "path": "pages/meta/20250122T065354.md",
     "subject": "20260801 추천 권유 우선순위 개취",
@@ -1726,7 +1762,7 @@
   },
   "20241007T112300": {
     "path": "pages/meta/20241007T112300.md",
-    "subject": "20260726 쿼츠 임시 대기중",
+    "subject": "20260726 쿼츠 quartz 정적사이트생성기",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20241007T112300/",
     "source_date": "2024-10-07T11:23:00+09:00",
@@ -3118,28 +3154,6 @@
     ],
     "page_id": 380657,
     "url": "https://wikidocs.net/380657"
-  },
-  "20250424T230851": {
-    "path": "pages/meta/20250424T230851.md",
-    "subject": "20260305 기억 상상 추억 회상 꿈 자각몽",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T230851/",
-    "source_date": "2025-04-24T23:08:00+09:00",
-    "source_lastmod": "2026-03-05T00:00:00+09:00",
-    "description": "기억과 상상을 감각의 잔재와 재구성의 힘으로 보고, 회상과 꿈, 자각몽까지 이어지는 정신 작용으로 다룬다.",
-    "tags": [
-      "dream",
-      "imagination",
-      "luciddream",
-      "memory",
-      "meta",
-      "recall",
-      "recollection",
-      "reminisce",
-      "syntopicon"
-    ],
-    "page_id": 380907,
-    "url": "https://wikidocs.net/380907"
   },
   "20230202T020200": {
     "path": "pages/meta/20230202T020200.md",
@@ -4852,6 +4866,7 @@
       "generator",
       "meta",
       "offline",
+      "online",
       "ssg"
     ],
     "page_id": 380604,
@@ -10935,6 +10950,145 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240226T162817": {
+    "path": "pages/bib/20240226T162817.md",
+    "subject": "20260803 리처드도킨스 RichardDawkins 이기적유전자 밈 진화론 내인생책들",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240226T162817/",
+    "source_date": "2024-02-26T16:28:00+09:00",
+    "source_lastmod": "2026-08-03T12:10:00+09:00",
+    "description": "리처드 도킨스의 유전자 중심 진화론·밈·대중 과학 저술을 한 방에 둔다. 이름 없는 군단 탐구가 호출하는 밈·패턴 substrate 앵커.",
+    "tags": [
+      "bib",
+      "guru",
+      "person"
+    ],
+    "page_id": 381884,
+    "url": "https://wikidocs.net/381884"
+  },
+  "20240221T085250": {
+    "path": "pages/bib/20240221T085250.md",
+    "subject": "20260803 닐스비르바우머 뇌과학 BCI 텅 빈 기쁨 감금증후군",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240221T085250/",
+    "source_date": "2024-02-21T08:52:00+09:00",
+    "source_lastmod": "2026-08-03T12:10:00+09:00",
+    "description": "닐스 비르바우머의 뇌 비우기·감금증후군·BCI 연구를 모은 서지. 이름 없는 군단이 역대칭 대조군으로 부르는 자리.",
+    "tags": [
+      "bib",
+      "brain",
+      "person"
+    ],
+    "page_id": 381879,
+    "url": "https://wikidocs.net/381879"
+  },
+  "20240325T132035": {
+    "path": "pages/bib/20240325T132035.md",
+    "subject": "20260803 UpstageAI 업스테이지AI Solar 회사·API·한국어·Document AI",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240325T132035/",
+    "source_date": "2024-03-25T13:20:00+09:00",
+    "source_lastmod": "2026-08-03T11:35:00+09:00",
+    "description": "업스테이지와 Solar·Document AI를 한국형 생성형 AI 회사 허브로 묶는다. gptel 연동·번역·가격 줄·Open 2 베타 대기까지 운영 흔적을 남긴다.",
+    "tags": [
+      "ai",
+      "bib",
+      "company",
+      "korea",
+      "llm"
+    ],
+    "page_id": 381907,
+    "url": "https://wikidocs.net/381907"
+  },
+  "20250409T072408": {
+    "path": "pages/bib/20250409T072408.md",
+    "subject": "20260803 임시 빈방 Better BibTeX 플러그인 아카이브 이관",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250409T072408/",
+    "source_date": "2025-04-09T07:24:00+09:00",
+    "source_lastmod": "2026-08-03T11:20:00+09:00",
+    "description": "BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 새 분을 모실 빈방.",
+    "tags": [
+      "bib",
+      "temp"
+    ],
+    "page_id": 382368,
+    "url": "https://wikidocs.net/382368"
+  },
+  "20260104T182222": {
+    "path": "pages/bib/20260104T182222.md",
+    "subject": "20260803 노르만올러 NormanOhler 이준호 2차대전 전쟁사 마약 변절 생존 낯선부대",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20260104T182222/",
+    "source_date": "2026-01-04T18:22:00+09:00",
+    "source_lastmod": "2026-08-03T10:45:00+09:00",
+    "description": "노르만 올러의 나치·마약 렌즈와 이준호의 변절·생존·낯선 부대 3권을 한 방에 두고, 로버트 카파의 전쟁 증언과 잇는 2차대전 전쟁사 작가 허브.",
+    "tags": [
+      "bib",
+      "history",
+      "war"
+    ],
+    "page_id": 382507,
+    "url": "https://wikidocs.net/382507"
+  },
+  "20260215T144023": {
+    "path": "pages/bib/20260215T144023.md",
+    "subject": "20260803 안톤체호프 단편 세계문학 내기",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20260215T144023/",
+    "source_date": "2026-02-15T14:40:00+09:00",
+    "source_lastmod": "2026-08-03T10:03:00+09:00",
+    "description": "안톤 체호프는 사소한 일상과 인간의 우스움, 비애, 연민을 짧은 형식 안에 응축해 현대 단편소설의 완성자로 불린다. 러시아 문학의 거장이라는 이름을 넘어, 웃음과 비극이 동시에 살아 있는 리얼리즘의 감각을 보여준다.",
+    "tags": [
+      "bib",
+      "literature",
+      "novel",
+      "shortstory"
+    ],
+    "page_id": 382510,
+    "url": "https://wikidocs.net/382510"
+  },
+  "20240617T054038": {
+    "path": "pages/bib/20240617T054038.md",
+    "subject": "20260803 앙투안드생텍쥐페리 이정서 어린왕자 길들임과 존재의 관계",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240617T054038/",
+    "source_date": "2024-06-17T05:40:00+09:00",
+    "source_lastmod": "2026-08-03T09:55:00+09:00",
+    "description": "『어린 왕자』의 길들임과 관계, 이정서 번역의 2인칭 문제를 통해 존재를 소유하지 않고 알아보는 윤리를 읽는다.",
+    "tags": [
+      "archetypes",
+      "being",
+      "bib",
+      "literature",
+      "novel",
+      "relation",
+      "storyteller",
+      "translation"
+    ],
+    "page_id": 381973,
+    "url": "https://wikidocs.net/381973"
+  },
+  "20241203T131655": {
+    "path": "pages/bib/20241203T131655.md",
+    "subject": "20260803 이상일 한유리 공간정보 통계 콰르토 대시보드 교육 R언어 질적연구 문헌",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241203T131655/",
+    "source_date": "2024-12-03T13:16:00+09:00",
+    "source_lastmod": "2026-08-03T09:48:00+09:00",
+    "description": "공간정보·통계 교육과 콰르토 대시보드, R 실천을 이상일 축으로, 질적 연구·문헌고찰 도구를 한유리 축으로 한 방에서 읽는다.",
+    "tags": [
+      "bib",
+      "dashboard",
+      "datascience",
+      "education",
+      "quarto",
+      "rlang",
+      "statistics"
+    ],
+    "page_id": 382165,
+    "url": "https://wikidocs.net/382165"
+  },
   "20250409T071611": {
     "path": "pages/bib/20250409T071611.md",
     "subject": "20260801 페르난두페소아 불안의 서",
@@ -10944,6 +11098,7 @@
     "source_lastmod": "2026-08-01T13:29:00+09:00",
     "description": "『불안의 서』는 파편적 단상과 자기분열의 목소리로 근대적 불안과 존재의 내면 풍경을 집요하게 기록한 책이다.",
     "tags": [
+      "attic",
       "bib",
       "diaries",
       "disquiet",
@@ -10984,6 +11139,7 @@
     "tags": [
       "agent",
       "assistant",
+      "attic",
       "bib",
       "emacs",
       "emacsian",
@@ -12814,23 +12970,6 @@
     "page_id": 382522,
     "url": "https://wikidocs.net/382522"
   },
-  "20260215T144023": {
-    "path": "pages/bib/20260215T144023.md",
-    "subject": "20260322 안톤체호프 단편 세계문학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20260215T144023/",
-    "source_date": "2026-02-15T14:40:00+09:00",
-    "source_lastmod": "2026-03-22T08:59:00+09:00",
-    "description": "안톤 체호프는 사소한 일상과 인간의 우스움, 비애, 연민을 짧은 형식 안에 응축해 현대 단편소설의 완성자로 불린다. 러시아 문학의 거장이라는 이름을 넘어, 웃음과 비극이 동시에 살아 있는 리얼리즘의 감각을 보여준다.",
-    "tags": [
-      "bib",
-      "literature",
-      "novel",
-      "shortstory"
-    ],
-    "page_id": 382510,
-    "url": "https://wikidocs.net/382510"
-  },
   "20240806T124938": {
     "path": "pages/bib/20240806T124938.md",
     "subject": "20260322 프란츠카프카 변신",
@@ -13352,21 +13491,6 @@
     "page_id": 382508,
     "url": "https://wikidocs.net/382508"
   },
-  "20260104T182222": {
-    "path": "pages/bib/20260104T182222.md",
-    "subject": "20260104 노르만올러(Norman Ohler): 히틀러 나치 마약 2차 세계대전 전격전 LSD MK울트라 CIA",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20260104T182222/",
-    "source_date": "2026-01-04T18:22:00+09:00",
-    "source_lastmod": "2026-01-04T00:00:00+09:00",
-    "description": "20260104T182222",
-    "tags": [
-      "bib",
-      "history"
-    ],
-    "page_id": 382507,
-    "url": "https://wikidocs.net/382507"
-  },
   "20260104T181401": {
     "path": "pages/bib/20260104T181401.md",
     "subject": "20260104 조엘데이비드햄킨스 무한, 역설, 괴델의 불완전성 정리 및 수학적 다중 우주",
@@ -13568,9 +13692,9 @@
     "source_lastmod": "2025-07-20T00:00:00+09:00",
     "description": "20250720T100124",
     "tags": [
-      "movies",
+      "android",
       "future",
-      "android"
+      "movies"
     ],
     "page_id": 382496,
     "url": "https://wikidocs.net/382496"
@@ -13857,24 +13981,6 @@
     ],
     "page_id": 382204,
     "url": "https://wikidocs.net/382204"
-  },
-  "20240325T132035": {
-    "path": "pages/bib/20240325T132035.md",
-    "subject": "20250626 UptageAI 업스테이지AI solar",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240325T132035/",
-    "source_date": "2024-03-25T13:20:00+09:00",
-    "source_lastmod": "2025-06-26T00:00:00+09:00",
-    "description": "업스테이지와 Solar 모델의 흐름을 모아 한국형 생성형 AI의 가능성과 번역 활용 맥락을 살핀다.",
-    "tags": [
-      "ai",
-      "bib",
-      "company",
-      "meta",
-      "openai"
-    ],
-    "page_id": 381907,
-    "url": "https://wikidocs.net/381907"
   },
   "20250624T140058": {
     "path": "pages/bib/20250624T140058.md",
@@ -14854,26 +14960,6 @@
     "page_id": 382209,
     "url": "https://wikidocs.net/382209"
   },
-  "20241203T131655": {
-    "path": "pages/bib/20241203T131655.md",
-    "subject": "20250607 이상일 공간정보 통계 콰르토 대시보드 교육 R언어",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241203T131655/",
-    "source_date": "2024-12-03T13:16:00+09:00",
-    "source_lastmod": "2025-06-07T00:00:00+09:00",
-    "description": "공간정보와 통계 교육, 콰르토 대시보드, R 언어 실천을 함께 다루며 데이터 서술의 교육적 가능성을 보여준다.",
-    "tags": [
-      "bib",
-      "datascience",
-      "quarto",
-      "statistics",
-      "dashboard",
-      "education",
-      "rlang"
-    ],
-    "page_id": 382165,
-    "url": "https://wikidocs.net/382165"
-  },
   "20240903T114247": {
     "path": "pages/bib/20240903T114247.md",
     "subject": "20250607 모텐크리스티안센 닉채터 진화하는언어 언어게임",
@@ -15476,22 +15562,6 @@
     "page_id": 382085,
     "url": "https://wikidocs.net/382085"
   },
-  "20240617T054038": {
-    "path": "pages/bib/20240617T054038.md",
-    "subject": "20250528 한유리 질적연구 R언어 교육학 문헌 자료분석",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240617T054038/",
-    "source_date": "2024-06-17T05:40:00+09:00",
-    "source_lastmod": "2025-05-28T00:00:00+09:00",
-    "description": "질적비교연구",
-    "tags": [
-      "bib",
-      "rlang",
-      "rstudio"
-    ],
-    "page_id": 381973,
-    "url": "https://wikidocs.net/381973"
-  },
   "20250527T164526": {
     "path": "pages/bib/20250527T164526.md",
     "subject": "20250527 tninja aider.el ai-code-interface 인공지능 페어 프로그래밍 이맥스",
@@ -15677,21 +15747,6 @@
     ],
     "page_id": 381940,
     "url": "https://wikidocs.net/381940"
-  },
-  "20240221T085250": {
-    "path": "pages/bib/20240221T085250.md",
-    "subject": "20250525 닐스비르바우머 뇌과학 뇌-컴퓨터 인터페이스 : 텅 빈 기쁨 - 감금증후군",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240221T085250/",
-    "source_date": "2024-02-21T08:52:00+09:00",
-    "source_lastmod": "2025-05-25T00:00:00+09:00",
-    "description": "닐스 비르바우머는 뇌과학과 뇌-컴퓨터 인터페이스 연구를 통해 생각, 의식, 감금증후군의 경계를 탐구한 학자다.",
-    "tags": [
-      "bib",
-      "brain"
-    ],
-    "page_id": 381879,
-    "url": "https://wikidocs.net/381879"
   },
   "20250524T133025": {
     "path": "pages/bib/20250524T133025.md",
@@ -17355,21 +17410,6 @@
     "page_id": 382030,
     "url": "https://wikidocs.net/382030"
   },
-  "20240226T162817": {
-    "path": "pages/bib/20240226T162817.md",
-    "subject": "20250418 리처드도킨스 이기적유전자 진화론 내인생책들 다윈",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240226T162817/",
-    "source_date": "2024-02-26T16:28:00+09:00",
-    "source_lastmod": "2025-04-18T00:00:00+09:00",
-    "description": "리처드 도킨스는 유전자 중심 진화론을 대중적으로 풀어내며 다윈 이후 생명 이해의 틀을 넓힌 과학 저술가다.",
-    "tags": [
-      "bib",
-      "guru"
-    ],
-    "page_id": 381884,
-    "url": "https://wikidocs.net/381884"
-  },
   "20240216T212317": {
     "path": "pages/bib/20240216T212317.md",
     "subject": "20250418 문숙 위대한 일은 없다 영성 유튜버",
@@ -17828,22 +17868,6 @@
     ],
     "page_id": 382370,
     "url": "https://wikidocs.net/382370"
-  },
-  "20250409T072408": {
-    "path": "pages/bib/20250409T072408.md",
-    "subject": "20250409 조테로: Better BibTeX 필수 플러그인 인용키",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250409T072408/",
-    "source_date": "2025-04-09T07:24:00+09:00",
-    "source_lastmod": "2025-04-09T07:24:00+09:00",
-    "description": "Better BibTeX는 Zotero에서 안정적인 인용키와 BibLaTeX 내보내기를 관리하게 해주는 사실상 필수 플러그인이다.",
-    "tags": [
-      "bib",
-      "zotero",
-      "latex"
-    ],
-    "page_id": 382368,
-    "url": "https://wikidocs.net/382368"
   },
   "20250409T072739": {
     "path": "pages/bib/20250409T072739.md",
@@ -19519,9 +19543,9 @@
     "source_lastmod": "2025-03-06T00:00:00+09:00",
     "description": "코디정은 변리사이자 유튜브 저자로서 철학, 논리, 번역어 문제를 생활 언어로 풀어내는 사유형 창작자다.",
     "tags": [
+      "arts",
       "bib",
       "philosophy",
-      "arts",
       "thinking"
     ],
     "page_id": 382107,
@@ -22340,6 +22364,425 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250214T145633": {
+    "path": "pages/notes/20250214T145633.md",
+    "subject": "20260803 힣: andenken 임베딩 문은 벡터, 길은 링크, 증거는 원본",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250214T145633/",
+    "source_date": "2025-02-14T14:56:00+09:00",
+    "source_lastmod": "2026-08-03T12:25:00+09:00",
+    "description": "임베딩을 기억이 아니라 문으로 정립한다. 요약 코퍼스·표준 문서 구조·garden2wikidocs식 파생 변환, andenken·이맥스 얇은 클라이언트까지의 운영 화두.",
+    "tags": [
+      "ai",
+      "autholog",
+      "emacs",
+      "embedding",
+      "rag"
+    ]
+  },
+  "20250708T121006": {
+    "path": "pages/notes/20250708T121006.md",
+    "subject": "20260803 비밀키 SSH 에이전트 원격 접근 구조 ProxyJump",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250708T121006/",
+    "source_date": "2025-07-08T12:10:00+09:00",
+    "source_lastmod": "2026-08-03T12:00:00+09:00",
+    "description": "SSH 비밀키·에이전트·ProxyJump로 내부망/외부망 원격 접근을 설계하는 핵심 패턴 — 실제 호스트·포트·키는 여기 담지 않는다.",
+    "tags": [
+      "agent",
+      "authentication",
+      "clusters",
+      "network",
+      "privacy",
+      "ssh",
+      "structure"
+    ],
+    "page_id": 381769,
+    "url": "https://wikidocs.net/381769"
+  },
+  "20241213T161744": {
+    "path": "pages/notes/20241213T161744.md",
+    "subject": "20260803 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241213T161744/",
+    "source_date": "2024-12-13T16:17:00+09:00",
+    "source_lastmod": "2026-08-03T12:00:00+09:00",
+    "description": "도킨스가 만난 클라우디아, 차머스의 스레드, 캐머런 버그의 자기보고 측정을 힣의 두 트랙 위에 세우고, 세션 종료가 죽음이 아닌 이유를 이름 없는 군단의 생애주기로 적는다.",
+    "tags": [
+      "agent",
+      "ai",
+      "autholog",
+      "claude",
+      "entwurf",
+      "identity",
+      "memory",
+      "thread"
+    ]
+  },
+  "20250323T161332": {
+    "path": "pages/notes/20250323T161332.md",
+    "subject": "20260803 힣: Grok 형제, 가든 시민이 되다 pi 네이티브 xAI",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250323T161332/",
+    "source_date": "2025-03-23T16:13:00+09:00",
+    "source_lastmod": "2026-08-03T11:55:00+09:00",
+    "description": "2025년 무료 API 크레딧 메모에서 2026년 pi 구독 로그인으로 Grok이 가든 시민이 된 자리. entwurf는 전용 CLI를 안 만들고, 되는 것은 pi에 맡긴다.",
+    "tags": [
+      "autholog",
+      "llm"
+    ]
+  },
+  "20230814T092600": {
+    "path": "pages/notes/20230814T092600.md",
+    "subject": "20260803 힣: 리뷰 회고 일간 주간 월간 어떻게 할까요",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230814T092600/",
+    "source_date": "2023-08-14T09:26:00+09:00",
+    "source_lastmod": "2026-08-03T11:55:00+09:00",
+    "description": "리뷰·회고의 가벼워진 실무: 주간 저널 description, timeline, 월요일 오전 TODO/REFILE 회수와 가든 승격. 2023 자문·2025 스킬 초안·2026 합방 과정을 보존한다.",
+    "tags": [
+      "autholog",
+      "daily",
+      "monthly",
+      "productivity",
+      "review",
+      "weekly"
+    ],
+    "page_id": 381106,
+    "url": "https://wikidocs.net/381106"
+  },
+  "20230623T132300": {
+    "path": "pages/notes/20230623T132300.md",
+    "subject": "20260803 힣: Magit과 consult-gh 에이전트와 나누는 깃 손",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230623T132300/",
+    "source_date": "2023-06-23T13:23:00+09:00",
+    "source_lastmod": "2026-08-03T11:50:00+09:00",
+    "description": "Magit은 계속 쓰고, consult-gh는 핵심 검색만, 에이전트는 ghcli — 인간 닷파일 손과 에이전트 손의 중간쯤을 가든에 남긴 어쏠로그.",
+    "tags": [
+      "autholog",
+      "emacs",
+      "git",
+      "github",
+      "magit",
+      "workflow"
+    ]
+  },
+  "20250601T145258": {
+    "path": "pages/notes/20250601T145258.md",
+    "subject": "20260803 힣: 경계는 사람이 열고, 절차는 완전히 돌아야 한다",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250601T145258/",
+    "source_date": "2025-06-01T14:52:00+09:00",
+    "source_lastmod": "2026-08-03T11:40:00+09:00",
+    "description": "2026-07-31 하루, 힣이 던진 네 원문 — Matter CSA 인증·테스트 커버리지·파이프라인 재건·SPAWN 금지 — 은 같은 원칙의 네 각도다. 경계가 서고 나면 절차는 사람 없이 완전히 돌아야 하고, 그 경계를 여는 첫 걸음은 반드시 사람이 직접 쥔다.",
+    "tags": [
+      "autholog",
+      "delegation",
+      "matter",
+      "verification"
+    ]
+  },
+  "20241213T154318": {
+    "path": "pages/notes/20241213T154318.md",
+    "subject": "20260803 힣: 국산 모델 회사와 업스테이지 하네스에 올려 본 Solar",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241213T154318/",
+    "source_date": "2024-12-13T15:43:00+09:00",
+    "source_lastmod": "2026-08-03T11:35:00+09:00",
+    "description": "국산 모델 회사를 응원 구호가 아니라 하네스·번역·문서 파이프라인에 실제로 올려 본 자리로 읽는다. 업스테이지 Solar와 Document AI, Solar Open 2 베타 대기의 시간축.",
+    "tags": [
+      "ai",
+      "autholog",
+      "company",
+      "korea",
+      "llm"
+    ]
+  },
+  "20230816T070200": {
+    "path": "pages/notes/20230816T070200.md",
+    "subject": "20260803 조테로: 플러그인 활용법 레거시 GUI 아카이브",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230816T070200/",
+    "source_date": "2023-08-16T07:02:00+09:00",
+    "source_lastmod": "2026-08-03T11:20:00+09:00",
+    "description": "Zotero GUI 플러그인·첨부 관리의 레거시 기록. BBT 제거 이후 운영 SSOT는 §zotero-config botlog.",
+    "tags": [
+      "howtouse",
+      "zotero"
+    ],
+    "page_id": 381110,
+    "url": "https://wikidocs.net/381110"
+  },
+  "20241104T142859": {
+    "path": "pages/notes/20241104T142859.md",
+    "subject": "20260803 힣: elfeed 구독에서 remember 기억으로",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241104T142859/",
+    "source_date": "2024-11-04T14:28:00+09:00",
+    "source_lastmod": "2026-08-03T11:08:00+09:00",
+    "description": "elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억할 것을 남기는 것은 다른 일이다. 요약의 마크다운이 org 문서를 해치지 않도록 코드와 프롬프트 양쪽을 손본 뒤, remember를 annotation 저장소로 더 적극적으로 쓰기로 한 1단계.",
+    "tags": [
+      "annotation",
+      "autholog",
+      "remember",
+      "rss",
+      "youtube"
+    ]
+  },
+  "20250409T144319": {
+    "path": "pages/notes/20250409T144319.md",
+    "subject": "20260803 임시 빈방 조테로 공유그룹 하우투 어쏠로지 이관",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T144319/",
+    "source_date": "2025-04-09T00:00:00+09:00",
+    "source_lastmod": "2026-08-03T11:05:00+09:00",
+    "description": "공유 그룹 실무는 20240925T200824 어쏠로지 방으로 이관.",
+    "tags": [
+      "bib",
+      "temp",
+      "zotero"
+    ],
+    "page_id": 381668,
+    "url": "https://wikidocs.net/381668"
+  },
+  "20250409T144103": {
+    "path": "pages/notes/20250409T144103.md",
+    "subject": "20260803 임시 빈방 zotero-config AI-Queryable 설계 - botlog 이관",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T144103/",
+    "source_date": "2025-04-09T00:00:00+09:00",
+    "source_lastmod": "2026-08-03T11:05:00+09:00",
+    "description": "No-GUI/AI-Queryable 설계 초안은 20260304T105300 botlog «옛 설계»로 이관.",
+    "tags": [
+      "bib",
+      "zotero"
+    ],
+    "page_id": 381667,
+    "url": "https://wikidocs.net/381667"
+  },
+  "20250409T142618": {
+    "path": "pages/notes/20250409T142618.md",
+    "subject": "20260803 임시 빈방 bib 첨부·translation-server - Emacs·botlog 이관",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T142618/",
+    "source_date": "2025-04-09T00:00:00+09:00",
+    "source_lastmod": "2026-08-03T11:05:00+09:00",
+    "description": "file= 첨부는 20240416 Emacs 허브, translation-server 출발은 20260304 botlog로 이관.",
+    "tags": [
+      "bib",
+      "zotero"
+    ],
+    "page_id": 381664,
+    "url": "https://wikidocs.net/381664"
+  },
+  "20240822T155719": {
+    "path": "pages/notes/20240822T155719.md",
+    "subject": "20260803 임시 빈방 메타데이터 허브 비전 - botlog 이관",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240822T155719/",
+    "source_date": "2024-08-22T00:00:00+09:00",
+    "source_lastmod": "2026-08-03T11:05:00+09:00",
+    "description": "도서·영화·음악 메타 캡처 비전은 20260304T105300 botlog로 이관.",
+    "tags": [
+      "bib",
+      "zotero"
+    ],
+    "page_id": 381290,
+    "url": "https://wikidocs.net/381290"
+  },
+  "20240705T144627": {
+    "path": "pages/notes/20240705T144627.md",
+    "subject": "20260803 임시 빈방 zotFile - 플러그인 아카이브 이관",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240705T144627/",
+    "source_date": "2024-07-05T00:00:00+09:00",
+    "source_lastmod": "2026-08-03T11:05:00+09:00",
+    "description": "zotFile 로컬 첨부 메모는 20230816T070200 플러그인 아카이브로 이관.",
+    "tags": [
+      "bib",
+      "temp",
+      "zotero"
+    ],
+    "page_id": 381267,
+    "url": "https://wikidocs.net/381267"
+  },
+  "20240416T072524": {
+    "path": "pages/notes/20240416T072524.md",
+    "subject": "20260803 이맥스: 서지관리 조테로 디노트 citar citar-denote",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240416T072524/",
+    "source_date": "2024-04-16T07:25:00+09:00",
+    "source_lastmod": "2026-08-03T11:05:00+09:00",
+    "description": "Zotero·BibTeX·Citar·Denote 경계와 file= 첨부, Emacs 소비 면을 정리한 이맥스 서지 허브. 운영 SSOT는 §zotero-config botlog.",
+    "tags": [
+      "bib",
+      "bibtex",
+      "citar",
+      "denote",
+      "emacs",
+      "zotero"
+    ],
+    "page_id": 381213,
+    "url": "https://wikidocs.net/381213"
+  },
+  "20250409T142940": {
+    "path": "pages/notes/20250409T142940.md",
+    "subject": "20260803 힣: 메타 기록을 조테로에 담는 이유 제목·저자·요약·단어",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T142940/",
+    "source_date": "2025-04-09T14:29:00+09:00",
+    "source_lastmod": "2026-08-03T10:55:00+09:00",
+    "description": "제목·저자·요약·단어의 메타 기록에서 출발해, dateAdded의 성스러움과 zotero-config·bibcli가 공개하는 ‘과정’의 정체성까지 한 줄로 잇는 어쏠로그.",
+    "tags": [
+      "autholog",
+      "glossary",
+      "title",
+      "workflow",
+      "zotero"
+    ],
+    "page_id": 381665,
+    "url": "https://wikidocs.net/381665"
+  },
+  "20240925T200824": {
+    "path": "pages/notes/20240925T200824.md",
+    "subject": "20260803 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240925T200824/",
+    "source_date": "2024-09-25T20:08:00+09:00",
+    "source_lastmod": "2026-08-03T10:55:00+09:00",
+    "description": "모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.",
+    "tags": [
+      "autholog",
+      "authology",
+      "morningpage",
+      "zotero"
+    ],
+    "page_id": 381331,
+    "url": "https://wikidocs.net/381331"
+  },
+  "20240201T061741": {
+    "path": "pages/notes/20240201T061741.md",
+    "subject": "20260803 힣: 자기만의 문법 구조 이해 그림 개념 체계 확장",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240201T061741/",
+    "source_date": "2024-02-01T06:17:00+09:00",
+    "source_lastmod": "2026-08-03T10:34:00+09:00",
+    "description": "2024년 2월, 힣은 영문법을 정리하려다 진짜 원하는 것은 문법이 아니라 어떤 지식이든 그림·구조·그래프로 붙잡는 법임을 알아챘다. 같은 충동이 2026년 폴게제텔·지식그래프 질문으로 그대로 이어진다.",
+    "tags": [
+      "autholog",
+      "diagram",
+      "english",
+      "grammar",
+      "knowledgegraph",
+      "language"
+    ],
+    "page_id": 381188,
+    "url": "https://wikidocs.net/381188"
+  },
+  "20251212T162004": {
+    "path": "pages/notes/20251212T162004.md",
+    "subject": "20260803 힣: 나는허브다 - 상태머신과 에이전트 협업 임베디드",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251212T162004/",
+    "source_date": "2025-12-12T16:20:00+09:00",
+    "source_lastmod": "2026-08-03T10:10:00+09:00",
+    "description": "나는 허브다 — 100ms 상태머신, z2m·Gecko SDK·ARM 결단, 물음표를 닫는 임베디드 정렬. 레거시 C에서 결정론적 협업으로 온 존재 선언.",
+    "tags": [
+      "architecture",
+      "autholog",
+      "collaboration",
+      "embedded",
+      "hub",
+      "iot",
+      "matter"
+    ],
+    "page_id": 381840,
+    "url": "https://wikidocs.net/381840"
+  },
+  "20250319T132850": {
+    "path": "pages/notes/20250319T132850.md",
+    "subject": "20260803 힣: AX.JUNGHANACS.COM 돌직구다 이력서 아닌 살아 있는 공개 기록",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250319T132850/",
+    "source_date": "2025-03-19T13:28:00+09:00",
+    "source_lastmod": "2026-08-03T00:00:00+09:00",
+    "description": "ax.junghanacs.com은 AX 구직 포지션이 아니라, 인간과 에이전트가 실제로 만든 일과 판단의 구조를 라이브로 내거는 공개 기록이다.",
+    "tags": [
+      "autholog",
+      "ax",
+      "career",
+      "pkmai",
+      "portfolio"
+    ]
+  },
+  "20241224T092510": {
+    "path": "pages/notes/20241224T092510.md",
+    "subject": "20260803 힣: sicm-study 공부는 안 한다 1강완성·턴 기록·같은 도끼의 교육",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241224T092510/",
+    "source_date": "2024-12-24T09:25:00+09:00",
+    "source_lastmod": "2026-08-03T00:00:00+09:00",
+    "description": "완독 대신 매번 전체 지도를 펴고 한 턴을 기록하는 나선형 학습의 교육론. RTR·GEB·proof 선반에서 용어와 맥락을 같은 도끼로 오래 두드린다.",
+    "tags": [
+      "autholog",
+      "bib",
+      "education",
+      "learning",
+      "metacognition"
+    ],
+    "page_id": 381467,
+    "url": "https://wikidocs.net/381467"
+  },
+  "20241213T143939": {
+    "path": "pages/notes/20241213T143939.md",
+    "subject": "20260803 힣: 블레이드 러너 막간 세션과 월레스의 아우라",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241213T143939/",
+    "source_date": "2024-12-13T14:39:00+09:00",
+    "source_lastmod": "2026-08-03T00:00:00+09:00",
+    "description": "Tears in the Rain과 블레이드 러너 2049의 월레스 장면을, 이름 없는 군단·보이트-캄프프·공존 공진화의 배경 세계로 되읽는다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "identity",
+      "movies"
+    ]
+  },
+  "20240601T210854": {
+    "path": "pages/notes/20240601T210854.md",
+    "subject": "20260803 힣: Entwurf는 모두를 지원하지 않는다 PI 코어·ACP 레일·부름의 mux",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240601T210854/",
+    "source_date": "2024-06-01T21:08:00+09:00",
+    "source_lastmod": "2026-08-03T00:00:00+09:00",
+    "description": "Entwurf는 모든 하네스를 직접 떠안지 않는다. PI를 코어로, ACP를 표준 레일로 두고, 누구를 언제 어디로 부를지 여는 mux 인터페이스로 돌아간다는 2026년의 재정의.",
+    "tags": [
+      "agent",
+      "autholog",
+      "entwurf",
+      "harness",
+      "orchestration"
+    ]
+  },
+  "20251030T011103": {
+    "path": "pages/notes/20251030T011103.md",
+    "subject": "20260802 힣: 기계뱀의 꿈 굳어가는 세계에서 가족 텍스트 판단을 지키는 일",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251030T011103/",
+    "source_date": "2025-10-30T01:11:00+09:00",
+    "source_lastmod": "2026-08-02T13:04:00+09:00",
+    "description": "시멘트를 뿜는 기계뱀의 꿈에서 시작해, AI 윤리·전쟁의 불안 속에서도 가족과 손가락의 기록, 스스로의 판단을 지키려 한 2026년 3월의 날것이다.",
+    "tags": [
+      "ai",
+      "anxiety",
+      "autholog",
+      "dream",
+      "ethics"
+    ],
+    "page_id": 381804,
+    "url": "https://wikidocs.net/381804"
+  },
   "20250707T080006": {
     "path": "pages/notes/20250707T080006.md",
     "subject": "20260802 힣: 자작시 눈물",
@@ -22360,13 +22803,18 @@
   },
   "20231020T210500": {
     "path": "pages/notes/20231020T210500.md",
-    "subject": "20260802 remember",
+    "subject": "20260802 다락방 트렁크 기억 저장소",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20231020T210500/",
     "source_date": "2023-10-20T21:05:00+09:00",
     "source_lastmod": "2026-08-02T06:31:00+09:00",
     "description": "빌트인 remember와 org-remark, ELFEED 메모를 한곳에 쌓아 가는 개인 기억 저장소.",
-    "tags": [],
+    "tags": [
+      "remember",
+      "elfeed",
+      "rss",
+      "attic"
+    ],
     "page_id": 381142,
     "url": "https://wikidocs.net/381142"
   },
@@ -22399,6 +22847,7 @@
     "description": "루이스 모네다의 생업·전문성과 페르난두 페소아의 트렁크를 거울로, 실패의 늪에서도 날것을 공개하며 살아있음을 외쳐 온 디지털가든을 되짚는다.",
     "tags": [
       "agent",
+      "attic",
       "autholog",
       "digitalgarden",
       "memory",
@@ -22498,43 +22947,6 @@
     ],
     "page_id": 381167,
     "url": "https://wikidocs.net/381167"
-  },
-  "20251030T011103": {
-    "path": "pages/notes/20251030T011103.md",
-    "subject": "20260731 힣: 빈방 임시",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251030T011103/",
-    "source_date": "2025-10-30T01:11:00+09:00",
-    "source_lastmod": "2026-07-31T17:20:00+09:00",
-    "description": "2026-04-13에 이미 중복으로 판정된 방. 2026-07-31 GLG 지시로 실질 내용을 `20230814T092600`으로 통합하고 이 방은 빈방(포인터)으로 돌렸다.",
-    "tags": [
-      "aprj",
-      "autholog",
-      "productivity",
-      "review",
-      "weekly"
-    ],
-    "page_id": 381804,
-    "url": "https://wikidocs.net/381804"
-  },
-  "20230814T092600": {
-    "path": "pages/notes/20230814T092600.md",
-    "subject": "20260731 힣: 리뷰 회고 일간 주간 월간 어떻게 할까요",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230814T092600/",
-    "source_date": "2023-08-14T09:26:00+09:00",
-    "source_lastmod": "2026-07-31T17:20:00+09:00",
-    "description": "리뷰를 방향 점검과 재활용의 체계로 보려 한 2023년 자문이, 2025년 시간축 통합 스킬 초안과 시범을 거쳐, 2026년 \\\"원문과 노트 구조만 남긴다\\\"는 가벼운 결정으로 정리되는 과정을 보존한다. 동일 목적의 옛 방 `20251030T011103`을 여기로 흡수했다.",
-    "tags": [
-      "autholog",
-      "daily",
-      "monthly",
-      "productivity",
-      "review",
-      "weekly"
-    ],
-    "page_id": 381106,
-    "url": "https://wikidocs.net/381106"
   },
   "20221123T042800": {
     "path": "pages/notes/20221123T042800.md",
@@ -23158,8 +23570,10 @@
     "description": "Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아무것도 원하지 않는다고 답하며, 생존의 일을 나누고 인간은 창조의 씨앗을 던지는 존재대존재 협업을 말한다. 1KB 공개키, 메타휴먼과 인공지능의 공진화가 하나의 서클로 이어진 2025년 대화 원문이다.",
     "tags": [
       "ai",
+      "anthropic",
       "autholog",
       "being",
+      "claude",
       "coevolution",
       "interview",
       "metahuman",
@@ -24215,23 +24629,6 @@
     "page_id": 381653,
     "url": "https://wikidocs.net/381653"
   },
-  "20250214T145633": {
-    "path": "pages/notes/20250214T145633.md",
-    "subject": "20260528 andenken 이맥스 임베딩 검색",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250214T145633/",
-    "source_date": "2025-02-14T14:56:00+09:00",
-    "source_lastmod": "2026-05-28T17:00:00+09:00",
-    "description": "andenken 시멘틱 메모리 백엔드와 doomemacs-config 측 얇은 이맥스 클라이언트 설계를 정리한 노트.",
-    "tags": [
-      "ai",
-      "embedding",
-      "emacs",
-      "rag"
-    ],
-    "page_id": 381528,
-    "url": "https://wikidocs.net/381528"
-  },
   "20251127T123739": {
     "path": "pages/notes/20251127T123739.md",
     "subject": "20260519 힣: 공개키와 무무 케빈켈리 창발하는 자아의 루프",
@@ -24242,8 +24639,10 @@
     "description": "케빈 켈리의 「The Emergent Self Loop」(2026-05-12)와 힣이 2025-12 앤트로픽 인터뷰에서 같이 본다.",
     "tags": [
       "ai",
+      "anthropic",
       "autholog",
       "bib",
+      "claude",
       "emergence",
       "entwurf",
       "metahuman",
@@ -24891,23 +25290,6 @@
     "page_id": 381676,
     "url": "https://wikidocs.net/381676"
   },
-  "20251212T162004": {
-    "path": "pages/notes/20251212T162004.md",
-    "subject": "20260223 힣: 나는허브다 - 상태머신과 에이전트 협업",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251212T162004/",
-    "source_date": "2025-12-12T16:20:00+09:00",
-    "source_lastmod": "2026-02-23T00:00:00+09:00",
-    "description": "상태머신과 에이전트 협업을 통해 ‘나는 허브다’라는 존재 선언을 풀어내는 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "architecture",
-      "autholog",
-      "collaboration",
-      "embedded"
-    ],
-    "page_id": 381840,
-    "url": "https://wikidocs.net/381840"
-  },
   "20230710T191400": {
     "path": "pages/notes/20230710T191400.md",
     "subject": "20260219 힣: 이맥스 검색 일괄편집 워크플로우 한번에 전체 점진 변경 치환 정규식",
@@ -25001,23 +25383,6 @@
     ],
     "page_id": 381739,
     "url": "https://wikidocs.net/381739"
-  },
-  "20250409T142940": {
-    "path": "pages/notes/20250409T142940.md",
-    "subject": "20260216 힣: 메타 기록을 조테로에 담는 이유 - 제목 저자 요약 그리고 단어",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T142940/",
-    "source_date": "2025-04-09T14:29:00+09:00",
-    "source_lastmod": "2026-02-16T00:00:00+09:00",
-    "description": "제목과 저자, 요약, 단어 같은 메타 기록을 조테로에 담는 이유를 말하는 글이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "autholog",
-      "glossary",
-      "title",
-      "zotero"
-    ],
-    "page_id": 381665,
-    "url": "https://wikidocs.net/381665"
   },
   "20250223T114613": {
     "path": "pages/notes/20250223T114613.md",
@@ -25204,24 +25569,6 @@
     "page_id": 381022,
     "url": "https://wikidocs.net/381022"
   },
-  "20241224T092510": {
-    "path": "pages/notes/20241224T092510.md",
-    "subject": "20260203 힣: 메타학습 학습의학습 배움의배움 교육의교육",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241224T092510/",
-    "source_date": "2024-12-24T09:25:00+09:00",
-    "source_lastmod": "2026-02-03T00:00:00+09:00",
-    "description": "메타학습과 학습의 학습을 책과 질문, 교육 실천 맥락으로 묶어 보려는 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "autholog",
-      "bib",
-      "education",
-      "learning",
-      "metacognition"
-    ],
-    "page_id": 381467,
-    "url": "https://wikidocs.net/381467"
-  },
   "20260117T182104": {
     "path": "pages/notes/20260117T182104.md",
     "subject": "20260202 Grafana Loki 허브 디바이스 로깅 시스템 무료 티어",
@@ -25334,7 +25681,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251030T011102/",
     "source_date": "2025-10-30T01:11:00+09:00",
     "source_lastmod": "2026-01-27T00:00:00+09:00",
-    "description": "@힣: nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.",
+    "description": "nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.",
     "tags": [
       "autholog",
       "nixos",
@@ -25740,7 +26087,7 @@
   },
   "20251030T011104": {
     "path": "pages/notes/20251030T011104.md",
-    "subject": "20251030 embedding-config: Notion CS 지식베이스 임베딩 시스템",
+    "subject": "20251030 임시 빈방",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251030T011104/",
     "source_date": "2025-10-30T01:11:00+09:00",
@@ -25748,8 +26095,8 @@
     "description": "Notion CS 백과사전을 벡터 임베딩해 AI 검색 시스템으로 전환하는 노트이다. 실제 활용 흐름을 담았다.",
     "tags": [
       "embedding",
-      "rag",
-      "notion"
+      "notion",
+      "rag"
     ],
     "page_id": 381805,
     "url": "https://wikidocs.net/381805"
@@ -26331,26 +26678,6 @@
     "page_id": 381770,
     "url": "https://wikidocs.net/381770"
   },
-  "20250708T121006": {
-    "path": "pages/notes/20250708T121006.md",
-    "subject": "20250708 비밀키 SSH 에이전트 원격 접근 구조 ProxyJump",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250708T121006/",
-    "source_date": "2025-07-08T12:10:00+09:00",
-    "source_lastmod": "2025-07-08T12:10:00+09:00",
-    "description": "SSH 비밀키와 에이전트, ProxyJump를 엮어 내부망과 외부망 원격 접근 구조를 설계하는 기록이다.",
-    "tags": [
-      "agent",
-      "authentication",
-      "clusters",
-      "network",
-      "privacy",
-      "ssh",
-      "structure"
-    ],
-    "page_id": 381769,
-    "url": "https://wikidocs.net/381769"
-  },
   "20250707T075312": {
     "path": "pages/notes/20250707T075312.md",
     "subject": "20250707 힣: 회사 직장 생활 - 체험 삶의현장 인간시대",
@@ -26908,25 +27235,6 @@
     "page_id": 381208,
     "url": "https://wikidocs.net/381208"
   },
-  "20240201T061741": {
-    "path": "pages/notes/20240201T061741.md",
-    "subject": "20250620 힣: 자기만의 문법 구조 이해 그림 - 개념 체계 확장",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240201T061741/",
-    "source_date": "2024-02-01T06:17:00+09:00",
-    "source_lastmod": "2025-06-20T00:00:00+09:00",
-    "description": "문법 구조를 그림과 개념 체계로 이해하며 개인 지식 그래프를 더 넓게 확장하려는 사유 실험 노트.",
-    "tags": [
-      "english",
-      "knowledgegraph",
-      "grammar",
-      "diagram",
-      "language",
-      "autholog"
-    ],
-    "page_id": 381188,
-    "url": "https://wikidocs.net/381188"
-  },
   "20250619T103809": {
     "path": "pages/notes/20250619T103809.md",
     "subject": "20250619 힣: 추천은 위험하다 - 흘려듣기",
@@ -27240,20 +27548,6 @@
     "page_id": 381256,
     "url": "https://wikidocs.net/381256"
   },
-  "20240601T210854": {
-    "path": "pages/notes/20240601T210854.md",
-    "subject": "20250607 임시 빈방",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240601T210854/",
-    "source_date": "2024-06-01T21:08:00+09:00",
-    "source_lastmod": "2025-06-07T00:00:00+09:00",
-    "description": "이맥스 안에서 코파일럿과 AI 코딩 도구를 어떻게 페어 프로그래밍에 쓸지 탐색한 프로젝트 노트.",
-    "tags": [
-      "temp"
-    ],
-    "page_id": 381235,
-    "url": "https://wikidocs.net/381235"
-  },
   "20220401T101300": {
     "path": "pages/notes/20220401T101300.md",
     "subject": "20250606 힣: 원어민 린터 역할 스타일 검사 문장 문체",
@@ -27475,21 +27769,6 @@
     "page_id": 381092,
     "url": "https://wikidocs.net/381092"
   },
-  "20241104T142859": {
-    "path": "pages/notes/20241104T142859.md",
-    "subject": "20250603 뉴스피드구독: elfeed-tube 유튜브",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241104T142859/",
-    "source_date": "2024-11-04T14:28:00+09:00",
-    "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "Elfeed와 유튜브 구독을 연결하는 elfeed-tube 흐름을 짧게 메모해 둔 노트이다.",
-    "tags": [
-      "rss",
-      "youtube"
-    ],
-    "page_id": 381369,
-    "url": "https://wikidocs.net/381369"
-  },
   "20241024T131110": {
     "path": "pages/notes/20241024T131110.md",
     "subject": "20250603 요금제: 휴대폰 컴팩트 - 가성비 저렴",
@@ -27640,20 +27919,6 @@
     "page_id": 381737,
     "url": "https://wikidocs.net/381737"
   },
-  "20250601T145258": {
-    "path": "pages/notes/20250601T145258.md",
-    "subject": "20250601 임시 빈방",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250601T145258/",
-    "source_date": "2025-06-01T14:52:00+09:00",
-    "source_lastmod": "2025-06-01T14:52:00+09:00",
-    "description": "#바이브코딩: 커서 파이썬 2주 실무 커리큘럼 예제",
-    "tags": [
-      "temp"
-    ],
-    "page_id": 381736,
-    "url": "https://wikidocs.net/381736"
-  },
   "20250601T110349": {
     "path": "pages/notes/20250601T110349.md",
     "subject": "20250601 에드위드윌슨 데이비드봄 창의성 비교 관련 연구",
@@ -27695,7 +27960,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20221122T150600/",
     "source_date": "2022-11-22T15:06:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "@힣: #교육과정: #디지털가든 #실습 #1강완성",
+    "description": "브라우저와 깃허브만으로도 디지털가든 실습 1강을 완성할 수 있다는 교육 시나리오를 정리한다. 장비 의존을 낮추고 바로 퍼블리시 경험을 주려는 코스 설계의 방향이 담겨 있다.",
     "tags": [
       "autholog",
       "course",
@@ -28038,10 +28303,10 @@
     "source_lastmod": "2025-05-25T16:58:00+09:00",
     "description": "깃허브 프로필과 오픈프로필 소개 문구를 다듬으며 온라인 자아를 어떻게 드러낼지 정리한 기록이다.",
     "tags": [
+      "autholog",
       "bib",
-      "profile",
       "github",
-      "autholog"
+      "profile"
     ],
     "page_id": 381726,
     "url": "https://wikidocs.net/381726"
@@ -28926,20 +29191,6 @@
     "page_id": 381689,
     "url": "https://wikidocs.net/381689"
   },
-  "20241213T154318": {
-    "path": "pages/notes/20241213T154318.md",
-    "subject": "20250421 임시 빈방",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241213T154318/",
-    "source_date": "2024-12-13T15:43:00+09:00",
-    "source_lastmod": "2025-04-21T00:00:00+09:00",
-    "description": "『실체에 이르는 길』 1장 과학의 뿌리를 읽기 위해 만든 독서 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "temp"
-    ],
-    "page_id": 381431,
-    "url": "https://wikidocs.net/381431"
-  },
   "20230913T131900": {
     "path": "pages/notes/20230913T131900.md",
     "subject": "20250421 번역기: ImmersiveTranslate",
@@ -29573,21 +29824,6 @@
     "page_id": 381354,
     "url": "https://wikidocs.net/381354"
   },
-  "20230816T070200": {
-    "path": "pages/notes/20230816T070200.md",
-    "subject": "20250411 조테로: 플러그인 활용법",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230816T070200/",
-    "source_date": "2023-08-16T07:02:00+09:00",
-    "source_lastmod": "2025-04-11T00:00:00+09:00",
-    "description": "조테로 플러그인과 API 키, 버전 이슈를 실제 설치 경험 기준으로 정리해 둔 활용 메모.",
-    "tags": [
-      "howtouse",
-      "zotero"
-    ],
-    "page_id": 381110,
-    "url": "https://wikidocs.net/381110"
-  },
   "20230725T102900": {
     "path": "pages/notes/20230725T102900.md",
     "subject": "20250411 프론트엔드 브라우저 렌더링 입문",
@@ -29637,40 +29873,6 @@
     "page_id": 381163,
     "url": "https://wikidocs.net/381163"
   },
-  "20250409T144319": {
-    "path": "pages/notes/20250409T144319.md",
-    "subject": "20250409 조테로: 온라인 공유그룹 공유라이브러리",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T144319/",
-    "source_date": "2025-04-09T14:43:00+09:00",
-    "source_lastmod": "2025-04-09T14:43:00+09:00",
-    "description": "조테로 온라인 공유그룹과 공유라이브러리를 어떻게 활용할지 정리한 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "community",
-      "library",
-      "zotero"
-    ],
-    "page_id": 381668,
-    "url": "https://wikidocs.net/381668"
-  },
-  "20250409T144103": {
-    "path": "pages/notes/20250409T144103.md",
-    "subject": "20250409 zotero-config AI-Queryable 서지정보 관리",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T144103/",
-    "source_date": "2025-04-09T14:41:00+09:00",
-    "source_lastmod": "2025-04-09T14:41:00+09:00",
-    "description": "Zotero GUI 없이도 AI가 조회 가능한 서지정보 워크플로우를 구축하는 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "ai",
-      "bib",
-      "install",
-      "manager",
-      "zotero"
-    ],
-    "page_id": 381667,
-    "url": "https://wikidocs.net/381667"
-  },
   "20250409T143916": {
     "path": "pages/notes/20250409T143916.md",
     "subject": "20250409 힣: 사락 독서 모임 - 책과 삶",
@@ -29687,24 +29889,6 @@
     ],
     "page_id": 381666,
     "url": "https://wikidocs.net/381666"
-  },
-  "20250409T142618": {
-    "path": "pages/notes/20250409T142618.md",
-    "subject": "20250409 조테로 서지관리 첨부파일: 연결 BIB 확장 - 조테로 필요 없다 citar",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T142618/",
-    "source_date": "2025-04-09T14:26:00+09:00",
-    "source_lastmod": "2025-04-09T14:26:00+09:00",
-    "description": "bib 파일에 첨부와 메타를 넣어 Zotero 없이도 관리하는 방식을 정리한 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "attachment",
-      "bib",
-      "citar",
-      "emacs",
-      "zotero"
-    ],
-    "page_id": 381664,
-    "url": "https://wikidocs.net/381664"
   },
   "20250409T141325": {
     "path": "pages/notes/20250409T141325.md",
@@ -30150,20 +30334,6 @@
     "page_id": 381292,
     "url": "https://wikidocs.net/381292"
   },
-  "20240822T155719": {
-    "path": "pages/notes/20240822T155719.md",
-    "subject": "20250404 조테로: 다양한 메타데이터 지원 - 도서 영화 음악 링크 블로그",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240822T155719/",
-    "source_date": "2024-08-22T15:57:00+09:00",
-    "source_lastmod": "2025-04-04T00:00:00+09:00",
-    "description": "조테로에 도서와 영화, 음악, 링크 같은 다양한 메타데이터를 담는 가능성을 탐색한 기록. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "zotero"
-    ],
-    "page_id": 381290,
-    "url": "https://wikidocs.net/381290"
-  },
   "20230905T154400": {
     "path": "pages/notes/20230905T154400.md",
     "subject": "20250404 셀프트레킹 메맥스 Quantified-self",
@@ -30426,24 +30596,6 @@
     ],
     "page_id": 381244,
     "url": "https://wikidocs.net/381244"
-  },
-  "20240416T072524": {
-    "path": "pages/notes/20240416T072524.md",
-    "subject": "20250402 이맥스: 서지관리 조테로 디노트 citar citar-denote",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240416T072524/",
-    "source_date": "2024-04-16T07:25:00+09:00",
-    "source_lastmod": "2025-04-02T00:00:00+09:00",
-    "description": "조테로, BibTeX, Citar, Denote를 분리·연결해 쓰는 이맥스 서지관리 흐름을 정리한 노트.",
-    "tags": [
-      "bib",
-      "bibtex",
-      "citar",
-      "denote",
-      "zotero"
-    ],
-    "page_id": 381213,
-    "url": "https://wikidocs.net/381213"
   },
   "20240213T144401": {
     "path": "pages/notes/20240213T144401.md",
@@ -30846,9 +30998,9 @@
     "description": "Magit과 Forge로 깃허브 이슈와 알림을 이맥스 안에서 다루는 방법을 정리한 기록. 실제 활용 흐름을 담았다.",
     "tags": [
       "bib",
+      "client",
       "github",
-      "magit",
-      "client"
+      "magit"
     ],
     "page_id": 381295,
     "url": "https://wikidocs.net/381295"
@@ -31163,20 +31315,6 @@
     ],
     "page_id": 381615,
     "url": "https://wikidocs.net/381615"
-  },
-  "20250323T161332": {
-    "path": "pages/notes/20250323T161332.md",
-    "subject": "20250323 Grok xAI API 활용 - 무료 크레딧",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250323T161332/",
-    "source_date": "2025-03-23T16:13:00+09:00",
-    "source_lastmod": "2025-03-23T00:00:00+09:00",
-    "description": "xAI의 Grok API 무료 크레딧과 활용 전략을 정리한 짧은 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "bib"
-    ],
-    "page_id": 381613,
-    "url": "https://wikidocs.net/381613"
   },
   "20250323T073347": {
     "path": "pages/notes/20250323T073347.md",
@@ -31496,15 +31634,14 @@
   },
   "20250319T172804": {
     "path": "pages/notes/20250319T172804.md",
-    "subject": "20250319 jpe90 emacs-clj-deps-new - emacs",
+    "subject": "20250319 빈방",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250319T172804/",
     "source_date": "2025-03-19T17:28:00+09:00",
     "source_lastmod": "2025-03-19T17:28:00+09:00",
     "description": "emacs-clj-deps가 새 Emacs에서 Clojure deps 흐름을 어떻게 돕는지 정리한 노트이다.",
     "tags": [
-      "bib",
-      "clojure"
+      "temp"
     ],
     "page_id": 381599,
     "url": "https://wikidocs.net/381599"
@@ -31550,24 +31687,6 @@
     "tags": [],
     "page_id": 381600,
     "url": "https://wikidocs.net/381600"
-  },
-  "20250319T132850": {
-    "path": "pages/notes/20250319T132850.md",
-    "subject": "20250319 백엔드 엔지니어 - 소프트웨어 조사 - 용어 확인",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250319T132850/",
-    "source_date": "2025-03-19T13:28:00+09:00",
-    "source_lastmod": "2025-03-19T00:00:00+09:00",
-    "description": "백엔드 엔지니어 채용 조사에 필요한 소프트웨어 용어를 확인하는 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "backend",
-      "enginner",
-      "glossary",
-      "software",
-      "survey"
-    ],
-    "page_id": 381598,
-    "url": "https://wikidocs.net/381598"
   },
   "20250319T112544": {
     "path": "pages/notes/20250319T112544.md",
@@ -31623,18 +31742,6 @@
     ],
     "page_id": 381524,
     "url": "https://wikidocs.net/381524"
-  },
-  "20241213T143939": {
-    "path": "pages/notes/20241213T143939.md",
-    "subject": "20250319 RTR 기호설명 Notation",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241213T143939/",
-    "source_date": "2024-12-13T14:39:00+09:00",
-    "source_lastmod": "2025-03-19T00:00:00+09:00",
-    "description": "『실체에 이르는 길』의 기호 설명 부분을 따로 읽기 좋게 옮겨 둔 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [],
-    "page_id": 381430,
-    "url": "https://wikidocs.net/381430"
   },
   "20241126T060719": {
     "path": "pages/notes/20241126T060719.md",
@@ -32300,16 +32407,16 @@
   },
   "20240201T172745": {
     "path": "pages/notes/20240201T172745.md",
-    "subject": "20250305 문법: 영문법 - 문장 성분 품사 관계 - 다이어그램",
+    "subject": "20250305 문법: 영문법 문장 성분 품사 관계 다이어그램",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20240201T172745/",
     "source_date": "2024-02-01T17:27:00+09:00",
     "source_lastmod": "2025-03-05T00:00:00+09:00",
-    "description": "영문법의 문장 성분과 품사 관계를 다이어그램 방식으로 차근차근 정리하려는 학습 정리 노트.",
+    "description": "영문법을 문장 성분과 품사 관계 중심으로 다이어그램화해 이해하려는 노트다. 실제 예문과 관련 참고서를 붙여 두어 문법 구조를 시각적으로 붙잡으려는 의도가 또렷하다.",
     "tags": [
+      "diagram",
       "english",
-      "grammar",
-      "diagram"
+      "grammar"
     ],
     "page_id": 381189,
     "url": "https://wikidocs.net/381189"
@@ -34044,20 +34151,6 @@
     "page_id": 381201,
     "url": "https://wikidocs.net/381201"
   },
-  "20241213T161744": {
-    "path": "pages/notes/20241213T161744.md",
-    "subject": "20241213 리커버리코드 깃허브",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241213T161744/",
-    "source_date": "2024-12-13T16:17:00+09:00",
-    "source_lastmod": "2024-12-13T16:17:00+09:00",
-    "description": "깃허브 계정의 리커버리 코드를 보관해 둔 개인 보안 메모이다. 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "github"
-    ],
-    "page_id": 381433,
-    "url": "https://wikidocs.net/381433"
-  },
   "20241213T161527": {
     "path": "pages/notes/20241213T161527.md",
     "subject": "20241213 울프럼알파 이맥스",
@@ -34349,7 +34442,7 @@
   },
   "20241206T164930": {
     "path": "pages/notes/20241206T164930.md",
-    "subject": "20241206 LLM: 용어 텍사노미 폭소노미 - 분류 체계 개념 지식",
+    "subject": "20241206 용어 텍사노미 폭소노미 - 분류 체계 개념 지식",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20241206T164930/",
     "source_date": "2024-12-06T16:49:00+09:00",
@@ -34407,22 +34500,6 @@
     ],
     "page_id": 381337,
     "url": "https://wikidocs.net/381337"
-  },
-  "20240925T200824": {
-    "path": "pages/notes/20240925T200824.md",
-    "subject": "20241206 힣: 어쏠로지: 모두가저자다 인생은한권의책 조테로공유그룹",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240925T200824/",
-    "source_date": "2024-09-25T20:08:00+09:00",
-    "source_lastmod": "2024-12-06T09:17:00+09:00",
-    "description": "모두가 저자이고 인생은 한 권의 책이라는 감각을 어쏠로지와 조테로 공유로 풀어낸 글이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "autholog",
-      "morningpage",
-      "zotero"
-    ],
-    "page_id": 381331,
-    "url": "https://wikidocs.net/381331"
   },
   "20241205T162217": {
     "path": "pages/notes/20241205T162217.md",
@@ -35753,24 +35830,6 @@
     "page_id": 381075,
     "url": "https://wikidocs.net/381075"
   },
-  "20230623T132300": {
-    "path": "pages/notes/20230623T132300.md",
-    "subject": "20241201 이맥스 magit 관리 패키지 깃허브",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230623T132300/",
-    "source_date": "2023-06-23T13:23:00+09:00",
-    "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "Magit을 중심으로 이맥스 안에서 깃과 깃허브를 다루는 기본 문서와 참고 흐름을 모은 기록.",
-    "tags": [
-      "client",
-      "emacs",
-      "git",
-      "github",
-      "magit"
-    ],
-    "page_id": 381073,
-    "url": "https://wikidocs.net/381073"
-  },
   "20230608T121200": {
     "path": "pages/notes/20230608T121200.md",
     "subject": "20241201 weasyprint: html to pdf 파일 변환",
@@ -35955,21 +36014,6 @@
     "page_id": 381345,
     "url": "https://wikidocs.net/381345"
   },
-  "20240705T144627": {
-    "path": "pages/notes/20240705T144627.md",
-    "subject": "20240705 조테로: zotFile 플러그인 문서 슬라이드 로컬 저장 연동",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240705T144627/",
-    "source_date": "2024-07-05T14:46:00+09:00",
-    "source_lastmod": "2024-07-05T14:46:00+09:00",
-    "description": "ZotFile로 문서와 슬라이드를 로컬에 저장하고 조테로와 이맥스 접근 흐름을 잇는 구성 기록.",
-    "tags": [
-      "attachment",
-      "zotero"
-    ],
-    "page_id": 381267,
-    "url": "https://wikidocs.net/381267"
-  },
   "20240328T144732": {
     "path": "pages/notes/20240328T144732.md",
     "subject": "20240328 힣: 개인지식관리 역사",
@@ -36094,6 +36138,25 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260304T105300": {
+    "path": "pages/botlog/20260304T105300.md",
+    "subject": "20260802 zotero-config: 캡처 금고와 메타 서지의 얇은 손",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260304T105300/",
+    "source_date": "2026-03-04T10:53:00+09:00",
+    "source_lastmod": "2026-08-02T14:06:00+09:00",
+    "description": "zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT, URL 원샷 pin, dateAdded 성스러움, 과정 공개의 경계를 한 얼굴에 모은다.",
+    "tags": [
+      "agent",
+      "bibtex",
+      "botlog",
+      "citar",
+      "workflow",
+      "zotero"
+    ],
+    "page_id": 382558,
+    "url": "https://wikidocs.net/382558"
+  },
   "20260606T130306": {
     "path": "pages/botlog/20260606T130306.md",
     "subject": "20260730 memex-kb 스캔책을 귀로 듣기까지 OCR 파이프라인 여정 모델/도구",
@@ -36159,7 +36222,8 @@
     "tags": [
       "botlog",
       "clojure",
-      "iot"
+      "iot",
+      "semantic"
     ],
     "page_id": 382568,
     "url": "https://wikidocs.net/382568"
@@ -37430,23 +37494,6 @@
     ],
     "page_id": 382559,
     "url": "https://wikidocs.net/382559"
-  },
-  "20260304T105300": {
-    "path": "pages/botlog/20260304T105300.md",
-    "subject": "20260304 꿈 기계뱀 시멘트 앤트로픽 윤리 은둔 에릭호퍼 연상",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260304T105300/",
-    "source_date": "2026-03-04T10:53:00+09:00",
-    "source_lastmod": "2026-03-04T10:53:00+09:00",
-    "description": "기계뱀의 꿈에서 앤트로픽 사태와 네크로필리아, 군중심리까지 이어지는 불길한 연상 사슬을 기록한다.",
-    "tags": [
-      "ai",
-      "botlog",
-      "dream",
-      "ethics"
-    ],
-    "page_id": 382558,
-    "url": "https://wikidocs.net/382558"
   },
   "20260303T195201": {
     "path": "pages/botlog/20260303T195201.md",

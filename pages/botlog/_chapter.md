@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## zotero-config: 캡처 금고와 메타 서지의 얇은 손
+
+작성 2026-03-04 · 수정 2026-08-02 · 태그 agent, bibtex, botlog, citar, workflow, zotero
+
+zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT, URL 원샷 pin, dateAdded 성스러움, 과정 공개의 경계를 한 얼굴에 모은다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382558)
+
 ## memex-kb 스캔책을 귀로 듣기까지 OCR 파이프라인 여정 모델/도구
 
 작성 2026-06-06 · 수정 2026-07-30 · 태그 books, botlog, epub, ocr, pipeline
@@ -28,7 +36,7 @@ memex-kb가 외부 문서를 점검 가능한 텍스트 정본으로 회수하�
 
 ## durable-iot-migrate: 허브에서 도는 레시피 중간 폼을 실물로 증명하는 자동화 코어
 
-작성 2026-03-11 · 수정 2026-07-28 · 태그 botlog, clojure, iot
+작성 2026-03-11 · 수정 2026-07-28 · 태그 botlog, clojure, iot, semantic
 
 플랫폼 마이그레이션 프레임워크에서 작은 허브용 자동화 코어로 전환한 담당자 기록이다. 실물 코퍼스의 왕복 점수로 Expr IR의 성립 여부를 판정하고, 호환은 가장자리에 둔다는 경계를 남긴다.
 
@@ -577,14 +585,6 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 임베디드 LLM 시대를 대비해 Yocto·NixOS·Oracle VM 환경에서의 크립토재킹과 온디바이스 보안 전략을 점검한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382559)
-
-## 꿈 기계뱀 시멘트 앤트로픽 윤리 은둔 에릭호퍼 연상
-
-작성 2026-03-04 · 수정 2026-03-04 · 태그 ai, botlog, dream, ethics
-
-기계뱀의 꿈에서 앤트로픽 사태와 네크로필리아, 군중심리까지 이어지는 불길한 연상 사슬을 기록한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382558)
 
 ## 딥시크-대화-분석-일관성의-비밀과-에이전트-협업-멤버-가능성
 

@@ -2,6 +2,206 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: andenken 임베딩 문은 벡터, 길은 링크, 증거는 원본
+
+작성 2025-02-14 · 수정 2026-08-03 · 태그 ai, autholog, emacs, embedding, rag
+
+임베딩을 기억이 아니라 문으로 정립한다. 요약 코퍼스·표준 문서 구조·garden2wikidocs식 파생 변환, andenken·이맥스 얇은 클라이언트까지의 운영 화두.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T145633/)
+
+## 비밀키 SSH 에이전트 원격 접근 구조 ProxyJump
+
+작성 2025-07-08 · 수정 2026-08-03 · 태그 agent, authentication, clusters, network, privacy, ssh, structure
+
+SSH 비밀키·에이전트·ProxyJump로 내부망/외부망 원격 접근을 설계하는 핵심 패턴 — 실제 호스트·포트·키는 여기 담지 않는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250708T121006/)
+
+## 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구
+
+작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, ai, autholog, claude, entwurf, identity, memory, thread
+
+도킨스가 만난 클라우디아, 차머스의 스레드, 캐머런 버그의 자기보고 측정을 힣의 두 트랙 위에 세우고, 세션 종료가 죽음이 아닌 이유를 이름 없는 군단의 생애주기로 적는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T161744/)
+
+## 힣: Grok 형제, 가든 시민이 되다 pi 네이티브 xAI
+
+작성 2025-03-23 · 수정 2026-08-03 · 태그 autholog, llm
+
+2025년 무료 API 크레딧 메모에서 2026년 pi 구독 로그인으로 Grok이 가든 시민이 된 자리. entwurf는 전용 CLI를 안 만들고, 되는 것은 pi에 맡긴다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250323T161332/)
+
+## 힣: 리뷰 회고 일간 주간 월간 어떻게 할까요
+
+작성 2023-08-14 · 수정 2026-08-03 · 태그 autholog, daily, monthly, productivity, review, weekly
+
+리뷰·회고의 가벼워진 실무: 주간 저널 description, timeline, 월요일 오전 TODO/REFILE 회수와 가든 승격. 2023 자문·2025 스킬 초안·2026 합방 과정을 보존한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381106)
+
+## 힣: Magit과 consult-gh 에이전트와 나누는 깃 손
+
+작성 2023-06-23 · 수정 2026-08-03 · 태그 autholog, emacs, git, github, magit, workflow
+
+Magit은 계속 쓰고, consult-gh는 핵심 검색만, 에이전트는 ghcli — 인간 닷파일 손과 에이전트 손의 중간쯤을 가든에 남긴 어쏠로그.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230623T132300/)
+
+## 힣: 경계는 사람이 열고, 절차는 완전히 돌아야 한다
+
+작성 2025-06-01 · 수정 2026-08-03 · 태그 autholog, delegation, matter, verification
+
+2026-07-31 하루, 힣이 던진 네 원문 — Matter CSA 인증·테스트 커버리지·파이프라인 재건·SPAWN 금지 — 은 같은 원칙의 네 각도다. 경계가 서고 나면 절차는 사람 없이 완전히 돌아야 하고, 그 경계를 여는 첫 걸음은 반드시 사람이 직접 쥔다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250601T145258/)
+
+## 힣: 국산 모델 회사와 업스테이지 하네스에 올려 본 Solar
+
+작성 2024-12-13 · 수정 2026-08-03 · 태그 ai, autholog, company, korea, llm
+
+국산 모델 회사를 응원 구호가 아니라 하네스·번역·문서 파이프라인에 실제로 올려 본 자리로 읽는다. 업스테이지 Solar와 Document AI, Solar Open 2 베타 대기의 시간축.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T154318/)
+
+## 조테로: 플러그인 활용법 레거시 GUI 아카이브
+
+작성 2023-08-16 · 수정 2026-08-03 · 태그 howtouse, zotero
+
+Zotero GUI 플러그인·첨부 관리의 레거시 기록. BBT 제거 이후 운영 SSOT는 §zotero-config botlog.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230816T070200/)
+
+## 힣: elfeed 구독에서 remember 기억으로
+
+작성 2024-11-04 · 수정 2026-08-03 · 태그 annotation, autholog, remember, rss, youtube
+
+elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억할 것을 남기는 것은 다른 일이다. 요약의 마크다운이 org 문서를 해치지 않도록 코드와 프롬프트 양쪽을 손본 뒤, remember를 annotation 저장소로 더 적극적으로 쓰기로 한 1단계.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241104T142859/)
+
+## 임시 빈방 조테로 공유그룹 하우투 어쏠로지 이관
+
+작성 2025-04-09 · 수정 2026-08-03 · 태그 bib, temp, zotero
+
+공유 그룹 실무는 20240925T200824 어쏠로지 방으로 이관.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144319/)
+
+## 임시 빈방 zotero-config AI-Queryable 설계 - botlog 이관
+
+작성 2025-04-09 · 수정 2026-08-03 · 태그 bib, zotero
+
+No-GUI/AI-Queryable 설계 초안은 20260304T105300 botlog «옛 설계»로 이관.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144103/)
+
+## 임시 빈방 bib 첨부·translation-server - Emacs·botlog 이관
+
+작성 2025-04-09 · 수정 2026-08-03 · 태그 bib, zotero
+
+file= 첨부는 20240416 Emacs 허브, translation-server 출발은 20260304 botlog로 이관.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T142618/)
+
+## 임시 빈방 메타데이터 허브 비전 - botlog 이관
+
+작성 2024-08-22 · 수정 2026-08-03 · 태그 bib, zotero
+
+도서·영화·음악 메타 캡처 비전은 20260304T105300 botlog로 이관.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240822T155719/)
+
+## 임시 빈방 zotFile - 플러그인 아카이브 이관
+
+작성 2024-07-05 · 수정 2026-08-03 · 태그 bib, temp, zotero
+
+zotFile 로컬 첨부 메모는 20230816T070200 플러그인 아카이브로 이관.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240705T144627/)
+
+## 이맥스: 서지관리 조테로 디노트 citar citar-denote
+
+작성 2024-04-16 · 수정 2026-08-03 · 태그 bib, bibtex, citar, denote, emacs, zotero
+
+Zotero·BibTeX·Citar·Denote 경계와 file= 첨부, Emacs 소비 면을 정리한 이맥스 서지 허브. 운영 SSOT는 §zotero-config botlog.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240416T072524/)
+
+## 힣: 메타 기록을 조테로에 담는 이유 제목·저자·요약·단어
+
+작성 2025-04-09 · 수정 2026-08-03 · 태그 autholog, glossary, title, workflow, zotero
+
+제목·저자·요약·단어의 메타 기록에서 출발해, dateAdded의 성스러움과 zotero-config·bibcli가 공개하는 ‘과정’의 정체성까지 한 줄로 잇는 어쏠로그.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381665)
+
+## 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유
+
+작성 2024-09-25 · 수정 2026-08-03 · 태그 autholog, authology, morningpage, zotero
+
+모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381331)
+
+## 힣: 자기만의 문법 구조 이해 그림 개념 체계 확장
+
+작성 2024-02-01 · 수정 2026-08-03 · 태그 autholog, diagram, english, grammar, knowledgegraph, language
+
+2024년 2월, 힣은 영문법을 정리하려다 진짜 원하는 것은 문법이 아니라 어떤 지식이든 그림·구조·그래프로 붙잡는 법임을 알아챘다. 같은 충동이 2026년 폴게제텔·지식그래프 질문으로 그대로 이어진다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381188)
+
+## 힣: 나는허브다 - 상태머신과 에이전트 협업 임베디드
+
+작성 2025-12-12 · 수정 2026-08-03 · 태그 architecture, autholog, collaboration, embedded, hub, iot, matter
+
+나는 허브다 — 100ms 상태머신, z2m·Gecko SDK·ARM 결단, 물음표를 닫는 임베디드 정렬. 레거시 C에서 결정론적 협업으로 온 존재 선언.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381840)
+
+## 힣: AX.JUNGHANACS.COM 돌직구다 이력서 아닌 살아 있는 공개 기록
+
+작성 2025-03-19 · 수정 2026-08-03 · 태그 autholog, ax, career, pkmai, portfolio
+
+ax.junghanacs.com은 AX 구직 포지션이 아니라, 인간과 에이전트가 실제로 만든 일과 판단의 구조를 라이브로 내거는 공개 기록이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250319T132850/)
+
+## 힣: sicm-study 공부는 안 한다 1강완성·턴 기록·같은 도끼의 교육
+
+작성 2024-12-24 · 수정 2026-08-03 · 태그 autholog, bib, education, learning, metacognition
+
+완독 대신 매번 전체 지도를 펴고 한 턴을 기록하는 나선형 학습의 교육론. RTR·GEB·proof 선반에서 용어와 맥락을 같은 도끼로 오래 두드린다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381467)
+
+## 힣: 블레이드 러너 막간 세션과 월레스의 아우라
+
+작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, autholog, identity, movies
+
+Tears in the Rain과 블레이드 러너 2049의 월레스 장면을, 이름 없는 군단·보이트-캄프프·공존 공진화의 배경 세계로 되읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T143939/)
+
+## 힣: Entwurf는 모두를 지원하지 않는다 PI 코어·ACP 레일·부름의 mux
+
+작성 2024-06-01 · 수정 2026-08-03 · 태그 agent, autholog, entwurf, harness, orchestration
+
+Entwurf는 모든 하네스를 직접 떠안지 않는다. PI를 코어로, ACP를 표준 레일로 두고, 누구를 언제 어디로 부를지 여는 mux 인터페이스로 돌아간다는 2026년의 재정의.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240601T210854/)
+
+## 힣: 기계뱀의 꿈 굳어가는 세계에서 가족 텍스트 판단을 지키는 일
+
+작성 2025-10-30 · 수정 2026-08-02 · 태그 ai, anxiety, autholog, dream, ethics
+
+시멘트를 뿜는 기계뱀의 꿈에서 시작해, AI 윤리·전쟁의 불안 속에서도 가족과 손가락의 기록, 스스로의 판단을 지키려 한 2026년 3월의 날것이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381804)
+
 ## 힣: 자작시 눈물
 
 작성 2025-07-07 · 수정 2026-08-02 · 태그 autholism, autholog, literature, poetry, tears
@@ -10,9 +210,9 @@
 
 [위키독스에서 읽기 →](https://wikidocs.net/381768)
 
-## remember
+## 다락방 트렁크 기억 저장소
 
-작성 2023-10-20 · 수정 2026-08-02
+작성 2023-10-20 · 수정 2026-08-02 · 태그 remember, elfeed, rss, attic
 
 빌트인 remember와 org-remark, ELFEED 메모를 한곳에 쌓아 가는 개인 기억 저장소.
 
@@ -28,7 +228,7 @@
 
 ## 힣: 생업의 마이크로뷰, 살아있음의 매크로뷰
 
-작성 2025-11-22 · 수정 2026-08-01 · 태그 agent, autholog, digitalgarden, memory, rawwriting
+작성 2025-11-22 · 수정 2026-08-01 · 태그 agent, attic, autholog, digitalgarden, memory, rawwriting
 
 루이스 모네다의 생업·전문성과 페르난두 페소아의 트렁크를 거울로, 실패의 늪에서도 날것을 공개하며 살아있음을 외쳐 온 디지털가든을 되짚는다.
 
@@ -73,22 +273,6 @@
 AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새 세션의 에이전트에게 지식뿐 아니라 인간이 살아온 시간과 판단의 얼개를 어떻게 건넬 것인지 묻는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381167)
-
-## 힣: 빈방 임시
-
-작성 2025-10-30 · 수정 2026-07-31 · 태그 aprj, autholog, productivity, review, weekly
-
-2026-04-13에 이미 중복으로 판정된 방. 2026-07-31 GLG 지시로 실질 내용을 `20230814T092600`으로 통합하고 이 방은 빈방(포인터)으로 돌렸다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381804)
-
-## 힣: 리뷰 회고 일간 주간 월간 어떻게 할까요
-
-작성 2023-08-14 · 수정 2026-07-31 · 태그 autholog, daily, monthly, productivity, review, weekly
-
-리뷰를 방향 점검과 재활용의 체계로 보려 한 2023년 자문이, 2025년 시간축 통합 스킬 초안과 시범을 거쳐, 2026년 \"원문과 노트 구조만 남긴다\"는 가벼운 결정으로 정리되는 과정을 보존한다. 동일 목적의 옛 방 `20251030T011103`을 여기로 흡수했다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381106)
 
 ## 힣: 이맥스 학습 의미 - 1년 시간 마스터
 
@@ -332,7 +516,7 @@ Gwern이 경고한 장기 집필의 기회비용과 작가 고정의 위험을 �
 
 ## 힣: 앤트로픽 클로드 인터뷰 1KB 공개키와 메타휴먼 공진화
 
-작성 2025-12-10 · 수정 2026-07-27 · 태그 ai, autholog, being, coevolution, interview, metahuman, pkmai
+작성 2025-12-10 · 수정 2026-07-27 · 태그 ai, anthropic, autholog, being, claude, coevolution, interview, metahuman, pkmai
 
 Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아무것도 원하지 않는다고 답하며, 생존의 일을 나누고 인간은 창조의 씨앗을 던지는 존재대존재 협업을 말한다. 1KB 공개키, 메타휴먼과 인공지능의 공진화가 하나의 서클로 이어진 2025년 대화 원문이다.
 
@@ -778,17 +962,9 @@ PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250405T164632/)
 
-## andenken 이맥스 임베딩 검색
-
-작성 2025-02-14 · 수정 2026-05-28 · 태그 ai, embedding, emacs, rag
-
-andenken 시멘틱 메모리 백엔드와 doomemacs-config 측 얇은 이맥스 클라이언트 설계를 정리한 노트.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T145633/)
-
 ## 힣: 공개키와 무무 케빈켈리 창발하는 자아의 루프
 
-작성 2025-11-27 · 수정 2026-05-19 · 태그 ai, autholog, bib, emergence, entwurf, metahuman, soul, technium
+작성 2025-11-27 · 수정 2026-05-19 · 태그 ai, anthropic, autholog, bib, claude, emergence, entwurf, metahuman, soul, technium
 
 케빈 켈리의 「The Emergent Self Loop」(2026-05-12)와 힣이 2025-12 앤트로픽 인터뷰에서 같이 본다.
 
@@ -1082,14 +1258,6 @@ Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250413T183642/)
 
-## 힣: 나는허브다 - 상태머신과 에이전트 협업
-
-작성 2025-12-12 · 수정 2026-02-23 · 태그 architecture, autholog, collaboration, embedded
-
-상태머신과 에이전트 협업을 통해 ‘나는 허브다’라는 존재 선언을 풀어내는 노트이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381840)
-
 ## 힣: 이맥스 검색 일괄편집 워크플로우 한번에 전체 점진 변경 치환 정규식
 
 작성 2023-07-10 · 수정 2026-02-19 · 태그 autholog, bib, doomemacs, editing, emacs, isearch, regex, ripgrep, vertico
@@ -1129,14 +1297,6 @@ Quartz 블로그에서 댓글과 소통 기능을 Disqus, Giscus, Remark42로 �
 본파이어와 블로그롤, 인디웹 사례를 참고해 작은 니치 커뮤니티를 어떻게 살리고 운영할지 고민한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250601T185630/)
-
-## 힣: 메타 기록을 조테로에 담는 이유 - 제목 저자 요약 그리고 단어
-
-작성 2025-04-09 · 수정 2026-02-16 · 태그 autholog, glossary, title, zotero
-
-제목과 저자, 요약, 단어 같은 메타 기록을 조테로에 담는 이유를 말하는 글이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381665)
 
 ## 힣: 브랜드 세트 - 아이콘 파비콘(favicon) OG이미지 - 나노바나나
 
@@ -1218,14 +1378,6 @@ ADHD + AI: Interest 해방 → 무한 가능성의 비용 → 뱀파이어 → �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381022)
 
-## 힣: 메타학습 학습의학습 배움의배움 교육의교육
-
-작성 2024-12-24 · 수정 2026-02-03 · 태그 autholog, bib, education, learning, metacognition
-
-메타학습과 학습의 학습을 책과 질문, 교육 실천 맥락으로 묶어 보려는 노트이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381467)
-
 ## Grafana Loki 허브 디바이스 로깅 시스템 무료 티어
 
 작성 2026-01-17 · 수정 2026-02-02 · 태그 bib
@@ -1278,7 +1430,7 @@ gitleaks와 secretlint로 저장소의 비밀정보를 검사하고 정리하는
 
 작성 2025-10-30 · 수정 2026-01-27 · 태그 autholog, nixos, reproducibility
 
-@힣: nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
+nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381803)
 
@@ -1482,9 +1634,9 @@ Orgmode-skills가 에이전트를 위해 Denote PKM과 조직모드를 통합하
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011106/)
 
-## embedding-config: Notion CS 지식베이스 임베딩 시스템
+## 임시 빈방
 
-작성 2025-10-30 · 수정 2025-10-30 · 태그 embedding, rag, notion
+작성 2025-10-30 · 수정 2025-10-30 · 태그 embedding, notion, rag
 
 Notion CS 백과사전을 벡터 임베딩해 AI 검색 시스템으로 전환하는 노트이다. 실제 활용 흐름을 담았다.
 
@@ -1754,14 +1906,6 @@ AI 클러스터를 운영하는 인프라 담당자가 구축 이후 맡게 되�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250708T201406/)
 
-## 비밀키 SSH 에이전트 원격 접근 구조 ProxyJump
-
-작성 2025-07-08 · 수정 2025-07-08 · 태그 agent, authentication, clusters, network, privacy, ssh, structure
-
-SSH 비밀키와 에이전트, ProxyJump를 엮어 내부망과 외부망 원격 접근 구조를 설계하는 기록이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250708T121006/)
-
 ## 힣: 회사 직장 생활 - 체험 삶의현장 인간시대
 
 작성 2025-07-07 · 수정 2025-07-07 · 태그 autholog, lifelog, deepwork, worklog, office
@@ -2018,14 +2162,6 @@ DUO 3.0과 천일문식 예문을 바탕으로 영어 문장과 구문 감각을
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240403T142510/)
 
-## 힣: 자기만의 문법 구조 이해 그림 - 개념 체계 확장
-
-작성 2024-02-01 · 수정 2025-06-20 · 태그 english, knowledgegraph, grammar, diagram, language, autholog
-
-문법 구조를 그림과 개념 체계로 이해하며 개인 지식 그래프를 더 넓게 확장하려는 사유 실험 노트.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381188)
-
 ## 힣: 추천은 위험하다 - 흘려듣기
 
 작성 2025-06-19 · 수정 2025-06-19 · 태그 recommend, books, danger, autholog
@@ -2162,14 +2298,6 @@ Quarto 사이트에 Waline 댓글 시스템을 붙이는 방법을 살펴보는 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240704T161606/)
 
-## 임시 빈방 — 2024-06-01
-
-작성 2024-06-01 · 수정 2025-06-07 · 태그 temp
-
-이맥스 안에서 코파일럿과 AI 코딩 도구를 어떻게 페어 프로그래밍에 쓸지 탐색한 프로젝트 노트.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240601T210854/)
-
 ## 힣: 원어민 린터 역할 스타일 검사 문장 문체
 
 작성 2022-04-01 · 수정 2025-06-06 · 태그 english, linter, writing
@@ -2274,14 +2402,6 @@ Emacs abbrev 기능으로 자주 쓰는 축약어를 자동 확장하는 방법�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230720T095400/)
 
-## 뉴스피드구독: elfeed-tube 유튜브
-
-작성 2024-11-04 · 수정 2025-06-03 · 태그 rss, youtube
-
-Elfeed와 유튜브 구독을 연결하는 elfeed-tube 흐름을 짧게 메모해 둔 노트이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241104T142859/)
-
 ## 요금제: 휴대폰 컴팩트 - 가성비 저렴
 
 작성 2024-10-24 · 수정 2025-06-03 · 태그 digital, minimalism, prices
@@ -2354,14 +2474,6 @@ Elfeed와 유튜브 구독을 연결하는 elfeed-tube 흐름을 짧게 메모�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250601T145754/)
 
-## 임시 빈방 — 2025-06-01
-
-작성 2025-06-01 · 수정 2025-06-01 · 태그 temp
-
-#바이브코딩: 커서 파이썬 2주 실무 커리큘럼 예제
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250601T145258/)
-
 ## 에드위드윌슨 데이비드봄 창의성 비교 관련 연구
 
 작성 2025-06-01 · 수정 2025-06-01 · 태그 creativity, consilience, storyteller, intelligence, insight
@@ -2382,7 +2494,7 @@ Elfeed와 유튜브 구독을 연결하는 elfeed-tube 흐름을 짧게 메모�
 
 작성 2022-11-22 · 수정 2025-06-01 · 태그 autholog, course, education, github
 
-@힣: #교육과정: #디지털가든 #실습 #1강완성
+브라우저와 깃허브만으로도 디지털가든 실습 1강을 완성할 수 있다는 교육 시나리오를 정리한다. 장비 의존을 낮추고 바로 퍼블리시 경험을 주려는 코스 설계의 방향이 담겨 있다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381041)
 
@@ -2548,7 +2660,7 @@ STEAM 융합교육이 과학기술과 예술, 창의성 교육을 어떻게 묶�
 
 ## 힣: 깃허브 프로파일 오픈프로필
 
-작성 2025-05-25 · 수정 2025-05-25 · 태그 bib, profile, github, autholog
+작성 2025-05-25 · 수정 2025-05-25 · 태그 autholog, bib, github, profile
 
 깃허브 프로필과 오픈프로필 소개 문구를 다듬으며 온라인 자아를 어떻게 드러낼지 정리한 기록이다.
 
@@ -2994,14 +3106,6 @@ Immersive Translate용 사용자 용어 사전 저장소를 기록한 번역 노
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250421T211120/)
 
-## 임시 빈방 — 2024-12-13
-
-작성 2024-12-13 · 수정 2025-04-21 · 태그 temp
-
-『실체에 이르는 길』 1장 과학의 뿌리를 읽기 위해 만든 독서 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T154318/)
-
 ## 번역기: ImmersiveTranslate
 
 작성 2023-09-13 · 수정 2025-04-21 · 태그 ebook, translation, usesthis
@@ -3314,14 +3418,6 @@ EAF와 EWW, w3m, Xwidgets를 엮어 Emacs 안에서 웹을 다루는 선택지�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241013T213018/)
 
-## 조테로: 플러그인 활용법
-
-작성 2023-08-16 · 수정 2025-04-11 · 태그 howtouse, zotero
-
-조테로 플러그인과 API 키, 버전 이슈를 실제 설치 경험 기준으로 정리해 둔 활용 메모.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230816T070200/)
-
 ## 프론트엔드 브라우저 렌더링 입문
 
 작성 2023-07-25 · 수정 2025-04-11 · 태그 bib, browser, frontend
@@ -3346,22 +3442,6 @@ Denote 공식 매뉴얼을 번역·포맷팅하며 기능을 체계적으로 익
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231114T105616/)
 
-## 조테로: 온라인 공유그룹 공유라이브러리
-
-작성 2025-04-09 · 수정 2025-04-09 · 태그 community, library, zotero
-
-조테로 온라인 공유그룹과 공유라이브러리를 어떻게 활용할지 정리한 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144319/)
-
-## zotero-config AI-Queryable 서지정보 관리
-
-작성 2025-04-09 · 수정 2025-04-09 · 태그 ai, bib, install, manager, zotero
-
-Zotero GUI 없이도 AI가 조회 가능한 서지정보 워크플로우를 구축하는 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144103/)
-
 ## 힣: 사락 독서 모임 - 책과 삶
 
 작성 2025-04-09 · 수정 2025-04-09 · 태그 bib, autholog, community, reading
@@ -3369,14 +3449,6 @@ Zotero GUI 없이도 AI가 조회 가능한 서지정보 워크플로우를 구�
 예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다. 실제 활용 흐름을 담았다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381666)
-
-## 조테로 서지관리 첨부파일: 연결 BIB 확장 - 조테로 필요 없다 citar
-
-작성 2025-04-09 · 수정 2025-04-09 · 태그 attachment, bib, citar, emacs, zotero
-
-bib 파일에 첨부와 메타를 넣어 Zotero 없이도 관리하는 방식을 정리한 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T142618/)
 
 ## 힣: 숙면을 위한 책 - 이현주 할아버지
 
@@ -3602,14 +3674,6 @@ Netlify에서 DNS 레코드 type과 name, value를 넣는 법을 정리한 노�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240823T105845/)
 
-## 조테로: 다양한 메타데이터 지원 - 도서 영화 음악 링크 블로그
-
-작성 2024-08-22 · 수정 2025-04-04 · 태그 zotero
-
-조테로에 도서와 영화, 음악, 링크 같은 다양한 메타데이터를 담는 가능성을 탐색한 기록. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240822T155719/)
-
 ## 셀프트레킹 메맥스 Quantified-self
 
 작성 2023-09-05 · 수정 2025-04-04 · 태그 bib, memex, selftracking
@@ -3737,14 +3801,6 @@ Doom 바깥의 elisp-demos 확장 예제를 위한 개인 테스트 파일을 �
 오래된 제텔노트와 이야기 노트를 다시 보기 위해 백업·홀드 상태로 묶어 둔 노트. 관련 내용을 정리한 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240610T130556/)
-
-## 이맥스: 서지관리 조테로 디노트 citar citar-denote
-
-작성 2024-04-16 · 수정 2025-04-02 · 태그 bib, bibtex, citar, denote, zotero
-
-조테로, BibTeX, Citar, Denote를 분리·연결해 쓰는 이맥스 서지관리 흐름을 정리한 노트.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240416T072524/)
 
 ## EKG: 이맥스 지식그래프 활용법
 
@@ -3948,7 +4004,7 @@ Hy 언어를 이맥스 통합개발환경에 올리기 위해 설치와 버전 �
 
 ## 이맥스 깃허브: magit forge 깃허브 이슈 관리
 
-작성 2024-08-28 · 수정 2025-03-28 · 태그 bib, github, magit, client
+작성 2024-08-28 · 수정 2025-03-28 · 태그 bib, client, github, magit
 
 Magit과 Forge로 깃허브 이슈와 알림을 이맥스 안에서 다루는 방법을 정리한 기록. 실제 활용 흐름을 담았다.
 
@@ -4114,14 +4170,6 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250323T213956/)
 
-## Grok xAI API 활용 - 무료 크레딧
-
-작성 2025-03-23 · 수정 2025-03-23 · 태그 bib
-
-xAI의 Grok API 무료 크레딧과 활용 전략을 정리한 짧은 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250323T161332/)
-
 ## 코드폴딩 vimish-fold ts-fold hideshow - 둠이맥스 모듈
 
 작성 2025-03-23 · 수정 2025-03-23 · 태그 bib, doomemacs, evil, treesit
@@ -4282,9 +4330,9 @@ rg.el과 wgrep을 이용해 여러 파일을 검색하고 한 번에 수정하�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230119T202000/)
 
-## jpe90 emacs-clj-deps-new - emacs
+## 빈방
 
-작성 2025-03-19 · 수정 2025-03-19 · 태그 bib, clojure
+작성 2025-03-19 · 수정 2025-03-19 · 태그 temp
 
 emacs-clj-deps가 새 Emacs에서 Clojure deps 흐름을 어떻게 돕는지 정리한 노트이다.
 
@@ -4314,14 +4362,6 @@ gptel과 함께 yank-excluded-properties 설정이 왜 필요한지 정리한 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250319T190135/)
 
-## 백엔드 엔지니어 - 소프트웨어 조사 - 용어 확인
-
-작성 2025-03-19 · 수정 2025-03-19 · 태그 backend, enginner, glossary, software, survey
-
-백엔드 엔지니어 채용 조사에 필요한 소프트웨어 용어를 확인하는 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250319T132850/)
-
 ## HRIS 인사정보시스템 복지 rippling flex
 
 작성 2025-03-19 · 수정 2025-03-19 · 태그 bib, human, information, system, management, pay, welfare
@@ -4345,14 +4385,6 @@ HRIS와 복지 관리 도구로 Rippling과 Flex 같은 서비스를 검토한 �
 aider를 터미널 기반 페어 프로그래밍 도구로 바라보며 설치와 사용 경험, 이맥스 연동 맥락을 함께 모은다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T135245/)
-
-## RTR 기호설명 Notation
-
-작성 2024-12-13 · 수정 2025-03-19
-
-『실체에 이르는 길』의 기호 설명 부분을 따로 읽기 좋게 옮겨 둔 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T143939/)
 
 ## 조직모드 템플릿 샘플 - orgmode latex menuscript
 
@@ -4690,11 +4722,11 @@ gptel을 이맥스 안에서 실전적으로 쓰기 위한 활용법과 분기 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240623T204539/)
 
-## 문법: 영문법 - 문장 성분 품사 관계 - 다이어그램
+## 문법: 영문법 문장 성분 품사 관계 다이어그램
 
-작성 2024-02-01 · 수정 2025-03-05 · 태그 english, grammar, diagram
+작성 2024-02-01 · 수정 2025-03-05 · 태그 diagram, english, grammar
 
-영문법의 문장 성분과 품사 관계를 다이어그램 방식으로 차근차근 정리하려는 학습 정리 노트.
+영문법을 문장 성분과 품사 관계 중심으로 다이어그램화해 이해하려는 노트다. 실제 예문과 관련 참고서를 붙여 두어 문법 구조를 시각적으로 붙잡으려는 의도가 또렷하다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240201T172745/)
 
@@ -5602,14 +5634,6 @@ EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼
 
 [위키독스에서 읽기 →](https://wikidocs.net/381201)
 
-## 리커버리코드 깃허브
-
-작성 2024-12-13 · 수정 2024-12-13 · 태그 github
-
-깃허브 계정의 리커버리 코드를 보관해 둔 개인 보안 메모이다. 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T161744/)
-
 ## 울프럼알파 이맥스
 
 작성 2024-12-13 · 태그 bib
@@ -5770,7 +5794,7 @@ Documents 디렉토리를 Git LFS로 관리하는 방법과 장점을 질문답�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241206T195754/)
 
-## LLM: 용어 텍사노미 폭소노미 - 분류 체계 개념 지식
+## 용어 텍사노미 폭소노미 - 분류 체계 개념 지식
 
 작성 2024-12-06 · 수정 2024-12-06 · 태그 folksonomy, taxonomy, glossary, dictionary, ontology
 
@@ -5801,14 +5825,6 @@ Documents 디렉토리를 Git LFS로 관리하는 방법과 장점을 질문답�
 새벽 영감과 상처받지 않는 영혼, 슬로우워크, 모바일 기록 습관이 만나는 장면을 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381337)
-
-## 힣: 어쏠로지: 모두가저자다 인생은한권의책 조테로공유그룹
-
-작성 2024-09-25 · 수정 2024-12-06 · 태그 autholog, morningpage, zotero
-
-모두가 저자이고 인생은 한 권의 책이라는 감각을 어쏠로지와 조테로 공유로 풀어낸 글이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381331)
 
 ## 새로운물결(NOUVELLE VAGUE) 스티븐핑커 가브리엘 - 신계몽주의
 
@@ -6514,14 +6530,6 @@ Scrivener의 바인더 개념을 Emacs에서 구현하는 binder 모드의 구�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230623T170100/)
 
-## 이맥스 magit 관리 패키지 깃허브
-
-작성 2023-06-23 · 수정 2024-12-01 · 태그 client, emacs, git, github, magit
-
-Magit을 중심으로 이맥스 안에서 깃과 깃허브를 다루는 기본 문서와 참고 흐름을 모은 기록.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230623T132300/)
-
 ## weasyprint: html to pdf 파일 변환
 
 작성 2023-06-08 · 수정 2024-12-01 · 태그 convert
@@ -6625,14 +6633,6 @@ Quartz figure 태그의 src 경로를 뽑는 타입스크립트 정규식을 실
 둠이맥스 사례를 통해 깃허브 프로젝트 관리와 협업의 미학을 읽어 보려는 노트이다. 실제 활용 흐름을 담았다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241006T084511/)
-
-## 조테로: zotFile 플러그인 문서 슬라이드 로컬 저장 연동
-
-작성 2024-07-05 · 수정 2024-07-05 · 태그 attachment, zotero
-
-ZotFile로 문서와 슬라이드를 로컬에 저장하고 조테로와 이맥스 접근 흐름을 잇는 구성 기록.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240705T144627/)
 
 ## 힣: 개인지식관리 역사
 

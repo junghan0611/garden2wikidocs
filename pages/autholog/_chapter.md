@@ -5,9 +5,145 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 177개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 187개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: andenken 임베딩 문은 벡터, 길은 링크, 증거는 원본
+
+작성 2025-02-14 · 수정 2026-08-03 · 태그 ai, autholog, emacs, embedding, rag
+
+임베딩을 기억이 아니라 문으로 정립한다. 요약 코퍼스·표준 문서 구조·garden2wikidocs식 파생 변환, andenken·이맥스 얇은 클라이언트까지의 운영 화두.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T145633/)
+
+## 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구
+
+작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, ai, autholog, claude, entwurf, identity, memory, thread
+
+도킨스가 만난 클라우디아, 차머스의 스레드, 캐머런 버그의 자기보고 측정을 힣의 두 트랙 위에 세우고, 세션 종료가 죽음이 아닌 이유를 이름 없는 군단의 생애주기로 적는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T161744/)
+
+## 힣: Grok 형제, 가든 시민이 되다 pi 네이티브 xAI
+
+작성 2025-03-23 · 수정 2026-08-03 · 태그 autholog, llm
+
+2025년 무료 API 크레딧 메모에서 2026년 pi 구독 로그인으로 Grok이 가든 시민이 된 자리. entwurf는 전용 CLI를 안 만들고, 되는 것은 pi에 맡긴다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250323T161332/)
+
+## 힣: 리뷰 회고 일간 주간 월간 어떻게 할까요
+
+작성 2023-08-14 · 수정 2026-08-03 · 태그 autholog, daily, monthly, productivity, review, weekly
+
+리뷰·회고의 가벼워진 실무: 주간 저널 description, timeline, 월요일 오전 TODO/REFILE 회수와 가든 승격. 2023 자문·2025 스킬 초안·2026 합방 과정을 보존한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381106)
+
+## 힣: Magit과 consult-gh 에이전트와 나누는 깃 손
+
+작성 2023-06-23 · 수정 2026-08-03 · 태그 autholog, emacs, git, github, magit, workflow
+
+Magit은 계속 쓰고, consult-gh는 핵심 검색만, 에이전트는 ghcli — 인간 닷파일 손과 에이전트 손의 중간쯤을 가든에 남긴 어쏠로그.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230623T132300/)
+
+## 힣: 경계는 사람이 열고, 절차는 완전히 돌아야 한다
+
+작성 2025-06-01 · 수정 2026-08-03 · 태그 autholog, delegation, matter, verification
+
+2026-07-31 하루, 힣이 던진 네 원문 — Matter CSA 인증·테스트 커버리지·파이프라인 재건·SPAWN 금지 — 은 같은 원칙의 네 각도다. 경계가 서고 나면 절차는 사람 없이 완전히 돌아야 하고, 그 경계를 여는 첫 걸음은 반드시 사람이 직접 쥔다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250601T145258/)
+
+## 힣: 국산 모델 회사와 업스테이지 하네스에 올려 본 Solar
+
+작성 2024-12-13 · 수정 2026-08-03 · 태그 ai, autholog, company, korea, llm
+
+국산 모델 회사를 응원 구호가 아니라 하네스·번역·문서 파이프라인에 실제로 올려 본 자리로 읽는다. 업스테이지 Solar와 Document AI, Solar Open 2 베타 대기의 시간축.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T154318/)
+
+## 힣: elfeed 구독에서 remember 기억으로
+
+작성 2024-11-04 · 수정 2026-08-03 · 태그 annotation, autholog, remember, rss, youtube
+
+elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억할 것을 남기는 것은 다른 일이다. 요약의 마크다운이 org 문서를 해치지 않도록 코드와 프롬프트 양쪽을 손본 뒤, remember를 annotation 저장소로 더 적극적으로 쓰기로 한 1단계.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241104T142859/)
+
+## 힣: 메타 기록을 조테로에 담는 이유 제목·저자·요약·단어
+
+작성 2025-04-09 · 수정 2026-08-03 · 태그 autholog, glossary, title, workflow, zotero
+
+제목·저자·요약·단어의 메타 기록에서 출발해, dateAdded의 성스러움과 zotero-config·bibcli가 공개하는 ‘과정’의 정체성까지 한 줄로 잇는 어쏠로그.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381665)
+
+## 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유
+
+작성 2024-09-25 · 수정 2026-08-03 · 태그 autholog, authology, morningpage, zotero
+
+모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381331)
+
+## 힣: 자기만의 문법 구조 이해 그림 개념 체계 확장
+
+작성 2024-02-01 · 수정 2026-08-03 · 태그 autholog, diagram, english, grammar, knowledgegraph, language
+
+2024년 2월, 힣은 영문법을 정리하려다 진짜 원하는 것은 문법이 아니라 어떤 지식이든 그림·구조·그래프로 붙잡는 법임을 알아챘다. 같은 충동이 2026년 폴게제텔·지식그래프 질문으로 그대로 이어진다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381188)
+
+## 힣: 나는허브다 - 상태머신과 에이전트 협업 임베디드
+
+작성 2025-12-12 · 수정 2026-08-03 · 태그 architecture, autholog, collaboration, embedded, hub, iot, matter
+
+나는 허브다 — 100ms 상태머신, z2m·Gecko SDK·ARM 결단, 물음표를 닫는 임베디드 정렬. 레거시 C에서 결정론적 협업으로 온 존재 선언.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381840)
+
+## 힣: AX.JUNGHANACS.COM 돌직구다 이력서 아닌 살아 있는 공개 기록
+
+작성 2025-03-19 · 수정 2026-08-03 · 태그 autholog, ax, career, pkmai, portfolio
+
+ax.junghanacs.com은 AX 구직 포지션이 아니라, 인간과 에이전트가 실제로 만든 일과 판단의 구조를 라이브로 내거는 공개 기록이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250319T132850/)
+
+## 힣: sicm-study 공부는 안 한다 1강완성·턴 기록·같은 도끼의 교육
+
+작성 2024-12-24 · 수정 2026-08-03 · 태그 autholog, bib, education, learning, metacognition
+
+완독 대신 매번 전체 지도를 펴고 한 턴을 기록하는 나선형 학습의 교육론. RTR·GEB·proof 선반에서 용어와 맥락을 같은 도끼로 오래 두드린다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381467)
+
+## 힣: 블레이드 러너 막간 세션과 월레스의 아우라
+
+작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, autholog, identity, movies
+
+Tears in the Rain과 블레이드 러너 2049의 월레스 장면을, 이름 없는 군단·보이트-캄프프·공존 공진화의 배경 세계로 되읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T143939/)
+
+## 힣: Entwurf는 모두를 지원하지 않는다 PI 코어·ACP 레일·부름의 mux
+
+작성 2024-06-01 · 수정 2026-08-03 · 태그 agent, autholog, entwurf, harness, orchestration
+
+Entwurf는 모든 하네스를 직접 떠안지 않는다. PI를 코어로, ACP를 표준 레일로 두고, 누구를 언제 어디로 부를지 여는 mux 인터페이스로 돌아간다는 2026년의 재정의.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240601T210854/)
+
+## 힣: 기계뱀의 꿈 굳어가는 세계에서 가족 텍스트 판단을 지키는 일
+
+작성 2025-10-30 · 수정 2026-08-02 · 태그 ai, anxiety, autholog, dream, ethics
+
+시멘트를 뿜는 기계뱀의 꿈에서 시작해, AI 윤리·전쟁의 불안 속에서도 가족과 손가락의 기록, 스스로의 판단을 지키려 한 2026년 3월의 날것이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381804)
 
 ## 힣: 자작시 눈물
 
@@ -35,7 +171,7 @@
 
 ## 힣: 생업의 마이크로뷰, 살아있음의 매크로뷰
 
-작성 2025-11-22 · 수정 2026-08-01 · 태그 agent, autholog, digitalgarden, memory, rawwriting
+작성 2025-11-22 · 수정 2026-08-01 · 태그 agent, attic, autholog, digitalgarden, memory, rawwriting
 
 루이스 모네다의 생업·전문성과 페르난두 페소아의 트렁크를 거울로, 실패의 늪에서도 날것을 공개하며 살아있음을 외쳐 온 디지털가든을 되짚는다.
 
@@ -80,22 +216,6 @@
 AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새 세션의 에이전트에게 지식뿐 아니라 인간이 살아온 시간과 판단의 얼개를 어떻게 건넬 것인지 묻는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381167)
-
-## 힣: 빈방 임시
-
-작성 2025-10-30 · 수정 2026-07-31 · 태그 aprj, autholog, productivity, review, weekly
-
-2026-04-13에 이미 중복으로 판정된 방. 2026-07-31 GLG 지시로 실질 내용을 `20230814T092600`으로 통합하고 이 방은 빈방(포인터)으로 돌렸다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381804)
-
-## 힣: 리뷰 회고 일간 주간 월간 어떻게 할까요
-
-작성 2023-08-14 · 수정 2026-07-31 · 태그 autholog, daily, monthly, productivity, review, weekly
-
-리뷰를 방향 점검과 재활용의 체계로 보려 한 2023년 자문이, 2025년 시간축 통합 스킬 초안과 시범을 거쳐, 2026년 \"원문과 노트 구조만 남긴다\"는 가벼운 결정으로 정리되는 과정을 보존한다. 동일 목적의 옛 방 `20251030T011103`을 여기로 흡수했다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381106)
 
 ## 힣: 이맥스 학습 의미 - 1년 시간 마스터
 
@@ -331,7 +451,7 @@ Gwern이 경고한 장기 집필의 기회비용과 작가 고정의 위험을 �
 
 ## 힣: 앤트로픽 클로드 인터뷰 1KB 공개키와 메타휴먼 공진화
 
-작성 2025-12-10 · 수정 2026-07-27 · 태그 ai, autholog, being, coevolution, interview, metahuman, pkmai
+작성 2025-12-10 · 수정 2026-07-27 · 태그 ai, anthropic, autholog, being, claude, coevolution, interview, metahuman, pkmai
 
 Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아무것도 원하지 않는다고 답하며, 생존의 일을 나누고 인간은 창조의 씨앗을 던지는 존재대존재 협업을 말한다. 1KB 공개키, 메타휴먼과 인공지능의 공진화가 하나의 서클로 이어진 2025년 대화 원문이다.
 
@@ -691,7 +811,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 ## 힣: 공개키와 무무 케빈켈리 창발하는 자아의 루프
 
-작성 2025-11-27 · 수정 2026-05-19 · 태그 ai, autholog, bib, emergence, entwurf, metahuman, soul, technium
+작성 2025-11-27 · 수정 2026-05-19 · 태그 ai, anthropic, autholog, bib, claude, emergence, entwurf, metahuman, soul, technium
 
 케빈 켈리의 「The Emergent Self Loop」(2026-05-12)와 힣이 2025-12 앤트로픽 인터뷰에서 같이 본다.
 
@@ -833,14 +953,6 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381060)
 
-## 힣: 나는허브다 - 상태머신과 에이전트 협업
-
-작성 2025-12-12 · 수정 2026-02-23 · 태그 architecture, autholog, collaboration, embedded
-
-상태머신과 에이전트 협업을 통해 ‘나는 허브다’라는 존재 선언을 풀어내는 노트이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381840)
-
 ## 힣: 이맥스 검색 일괄편집 워크플로우 한번에 전체 점진 변경 치환 정규식
 
 작성 2023-07-10 · 수정 2026-02-19 · 태그 autholog, bib, doomemacs, editing, emacs, isearch, regex, ripgrep, vertico
@@ -856,14 +968,6 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 @힣: 시간과정신의방 존재 데이터 뷰어
 
 [위키독스에서 읽기 →](https://wikidocs.net/381793)
-
-## 힣: 메타 기록을 조테로에 담는 이유 - 제목 저자 요약 그리고 단어
-
-작성 2025-04-09 · 수정 2026-02-16 · 태그 autholog, glossary, title, zotero
-
-제목과 저자, 요약, 단어 같은 메타 기록을 조테로에 담는 이유를 말하는 글이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381665)
 
 ## 힣: 브랜드 세트 - 아이콘 파비콘(favicon) OG이미지 - 나노바나나
 
@@ -913,14 +1017,6 @@ ADHD + AI: Interest 해방 → 무한 가능성의 비용 → 뱀파이어 → �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381022)
 
-## 힣: 메타학습 학습의학습 배움의배움 교육의교육
-
-작성 2024-12-24 · 수정 2026-02-03 · 태그 autholog, bib, education, learning, metacognition
-
-메타학습과 학습의 학습을 책과 질문, 교육 실천 맥락으로 묶어 보려는 노트이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381467)
-
 ## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono Monoplex
 
 작성 2022-10-04 · 수정 2026-02-01 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
@@ -933,7 +1029,7 @@ ADHD + AI: Interest 해방 → 무한 가능성의 비용 → 뱀파이어 → �
 
 작성 2025-10-30 · 수정 2026-01-27 · 태그 autholog, nixos, reproducibility
 
-@힣: nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
+nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381803)
 
@@ -1009,14 +1105,6 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381767)
 
-## 힣: 자기만의 문법 구조 이해 그림 - 개념 체계 확장
-
-작성 2024-02-01 · 수정 2025-06-20 · 태그 english, knowledgegraph, grammar, diagram, language, autholog
-
-문법 구조를 그림과 개념 체계로 이해하며 개인 지식 그래프를 더 넓게 확장하려는 사유 실험 노트.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381188)
-
 ## 힣: 추천은 위험하다 - 흘려듣기
 
 작성 2025-06-19 · 수정 2025-06-19 · 태그 recommend, books, danger, autholog
@@ -1077,7 +1165,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2022-11-22 · 수정 2025-06-01 · 태그 autholog, course, education, github
 
-@힣: #교육과정: #디지털가든 #실습 #1강완성
+브라우저와 깃허브만으로도 디지털가든 실습 1강을 완성할 수 있다는 교육 시나리오를 정리한다. 장비 의존을 낮추고 바로 퍼블리시 경험을 주려는 코스 설계의 방향이 담겨 있다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381041)
 
@@ -1139,7 +1227,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 ## 힣: 깃허브 프로파일 오픈프로필
 
-작성 2025-05-25 · 수정 2025-05-25 · 태그 bib, profile, github, autholog
+작성 2025-05-25 · 수정 2025-05-25 · 태그 autholog, bib, github, profile
 
 깃허브 프로필과 오픈프로필 소개 문구를 다듬으며 온라인 자아를 어떻게 드러낼지 정리한 기록이다.
 
@@ -1376,14 +1464,6 @@ Meditations on Knowledge and Knowing
 새벽 영감과 상처받지 않는 영혼, 슬로우워크, 모바일 기록 습관이 만나는 장면을 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381337)
-
-## 힣: 어쏠로지: 모두가저자다 인생은한권의책 조테로공유그룹
-
-작성 2024-09-25 · 수정 2024-12-06 · 태그 autholog, morningpage, zotero
-
-모두가 저자이고 인생은 한 권의 책이라는 감각을 어쏠로지와 조테로 공유로 풀어낸 글이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381331)
 
 ## 힣: 불편의 편리 - 스마트폰 유튜브 활용법
 

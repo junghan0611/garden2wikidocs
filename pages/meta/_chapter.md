@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 기억 상상 추억 회상 꿈 자각몽 다락방
+
+작성 2025-04-24 · 수정 2026-08-02 · 태그 attic, dream, imagination, luciddream, memory, meta, recall, recollection, remember, reminisce, syntopicon
+
+기억과 상상을 감각의 잔재와 재구성의 힘으로 보고, 회상과 꿈, 자각몽까지 이어지는 정신 작용으로 다룬다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T230851/)
+
 ## 추천 권유 우선순위 개취
 
 작성 2025-01-22 · 수정 2026-08-01 · 태그 danger, meta, recommend, taste
@@ -106,7 +114,7 @@
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250411T051011/)
 
-## 쿼츠 임시 대기중
+## 쿼츠 quartz 정적사이트생성기
 
 작성 2024-10-07 · 수정 2026-07-26 · 태그 digitalgarden, hugo, meta, notetaking, publishing, quartz, ssg, wikidocs
 
@@ -697,14 +705,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 #인생도구 #생각도구 #지식도구
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240829T213246/)
-
-## 기억 상상 추억 회상 꿈 자각몽
-
-작성 2025-04-24 · 수정 2026-03-05 · 태그 dream, imagination, luciddream, memory, meta, recall, recollection, reminisce, syntopicon
-
-기억과 상상을 감각의 잔재와 재구성의 힘으로 보고, 회상과 꿈, 자각몽까지 이어지는 정신 작용으로 다룬다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T230851/)
 
 ## Now
 
@@ -1484,7 +1484,7 @@ glossary와 dictionary의 차이처럼, 개념을 설명하는 용어집과 단�
 
 ## SSG 정적사이트생성기 오프라인
 
-작성 2024-06-16 · 수정 2025-06-06 · 태그 generator, meta, offline, ssg
+작성 2024-06-16 · 수정 2025-06-06 · 태그 generator, meta, offline, online, ssg
 
 정적사이트생성기는 텍스트 원본을 빌드해 정적 웹페이지로 만들며, 문서·블로그·디지털 가든 배포의 핵심 기반이 된다.
 

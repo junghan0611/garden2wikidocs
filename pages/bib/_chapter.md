@@ -2,9 +2,73 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 리처드도킨스 RichardDawkins 이기적유전자 밈 진화론 내인생책들
+
+작성 2024-02-26 · 수정 2026-08-03 · 태그 bib, guru, person
+
+리처드 도킨스의 유전자 중심 진화론·밈·대중 과학 저술을 한 방에 둔다. 이름 없는 군단 탐구가 호출하는 밈·패턴 substrate 앵커.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240226T162817/)
+
+## 닐스비르바우머 뇌과학 BCI 텅 빈 기쁨 감금증후군
+
+작성 2024-02-21 · 수정 2026-08-03 · 태그 bib, brain, person
+
+닐스 비르바우머의 뇌 비우기·감금증후군·BCI 연구를 모은 서지. 이름 없는 군단이 역대칭 대조군으로 부르는 자리.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240221T085250/)
+
+## UpstageAI 업스테이지AI Solar 회사·API·한국어·Document AI
+
+작성 2024-03-25 · 수정 2026-08-03 · 태그 ai, bib, company, korea, llm
+
+업스테이지와 Solar·Document AI를 한국형 생성형 AI 회사 허브로 묶는다. gptel 연동·번역·가격 줄·Open 2 베타 대기까지 운영 흔적을 남긴다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240325T132035/)
+
+## 임시 빈방 Better BibTeX 플러그인 아카이브 이관
+
+작성 2025-04-09 · 수정 2026-08-03 · 태그 bib, temp
+
+BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 새 분을 모실 빈방.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250409T072408/)
+
+## 노르만올러 NormanOhler 이준호 2차대전 전쟁사 마약 변절 생존 낯선부대
+
+작성 2026-01-04 · 수정 2026-08-03 · 태그 bib, history, war
+
+노르만 올러의 나치·마약 렌즈와 이준호의 변절·생존·낯선 부대 3권을 한 방에 두고, 로버트 카파의 전쟁 증언과 잇는 2차대전 전쟁사 작가 허브.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260104T182222/)
+
+## 안톤체호프 단편 세계문학 내기
+
+작성 2026-02-15 · 수정 2026-08-03 · 태그 bib, literature, novel, shortstory
+
+안톤 체호프는 사소한 일상과 인간의 우스움, 비애, 연민을 짧은 형식 안에 응축해 현대 단편소설의 완성자로 불린다. 러시아 문학의 거장이라는 이름을 넘어, 웃음과 비극이 동시에 살아 있는 리얼리즘의 감각을 보여준다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260215T144023/)
+
+## 앙투안드생텍쥐페리 이정서 어린왕자 길들임과 존재의 관계
+
+작성 2024-06-17 · 수정 2026-08-03 · 태그 archetypes, being, bib, literature, novel, relation, storyteller, translation
+
+『어린 왕자』의 길들임과 관계, 이정서 번역의 2인칭 문제를 통해 존재를 소유하지 않고 알아보는 윤리를 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240617T054038/)
+
+## 이상일 한유리 공간정보 통계 콰르토 대시보드 교육 R언어 질적연구 문헌
+
+작성 2024-12-03 · 수정 2026-08-03 · 태그 bib, dashboard, datascience, education, quarto, rlang, statistics
+
+공간정보·통계 교육과 콰르토 대시보드, R 실천을 이상일 축으로, 질적 연구·문헌고찰 도구를 한유리 축으로 한 방에서 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241203T131655/)
+
 ## 페르난두페소아 불안의 서
 
-작성 2025-04-09 · 수정 2026-08-01 · 태그 bib, diaries, disquiet, memoir, shard
+작성 2025-04-09 · 수정 2026-08-01 · 태그 attic, bib, diaries, disquiet, memoir, shard
 
 『불안의 서』는 파편적 단상과 자기분열의 목소리로 근대적 불안과 존재의 내면 풍경을 집요하게 기록한 책이다.
 
@@ -20,7 +84,7 @@
 
 ## 루이스모네다 lgmoneda 이맥스 시맨틱검색
 
-작성 2023-07-10 · 수정 2026-08-01 · 태그 agent, assistant, bib, emacs, emacsian, pkm, search, semantic
+작성 2023-07-10 · 수정 2026-08-01 · 태그 agent, assistant, attic, bib, emacs, emacsian, pkm, search, semantic
 
 루이스 모네다는 org-roam과 LLM을 엮어 이맥스 안에서 시맨틱 검색과 개인 AI 보조의 가능성을 탐색해 온 실험가다.
 
@@ -810,14 +874,6 @@ pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Arm
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260322T073600/)
 
-## 안톤체호프 단편 세계문학
-
-작성 2026-02-15 · 수정 2026-03-22 · 태그 bib, literature, novel, shortstory
-
-안톤 체호프는 사소한 일상과 인간의 우스움, 비애, 연민을 짧은 형식 안에 응축해 현대 단편소설의 완성자로 불린다. 러시아 문학의 거장이라는 이름을 넘어, 웃음과 비극이 동시에 살아 있는 리얼리즘의 감각을 보여준다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260215T144023/)
-
 ## 프란츠카프카 변신
 
 작성 2024-08-06 · 수정 2026-03-22 · 태그 bib, existentialism, literature, novel, shortstory
@@ -1066,14 +1122,6 @@ Emanuel Jeff는 beads의 Rust 포팅과 멀티에이전트 오케스트레이션
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260118T104958/)
 
-## 노르만올러(Norman Ohler): 히틀러 나치 마약 2차 세계대전 전격전 LSD MK울트라 CIA
-
-작성 2026-01-04 · 수정 2026-01-04 · 태그 bib, history
-
-20260104T182222
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260104T182222/)
-
 ## 조엘데이비드햄킨스 무한, 역설, 괴델의 불완전성 정리 및 수학적 다중 우주
 
 작성 2026-01-04 · 수정 2026-01-04
@@ -1172,7 +1220,7 @@ Emanuel Jeff는 beads의 Rust 포팅과 멀티에이전트 오케스트레이션
 
 ## 필립K딕 리들리스콧 블레이드 러너
 
-작성 2025-07-20 · 수정 2025-07-20 · 태그 movies, future, android
+작성 2025-07-20 · 수정 2025-07-20 · 태그 android, future, movies
 
 20250720T100124
 
@@ -1305,14 +1353,6 @@ Zamansky는 이맥스와 기술 교육을 연결하며, 프로그래밍을 가�
 깃허브와 자동화 파이프라인을 중심으로 지속적 배포의 기본 개념과 실무 흐름을 익히게 하는 입문서 묶음이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241217T135151/)
-
-## UptageAI 업스테이지AI solar
-
-작성 2024-03-25 · 수정 2025-06-26 · 태그 ai, bib, company, meta, openai
-
-업스테이지와 Solar 모델의 흐름을 모아 한국형 생성형 AI의 가능성과 번역 활용 맥락을 살핀다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240325T132035/)
 
 ## Mistral 코드스트럴 Codestral
 
@@ -1762,14 +1802,6 @@ AI의 성공과 실패의 역사를 따라가며 의식기계 신화를 걷어�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241220T143035/)
 
-## 이상일 공간정보 통계 콰르토 대시보드 교육 R언어
-
-작성 2024-12-03 · 수정 2025-06-07 · 태그 bib, datascience, quarto, statistics, dashboard, education, rlang
-
-공간정보와 통계 교육, 콰르토 대시보드, R 언어 실천을 함께 다루며 데이터 서술의 교육적 가능성을 보여준다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241203T131655/)
-
 ## 모텐크리스티안센 닉채터 진화하는언어 언어게임
 
 작성 2024-09-03 · 수정 2025-06-07 · 태그 bib, language, linguistics, evolution
@@ -2050,14 +2082,6 @@ Cursor와 Windsurf 같은 AI IDE는 GUI 기반 코딩 에이전트가 개발 흐
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240915T205913/)
 
-## 한유리 질적연구 R언어 교육학 문헌 자료분석
-
-작성 2024-06-17 · 수정 2025-05-28 · 태그 bib, rlang, rstudio
-
-질적비교연구
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240617T054038/)
-
 ## tninja aider.el ai-code-interface 인공지능 페어 프로그래밍 이맥스
 
 작성 2025-05-27 · 수정 2025-05-27 · 태그 emacs, pair, programming, bib
@@ -2145,14 +2169,6 @@ Cursor와 Windsurf 같은 AI IDE는 GUI 기반 코딩 에이전트가 개발 흐
 콘텐츠를 글과 지식의 축적으로 보면서, 지속 가능한 수익 구조와 공개 플랫폼의 가능성을 검토한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240522T110335/)
-
-## 닐스비르바우머 뇌과학 뇌-컴퓨터 인터페이스 : 텅 빈 기쁨 - 감금증후군
-
-작성 2024-02-21 · 수정 2025-05-25 · 태그 bib, brain
-
-닐스 비르바우머는 뇌과학과 뇌-컴퓨터 인터페이스 연구를 통해 생각, 의식, 감금증후군의 경계를 탐구한 학자다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240221T085250/)
 
 ## 코코크럼 수학자 최적화라는 환상 삶의철학
 
@@ -2946,14 +2962,6 @@ Janet은 함수형과 명령형을 아우르며 임베디드와 스크립트 작
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240806T154410/)
 
-## 리처드도킨스 이기적유전자 진화론 내인생책들 다윈
-
-작성 2024-02-26 · 수정 2025-04-18 · 태그 bib, guru
-
-리처드 도킨스는 유전자 중심 진화론을 대중적으로 풀어내며 다윈 이후 생명 이해의 틀을 넓힌 과학 저술가다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240226T162817/)
-
 ## 문숙 위대한 일은 없다 영성 유튜버
 
 작성 2024-02-16 · 수정 2025-04-18 · 태그 bib, essay, spirituality
@@ -3167,14 +3175,6 @@ Emacs Elements는 영상으로 이맥스의 변화와 쓰임을 꾸준히 풀어
 auto-side-windows는 Emacs 팝업과 보조 버퍼를 자동 배치해 창 레이아웃을 덜 깨뜨리고 작업 흐름을 안정시킨다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250409T092446/)
-
-## 조테로: Better BibTeX 필수 플러그인 인용키
-
-작성 2025-04-09 · 수정 2025-04-09 · 태그 bib, zotero, latex
-
-Better BibTeX는 Zotero에서 안정적인 인용키와 BibLaTeX 내보내기를 관리하게 해주는 사실상 필수 플러그인이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250409T072408/)
 
 ## Jabref 서지관리 프로그램 - 조테로 대체
 
@@ -3986,7 +3986,7 @@ UCBLogo와 Snap!, SICP 교육을 잇는 브라이언 하비의 작업을 따라�
 
 ## 코디정 변리사 철학 번역어 논리 유튜버 생각의기술
 
-작성 2024-10-09 · 수정 2025-03-06 · 태그 bib, philosophy, arts, thinking
+작성 2024-10-09 · 수정 2025-03-06 · 태그 arts, bib, philosophy, thinking
 
 코디정은 변리사이자 유튜브 저자로서 철학, 논리, 번역어 문제를 생활 언어로 풀어내는 사유형 창작자다.
 

@@ -40,7 +40,7 @@ Gas Town의 범용 공장 실험과 Hermes의 단일 하네스 확장이 서로 
 
 모델 최고 effort에 한 시간을 맡기지 않고, medium에서 작은 시도와 실패를 증거로 형제에게 넘기는 entwurf 운용 전환을 기록한다.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250321T101959/)
+[위키독스에서 읽기 →](https://wikidocs.net/390421)
 
 ## 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구
 

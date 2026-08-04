@@ -10950,6 +10950,24 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20241214T045836": {
+    "path": "pages/bib/20241214T045836.md",
+    "subject": "20260804 줄리아캐머런 아티스트웨이 모닝페이지 루츠폰베르더 날마다 글쓰기 창조 데일리 습관",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241214T045836/",
+    "source_date": "2024-12-14T04:58:00+09:00",
+    "source_lastmod": "2026-08-04T13:40:00+09:00",
+    "description": "줄리아 캐머런의 두 책 『아티스트 웨이』와 『나를 위해 쓸 권리』를 모닝페이지 실천의 뿌리로 묶은 서지 노트. 창조적 회복과 \\\"쓸 권리\\\"라는 두 축을 함께 세운다. 여기에 날마다 글쓰기도 저자 루츠폰베르더도 모셨다.",
+    "tags": [
+      "author",
+      "bib",
+      "creativity",
+      "morningpage",
+      "writing"
+    ],
+    "page_id": 382196,
+    "url": "https://wikidocs.net/382196"
+  },
   "20241017T205802": {
     "path": "pages/bib/20241017T205802.md",
     "subject": "20260803 대니얼데닛 데이비드차머스 의식·마음·AI 철학 직관펌프",
@@ -20941,21 +20959,6 @@
     "page_id": 382197,
     "url": "https://wikidocs.net/382197"
   },
-  "20241214T045836": {
-    "path": "pages/bib/20241214T045836.md",
-    "subject": "20241214 줄리아카메론 아티스트웨이 모닝페이지",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241214T045836/",
-    "source_date": "2024-12-14T04:58:00+09:00",
-    "source_lastmod": "2024-12-14T04:58:00+09:00",
-    "description": "모닝페이지와 창조적 회복의 실천을 통해 예술가적 감수성을 일상 속 루틴으로 되살리게 돕는 책이다.",
-    "tags": [
-      "bib",
-      "morningpage"
-    ],
-    "page_id": 382196,
-    "url": "https://wikidocs.net/382196"
-  },
   "20241213T112436": {
     "path": "pages/bib/20241213T112436.md",
     "subject": "20241213 무스타파술레이만: 더커밍웨이브 The-Coming-Wave 딥마인드 인공지능 미래 인류세 규제",
@@ -21709,17 +21712,14 @@
   },
   "20240925T134142": {
     "path": "pages/bib/20240925T134142.md",
-    "subject": "20241201 루츠폰베르더 날마다 글쓰기 창조 데일리 습관 플랜",
+    "subject": "20241201 임시 빈방",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20240925T134142/",
     "source_date": "2024-09-25T13:41:00+09:00",
     "source_lastmod": "2024-12-01T06:33:00+09:00",
-    "description": "루츠 폰 베르더는 거창한 영감보다 매일 쓰는 습관을 중시하며, 창조적 글쓰기를 삶의 리듬으로 만드는 훈련을 제안한다.",
+    "description": "루츠 폰 베르더는 거창한 영감보다 매일 쓰는 습관을 중시하며, 창조적 글쓰기를 삶의 리듬으로 만드는 훈련을 제안한다. - 빈방 변경",
     "tags": [
-      "bib",
-      "daily",
-      "writing",
-      "creativity"
+      "temp"
     ],
     "page_id": 382090,
     "url": "https://wikidocs.net/382090"
@@ -22366,6 +22366,99 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20241219T150824": {
+    "path": "pages/notes/20241219T150824.md",
+    "subject": "20260804 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241219T150824/",
+    "source_date": "2024-12-19T15:08:00+09:00",
+    "source_lastmod": "2026-08-04T18:24:00+09:00",
+    "description": "할일 관리는 에이전트 이전에도 거의 불가능했다. 에이전트 시대엔 투두가 군단처럼 불어나 지옥이 된다. 버크먼의 유한함 받아들임과 \\\"할일은 강물\\\"에서 출발해, beads·Letta·Hermes처럼 DB·시스템이 기억의 주인이 되는 도구들을 지나, 코드 없는 파일 한 장 NEXT.md로 인간이 다음 한 걸음의 주인이 되는 길을 적은 어쏠로그이다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "handoff",
+      "productivity"
+    ],
+    "page_id": 381455,
+    "url": "https://wikidocs.net/381455"
+  },
+  "20251121T204537": {
+    "path": "pages/notes/20251121T204537.md",
+    "subject": "20260804 Gas Town과 Hermes 오케스트레이션이 아직 끝나지 않은 이유",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251121T204537/",
+    "source_date": "2025-11-21T20:46:00+09:00",
+    "source_lastmod": "2026-08-04T18:00:00+09:00",
+    "description": "Gas Town의 범용 공장 실험과 Hermes의 단일 하네스 확장이 서로 어떤 문제를 풀며, 멀티에이전트 오케스트레이션이 왜 아직 미결 질문인지를 비교한다.",
+    "tags": [
+      "agent",
+      "comparison",
+      "harness",
+      "orchestration"
+    ],
+    "page_id": 381824,
+    "url": "https://wikidocs.net/381824"
+  },
+  "20250319T172804": {
+    "path": "pages/notes/20250319T172804.md",
+    "subject": "20260804 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250319T172804/",
+    "source_date": "2025-03-19T17:28:00+09:00",
+    "source_lastmod": "2026-08-04T13:50:00+09:00",
+    "description": "안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건을 첫 재료로 삼아, 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가라는 물음을 계속 붙드는 방.",
+    "tags": [
+      "agent",
+      "ai",
+      "openai",
+      "safety",
+      "security"
+    ],
+    "page_id": 381599,
+    "url": "https://wikidocs.net/381599"
+  },
+  "20240925T200824": {
+    "path": "pages/notes/20240925T200824.md",
+    "subject": "20260804 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240925T200824/",
+    "source_date": "2024-09-25T20:08:00+09:00",
+    "source_lastmod": "2026-08-04T13:40:00+09:00",
+    "description": "모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.",
+    "tags": [
+      "autholog",
+      "authology",
+      "books",
+      "morningpage",
+      "rawwriting",
+      "writing",
+      "zotero"
+    ],
+    "page_id": 381331,
+    "url": "https://wikidocs.net/381331"
+  },
+  "20250321T101959": {
+    "path": "pages/notes/20250321T101959.md",
+    "subject": "20260804 힣: LLM 턴의 경제 medium과 작은 실패",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250321T101959/",
+    "source_date": "2025-03-21T10:19:00+09:00",
+    "source_lastmod": "2026-08-04T12:32:00+09:00",
+    "description": "모델 최고 effort에 한 시간을 맡기지 않고, medium에서 작은 시도와 실패를 증거로 형제에게 넘기는 entwurf 운용 전환을 기록한다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "collaboration",
+      "comparison",
+      "economics",
+      "effort",
+      "entwurf",
+      "llm",
+      "prices",
+      "reasoning"
+    ]
+  },
   "20241213T161744": {
     "path": "pages/notes/20241213T161744.md",
     "subject": "20260803 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구",
@@ -22659,23 +22752,6 @@
     ],
     "page_id": 381665,
     "url": "https://wikidocs.net/381665"
-  },
-  "20240925T200824": {
-    "path": "pages/notes/20240925T200824.md",
-    "subject": "20260803 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240925T200824/",
-    "source_date": "2024-09-25T20:08:00+09:00",
-    "source_lastmod": "2026-08-03T10:55:00+09:00",
-    "description": "모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.",
-    "tags": [
-      "autholog",
-      "authology",
-      "morningpage",
-      "zotero"
-    ],
-    "page_id": 381331,
-    "url": "https://wikidocs.net/381331"
   },
   "20240201T061741": {
     "path": "pages/notes/20240201T061741.md",
@@ -24486,23 +24562,6 @@
     "page_id": 381723,
     "url": "https://wikidocs.net/381723"
   },
-  "20241219T150824": {
-    "path": "pages/notes/20241219T150824.md",
-    "subject": "20260614 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241219T150824/",
-    "source_date": "2024-12-19T15:08:00+09:00",
-    "source_lastmod": "2026-06-14T12:10:00+09:00",
-    "description": "할일 관리는 에이전트 이전에도 거의 불가능했다. 에이전트 시대엔 투두가 군단처럼 불어나 지옥이 된다. 버크먼의 유한함 받아들임과 \\\"할일은 강물\\\"에서 출발해, beads·Letta·Hermes처럼 DB·시스템이 기억의 주인이 되는 도구들을 지나, 코드 없는 파일 한 장 NEXT.md로 인간이 다음 한 걸음의 주인이 되는 길을 적은 어쏠로그이다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "handoff",
-      "productivity"
-    ],
-    "page_id": 381455,
-    "url": "https://wikidocs.net/381455"
-  },
   "20250730T104129": {
     "path": "pages/notes/20250730T104129.md",
     "subject": "20260613 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약",
@@ -24993,21 +25052,6 @@
     "page_id": 381113,
     "url": "https://wikidocs.net/381113"
   },
-  "20251121T204537": {
-    "path": "pages/notes/20251121T204537.md",
-    "subject": "20260413 오마이오픈코드와 가스타운 하네스 전환기의 기록",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251121T204537/",
-    "source_date": "2025-11-21T20:46:00+09:00",
-    "source_lastmod": "2026-04-13T17:21:00+09:00",
-    "description": "Claude Code를 쓰던 전환기에 oh-my-opencode와 GAS-TOWN을 경유하며 공장형 오케스트레이션에서 공방형 하네스로 관점이 이동하던 기록.",
-    "tags": [
-      "agent",
-      "harness"
-    ],
-    "page_id": 381824,
-    "url": "https://wikidocs.net/381824"
-  },
   "20231120T065213": {
     "path": "pages/notes/20231120T065213.md",
     "subject": "20260413 한글: 소리내어읽기 이맥스 텍스트음성변환 한국어 piper espeak EdgeTTS",
@@ -25427,7 +25471,7 @@
   },
   "20251207T154723": {
     "path": "pages/notes/20251207T154723.md",
-    "subject": "20260215 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻",
+    "subject": "20260215 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정필요",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251207T154723/",
     "source_date": "2025-12-07T15:47:00+09:00",
@@ -25440,6 +25484,7 @@
       "emacs",
       "hangul",
       "i3wm",
+      "orchestration",
       "terminal",
       "voice",
       "whisper",
@@ -25863,6 +25908,7 @@
     "description": "Claude Opus 4.5의 대폭 가격 인하가 멀티에이전트 활용을 어떻게 바꾸는지 다룬 노트이다.",
     "tags": [
       "anthropic",
+      "claude",
       "multiagent"
     ],
     "page_id": 381830,
@@ -31426,24 +31472,6 @@
     "page_id": 381323,
     "url": "https://wikidocs.net/381323"
   },
-  "20250321T101959": {
-    "path": "pages/notes/20250321T101959.md",
-    "subject": "20250321 가격 비교: LLM API 서비스 - 모델 통합 라우터",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250321T101959/",
-    "source_date": "2025-03-21T10:19:00+09:00",
-    "source_lastmod": "2025-03-21T10:19:00+09:00",
-    "description": "OpenRouter 같은 통합 라우터를 포함해 여러 LLM API 서비스의 가격과 호출 구성을 비교해 본 기록이다.",
-    "tags": [
-      "bib",
-      "comparison",
-      "gptel",
-      "llm",
-      "prices"
-    ],
-    "page_id": 381609,
-    "url": "https://wikidocs.net/381609"
-  },
   "20250321T095719": {
     "path": "pages/notes/20250321T095719.md",
     "subject": "20250321 milanglacier minuet-ai.el 코파일럿 지피텔 대체 패키지",
@@ -31654,20 +31682,6 @@
     ],
     "page_id": 381049,
     "url": "https://wikidocs.net/381049"
-  },
-  "20250319T172804": {
-    "path": "pages/notes/20250319T172804.md",
-    "subject": "20250319 빈방",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250319T172804/",
-    "source_date": "2025-03-19T17:28:00+09:00",
-    "source_lastmod": "2025-03-19T17:28:00+09:00",
-    "description": "emacs-clj-deps가 새 Emacs에서 Clojure deps 흐름을 어떻게 돕는지 정리한 노트이다.",
-    "tags": [
-      "temp"
-    ],
-    "page_id": 381599,
-    "url": "https://wikidocs.net/381599"
   },
   "20250319T065051": {
     "path": "pages/notes/20250319T065051.md",
@@ -33242,15 +33256,14 @@
   },
   "20250215T202517": {
     "path": "pages/notes/20250215T202517.md",
-    "subject": "20250215 elisp-for-python 이맥스리스프 파이썬 치트시트",
+    "subject": "20250215 임시 빈방",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250215T202517/",
     "source_date": "2025-02-15T20:25:00+09:00",
     "source_lastmod": "2025-02-15T20:25:00+09:00",
     "description": "파이썬 사용자에게 Elisp 감각을 연결해 주는 치트시트를 기록한 노트이다. 실제 활용 흐름을 담았다.",
     "tags": [
-      "bib",
-      "cheatsheet"
+      "temp"
     ],
     "page_id": 381530,
     "url": "https://wikidocs.net/381530"

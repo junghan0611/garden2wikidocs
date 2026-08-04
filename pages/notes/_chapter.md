@@ -2,6 +2,46 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
+
+작성 2024-12-19 · 수정 2026-08-04 · 태그 agent, autholog, handoff, productivity
+
+할일 관리는 에이전트 이전에도 거의 불가능했다. 에이전트 시대엔 투두가 군단처럼 불어나 지옥이 된다. 버크먼의 유한함 받아들임과 \"할일은 강물\"에서 출발해, beads·Letta·Hermes처럼 DB·시스템이 기억의 주인이 되는 도구들을 지나, 코드 없는 파일 한 장 NEXT.md로 인간이 다음 한 걸음의 주인이 되는 길을 적은 어쏠로그이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381455)
+
+## Gas Town과 Hermes 오케스트레이션이 아직 끝나지 않은 이유
+
+작성 2025-11-21 · 수정 2026-08-04 · 태그 agent, comparison, harness, orchestration
+
+Gas Town의 범용 공장 실험과 Hermes의 단일 하네스 확장이 서로 어떤 문제를 풀며, 멀티에이전트 오케스트레이션이 왜 아직 미결 질문인지를 비교한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251121T204537/)
+
+## 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
+
+작성 2025-03-19 · 수정 2026-08-04 · 태그 agent, ai, openai, safety, security
+
+안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건을 첫 재료로 삼아, 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가라는 물음을 계속 붙드는 방.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250319T172804/)
+
+## 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유
+
+작성 2024-09-25 · 수정 2026-08-04 · 태그 autholog, authology, books, morningpage, rawwriting, writing, zotero
+
+모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381331)
+
+## 힣: LLM 턴의 경제 medium과 작은 실패
+
+작성 2025-03-21 · 수정 2026-08-04 · 태그 agent, autholog, collaboration, comparison, economics, effort, entwurf, llm, prices, reasoning
+
+모델 최고 effort에 한 시간을 맡기지 않고, medium에서 작은 시도와 실패를 증거로 형제에게 넘기는 entwurf 운용 전환을 기록한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250321T101959/)
+
 ## 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구
 
 작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, ai, autholog, claude, entwurf, identity, memory, thread
@@ -137,14 +177,6 @@ Zotero·BibTeX·Citar·Denote 경계와 file= 첨부, Emacs 소비 면을 정리
 제목·저자·요약·단어의 메타 기록에서 출발해, dateAdded의 성스러움과 zotero-config·bibcli가 공개하는 ‘과정’의 정체성까지 한 줄로 잇는 어쏠로그.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381665)
-
-## 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유
-
-작성 2024-09-25 · 수정 2026-08-03 · 태그 autholog, authology, morningpage, zotero
-
-모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381331)
 
 ## 힣: 자기만의 문법 구조 이해 그림 개념 체계 확장
 
@@ -890,14 +922,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250523T162157/)
 
-## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
-
-작성 2024-12-19 · 수정 2026-06-14 · 태그 agent, autholog, handoff, productivity
-
-할일 관리는 에이전트 이전에도 거의 불가능했다. 에이전트 시대엔 투두가 군단처럼 불어나 지옥이 된다. 버크먼의 유한함 받아들임과 \"할일은 강물\"에서 출발해, beads·Letta·Hermes처럼 DB·시스템이 기억의 주인이 되는 도구들을 지나, 코드 없는 파일 한 장 NEXT.md로 인간이 다음 한 걸음의 주인이 되는 길을 적은 어쏠로그이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381455)
-
 ## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
 
 작성 2025-07-30 · 수정 2026-06-13 · 태그 ai, aionsclubs, autholog, communication, connect, cooperation, digitalgarden
@@ -1114,14 +1138,6 @@ Symbola를 이용해 유니코드 수식 문자와 합자, 폰트 높이 문제�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230830T084200/)
 
-## 오마이오픈코드와 가스타운 하네스 전환기의 기록
-
-작성 2025-11-21 · 수정 2026-04-13 · 태그 agent, harness
-
-Claude Code를 쓰던 전환기에 oh-my-opencode와 GAS-TOWN을 경유하며 공장형 오케스트레이션에서 공방형 하네스로 관점이 이동하던 기록.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251121T204537/)
-
 ## 한글: 소리내어읽기 이맥스 텍스트음성변환 한국어 piper espeak EdgeTTS
 
 작성 2023-11-20 · 수정 2026-04-13 · 태그 emacs, hangul, korean, tts
@@ -1306,9 +1322,9 @@ Quartz 블로그에서 댓글과 소통 기능을 Disqus, Giscus, Remark42로 �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381549)
 
-## 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻
+## 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정필요
 
-작성 2025-12-07 · 수정 2026-02-15 · 태그 agent, autholog, claude, emacs, hangul, i3wm, terminal, voice, whisper, workflow
+작성 2025-12-07 · 수정 2026-02-15 · 태그 agent, autholog, claude, emacs, hangul, i3wm, orchestration, terminal, voice, whisper, workflow
 
 멀티 에이전트 인간이라는 관점에서 인간과 도구, 감각 기관을 오케스트레이션하는 노트이다. 실제 활용 흐름을 담았다.
 
@@ -1508,7 +1524,7 @@ Steve Yegge가 왜 Emacs에서 멀티에이전트 시스템을 만들려 하는�
 
 ## Claude Opus 4.5 가격 혁명과 멀티에이전트 가능성
 
-작성 2025-11-25 · 수정 2025-11-25 · 태그 anthropic, multiagent
+작성 2025-11-25 · 수정 2025-11-25 · 태그 anthropic, claude, multiagent
 
 Claude Opus 4.5의 대폭 가격 인하가 멀티에이전트 활용을 어떻게 바꾸는지 다룬 노트이다.
 
@@ -1634,7 +1650,7 @@ Orgmode-skills가 에이전트를 위해 Denote PKM과 조직모드를 통합하
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011106/)
 
-## 임시 빈방
+## 임시 빈방 — 2025-10-30
 
 작성 2025-10-30 · 수정 2025-10-30 · 태그 embedding, notion, rag
 
@@ -4218,14 +4234,6 @@ Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240921T200637/)
 
-## 가격 비교: LLM API 서비스 - 모델 통합 라우터
-
-작성 2025-03-21 · 수정 2025-03-21 · 태그 bib, comparison, gptel, llm, prices
-
-OpenRouter 같은 통합 라우터를 포함해 여러 LLM API 서비스의 가격과 호출 구성을 비교해 본 기록이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250321T101959/)
-
 ## milanglacier minuet-ai.el 코파일럿 지피텔 대체 패키지
 
 작성 2025-03-21 · 수정 2025-03-21 · 태그 alternative, bib, copilot, emacs, llmclient, packages
@@ -4329,14 +4337,6 @@ rg.el과 wgrep을 이용해 여러 파일을 검색하고 한 번에 수정하�
 이맥스 레지스터와 마크를 북마크보다 가벼운 임시 저장소로 활용하는 감각과 쓰임을 정리한 자료.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230119T202000/)
-
-## 빈방
-
-작성 2025-03-19 · 수정 2025-03-19 · 태그 temp
-
-emacs-clj-deps가 새 Emacs에서 Clojure deps 흐름을 어떻게 돕는지 정리한 노트이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250319T172804/)
 
 ## 지피텔 퍼플렉시티: 한글 주소 인코딩 문제
 
@@ -5130,9 +5130,9 @@ Exercism을 언어 학습과 멘토링형 코딩 훈련 도구로 바라보며 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231103T223100/)
 
-## elisp-for-python 이맥스리스프 파이썬 치트시트
+## 임시 빈방 — 2025-02-15
 
-작성 2025-02-15 · 수정 2025-02-15 · 태그 bib, cheatsheet
+작성 2025-02-15 · 수정 2025-02-15 · 태그 temp
 
 파이썬 사용자에게 Elisp 감각을 연결해 주는 치트시트를 기록한 노트이다. 실제 활용 흐름을 담았다.
 

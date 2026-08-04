@@ -5,9 +5,33 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 187개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 188개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
+
+작성 2024-12-19 · 수정 2026-08-04 · 태그 agent, autholog, handoff, productivity
+
+할일 관리는 에이전트 이전에도 거의 불가능했다. 에이전트 시대엔 투두가 군단처럼 불어나 지옥이 된다. 버크먼의 유한함 받아들임과 \"할일은 강물\"에서 출발해, beads·Letta·Hermes처럼 DB·시스템이 기억의 주인이 되는 도구들을 지나, 코드 없는 파일 한 장 NEXT.md로 인간이 다음 한 걸음의 주인이 되는 길을 적은 어쏠로그이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381455)
+
+## 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유
+
+작성 2024-09-25 · 수정 2026-08-04 · 태그 autholog, authology, books, morningpage, rawwriting, writing, zotero
+
+모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381331)
+
+## 힣: LLM 턴의 경제 medium과 작은 실패
+
+작성 2025-03-21 · 수정 2026-08-04 · 태그 agent, autholog, collaboration, comparison, economics, effort, entwurf, llm, prices, reasoning
+
+모델 최고 effort에 한 시간을 맡기지 않고, medium에서 작은 시도와 실패를 증거로 형제에게 넘기는 entwurf 운용 전환을 기록한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250321T101959/)
 
 ## 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구
 
@@ -80,14 +104,6 @@ elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억
 제목·저자·요약·단어의 메타 기록에서 출발해, dateAdded의 성스러움과 zotero-config·bibcli가 공개하는 ‘과정’의 정체성까지 한 줄로 잇는 어쏠로그.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381665)
-
-## 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유
-
-작성 2024-09-25 · 수정 2026-08-03 · 태그 autholog, authology, morningpage, zotero
-
-모두가 저자이고 인생은 한 권의 책이라는 감각을 모닝페이지·어쏠로지·조테로 공유 그룹으로 풀어낸 2024년 원석. 서지 과정의 존재 선언 이웃.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381331)
 
 ## 힣: 자기만의 문법 구조 이해 그림 개념 체계 확장
 
@@ -761,14 +777,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 [위키독스에서 읽기 →](https://wikidocs.net/381834)
 
-## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
-
-작성 2024-12-19 · 수정 2026-06-14 · 태그 agent, autholog, handoff, productivity
-
-할일 관리는 에이전트 이전에도 거의 불가능했다. 에이전트 시대엔 투두가 군단처럼 불어나 지옥이 된다. 버크먼의 유한함 받아들임과 \"할일은 강물\"에서 출발해, beads·Letta·Hermes처럼 DB·시스템이 기억의 주인이 되는 도구들을 지나, 코드 없는 파일 한 장 NEXT.md로 인간이 다음 한 걸음의 주인이 되는 길을 적은 어쏠로그이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381455)
-
 ## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
 
 작성 2025-07-30 · 수정 2026-06-13 · 태그 ai, aionsclubs, autholog, communication, connect, cooperation, digitalgarden
@@ -977,9 +985,9 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381549)
 
-## 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻
+## 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정필요
 
-작성 2025-12-07 · 수정 2026-02-15 · 태그 agent, autholog, claude, emacs, hangul, i3wm, terminal, voice, whisper, workflow
+작성 2025-12-07 · 수정 2026-02-15 · 태그 agent, autholog, claude, emacs, hangul, i3wm, orchestration, terminal, voice, whisper, workflow
 
 멀티 에이전트 인간이라는 관점에서 인간과 도구, 감각 기관을 오케스트레이션하는 노트이다. 실제 활용 흐름을 담았다.
 

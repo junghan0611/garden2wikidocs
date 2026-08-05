@@ -10,6 +10,22 @@ Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇�
 
 [위키독스에서 읽기 →](https://wikidocs.net/390619)
 
+## 힣: 호모오티오수스 - 심심 한가 권태 현대인
+
+작성 2024-12-08 · 수정 2026-08-05 · 태그 autholog, distraction, homootiosus
+
+호모 오티오수스와 권태, 심심함, 현대인의 몰입 문제를 자신의 장면으로 풀어낸 글이다. 호모파베르·호모루덴스 계보의 세 번째, 그림자 쪽 이름이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381414)
+
+## 힣: 맹세 각서 조건부허락 통제 - 내맡기기
+
+작성 2024-12-05 · 수정 2026-08-05 · 태그 attachment, autholog, awareness, compassion, control, mindfulness, release, surrender
+
+힘든 과정에서 견뎌내야 했던 맹세·각서·조건부허락의 언어를, 2년에 걸쳐 조금씩 내려놓는 두 번의 날것으로 기록한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381402)
+
 ## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono
 
 작성 2022-10-04 · 수정 2026-08-05 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
@@ -34,9 +50,9 @@ Gas Town의 범용 공장 실험과 Hermes의 단일 하네스 확장이 서로 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251121T204537/)
 
-## 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
+## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
 
-작성 2025-03-19 · 수정 2026-08-04 · 태그 agent, ai, openai, safety, security
+작성 2025-03-19 · 수정 2026-08-04 · 태그 agent, ai, autholog, openai, safety, security
 
 안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건을 첫 재료로 삼아, 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가라는 물음을 계속 붙드는 방.
 
@@ -2585,14 +2601,6 @@ Emacs abbrev 기능으로 자주 쓰는 축약어를 자동 확장하는 방법�
 @ahyatt §semext LLM 시맨틱 확장 이맥스 패키지
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250528T114254/)
-
-## 힣: 맹세 각서 조건부허락 통제 내맡기기
-
-작성 2024-12-05 · 수정 2025-05-28 · 태그 autholog
-
-맹세 각서 조건부허락 통제 → 내맡기기
-
-[위키독스에서 읽기 →](https://wikidocs.net/381402)
 
 ## 힣: 모닝페이지 데일리 루틴 저널
 
@@ -5745,14 +5753,6 @@ AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어�
 Softcover와 Quarto를 비교하며 확장 가능한 퍼블리싱 도구의 미래를 살피는 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241209T123313/)
-
-## 힣: 호모오티오수스: 심심 한가 권태 현대인
-
-작성 2024-12-08 · 수정 2024-12-08 · 태그 autholog, distraction
-
-호모 오티오수스와 권태, 심심함, 현대인의 몰입 문제를 자신의 장면으로 풀어낸 글이다. 실제 활용 흐름을 담았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381414)
 
 ## 학습도구:넘버블록스 - 교구
 

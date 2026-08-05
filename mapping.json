@@ -1495,6 +1495,48 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250224T132139": {
+    "path": "pages/meta/20250224T132139.md",
+    "subject": "20260805 메타도구 대장간 대장장이 공방 호모파베르 호모루덴스 호모오티오수스",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250224T132139/",
+    "source_date": "2025-02-24T13:21:00+09:00",
+    "source_lastmod": "2026-08-05T16:41:00+09:00",
+    "description": "도구를 만드는 도구라는 감각에서 출발해, 대장장이·공방·호모파베르의 작업 윤리로 메타도구를 생각한다.",
+    "tags": [
+      "blacksmith",
+      "craft",
+      "homofaber",
+      "homoludens",
+      "homootiosus",
+      "meta",
+      "metatool",
+      "workshop"
+    ],
+    "page_id": 380804,
+    "url": "https://wikidocs.net/380804"
+  },
+  "20241112T111935": {
+    "path": "pages/meta/20241112T111935.md",
+    "subject": "20260805 해결 솔루션 해법 버그 구멍 갭",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241112T111935/",
+    "source_date": "2024-11-12T11:19:00+09:00",
+    "source_lastmod": "2026-08-05T14:11:00+09:00",
+    "description": "문제를 진단하고 풀어내는 흐름을 버그 수정, 서비스 수리, 작업 막힘 해소까지 넓게 묶어 본다.",
+    "tags": [
+      "bugfix",
+      "gap",
+      "hole",
+      "loophole",
+      "meta",
+      "problem",
+      "resolve",
+      "solution"
+    ],
+    "page_id": 380747,
+    "url": "https://wikidocs.net/380747"
+  },
   "20250328T074505": {
     "path": "pages/meta/20250328T074505.md",
     "subject": "20260805 바이브코딩 샤디드싱킹 LLMWiki 베리코딩",
@@ -1923,24 +1965,6 @@
     ],
     "page_id": 380562,
     "url": "https://wikidocs.net/380562"
-  },
-  "20250224T132139": {
-    "path": "pages/meta/20250224T132139.md",
-    "subject": "20260720 메타도구 대장간 대장장이 공방 호모파베르",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250224T132139/",
-    "source_date": "2025-02-24T13:21:00+09:00",
-    "source_lastmod": "2026-07-20T15:17:00+09:00",
-    "description": "도구를 만드는 도구라는 감각에서 출발해, 대장장이·공방·호모파베르의 작업 윤리로 메타도구를 생각한다.",
-    "tags": [
-      "blacksmith",
-      "craft",
-      "meta",
-      "metatool",
-      "workshop"
-    ],
-    "page_id": 380804,
-    "url": "https://wikidocs.net/380804"
   },
   "20250424T233558": {
     "path": "pages/meta/20250424T233558.md",
@@ -8530,24 +8554,6 @@
     ],
     "page_id": 380841,
     "url": "https://wikidocs.net/380841"
-  },
-  "20241112T111935": {
-    "path": "pages/meta/20241112T111935.md",
-    "subject": "20250422 해결 솔루션 해법 버그",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241112T111935/",
-    "source_date": "2024-11-12T11:19:00+09:00",
-    "source_lastmod": "2025-04-22T00:00:00+09:00",
-    "description": "문제를 진단하고 풀어내는 흐름을 버그 수정, 서비스 수리, 작업 막힘 해소까지 넓게 묶어 본다.",
-    "tags": [
-      "bugfix",
-      "meta",
-      "problem",
-      "resolve",
-      "solution"
-    ],
-    "page_id": 380747,
-    "url": "https://wikidocs.net/380747"
   },
   "20240903T113914": {
     "path": "pages/meta/20240903T113914.md",
@@ -22395,6 +22401,43 @@
     "page_id": 390619,
     "url": "https://wikidocs.net/390619"
   },
+  "20241208T125348": {
+    "path": "pages/notes/20241208T125348.md",
+    "subject": "20260805 힣: 호모오티오수스 - 심심 한가 권태 현대인",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241208T125348/",
+    "source_date": "2024-12-08T12:53:00+09:00",
+    "source_lastmod": "2026-08-05T00:00:00+09:00",
+    "description": "호모 오티오수스와 권태, 심심함, 현대인의 몰입 문제를 자신의 장면으로 풀어낸 글이다. 호모파베르·호모루덴스 계보의 세 번째, 그림자 쪽 이름이다.",
+    "tags": [
+      "autholog",
+      "distraction",
+      "homootiosus"
+    ],
+    "page_id": 381414,
+    "url": "https://wikidocs.net/381414"
+  },
+  "20241205T165437": {
+    "path": "pages/notes/20241205T165437.md",
+    "subject": "20260805 힣: 맹세 각서 조건부허락 통제 - 내맡기기",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241205T165437/",
+    "source_date": "2024-12-05T16:54:00+09:00",
+    "source_lastmod": "2026-08-05T00:00:00+09:00",
+    "description": "힘든 과정에서 견뎌내야 했던 맹세·각서·조건부허락의 언어를, 2년에 걸쳐 조금씩 내려놓는 두 번의 날것으로 기록한다.",
+    "tags": [
+      "attachment",
+      "autholog",
+      "awareness",
+      "compassion",
+      "control",
+      "mindfulness",
+      "release",
+      "surrender"
+    ],
+    "page_id": 381402,
+    "url": "https://wikidocs.net/381402"
+  },
   "20221004T130700": {
     "path": "pages/notes/20221004T130700.md",
     "subject": "20260805 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono",
@@ -22452,7 +22495,7 @@
   },
   "20250319T172804": {
     "path": "pages/notes/20250319T172804.md",
-    "subject": "20260804 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
+    "subject": "20260804 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250319T172804/",
     "source_date": "2025-03-19T17:28:00+09:00",
@@ -22461,12 +22504,11 @@
     "tags": [
       "agent",
       "ai",
+      "autholog",
       "openai",
       "safety",
       "security"
-    ],
-    "page_id": 381599,
-    "url": "https://wikidocs.net/381599"
+    ]
   },
   "20240925T200824": {
     "path": "pages/notes/20240925T200824.md",
@@ -28198,20 +28240,6 @@
     ],
     "page_id": 381730,
     "url": "https://wikidocs.net/381730"
-  },
-  "20241205T165437": {
-    "path": "pages/notes/20241205T165437.md",
-    "subject": "20250528 힣: 맹세 각서 조건부허락 통제 내맡기기",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241205T165437/",
-    "source_date": "2024-12-05T16:54:00+09:00",
-    "source_lastmod": "2025-05-28T00:00:00+09:00",
-    "description": "맹세 각서 조건부허락 통제 → 내맡기기",
-    "tags": [
-      "autholog"
-    ],
-    "page_id": 381402,
-    "url": "https://wikidocs.net/381402"
   },
   "20240921T063447": {
     "path": "pages/notes/20240921T063447.md",
@@ -34409,21 +34437,6 @@
     ],
     "page_id": 381415,
     "url": "https://wikidocs.net/381415"
-  },
-  "20241208T125348": {
-    "path": "pages/notes/20241208T125348.md",
-    "subject": "20241208 힣: 호모오티오수스: 심심 한가 권태 현대인",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241208T125348/",
-    "source_date": "2024-12-08T12:53:00+09:00",
-    "source_lastmod": "2024-12-08T12:53:00+09:00",
-    "description": "호모 오티오수스와 권태, 심심함, 현대인의 몰입 문제를 자신의 장면으로 풀어낸 글이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "autholog",
-      "distraction"
-    ],
-    "page_id": 381414,
-    "url": "https://wikidocs.net/381414"
   },
   "20241208T114711": {
     "path": "pages/notes/20241208T114711.md",

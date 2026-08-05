@@ -2,6 +2,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 메타도구 대장간 대장장이 공방 호모파베르 호모루덴스 호모오티오수스
+
+작성 2025-02-24 · 수정 2026-08-05 · 태그 blacksmith, craft, homofaber, homoludens, homootiosus, meta, metatool, workshop
+
+도구를 만드는 도구라는 감각에서 출발해, 대장장이·공방·호모파베르의 작업 윤리로 메타도구를 생각한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250224T132139/)
+
+## 해결 솔루션 해법 버그 구멍 갭
+
+작성 2024-11-12 · 수정 2026-08-05 · 태그 bugfix, gap, hole, loophole, meta, problem, resolve, solution
+
+문제를 진단하고 풀어내는 흐름을 버그 수정, 서비스 수리, 작업 막힘 해소까지 넓게 묶어 본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241112T111935/)
+
 ## 바이브코딩 샤디드싱킹 LLMWiki 베리코딩
 
 작성 2025-03-28 · 수정 2026-08-05 · 태그 ai, karpathy, keywords, llmwiki, meta, shard, software, vericoding, vibecoding
@@ -185,14 +201,6 @@ AX를 AI 기술 도입이 아니라 인간·조직의 판단·기록·협업·�
 그래프 데이터베이스는 노드·엣지·속성으로 관계를 직접 표현하며, 연결 자체를 중심으로 데이터를 저장하고 탐색한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240315T161448/)
-
-## 메타도구 대장간 대장장이 공방 호모파베르
-
-작성 2025-02-24 · 수정 2026-07-20 · 태그 blacksmith, craft, meta, metatool, workshop
-
-도구를 만드는 도구라는 감각에서 출발해, 대장장이·공방·호모파베르의 작업 윤리로 메타도구를 생각한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250224T132139/)
 
 ## 보편 특수 범용 특이
 
@@ -3201,14 +3209,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 총서와 시리즈, 연재물과 섹션, 분권을 출판과 구성의 관점에서 구분하며 연속된 묶음의 감각을 정리한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250422T100735/)
-
-## 해결 솔루션 해법 버그
-
-작성 2024-11-12 · 수정 2025-04-22 · 태그 bugfix, meta, problem, resolve, solution
-
-문제를 진단하고 풀어내는 흐름을 버그 수정, 서비스 수리, 작업 막힘 해소까지 넓게 묶어 본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241112T111935/)
 
 ## 사전
 

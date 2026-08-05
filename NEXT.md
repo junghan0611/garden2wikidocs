@@ -3,6 +3,14 @@
 메커니즘·불변식 SSOT는 `.claude/skills/garden-to-wikidocs/SKILL.md`.
 정본/미러 정책은 garden `docs/WIKIDOCS_MIRROR.md`.
 
+# RAIL — 현재 좌표
+
+- [x] **1. 코어 발행면·2단계 push 안전장치 확립**
+- [ ] **2. 다음 가든 export를 코어 책으로 반영** ← CURRENT: export 입력 대기
+- [ ] **3. 책 공유용 짧은 도메인 연결** ← PAUSED: Netlify 리디렉션 사이트를 만들 시간 대기
+
+현재 좌표: 1 완료 → 2 입력 대기 → 3 보류
+
 ## NOW — 다음 가든 export 를 기다린다 (이번 판 종료)
 
 - **Current**: 가든 `8917437f9` 증분이 **2단계 push** 로 라이브 `249/249` 에 도달했다.
@@ -151,6 +159,7 @@
 
 ## PARKED
 
+- [2026-08-05] **위키독스 책 짧은 주소**: 예를 들어 `book.junghanacs.com`을 `https://wikidocs.net/book/20676`으로 **301** 이동시킨다. DNS에 위키독스 URL을 직접 넣지 않는다. 다음에 할 일: (1) Netlify에 빈 redirect 사이트 생성 (2) `_redirects` 파일에 `/*  https://wikidocs.net/book/20676  301` 배포 (3) 사이트에 `book.junghanacs.com` 연결 (4) Netlify DNS `CNAME`: Name `book`, Value `<실제-redirect-site>.netlify.app` 설정 (5) HTTPS와 단일 301 홉 확인. 원본/정식 URL은 위키독스이고, 짧은 주소는 공유용이다.
 - 저널·참고문헌·메타 표지의 링크 이탈: 이 셋은 위키독스 안에서 내부 링크가 0~1개고
   1,322개 항목이 전부 가든으로 나가는 문이다(저널 0/104, 참고문헌 0/680, 메타 1/538).
   GLG 판단으로 현재는 그대로 둔다 — 코어에 담은 노트 링크만 살리는 게 이번 목표였다.

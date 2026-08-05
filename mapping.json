@@ -1495,6 +1495,28 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250328T074505": {
+    "path": "pages/meta/20250328T074505.md",
+    "subject": "20260805 바이브코딩 샤디드싱킹 LLMWiki 베리코딩",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250328T074505/",
+    "source_date": "2025-03-28T07:45:00+09:00",
+    "source_lastmod": "2026-08-05T11:50:00+09:00",
+    "description": "카파시가 던진 영어 화두들과 힣의 한글 재해석을 위한 자석",
+    "tags": [
+      "ai",
+      "karpathy",
+      "keywords",
+      "llmwiki",
+      "meta",
+      "shard",
+      "software",
+      "vericofing",
+      "vibecoding"
+    ],
+    "page_id": 380814,
+    "url": "https://wikidocs.net/380814"
+  },
   "20250424T230851": {
     "path": "pages/meta/20250424T230851.md",
     "subject": "20260802 기억 상상 추억 회상 꿈 자각몽 다락방",
@@ -2776,27 +2798,6 @@
     ],
     "page_id": 380822,
     "url": "https://wikidocs.net/380822"
-  },
-  "20250328T074505": {
-    "path": "pages/meta/20250328T074505.md",
-    "subject": "20260406 카파시조어 바이브코딩 샤디드싱킹 LLMWiki 소프트웨어3.0",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250328T074505/",
-    "source_date": "2025-03-28T07:45:00+09:00",
-    "source_lastmod": "2026-04-06T14:29:00+09:00",
-    "description": "카파시가 던진 영어 화두들과 힣의 한글 재해석을 위한 자석",
-    "tags": [
-      "ai",
-      "karpathy",
-      "keywords",
-      "llmwiki",
-      "meta",
-      "shard",
-      "software",
-      "vibecoding"
-    ],
-    "page_id": 380814,
-    "url": "https://wikidocs.net/380814"
   },
   "20240527T163651": {
     "path": "pages/meta/20240527T163651.md",
@@ -8847,7 +8848,7 @@
       "bib",
       "foundation",
       "logic",
-      "mathematical",
+      "mathematics",
       "meta",
       "symbolic",
       "theory"
@@ -10949,6 +10950,82 @@
     ],
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
+  },
+  "20241225T044748": {
+    "path": "pages/bib/20241225T044748.md",
+    "subject": "20260805 맥스테그마크 인공지능 라이프3.0 유니버스 다중우주론",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241225T044748/",
+    "source_date": "2024-12-25T04:47:00+09:00",
+    "source_lastmod": "2026-08-05T11:35:00+09:00",
+    "description": "테그마크는 수학적 우주 가설로 실재를 수학 그 자체로 밀고, 라이프 3.0으로 초지능 이후를 물으며, 2026년에는 형식 검증으로 AI 안전을 만드는 베리코딩까지 간다.",
+    "tags": [
+      "agi",
+      "ai",
+      "bib",
+      "cosmos",
+      "life",
+      "mathematics",
+      "physics",
+      "universe"
+    ],
+    "page_id": 382220,
+    "url": "https://wikidocs.net/382220"
+  },
+  "20241019T191611": {
+    "path": "pages/bib/20241019T191611.md",
+    "subject": "20260805 테런스타오 TerenceTao 수학자 보조증명",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241019T191611/",
+    "source_date": "2024-10-19T19:16:00+09:00",
+    "source_lastmod": "2026-08-05T11:35:00+09:00",
+    "description": "테런스 타오는 현대 수학의 대표적 거장으로, 보조증명과 계산 도구를 통해 수학 실천의 미래를 확장한다.",
+    "tags": [
+      "ai",
+      "bib",
+      "coq",
+      "mathematics"
+    ],
+    "page_id": 382125,
+    "url": "https://wikidocs.net/382125"
+  },
+  "20240515T183048": {
+    "path": "pages/bib/20240515T183048.md",
+    "subject": "20260805 로저펜로즈 황제의새마음 실체에이르는길 마음의그림자 - 수리물리학",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240515T183048/",
+    "source_date": "2024-05-15T18:30:00+09:00",
+    "source_lastmod": "2026-08-05T11:35:00+09:00",
+    "description": "펜로즈는 의식과 수학, 물리학의 경계에서 계산주의의 한계를 끝까지 묻고 마음의 실재를 탐구한다.",
+    "tags": [
+      "ai",
+      "bib",
+      "mathematicalphysics",
+      "mind",
+      "physics",
+      "quantum"
+    ],
+    "page_id": 381927,
+    "url": "https://wikidocs.net/381927"
+  },
+  "20240908T145849": {
+    "path": "pages/bib/20240908T145849.md",
+    "subject": "20260805 정주희 수리논리 집합론 머신러닝 수학",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240908T145849/",
+    "source_date": "2024-09-08T14:58:00+09:00",
+    "source_lastmod": "2026-08-05T10:56:00+09:00",
+    "description": "정주희는 수리논리와 집합론, 머신러닝을 넘나들며 수학적 엄밀함과 계산적 사고를 함께 보여주는 연구자이자 교육자다.",
+    "tags": [
+      "bib",
+      "coq",
+      "formallanguage",
+      "logic",
+      "mathematics",
+      "theory"
+    ],
+    "page_id": 382076,
+    "url": "https://wikidocs.net/382076"
   },
   "20241214T045836": {
     "path": "pages/bib/20241214T045836.md",
@@ -13770,22 +13847,6 @@
     "page_id": 382044,
     "url": "https://wikidocs.net/382044"
   },
-  "20240515T183048": {
-    "path": "pages/bib/20240515T183048.md",
-    "subject": "20250708 로저펜로즈 황제의새마음 실체에이르는길 마음의그림자 - 수리물리학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240515T183048/",
-    "source_date": "2024-05-15T18:30:00+09:00",
-    "source_lastmod": "2025-07-08T00:00:00+09:00",
-    "description": "펜로즈는 의식과 수학, 물리학의 경계에서 계산주의의 한계를 끝까지 묻고 마음의 실재를 탐구한다.",
-    "tags": [
-      "ai",
-      "bib",
-      "physics"
-    ],
-    "page_id": 381927,
-    "url": "https://wikidocs.net/381927"
-  },
   "20250702T061322": {
     "path": "pages/bib/20250702T061322.md",
     "subject": "20250702 롭무어 레버리지 자본주의 속에 숨겨진 부의 비밀",
@@ -15307,23 +15368,6 @@
     ],
     "page_id": 382226,
     "url": "https://wikidocs.net/382226"
-  },
-  "20241225T044748": {
-    "path": "pages/bib/20241225T044748.md",
-    "subject": "20250602 맥스테그마크 인공지능 라이프3.0 유니버스 다중우주론",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241225T044748/",
-    "source_date": "2024-12-25T04:47:00+09:00",
-    "source_lastmod": "2025-06-02T00:00:00+09:00",
-    "description": "@맥스테그마크 인공지능 라이프3.0 유니버스 #다중우주론",
-    "tags": [
-      "bib",
-      "universe",
-      "mathematical",
-      "life"
-    ],
-    "page_id": 382220,
-    "url": "https://wikidocs.net/382220"
   },
   "20250601T192608": {
     "path": "pages/bib/20250601T192608.md",
@@ -17042,24 +17086,6 @@
     ],
     "page_id": 382137,
     "url": "https://wikidocs.net/382137"
-  },
-  "20240908T145849": {
-    "path": "pages/bib/20240908T145849.md",
-    "subject": "20250429 정주희: 수리논리 집합론 머신러닝 수학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240908T145849/",
-    "source_date": "2024-09-08T14:58:00+09:00",
-    "source_lastmod": "2025-04-29T00:00:00+09:00",
-    "description": "정주희는 수리논리와 집합론, 머신러닝을 넘나들며 수학적 엄밀함과 계산적 사고를 함께 보여주는 연구자이자 교육자다.",
-    "tags": [
-      "bib",
-      "logic",
-      "mathematics",
-      "theory",
-      "coq"
-    ],
-    "page_id": 382076,
-    "url": "https://wikidocs.net/382076"
   },
   "20240610T222619": {
     "path": "pages/bib/20240610T222619.md",
@@ -19295,22 +19321,6 @@
     ],
     "page_id": 382158,
     "url": "https://wikidocs.net/382158"
-  },
-  "20241019T191611": {
-    "path": "pages/bib/20241019T191611.md",
-    "subject": "20250315 테런스타오 TerenceTao 수학자 보조증명",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241019T191611/",
-    "source_date": "2024-10-19T19:16:00+09:00",
-    "source_lastmod": "2025-03-15T00:00:00+09:00",
-    "description": "테런스 타오는 현대 수학의 대표적 거장으로, 보조증명과 계산 도구를 통해 수학 실천의 미래를 확장한다.",
-    "tags": [
-      "bib",
-      "ai",
-      "mathematics"
-    ],
-    "page_id": 382125,
-    "url": "https://wikidocs.net/382125"
   },
   "20240613T160743": {
     "path": "pages/bib/20240613T160743.md",
@@ -22366,6 +22376,23 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20240705T220648": {
+    "path": "pages/notes/20240705T220648.md",
+    "subject": "20260805 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240705T220648/",
+    "source_date": "2024-07-05T22:06:00+09:00",
+    "source_lastmod": "2026-08-05T10:46:00+09:00",
+    "description": "2024년 백수 시절 형식증명에 끌려 Coq를 열었다가 접은 자리에서, 2026년 ten-proofs와 베리코딩이 도착하며 명세가 사람의 마지막 일로 남는 좌표를 세운다.",
+    "tags": [
+      "autholog",
+      "coq",
+      "formallanguage",
+      "vericofing",
+      "verification",
+      "vibecoding"
+    ]
+  },
   "20241219T150824": {
     "path": "pages/notes/20241219T150824.md",
     "subject": "20260804 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리",
@@ -24031,7 +24058,7 @@
     "source_lastmod": "2026-07-17T22:40:00+09:00",
     "description": "로저 펜로즈의 『실체에 이르는 길』을 읽고 싶은 욕망과 부담을 함께 기록한 노트이다. 실제 활용 흐름을 담았다.",
     "tags": [
-      "mathematical",
+      "mathematics",
       "physics",
       "reality",
       "unified"
@@ -29077,21 +29104,6 @@
     ],
     "page_id": 381289,
     "url": "https://wikidocs.net/381289"
-  },
-  "20240705T220648": {
-    "path": "pages/notes/20240705T220648.md",
-    "subject": "20250429 정주희 증명보조기 COQ 강의",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240705T220648/",
-    "source_date": "2024-07-05T22:06:00+09:00",
-    "source_lastmod": "2025-04-29T00:00:00+09:00",
-    "description": "정주희의 Coq 강의 자료와 관련 설치·연동 노트를 묶어 증명보조기 학습 경로를 만든 기록.",
-    "tags": [
-      "coq",
-      "lecture"
-    ],
-    "page_id": 381268,
-    "url": "https://wikidocs.net/381268"
   },
   "20250428T150343": {
     "path": "pages/notes/20250428T150343.md",

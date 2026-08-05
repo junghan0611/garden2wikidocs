@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩
+
+작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, vericofing, verification, vibecoding
+
+2024년 백수 시절 형식증명에 끌려 Coq를 열었다가 접은 자리에서, 2026년 ten-proofs와 베리코딩이 도착하며 명세가 사람의 마지막 일로 남는 좌표를 세운다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240705T220648/)
+
 ## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
 
 작성 2024-12-19 · 수정 2026-08-04 · 태그 agent, autholog, handoff, productivity
@@ -700,7 +708,7 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 ## 로저펜로즈 RTR: 실체에이르는길
 
-작성 2024-12-03 · 수정 2026-07-17 · 태그 mathematical, physics, reality, unified
+작성 2024-12-03 · 수정 2026-07-17 · 태그 mathematics, physics, reality, unified
 
 로저 펜로즈의 『실체에 이르는 길』을 읽고 싶은 욕망과 부담을 함께 기록한 노트이다. 실제 활용 흐름을 담았다.
 
@@ -3033,14 +3041,6 @@ SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 �
 척추분리증이 무엇인지와 선천·후천 가능성을 가족 대화 흐름으로 정리한 건강 메모이다. 실제 활용 흐름을 담았다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240822T125027/)
-
-## 정주희 증명보조기 COQ 강의
-
-작성 2024-07-05 · 수정 2025-04-29 · 태그 coq, lecture
-
-정주희의 Coq 강의 자료와 관련 설치·연동 노트를 묶어 증명보조기 학습 경로를 만든 기록.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240705T220648/)
 
 ## 힣: 이맥스 AI노트 지식도구 사용 이유 - 시대 물음
 

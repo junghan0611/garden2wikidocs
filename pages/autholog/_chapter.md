@@ -5,9 +5,17 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 188개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 189개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩
+
+작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, vericofing, verification, vibecoding
+
+2024년 백수 시절 형식증명에 끌려 Coq를 열었다가 접은 자리에서, 2026년 ten-proofs와 베리코딩이 도착하며 명세가 사람의 마지막 일로 남는 좌표를 세운다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240705T220648/)
 
 ## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
 

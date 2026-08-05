@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 바이브코딩 샤디드싱킹 LLMWiki 베리코딩
+
+작성 2025-03-28 · 수정 2026-08-05 · 태그 ai, karpathy, keywords, llmwiki, meta, shard, software, vericofing, vibecoding
+
+카파시가 던진 영어 화두들과 힣의 한글 재해석을 위한 자석
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250328T074505/)
+
 ## 기억 상상 추억 회상 꿈 자각몽 다락방
 
 작성 2025-04-24 · 수정 2026-08-02 · 태그 attic, dream, imagination, luciddream, memory, meta, recall, recollection, remember, reminisce, syntopicon
@@ -553,14 +561,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 노션, 에버노트, 오그롬, TidyBook 같은 도구를 가로질러 노트테이킹의 방식과 철학을 비교한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250404T065411/)
-
-## 카파시조어 바이브코딩 샤디드싱킹 LLMWiki 소프트웨어3.0
-
-작성 2025-03-28 · 수정 2026-04-06 · 태그 ai, karpathy, keywords, llmwiki, meta, shard, software, vibecoding
-
-카파시가 던진 영어 화두들과 힣의 한글 재해석을 위한 자석
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250328T074505/)
 
 ## 봇로그 봇멘트 에이전트기록
 
@@ -3340,7 +3340,7 @@ SICP를 중심으로 컴퓨터 과학의 핵심 개념, 스킴 실습, 관련 �
 
 ## 수리논리학 기호논리학 수학기초론
 
-작성 2024-05-22 · 수정 2025-04-18 · 태그 bib, foundation, logic, mathematical, meta, symbolic, theory
+작성 2024-05-22 · 수정 2025-04-18 · 태그 bib, foundation, logic, mathematics, meta, symbolic, theory
 
 수리논리학과 기호논리학, 수학기초론은 수학 명제의 형식화와 증명의 근거를 다루며 수학의 토대를 묻는다.
 

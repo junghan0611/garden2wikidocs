@@ -9,13 +9,21 @@
 
 <!-- collection-index:recent-first:start -->
 
-## 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩
+## 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩 - 책임 신뢰 경계
 
-작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, vericofing, verification, vibecoding
+작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, verification, vibecoding
 
-2024년 백수 시절 형식증명에 끌려 Coq를 열었다가 접은 자리에서, 2026년 ten-proofs와 베리코딩이 도착하며 명세가 사람의 마지막 일로 남는 좌표를 세운다.
+Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇고, 자연어 의도와 형식 명세, 커널 검증 사이에서 인간이 맡아야 할 책임과 신뢰 경계를 살핀다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/390619)
+
+## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono
+
+작성 2022-10-04 · 수정 2026-08-05 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
+
+2022년 Sarasa 댓글에서 시작해 2025년 GLG-Mono 자체 제작으로 이어진, 터미널·웹·한글·유니코드를 한 벌로 만족시키는 폰트 탐구의 긴 여정.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381030)
 
 ## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
 
@@ -1032,14 +1040,6 @@ LLM 자문자답 — 턴 경계 침범, 신뢰 보정, 존재의 경계
 ADHD + AI: Interest 해방 → 무한 가능성의 비용 → 뱀파이어 → 경계의 용기
 
 [위키독스에서 읽기 →](https://wikidocs.net/381022)
-
-## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono Monoplex
-
-작성 2022-10-04 · 수정 2026-02-01 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
-
-터미널과 웹, 한글과 유니코드까지 아우르는 최적 폰트 요구사항과 탐구 과정을 길게 축적한 기록이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381030)
 
 ## 힣: nixos-config: 재현 가능한 컴퓨팅 환경 구축
 

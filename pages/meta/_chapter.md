@@ -4,7 +4,7 @@
 
 ## 바이브코딩 샤디드싱킹 LLMWiki 베리코딩
 
-작성 2025-03-28 · 수정 2026-08-05 · 태그 ai, karpathy, keywords, llmwiki, meta, shard, software, vericofing, vibecoding
+작성 2025-03-28 · 수정 2026-08-05 · 태그 ai, karpathy, keywords, llmwiki, meta, shard, software, vericoding, vibecoding
 
 카파시가 던진 영어 화두들과 힣의 한글 재해석을 위한 자석
 

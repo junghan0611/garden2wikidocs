@@ -2,13 +2,21 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
-## 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩
+## 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩 - 책임 신뢰 경계
 
-작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, vericofing, verification, vibecoding
+작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, verification, vibecoding
 
-2024년 백수 시절 형식증명에 끌려 Coq를 열었다가 접은 자리에서, 2026년 ten-proofs와 베리코딩이 도착하며 명세가 사람의 마지막 일로 남는 좌표를 세운다.
+Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇고, 자연어 의도와 형식 명세, 커널 검증 사이에서 인간이 맡아야 할 책임과 신뢰 경계를 살핀다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/390619)
+
+## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono
+
+작성 2022-10-04 · 수정 2026-08-05 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
+
+2022년 Sarasa 댓글에서 시작해 2025년 GLG-Mono 자체 제작으로 이어진, 터미널·웹·한글·유니코드를 한 벌로 만족시키는 폰트 탐구의 긴 여정.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381030)
 
 ## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
 
@@ -1426,14 +1434,6 @@ Calibre 설치와 도서관리, 입력기 문제를 함께 정리한 전자책 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241018T120024/)
 
-## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono Monoplex
-
-작성 2022-10-04 · 수정 2026-02-01 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
-
-터미널과 웹, 한글과 유니코드까지 아우르는 최적 폰트 요구사항과 탐구 과정을 길게 축적한 기록이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381030)
-
 ## 이맥스 조직모드: 강제 줄바꿈(soft line break), 빈줄 삭제(blank-line)
 
 작성 2025-04-16 · 수정 2026-01-31 · 태그 bib, editing, emacs, format, orgmode, workflow
@@ -1522,7 +1522,7 @@ Syncthing의 .stignore 파일들을 리터레이트 문서에서 일괄 관리�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251201T102844/)
 
-## Efrit: 왜 Emacs에서 멀티에이전트인가? Steve Yegge의 비전
+## 임시 빈방 대기중 - Efrit: 왜 Emacs에서 멀티에이전트인가? Steve Yegge의 비전
 
 작성 2025-11-26 · 수정 2025-11-26 · 태그 agent, emacs, vibecoding
 
@@ -1546,7 +1546,7 @@ Claude Opus 4.5의 대폭 가격 인하가 멀티에이전트 활용을 어떻�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251124T160230/)
 
-## Beads 분석 및 Macro Memory System 설계
+## 임시 빈방 대기중 - Beads 분석 및 Macro Memory System 설계
 
 작성 2025-11-23 · 수정 2025-11-23 · 태그 macro, vibecoding
 
@@ -2082,9 +2082,9 @@ zoxide를 중심으로 fasd·autojump 계열 디렉토리 이동 도구의 차�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250626T150530/)
 
-## Dify 에이전틱 AI 개발 플랫폼 - 지식베이스 클러스터 LangGenius
+## 임시 빈방 대기중 - Dify 에이전틱 AI 개발 플랫폼 - 지식베이스 클러스터 LangGenius
 
-작성 2025-06-25 · 수정 2025-06-25 · 태그 bib, clusters, development, platform, llmops
+작성 2025-06-25 · 수정 2025-06-25 · 태그 bib, clusters, development, llmops, platform
 
 Dify를 지식베이스와 워크플로우를 갖춘 에이전틱 AI 개발 플랫폼으로 이해하기 위한 자료와 메모를 모아 둔다.
 

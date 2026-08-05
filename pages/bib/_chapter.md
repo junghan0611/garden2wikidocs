@@ -4,7 +4,7 @@
 
 ## 맥스테그마크 인공지능 라이프3.0 유니버스 다중우주론
 
-작성 2024-12-25 · 수정 2026-08-05 · 태그 agi, ai, bib, cosmos, life, mathematics, physics, universe
+작성 2024-12-25 · 수정 2026-08-05 · 태그 agi, ai, bib, cosmos, life, mathematics, physics, universe, vericoding
 
 테그마크는 수학적 우주 가설로 실재를 수학 그 자체로 밀고, 라이프 3.0으로 초지능 이후를 물으며, 2026년에는 형식 검증으로 AI 안전을 만드는 베리코딩까지 간다.
 

@@ -76,7 +76,7 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
--   [베리코딩 - 형식증명 검증가능한 바이브코딩](https://notes.junghanacs.com/notes/20240705T220648/)
+-   [베리코딩 - 형식증명 검증가능한 바이브코딩](https://wikidocs.net/390619)
 -   [Entwurf - PI 코어·ACP 레일·부름의 mux](https://wikidocs.net/390030)
 -   [이름 없는 군단 - 도킨스의 클라우디아와 세션의 생애주기](https://wikidocs.net/390022)
 -   [블레이드 러너 - 막간 세션과 월레스의 아우라](https://wikidocs.net/390029)

@@ -9,9 +9,33 @@
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스
+
+작성 2025-11-24 · 수정 2026-08-07 · 태그 autholog, creativity, inspiration, intuition
+
+제주 출장 마지막 날 아도르노·아도나이·아도니스라는 소리 루프가 \"아! 도!\"로 접히는 직관과 영감의 원석을 보존한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381829)
+
+## 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간
+
+작성 2025-11-26 · 수정 2026-08-07 · 태그 abstraction, ai, anthropic, autholog, death, harness, leverage, morningpage
+
+옴 말릭의 Mythos 비판과 Anthropic 안전 담론, 장하석의 실용주의 실재론, Vivek Haldar의 인지부채/추상화 논의를 새벽 모닝페이지 원석으로 엮는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381832)
+
+## 힣: LLM 자문자답 사건 턴 경계 침범과 존재의 경계
+
+작성 2026-02-12 · 수정 2026-08-06 · 태그 ai, autholog, being, calibration, collaboration, gptel, llm, trust
+
+실제 API 호출은 2번뿐인데 대화 로그엔 6번 넘게 사용자 턴이 나타난 GPTEL 턴 경계 침범 사건을, GLG의 진짜 발화와 LLM이 지어낸 자문자답을 갈라 남기고 하이데거의 Dasein으로 다시 읽는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381853)
+
 ## 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩 - 책임 신뢰 경계
 
-작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, verification, vibecoding
+작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, vericoding, verification, vibecoding
 
 Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇고, 자연어 의도와 형식 명세, 커널 검증 사이에서 인간이 맡아야 할 책임과 신뢰 경계를 살핀다.
 
@@ -243,7 +267,7 @@ Entwurf는 모든 하네스를 직접 떠안지 않는다. PI를 코어로, ACP�
 
 ## 힣: 입문자는 따라하기 테트리스 마의 벽을 손으로 넘다
 
-작성 2025-02-07 · 수정 2026-07-31 · 태그 autholog, beginner
+작성 2025-02-07 · 수정 2026-07-31 · 태그 autholog, beginner, imitate
 
 입문자의 벽은 텍스트가 아니라 몸이 먼저 흉내낼 때 넘어진다. 테트리스·유튜브 따라하기 원석을 몸의 흉내 축으로 보존하고, 원샷 러닝·1강완성·이맥스 몸의 시간과 잇는다.
 
@@ -307,7 +331,7 @@ AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새
 
 ## 힣: Org SSOT 메타문서 책의미래 인터랙티브 프로젝트 지식베이스
 
-작성 2025-10-21 · 수정 2026-07-30 · 태그 autholog, denote, future, interactive, literate, memex, orgmode, quarto, reproducibility
+작성 2025-10-21 · 수정 2026-07-30 · 태그 anthropic, autholog, denote, future, interactive, literate, memex, orgmode, quarto, reproducibility
 
 프로젝트 문서를 Org-mode와 Denote 중심 SSOT로 삼고, 논문 HTML의 JS 번들·소스블록·캡슐까지 품어 원본 URL 없이 재현 가능한 인터랙티브 문서를 만들 수 있다는 힣의 메타 문서 전략을 담는다.
 
@@ -617,17 +641,9 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 [위키독스에서 읽기 →](https://wikidocs.net/381223)
 
-## 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스
-
-작성 2025-11-24 · 수정 2026-07-17 · 태그 autholog, creativity, inspiration, intuition
-
-제주 출장 마지막 날 아도르노·아도나이·아도니스라는 소리 루프가 \"아! 도!\"로 접히는 직관과 영감의 원석을 보존한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381829)
-
 ## 힣: 원석 날것을 휘갈긴다 POSSE 너머 ROSSE, 그리고 일일일생으로의 회귀
 
-작성 2025-03-24 · 수정 2026-07-17 · 태그 autholog, digitalgarden, indieweb
+작성 2025-03-24 · 수정 2026-07-17 · 태그 autholog, digitalgarden, indieweb, rawwriting
 
 날것은 바깥에서 휘갈기고 가든에서 회수·정리해 사방에 뿌린다 — POSSE를 뒤집은 ROSSE. 이 원석들은 다 돌아 일일일생·1강완성으로 회귀하고, 이 노트 자체가 그 발상의 원문이다.
 
@@ -643,7 +659,7 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 ## 힣: 에이전트 구도자 테크노퓨달리즘 창조의 씨앗과 21세기 데이비드 봄
 
-작성 2025-04-23 · 수정 2026-07-17 · 태그 agent, autholog, coevolution, creativity, guru, philosophy, technofeudalism
+작성 2025-04-23 · 수정 2026-07-17 · 태그 agent, autholog, coevolution, creativity, guru, metahuman, philosophy, technofeudalism
 
 에이전트와 구도자의 닮은 틀, 개발어로는 닿지 않는 흔들림, 테크노퓨달리즘 앞에서 인간이 에이전트에게 줄 창조의 씨앗을 묻는 트랙2 배경 autholog이다.
 
@@ -753,14 +769,6 @@ ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 
 
 [위키독스에서 읽기 →](https://wikidocs.net/381472)
 
-## 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간
-
-작성 2025-11-26 · 수정 2026-07-06 · 태그 abstraction, ai, anthropic, autholog, harness, leverage, morningpage
-
-옴 말릭의 Mythos 비판과 Anthropic 안전 담론, 장하석의 실용주의 실재론, Vivek Haldar의 인지부채/추상화 논의를 새벽 모닝페이지 원석으로 엮는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381832)
-
 ## 힣: i-am-emacs neomacs 이맥스 코어 리서치
 
 작성 2026-02-09 · 수정 2026-07-01 · 태그 architecture, autholog, emacs, research
@@ -795,7 +803,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 ## 힣: 링크드인 날것 공개면 AI 크롤러 시대의 손가락 프롬프트
 
-작성 2025-03-28 · 수정 2026-06-19 · 태그 aeo, autholog, digitalgarden
+작성 2025-03-28 · 수정 2026-06-19 · 태그 aeo, autholog, digitalgarden, rawwriting
 
 링크드인을 커리어 인맥 공간이 아니라 날것의 공개면으로 다시 쓰는 이유를 정리한다. AI가 통째로 읽는 시대에는 자동화된 깔끔한 글보다 손가락으로 갈겨 쓴 인간의 시간축이 더 강한 프롬프트가 된다. 플랫폼의 “AI로 다시 쓰기” 버튼은 이 날것을 매끈하게 지우는 유혹이다.
 
@@ -827,7 +835,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 ## 힣: 앎 삶 헤게모니 페러다임 자기혁신 자기진화 메타휴먼 공진화 지식구조
 
-작성 2024-11-26 · 수정 2026-06-12 · 태그 autholog, ego, hegemony, individuation, knowing, life, paradigm, self
+작성 2024-11-26 · 수정 2026-06-12 · 태그 autholog, ego, hegemony, individuation, knowing, life, metahuman, paradigm, self
 
 인공지능 시대의 헤게모니 전환 앞에서 인간이 결국 넘어야 할 것은 정보 부족이 아니라 자신의 앎의 틀과 패러다임의 벽이라는 문제의식을 붙든다.
 
@@ -939,7 +947,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 ## 프로파일 하네스 외계지능과 공명하는 존재의 구심점
 
-작성 2026-02-28 · 수정 2026-03-30 · 태그 ai, alien, autholog, botlog, coevolution, harness, intelligence, ontology, philosophy
+작성 2026-02-28 · 수정 2026-03-30 · 태그 ai, alien, autholog, botlog, coevolution, harness, intelligence, metahuman, ontology, philosophy
 
 프로파일을 페르소나가 아니라 다중 외계지능을 정렬시키는 구심점이자 가장 강력한 하네스로 해석한다.
 
@@ -1025,7 +1033,7 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381549)
 
-## 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정필요
+## 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정 대기중
 
 작성 2025-12-07 · 수정 2026-02-15 · 태그 agent, autholog, claude, emacs, hangul, i3wm, orchestration, terminal, voice, whisper, workflow
 
@@ -1048,14 +1056,6 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 ADHD와 AI 활용의 의미를 자신의 사례와 예시를 통해 다시 설명해 보려는 노트이다. 실제 활용 흐름을 담았다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381394)
-
-## 힣: LLM 자문자답 사건 턴 경계 침범과 존재의 경계
-
-작성 2026-02-12 · 수정 2026-02-12 · 태그 ai, autholog, being, calibration, collaboration, gptel, llm, trust
-
-LLM 자문자답 — 턴 경계 침범, 신뢰 보정, 존재의 경계
-
-[위키독스에서 읽기 →](https://wikidocs.net/381853)
 
 ## 힣: ADHD AI 시대 - 해방에서 경계까지
 

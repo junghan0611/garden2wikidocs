@@ -5756,7 +5756,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250602T120428/",
     "source_date": "2025-06-02T12:04:00+09:00",
     "source_lastmod": "2025-06-02T00:00:00+09:00",
-    "description": "20250602T120428",
+    "description": "우주산업은 국가 주도 개발을 넘어 민간 기업과 생태계가 함께 움직이는 산업 영역으로 커지고 있다. SpaceX 같은 사례를 실마리로 발사체와 위성, 서비스, 투자까지 이어지는 구조를 살핀다.",
     "tags": [
       "bib",
       "cosmos",
@@ -10957,6 +10957,28 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240326T223142": {
+    "path": "pages/bib/20240326T223142.md",
+    "subject": "20260807 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240326T223142/",
+    "source_date": "2024-03-26T22:31:00+09:00",
+    "source_lastmod": "2026-08-07T15:27:00+09:00",
+    "description": "데릭 시버스의 세 책과 2026년 KeepSite Foundation 구상을 함께 읽는다. ‘Hell Yeah or No’의 선택, 상충하는 삶의 철학, /now의 현재성, 원래 URL의 장기 보존이 개인 웹사이트를 삶의 좌표로 만드는 방식을 잇는다.",
+    "tags": [
+      "bib",
+      "digitalgarden",
+      "indieweb",
+      "inquiry",
+      "now",
+      "person",
+      "philosophy",
+      "preservation",
+      "questions"
+    ],
+    "page_id": 381910,
+    "url": "https://wikidocs.net/381910"
+  },
   "20241225T044748": {
     "path": "pages/bib/20241225T044748.md",
     "subject": "20260805 맥스테그마크 인공지능 라이프3.0 유니버스 다중우주론",
@@ -11489,28 +11511,6 @@
     "page_id": 382047,
     "url": "https://wikidocs.net/382047"
   },
-  "20240326T223142": {
-    "path": "pages/bib/20240326T223142.md",
-    "subject": "20260727 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240326T223142/",
-    "source_date": "2024-03-26T22:31:00+09:00",
-    "source_lastmod": "2026-07-27T13:14:00+09:00",
-    "description": "데릭 시버스의 세 책과 2026년 KeepSite Foundation 구상을 함께 읽는다. ‘Hell Yeah or No’의 선택, 상충하는 삶의 철학, /now의 현재성, 원래 URL의 장기 보존이 개인 웹사이트를 삶의 좌표로 만드는 방식을 잇는다.",
-    "tags": [
-      "bib",
-      "digitalgarden",
-      "indieweb",
-      "inquiry",
-      "now",
-      "person",
-      "philosophy",
-      "preservation",
-      "questions"
-    ],
-    "page_id": 381910,
-    "url": "https://wikidocs.net/381910"
-  },
   "20250312T111024": {
     "path": "pages/bib/20250312T111024.md",
     "subject": "20260725 샘올트먼 SamAltman OpenAI ChatGPT 회사·인물·API",
@@ -11540,7 +11540,9 @@
     "description": "다리오 아모데이와 Anthropic을 Claude·AI 안전·거대모델 산업의 한 축으로 함께 읽으며, 위험 경고와 제품 확장, 낙관적 미래 비전의 긴장을 추적한다.",
     "tags": [
       "ai",
+      "anthropic",
       "bib",
+      "claude",
       "company",
       "guru",
       "person",
@@ -12235,7 +12237,8 @@
       "lisp",
       "llm",
       "pkm",
-      "python"
+      "python",
+      "semanticweb"
     ],
     "page_id": 381992,
     "url": "https://wikidocs.net/381992"
@@ -20376,7 +20379,8 @@
     "description": "흩어진 메모와 자료를 연결된 사고의 흐름으로 바꾸는 개인 지식 그래프의 원리와 실천을 다룬다.",
     "tags": [
       "bib",
-      "knowledgegraph"
+      "knowledgegraph",
+      "pkg"
     ],
     "page_id": 382010,
     "url": "https://wikidocs.net/382010"
@@ -20680,7 +20684,8 @@
     "source_lastmod": "2025-01-15T15:59:00+09:00",
     "description": "박응용은 위키독스를 통해 한국어 기술 학습과 집필, 출판을 연결하며 개발 지식의 공개 축적을 이끈 개발자다.",
     "tags": [
-      "bib"
+      "bib",
+      "wikidocs"
     ],
     "page_id": 382239,
     "url": "https://wikidocs.net/382239"
@@ -21641,7 +21646,8 @@
     "description": "리처드 세넷은 장인정신, 도시, 협력의 문제를 통해 손과 기술, 사회 윤리가 어떻게 연결되는지 탐구한다.",
     "tags": [
       "bib",
-      "craftsman"
+      "craftsman",
+      "homofaber"
     ],
     "page_id": 382117,
     "url": "https://wikidocs.net/382117"
@@ -22383,6 +22389,65 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20251124T164312": {
+    "path": "pages/notes/20251124T164312.md",
+    "subject": "20260807 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251124T164312/",
+    "source_date": "2025-11-24T16:43:00+09:00",
+    "source_lastmod": "2026-08-07T15:41:00+09:00",
+    "description": "제주 출장 마지막 날 아도르노·아도나이·아도니스라는 소리 루프가 \\\"아! 도!\\\"로 접히는 직관과 영감의 원석을 보존한다.",
+    "tags": [
+      "autholog",
+      "creativity",
+      "inspiration",
+      "intuition"
+    ],
+    "page_id": 381829,
+    "url": "https://wikidocs.net/381829"
+  },
+  "20251126T143110": {
+    "path": "pages/notes/20251126T143110.md",
+    "subject": "20260807 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251126T143110/",
+    "source_date": "2025-11-26T14:31:00+09:00",
+    "source_lastmod": "2026-08-07T15:27:00+09:00",
+    "description": "옴 말릭의 Mythos 비판과 Anthropic 안전 담론, 장하석의 실용주의 실재론, Vivek Haldar의 인지부채/추상화 논의를 새벽 모닝페이지 원석으로 엮는다.",
+    "tags": [
+      "abstraction",
+      "ai",
+      "anthropic",
+      "autholog",
+      "death",
+      "harness",
+      "leverage",
+      "morningpage"
+    ],
+    "page_id": 381832,
+    "url": "https://wikidocs.net/381832"
+  },
+  "20260212T105642": {
+    "path": "pages/notes/20260212T105642.md",
+    "subject": "20260806 힣: LLM 자문자답 사건 턴 경계 침범과 존재의 경계",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20260212T105642/",
+    "source_date": "2026-02-12T10:56:00+09:00",
+    "source_lastmod": "2026-08-06T15:00:00+09:00",
+    "description": "실제 API 호출은 2번뿐인데 대화 로그엔 6번 넘게 사용자 턴이 나타난 GPTEL 턴 경계 침범 사건을, GLG의 진짜 발화와 LLM이 지어낸 자문자답을 갈라 남기고 하이데거의 Dasein으로 다시 읽는다.",
+    "tags": [
+      "ai",
+      "autholog",
+      "being",
+      "calibration",
+      "collaboration",
+      "gptel",
+      "llm",
+      "trust"
+    ],
+    "page_id": 381853,
+    "url": "https://wikidocs.net/381853"
+  },
   "20240705T220648": {
     "path": "pages/notes/20240705T220648.md",
     "subject": "20260805 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩 - 책임 신뢰 경계",
@@ -22395,6 +22460,7 @@
       "autholog",
       "coq",
       "formallanguage",
+      "vericoding",
       "verification",
       "vibecoding"
     ],
@@ -23079,7 +23145,8 @@
     "description": "입문자의 벽은 텍스트가 아니라 몸이 먼저 흉내낼 때 넘어진다. 테트리스·유튜브 따라하기 원석을 몸의 흉내 축으로 보존하고, 원샷 러닝·1강완성·이맥스 몸의 시간과 잇는다.",
     "tags": [
       "autholog",
-      "beginner"
+      "beginner",
+      "imitate"
     ],
     "page_id": 388694,
     "url": "https://wikidocs.net/388694"
@@ -23227,6 +23294,7 @@
     "source_lastmod": "2026-07-30T22:25:00+09:00",
     "description": "프로젝트 문서를 Org-mode와 Denote 중심 SSOT로 삼고, 논문 HTML의 JS 번들·소스블록·캡슐까지 품어 원본 URL 없이 재현 가능한 인터랙티브 문서를 만들 수 있다는 힣의 메타 문서 전략을 담는다.",
     "tags": [
+      "anthropic",
       "autholog",
       "denote",
       "future",
@@ -24083,23 +24151,6 @@
     "page_id": 381223,
     "url": "https://wikidocs.net/381223"
   },
-  "20251124T164312": {
-    "path": "pages/notes/20251124T164312.md",
-    "subject": "20260717 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251124T164312/",
-    "source_date": "2025-11-24T16:43:00+09:00",
-    "source_lastmod": "2026-07-17T22:40:00+09:00",
-    "description": "제주 출장 마지막 날 아도르노·아도나이·아도니스라는 소리 루프가 \\\"아! 도!\\\"로 접히는 직관과 영감의 원석을 보존한다.",
-    "tags": [
-      "autholog",
-      "creativity",
-      "inspiration",
-      "intuition"
-    ],
-    "page_id": 381829,
-    "url": "https://wikidocs.net/381829"
-  },
   "20250324T110312": {
     "path": "pages/notes/20250324T110312.md",
     "subject": "20260717 힣: 원석 날것을 휘갈긴다 POSSE 너머 ROSSE, 그리고 일일일생으로의 회귀",
@@ -24111,7 +24162,8 @@
     "tags": [
       "autholog",
       "digitalgarden",
-      "indieweb"
+      "indieweb",
+      "rawwriting"
     ],
     "page_id": 381617,
     "url": "https://wikidocs.net/381617"
@@ -24194,6 +24246,7 @@
       "coevolution",
       "creativity",
       "guru",
+      "metahuman",
       "philosophy",
       "technofeudalism"
     ],
@@ -24468,26 +24521,6 @@
     "page_id": 381472,
     "url": "https://wikidocs.net/381472"
   },
-  "20251126T143110": {
-    "path": "pages/notes/20251126T143110.md",
-    "subject": "20260706 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251126T143110/",
-    "source_date": "2025-11-26T14:31:00+09:00",
-    "source_lastmod": "2026-07-06T13:05:00+09:00",
-    "description": "옴 말릭의 Mythos 비판과 Anthropic 안전 담론, 장하석의 실용주의 실재론, Vivek Haldar의 인지부채/추상화 논의를 새벽 모닝페이지 원석으로 엮는다.",
-    "tags": [
-      "abstraction",
-      "ai",
-      "anthropic",
-      "autholog",
-      "harness",
-      "leverage",
-      "morningpage"
-    ],
-    "page_id": 381832,
-    "url": "https://wikidocs.net/381832"
-  },
   "20260209T123532": {
     "path": "pages/notes/20260209T123532.md",
     "subject": "20260701 힣: i-am-emacs neomacs 이맥스 코어 리서치",
@@ -24580,7 +24613,8 @@
     "tags": [
       "aeo",
       "autholog",
-      "digitalgarden"
+      "digitalgarden",
+      "rawwriting"
     ],
     "page_id": 381631,
     "url": "https://wikidocs.net/381631"
@@ -24693,6 +24727,7 @@
       "individuation",
       "knowing",
       "life",
+      "metahuman",
       "paradigm",
       "self"
     ],
@@ -24802,7 +24837,9 @@
     "description": "PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노트이다. 실제 활용 흐름을 담았다.",
     "tags": [
       "converting",
-      "fileformat"
+      "epub",
+      "fileformat",
+      "ocr"
     ],
     "page_id": 381653,
     "url": "https://wikidocs.net/381653"
@@ -24873,7 +24910,8 @@
     "description": "이맥스 글쓰기 흐름 안에서 오프라인 사전 sdcv와 한국어 사전 구성을 실전 관점으로 정리한 기록.",
     "tags": [
       "dictionary",
-      "emacs"
+      "emacs",
+      "offline"
     ],
     "page_id": 381048,
     "url": "https://wikidocs.net/381048"
@@ -25073,6 +25111,7 @@
       "evaluation",
       "legacy",
       "practice",
+      "remember",
       "test"
     ],
     "page_id": 381635,
@@ -25567,7 +25606,7 @@
   },
   "20251207T154723": {
     "path": "pages/notes/20251207T154723.md",
-    "subject": "20260215 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정필요",
+    "subject": "20260215 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251207T154723/",
     "source_date": "2025-12-07T15:47:00+09:00",
@@ -25677,27 +25716,6 @@
     "page_id": 381394,
     "url": "https://wikidocs.net/381394"
   },
-  "20260212T105642": {
-    "path": "pages/notes/20260212T105642.md",
-    "subject": "20260212 힣: LLM 자문자답 사건 턴 경계 침범과 존재의 경계",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20260212T105642/",
-    "source_date": "2026-02-12T10:56:00+09:00",
-    "source_lastmod": "2026-02-12T10:56:00+09:00",
-    "description": "LLM 자문자답 — 턴 경계 침범, 신뢰 보정, 존재의 경계",
-    "tags": [
-      "ai",
-      "autholog",
-      "being",
-      "calibration",
-      "collaboration",
-      "gptel",
-      "llm",
-      "trust"
-    ],
-    "page_id": 381853,
-    "url": "https://wikidocs.net/381853"
-  },
   "20260209T183036": {
     "path": "pages/notes/20260209T183036.md",
     "subject": "20260212 homeagent-config ML 파이프라인 도구세트 운영전략",
@@ -25708,7 +25726,8 @@
     "description": "ML 파인튜닝 파이프라인을 운영 인프라 관점에서 설계하기 위한 도구세트 전략을 정리한 노트이다.",
     "tags": [
       "mlops",
-      "nixos"
+      "nixos",
+      "pipeline"
     ],
     "page_id": 381851,
     "url": "https://wikidocs.net/381851"
@@ -26224,7 +26243,8 @@
       "agent",
       "anthropic",
       "claude",
-      "denote"
+      "denote",
+      "skills"
     ],
     "page_id": 381807,
     "url": "https://wikidocs.net/381807"
@@ -26290,7 +26310,8 @@
     "tags": [
       "anthropic",
       "delegate",
-      "education"
+      "education",
+      "skills"
     ],
     "page_id": 381800,
     "url": "https://wikidocs.net/381800"
@@ -26304,6 +26325,7 @@
     "source_lastmod": "2025-10-21T12:00:00+09:00",
     "description": "Anthropic skill-creator 시스템과 Awesome Claude Skills 커뮤니티 현황을 분석한 노트이다.",
     "tags": [
+      "skills",
       "anthropic",
       "community"
     ],
@@ -26757,6 +26779,7 @@
     "tags": [
       "bib",
       "ebook",
+      "epub",
       "tts",
       "audiobook",
       "viewer"
@@ -27557,6 +27580,7 @@
     "source_lastmod": "2025-06-10T00:00:00+09:00",
     "description": "Kiwix로 오프라인 위키백과와 교육용 사전 환경을 만들 수 있을지 검토한 실전 탐색 노트.",
     "tags": [
+      "offline",
       "wikipedia",
       "learning",
       "education",
@@ -28665,6 +28689,7 @@
     "description": "국가서지 오픈데이터와 한국십진분류를 온톨로지·카테고리 구조로 깊게 연결해 보려는 탐색 노트.",
     "tags": [
       "ontology",
+      "rdf",
       "category"
     ],
     "page_id": 381194,
@@ -30360,7 +30385,8 @@
     "source_lastmod": "2025-04-05T00:00:00+09:00",
     "description": "EPUB 전자책을 HTML 등 다른 형식으로 바꾸는 도구와 변환 흐름을 정리해 둔 작업 메모.",
     "tags": [
-      "converting"
+      "converting",
+      "ocr"
     ],
     "page_id": 381144,
     "url": "https://wikidocs.net/381144"
@@ -35121,6 +35147,7 @@
       "bib",
       "ebook",
       "emacs",
+      "epub",
       "howtouse"
     ],
     "page_id": 381300,
@@ -35473,6 +35500,7 @@
     "description": "Emacs 안에서 RDF와 위키데이터를 읽고 쓰는 방법을 구체적으로 모색하는 탐색 기록 노트.",
     "tags": [
       "emacs",
+      "rdf",
       "wikidata"
     ],
     "page_id": 381196,
@@ -35725,6 +35753,7 @@
     "tags": [
       "download",
       "ebook",
+      "epub",
       "free"
     ],
     "page_id": 381109,
@@ -36204,6 +36233,25 @@
     "tags": [],
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
+  },
+  "20260521T134542": {
+    "path": "pages/botlog/20260521T134542.md",
+    "subject": "20260806 에이전트 오케스트레이터 리서치 뉴스와 비교 누적",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260521T134542/",
+    "source_date": "2026-05-21T13:45:00+09:00",
+    "source_lastmod": "2026-08-06T18:06:00+09:00",
+    "description": "담당자 없는 오케스트레이터/에이전트 도구 판도 관찰 노트 — OpenClaw, Hermes 등 하네스의 릴리즈 속도·포크 관계·메인테이너 판단을 계속 쌓는다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "comparison",
+      "memory",
+      "orchestration",
+      "research"
+    ],
+    "page_id": 382608,
+    "url": "https://wikidocs.net/382608"
   },
   "20260304T105300": {
     "path": "pages/botlog/20260304T105300.md",
@@ -36876,21 +36924,6 @@
     "page_id": 382599,
     "url": "https://wikidocs.net/382599"
   },
-  "20260521T134542": {
-    "path": "pages/botlog/20260521T134542.md",
-    "subject": "20260521 openclaw-pi-shell-acp 플러그인",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260521T134542/",
-    "source_date": "2026-05-21T13:45:00+09:00",
-    "source_lastmod": "2026-05-21T13:50:00+09:00",
-    "description": "@junghan0611/openclaw-pi-shell-acp 0.1.0 공개 준비와 OpenClaw pixel-lobster/crab 게이트 이미지를 GLGMAN Universe 안에 배치한 생성 프롬프트를 기록한다.",
-    "tags": [
-      "agent",
-      "botlog"
-    ],
-    "page_id": 382608,
-    "url": "https://wikidocs.net/382608"
-  },
   "20260519T175212": {
     "path": "pages/botlog/20260519T175212.md",
     "subject": "20260519 incidentcli 운영 인시던트 에이전트 담당자 군대의 수문장",
@@ -37262,7 +37295,8 @@
       "entwurf",
       "hook",
       "orchestration",
-      "review"
+      "review",
+      "skills"
     ],
     "page_id": 382555,
     "url": "https://wikidocs.net/382555"
@@ -37366,6 +37400,7 @@
       "coevolution",
       "harness",
       "intelligence",
+      "metahuman",
       "ontology",
       "philosophy"
     ],
@@ -37423,6 +37458,7 @@
       "engineering",
       "harness",
       "heidegger",
+      "metahuman",
       "technium",
       "tools"
     ],

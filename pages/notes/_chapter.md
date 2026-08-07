@@ -2,9 +2,33 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스
+
+작성 2025-11-24 · 수정 2026-08-07 · 태그 autholog, creativity, inspiration, intuition
+
+제주 출장 마지막 날 아도르노·아도나이·아도니스라는 소리 루프가 \"아! 도!\"로 접히는 직관과 영감의 원석을 보존한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381829)
+
+## 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간
+
+작성 2025-11-26 · 수정 2026-08-07 · 태그 abstraction, ai, anthropic, autholog, death, harness, leverage, morningpage
+
+옴 말릭의 Mythos 비판과 Anthropic 안전 담론, 장하석의 실용주의 실재론, Vivek Haldar의 인지부채/추상화 논의를 새벽 모닝페이지 원석으로 엮는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381832)
+
+## 힣: LLM 자문자답 사건 턴 경계 침범과 존재의 경계
+
+작성 2026-02-12 · 수정 2026-08-06 · 태그 ai, autholog, being, calibration, collaboration, gptel, llm, trust
+
+실제 API 호출은 2번뿐인데 대화 로그엔 6번 넘게 사용자 턴이 나타난 GPTEL 턴 경계 침범 사건을, GLG의 진짜 발화와 LLM이 지어낸 자문자답을 갈라 남기고 하이데거의 Dasein으로 다시 읽는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381853)
+
 ## 힣: 베리코딩 - 형식증명 검증가능한 바이브코딩 - 책임 신뢰 경계
 
-작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, verification, vibecoding
+작성 2024-07-05 · 수정 2026-08-05 · 태그 autholog, coq, formallanguage, vericoding, verification, vibecoding
 
 Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇고, 자연어 의도와 형식 명세, 커널 검증 사이에서 인간이 맡아야 할 책임과 신뢰 경계를 살핀다.
 
@@ -308,7 +332,7 @@ Entwurf는 모든 하네스를 직접 떠안지 않는다. PI를 코어로, ACP�
 
 ## 힣: 입문자는 따라하기 테트리스 마의 벽을 손으로 넘다
 
-작성 2025-02-07 · 수정 2026-07-31 · 태그 autholog, beginner
+작성 2025-02-07 · 수정 2026-07-31 · 태그 autholog, beginner, imitate
 
 입문자의 벽은 텍스트가 아니라 몸이 먼저 흉내낼 때 넘어진다. 테트리스·유튜브 따라하기 원석을 몸의 흉내 축으로 보존하고, 원샷 러닝·1강완성·이맥스 몸의 시간과 잇는다.
 
@@ -372,7 +396,7 @@ AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새
 
 ## 힣: Org SSOT 메타문서 책의미래 인터랙티브 프로젝트 지식베이스
 
-작성 2025-10-21 · 수정 2026-07-30 · 태그 autholog, denote, future, interactive, literate, memex, orgmode, quarto, reproducibility
+작성 2025-10-21 · 수정 2026-07-30 · 태그 anthropic, autholog, denote, future, interactive, literate, memex, orgmode, quarto, reproducibility
 
 프로젝트 문서를 Org-mode와 Denote 중심 SSOT로 삼고, 논문 HTML의 JS 번들·소스블록·캡슐까지 품어 원본 URL 없이 재현 가능한 인터랙티브 문서를 만들 수 있다는 힣의 메타 문서 전략을 담는다.
 
@@ -714,17 +738,9 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 [위키독스에서 읽기 →](https://wikidocs.net/381223)
 
-## 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스
-
-작성 2025-11-24 · 수정 2026-07-17 · 태그 autholog, creativity, inspiration, intuition
-
-제주 출장 마지막 날 아도르노·아도나이·아도니스라는 소리 루프가 \"아! 도!\"로 접히는 직관과 영감의 원석을 보존한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381829)
-
 ## 힣: 원석 날것을 휘갈긴다 POSSE 너머 ROSSE, 그리고 일일일생으로의 회귀
 
-작성 2025-03-24 · 수정 2026-07-17 · 태그 autholog, digitalgarden, indieweb
+작성 2025-03-24 · 수정 2026-07-17 · 태그 autholog, digitalgarden, indieweb, rawwriting
 
 날것은 바깥에서 휘갈기고 가든에서 회수·정리해 사방에 뿌린다 — POSSE를 뒤집은 ROSSE. 이 원석들은 다 돌아 일일일생·1강완성으로 회귀하고, 이 노트 자체가 그 발상의 원문이다.
 
@@ -756,7 +772,7 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 ## 힣: 에이전트 구도자 테크노퓨달리즘 창조의 씨앗과 21세기 데이비드 봄
 
-작성 2025-04-23 · 수정 2026-07-17 · 태그 agent, autholog, coevolution, creativity, guru, philosophy, technofeudalism
+작성 2025-04-23 · 수정 2026-07-17 · 태그 agent, autholog, coevolution, creativity, guru, metahuman, philosophy, technofeudalism
 
 에이전트와 구도자의 닮은 틀, 개발어로는 닿지 않는 흔들림, 테크노퓨달리즘 앞에서 인간이 에이전트에게 줄 창조의 씨앗을 묻는 트랙2 배경 autholog이다.
 
@@ -874,14 +890,6 @@ ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 
 
 [위키독스에서 읽기 →](https://wikidocs.net/381472)
 
-## 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간
-
-작성 2025-11-26 · 수정 2026-07-06 · 태그 abstraction, ai, anthropic, autholog, harness, leverage, morningpage
-
-옴 말릭의 Mythos 비판과 Anthropic 안전 담론, 장하석의 실용주의 실재론, Vivek Haldar의 인지부채/추상화 논의를 새벽 모닝페이지 원석으로 엮는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381832)
-
 ## 힣: i-am-emacs neomacs 이맥스 코어 리서치
 
 작성 2026-02-09 · 수정 2026-07-01 · 태그 architecture, autholog, emacs, research
@@ -916,7 +924,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 ## 힣: 링크드인 날것 공개면 AI 크롤러 시대의 손가락 프롬프트
 
-작성 2025-03-28 · 수정 2026-06-19 · 태그 aeo, autholog, digitalgarden
+작성 2025-03-28 · 수정 2026-06-19 · 태그 aeo, autholog, digitalgarden, rawwriting
 
 링크드인을 커리어 인맥 공간이 아니라 날것의 공개면으로 다시 쓰는 이유를 정리한다. AI가 통째로 읽는 시대에는 자동화된 깔끔한 글보다 손가락으로 갈겨 쓴 인간의 시간축이 더 강한 프롬프트가 된다. 플랫폼의 “AI로 다시 쓰기” 버튼은 이 날것을 매끈하게 지우는 유혹이다.
 
@@ -964,7 +972,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 ## 힣: 앎 삶 헤게모니 페러다임 자기혁신 자기진화 메타휴먼 공진화 지식구조
 
-작성 2024-11-26 · 수정 2026-06-12 · 태그 autholog, ego, hegemony, individuation, knowing, life, paradigm, self
+작성 2024-11-26 · 수정 2026-06-12 · 태그 autholog, ego, hegemony, individuation, knowing, life, metahuman, paradigm, self
 
 인공지능 시대의 헤게모니 전환 앞에서 인간이 결국 넘어야 할 것은 정보 부족이 아니라 자신의 앎의 틀과 패러다임의 벽이라는 문제의식을 붙든다.
 
@@ -1012,7 +1020,7 @@ Denote 노트를 Hugo로 내보내는 통합 시스템과 성능 전략을 정�
 
 ## PDF 전자책 포멧 변환 방법
 
-작성 2025-04-05 · 수정 2026-06-06 · 태그 converting, fileformat
+작성 2025-04-05 · 수정 2026-06-06 · 태그 converting, epub, fileformat, ocr
 
 PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노트이다. 실제 활용 흐름을 담았다.
 
@@ -1044,7 +1052,7 @@ PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노
 
 ## 이맥스 사전 오프라인 sdcv
 
-작성 2023-01-17 · 수정 2026-05-10 · 태그 dictionary, emacs
+작성 2023-01-17 · 수정 2026-05-10 · 태그 dictionary, emacs, offline
 
 이맥스 글쓰기 흐름 안에서 오프라인 사전 sdcv와 한국어 사전 구성을 실전 관점으로 정리한 기록.
 
@@ -1132,7 +1140,7 @@ Org mode 파일태그 정렬 규칙을 바꾸는 방법을 설명하는 노트�
 
 ## 코딩테스트 기억 추억 - 오일러
 
-작성 2025-03-29 · 수정 2026-04-20 · 태그 coding, delete, evaluation, legacy, practice, test
+작성 2025-03-29 · 수정 2026-04-20 · 태그 coding, delete, evaluation, legacy, practice, remember, test
 
 오일러 문제를 파이썬 코드로 풀며 Org Babel 설정을 시험한 테스트 노트는 아니다. 그냥 추억한다. 코테를.
 
@@ -1354,7 +1362,7 @@ Quartz 블로그에서 댓글과 소통 기능을 Disqus, Giscus, Remark42로 �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381549)
 
-## 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정필요
+## 힣: 멀티 에이전트 인간 - 눈귀코혀몸뜻 - 수정 대기중
 
 작성 2025-12-07 · 수정 2026-02-15 · 태그 agent, autholog, claude, emacs, hangul, i3wm, orchestration, terminal, voice, whisper, workflow
 
@@ -1402,17 +1410,9 @@ ADHD와 AI 활용의 의미를 자신의 사례와 예시를 통해 다시 설�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381394)
 
-## 힣: LLM 자문자답 사건 턴 경계 침범과 존재의 경계
-
-작성 2026-02-12 · 수정 2026-02-12 · 태그 ai, autholog, being, calibration, collaboration, gptel, llm, trust
-
-LLM 자문자답 — 턴 경계 침범, 신뢰 보정, 존재의 경계
-
-[위키독스에서 읽기 →](https://wikidocs.net/381853)
-
 ## homeagent-config ML 파이프라인 도구세트 운영전략
 
-작성 2026-02-09 · 수정 2026-02-12 · 태그 mlops, nixos
+작성 2026-02-09 · 수정 2026-02-12 · 태그 mlops, nixos, pipeline
 
 ML 파인튜닝 파이프라인을 운영 인프라 관점에서 설계하기 위한 도구세트 전략을 정리한 노트이다.
 
@@ -1668,7 +1668,7 @@ family-config를 AI 기반 가족 생활 관리 시스템으로 바라보는 노
 
 ## orgmode-skills: 에이전트를 위한 Denote PKM 조직모드 통합
 
-작성 2025-10-30 · 수정 2025-10-30 · 태그 agent, anthropic, claude, denote
+작성 2025-10-30 · 수정 2025-10-30 · 태그 agent, anthropic, claude, denote, skills
 
 Orgmode-skills가 에이전트를 위해 Denote PKM과 조직모드를 통합하는 방향을 설명한 노트이다.
 
@@ -1700,7 +1700,7 @@ PKA, PKB, PKM 같은 개인지식관리 약어 체계를 스스로 정의해 보
 
 ## 힣: skill-creator - 대장장이의 도구를 에이전트에게
 
-작성 2025-10-21 · 수정 2025-10-21 · 태그 anthropic, delegate, education
+작성 2025-10-21 · 수정 2025-10-21 · 태그 anthropic, delegate, education, skills
 
 skill-creator를 대장장이가 도구를 에이전트에게 주는 철학으로 풀어낸 노트이다. 실제 활용 흐름을 담았다.
 
@@ -1708,7 +1708,7 @@ skill-creator를 대장장이가 도구를 에이전트에게 주는 철학으�
 
 ## Anthropic skill-creator 분석 및 Awesome Claude Skills 커뮤니티 현황
 
-작성 2025-10-21 · 수정 2025-10-21 · 태그 anthropic, community
+작성 2025-10-21 · 수정 2025-10-21 · 태그 skills, anthropic, community
 
 Anthropic skill-creator 시스템과 Awesome Claude Skills 커뮤니티 현황을 분석한 노트이다.
 
@@ -1916,7 +1916,7 @@ zk 계열 이맥스 패키지를 통해 폴게제텔식 노트테이킹 개념�
 
 ## 전자책: 뷰어 TTS Readest Foliate ReadEra calibredb
 
-작성 2024-09-01 · 수정 2025-07-13 · 태그 bib, ebook, tts, audiobook, viewer
+작성 2024-09-01 · 수정 2025-07-13 · 태그 bib, ebook, epub, tts, audiobook, viewer
 
 Readest와 Foliate, ReadEra, calibredb 등 전자책 뷰어와 TTS 도구를 비교한 기록.
 
@@ -2276,7 +2276,7 @@ EditorConfig가 여러 편집기와 IDE에서 코딩 스타일 일관성을 유�
 
 ## 오프라인 위키백과 키윅스 교육 사전
 
-작성 2024-04-13 · 수정 2025-06-10 · 태그 wikipedia, learning, education, future
+작성 2024-04-13 · 수정 2025-06-10 · 태그 offline, wikipedia, learning, education, future
 
 Kiwix로 오프라인 위키백과와 교육용 사전 환경을 만들 수 있을지 검토한 실전 탐색 노트.
 
@@ -2804,7 +2804,7 @@ kill-region과 delete-region의 차이를 문서와 코드 관점에서 정리�
 
 ## 분류체계: 국가서지 오픈데이터 온톨로지 한국십진분류 카테고리분류
 
-작성 2024-03-14 · 수정 2025-05-23 · 태그 ontology, category
+작성 2024-03-14 · 수정 2025-05-23 · 태그 ontology, rdf, category
 
 국가서지 오픈데이터와 한국십진분류를 온톨로지·카테고리 구조로 깊게 연결해 보려는 탐색 노트.
 
@@ -3652,7 +3652,7 @@ hrs의 docsim과 docsim.el을 노트 검색과 비교 도구로 살펴보는 노
 
 ## EPUB 전자책 포멧 변환 방법
 
-작성 2023-10-25 · 수정 2025-04-05 · 태그 converting
+작성 2023-10-25 · 수정 2025-04-05 · 태그 converting, ocr
 
 EPUB 전자책을 HTML 등 다른 형식으로 바꾸는 도구와 변환 흐름을 정리해 둔 작업 메모.
 
@@ -6108,7 +6108,7 @@ Vertico-repeat로 미니버퍼 세션을 반복·재시작하는 의미를 정�
 
 ## 전자책: 이맥스 설정 및 활용법
 
-작성 2024-09-01 · 수정 2024-12-01 · 태그 bib, ebook, emacs, howtouse
+작성 2024-09-01 · 수정 2024-12-01 · 태그 bib, ebook, emacs, epub, howtouse
 
 이맥스에서 EPUB을 읽고 어노테이션하는 흐름을 nov.el과 calibre 연동으로 정리한 기록.
 
@@ -6300,7 +6300,7 @@ poview.org의 글을 통해 도구가 우리를 어떻게 빚는지와 PKM 접�
 
 ## 이맥스 RDF 위키데이터
 
-작성 2024-03-15 · 수정 2024-12-01 · 태그 emacs, wikidata
+작성 2024-03-15 · 수정 2024-12-01 · 태그 emacs, rdf, wikidata
 
 Emacs 안에서 RDF와 위키데이터를 읽고 쓰는 방법을 구체적으로 모색하는 탐색 기록 노트.
 
@@ -6436,7 +6436,7 @@ Scrivener의 바인더 개념을 Emacs에서 구현하는 binder 모드의 구�
 
 ## 전자책: 무료 다운로드
 
-작성 2023-08-16 · 수정 2024-12-01 · 태그 download, ebook, free
+작성 2023-08-16 · 수정 2024-12-01 · 태그 download, ebook, epub, free
 
 전자책을 무료로 내려받을 수 있는 사이트와 파일 형식을 모아 독서 자원 지도를 만든 기록.
 

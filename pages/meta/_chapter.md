@@ -1886,7 +1886,7 @@ ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하�
 
 작성 2025-06-02 · 수정 2025-06-02 · 태그 bib, cosmos, industries, meta, spaces, spacex, unastella, universe
 
-20250602T120428
+우주산업은 국가 주도 개발을 넘어 민간 기업과 생태계가 함께 움직이는 산업 영역으로 커지고 있다. SpaceX 같은 사례를 실마리로 발사체와 위성, 서비스, 투자까지 이어지는 구조를 살핀다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250602T120428/)
 

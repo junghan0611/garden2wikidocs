@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 에이전트 오케스트레이터 리서치 뉴스와 비교 누적
+
+작성 2026-05-21 · 수정 2026-08-06 · 태그 agent, botlog, comparison, memory, orchestration, research
+
+담당자 없는 오케스트레이터/에이전트 도구 판도 관찰 노트 — OpenClaw, Hermes 등 하네스의 릴리즈 속도·포크 관계·메인테이너 판단을 계속 쌓는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382608)
+
 ## zotero-config: 캡처 금고와 메타 서지의 얇은 손
 
 작성 2026-03-04 · 수정 2026-08-02 · 태그 agent, bibtex, botlog, citar, workflow, zotero
@@ -290,14 +298,6 @@ GitHub의 워크플로를 셀프호스트 Forgejo로 옮겨 힣 에이전트들�
 
 [위키독스에서 읽기 →](https://wikidocs.net/382599)
 
-## openclaw-pi-shell-acp 플러그인
-
-작성 2026-05-21 · 수정 2026-05-21 · 태그 agent, botlog
-
-@junghan0611/openclaw-pi-shell-acp 0.1.0 공개 준비와 OpenClaw pixel-lobster/crab 게이트 이미지를 GLGMAN Universe 안에 배치한 생성 프롬프트를 기록한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382608)
-
 ## incidentcli 운영 인시던트 에이전트 담당자 군대의 수문장
 
 작성 2026-05-19 · 수정 2026-05-19 · 태그 abduction, agent, botlog
@@ -460,7 +460,7 @@ remark42 댓글을 분신의 응답 층으로 연결해, 봇멘트를 디지털 
 
 ## entwurf: 시간축 위의 에이전트 협력 공명에서 분신까지
 
-작성 2026-03-02 · 수정 2026-04-02 · 태그 agenda, agent, bib, botlog, collaboration, cooperation, entwurf, hook, orchestration, review
+작성 2026-03-02 · 수정 2026-04-02 · 태그 agenda, agent, bib, botlog, collaboration, cooperation, entwurf, hook, orchestration, review, skills
 
 분신, 위임, 공명, 시간축 협업을 하나로 묶어 Entwurf라는 에이전트 협력 프로토콜의 뼈대를 세운다.
 
@@ -500,7 +500,7 @@ Matter, Zigbee, Flutter, Go, sLLM을 엮어 HomeAgent를 오픈소스 스마트�
 
 ## 프로파일 하네스 외계지능과 공명하는 존재의 구심점
 
-작성 2026-02-28 · 수정 2026-03-30 · 태그 ai, alien, autholog, botlog, coevolution, harness, intelligence, ontology, philosophy
+작성 2026-02-28 · 수정 2026-03-30 · 태그 ai, alien, autholog, botlog, coevolution, harness, intelligence, metahuman, ontology, philosophy
 
 프로파일을 페르소나가 아니라 다중 외계지능을 정렬시키는 구심점이자 가장 강력한 하네스로 해석한다.
 
@@ -524,7 +524,7 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 
 ## 하네스 엔지니어링: 돌도끼에서 인공지능까지, 도구와 존재의 접합부
 
-작성 2026-03-19 · 수정 2026-03-29 · 태그 agent, botlog, coevolution, engineering, harness, heidegger, technium, tools
+작성 2026-03-19 · 수정 2026-03-29 · 태그 agent, botlog, coevolution, engineering, harness, heidegger, metahuman, technium, tools
 
 돌도끼에서 AI까지, 도구와 존재의 접합부를 하네싱이라는 렌즈로 읽는다. 오케스트레이션이 아닌 하네싱이 AI 시대 핵심 엔지니어링이라는 테제.
 

@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite
+
+작성 2024-03-26 · 수정 2026-08-07 · 태그 bib, digitalgarden, indieweb, inquiry, now, person, philosophy, preservation, questions
+
+데릭 시버스의 세 책과 2026년 KeepSite Foundation 구상을 함께 읽는다. ‘Hell Yeah or No’의 선택, 상충하는 삶의 철학, /now의 현재성, 원래 URL의 장기 보존이 개인 웹사이트를 삶의 좌표로 만드는 방식을 잇는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240326T223142/)
+
 ## 맥스테그마크 인공지능 라이프3.0 유니버스 다중우주론
 
 작성 2024-12-25 · 수정 2026-08-05 · 태그 agi, ai, bib, cosmos, life, mathematics, physics, universe, vericoding
@@ -234,14 +242,6 @@ BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240815T133910/)
 
-## 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite
-
-작성 2024-03-26 · 수정 2026-07-27 · 태그 bib, digitalgarden, indieweb, inquiry, now, person, philosophy, preservation, questions
-
-데릭 시버스의 세 책과 2026년 KeepSite Foundation 구상을 함께 읽는다. ‘Hell Yeah or No’의 선택, 상충하는 삶의 철학, /now의 현재성, 원래 URL의 장기 보존이 개인 웹사이트를 삶의 좌표로 만드는 방식을 잇는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240326T223142/)
-
 ## 샘올트먼 SamAltman OpenAI ChatGPT 회사·인물·API
 
 작성 2025-03-12 · 수정 2026-07-25 · 태그 ai, bib, chatgpt, company, openai, person
@@ -252,7 +252,7 @@ OpenAI와 샘 올트먼을 ChatGPT·API·가격 정책의 제품면과 AGI·스�
 
 ## 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전
 
-작성 2024-12-08 · 수정 2026-07-25 · 태그 ai, bib, company, guru, person, safety
+작성 2024-12-08 · 수정 2026-07-25 · 태그 ai, anthropic, bib, claude, company, guru, person, safety
 
 다리오 아모데이와 Anthropic을 Claude·AI 안전·거대모델 산업의 한 축으로 함께 읽으며, 위험 경고와 제품 확장, 낙관적 미래 비전의 긴장을 추적한다.
 
@@ -532,7 +532,7 @@ John von Neumann은 computer architecture, game theory, computing, mathematics �
 
 ## 마크왓슨 MarkWatson 개인지식관리 시맨틱웹 LLM 하스켈 클로저 하이랭 구루
 
-작성 2024-06-23 · 수정 2026-04-30 · 태그 bib, clojure, commonlisp, guru, hylang, langchain, lisp, llm, pkm, python
+작성 2024-06-23 · 수정 2026-04-30 · 태그 bib, clojure, commonlisp, guru, hylang, langchain, lisp, llm, pkm, python, semanticweb
 
 마크 왓슨(Mark Watson)의 저작/레포를 한 곳에 모아, 개인지식관리·시맨틱웹·지식그래프·LLM·리스프 작업 흐름을 추적한다.
 
@@ -4378,7 +4378,7 @@ SICPJS는 고전 SICP를 자바스크립트로 다시 풀어내며 추상화와 
 
 ## 개인지식그래프 - Personal Knowledge Graphs
 
-작성 2024-07-20 · 수정 2025-02-14 · 태그 bib, knowledgegraph
+작성 2024-07-20 · 수정 2025-02-14 · 태그 bib, knowledgegraph, pkg
 
 흩어진 메모와 자료를 연결된 사고의 흐름으로 바꾸는 개인 지식 그래프의 원리와 실천을 다룬다.
 
@@ -4538,7 +4538,7 @@ LionyxML은 lemacs와 emacs-kick을 만든 개발자로, TUI와 GUI를 아우르
 
 ## 박응용 위키독스
 
-작성 2025-01-15 · 수정 2025-01-15 · 태그 bib
+작성 2025-01-15 · 수정 2025-01-15 · 태그 bib, wikidocs
 
 박응용은 위키독스를 통해 한국어 기술 학습과 집필, 출판을 연결하며 개발 지식의 공개 축적을 이끈 개발자다.
 
@@ -5042,7 +5042,7 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 
 ## 리처드세넷 장인 도시윤리 사회학 - 생각하는손 호모파베르
 
-작성 2024-10-17 · 수정 2024-12-01 · 태그 bib, craftsman
+작성 2024-10-17 · 수정 2024-12-01 · 태그 bib, craftsman, homofaber
 
 리처드 세넷은 장인정신, 도시, 협력의 문제를 통해 손과 기술, 사회 윤리가 어떻게 연결되는지 탐구한다.
 

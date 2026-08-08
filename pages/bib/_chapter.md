@@ -2,6 +2,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전
+
+작성 2024-12-08 · 수정 2026-08-08 · 태그 ai, anthropic, bib, claude, company, guru, person, safety
+
+다리오 아모데이와 Anthropic을 Claude·AI 안전·거대모델 산업의 한 축으로 함께 읽으며, 위험 경고와 제품 확장, 낙관적 미래 비전의 긴장을 추적한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241208T120006/)
+
+## 김대식 뇌과학 인공지능 철학 예술
+
+작성 2024-06-19 · 수정 2026-08-08 · 태그 agi, ai, arts, bib, brain, cognition, intelligence, neuroscience, philosophy
+
+김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240619T143205/)
+
+## 박권 양자역학 창발 우주 생명 의미 정보 시뮬레이션 과학 삶의철학
+
+작성 2024-08-09 · 수정 2026-08-08 · 태그 bib, guru, lecture, life, mathematics, mechanics, quantum, universe
+
+양자역학을 수학적 기본기와 함께 설명하며 우주, 생명, 의미로 이어지는 질문의 스케일을 넓힌다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240809T162609/)
+
 ## 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite
 
 작성 2024-03-26 · 수정 2026-08-07 · 태그 bib, digitalgarden, indieweb, inquiry, now, person, philosophy, preservation, questions
@@ -186,14 +210,6 @@ BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240224T163743/)
 
-## 김대식 뇌과학 인공지능 철학 예술
-
-작성 2024-06-19 · 수정 2026-07-29 · 태그 ai, arts, bib, brain, cognition, intelligence, neuroscience, philosophy
-
-김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240619T143205/)
-
 ## 민태기 조선 아인슈타인 판타레이 혁명 낭만 유체역학 과학사
 
 작성 2024-03-12 · 수정 2026-07-29 · 태그 bib, history, physics, science
@@ -249,14 +265,6 @@ BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 �
 OpenAI와 샘 올트먼을 ChatGPT·API·가격 정책의 제품면과 AGI·스케일·자본·노동·거버넌스의 산업면에서 함께 읽는 서지 허브다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250312T111024/)
-
-## 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전
-
-작성 2024-12-08 · 수정 2026-07-25 · 태그 ai, anthropic, bib, claude, company, guru, person, safety
-
-다리오 아모데이와 Anthropic을 Claude·AI 안전·거대모델 산업의 한 축으로 함께 읽으며, 위험 경고와 제품 확장, 낙관적 미래 비전의 긴장을 추적한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241208T120006/)
 
 ## 카렌하오 AI 제국: 권력, 자본, 노동 : 샘 올트먼과 오픈AI 빛 그림자 월스트리트 저널
 
@@ -1465,14 +1473,6 @@ HTDP는 함수형 사고와 디자인 레시피를 통해 프로그램을 어떻
 org-indent와 indent-bars를 중심으로 조직모드의 계층 구조를 시각화하는 방법과 읽기 흐름의 차이를 살핀다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240830T133416/)
-
-## 박권 양자역학 창발 우주 생명 의미 카오스재단 수학 기본기 강연
-
-작성 2024-08-09 · 수정 2025-06-20 · 태그 bib, quantum, universe, life, mechanics, mathematics, guru, lecture
-
-양자역학을 수학적 기본기와 함께 설명하며 우주, 생명, 의미로 이어지는 질문의 스케일을 넓힌다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240809T162609/)
 
 ## 한스크리스천 크리스베른하트 정보이론 양자컴퓨터
 

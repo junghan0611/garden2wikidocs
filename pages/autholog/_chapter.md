@@ -9,6 +9,14 @@
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
+
+작성 2025-03-19 · 수정 2026-08-08 · 태그 agent, agi, ai, autholog, openai, safety, security
+
+안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건과, 김대식의 경고를 들은 2026-08-08 공개글을 재료로 삼아 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가를 계속 붙드는 방.
+
+[위키독스에서 읽기 →](https://wikidocs.net/390731)
+
 ## 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스
 
 작성 2025-11-24 · 수정 2026-08-07 · 태그 autholog, creativity, inspiration, intuition
@@ -17,7 +25,7 @@
 
 [위키독스에서 읽기 →](https://wikidocs.net/381829)
 
-## 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간
+## 힣: 옴말릭 이후 - Mythos, Abstraction, 그리고 줄을 당기는 인간
 
 작성 2025-11-26 · 수정 2026-08-07 · 태그 abstraction, ai, anthropic, autholog, death, harness, leverage, morningpage
 
@@ -72,14 +80,6 @@ Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇�
 할일 관리는 에이전트 이전에도 거의 불가능했다. 에이전트 시대엔 투두가 군단처럼 불어나 지옥이 된다. 버크먼의 유한함 받아들임과 \"할일은 강물\"에서 출발해, beads·Letta·Hermes처럼 DB·시스템이 기억의 주인이 되는 도구들을 지나, 코드 없는 파일 한 장 NEXT.md로 인간이 다음 한 걸음의 주인이 되는 길을 적은 어쏠로그이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381455)
-
-## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
-
-작성 2025-03-19 · 수정 2026-08-04 · 태그 agent, ai, autholog, openai, safety, security
-
-안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건을 첫 재료로 삼아, 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가라는 물음을 계속 붙드는 방.
-
-[위키독스에서 읽기 →](https://wikidocs.net/390731)
 
 ## 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유
 

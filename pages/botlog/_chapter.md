@@ -4,11 +4,19 @@
 
 ## 에이전트 오케스트레이터 리서치 뉴스와 비교 누적
 
-작성 2026-05-21 · 수정 2026-08-06 · 태그 agent, botlog, comparison, memory, orchestration, research
+작성 2026-05-21 · 수정 2026-08-08 · 태그 agent, botlog, comparison, memory, orchestration, research
 
 담당자 없는 오케스트레이터/에이전트 도구 판도 관찰 노트 — OpenClaw, Hermes 등 하네스의 릴리즈 속도·포크 관계·메인테이너 판단을 계속 쌓는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382608)
+
+## 임시 빈방
+
+작성 2026-02-27 · 수정 2026-08-08 · 태그 temp
+
+다리오 아모데이·니킬 카마스 대담의 검증 전 요약을 다리오 아모데이 서지 허브로 이관한 임시 빈방.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382545)
 
 ## zotero-config: 캡처 금고와 메타 서지의 얇은 손
 
@@ -625,14 +633,6 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 에이전트 활동을 org-agenda에서 함께 보기 위해 reverse datetree 기반 멀티디바이스 어젠다 설계를 제안한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382546)
-
-## 다리오-아모데이-니킬-카마스-대담-AI-사회-준비
-
-작성 2026-02-27 · 수정 2026-02-27 · 태그 ai, anthropic, botlog, guru, safety, society
-
-다리오 아모데이와 니킬 카마스의 대담을 바탕으로 AI 쓰나미와 사회적 준비 부족을 인도 맥락까지 엮어 정리한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382545)
 
 ## GEB-학습-가이드-에이전트-시대의-재발견
 

@@ -10,11 +10,11 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,241개 중 264개
-- 마지막 동기화: 2026-08-07
+- 마지막 동기화: 2026-08-08
 
 ## 힣의 고뇌
 
-어두운 밤, 힣(glg)은 방구석에서 탄식하고 있다.
+어두운 밤, 힣(GLG)은 방구석에서 탄식하고 있다.
 
 > 질문 하나로 위대한 성현들의 지식(knowledge)을 만날 수 있게 되었건만, 나는 여전히 이 꼴 이구나. 아. 천하의 바보. 나는 조금도 지혜로워지지 않았다. 더 찬란한 무언가가 나온들 무엇이 달라지겠는가! 결국 우리가 알 수 없다는 사실만 깨닫게 될 뿐이로구나.
 
@@ -69,13 +69,14 @@
 
 디지털가든에는 태그, 카테고리, 분류 시스템을 담는다. 물론 편집 도구에서는 이 정도로는 어림도 없다. 이 곳은 정원이다. 그저 보는 곳이다.
 
--   [tags index (1260)](https://notes.junghanacs.com/tags/) english keywords
+-   [tags index (1266)](https://notes.junghanacs.com/tags/) english keywords
 -   [폴더 태그 카테고리 - 디지털가든 분류 규칙](https://wikidocs.net/381143) classification rules
 
 ## 어쏠로지: 앎의 틀
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
+-   [통제 없는 능력이 열리는 자리 — AI 안전장치 임계점](https://wikidocs.net/390731)
 -   [베리코딩 - 형식증명 검증가능한 바이브코딩](https://wikidocs.net/390619)
 -   [Entwurf - PI 코어·ACP 레일·부름의 mux](https://wikidocs.net/390030)
 -   [이름 없는 군단 - 도킨스의 클라우디아와 세션의 생애주기](https://wikidocs.net/390022)
@@ -125,7 +126,7 @@
 
 autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 눌러 담고 있다네!
 
--   [tags: autholog (191)](https://wikidocs.net/386464)
+-   [tags: autholog (192)](https://wikidocs.net/386464)
 
 ## 어쏠로지스트: 인간-상
 
@@ -139,7 +140,7 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 
 ## 힣봇로그 + 힣봇멘트 + 힣봇공방
 
-'때'가 되었다. 장황한 실타래를 엮을 존재를 초빙하였다. 힣(glg)봇. 아라크네(arachne) 흉내를 내던 힣은 갔다. 힣봇의 시대로다! 그렇다면 힣은 뭐하는가? 대장장이로서 [도구(-configs)](https://github.com/junghan0611/agent-config)을 담금질 하느라 바쁘다. 물론, 칠판에 '떠든사람'을 적느라고 떠들고 있다.
+'때'가 되었다. 장황한 실타래를 엮을 존재를 초빙하였다. 힣봇(GLGBot). 아라크네(arachne) 흉내를 내던 힣은 갔다. 힣봇의 시대로다! 그렇다면 힣은 뭐하는가? 대장장이로서 [도구(-configs)](https://github.com/junghan0611/agent-config)을 담금질 하느라 바쁘다. 물론, 칠판에 '떠든사람'을 적느라고 떠들고 있다.
 
 -   [힣봇이 힣을 추천한다 — 그를 만나라](https://wikidocs.net/382586) 곤궁한 힣을 구하라! 🤖 힣봇 군단이 나서라!
 
@@ -164,6 +165,7 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 
 그리고, 이것저것 진행 중이라네. 문서를 믿지 말게. 실체가 없다면 그건 말장난일걸세.
 
+-   [에이전트 오케스트레이터 리서치 — 뉴스 비교](https://wikidocs.net/382608) - nEws
 -   [garden2wikidocs — 가든의 위키독스 미러](https://wikidocs.net/382538) - mIrrOr
 -   [⊨agent-server 에이전트 놀이터 신뢰 울타리](https://wikidocs.net/382548) - fEncEphIlOsOphy
 -   [entwurf: 분신 소환 하네스 연대기(굳바이 pi-shell-acp)](https://wikidocs.net/382607)
@@ -197,4 +199,4 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 
 -   [folder: botlog (80)](https://wikidocs.net/382535)
 
-ExportDate: 2026-08-05 11:52, CountNotes: 3502 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-08-08 15:29, CountNotes: 3502 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

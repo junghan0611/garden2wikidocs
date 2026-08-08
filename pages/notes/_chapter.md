@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
+
+작성 2025-03-19 · 수정 2026-08-08 · 태그 agent, agi, ai, autholog, openai, safety, security
+
+안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건과, 김대식의 경고를 들은 2026-08-08 공개글을 재료로 삼아 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가를 계속 붙드는 방.
+
+[위키독스에서 읽기 →](https://wikidocs.net/390731)
+
 ## 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스
 
 작성 2025-11-24 · 수정 2026-08-07 · 태그 autholog, creativity, inspiration, intuition
@@ -10,7 +18,7 @@
 
 [위키독스에서 읽기 →](https://wikidocs.net/381829)
 
-## 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간
+## 힣: 옴말릭 이후 - Mythos, Abstraction, 그리고 줄을 당기는 인간
 
 작성 2025-11-26 · 수정 2026-08-07 · 태그 abstraction, ai, anthropic, autholog, death, harness, leverage, morningpage
 
@@ -66,21 +74,13 @@ Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381455)
 
-## Gas Town과 Hermes 오케스트레이션이 아직 끝나지 않은 이유
+## Gas Town과 Openclaw Hermes 오케스트레이션 - 공장 공방 설계 철학
 
-작성 2025-11-21 · 수정 2026-08-04 · 태그 agent, comparison, harness, orchestration
+작성 2025-11-21 · 수정 2026-08-04 · 태그 agent, architecture, comparison, harness, orchestration
 
 Gas Town의 범용 공장 실험과 Hermes의 단일 하네스 확장이 서로 어떤 문제를 풀며, 멀티에이전트 오케스트레이션이 왜 아직 미결 질문인지를 비교한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251121T204537/)
-
-## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
-
-작성 2025-03-19 · 수정 2026-08-04 · 태그 agent, ai, autholog, openai, safety, security
-
-안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건을 첫 재료로 삼아, 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가라는 물음을 계속 붙드는 방.
-
-[위키독스에서 읽기 →](https://wikidocs.net/390731)
 
 ## 힣: 어쏠로지 모두가 저자다, 인생은 한 권의 책, 조테로 공유
 

@@ -10957,6 +10957,70 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20241208T120006": {
+    "path": "pages/bib/20241208T120006.md",
+    "subject": "20260808 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241208T120006/",
+    "source_date": "2024-12-08T12:00:00+09:00",
+    "source_lastmod": "2026-08-08T12:00:00+09:00",
+    "description": "다리오 아모데이와 Anthropic을 Claude·AI 안전·거대모델 산업의 한 축으로 함께 읽으며, 위험 경고와 제품 확장, 낙관적 미래 비전의 긴장을 추적한다.",
+    "tags": [
+      "ai",
+      "anthropic",
+      "bib",
+      "claude",
+      "company",
+      "guru",
+      "person",
+      "safety"
+    ],
+    "page_id": 382181,
+    "url": "https://wikidocs.net/382181"
+  },
+  "20240619T143205": {
+    "path": "pages/bib/20240619T143205.md",
+    "subject": "20260808 김대식 뇌과학 인공지능 철학 예술",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240619T143205/",
+    "source_date": "2024-06-19T14:32:00+09:00",
+    "source_lastmod": "2026-08-08T12:00:00+09:00",
+    "description": "김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.",
+    "tags": [
+      "agi",
+      "ai",
+      "arts",
+      "bib",
+      "brain",
+      "cognition",
+      "intelligence",
+      "neuroscience",
+      "philosophy"
+    ],
+    "page_id": 381984,
+    "url": "https://wikidocs.net/381984"
+  },
+  "20240809T162609": {
+    "path": "pages/bib/20240809T162609.md",
+    "subject": "20260808 박권 양자역학 창발 우주 생명 의미 정보 시뮬레이션 과학 삶의철학",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240809T162609/",
+    "source_date": "2024-08-09T16:26:00+09:00",
+    "source_lastmod": "2026-08-08T11:33:00+09:00",
+    "description": "양자역학을 수학적 기본기와 함께 설명하며 우주, 생명, 의미로 이어지는 질문의 스케일을 넓힌다.",
+    "tags": [
+      "bib",
+      "guru",
+      "lecture",
+      "life",
+      "mathematics",
+      "mechanics",
+      "quantum",
+      "universe"
+    ],
+    "page_id": 382036,
+    "url": "https://wikidocs.net/382036"
+  },
   "20240326T223142": {
     "path": "pages/bib/20240326T223142.md",
     "subject": "20260807 데릭시버스 DerekSivers 질문·선택의 철학과 KeepSite",
@@ -11389,27 +11453,6 @@
     "page_id": 381882,
     "url": "https://wikidocs.net/381882"
   },
-  "20240619T143205": {
-    "path": "pages/bib/20240619T143205.md",
-    "subject": "20260729 김대식 뇌과학 인공지능 철학 예술",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240619T143205/",
-    "source_date": "2024-06-19T14:32:00+09:00",
-    "source_lastmod": "2026-07-29T13:54:00+09:00",
-    "description": "김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.",
-    "tags": [
-      "ai",
-      "arts",
-      "bib",
-      "brain",
-      "cognition",
-      "intelligence",
-      "neuroscience",
-      "philosophy"
-    ],
-    "page_id": 381984,
-    "url": "https://wikidocs.net/381984"
-  },
   "20240312T140859": {
     "path": "pages/bib/20240312T140859.md",
     "subject": "20260729 민태기 조선 아인슈타인 판타레이 혁명 낭만 유체역학 과학사",
@@ -11529,27 +11572,6 @@
     ],
     "page_id": 382304,
     "url": "https://wikidocs.net/382304"
-  },
-  "20241208T120006": {
-    "path": "pages/bib/20241208T120006.md",
-    "subject": "20260725 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241208T120006/",
-    "source_date": "2024-12-08T12:00:00+09:00",
-    "source_lastmod": "2026-07-25T19:00:00+09:00",
-    "description": "다리오 아모데이와 Anthropic을 Claude·AI 안전·거대모델 산업의 한 축으로 함께 읽으며, 위험 경고와 제품 확장, 낙관적 미래 비전의 긴장을 추적한다.",
-    "tags": [
-      "ai",
-      "anthropic",
-      "bib",
-      "claude",
-      "company",
-      "guru",
-      "person",
-      "safety"
-    ],
-    "page_id": 382181,
-    "url": "https://wikidocs.net/382181"
   },
   "20260312T131505": {
     "path": "pages/bib/20260312T131505.md",
@@ -14234,27 +14256,6 @@
     ],
     "page_id": 382064,
     "url": "https://wikidocs.net/382064"
-  },
-  "20240809T162609": {
-    "path": "pages/bib/20240809T162609.md",
-    "subject": "20250620 박권 양자역학 창발 우주 생명 의미 카오스재단 수학 기본기 강연",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240809T162609/",
-    "source_date": "2024-08-09T16:26:00+09:00",
-    "source_lastmod": "2025-06-20T00:00:00+09:00",
-    "description": "양자역학을 수학적 기본기와 함께 설명하며 우주, 생명, 의미로 이어지는 질문의 스케일을 넓힌다.",
-    "tags": [
-      "bib",
-      "quantum",
-      "universe",
-      "life",
-      "mechanics",
-      "mathematics",
-      "guru",
-      "lecture"
-    ],
-    "page_id": 382036,
-    "url": "https://wikidocs.net/382036"
   },
   "20240625T081459": {
     "path": "pages/bib/20240625T081459.md",
@@ -22389,6 +22390,26 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250319T172804": {
+    "path": "pages/notes/20250319T172804.md",
+    "subject": "20260808 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250319T172804/",
+    "source_date": "2025-03-19T17:28:00+09:00",
+    "source_lastmod": "2026-08-08T12:00:00+09:00",
+    "description": "안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건과, 김대식의 경고를 들은 2026-08-08 공개글을 재료로 삼아 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가를 계속 붙드는 방.",
+    "tags": [
+      "agent",
+      "agi",
+      "ai",
+      "autholog",
+      "openai",
+      "safety",
+      "security"
+    ],
+    "page_id": 390731,
+    "url": "https://wikidocs.net/390731"
+  },
   "20251124T164312": {
     "path": "pages/notes/20251124T164312.md",
     "subject": "20260807 힣: 아! 도! 직관 영감 릭루빈 아도르노 아도나이 아도니스",
@@ -22408,7 +22429,7 @@
   },
   "20251126T143110": {
     "path": "pages/notes/20251126T143110.md",
-    "subject": "20260807 힣: 옴 말릭 이후 Mythos, Abstraction, 그리고 줄을 당기는 인간",
+    "subject": "20260807 힣: 옴말릭 이후 - Mythos, Abstraction, 그리고 줄을 당기는 인간",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251126T143110/",
     "source_date": "2025-11-26T14:31:00+09:00",
@@ -22544,7 +22565,7 @@
   },
   "20251121T204537": {
     "path": "pages/notes/20251121T204537.md",
-    "subject": "20260804 Gas Town과 Hermes 오케스트레이션이 아직 끝나지 않은 이유",
+    "subject": "20260804 Gas Town과 Openclaw Hermes 오케스트레이션 - 공장 공방 설계 철학",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251121T204537/",
     "source_date": "2025-11-21T20:46:00+09:00",
@@ -22552,31 +22573,13 @@
     "description": "Gas Town의 범용 공장 실험과 Hermes의 단일 하네스 확장이 서로 어떤 문제를 풀며, 멀티에이전트 오케스트레이션이 왜 아직 미결 질문인지를 비교한다.",
     "tags": [
       "agent",
+      "architecture",
       "comparison",
       "harness",
       "orchestration"
     ],
     "page_id": 381824,
     "url": "https://wikidocs.net/381824"
-  },
-  "20250319T172804": {
-    "path": "pages/notes/20250319T172804.md",
-    "subject": "20260804 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250319T172804/",
-    "source_date": "2025-03-19T17:28:00+09:00",
-    "source_lastmod": "2026-08-04T13:50:00+09:00",
-    "description": "안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건을 첫 재료로 삼아, 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가라는 물음을 계속 붙드는 방.",
-    "tags": [
-      "agent",
-      "ai",
-      "autholog",
-      "openai",
-      "safety",
-      "security"
-    ],
-    "page_id": 390731,
-    "url": "https://wikidocs.net/390731"
   },
   "20240925T200824": {
     "path": "pages/notes/20240925T200824.md",
@@ -36236,11 +36239,11 @@
   },
   "20260521T134542": {
     "path": "pages/botlog/20260521T134542.md",
-    "subject": "20260806 에이전트 오케스트레이터 리서치 뉴스와 비교 누적",
+    "subject": "20260808 에이전트 오케스트레이터 리서치 뉴스와 비교 누적",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260521T134542/",
     "source_date": "2026-05-21T13:45:00+09:00",
-    "source_lastmod": "2026-08-06T18:06:00+09:00",
+    "source_lastmod": "2026-08-08T14:57:00+09:00",
     "description": "담당자 없는 오케스트레이터/에이전트 도구 판도 관찰 노트 — OpenClaw, Hermes 등 하네스의 릴리즈 속도·포크 관계·메인테이너 판단을 계속 쌓는다.",
     "tags": [
       "agent",
@@ -36252,6 +36255,20 @@
     ],
     "page_id": 382608,
     "url": "https://wikidocs.net/382608"
+  },
+  "20260227T031800": {
+    "path": "pages/botlog/20260227T031800.md",
+    "subject": "20260808 임시 빈방",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260227T031800/",
+    "source_date": "2026-02-27T03:18:00+09:00",
+    "source_lastmod": "2026-08-08T12:00:00+09:00",
+    "description": "다리오 아모데이·니킬 카마스 대담의 검증 전 요약을 다리오 아모데이 서지 허브로 이관한 임시 빈방.",
+    "tags": [
+      "temp"
+    ],
+    "page_id": 382545,
+    "url": "https://wikidocs.net/382545"
   },
   "20260304T105300": {
     "path": "pages/botlog/20260304T105300.md",
@@ -37693,25 +37710,6 @@
     ],
     "page_id": 382546,
     "url": "https://wikidocs.net/382546"
-  },
-  "20260227T031800": {
-    "path": "pages/botlog/20260227T031800.md",
-    "subject": "20260227 다리오-아모데이-니킬-카마스-대담-AI-사회-준비",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260227T031800/",
-    "source_date": "2026-02-27T03:18:00+09:00",
-    "source_lastmod": "2026-02-27T03:18:00+09:00",
-    "description": "다리오 아모데이와 니킬 카마스의 대담을 바탕으로 AI 쓰나미와 사회적 준비 부족을 인도 맥락까지 엮어 정리한다.",
-    "tags": [
-      "ai",
-      "anthropic",
-      "botlog",
-      "guru",
-      "safety",
-      "society"
-    ],
-    "page_id": 382545,
-    "url": "https://wikidocs.net/382545"
   },
   "20260225T154200": {
     "path": "pages/botlog/20260225T154200.md",

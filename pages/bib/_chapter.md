@@ -2,14 +2,6 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
-## 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전
-
-작성 2024-12-08 · 수정 2026-08-08 · 태그 ai, anthropic, bib, claude, company, guru, person, safety
-
-다리오 아모데이와 Anthropic을 Claude·AI 안전·거대모델 산업의 한 축으로 함께 읽으며, 위험 경고와 제품 확장, 낙관적 미래 비전의 긴장을 추적한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241208T120006/)
-
 ## 김대식 뇌과학 인공지능 철학 예술
 
 작성 2024-06-19 · 수정 2026-08-08 · 태그 agi, ai, arts, bib, brain, cognition, intelligence, neuroscience, philosophy
@@ -17,6 +9,14 @@
 김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240619T143205/)
+
+## 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전
+
+작성 2024-12-08 · 수정 2026-08-08 · 태그 ai, anthropic, bib, claude, company, guru, person, safety
+
+다리오 아모데이와 Anthropic을 Claude·AI 안전·거대모델 산업의 한 축으로 함께 읽으며, 위험 경고와 제품 확장, 낙관적 미래 비전의 긴장을 추적한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241208T120006/)
 
 ## 박권 양자역학 창발 우주 생명 의미 정보 시뮬레이션 과학 삶의철학
 

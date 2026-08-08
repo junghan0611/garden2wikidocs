@@ -10957,6 +10957,28 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240619T143205": {
+    "path": "pages/bib/20240619T143205.md",
+    "subject": "20260808 김대식 뇌과학 인공지능 철학 예술",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240619T143205/",
+    "source_date": "2024-06-19T14:32:00+09:00",
+    "source_lastmod": "2026-08-08T16:24:00+09:00",
+    "description": "김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.",
+    "tags": [
+      "agi",
+      "ai",
+      "arts",
+      "bib",
+      "brain",
+      "cognition",
+      "intelligence",
+      "neuroscience",
+      "philosophy"
+    ],
+    "page_id": 381984,
+    "url": "https://wikidocs.net/381984"
+  },
   "20241208T120006": {
     "path": "pages/bib/20241208T120006.md",
     "subject": "20260808 다리오아모데이 DarioAmodei Anthropic Claude 회사·인물·안전",
@@ -10977,28 +10999,6 @@
     ],
     "page_id": 382181,
     "url": "https://wikidocs.net/382181"
-  },
-  "20240619T143205": {
-    "path": "pages/bib/20240619T143205.md",
-    "subject": "20260808 김대식 뇌과학 인공지능 철학 예술",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240619T143205/",
-    "source_date": "2024-06-19T14:32:00+09:00",
-    "source_lastmod": "2026-08-08T12:00:00+09:00",
-    "description": "김대식의 작업은 뇌과학을 바탕으로 인공지능, 철학, 예술을 함께 사유하며 인간 지능의 경계를 묻는다.",
-    "tags": [
-      "agi",
-      "ai",
-      "arts",
-      "bib",
-      "brain",
-      "cognition",
-      "intelligence",
-      "neuroscience",
-      "philosophy"
-    ],
-    "page_id": 381984,
-    "url": "https://wikidocs.net/381984"
   },
   "20240809T162609": {
     "path": "pages/bib/20240809T162609.md",
@@ -22390,6 +22390,23 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20240321T053220": {
+    "path": "pages/notes/20240321T053220.md",
+    "subject": "20260808 힣: 지식구조화 언어철학 수리논리에서 지식공학으로",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240321T053220/",
+    "source_date": "2024-03-21T05:32:00+09:00",
+    "source_lastmod": "2026-08-08T17:46:00+09:00",
+    "description": "버퍼에서 시작한 날것이 용어·관계·분류·표현을 거쳐 지식공학과 검증 가능한 산출물로 이어지는 지식구조화의 바닥을 다시 묻는 autholog.",
+    "tags": [
+      "autholog",
+      "classification",
+      "knowledge",
+      "language",
+      "logic",
+      "pkm"
+    ]
+  },
   "20250319T172804": {
     "path": "pages/notes/20250319T172804.md",
     "subject": "20260808 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
@@ -28022,20 +28039,6 @@
     ],
     "page_id": 381203,
     "url": "https://wikidocs.net/381203"
-  },
-  "20240321T053220": {
-    "path": "pages/notes/20240321T053220.md",
-    "subject": "20250603 지식구조화: 십진분류 카테고리 - 언어철학 수리논리학 수학기초론",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240321T053220/",
-    "source_date": "2024-03-21T05:32:00+09:00",
-    "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "십진분류와 카테고리 구조를 빌려 지식구조화 방법을 다시 생각해 보는 아이디어 메모용 노트.",
-    "tags": [
-      "idea"
-    ],
-    "page_id": 381200,
-    "url": "https://wikidocs.net/381200"
   },
   "20230720T061300": {
     "path": "pages/notes/20230720T061300.md",

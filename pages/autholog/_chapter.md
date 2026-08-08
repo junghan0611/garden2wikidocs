@@ -5,9 +5,17 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 190개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 191개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: 지식구조화 언어철학 수리논리에서 지식공학으로
+
+작성 2024-03-21 · 수정 2026-08-08 · 태그 autholog, classification, knowledge, language, logic, pkm
+
+버퍼에서 시작한 날것이 용어·관계·분류·표현을 거쳐 지식공학과 검증 가능한 산출물로 이어지는 지식구조화의 바닥을 다시 묻는 autholog.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240321T053220/)
 
 ## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
 

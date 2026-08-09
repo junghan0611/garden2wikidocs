@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 필립K딕 PhilipKDick · 리들리스콧 RidleyScott · 에이드리언차이콥스키 AdrianTchaikovsky 인간·안드로이드·기억의 SF
+
+작성 2025-07-20 · 수정 2026-08-09 · 태그 bib, future, human, identity, literature, movies, novel, robot
+
+필립 K. 딕의 안드로이드와 리들리 스콧의 블레이드 러너, 에이드리언 차이콥스키의 휴머노이드 AI를 함께 읽으며 인간·기계·기억·정체성의 경계를 묻는 SF 서지 허브다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250720T100124/)
+
+## 칼뉴포트 딥워크 슬로우워크 디지털미니멀리즘 - 대안 느린 생산성
+
+작성 2024-08-10 · 수정 2026-08-09 · 태그 bib, deepwork, digital, minimalism, productivity, slow, workflow
+
+깊은 집중, 디지털 절제, 느린 생산성을 묶어 산만한 시대의 작업 윤리와 삶의 리듬을 재구성한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240810T115949/)
+
+## 올리버버크먼 OliverBurkeman 팀하포드 TimHarford - 유한함 불완전주의 시간의 철학
+
+작성 2024-10-22 · 수정 2026-08-09 · 태그 bib, economics, imperfectionlist, spirituality
+
+올리버 버크먼과 팀 하포드는 유한한 시간·불완전함·복잡한 현실을 각기 시간 철학과 경제학적 이야기로 풀어내며 서로의 작업을 추천한 동시대 저자다. 힣이 오래 아끼고 되찾는 두 저자와 책을 모으는 서지 허브다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241022T145747/)
+
+## 카렌하오 AI 제국: 권력, 자본, 노동 : 샘 올트먼과 오픈AI 빛 그림자 월스트리트 저널
+
+작성 2026-03-12 · 수정 2026-08-08 · 태그 ai, bib, labor, openai
+
+카렌 하오는 오픈AI를 중심으로 한 생성형 AI 산업을 권력, 자본, 노동의 문제로 해부한다. 스케일 경쟁의 화려한 서사 뒤에 가려진 데이터 수탈, 글로벌 사우스 노동, 환경 비용을 드러내며 AI 제국의 실제 구조를 묻는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260312T131505/)
+
 ## 김대식 뇌과학 인공지능 철학 예술
 
 작성 2024-06-19 · 수정 2026-08-08 · 태그 agi, ai, arts, bib, brain, cognition, intelligence, neuroscience, philosophy
@@ -265,14 +297,6 @@ BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 �
 OpenAI와 샘 올트먼을 ChatGPT·API·가격 정책의 제품면과 AGI·스케일·자본·노동·거버넌스의 산업면에서 함께 읽는 서지 허브다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250312T111024/)
-
-## 카렌하오 AI 제국: 권력, 자본, 노동 : 샘 올트먼과 오픈AI 빛 그림자 월스트리트 저널
-
-작성 2026-03-12 · 수정 2026-07-25 · 태그 ai, bib, labor, openai
-
-@카렌하오 AI 제국: 권력, 자본, 노동 : 샘 올트먼과 오픈AI 빛 그림자 #월스트리트 #저널
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260312T131505/)
 
 ## 로버트파우저 RobertFouser 한국어로 쓰는 언어 순례자, 외국어와 문자 전파담
 
@@ -1266,14 +1290,6 @@ Emanuel Jeff는 beads의 Rust 포팅과 멀티에이전트 오케스트레이션
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250721T085438/)
 
-## 필립K딕 리들리스콧 블레이드 러너
-
-작성 2025-07-20 · 수정 2025-07-20 · 태그 android, bib, future, movies
-
-20250720T100124
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250720T100124/)
-
 ## 크리스토퍼브루소 매슈사프 LLM 인 프로덕션 - 제품화 전략 언어학 류광
 
 작성 2025-07-13 · 수정 2025-07-13 · 태그 ai, bib, learning, linguistics, llm
@@ -1593,14 +1609,6 @@ AI가 인간의 언어 환경을 바꾸는 시대에 필요한 새로운 문해�
 슈뢰딩거는 양자역학의 핵심 인물이자 자연철학자이며, 《생명이란 무엇인가》를 통해 물리학과 생명 사유를 가로질렀다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241006T093546/)
-
-## 칼뉴포트 딥워크 슬로우워크 디지털미니멀리즘 - 대안 느린 생산성
-
-작성 2024-08-10 · 수정 2025-06-14 · 태그 bib, productivity, slow, workflow, digital, minimalism, deepwork
-
-깊은 집중, 디지털 절제, 느린 생산성을 묶어 산만한 시대의 작업 윤리와 삶의 리듬을 재구성한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240810T115949/)
 
 ## 박용우 내 몸 혁명 - 해독다이어트 식습관 음식 건강
 
@@ -2241,14 +2249,6 @@ Cursor와 Windsurf 같은 AI IDE는 GUI 기반 코딩 에이전트가 개발 흐
 @아만다리플리 저널리스트 교육 문제
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250523T110942/)
-
-## 올리버버크먼 4000주 불완전주의 삶의유한함 받아들임
-
-작성 2024-10-22 · 수정 2025-05-23 · 태그 bib, imperfectionlist, spirituality
-
-《4000주》는 삶의 유한함을 회피하지 않고 받아들일 때 더 선명한 선택과 평정이 가능하다고 말한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241022T145747/)
 
 ## 유지니아 수학자 카테고리이론 증명 논리
 

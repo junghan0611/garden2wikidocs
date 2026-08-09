@@ -10,7 +10,7 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,241개 중 265개
-- 마지막 동기화: 2026-08-08
+- 마지막 동기화: 2026-08-09
 
 ## 힣의 고뇌
 

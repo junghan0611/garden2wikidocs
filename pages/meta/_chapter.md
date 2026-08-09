@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 계획 스케줄 캘린더 어젠다 일정 커리큘럼
+
+작성 2024-12-02 · 수정 2026-08-09 · 태그 agenda, curriculum, meta, plan, schedule
+
+계획·스케줄·캘린더·어젠다·일정의 차이를 가리며, 시간을 어떻게 배치하고 부를지 정리한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241202T133400/)
+
+## 불완전주의자
+
+작성 2024-10-24 · 수정 2026-08-09 · 태그 imperfectionlist, meta, newsletter
+
+불완전주의자를 시간관리 강박에서 벗어나려는 태도와 뉴스레터 실천의 한 흐름으로 받아들인다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241024T134108/)
+
+## 삶의철학 라이프스타일 문화
+
+작성 2023-10-20 · 수정 2026-08-09 · 태그 culture, life, lifestyle, meta, philosophy
+
+허슬 문화, 미니멀리즘, 슬로우 라이프처럼 삶의 태도와 생활 양식을 문화적으로 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20231020T113112/)
+
+## 합격 승인 수락 수용 받아들임 인정
+
+작성 2024-03-22 · 수정 2026-08-09 · 태그 accept, approve, meta, pass
+
+합격·승인·수락·수용은 어떤 대상이 통과되거나 받아들여지는 상태를 가리키며, 제도적 통과와 관계적 인정의 결을 함께 묶는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240322T053641/)
+
 ## 메타도구 대장간 대장장이 공방 호모파베르 호모루덴스 호모오티오수스
 
 작성 2025-02-24 · 수정 2026-08-05 · 태그 blacksmith, craft, homofaber, homoludens, homootiosus, meta, metatool, workshop
@@ -1658,14 +1690,6 @@ MOOC와 KOCW는 누구나 접근 가능한 온라인 강의 인프라로, 대규
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240305T065723/)
 
-## 삶의철학 라이프스타일 문화
-
-작성 2023-10-20 · 수정 2025-06-04 · 태그 culture, life, lifestyle, meta, philosophy
-
-허슬 문화, 미니멀리즘, 슬로우 라이프처럼 삶의 태도와 생활 양식을 문화적으로 읽는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20231020T113112/)
-
 ## 게이트웨이 라우터 허브
 
 작성 2023-10-18 · 수정 2025-06-04 · 태그 gateway, meta, router
@@ -1889,14 +1913,6 @@ ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하�
 우주산업은 국가 주도 개발을 넘어 민간 기업과 생태계가 함께 움직이는 산업 영역으로 커지고 있다. SpaceX 같은 사례를 실마리로 발사체와 위성, 서비스, 투자까지 이어지는 구조를 살핀다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250602T120428/)
-
-## 계획 스케줄 캘린더 어젠다 일정 커리큘럼
-
-작성 2024-12-02 · 수정 2025-06-02 · 태그 agenda, curriculum, meta, plan, schedule
-
-계획·스케줄·캘린더·어젠다·일정의 차이를 가리며, 시간을 어떻게 배치하고 부를지 정리한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241202T133400/)
 
 ## 신경다양성
 
@@ -3794,14 +3810,6 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240927T143312/)
 
-## 합격 승인 수락 수용 받아들임 인정
-
-작성 2024-03-22 · 수정 2025-03-16 · 태그 accept, approve, meta, pass
-
-합격·승인·수락·수용은 어떤 대상이 통과되거나 받아들여지는 상태를 가리키며, 제도적 통과와 관계적 인정의 결을 함께 묶는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240322T053641/)
-
 ## 전체상 큰그림 총체 총아 모든것 집합체
 
 작성 2025-03-15 · 수정 2025-03-15 · 태그 big, entire, full, general, meta, overall, scene, totality, view
@@ -3905,14 +3913,6 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 스타벅스를 커피 브랜드를 넘어 서비스 경험, 공간, 문화가 결합된 현대 소비 상징으로 바라본다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250306T153038/)
-
-## 불완전주의자
-
-작성 2024-10-24 · 수정 2025-03-06 · 태그 imperfectionlist, meta, newsletter
-
-불완전주의자를 시간관리 강박에서 벗어나려는 태도와 뉴스레터 실천의 한 흐름으로 받아들인다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241024T134108/)
 
 ## 모음
 

@@ -76,8 +76,8 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
--   [Entwurf 물음·부름·불응·부릉 - 보이는 곳에서 함께하라](https://notes.junghanacs.com/notes/20250215T202517/)
--   [리포가 자기 몸을 수선하게 하라](https://notes.junghanacs.com/notes/20240705T144627/)
+-   [Entwurf 물음·부름·불응·부릉 - 보이는 곳에서 함께하라](https://wikidocs.net/394534)
+-   [리포가 자기 몸을 수선하게 하라](https://wikidocs.net/394535)
 -   [지식구조화 - 언어철학 수리논리 지식공학](https://wikidocs.net/393224)
 -   [통제 없는 능력이 열리는 자리 — AI 안전장치 임계점](https://wikidocs.net/390731)
 -   [베리코딩 - 형식증명 검증가능한 바이브코딩](https://wikidocs.net/390619)

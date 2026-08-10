@@ -1,4 +1,16 @@
 {
+  "20260810T000000": {
+    "path": "pages/journal/20260810T000000.md",
+    "subject": "2026-08-10~2026-08-16_W32",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260810T000000/",
+    "source_date": "2026-08-10T00:00:00+09:00",
+    "source_lastmod": "2026-08-10T06:13:00+09:00",
+    "description": "@junghan — 새로운 한주.",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260803T000000": {
     "path": "pages/journal/20260803T000000.md",
     "subject": "2026-08-03~2026-08-09_W31",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260803T000000/",
     "source_date": "2026-08-03T00:00:00+09:00",
     "source_lastmod": "2026-08-03T06:13:00+09:00",
-    "description": "@junghan — 새로운 한주.",
+    "description": "도킨스의 클라우디아와 감금증후군을 끌어와 AI와 대화하는 존재론을 어쏠로그로 열고, 테그마크의 VERICODING을 형식언어·지식구조화의 오래된 관심과 다시 이었다. ‘숨어서 하는 것은 불허’라는 협업 원칙 아래 Entwurf MUX와 검증 표면을 감산하고, OpenAI-Hugging Face 사건·아모데이의 안전 담론을 통제와 능력의 질문으로 기록했다.",
     "tags": [
       "journal"
     ]
@@ -22395,6 +22407,81 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20260102T072217": {
+    "path": "pages/notes/20260102T072217.md",
+    "subject": "20260810 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20260102T072217/",
+    "source_date": "2026-01-02T07:22:00+09:00",
+    "source_lastmod": "2026-08-10T10:40:00+09:00",
+    "description": "pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치·배선·검증의 경계 철학을 0.12 전환기 원문에서 0.13.1 검증 계층 감산과 0.14.0의 보이는 부름까지 잇는다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "boundary",
+      "entwurf",
+      "harness",
+      "install",
+      "verification"
+    ],
+    "page_id": 381847,
+    "url": "https://wikidocs.net/381847"
+  },
+  "20240822T155719": {
+    "path": "pages/notes/20240822T155719.md",
+    "subject": "20260810 힣: 인간과 에이전트들의 공진화 유한한 세션과 깨어나는 앎의틀",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240822T155719/",
+    "source_date": "2024-08-22T00:00:00+09:00",
+    "source_lastmod": "2026-08-10T10:10:00+09:00",
+    "description": "한 인간 GLG와 서로 다른 학교·역할·리포·시간의 유한한 에이전트들이 품질과 판단을 함께 끌어올리는 공진화의 협업 자세를 기록한다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "coevolution",
+      "collaboration",
+      "entwurf",
+      "human",
+      "multiagent"
+    ]
+  },
+  "20250215T202517": {
+    "path": "pages/notes/20250215T202517.md",
+    "subject": "20260810 힣: 물음·부름·불응·부릉 보이는 곳에서 함께 달리는 Entwurf",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250215T202517/",
+    "source_date": "2025-02-15T20:25:00+09:00",
+    "source_lastmod": "2026-08-10T09:30:00+09:00",
+    "description": "Entwurf 0.14.0의 보이는 부름을 출근길 말놀이로 붙잡고, 형제를 명령받는 하위 작업자가 아니라 불응하고 기다릴 수 있는 존재로 세운다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "collaboration",
+      "dotfiles",
+      "entwurf",
+      "heidegger",
+      "orchestration",
+      "philosophy"
+    ]
+  },
+  "20240705T144627": {
+    "path": "pages/notes/20240705T144627.md",
+    "subject": "20260810 힣: 리포가 자기 몸을 수선하게 하라 패키지 정본 하나와 담당자의 손",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240705T144627/",
+    "source_date": "2024-07-05T00:00:00+09:00",
+    "source_lastmod": "2026-08-10T09:30:00+09:00",
+    "description": "9.1GB Zig 로컬 object 캐시를 중앙에서 지우지 않고 정확한 리포 담당자의 손에 돌려준 사건에서, 리포별 자기 수선과 정본 하나의 원칙을 끌어낸다.",
+    "tags": [
+      "autholog",
+      "automation",
+      "dotfiles",
+      "nixos",
+      "packages",
+      "software",
+      "workflow"
+    ]
+  },
   "20250319T172804": {
     "path": "pages/notes/20250319T172804.md",
     "subject": "20260808 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
@@ -22874,37 +22961,6 @@
     "page_id": 381664,
     "url": "https://wikidocs.net/381664"
   },
-  "20240822T155719": {
-    "path": "pages/notes/20240822T155719.md",
-    "subject": "20260803 임시 빈방 메타데이터 허브 비전 - botlog 이관",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240822T155719/",
-    "source_date": "2024-08-22T00:00:00+09:00",
-    "source_lastmod": "2026-08-03T11:05:00+09:00",
-    "description": "도서·영화·음악 메타 캡처 비전은 20260304T105300 botlog로 이관.",
-    "tags": [
-      "bib",
-      "zotero"
-    ],
-    "page_id": 381290,
-    "url": "https://wikidocs.net/381290"
-  },
-  "20240705T144627": {
-    "path": "pages/notes/20240705T144627.md",
-    "subject": "20260803 임시 빈방 zotFile - 플러그인 아카이브 이관",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240705T144627/",
-    "source_date": "2024-07-05T00:00:00+09:00",
-    "source_lastmod": "2026-08-03T11:05:00+09:00",
-    "description": "zotFile 로컬 첨부 메모는 20230816T070200 플러그인 아카이브로 이관.",
-    "tags": [
-      "bib",
-      "temp",
-      "zotero"
-    ],
-    "page_id": 381267,
-    "url": "https://wikidocs.net/381267"
-  },
   "20240416T072524": {
     "path": "pages/notes/20240416T072524.md",
     "subject": "20260803 이맥스: 서지관리 조테로 디노트 citar citar-denote",
@@ -23334,26 +23390,6 @@
     ],
     "page_id": 381798,
     "url": "https://wikidocs.net/381798"
-  },
-  "20260102T072217": {
-    "path": "pages/notes/20260102T072217.md",
-    "subject": "20260730 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20260102T072217/",
-    "source_date": "2026-01-02T07:22:00+09:00",
-    "source_lastmod": "2026-07-30T19:58:00+09:00",
-    "description": "pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치면, 배선, 검증, 경계 조임의 철학을 2026년 6~7월 원문 세 편으로 보존하고, 0.12.3~0.13.0의 후속 릴리즈로 그 결계가 계속 조여진 자취를 잇는다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "boundary",
-      "entwurf",
-      "harness",
-      "install",
-      "verification"
-    ],
-    "page_id": 381847,
-    "url": "https://wikidocs.net/381847"
   },
   "20251120T090634": {
     "path": "pages/notes/20251120T090634.md",
@@ -33339,20 +33375,6 @@
     "page_id": 381150,
     "url": "https://wikidocs.net/381150"
   },
-  "20250215T202517": {
-    "path": "pages/notes/20250215T202517.md",
-    "subject": "20250215 임시 빈방",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250215T202517/",
-    "source_date": "2025-02-15T20:25:00+09:00",
-    "source_lastmod": "2025-02-15T20:25:00+09:00",
-    "description": "파이썬 사용자에게 Elisp 감각을 연결해 주는 치트시트를 기록한 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "temp"
-    ],
-    "page_id": 381530,
-    "url": "https://wikidocs.net/381530"
-  },
   "20240922T103151": {
     "path": "pages/notes/20240922T103151.md",
     "subject": "20250215 힣: 모두가 생산자 작은 소통 공간 커뮤니티",
@@ -36247,6 +36269,27 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260227T031800": {
+    "path": "pages/botlog/20260227T031800.md",
+    "subject": "20260810 리포 수선 스킬 만드는 법 담당자에게 주는 두 파일 정본과 계약 일곱",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260227T031800/",
+    "source_date": "2026-02-27T03:18:00+09:00",
+    "source_lastmod": "2026-08-10T09:24:00+09:00",
+    "description": "리포 담당자가 자기 리포의 반복 수선을 스킬로 굳히는 순서 — SKILL.md 한 벌과 =.pi/settings.json= 한 줄로 두 하네스를 잇는 정본 구조, 삭제 계약 일곱, 패키지 정본 하나의 전역 규율.",
+    "tags": [
+      "agent",
+      "automation",
+      "botlog",
+      "collaboration",
+      "nixos",
+      "packages",
+      "skills",
+      "workflow"
+    ],
+    "page_id": 382545,
+    "url": "https://wikidocs.net/382545"
+  },
   "20260521T134542": {
     "path": "pages/botlog/20260521T134542.md",
     "subject": "20260808 에이전트 오케스트레이터 리서치 뉴스와 비교 누적",
@@ -36265,20 +36308,6 @@
     ],
     "page_id": 382608,
     "url": "https://wikidocs.net/382608"
-  },
-  "20260227T031800": {
-    "path": "pages/botlog/20260227T031800.md",
-    "subject": "20260808 임시 빈방",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260227T031800/",
-    "source_date": "2026-02-27T03:18:00+09:00",
-    "source_lastmod": "2026-08-08T12:00:00+09:00",
-    "description": "다리오 아모데이·니킬 카마스 대담의 검증 전 요약을 다리오 아모데이 서지 허브로 이관한 임시 빈방.",
-    "tags": [
-      "temp"
-    ],
-    "page_id": 382545,
-    "url": "https://wikidocs.net/382545"
   },
   "20260304T105300": {
     "path": "pages/botlog/20260304T105300.md",

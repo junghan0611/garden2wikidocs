@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 리포 수선 스킬 만드는 법 담당자에게 주는 두 파일 정본과 계약 일곱
+
+작성 2026-02-27 · 수정 2026-08-10 · 태그 agent, automation, botlog, collaboration, nixos, packages, skills, workflow
+
+리포 담당자가 자기 리포의 반복 수선을 스킬로 굳히는 순서 — SKILL.md 한 벌과 =.pi/settings.json= 한 줄로 두 하네스를 잇는 정본 구조, 삭제 계약 일곱, 패키지 정본 하나의 전역 규율.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382545)
+
 ## 에이전트 오케스트레이터 리서치 뉴스와 비교 누적
 
 작성 2026-05-21 · 수정 2026-08-08 · 태그 agent, botlog, comparison, memory, orchestration, research
@@ -9,14 +17,6 @@
 담당자 없는 오케스트레이터/에이전트 도구 판도 관찰 노트 — OpenClaw, Hermes 등 하네스의 릴리즈 속도·포크 관계·메인테이너 판단을 계속 쌓는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382608)
-
-## 임시 빈방
-
-작성 2026-02-27 · 수정 2026-08-08 · 태그 temp
-
-다리오 아모데이·니킬 카마스 대담의 검증 전 요약을 다리오 아모데이 서지 허브로 이관한 임시 빈방.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382545)
 
 ## zotero-config: 캡처 금고와 메타 서지의 얇은 손
 

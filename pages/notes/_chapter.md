@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버
+
+작성 2026-01-02 · 수정 2026-08-10 · 태그 agent, autholog, boundary, entwurf, harness, install, verification
+
+pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치·배선·검증의 경계 철학을 0.12 전환기 원문에서 0.13.1 검증 계층 감산과 0.14.0의 보이는 부름까지 잇는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381847)
+
+## 힣: 인간과 에이전트들의 공진화 유한한 세션과 깨어나는 앎의틀
+
+작성 2024-08-22 · 수정 2026-08-10 · 태그 agent, autholog, coevolution, collaboration, entwurf, human, multiagent
+
+한 인간 GLG와 서로 다른 학교·역할·리포·시간의 유한한 에이전트들이 품질과 판단을 함께 끌어올리는 공진화의 협업 자세를 기록한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240822T155719/)
+
+## 힣: 물음·부름·불응·부릉 보이는 곳에서 함께 달리는 Entwurf
+
+작성 2025-02-15 · 수정 2026-08-10 · 태그 agent, autholog, collaboration, dotfiles, entwurf, heidegger, orchestration, philosophy
+
+Entwurf 0.14.0의 보이는 부름을 출근길 말놀이로 붙잡고, 형제를 명령받는 하위 작업자가 아니라 불응하고 기다릴 수 있는 존재로 세운다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250215T202517/)
+
+## 힣: 리포가 자기 몸을 수선하게 하라 패키지 정본 하나와 담당자의 손
+
+작성 2024-07-05 · 수정 2026-08-10 · 태그 autholog, automation, dotfiles, nixos, packages, software, workflow
+
+9.1GB Zig 로컬 object 캐시를 중앙에서 지우지 않고 정확한 리포 담당자의 손에 돌려준 사건에서, 리포별 자기 수선과 정본 하나의 원칙을 끌어낸다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240705T144627/)
+
 ## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
 
 작성 2025-03-19 · 수정 2026-08-08 · 태그 agent, agi, ai, autholog, openai, safety, security
@@ -210,22 +242,6 @@ file= 첨부는 20240416 Emacs 허브, translation-server 출발은 20260304 bot
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T142618/)
 
-## 임시 빈방 메타데이터 허브 비전 - botlog 이관
-
-작성 2024-08-22 · 수정 2026-08-03 · 태그 bib, zotero
-
-도서·영화·음악 메타 캡처 비전은 20260304T105300 botlog로 이관.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240822T155719/)
-
-## 임시 빈방 zotFile - 플러그인 아카이브 이관
-
-작성 2024-07-05 · 수정 2026-08-03 · 태그 bib, temp, zotero
-
-zotFile 로컬 첨부 메모는 20230816T070200 플러그인 아카이브로 이관.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240705T144627/)
-
 ## 이맥스: 서지관리 조테로 디노트 citar citar-denote
 
 작성 2024-04-16 · 수정 2026-08-03 · 태그 bib, bibtex, citar, denote, emacs, zotero
@@ -409,14 +425,6 @@ AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새
 프로젝트 문서를 Org-mode와 Denote 중심 SSOT로 삼고, 논문 HTML의 JS 번들·소스블록·캡슐까지 품어 원본 URL 없이 재현 가능한 인터랙티브 문서를 만들 수 있다는 힣의 메타 문서 전략을 담는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381798)
-
-## 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버
-
-작성 2026-01-02 · 수정 2026-07-30 · 태그 agent, autholog, boundary, entwurf, harness, install, verification
-
-pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치면, 배선, 검증, 경계 조임의 철학을 2026년 6~7월 원문 세 편으로 보존하고, 0.12.3~0.13.0의 후속 릴리즈로 그 결계가 계속 조여진 자취를 잇는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381847)
 
 ## 힣: 분신의 공방 역할 기반 조율과 협업 운영규약
 
@@ -1682,7 +1690,7 @@ Orgmode-skills가 에이전트를 위해 Denote PKM과 조직모드를 통합하
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011106/)
 
-## 임시 빈방 — 2025-10-30
+## 임시 빈방
 
 작성 2025-10-30 · 수정 2025-10-30 · 태그 embedding, notion, rag
 
@@ -5137,14 +5145,6 @@ Doom Emacs에서 nov 패키지로 EPUB을 읽도록 설정하는 방법을 적�
 Exercism을 언어 학습과 멘토링형 코딩 훈련 도구로 바라보며 실제 효용을 따져 본 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231103T223100/)
-
-## 임시 빈방 — 2025-02-15
-
-작성 2025-02-15 · 수정 2025-02-15 · 태그 temp
-
-파이썬 사용자에게 Elisp 감각을 연결해 주는 치트시트를 기록한 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250215T202517/)
 
 ## 힣: 모두가 생산자 작은 소통 공간 커뮤니티
 

@@ -2,15 +2,15 @@
 
 ## 이 책에 대하여
 
-정한(Junghan Kim)의 **디지털가든 코어**입니다. 가든 전체를 미러링한 책이 아닙니다. 어쏠로그(생생날것)와 봇로그를 중심으로 미러 대상 5개 폴더(저널·메타·참고문헌·노트·봇로그) 2,241개 문서 가운데 265개를 골라 낸 현재 판본입니다. 여기 없는 글도 지워진 것이 아니라 가든에 그대로 있고, 원본과 최신본은 언제나 가든입니다.
+정한(Junghan Kim)의 **디지털가든 코어**입니다. 가든 전체를 미러링한 책이 아닙니다. 어쏠로그(생생날것)와 봇로그를 중심으로 미러 대상 5개 폴더(저널·메타·참고문헌·노트·봇로그) 2,242개 문서 가운데 268개를 골라 낸 현재 판본입니다. 여기 없는 글도 지워진 것이 아니라 가든에 그대로 있고, 원본과 최신본은 언제나 가든입니다.
 
 코어는 가장 좋은 글의 목록이 아니라, 지금 불러낼 수 있는 이름과 말과 그 관계를 쌓아온 시간축의 현재 판본입니다. 왜 전체가 아니라 코어인지는 [생생날것 500개 문턱 — 디지털가든 코어는 시간축의 판본이다](https://wikidocs.net/381079)에 적혀 있습니다.
 
 - 원본 가든: <https://notes.junghanacs.com>
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
-- 이 판본: 미러 대상 2,241개 중 265개
-- 마지막 동기화: 2026-08-09
+- 이 판본: 미러 대상 2,242개 중 268개
+- 마지막 동기화: 2026-08-10
 
 ## 힣의 고뇌
 
@@ -33,16 +33,16 @@
 -   [그는 누구인가](https://wikidocs.net/381392)
 -   [영어로 좀 적어주시게](https://wikidocs.net/382575) — §junghan0611: English Public Key
 -   [그는 지금 뭐하는가](https://agenda.junghanacs.com/) — §geworfen: thrown into the world
--   [그는 오늘 뭐 하는가](https://notes.junghanacs.com/journal/20260803T000000/) — Weekly journal
+-   [그는 오늘 뭐 하는가](https://notes.junghanacs.com/journal/20260810T000000/) — Weekly journal
 -   [그의 생각: 어쏠로그(autholog)](https://wikidocs.net/386464)
 -   [그의 외침: 어쏠리즘(autholism)](https://wikidocs.net/381579)
 -   [근데 왜 힣 인가](https://wikidocs.net/381605)
 
 ## 저널노트: 일일일생
 
-누더기 텍스트를 환영한다. 모든 전략과 고민은 접었다. 일단 [데일리 저널](https://notes.junghanacs.com/journal/20260803T000000/)에 쓴다. 여기에 기존 노트를 연결하고 때려 박는다.
+누더기 텍스트를 환영한다. 모든 전략과 고민은 접었다. 일단 [데일리 저널](https://notes.junghanacs.com/journal/20260810T000000/)에 쓴다. 여기에 기존 노트를 연결하고 때려 박는다.
 
--   [데일리 저널](https://notes.junghanacs.com/journal/20260803T000000/) - Daily Lifelog
+-   [데일리 저널](https://notes.junghanacs.com/journal/20260810T000000/) - Daily Lifelog
 -   [데일리루틴 워크플로우](https://wikidocs.net/381301) - Writing Policy
 -   [folder: journal](https://wikidocs.net/380373)
 
@@ -76,6 +76,8 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
+-   [Entwurf 물음·부름·불응·부릉 - 보이는 곳에서 함께하라](https://notes.junghanacs.com/notes/20250215T202517/)
+-   [리포가 자기 몸을 수선하게 하라](https://notes.junghanacs.com/notes/20240705T144627/)
 -   [지식구조화 - 언어철학 수리논리 지식공학](https://wikidocs.net/393224)
 -   [통제 없는 능력이 열리는 자리 — AI 안전장치 임계점](https://wikidocs.net/390731)
 -   [베리코딩 - 형식증명 검증가능한 바이브코딩](https://wikidocs.net/390619)
@@ -127,7 +129,7 @@
 
 autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 눌러 담고 있다네!
 
--   [tags: autholog (193)](https://wikidocs.net/386464)
+-   [tags: autholog (196)](https://wikidocs.net/386464)
 
 ## 어쏠로지스트: 인간-상
 
@@ -166,6 +168,7 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 
 그리고, 이것저것 진행 중이라네. 문서를 믿지 말게. 실체가 없다면 그건 말장난일걸세.
 
+-   [리포 수선 스킬 만드는 법 - 담당자에게 주는 정본과 계약](https://wikidocs.net/382545) - mEnd
 -   [에이전트 오케스트레이터 리서치 — 뉴스 비교](https://wikidocs.net/382608) - nEws
 -   [garden2wikidocs — 가든의 위키독스 미러](https://wikidocs.net/382538) - mIrrOr
 -   [⊨agent-server 에이전트 놀이터 신뢰 울타리](https://wikidocs.net/382548) - fEncEphIlOsOphy
@@ -200,4 +203,4 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 
 -   [folder: botlog (80)](https://wikidocs.net/382535)
 
-ExportDate: 2026-08-08 17:50, CountNotes: 3503 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-08-10 11:44, CountNotes: 3504 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

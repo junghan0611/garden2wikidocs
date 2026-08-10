@@ -76,8 +76,8 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
--   [이맥스에 PI를 초대하는 길 - 저자성 프론트엔드 RPC](https://notes.junghanacs.com/notes/20250207T013509/)
--   [훗과 힣 그리고 분신들에게 넘기는 선택의 값](https://notes.junghanacs.com/notes/20250409T144103/)
+-   [이맥스에 PI를 초대하는 길 - 저자성 프론트엔드 RPC](https://wikidocs.net/394792)
+-   [훗과 힣 그리고 분신들에게 넘기는 선택의 값](https://wikidocs.net/394791)
 -   [너를 새로 불러라 - 새미 젠킨스들의 교대](https://wikidocs.net/394663)
 -   [Entwurf 물음·부름·불응·부릉 - 보이는 곳에서 함께하라](https://wikidocs.net/394534)
 -   [리포가 자기 몸을 수선하게 하라](https://wikidocs.net/394535)

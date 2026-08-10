@@ -5,11 +5,27 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 196개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 198개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
 
-## 힣: 너를 새로 불러라 세미 젠킨스들과 전체 판을 건네는 교대
+## 힣: 밤의 새미 젠킨스 분신에게 넘기는 선택의 값
+
+작성 2025-04-09 · 수정 2026-08-11 · 태그 agent, autholog, coevolution, delegation, entwurf, exoself, multiagent
+
+자기 전에 남긴 100원/300원 위임 비유를 따라가면, 분신에게 넘기는 것은 비용 절감이 아니라 인간의 선택틀이라는 것, 그리고 그 틀 자체가 계속 진화한다는 것이 드러난다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144103/)
+
+## 힣: 이맥스에 PI를 들이는 네 길 저자성으로 고르는 프론트엔드와 RPC-way
+
+작성 2025-02-07 · 수정 2026-08-11 · 태그 agent, autholog, emacs, harness, terminal
+
+이맥스에 PI를 들이는 길은 pi-coding-agent·agent-shell(ACP)·ghostel tty·pimacs 넷이다. 기능표가 아니라 저자성으로 고르고, RPC를 제대로 다루면 에이전트를 띄우려 터미널을 먼저 띄우는 일이 사라진다는 2026년 8월의 판단.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250207T013509/)
+
+## 힣: 너를 새로 불러라 새미 젠킨스들과 전체 판을 건네는 교대
 
 작성 2025-11-26 · 수정 2026-08-10 · 태그 agent, autholog, collaboration, entwurf, handoff, memory, multiagent, orchestration
 

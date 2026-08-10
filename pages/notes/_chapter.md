@@ -2,7 +2,23 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
-## 힣: 너를 새로 불러라 세미 젠킨스들과 전체 판을 건네는 교대
+## 힣: 밤의 새미 젠킨스 분신에게 넘기는 선택의 값
+
+작성 2025-04-09 · 수정 2026-08-11 · 태그 agent, autholog, coevolution, delegation, entwurf, exoself, multiagent
+
+자기 전에 남긴 100원/300원 위임 비유를 따라가면, 분신에게 넘기는 것은 비용 절감이 아니라 인간의 선택틀이라는 것, 그리고 그 틀 자체가 계속 진화한다는 것이 드러난다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144103/)
+
+## 힣: 이맥스에 PI를 들이는 네 길 저자성으로 고르는 프론트엔드와 RPC-way
+
+작성 2025-02-07 · 수정 2026-08-11 · 태그 agent, autholog, emacs, harness, terminal
+
+이맥스에 PI를 들이는 길은 pi-coding-agent·agent-shell(ACP)·ghostel tty·pimacs 넷이다. 기능표가 아니라 저자성으로 고르고, RPC를 제대로 다루면 에이전트를 띄우려 터미널을 먼저 띄우는 일이 사라진다는 2026년 8월의 판단.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250207T013509/)
+
+## 힣: 너를 새로 불러라 새미 젠킨스들과 전체 판을 건네는 교대
 
 작성 2025-11-26 · 수정 2026-08-10 · 태그 agent, autholog, collaboration, entwurf, handoff, memory, multiagent, orchestration
 
@@ -241,14 +257,6 @@ elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억
 공유 그룹 실무는 20240925T200824 어쏠로지 방으로 이관.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144319/)
-
-## 임시 빈방 zotero-config AI-Queryable 설계 - botlog 이관
-
-작성 2025-04-09 · 수정 2026-08-03 · 태그 bib, zotero
-
-No-GUI/AI-Queryable 설계 초안은 20260304T105300 botlog «옛 설계»로 이관.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144103/)
 
 ## 임시 빈방 bib 첨부·translation-server - Emacs·botlog 이관
 
@@ -5298,7 +5306,7 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T123217/)
 
-## 허슬문화
+## 허슬문화 - 수정 대기중
 
 작성 2025-02-12 · 수정 2025-02-12 · 태그 bib
 
@@ -5329,14 +5337,6 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 클로저 풀스택 개발의 전체 그림을 서버와 UI 도구 관점에서 모아 본 노트이다. 실제 활용 흐름을 담았다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250207T123109/)
-
-## LLM: 클로저 이맥스 - 장점 차별점 비교
-
-작성 2025-02-07 · 수정 2025-02-07
-
-클로저와 이맥스 조합의 장점과 차별점을 자료와 함께 모아 보는 로그이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250207T013509/)
 
 ## LLM: 나 사실 Emacs Geek 이야
 

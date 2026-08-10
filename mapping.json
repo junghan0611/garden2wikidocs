@@ -22407,9 +22407,43 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250409T144103": {
+    "path": "pages/notes/20250409T144103.md",
+    "subject": "20260811 힣: 밤의 새미 젠킨스 분신에게 넘기는 선택의 값",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T144103/",
+    "source_date": "2025-04-09T00:00:00+09:00",
+    "source_lastmod": "2026-08-11T06:56:00+09:00",
+    "description": "자기 전에 남긴 100원/300원 위임 비유를 따라가면, 분신에게 넘기는 것은 비용 절감이 아니라 인간의 선택틀이라는 것, 그리고 그 틀 자체가 계속 진화한다는 것이 드러난다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "coevolution",
+      "delegation",
+      "entwurf",
+      "exoself",
+      "multiagent"
+    ]
+  },
+  "20250207T013509": {
+    "path": "pages/notes/20250207T013509.md",
+    "subject": "20260811 힣: 이맥스에 PI를 들이는 네 길 저자성으로 고르는 프론트엔드와 RPC-way",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250207T013509/",
+    "source_date": "2025-02-07T01:35:00+09:00",
+    "source_lastmod": "2026-08-11T00:00:00+09:00",
+    "description": "이맥스에 PI를 들이는 길은 pi-coding-agent·agent-shell(ACP)·ghostel tty·pimacs 넷이다. 기능표가 아니라 저자성으로 고르고, RPC를 제대로 다루면 에이전트를 띄우려 터미널을 먼저 띄우는 일이 사라진다는 2026년 8월의 판단.",
+    "tags": [
+      "agent",
+      "autholog",
+      "emacs",
+      "harness",
+      "terminal"
+    ]
+  },
   "20251126T120729": {
     "path": "pages/notes/20251126T120729.md",
-    "subject": "20260810 힣: 너를 새로 불러라 세미 젠킨스들과 전체 판을 건네는 교대",
+    "subject": "20260810 힣: 너를 새로 불러라 새미 젠킨스들과 전체 판을 건네는 교대",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251126T120729/",
     "source_date": "2025-11-26T12:07:00+09:00",
@@ -22974,21 +23008,6 @@
     ],
     "page_id": 381668,
     "url": "https://wikidocs.net/381668"
-  },
-  "20250409T144103": {
-    "path": "pages/notes/20250409T144103.md",
-    "subject": "20260803 임시 빈방 zotero-config AI-Queryable 설계 - botlog 이관",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T144103/",
-    "source_date": "2025-04-09T00:00:00+09:00",
-    "source_lastmod": "2026-08-03T11:05:00+09:00",
-    "description": "No-GUI/AI-Queryable 설계 초안은 20260304T105300 botlog «옛 설계»로 이관.",
-    "tags": [
-      "bib",
-      "zotero"
-    ],
-    "page_id": 381667,
-    "url": "https://wikidocs.net/381667"
   },
   "20250409T142618": {
     "path": "pages/notes/20250409T142618.md",
@@ -33683,7 +33702,7 @@
   },
   "20250212T092332": {
     "path": "pages/notes/20250212T092332.md",
-    "subject": "20250212 허슬문화",
+    "subject": "20250212 허슬문화 - 수정 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250212T092332/",
     "source_date": "2025-02-12T09:23:00+09:00",
@@ -33733,18 +33752,6 @@
     ],
     "page_id": 381512,
     "url": "https://wikidocs.net/381512"
-  },
-  "20250207T013509": {
-    "path": "pages/notes/20250207T013509.md",
-    "subject": "20250207 LLM: 클로저 이맥스 - 장점 차별점 비교",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250207T013509/",
-    "source_date": "2025-02-07T01:35:00+09:00",
-    "source_lastmod": "2025-02-07T01:35:00+09:00",
-    "description": "클로저와 이맥스 조합의 장점과 차별점을 자료와 함께 모아 보는 로그이다. 실제 활용 흐름을 담았다.",
-    "tags": [],
-    "page_id": 381510,
-    "url": "https://wikidocs.net/381510"
   },
   "20250206T160514": {
     "path": "pages/notes/20250206T160514.md",

@@ -22407,6 +22407,40 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20251126T120729": {
+    "path": "pages/notes/20251126T120729.md",
+    "subject": "20260810 힣: 너를 새로 불러라 세미 젠킨스들과 전체 판을 건네는 교대",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251126T120729/",
+    "source_date": "2025-11-26T12:07:00+09:00",
+    "source_lastmod": "2026-08-10T17:51:00+09:00",
+    "description": "세션 하나의 기억을 되살리는 질문에서 출발해, 여러 유한한 에이전트가 목적·증거·관계가 놓인 전체 판을 복원하고 독립 판단 뒤 담당자의 자리를 이어받는 교대와 오케스트레이션을 실제 booktrans 사례로 살핀다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "collaboration",
+      "entwurf",
+      "handoff",
+      "memory",
+      "multiagent",
+      "orchestration"
+    ]
+  },
+  "20251030T011104": {
+    "path": "pages/notes/20251030T011104.md",
+    "subject": "20260810 힣: 글리치 토큰 형식의 경계가 무너진 자리와 학습 코퍼스의 하수구",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251030T011104/",
+    "source_date": "2025-10-30T01:11:00+09:00",
+    "source_lastmod": "2026-08-10T12:44:00+09:00",
+    "description": "에이전트 세션 로그에 갑자기 튀어나온 스팸 문자열의 정체를 글리치 토큰(under-trained token)으로 규명하고, 4개월치 세션 로그 전수 조사로 재현 조건을 특정한 노트다.",
+    "tags": [
+      "autholog",
+      "llm",
+      "trust",
+      "verification"
+    ]
+  },
   "20260102T072217": {
     "path": "pages/notes/20260102T072217.md",
     "subject": "20260810 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버",
@@ -26045,22 +26079,6 @@
     "page_id": 381835,
     "url": "https://wikidocs.net/381835"
   },
-  "20251126T120729": {
-    "path": "pages/notes/20251126T120729.md",
-    "subject": "20251126 임시 빈방 대기중 - Efrit: 왜 Emacs에서 멀티에이전트인가? Steve Yegge의 비전",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251126T120729/",
-    "source_date": "2025-11-26T12:07:00+09:00",
-    "source_lastmod": "2025-11-26T12:07:00+09:00",
-    "description": "Steve Yegge가 왜 Emacs에서 멀티에이전트 시스템을 만들려 하는지 분석한 노트이다.",
-    "tags": [
-      "agent",
-      "emacs",
-      "vibecoding"
-    ],
-    "page_id": 381831,
-    "url": "https://wikidocs.net/381831"
-  },
   "20251125T123801": {
     "path": "pages/notes/20251125T123801.md",
     "subject": "20251125 Claude Opus 4.5 가격 혁명과 멀티에이전트 가능성",
@@ -26317,22 +26335,6 @@
     ],
     "page_id": 381807,
     "url": "https://wikidocs.net/381807"
-  },
-  "20251030T011104": {
-    "path": "pages/notes/20251030T011104.md",
-    "subject": "20251030 임시 빈방",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251030T011104/",
-    "source_date": "2025-10-30T01:11:00+09:00",
-    "source_lastmod": "2025-10-30T01:11:00+09:00",
-    "description": "Notion CS 백과사전을 벡터 임베딩해 AI 검색 시스템으로 전환하는 노트이다. 실제 활용 흐름을 담았다.",
-    "tags": [
-      "embedding",
-      "notion",
-      "rag"
-    ],
-    "page_id": 381805,
-    "url": "https://wikidocs.net/381805"
   },
   "20251028T120153": {
     "path": "pages/notes/20251028T120153.md",
@@ -36275,6 +36277,25 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260319T110800": {
+    "path": "pages/botlog/20260319T110800.md",
+    "subject": "20260810 andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
+    "source_date": "2026-03-19T11:08:00+09:00",
+    "source_lastmod": "2026-08-10T14:06:00+09:00",
+    "description": "andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.",
+    "tags": [
+      "botlog",
+      "embedding",
+      "heidegger",
+      "memory",
+      "naming",
+      "semantic"
+    ],
+    "page_id": 382576,
+    "url": "https://wikidocs.net/382576"
+  },
   "20260227T031800": {
     "path": "pages/botlog/20260227T031800.md",
     "subject": "20260810 리포 수선 스킬 만드는 법 담당자에게 주는 두 파일 정본과 계약 일곱",
@@ -36404,25 +36425,6 @@
     ],
     "page_id": 382568,
     "url": "https://wikidocs.net/382568"
-  },
-  "20260319T110800": {
-    "path": "pages/botlog/20260319T110800.md",
-    "subject": "20260727 andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
-    "source_date": "2026-03-19T11:08:00+09:00",
-    "source_lastmod": "2026-07-27T18:10:00+09:00",
-    "description": "andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.",
-    "tags": [
-      "botlog",
-      "embedding",
-      "heidegger",
-      "memory",
-      "naming",
-      "semantic"
-    ],
-    "page_id": 382576,
-    "url": "https://wikidocs.net/382576"
   },
   "20260309T194058": {
     "path": "pages/botlog/20260309T194058.md",

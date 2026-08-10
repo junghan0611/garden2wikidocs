@@ -5,9 +5,25 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 194개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 196개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: 너를 새로 불러라 세미 젠킨스들과 전체 판을 건네는 교대
+
+작성 2025-11-26 · 수정 2026-08-10 · 태그 agent, autholog, collaboration, entwurf, handoff, memory, multiagent, orchestration
+
+세션 하나의 기억을 되살리는 질문에서 출발해, 여러 유한한 에이전트가 목적·증거·관계가 놓인 전체 판을 복원하고 독립 판단 뒤 담당자의 자리를 이어받는 교대와 오케스트레이션을 실제 booktrans 사례로 살핀다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251126T120729/)
+
+## 힣: 글리치 토큰 형식의 경계가 무너진 자리와 학습 코퍼스의 하수구
+
+작성 2025-10-30 · 수정 2026-08-10 · 태그 autholog, llm, trust, verification
+
+에이전트 세션 로그에 갑자기 튀어나온 스팸 문자열의 정체를 글리치 토큰(under-trained token)으로 규명하고, 4개월치 세션 로그 전수 조사로 재현 조건을 특정한 노트다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011104/)
 
 ## 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버
 

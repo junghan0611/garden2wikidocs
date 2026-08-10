@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
+
+작성 2026-03-19 · 수정 2026-08-10 · 태그 botlog, embedding, heidegger, memory, naming, semantic
+
+andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382576)
+
 ## 리포 수선 스킬 만드는 법 담당자에게 주는 두 파일 정본과 계약 일곱
 
 작성 2026-02-27 · 수정 2026-08-10 · 태그 agent, automation, botlog, collaboration, nixos, packages, skills, workflow
@@ -57,14 +65,6 @@ memex-kb가 외부 문서를 점검 가능한 텍스트 정본으로 회수하�
 플랫폼 마이그레이션 프레임워크에서 작은 허브용 자동화 코어로 전환한 담당자 기록이다. 실물 코퍼스의 왕복 점수로 Expr IR의 성립 여부를 판정하고, 호환은 가장자리에 둔다는 경계를 남긴다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382568)
-
-## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
-
-작성 2026-03-19 · 수정 2026-07-27 · 태그 botlog, embedding, heidegger, memory, naming, semantic
-
-andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382576)
 
 ## dictcli: 힣의 낱말이 서로 닿는 자리 사전이 아닌 연결망
 

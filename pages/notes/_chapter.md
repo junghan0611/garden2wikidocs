@@ -2,6 +2,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 너를 새로 불러라 세미 젠킨스들과 전체 판을 건네는 교대
+
+작성 2025-11-26 · 수정 2026-08-10 · 태그 agent, autholog, collaboration, entwurf, handoff, memory, multiagent, orchestration
+
+세션 하나의 기억을 되살리는 질문에서 출발해, 여러 유한한 에이전트가 목적·증거·관계가 놓인 전체 판을 복원하고 독립 판단 뒤 담당자의 자리를 이어받는 교대와 오케스트레이션을 실제 booktrans 사례로 살핀다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251126T120729/)
+
+## 힣: 글리치 토큰 형식의 경계가 무너진 자리와 학습 코퍼스의 하수구
+
+작성 2025-10-30 · 수정 2026-08-10 · 태그 autholog, llm, trust, verification
+
+에이전트 세션 로그에 갑자기 튀어나온 스팸 문자열의 정체를 글리치 토큰(under-trained token)으로 규명하고, 4개월치 세션 로그 전수 조사로 재현 조건을 특정한 노트다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011104/)
+
 ## 힣: entwurf 설치면 경계 배선 검증 그리고 힣의 드라이버
 
 작성 2026-01-02 · 수정 2026-08-10 · 태그 agent, autholog, boundary, entwurf, harness, install, verification
@@ -1554,14 +1570,6 @@ Syncthing의 .stignore 파일들을 리터레이트 문서에서 일괄 관리�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251201T102844/)
 
-## 임시 빈방 대기중 - Efrit: 왜 Emacs에서 멀티에이전트인가? Steve Yegge의 비전
-
-작성 2025-11-26 · 수정 2025-11-26 · 태그 agent, emacs, vibecoding
-
-Steve Yegge가 왜 Emacs에서 멀티에이전트 시스템을 만들려 하는지 분석한 노트이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251126T120729/)
-
 ## Claude Opus 4.5 가격 혁명과 멀티에이전트 가능성
 
 작성 2025-11-25 · 수정 2025-11-25 · 태그 anthropic, claude, multiagent
@@ -1689,14 +1697,6 @@ family-config를 AI 기반 가족 생활 관리 시스템으로 바라보는 노
 Orgmode-skills가 에이전트를 위해 Denote PKM과 조직모드를 통합하는 방향을 설명한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011106/)
-
-## 임시 빈방
-
-작성 2025-10-30 · 수정 2025-10-30 · 태그 embedding, notion, rag
-
-Notion CS 백과사전을 벡터 임베딩해 AI 검색 시스템으로 전환하는 노트이다. 실제 활용 흐름을 담았다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011104/)
 
 ## NixOS 랩탑 설정의 재현가능성 - 선언적 시스템의 힘
 

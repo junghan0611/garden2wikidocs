@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 발화를 버리지 않는다 유튜브 자막 정본과 구루데브·모가댓의 대담
+
+작성 2025-04-09 · 수정 2026-08-11 · 태그 agent, autholog, coevolution, guru, rawwriting, verification, youtube
+
+유튜브 자막 스킬의 낡은 버그를 고치다가, GLG는 요약도 스크립트도 다듬어지면 못 믿는다는 정본 원칙을 세웠다. 시험 대상은 하필 모가댓과 구루데브의 인류 미래 대담이었다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144319/)
+
 ## 힣: 밤의 새미 젠킨스 분신에게 넘기는 선택의 값
 
 작성 2025-04-09 · 수정 2026-08-11 · 태그 agent, autholog, coevolution, delegation, entwurf, exoself, multiagent
@@ -249,14 +257,6 @@ Zotero GUI 플러그인·첨부 관리의 레거시 기록. BBT 제거 이후 �
 elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억할 것을 남기는 것은 다른 일이다. 요약의 마크다운이 org 문서를 해치지 않도록 코드와 프롬프트 양쪽을 손본 뒤, remember를 annotation 저장소로 더 적극적으로 쓰기로 한 1단계.
 
 [위키독스에서 읽기 →](https://wikidocs.net/390027)
-
-## 임시 빈방 조테로 공유그룹 하우투 어쏠로지 이관
-
-작성 2025-04-09 · 수정 2026-08-03 · 태그 bib, temp, zotero
-
-공유 그룹 실무는 20240925T200824 어쏠로지 방으로 이관.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144319/)
 
 ## 임시 빈방 bib 첨부·translation-server - Emacs·botlog 이관
 

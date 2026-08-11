@@ -2,6 +2,46 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 과학철학
+
+작성 2024-05-22 · 수정 2026-08-11 · 태그 bib, meta, philosophy, science
+
+과학철학은 과학 지식의 방법과 정당화, 이론의 의미와 한계를 묻는 철학의 한 갈래다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240522T143739/)
+
+## 훈련 연습 실습 테스트 검증
+
+작성 2024-10-03 · 수정 2026-08-11 · 태그 meta, practice, test, verification
+
+훈련·연습·실습·테스트·검증을 배움과 작업 숙련의 연속선 위에서 함께 묶어 실천적으로 바라본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241003T171953/)
+
+## 목표 역할
+
+작성 2024-05-22 · 수정 2026-08-11 · 태그 goals, meta, roles
+
+목표는 향하려는 상태를, 역할은 그 과정에서 맡는 위치를 가리키며, 둘의 구분이 행동의 방향을 선명하게 만든다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240522T142732/)
+
+## 위임 분신 별동대
+
+작성 2026-03-23 · 수정 2026-08-11 · 태그 agent, delegate, delegation, detachment, duty, entwurf, fork, handoff, legacy, legate, meta, multiagent, orchestration, remote, representation, spawn, subagent, syntopicon, trust
+
+맡기다 — 라틴어 dē-lēgāre에서 현대 에이전트 분신까지. 기술·정치·철학을 관통하는 개념인데 별동대도 추가했다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20260323T143428/)
+
+## 사이버네틱스 포스트휴먼
+
+작성 2024-05-15 · 수정 2026-08-11 · 태그 cybernetics, meta, posthuman
+
+사이버네틱스는 생물과 기계, 정보와 제어를 피드백의 관점에서 연결하며 포스트휴먼 사유의 토대를 이룬다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240515T165139/)
+
 ## 계획 스케줄 캘린더 어젠다 일정 커리큘럼
 
 작성 2024-12-02 · 수정 2026-08-09 · 태그 agenda, curriculum, meta, plan, schedule
@@ -681,14 +721,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 #댓글
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240908T163254/)
-
-## 위임 델리게이트 분신 서브에이전트
-
-작성 2026-03-23 · 수정 2026-03-23 · 태그 agent, delegate, delegation, duty, entwurf, fork, handoff, legacy, legate, meta, multiagent, orchestration, remote, representation, spawn, subagent, syntopicon, trust
-
-맡기다 — 라틴어 dē-lēgāre에서 현대 에이전트 분신까지. 기술·정치·철학을 관통하는 개념
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20260323T143428/)
 
 ## 단편 중편 장편 프래그먼트, 형식과 호흡
 
@@ -1546,14 +1578,6 @@ Logseq, RemNote, Obsidian 등 노트테이킹 도구들의 경험과 이맥스 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20220912T123500/)
 
-## 훈련 연습 실습 테스트 검증
-
-작성 2024-10-03 · 수정 2025-06-05 · 태그 meta, practice, test, verification
-
-훈련·연습·실습·테스트·검증을 배움과 작업 숙련의 연속선 위에서 함께 묶어 실천적으로 바라본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241003T171953/)
-
 ## 딥워크 최선 헌신
 
 작성 2024-09-23 · 수정 2025-06-05 · 태그 deepwork, lifestyle, meta, productivity, workhard
@@ -2313,14 +2337,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 #메타인지
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241022T044124/)
-
-## 과학철학
-
-작성 2024-05-22 · 수정 2025-04-30 · 태그 bib, meta, philosophy, science
-
-과학철학은 과학 지식의 방법과 정당화, 이론의 의미와 한계를 묻는 철학의 한 갈래다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240522T143739/)
 
 ## 메멕스 셀프트레킹
 
@@ -3962,14 +3978,6 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241007T134132/)
 
-## 목표 역할
-
-작성 2024-05-22 · 수정 2025-02-26 · 태그 goals, meta, roles
-
-목표는 향하려는 상태를, 역할은 그 과정에서 맡는 위치를 가리키며, 둘의 구분이 행동의 방향을 선명하게 만든다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240522T142732/)
-
 ## 학습 배움 학문 공부 통달 숙달
 
 작성 2023-10-30 · 수정 2025-02-26 · 태그 learning, mastering, meta
@@ -4281,14 +4289,6 @@ Anthropic과 다리오 아모데이 자료를 20241208T120006 bib 허브로 이�
 가족여행을 일정 기록이 아니라 만남의 긴장, 이동의 감정, 함께 머무는 시간의 질문으로 붙잡아 둔다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240814T151055/)
-
-## 사이버네틱스
-
-작성 2024-05-15 · 태그 cybernetics, meta
-
-사이버네틱스는 생물과 기계, 정보와 제어를 피드백의 관점에서 연결하며 포스트휴먼 사유의 토대를 이룬다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240515T165139/)
 
 ## 난제 고민 문제 우려 걱정 제기
 

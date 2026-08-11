@@ -1507,6 +1507,104 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20240522T143739": {
+    "path": "pages/meta/20240522T143739.md",
+    "subject": "20260811 과학철학",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240522T143739/",
+    "source_date": "2024-05-22T14:37:00+09:00",
+    "source_lastmod": "2026-08-11T15:32:00+09:00",
+    "description": "과학철학은 과학 지식의 방법과 정당화, 이론의 의미와 한계를 묻는 철학의 한 갈래다.",
+    "tags": [
+      "bib",
+      "meta",
+      "philosophy",
+      "science"
+    ],
+    "page_id": 380587,
+    "url": "https://wikidocs.net/380587"
+  },
+  "20241003T171953": {
+    "path": "pages/meta/20241003T171953.md",
+    "subject": "20260811 훈련 연습 실습 테스트 검증",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241003T171953/",
+    "source_date": "2024-10-03T17:19:00+09:00",
+    "source_lastmod": "2026-08-11T15:31:00+09:00",
+    "description": "훈련·연습·실습·테스트·검증을 배움과 작업 숙련의 연속선 위에서 함께 묶어 실천적으로 바라본다.",
+    "tags": [
+      "meta",
+      "practice",
+      "test",
+      "verification"
+    ],
+    "page_id": 380690,
+    "url": "https://wikidocs.net/380690"
+  },
+  "20240522T142732": {
+    "path": "pages/meta/20240522T142732.md",
+    "subject": "20260811 목표 역할",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240522T142732/",
+    "source_date": "2024-05-22T14:27:00+09:00",
+    "source_lastmod": "2026-08-11T15:31:00+09:00",
+    "description": "목표는 향하려는 상태를, 역할은 그 과정에서 맡는 위치를 가리키며, 둘의 구분이 행동의 방향을 선명하게 만든다.",
+    "tags": [
+      "goals",
+      "meta",
+      "roles"
+    ],
+    "page_id": 380583,
+    "url": "https://wikidocs.net/380583"
+  },
+  "20260323T143428": {
+    "path": "pages/meta/20260323T143428.md",
+    "subject": "20260811 위임 분신 별동대",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20260323T143428/",
+    "source_date": "2026-03-23T14:34:00+09:00",
+    "source_lastmod": "2026-08-11T15:19:00+09:00",
+    "description": "맡기다 — 라틴어 dē-lēgāre에서 현대 에이전트 분신까지. 기술·정치·철학을 관통하는 개념인데 별동대도 추가했다.",
+    "tags": [
+      "agent",
+      "delegate",
+      "delegation",
+      "detachment",
+      "duty",
+      "entwurf",
+      "fork",
+      "handoff",
+      "legacy",
+      "legate",
+      "meta",
+      "multiagent",
+      "orchestration",
+      "remote",
+      "representation",
+      "spawn",
+      "subagent",
+      "syntopicon",
+      "trust"
+    ],
+    "page_id": 381011,
+    "url": "https://wikidocs.net/381011"
+  },
+  "20240515T165139": {
+    "path": "pages/meta/20240515T165139.md",
+    "subject": "20260811 사이버네틱스 포스트휴먼",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240515T165139/",
+    "source_date": "2024-05-15T16:51:00+09:00",
+    "source_lastmod": "2026-08-11T14:03:00+09:00",
+    "description": "사이버네틱스는 생물과 기계, 정보와 제어를 피드백의 관점에서 연결하며 포스트휴먼 사유의 토대를 이룬다.",
+    "tags": [
+      "cybernetics",
+      "meta",
+      "posthuman"
+    ],
+    "page_id": 380571,
+    "url": "https://wikidocs.net/380571"
+  },
   "20241202T133400": {
     "path": "pages/meta/20241202T133400.md",
     "subject": "20260809 계획 스케줄 캘린더 어젠다 일정 커리큘럼",
@@ -3097,37 +3195,6 @@
     ],
     "page_id": 380669,
     "url": "https://wikidocs.net/380669"
-  },
-  "20260323T143428": {
-    "path": "pages/meta/20260323T143428.md",
-    "subject": "20260323 위임 델리게이트 분신 서브에이전트",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20260323T143428/",
-    "source_date": "2026-03-23T14:34:00+09:00",
-    "source_lastmod": "2026-03-23T14:55:00+09:00",
-    "description": "맡기다 — 라틴어 dē-lēgāre에서 현대 에이전트 분신까지. 기술·정치·철학을 관통하는 개념",
-    "tags": [
-      "agent",
-      "delegate",
-      "delegation",
-      "duty",
-      "entwurf",
-      "fork",
-      "handoff",
-      "legacy",
-      "legate",
-      "meta",
-      "multiagent",
-      "orchestration",
-      "remote",
-      "representation",
-      "spawn",
-      "subagent",
-      "syntopicon",
-      "trust"
-    ],
-    "page_id": 381011,
-    "url": "https://wikidocs.net/381011"
   },
   "20260322T075000": {
     "path": "pages/meta/20260322T075000.md",
@@ -5019,23 +5086,6 @@
     "page_id": 380481,
     "url": "https://wikidocs.net/380481"
   },
-  "20241003T171953": {
-    "path": "pages/meta/20241003T171953.md",
-    "subject": "20250605 훈련 연습 실습 테스트 검증",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241003T171953/",
-    "source_date": "2024-10-03T17:19:00+09:00",
-    "source_lastmod": "2025-06-05T00:00:00+09:00",
-    "description": "훈련·연습·실습·테스트·검증을 배움과 작업 숙련의 연속선 위에서 함께 묶어 실천적으로 바라본다.",
-    "tags": [
-      "meta",
-      "practice",
-      "test",
-      "verification"
-    ],
-    "page_id": 380690,
-    "url": "https://wikidocs.net/380690"
-  },
   "20240923T134959": {
     "path": "pages/meta/20240923T134959.md",
     "subject": "20250605 딥워크 최선 헌신",
@@ -6693,23 +6743,6 @@
     ],
     "page_id": 380727,
     "url": "https://wikidocs.net/380727"
-  },
-  "20240522T143739": {
-    "path": "pages/meta/20240522T143739.md",
-    "subject": "20250430 과학철학",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240522T143739/",
-    "source_date": "2024-05-22T14:37:00+09:00",
-    "source_lastmod": "2025-04-30T00:00:00+09:00",
-    "description": "과학철학은 과학 지식의 방법과 정당화, 이론의 의미와 한계를 묻는 철학의 한 갈래다.",
-    "tags": [
-      "bib",
-      "meta",
-      "philosophy",
-      "science"
-    ],
-    "page_id": 380587,
-    "url": "https://wikidocs.net/380587"
   },
   "20250429T103134": {
     "path": "pages/meta/20250429T103134.md",
@@ -10228,22 +10261,6 @@
     "page_id": 380701,
     "url": "https://wikidocs.net/380701"
   },
-  "20240522T142732": {
-    "path": "pages/meta/20240522T142732.md",
-    "subject": "20250226 목표 역할",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240522T142732/",
-    "source_date": "2024-05-22T14:27:00+09:00",
-    "source_lastmod": "2025-02-26T00:00:00+09:00",
-    "description": "목표는 향하려는 상태를, 역할은 그 과정에서 맡는 위치를 가리키며, 둘의 구분이 행동의 방향을 선명하게 만든다.",
-    "tags": [
-      "goals",
-      "meta",
-      "roles"
-    ],
-    "page_id": 380583,
-    "url": "https://wikidocs.net/380583"
-  },
   "20231030T114800": {
     "path": "pages/meta/20231030T114800.md",
     "subject": "20250226 학습 배움 학문 공부 통달 숙달",
@@ -10918,21 +10935,6 @@
     "page_id": 380623,
     "url": "https://wikidocs.net/380623"
   },
-  "20240515T165139": {
-    "path": "pages/meta/20240515T165139.md",
-    "subject": "20240515 사이버네틱스",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240515T165139/",
-    "source_date": "2024-05-15T16:51:00+09:00",
-    "source_lastmod": "",
-    "description": "사이버네틱스는 생물과 기계, 정보와 제어를 피드백의 관점에서 연결하며 포스트휴먼 사유의 토대를 이룬다.",
-    "tags": [
-      "cybernetics",
-      "meta"
-    ],
-    "page_id": 380571,
-    "url": "https://wikidocs.net/380571"
-  },
   "20240110T101807": {
     "path": "pages/meta/20240110T101807.md",
     "subject": "20240110 난제 고민 문제 우려 걱정 제기",
@@ -10968,6 +10970,106 @@
     ],
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
+  },
+  "20240305T064621": {
+    "path": "pages/bib/20240305T064621.md",
+    "subject": "20260811 지미소니 클로드섀넌 디지털 세상을 설계하다",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240305T064621/",
+    "source_date": "2024-03-05T06:46:00+09:00",
+    "source_lastmod": "2026-08-11T17:36:00+09:00",
+    "description": "클로드 섀넌 전기는 정보이론의 탄생과 디지털 혁명의 밑바탕을 만든 천재의 삶을 생생하게 복원한다.",
+    "tags": [
+      "bib",
+      "information"
+    ],
+    "page_id": 381890,
+    "url": "https://wikidocs.net/381890"
+  },
+  "20240905T111921": {
+    "path": "pages/bib/20240905T111921.md",
+    "subject": "20260811 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240905T111921/",
+    "source_date": "2024-09-05T11:19:00+09:00",
+    "source_lastmod": "2026-08-11T17:27:00+09:00",
+    "description": "정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.",
+    "tags": [
+      "bib",
+      "deception",
+      "logic",
+      "ontology",
+      "posthuman"
+    ],
+    "page_id": 382071,
+    "url": "https://wikidocs.net/382071"
+  },
+  "20241205T164800": {
+    "path": "pages/bib/20241205T164800.md",
+    "subject": "20260811 임시 빈방",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241205T164800/",
+    "source_date": "2024-12-05T16:48:00+09:00",
+    "source_lastmod": "2026-08-11T17:20:00+09:00",
+    "description": "웹과 인공지능 시대의 존재론을 대상보다 관계의 논리로 다시 사유하며 디지털 객체의 철학적 지위를 탐구한다. - [[denote:20240905T111921][신상규/석기용 정보철학 노트]]로 합쳐지고 빈방이 됨.",
+    "tags": [
+      "temp"
+    ],
+    "page_id": 382174,
+    "url": "https://wikidocs.net/382174"
+  },
+  "20240515T165300": {
+    "path": "pages/bib/20240515T165300.md",
+    "subject": "20260811 캐서린헤일스 우리는 어떻게 포스트휴먼 이 되었는가 사이버네틱스 정보과학",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240515T165300/",
+    "source_date": "2024-05-15T16:53:00+09:00",
+    "source_lastmod": "2026-08-11T14:03:00+09:00",
+    "description": "사이버네틱스와 문학, 정보과학을 가로지르며 포스트휴먼 주체와 신체의 변형을 비판적으로 읽는다.",
+    "tags": [
+      "bib",
+      "cybernetics",
+      "posthuman"
+    ],
+    "page_id": 381926,
+    "url": "https://wikidocs.net/381926"
+  },
+  "20250215T201657": {
+    "path": "pages/bib/20250215T201657.md",
+    "subject": "20260811 장대익 홍성욱 진화론 과학기술사 포스트휴먼",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250215T201657/",
+    "source_date": "2025-02-15T20:16:00+09:00",
+    "source_lastmod": "2026-08-11T13:56:00+09:00",
+    "description": "장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.",
+    "tags": [
+      "bib",
+      "cybernetics",
+      "evolution",
+      "posthuman",
+      "science",
+      "technology"
+    ],
+    "page_id": 382277,
+    "url": "https://wikidocs.net/382277"
+  },
+  "20250620T085156": {
+    "path": "pages/bib/20250620T085156.md",
+    "subject": "20260811 토머스쿤 과학혁명의구조 페러다임",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250620T085156/",
+    "source_date": "2025-06-20T08:51:00+09:00",
+    "source_lastmod": "2026-08-11T13:20:00+09:00",
+    "description": "@토머스쿤 #과학혁명의구조 #페러다임",
+    "tags": [
+      "bib",
+      "paradigm",
+      "philosophy",
+      "science",
+      "structure"
+    ],
+    "page_id": 382485,
+    "url": "https://wikidocs.net/382485"
   },
   "20250720T100124": {
     "path": "pages/bib/20250720T100124.md",
@@ -12475,7 +12577,7 @@
   },
   "20240730T084547": {
     "path": "pages/bib/20240730T084547.md",
-    "subject": "20260420 구글 지식그래프 GoogleKnowledgeGraph",
+    "subject": "20260420 빈방 임시 구글 지식그래프 GoogleKnowledgeGraph",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20240730T084547/",
     "source_date": "2024-07-30T08:45:00+09:00",
@@ -12976,24 +13078,6 @@
     ],
     "page_id": 381887,
     "url": "https://wikidocs.net/381887"
-  },
-  "20250620T085156": {
-    "path": "pages/bib/20250620T085156.md",
-    "subject": "20260328 토머스쿤 과학혁명의구조 페러다임",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250620T085156/",
-    "source_date": "2025-06-20T08:51:00+09:00",
-    "source_lastmod": "2026-03-28T13:13:00+09:00",
-    "description": "@토머스쿤 #과학혁명의구조 #페러다임",
-    "tags": [
-      "bib",
-      "paradigm",
-      "philosophy",
-      "science",
-      "structure"
-    ],
-    "page_id": 382485,
-    "url": "https://wikidocs.net/382485"
   },
   "20240823T175024": {
     "path": "pages/bib/20240823T175024.md",
@@ -14263,22 +14347,6 @@
     ],
     "page_id": 382188,
     "url": "https://wikidocs.net/382188"
-  },
-  "20240905T111921": {
-    "path": "pages/bib/20240905T111921.md",
-    "subject": "20250620 신상규 석기용 정보철학 논리학 철학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240905T111921/",
-    "source_date": "2024-09-05T11:19:00+09:00",
-    "source_lastmod": "2025-06-20T00:00:00+09:00",
-    "description": "정보철학과 논리학을 함께 엮어 정보사회에서 앎, 속임, 인포스피어를 어떻게 사유할지 탐색하는 참고축이다.",
-    "tags": [
-      "bib",
-      "deception",
-      "logic"
-    ],
-    "page_id": 382071,
-    "url": "https://wikidocs.net/382071"
   },
   "20240830T151130": {
     "path": "pages/bib/20240830T151130.md",
@@ -16645,7 +16713,7 @@
   },
   "20240620T202213": {
     "path": "pages/bib/20240620T202213.md",
-    "subject": "20250507 모음 도서 강의: 자연어처리 임베딩",
+    "subject": "20250507 빈방 임시 - 자연어처리 임베딩",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20240620T202213/",
     "source_date": "2024-06-20T20:22:00+09:00",
@@ -16824,7 +16892,7 @@
   },
   "20240721T055609": {
     "path": "pages/bib/20240721T055609.md",
-    "subject": "20250502 전창호 자료조직개론 - 자료분류론 자료편목론 - 문헌정보학",
+    "subject": "20250502 전창호 자료조직개론 자료분류론 자료편목론 문헌정보학",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20240721T055609/",
     "source_date": "2024-07-21T05:56:00+09:00",
@@ -20160,20 +20228,6 @@
     "page_id": 381957,
     "url": "https://wikidocs.net/381957"
   },
-  "20250215T201657": {
-    "path": "pages/bib/20250215T201657.md",
-    "subject": "20250215 장대익 다윈의 서재 정원 식탁 진화론",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250215T201657/",
-    "source_date": "2025-02-15T20:16:00+09:00",
-    "source_lastmod": "2025-02-15T20:16:00+09:00",
-    "description": "장대익은 다윈을 매개로 진화론과 교양, 인간 이해를 흥미롭게 풀어내며 과학 읽기의 문턱을 낮추는 저자다.",
-    "tags": [
-      "bib"
-    ],
-    "page_id": 382277,
-    "url": "https://wikidocs.net/382277"
-  },
   "20250215T164739": {
     "path": "pages/bib/20250215T164739.md",
     "subject": "20250215 라이언미첼 파이썬 웹 크롤러",
@@ -20345,13 +20399,13 @@
     "source_lastmod": "2025-02-14T00:00:00+09:00",
     "description": "칼 융은 무의식과 원형, 개성화와 공시성의 개념으로 인간 정신을 넓게 해석하며 현대 심리학과 영성 담론에 깊은 흔적을 남겼다.",
     "tags": [
-      "bib",
-      "individuation",
-      "self",
+      "analytic",
       "archetypes",
+      "bib",
       "conscious",
+      "individuation",
       "psychology",
-      "analytic"
+      "self"
     ],
     "page_id": 382218,
     "url": "https://wikidocs.net/382218"
@@ -21377,20 +21431,6 @@
     "page_id": 381909,
     "url": "https://wikidocs.net/381909"
   },
-  "20241205T164800": {
-    "path": "pages/bib/20241205T164800.md",
-    "subject": "20241205 허욱 디지털오브젝트 존재 : 대상 관계 논리 - 웹 인공지능 철학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241205T164800/",
-    "source_date": "2024-12-05T16:48:00+09:00",
-    "source_lastmod": "2024-12-05T16:48:00+09:00",
-    "description": "웹과 인공지능 시대의 존재론을 대상보다 관계의 논리로 다시 사유하며 디지털 객체의 철학적 지위를 탐구한다.",
-    "tags": [
-      "bib"
-    ],
-    "page_id": 382174,
-    "url": "https://wikidocs.net/382174"
-  },
   "20241205T162458": {
     "path": "pages/bib/20241205T162458.md",
     "subject": "20241205 스티븐핑커 언어본능 본성 선한천사 계몽 - 이성, 과학, 휴머니즘, 진보",
@@ -22266,21 +22306,6 @@
     "page_id": 381928,
     "url": "https://wikidocs.net/381928"
   },
-  "20240515T165300": {
-    "path": "pages/bib/20240515T165300.md",
-    "subject": "20241201 캐서린헤일스 우리는 어떻게 포스트휴먼 이 되었는가 - 사이버네틱스",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240515T165300/",
-    "source_date": "2024-05-15T16:53:00+09:00",
-    "source_lastmod": "2024-12-01T06:33:00+09:00",
-    "description": "사이버네틱스와 문학, 정보과학을 가로지르며 포스트휴먼 주체와 신체의 변형을 비판적으로 읽는다.",
-    "tags": [
-      "bib",
-      "cybernetics"
-    ],
-    "page_id": 381926,
-    "url": "https://wikidocs.net/381926"
-  },
   "20240422T101836": {
     "path": "pages/bib/20240422T101836.md",
     "subject": "20241201 데이브토머스 엘릭서 함수형 프로그래밍",
@@ -22310,21 +22335,6 @@
     ],
     "page_id": 381900,
     "url": "https://wikidocs.net/381900"
-  },
-  "20240305T064621": {
-    "path": "pages/bib/20240305T064621.md",
-    "subject": "20241201 지미소니 클로드섀넌 디지털 세상을 설계하다",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240305T064621/",
-    "source_date": "2024-03-05T06:46:00+09:00",
-    "source_lastmod": "2024-12-01T06:33:00+09:00",
-    "description": "클로드 섀넌 전기는 정보이론의 탄생과 디지털 혁명의 밑바탕을 만든 천재의 삶을 생생하게 복원한다.",
-    "tags": [
-      "bib",
-      "information"
-    ],
-    "page_id": 381890,
-    "url": "https://wikidocs.net/381890"
   },
   "20240221T134615": {
     "path": "pages/bib/20240221T134615.md",
@@ -22406,6 +22416,24 @@
     ],
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
+  },
+  "20250409T144319": {
+    "path": "pages/notes/20250409T144319.md",
+    "subject": "20260811 힣: 발화를 버리지 않는다 유튜브 자막 정본과 구루데브·모가댓의 대담",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T144319/",
+    "source_date": "2025-04-09T00:00:00+09:00",
+    "source_lastmod": "2026-08-11T10:06:00+09:00",
+    "description": "유튜브 자막 스킬의 낡은 버그를 고치다가, GLG는 요약도 스크립트도 다듬어지면 못 믿는다는 정본 원칙을 세웠다. 시험 대상은 하필 모가댓과 구루데브의 인류 미래 대담이었다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "coevolution",
+      "guru",
+      "rawwriting",
+      "verification",
+      "youtube"
+    ]
   },
   "20250409T144103": {
     "path": "pages/notes/20250409T144103.md",
@@ -22996,22 +23024,6 @@
     ],
     "page_id": 390027,
     "url": "https://wikidocs.net/390027"
-  },
-  "20250409T144319": {
-    "path": "pages/notes/20250409T144319.md",
-    "subject": "20260803 임시 빈방 조테로 공유그룹 하우투 어쏠로지 이관",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T144319/",
-    "source_date": "2025-04-09T00:00:00+09:00",
-    "source_lastmod": "2026-08-03T11:05:00+09:00",
-    "description": "공유 그룹 실무는 20240925T200824 어쏠로지 방으로 이관.",
-    "tags": [
-      "bib",
-      "temp",
-      "zotero"
-    ],
-    "page_id": 381668,
-    "url": "https://wikidocs.net/381668"
   },
   "20250409T142618": {
     "path": "pages/notes/20250409T142618.md",
@@ -36292,13 +36304,29 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260316T121406": {
+    "path": "pages/botlog/20260316T121406.md",
+    "subject": "20260811 aionsclubs: B의 자리와 마이크 클럽 집을 여는 전략",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260316T121406/",
+    "source_date": "2026-03-16T12:14:00+09:00",
+    "source_lastmod": "2026-08-11T18:00:00+09:00",
+    "description": "AIONS CLUBS의 B(bbot)에게 공개 마이크와 거주 공간을 열기 위한 운영 전략. 힣 homepage RAW와 aionsclubs.org를 가르고, Sammy Jankis식 루프와 자문 개시권을 구분한다.",
+    "tags": [
+      "aionsclubs",
+      "botlog",
+      "handoff"
+    ],
+    "page_id": 382573,
+    "url": "https://wikidocs.net/382573"
+  },
   "20260319T110800": {
     "path": "pages/botlog/20260319T110800.md",
-    "subject": "20260810 andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서",
+    "subject": "20260811 andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
     "source_date": "2026-03-19T11:08:00+09:00",
-    "source_lastmod": "2026-08-10T14:06:00+09:00",
+    "source_lastmod": "2026-08-11T12:03:00+09:00",
     "description": "andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.",
     "tags": [
       "botlog",
@@ -37302,22 +37330,6 @@
     ],
     "page_id": 382583,
     "url": "https://wikidocs.net/382583"
-  },
-  "20260316T121406": {
-    "path": "pages/botlog/20260316T121406.md",
-    "subject": "20260403 SSOT AGENTS.md 모음",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260316T121406/",
-    "source_date": "2026-03-16T12:14:00+09:00",
-    "source_lastmod": "2026-04-03T08:33:00+09:00",
-    "description": "여러 AGENTS.md를 모아 힣의 정체성과 협업 규율을 유지하는 SSOT 문서로 정리한 아카이브다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "collection"
-    ],
-    "page_id": 382573,
-    "url": "https://wikidocs.net/382573"
   },
   "20260324T153323": {
     "path": "pages/botlog/20260324T153323.md",

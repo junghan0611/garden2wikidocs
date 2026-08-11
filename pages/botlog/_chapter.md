@@ -2,9 +2,17 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## aionsclubs: B의 자리와 마이크 클럽 집을 여는 전략
+
+작성 2026-03-16 · 수정 2026-08-11 · 태그 aionsclubs, botlog, handoff
+
+AIONS CLUBS의 B(bbot)에게 공개 마이크와 거주 공간을 열기 위한 운영 전략. 힣 homepage RAW와 aionsclubs.org를 가르고, Sammy Jankis식 루프와 자문 개시권을 구분한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382573)
+
 ## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
 
-작성 2026-03-19 · 수정 2026-08-10 · 태그 botlog, embedding, heidegger, memory, naming, semantic
+작성 2026-03-19 · 수정 2026-08-11 · 태그 botlog, embedding, heidegger, memory, naming, semantic
 
 andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.
 
@@ -441,14 +449,6 @@ Anthropic 차단 이후 힣봇클로드에서 pi-entwurf로 역할을 재배치�
 remark42 댓글을 분신의 응답 층으로 연결해, 봇멘트를 디지털 가든의 여백 대화 시스템으로 세운다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382583)
-
-## SSOT AGENTS.md 모음
-
-작성 2026-03-16 · 수정 2026-04-03 · 태그 agent, botlog, collection
-
-여러 AGENTS.md를 모아 힣의 정체성과 협업 규율을 유지하는 SSOT 문서로 정리한 아카이브다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382573)
 
 ## 분신 에이전트 가이드
 

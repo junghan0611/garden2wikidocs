@@ -5,9 +5,17 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 198개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 199개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: 발화를 버리지 않는다 유튜브 자막 정본과 구루데브·모가댓의 대담
+
+작성 2025-04-09 · 수정 2026-08-11 · 태그 agent, autholog, coevolution, guru, rawwriting, verification, youtube
+
+유튜브 자막 스킬의 낡은 버그를 고치다가, GLG는 요약도 스크립트도 다듬어지면 못 믿는다는 정본 원칙을 세웠다. 시험 대상은 하필 모가댓과 구루데브의 인류 미래 대담이었다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T144319/)
 
 ## 힣: 밤의 새미 젠킨스 분신에게 넘기는 선택의 값
 

@@ -2,6 +2,54 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 지미소니 클로드섀넌 디지털 세상을 설계하다
+
+작성 2024-03-05 · 수정 2026-08-11 · 태그 bib, information
+
+클로드 섀넌 전기는 정보이론의 탄생과 디지털 혁명의 밑바탕을 만든 천재의 삶을 생생하게 복원한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240305T064621/)
+
+## 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체
+
+작성 2024-09-05 · 수정 2026-08-11 · 태그 bib, deception, logic, ontology, posthuman
+
+정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240905T111921/)
+
+## 임시 빈방 — 2024-12-05
+
+작성 2024-12-05 · 수정 2026-08-11 · 태그 temp
+
+웹과 인공지능 시대의 존재론을 대상보다 관계의 논리로 다시 사유하며 디지털 객체의 철학적 지위를 탐구한다. - [[denote:20240905T111921][신상규/석기용 정보철학 노트]]로 합쳐지고 빈방이 됨.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241205T164800/)
+
+## 캐서린헤일스 우리는 어떻게 포스트휴먼 이 되었는가 사이버네틱스 정보과학
+
+작성 2024-05-15 · 수정 2026-08-11 · 태그 bib, cybernetics, posthuman
+
+사이버네틱스와 문학, 정보과학을 가로지르며 포스트휴먼 주체와 신체의 변형을 비판적으로 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240515T165300/)
+
+## 장대익 홍성욱 진화론 과학기술사 포스트휴먼
+
+작성 2025-02-15 · 수정 2026-08-11 · 태그 bib, cybernetics, evolution, posthuman, science, technology
+
+장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250215T201657/)
+
+## 토머스쿤 과학혁명의구조 페러다임
+
+작성 2025-06-20 · 수정 2026-08-11 · 태그 bib, paradigm, philosophy, science, structure
+
+@토머스쿤 #과학혁명의구조 #페러다임
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250620T085156/)
+
 ## 필립K딕 PhilipKDick · 리들리스콧 RidleyScott · 에이드리언차이콥스키 AdrianTchaikovsky 인간·안드로이드·기억의 SF
 
 작성 2025-07-20 · 수정 2026-08-09 · 태그 bib, future, human, identity, literature, movies, novel, robot
@@ -634,7 +682,7 @@ Hans Rosling의 Factfulness는 statistics, global health, cognitive bias를 통�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240831T222822/)
 
-## 구글 지식그래프 GoogleKnowledgeGraph
+## 빈방 임시 구글 지식그래프 GoogleKnowledgeGraph
 
 작성 2024-07-30 · 수정 2026-04-20 · 태그 bib, information, knowledgegraph, ontology, searchengine
 
@@ -857,14 +905,6 @@ pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Arm
 릭 루빈은 예술을 결과물이 아니라 존재 방식으로 바라보며 영감, 집중, 수용성을 창조의 핵심으로 말한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240301T072554/)
-
-## 토머스쿤 과학혁명의구조 페러다임
-
-작성 2025-06-20 · 수정 2026-03-28 · 태그 bib, paradigm, philosophy, science, structure
-
-@토머스쿤 #과학혁명의구조 #페러다임
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250620T085156/)
 
 ## 모가댓: 행복방정식 스승 공존
 
@@ -1465,14 +1505,6 @@ HTDP는 함수형 사고와 디자인 레시피를 통해 프로그램을 어떻
 @마크롤랜즈 #삶의철학 #늑대 #달리기 #SF영화 #체화인지 #현상학 #삶의철학
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241210T050320/)
-
-## 신상규 석기용 정보철학 논리학 철학
-
-작성 2024-09-05 · 수정 2025-06-20 · 태그 bib, deception, logic
-
-정보철학과 논리학을 함께 엮어 정보사회에서 앎, 속임, 인포스피어를 어떻게 사유할지 탐색하는 참고축이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240905T111921/)
 
 ## 박정일 추상적사고 논리철학 괴델 논리학
 
@@ -2578,7 +2610,7 @@ Cursor와 Windsurf 같은 AI IDE는 GUI 기반 코딩 에이전트가 개발 흐
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250507T073215/)
 
-## 모음 도서 강의: 자연어처리 임베딩
+## 빈방 임시 - 자연어처리 임베딩
 
 작성 2024-06-20 · 수정 2025-05-07 · 태그 ai, corpus, course, embedding, lisp, nlp, nltk, textbook
 
@@ -2658,7 +2690,7 @@ nobiot는 ten 같은 패키지와 글쓰기를 통해 이맥스 내부 개념을
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241016T111657/)
 
-## 전창호 자료조직개론 - 자료분류론 자료편목론 - 문헌정보학
+## 전창호 자료조직개론 자료분류론 자료편목론 문헌정보학
 
 작성 2024-07-21 · 수정 2025-05-02 · 태그 bib, classification, information, kdc
 
@@ -4264,14 +4296,6 @@ Aditya Athalye는 클로저와 이맥스, org-mode를 엮어 사유와 코딩이
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240603T132845/)
 
-## 장대익 다윈의 서재 정원 식탁 진화론
-
-작성 2025-02-15 · 수정 2025-02-15 · 태그 bib
-
-장대익은 다윈을 매개로 진화론과 교양, 인간 이해를 흥미롭게 풀어내며 과학 읽기의 문턱을 낮추는 저자다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250215T201657/)
-
 ## 라이언미첼 파이썬 웹 크롤러
 
 작성 2025-02-15 · 수정 2025-02-15 · 태그 bib, python, scraping, web, nltk
@@ -4354,7 +4378,7 @@ SICPJS는 고전 SICP를 자바스크립트로 다시 풀어내며 추상화와 
 
 ## 칼융 분석심리학 자기실현 공시성
 
-작성 2024-12-24 · 수정 2025-02-14 · 태그 bib, individuation, self, archetypes, conscious, psychology, analytic
+작성 2024-12-24 · 수정 2025-02-14 · 태그 analytic, archetypes, bib, conscious, individuation, psychology, self
 
 칼 융은 무의식과 원형, 개성화와 공시성의 개념으로 인간 정신을 넓게 해석하며 현대 심리학과 영성 담론에 깊은 흔적을 남겼다.
 
@@ -4896,14 +4920,6 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240326T214306/)
 
-## 허욱 디지털오브젝트 존재 : 대상 관계 논리 - 웹 인공지능 철학
-
-작성 2024-12-05 · 수정 2024-12-05 · 태그 bib
-
-웹과 인공지능 시대의 존재론을 대상보다 관계의 논리로 다시 사유하며 디지털 객체의 철학적 지위를 탐구한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241205T164800/)
-
 ## 스티븐핑커 언어본능 본성 선한천사 계몽 - 이성, 과학, 휴머니즘, 진보
 
 작성 2024-12-05 · 수정 2024-12-05 · 태그 bib, enlightenment, progress
@@ -5088,7 +5104,7 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241004T134708/)
 
-## 임시 빈방
+## 임시 빈방 — 2024-09-25
 
 작성 2024-09-25 · 수정 2024-12-01 · 태그 temp
 
@@ -5368,14 +5384,6 @@ countvajhula의 drym 실험은 이맥스 생태계에서 유지보수와 보상 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240516T122851/)
 
-## 캐서린헤일스 우리는 어떻게 포스트휴먼 이 되었는가 - 사이버네틱스
-
-작성 2024-05-15 · 수정 2024-12-01 · 태그 bib, cybernetics
-
-사이버네틱스와 문학, 정보과학을 가로지르며 포스트휴먼 주체와 신체의 변형을 비판적으로 읽는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240515T165300/)
-
 ## 데이브토머스 엘릭서 함수형 프로그래밍
 
 작성 2024-04-22 · 수정 2024-12-01 · 태그 bib, elixir
@@ -5391,14 +5399,6 @@ countvajhula의 drym 실험은 이맥스 생태계에서 유지보수와 보상 
 콜린 맥긴의 『언어철학』은 프레게부터 크립키, 타르스키까지 분석철학의 핵심 논쟁을 선명하게 정리한 입문서다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240318T120005/)
-
-## 지미소니 클로드섀넌 디지털 세상을 설계하다
-
-작성 2024-03-05 · 수정 2024-12-01 · 태그 bib, information
-
-클로드 섀넌 전기는 정보이론의 탄생과 디지털 혁명의 밑바탕을 만든 천재의 삶을 생생하게 복원한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240305T064621/)
 
 ## 야마구치슈 독학 어떻게 삶의 무기가 되는가 - 추상화 구조화 가추법
 

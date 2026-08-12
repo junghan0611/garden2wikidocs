@@ -76,7 +76,7 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
--   [세션도 태그로 줄 세운다 - 추억 EKG 지식그래프](https://notes.junghanacs.com/notes/20240220T091923/)
+-   [세션도 태그로 줄 세운다 - 추억 EKG 지식그래프](https://wikidocs.net/395571)
 -   [발화를 버리지 않는다 - 유튜브 자막 정본 스킬](https://wikidocs.net/395155)
 -   [이맥스에 PI를 초대하는 길 - 저자성 프론트엔드 RPC](https://wikidocs.net/394792)
 -   [밤의 새미 젠킨스 - 훗과 힣 분신들 선택의 값](https://wikidocs.net/394791)

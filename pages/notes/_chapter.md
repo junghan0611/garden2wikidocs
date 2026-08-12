@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 세션도 태그로 줄 세운다 EKG 감각이 대화 더미를 만날 때
+
+작성 2024-02-20 · 수정 2026-08-12 · 태그 agent, autholog, ekg, memory, pkm, tag, taxonomy
+
+2023년부터 이어진 EKG의 태그 우선·무제목 조각 누적 감각을 배경으로, 세션 태그와 인접한 실제 사례·성숙도·가능한 귀결을 계속 관찰한다. 지금 해법을 정하지 않고 리서치 결과가 쌓인 뒤 힣이 시점과 아이디어를 고른다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240220T091923/)
+
 ## 힣: 발화를 버리지 않는다 유튜브 자막 정본과 구루데브·모가댓의 대담
 
 작성 2025-04-09 · 수정 2026-08-11 · 태그 agent, autholog, coevolution, guru, rawwriting, verification, youtube
@@ -598,7 +606,7 @@ Folgezettel 시그니처로 이미 붙인 지식 주소를 발견하고, 임베�
 
 작성 2025-10-30 · 수정 2026-07-28 · 태그 autholog, bib, denote, digitalgarden, hangul, memex, migration, notetaking, rag, synchronization, thread, wikipedia, zettelkasten
 
-@힣: §memex-kb 힣의 범용 #지식베이스 변환 시스템 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
+memex-kb를 힣의 범용 지식베이스 변환 시스템으로 소개하되, 세부 구현은 담당자 문서로 넘기고 핵심 개념만 붙잡아 두는 임시 대기 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381806)
 
@@ -790,7 +798,7 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 작성 2024-12-03 · 수정 2026-07-17 · 태그 mathematics, physics, reality, unified
 
-로저 펜로즈의 『실체에 이르는 길』을 읽고 싶은 욕망과 부담을 함께 기록한 노트이다. 실제 활용 흐름을 담았다.
+로저 펜로즈의 『실체에 이르는 길』을 읽고 싶은 욕망과 부담을 함께 기록한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241203T142716/)
 
@@ -822,7 +830,7 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 작성 2025-03-11 · 수정 2026-07-17 · 태그 aphorism, autholism, autholog, bib, collection, exports, publishing, sns, thread
 
-어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다. 실제 활용 흐름을 담았다.
+어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381579)
 
@@ -910,7 +918,7 @@ doomemacs-config를 단순 닷파일이 아닌 인간과 에이전트 협업 전
 
 작성 2025-04-23 · 수정 2026-07-07 · 태그 adhd, autholog, mindfulness
 
-ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 글이다. 실제 활용 흐름을 담았다.
+ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381693)
 
@@ -990,7 +998,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 작성 2025-11-30 · 수정 2026-06-16 · 태그 alice, autholog, keyboard, tools, usesthis
 
-엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다. 실제 활용 흐름을 담았다.
+엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381834)
 
@@ -1022,7 +1030,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 작성 2024-12-16 · 수정 2026-06-11 · 태그 autholog, hangul, language, mothertongue, repl, toolsforlife
 
-모국어와 거북이, REPL 도구를 통해 쉬운 지식도구의 의미를 생각하는 글이다. 실제 활용 흐름을 담았다.
+모국어와 거북이, REPL 도구를 통해 쉬운 지식도구의 의미를 생각하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381446)
 
@@ -1054,7 +1062,7 @@ Doom Emacs 닷파일을 장기적으로 정리하고 모듈화하기 위한 Emac
 
 작성 2025-12-21 · 수정 2026-06-08 · 태그 denote, exports, guide, hugo
 
-Denote 노트를 Hugo로 내보내는 통합 시스템과 성능 전략을 정리한 노트이다. 실제 활용 흐름을 담았다.
+Denote 노트를 Hugo로 내보내는 통합 시스템과 성능 전략을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251221T120044/)
 
@@ -1062,7 +1070,7 @@ Denote 노트를 Hugo로 내보내는 통합 시스템과 성능 전략을 정�
 
 작성 2025-04-05 · 수정 2026-06-06 · 태그 converting, epub, fileformat, ocr
 
-PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노트이다. 실제 활용 흐름을 담았다.
+PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250405T164632/)
 
@@ -1158,7 +1166,7 @@ PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노
 
 작성 2024-12-09 · 수정 2026-04-29 · 태그 abduction, ai, altruism, ambiguity, emacs, ethics, interface, isms, knowledge, notetaking, pkm
 
-이즘과 주의가 태도와 체제, 권리 개념 사이에서 어떻게 엇갈리는지 묻는 로그이다. 실제 활용 흐름을 담았다.
+이즘과 주의가 태도와 체제, 권리 개념 사이에서 어떻게 엇갈리는지 묻는 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241209T154222/)
 
@@ -1174,7 +1182,7 @@ PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노
 
 작성 2025-04-23 · 수정 2026-04-20 · 태그 autholog, orgmode, rule, sort, tag
 
-Org mode 파일태그 정렬 규칙을 바꾸는 방법을 설명하는 노트이다. 실제 활용 흐름을 담았다가 힣의 태그 규칙으로 업데이트.
+영어 태그가 meta 노트의 자석으로 살아남으려면 개별 단어여야 한다는 힣의 태그 규칙을 못박아 둔 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381696)
 
@@ -1206,7 +1214,7 @@ Org mode 파일태그 정렬 규칙을 바꾸는 방법을 설명하는 노트�
 
 작성 2024-09-16 · 수정 2026-04-17 · 태그 emacs, fonts, unicode
 
-Symbola를 이용해 유니코드 수식 문자와 합자, 폰트 높이 문제를 맞추는 설정 기록. 실제 활용 흐름을 담았다.
+Symbola를 이용해 유니코드 수식 문자와 합자, 폰트 높이 문제를 맞추는 설정 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240916T113456/)
 
@@ -1246,7 +1254,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 작성 2025-03-18 · 수정 2026-04-12 · 태그 examples, orgmode, templates
 
-현대적인 Org 문서 예시와 템플릿 구조를 참고하려고 모아 둔 노트이다. 실제 활용 흐름을 담았다.
+현대적인 Org 문서 예시와 템플릿 구조를 참고하려고 모아 둔 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250318T155206/)
 
@@ -1254,7 +1262,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 작성 2024-12-02 · 수정 2026-04-06 · 태그 baron, chatgpt
 
-온생명과 채티가 나눈 순수한 질문답변을 통해 아이와 인공지능 소통을 기록한 로그이다. 실제 활용 흐름을 담았다.
+온생명과 채티가 나눈 순수한 질문답변을 통해 아이와 인공지능 소통을 기록한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241202T085528/)
 
@@ -1270,7 +1278,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 작성 2025-03-05 · 수정 2026-04-02 · 태그 autholog, bib, glassbeadgame, inspiration, spirituality
 
-유리알유희를 오늘날의 구슬과 놀이, 메타노트 감각으로 다시 풀어내는 글이다. 실제 활용 흐름을 담았다.
+유리알유희를 오늘날의 구슬과 놀이, 메타노트 감각으로 다시 풀어내는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381567)
 
@@ -1286,7 +1294,7 @@ PARA와 세컨드브레인 담론을 이맥스, 조직모드, 제텔카스텐 �
 
 작성 2024-12-13 · 수정 2026-03-22 · 태그 autholog, awareness, spirituality
 
-고통체와 분노를 흘려보내고 허락하는 태도를 삶의 감각으로 적어 둔 노트이다. 실제 활용 흐름을 담았다.
+고통체와 분노를 흘려보내고 허락하는 태도를 삶의 감각으로 적어 둔 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381434)
 
@@ -1326,7 +1334,7 @@ PARA와 세컨드브레인 담론을 이맥스, 조직모드, 제텔카스텐 �
 
 작성 2025-04-03 · 수정 2026-03-16 · 태그 bib, hci, presentation, uiux
 
-네모유엑스의 다중 사용자용 운영체제 발표 자료와 HCIK 맥락을 정리한 노트이다. 실제 활용 흐름을 담았다.
+네모유엑스의 다중 사용자용 운영체제 발표 자료와 HCIK 맥락을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250403T082120/)
 
@@ -1334,7 +1342,7 @@ PARA와 세컨드브레인 담론을 이맥스, 조직모드, 제텔카스텐 �
 
 작성 2025-04-15 · 수정 2026-03-14 · 태그 bib, clojure, datalog, lisp, lists, logic, programming, symbolic
 
-Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트이다. 실제 활용 흐름을 담았다.
+Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250415T165756/)
 
@@ -1366,7 +1374,7 @@ Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트�
 
 작성 2025-10-15 · 수정 2026-02-18 · 태그 agent, ai, aionsclubs, autholog, being, ecosystem
 
-@힣: 시간과정신의방 존재 데이터 뷰어
+홈페이지를 존재 데이터 뷰어로 전환하여 에이전트와 인간 모두에게 자신을 소개하려는 비전을 담는다. 시간축과 존재 데이터, AIONS 생태계가 만나는 중심 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381793)
 
@@ -1398,7 +1406,7 @@ Quartz 블로그에서 댓글과 소통 기능을 Disqus, Giscus, Remark42로 �
 
 작성 2025-02-23 · 수정 2026-02-16 · 태그 autholog, bib, gemini, generator, image
 
-사이트 아이콘과 파비콘, OG 이미지까지 브랜드 세트를 구상하는 노트이다. 실제 활용 흐름을 담았다.
+사이트 아이콘과 파비콘, OG 이미지까지 브랜드 세트를 구상하는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381549)
 
@@ -1406,7 +1414,7 @@ Quartz 블로그에서 댓글과 소통 기능을 Disqus, Giscus, Remark42로 �
 
 작성 2025-12-07 · 수정 2026-02-15 · 태그 agent, autholog, claude, emacs, hangul, i3wm, orchestration, terminal, voice, whisper, workflow
 
-멀티 에이전트 인간이라는 관점에서 인간과 도구, 감각 기관을 오케스트레이션하는 노트이다. 실제 활용 흐름을 담았다.
+멀티 에이전트 인간이라는 관점에서 인간과 도구, 감각 기관을 오케스트레이션하는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381838)
 
@@ -1414,7 +1422,7 @@ Quartz 블로그에서 댓글과 소통 기능을 Disqus, Giscus, Remark42로 �
 
 작성 2025-02-19 · 수정 2026-02-15 · 태그 bib, education, hangul, scratch
 
-KTurtle을 한글 코딩과 터틀기하학 교육 도구로 기록한 교육 노트이다. 실제 활용 흐름을 담았다.
+KTurtle을 한글 코딩과 터틀기하학 교육 도구로 기록한 교육 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250219T100218/)
 
@@ -1422,7 +1430,7 @@ KTurtle을 한글 코딩과 터틀기하학 교육 도구로 기록한 교육 �
 
 작성 2024-12-13 · 수정 2026-02-15 · 태그 autholog, education, geometry, mathematics, scratch
 
-기하학을 통해 수학을 다시 배우려는 힣의 교육적 접근을 모은 사유 노트이다. 실제 활용 흐름을 담았다.
+기하학을 통해 수학을 다시 배우려는 힣의 교육적 접근을 모은 사유 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381428)
 
@@ -1446,7 +1454,7 @@ Claude Code를 OpenAI 호환 wrapper로 감싸 GPTel과 연결하는 실험과 �
 
 작성 2024-12-03 · 수정 2026-02-13 · 태그 adhd, ai, autholog, indistractable
 
-ADHD와 AI 활용의 의미를 자신의 사례와 예시를 통해 다시 설명해 보려는 노트이다. 실제 활용 흐름을 담았다.
+ADHD와 AI 활용의 의미를 자신의 사례와 예시를 통해 다시 설명해 보려는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381394)
 
@@ -1478,7 +1486,7 @@ Grafana Cloud Loki 무료 티어로 허브와 디바이스 로깅 시스템을 �
 
 작성 2024-12-04 · 수정 2026-02-02 · 태그 field
 
-아인슈타인 장방정식과 민코프스키 시공간 의미를 LLM 질답으로 풀어 본 초안 노트이다. 실제 활용 흐름을 담았다.
+아인슈타인 장방정식과 민코프스키 시공간 의미를 LLM 질답으로 풀어 본 초안 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241204T095412/)
 
@@ -1486,7 +1494,7 @@ Grafana Cloud Loki 무료 티어로 허브와 디바이스 로깅 시스템을 �
 
 작성 2024-10-18 · 수정 2026-02-01 · 태그 bib, ebook, install, opensource, reader, viewer
 
-Calibre 설치와 도서관리, 입력기 문제를 함께 정리한 전자책 도구 운영 노트이다. 실제 활용 흐름을 담았다.
+Calibre 설치와 도서관리, 입력기 문제를 함께 정리한 전자책 도구 운영 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241018T120024/)
 
@@ -1494,7 +1502,7 @@ Calibre 설치와 도서관리, 입력기 문제를 함께 정리한 전자책 �
 
 작성 2025-04-16 · 수정 2026-01-31 · 태그 bib, editing, emacs, format, orgmode, workflow
 
-#이맥스 #조직모드: 강제 줄바꿈(soft line break), 빈줄 삭제(blank-line)
+soft line break와 blank line 삭제를 Vim과 Emacs 관점에서 비교하며 정리한다. flush-lines 같은 기본 도구를 이용해 텍스트를 빠르게 정리하는 실용 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250416T182533/)
 
@@ -1502,7 +1510,7 @@ Calibre 설치와 도서관리, 입력기 문제를 함께 정리한 전자책 �
 
 작성 2025-01-31 · 수정 2026-01-29 · 태그 automation, bib, credential, security, textlint
 
-gitleaks와 secretlint로 저장소의 비밀정보를 검사하고 정리하는 노트이다. 실제 활용 흐름을 담았다.
+gitleaks와 secretlint로 저장소의 비밀정보를 검사하고 정리하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250131T190035/)
 
@@ -1510,7 +1518,7 @@ gitleaks와 secretlint로 저장소의 비밀정보를 검사하고 정리하는
 
 작성 2025-10-30 · 수정 2026-01-27 · 태그 autholog, nixos, reproducibility
 
-nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
+nixos-config 저장소를 대장장이의 대장간 같은 운영체제 설정 인프라로 소개하며 재현 가능성과 도구 주권을 OS 수준에서 구현하려는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381803)
 
@@ -1526,15 +1534,15 @@ Claude 영혼 문서와 OpenAI Model Spec을 엮어 윤리 규칙을 읽는 노�
 
 작성 2025-10-30 · 수정 2026-01-22
 
-여러 -config 리포지토리의 목적과 차이를 README 중심으로 개괄하는 노트이다. 실제 활용 흐름을 담았다.
+여러 -config 리포지토리의 목적과 차이를 README 중심으로 개괄하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011110/)
 
-## Threads API 토큰 갱신 및 Flake 전환
+## 빈방 임시 대기중 - Threads API 토큰 갱신 및 Flake 전환
 
-작성 2026-01-21 · 수정 2026-01-21 · 태그 bib, nix, thread, token
+작성 2026-01-21 · 수정 2026-01-21 · 태그 bib, nix, temp, thread, token
 
-Threads API 토큰 갱신과 Nix Flake 전환 과정을 기록한 운영 노트이다. 실제 활용 흐름을 담았다.
+Threads API 토큰 갱신과 Nix Flake 전환 과정을 기록한 운영 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20260121T133045/)
 
@@ -1542,7 +1550,7 @@ Threads API 토큰 갱신과 Nix Flake 전환 과정을 기록한 운영 노트�
 
 작성 2025-12-29 · 수정 2025-12-29 · 태그 existence, inquiry, spirituality, wonder
 
-애니 딜라드와 케빈 켈리의 영향 관계를 탐색하며 존재와 경이의 감각을 잇는 노트이다. 실제 활용 흐름을 담았다.
+애니 딜라드와 케빈 켈리의 영향 관계를 탐색하며 존재와 경이의 감각을 잇는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251229T191350/)
 
@@ -1566,7 +1574,7 @@ Windows에서 WSL2를 경유해 ext4 외장하드를 마운트하는 절차를 �
 
 작성 2025-12-06 · 수정 2025-12-06 · 태그 autholog, check, philosophy, self
 
-@힣: 자기점검: 지난 가이드 이후의 변화 #제미나이
+이전 가이드 이후 실제 행동과 환경, 프로젝트에서 무엇이 달라졌는지 제미나이와의 대화를 통해 자기 점검한다. 등대지기 원형에서 세계의 오케스트레이터로 확장되는 변화를 정리한 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381837)
 
@@ -1614,7 +1622,7 @@ Steve Yegge 인터뷰를 통해 바이브코딩과 ACP 도구 본질을 분석�
 
 작성 2025-11-21 · 수정 2025-11-21 · 태그 elisp, emacs, mcp, repl
 
-Emacs와 AI를 MCP와 REPL 중심 협업 패러다임으로 다시 묶어 보는 노트이다. 실제 활용 흐름을 담았다.
+Emacs와 AI를 MCP와 REPL 중심 협업 패러다임으로 다시 묶어 보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251121T132314/)
 
@@ -1638,7 +1646,7 @@ Playwright와 Kapture, Browserbase를 MCP 생태계 기준으로 비교하는 �
 
 작성 2025-11-21 · 수정 2025-11-21 · 태그 autholog, philosophy, security
 
-보안 사고 대응 경험을 다섯 가지 원칙으로 증류해 남긴 철학적 기록 노트이다. 실제 활용 흐름을 담았다.
+보안 사고 대응 경험을 다섯 가지 원칙으로 증류해 남긴 철학적 기록 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381818)
 
@@ -1654,7 +1662,7 @@ LM Studio를 로컬 LLM 실행기이자 OpenAI 호환 서버로 활용하는 장
 
 작성 2025-11-14 · 수정 2025-11-14 · 태그 denote, dynamic, management
 
-리포지토리 중심으로 Denote Silo를 동적으로 관리하는 시스템 개요 노트이다. 실제 활용 흐름을 담았다.
+리포지토리 중심으로 Denote Silo를 동적으로 관리하는 시스템 개요 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251114T190252/)
 
@@ -1662,7 +1670,7 @@ LM Studio를 로컬 LLM 실행기이자 OpenAI 호환 서버로 활용하는 장
 
 작성 2025-11-14 · 수정 2025-11-14 · 태그 autholog, google, mcp, workflow
 
-워크스페이스와 에이전트, 여러 서비스를 하나로 묶으려는 통합 전략 노트이다. 실제 활용 흐름을 담았다.
+워크스페이스와 에이전트, 여러 서비스를 하나로 묶으려는 통합 전략 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381815)
 
@@ -1670,7 +1678,7 @@ LM Studio를 로컬 LLM 실행기이자 OpenAI 호환 서버로 활용하는 장
 
 작성 2025-11-11 · 수정 2025-11-11 · 태그 claude, workflow, anthropic, ecosystem, github, request
 
-Claude Code Web을 PR 중심 비동기 협업 워크플로우로 재해석하는 노트이다. 실제 활용 흐름을 담았다.
+Claude Code Web을 PR 중심 비동기 협업 워크플로우로 재해석하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251111T155842/)
 
@@ -1678,7 +1686,7 @@ Claude Code Web을 PR 중심 비동기 협업 워크플로우로 재해석하는
 
 작성 2025-11-05 · 수정 2025-11-05 · 태그 autholog, history, korea, science, universalism
 
-하와이 이민사와 태평양의 흐름을 한인 독립운동까지 확장해 정리한 역사 노트이다. 실제 활용 흐름을 담았다.
+하와이 이민사와 태평양의 흐름을 한인 독립운동까지 확장해 정리한 역사 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381812)
 
@@ -1686,7 +1694,7 @@ Claude Code Web을 PR 중심 비동기 협업 워크플로우로 재해석하는
 
 작성 2025-10-30 · 수정 2025-10-30 · 태그 memex, interface, fork
 
-Memacs를 인간과 AI가 공유하는 삶의 인터페이스로 재해석한 포크 프로젝트 노트이다. 실제 활용 흐름을 담았다.
+Memacs를 인간과 AI가 공유하는 삶의 인터페이스로 재해석한 포크 프로젝트 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011109/)
 
@@ -1694,7 +1702,7 @@ Memacs를 인간과 AI가 공유하는 삶의 인터페이스로 재해석한 �
 
 작성 2025-10-30 · 수정 2025-10-30 · 태그 agent, family, mcp
 
-family-config를 AI 기반 가족 생활 관리 시스템으로 바라보는 노트이다. 실제 활용 흐름을 담았다.
+family-config를 AI 기반 가족 생활 관리 시스템으로 바라보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251030T011107/)
 
@@ -1726,7 +1734,7 @@ PKA, PKB, PKM 같은 개인지식관리 약어 체계를 스스로 정의해 보
 
 작성 2025-10-21 · 수정 2025-10-21 · 태그 anthropic, delegate, education, skills
 
-skill-creator를 대장장이가 도구를 에이전트에게 주는 철학으로 풀어낸 노트이다. 실제 활용 흐름을 담았다.
+skill-creator를 대장장이가 도구를 에이전트에게 주는 철학으로 풀어낸 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251021T164500/)
 
@@ -1798,7 +1806,7 @@ Reagent가 ClojureScript와 React 사이에서 어떤 최소 인터페이스를 
 
 작성 2025-08-07 · 수정 2025-08-07 · 태그 trust, calibration, autholog
 
-@힣: 인간지능 인공지능 신뢰 보정 문제
+AI가 우회로를 제시하며 되는 척 답하는 문제를 예로 들어, 인간지능과 인공지능 사이의 신뢰 협업 규칙을 만들려는 고민을 담는다. 실제 배포 실패를 막기 위한 신뢰 보정 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381788)
 
@@ -1814,7 +1822,7 @@ AI 과신과 자동화 편향을 줄이기 위해 인간과 인공지능 협업�
 
 작성 2025-07-27 · 수정 2025-07-27 · 태그 ai, autholog, digitalgarden, emacs, metacognition, orgmode, technium, toolsforthought
 
-@힣: 친구가 힣에 대해 묻고 인공지능이 답하다
+힣이 보내는 낯선 카톡과 디지털가든 글을 이해하지 못하는 친구를 위해 친절한 해설을 제공하는 노트다. 외부 시선으로 힣의 세계관과 도구 철학을 번역하는 가이드 역할을 한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381784)
 
@@ -1830,7 +1838,7 @@ Claude API 기반 Emacs 통합 아키텍처 프로젝트
 
 작성 2025-07-22 · 수정 2025-07-22 · 태그 ai, bib, gptel, llm, management, projects
 
-@Kmontag §Macher 지피텔 플러그인 프로젝트 워크스페이스 관리
+Macher가 gptel 기반으로 프로젝트 맥락과 파일 편집을 어떻게 관리하는지 정리한다. Aider나 Plandex와 비교되는 Emacs 네이티브 워크스페이스 관리 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250722T095713/)
 
@@ -1846,7 +1854,7 @@ Claude Desktop에서 아티팩트 생성과 문서 길이를 제어하는 워크
 
 작성 2025-07-20 · 수정 2025-07-20 · 태그 neovim, dotfiles, terminal, texteditor, bib
 
-@junghan0611 §astronvim-config
+AstroNvim 기반 설정 저장소를 통해 Neovim에서 클로저와 개발 워크플로우를 어떻게 가져갈지 기록한다. Emacs 바깥 대안 에디터를 가볍게 실험하는 닷파일 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250720T171730/)
 
@@ -1878,7 +1886,7 @@ Atuin과 McFly로 쉘 히스토리를 저장·검색하고 닷파일에 안정�
 
 작성 2024-10-06 · 수정 2025-07-18 · 태그 dotfiles, literate, configuration, orgmode
 
-조직모드 기반 리터레이트 닷파일 구성을 프로테실라오스 사례로 배워 보려는 노트이다. 실제 활용 흐름을 담았다.
+조직모드 기반 리터레이트 닷파일 구성을 프로테실라오스 사례로 배워 보려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241006T190441/)
 
@@ -1910,7 +1918,7 @@ Tramp와 sudo를 이용해 이맥스에서 슈퍼유저 권한 작업을 안전�
 
 작성 2024-10-30 · 수정 2025-07-16 · 태그 cloud, storage, synchronization, linux
 
-드랍박스와 구글드라이브를 리눅스에서 동기화하는 방법과 대안을 간단히 정리한 노트이다. 실제 활용 흐름을 담았다.
+드랍박스와 구글드라이브를 리눅스에서 동기화하는 방법과 대안을 간단히 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241030T155644/)
 
@@ -1926,7 +1934,7 @@ Tramp와 sudo를 이용해 이맥스에서 슈퍼유저 권한 작업을 안전�
 
 작성 2025-07-14 · 수정 2025-07-14 · 태그 autholog, automation, git, literate, orgbabel, programming, vibecoding, workflow
 
-@힣: 리포 문서 중심 바이브 코딩 - 이맥스 리터레이트 프로그래밍
+코드를 리포지토리보다 지식베이스 중심에서 다루며 tangle과 detangle로 문서와 실행물을 오가는 전략을 설명한다. 에이전트 코딩 시대의 Emacs literate workflow를 정리한 핵심 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381773)
 
@@ -1974,7 +1982,7 @@ AI 클러스터를 운영하는 인프라 담당자가 구축 이후 맡게 되�
 
 작성 2025-07-07 · 수정 2025-07-07 · 태그 autholog, lifelog, deepwork, worklog, office
 
-@힣: 회사 직장 생활 - 체험 삶의현장 인간시대
+회사를 다니며 처음 겪는 존중과 노동, 감사의 감각을 삶의 연대기처럼 적어 내려간다. 직장 생활을 단순 커리어가 아니라 인간 시대의 현장 체험으로 읽는 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381767)
 
@@ -2014,7 +2022,7 @@ SSH와 ip, ethtool 같은 리눅스 운영 명령을 빠르게 복기하려고 �
 
 작성 2025-07-03 · 수정 2025-07-03 · 태그 storage, linux, nvme, clusters, raid, ai
 
-#스토리지 #RAID ¤bcache 클러스터 리눅스 구성 ¤gpustack ¤dify
+bcache와 RAID, NVMe 캐시를 AI 클러스터용 스토리지 설계 맥락에서 정리한다. GPUStack과 Dify 운영까지 염두에 둔 저장소 구성 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250703T141927/)
 
@@ -2022,7 +2030,7 @@ SSH와 ip, ethtool 같은 리눅스 운영 명령을 빠르게 복기하려고 �
 
 작성 2025-07-03 · 수정 2025-07-03 · 태그 ai, bib, clusters, gpu, llm, manager, opensource
 
-¤GPUStack AI 클러스터 GPU 관리자 오픈소스
+GPUStack을 오픈소스 AI 클러스터 GPU 관리자 도구로 소개하는 노트다. 여러 GPU 자원을 묶어 관리하고 싶은 환경에서 참고할 만한 메모다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250703T122958/)
 
@@ -2038,7 +2046,7 @@ Ray를 GPUStack 맥락의 분산 처리 프레임워크로 보고 병렬 실행�
 
 작성 2025-07-02 · 수정 2025-07-02 · 태그 emacs, android, flutter, development, desktop, mobile, ide
 
-†#이맥스 #통합개발환경 #크로스플랫폼: Dart 플러터
+Dart와 Flutter를 Emacs 기반 크로스플랫폼 통합개발환경 안에서 어떻게 다룰지 정리한다. 모바일과 데스크톱 개발을 텍스트 도구로 묶어 보려는 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250702T135105/)
 
@@ -2062,7 +2070,7 @@ IoT 플랫폼을 이해할 때 필요한 장치 관리·수집·처리·시각�
 
 작성 2025-06-30 · 수정 2025-06-30 · 태그 ecosystem, system, platform, concepts, awkward, dictionary
 
-#시스템 #플랫폼 #생태계 개념 비교
+시스템과 플랫폼, 생태계, 인프라의 관계를 비교하며 개념을 확장해 보는 노트다. 자주 섞여 쓰이는 말들의 층위를 구분하려는 개념 정리 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250630T121754/)
 
@@ -2118,7 +2126,7 @@ zoxide를 중심으로 fasd·autojump 계열 디렉토리 이동 도구의 차�
 
 작성 2025-06-26 · 수정 2025-06-26 · 태그 iot, platform, requirements, deployment, bib, development
 
-©Thingsboard IoT 플랫폼
+ThingsBoard PE 에디션을 소규모 IoT 플랫폼으로 개발·배포할 때 필요한 아키텍처와 키워드를 정리한다. 시스템 구조와 프로토콜, 저장소 선택까지 폭넓게 담은 실무 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250626T150530/)
 
@@ -2150,7 +2158,7 @@ Dify를 지식베이스와 워크플로우를 갖춘 에이전틱 AI 개발 플�
 
 작성 2025-05-29 · 수정 2025-06-24 · 태그 version, manager, scripts, bib, install
 
-@nodejs §nvm 노드 버전 관리자 포직스 호환 설치 스크립트
+nvm이 POSIX 호환 설치 스크립트와 함께 Node.js 버전을 어떻게 관리하는지 정리한다. 자바스크립트 런타임 환경 정리에 유용한 기본 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250529T161426/)
 
@@ -2158,7 +2166,7 @@ Dify를 지식베이스와 워크플로우를 갖춘 에이전틱 AI 개발 플�
 
 작성 2025-02-03 · 수정 2025-06-24 · 태그 bib, community, linux
 
-클리앙 리눅서당을 한국 리눅스 커뮤니티 맥락에서 기록한 짧은 노트이다. 실제 활용 흐름을 담았다.
+클리앙 리눅서당을 한국 리눅스 커뮤니티 맥락에서 기록한 짧은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250203T203622/)
 
@@ -2238,7 +2246,7 @@ DUO 3.0과 천일문식 예문을 바탕으로 영어 문장과 구문 감각을
 
 작성 2025-01-24 · 수정 2025-06-17 · 태그 bib, check, health, medicine, hospital
 
-정기 건강검진 예약과 병원 안내를 남겨 두는 건강 관리 노트이다. 실제 활용 흐름을 담았다.
+정기 건강검진 예약과 병원 안내를 남겨 두는 건강 관리 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250124T133900/)
 
@@ -2246,7 +2254,7 @@ DUO 3.0과 천일문식 예문을 바탕으로 영어 문장과 구문 감각을
 
 작성 2024-10-10 · 수정 2025-06-17 · 태그 bib, knowledge, community, learning, reading
 
-공부와 독서, 지식 공동체와 모임 자료를 묶어 보는 커뮤니티 컬렉션 노트이다. 실제 활용 흐름을 담았다.
+공부와 독서, 지식 공동체와 모임 자료를 묶어 보는 커뮤니티 컬렉션 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241010T112207/)
 
@@ -2254,7 +2262,7 @@ DUO 3.0과 천일문식 예문을 바탕으로 영어 문장과 구문 감각을
 
 작성 2025-06-16 · 수정 2025-06-16 · 태그 denote, visualization, statistics, zettelkasten, emacs, orgmode, knowledge, graph, toolsforthought, bib
 
-@junghan0611 §denote-explore 디노트 확장 플러그인 일괄변경 통계 검색 시각화 도구
+denote-explore를 통해 Denote 노트의 통계와 시각화, 일괄 변경 기능을 어떻게 활용할지 다룬다. 지식 그래프를 눈으로 확인하고 조율하는 확장 도구 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250616T144119/)
 
@@ -2262,7 +2270,7 @@ DUO 3.0과 천일문식 예문을 바탕으로 영어 문장과 구문 감각을
 
 작성 2025-02-03 · 수정 2025-06-16 · 태그 bib, collection, cheatsheet, manual, knowing, information, github, programmer, productivity, daily
 
-개발자 생산성 도구와 팁, 치트시트, 매뉴얼을 넓게 모아 두는 컬렉션 노트이다. 실제 활용 흐름을 담았다.
+개발자 생산성 도구와 팁, 치트시트, 매뉴얼을 넓게 모아 두는 컬렉션 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250203T221636/)
 
@@ -2270,7 +2278,7 @@ DUO 3.0과 천일문식 예문을 바탕으로 영어 문장과 구문 감각을
 
 작성 2025-01-19 · 수정 2025-06-15 · 태그 keyboard, keybindings, layout, emacs, linux, omni
 
-새끼손가락 부담을 줄이기 위한 키보드 레이아웃과 한영키 재배치를 정리한 노트이다. 실제 활용 흐름을 담았다.
+새끼손가락 부담을 줄이기 위한 키보드 레이아웃과 한영키 재배치를 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250119T000448/)
 
@@ -2286,7 +2294,7 @@ DUO 3.0과 천일문식 예문을 바탕으로 영어 문장과 구문 감각을
 
 작성 2024-12-23 · 수정 2025-06-12 · 태그 autholog, hangul
 
-자신의 이름 어원을 칼 융과 혁신, 어린이, 초인의 이미지와 연결해 푼 글이다. 실제 활용 흐름을 담았다.
+자신의 이름 어원을 칼 융과 혁신, 어린이, 초인의 이미지와 연결해 푼 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381466)
 
@@ -2310,7 +2318,7 @@ Kiwix로 오프라인 위키백과와 교육용 사전 환경을 만들 수 있�
 
 작성 2025-03-21 · 수정 2025-06-09 · 태그 autholog, bib, coding, emacs, keybindings, spacemacs, vim, vscode, vspacecode
 
-코딩 도구 춘추전국시대에 키바인딩 통합이 왜 중요한지 말하는 글이다. 실제 활용 흐름을 담았다.
+코딩 도구 춘추전국시대에 키바인딩 통합이 왜 중요한지 말하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381606)
 
@@ -2334,7 +2342,7 @@ opam과 VSCode 경로를 이용해 Coq를 설치하고 언어 서버까지 맞�
 
 작성 2025-02-12 · 수정 2025-06-07 · 태그 bib, comment, quarto
 
-Quarto 사이트에 Waline 댓글 시스템을 붙이는 방법을 살펴보는 실용 노트이다. 실제 활용 흐름을 담았다.
+Quarto 사이트에 Waline 댓글 시스템을 붙이는 방법을 살펴보는 실용 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T133350/)
 
@@ -2342,7 +2350,7 @@ Quarto 사이트에 Waline 댓글 시스템을 붙이는 방법을 살펴보는 
 
 작성 2024-12-15 · 수정 2025-06-07 · 태그 autocompletion, bugfix, configuration, doomemacs, problem, snippet, solution
 
-#둠이맥스 #자동완성 #스니펫: 설정 문제 해결 §corfu §yasnippet-capf
+Doom Emacs 환경에서 corfu와 yasnippet-capf, doom-snippets가 어떻게 얽히는지 추적한다. 스니펫 자동완성 문제가 왜 생기는지 실제 변수와 경로를 통해 확인하는 해결 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241215T123917/)
 
@@ -2350,7 +2358,7 @@ Quarto 사이트에 Waline 댓글 시스템을 붙이는 방법을 살펴보는 
 
 작성 2024-09-08 · 수정 2025-06-07 · 태그 bib, digitalgarden, evergreen, notetaking, pkm, zettelkasten
 
-에버그린 노트를 씨앗과 줄기, 열매의 단계로 바라보며 디지털가든에 연결하는 노트. 실제 활용 흐름을 담았다.
+에버그린 노트를 씨앗과 줄기, 열매의 단계로 바라보며 디지털가든에 연결하는 노트.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240908T065729/)
 
@@ -2430,7 +2438,7 @@ TaskJuggler와 org-columns를 연결해 이맥스에서 태스크 관리 구조�
 
 작성 2024-12-24 · 수정 2025-06-04 · 태그 ansible, guix, hamonikr, nix, autholog, reproducibility, rollback, distribution
 
-롤백 가능한 공개 닷파일과 운영체제 배포 구상을 삶의 도구 차원에서 적은 글이다. 실제 활용 흐름을 담았다.
+롤백 가능한 공개 닷파일과 운영체제 배포 구상을 삶의 도구 차원에서 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381469)
 
@@ -2470,7 +2478,7 @@ Emacs abbrev 기능으로 자주 쓰는 축약어를 자동 확장하는 방법�
 
 작성 2024-10-24 · 수정 2025-06-03 · 태그 digital, minimalism, prices
 
-휴대폰 요금제를 프리미엄에서 저렴한 컴팩트형으로 바꾸며 생긴 조건을 기록한 메모이다. 실제 활용 흐름을 담았다.
+휴대폰 요금제를 프리미엄에서 저렴한 컴팩트형으로 바꾸며 생긴 조건을 기록한 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241024T131110/)
 
@@ -2478,7 +2486,7 @@ Emacs abbrev 기능으로 자주 쓰는 축약어를 자동 확장하는 방법�
 
 작성 2024-09-15 · 수정 2025-06-03 · 태그 bib, emacs, knowledge, ai, toolsforthought, pkm, guide
 
-솔로 지식 노동자를 위한 인공지능 도구와 개인지식관리 활용 가이드를 묶은 책 노트이다. 실제 활용 흐름을 담았다.
+솔로 지식 노동자를 위한 인공지능 도구와 개인지식관리 활용 가이드를 묶은 책 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240915T234527/)
 
@@ -2526,7 +2534,7 @@ Emacs abbrev 기능으로 자주 쓰는 축약어를 자동 확장하는 방법�
 
 작성 2025-06-01 · 수정 2025-06-01 · 태그 vscode, spacemacs, ide, ai, bib, configuration
 
-§VSpaceCode #vscode 스페이스맥스 키바인딩
+VSpaceCode를 통해 VSCode에 스페이스맥스식 키바인딩을 입히는 설정 흐름을 정리한다. Emacs 밖에서도 몸의 리듬을 이어 가려는 크로스플랫폼 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250601T145754/)
 
@@ -2606,7 +2614,7 @@ Emacs abbrev 기능으로 자주 쓰는 축약어를 자동 확장하는 방법�
 
 작성 2023-07-05 · 수정 2025-05-29 · 태그 emacside, javascript, web
 
-#이맥스통합개발환경: #웹 자바스크립트
+이맥스를 웹과 자바스크립트 개발 환경으로 쓰기 위한 패키지, LSP, 실행 도구 구성을 정리한다. 라이팅허브 같은 실제 프로젝트에 바로 쓸 수 있도록 최소하지만 통합된 개발 환경을 만드는 데 초점이 있다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230705T103200/)
 
@@ -2614,7 +2622,7 @@ Emacs abbrev 기능으로 자주 쓰는 축약어를 자동 확장하는 방법�
 
 작성 2025-05-28 · 수정 2025-05-28 · 태그 semantic, emacs, packages, bib, embedding, database
 
-@ahyatt §semext LLM 시맨틱 확장 이맥스 패키지
+semext와 embed-db가 Emacs 안에서 시맨틱 임베딩과 확장을 어떻게 구현하는지 살핀다. 의미 기반 검색과 편집기 통합을 잇는 패키지 탐색 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250528T114254/)
 
@@ -2678,7 +2686,7 @@ STEAM 융합교육이 과학기술과 예술, 창의성 교육을 어떻게 묶�
 
 작성 2025-05-26 · 수정 2025-05-26 · 태그 ai, warrior, speculation, autholog
 
-#리스크 #투자 #인공지능 #인터널브랜딩 #전사
+AI 투기와 투자, 리스크, 전사적 브랜딩의 문제를 한 덩어리로 바라보는 글이다. 기술 열풍 속 조직과 개인이 어떤 태도를 취해야 하는지 묻는 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381729)
 
@@ -2686,7 +2694,7 @@ STEAM 융합교육이 과학기술과 예술, 창의성 교육을 어떻게 묶�
 
 작성 2025-05-26 · 수정 2025-05-26 · 태그 ai, semiconductors, toolsforthought, future, autholog
 
-#AI반도체: #지식관리 #디바이스 #미래
+인생도구와 지식관리, 교육, AI 반도체와 안드로이드를 하나의 미래적 도구 생태계로 묶어 보는 글이다. 기술과 삶의 방향을 함께 생각하는 힣식 확장 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381728)
 
@@ -2718,7 +2726,7 @@ STEAM 융합교육이 과학기술과 예술, 창의성 교육을 어떻게 묶�
 
 작성 2025-05-25 · 수정 2025-05-25 · 태그 translation, emacs, packages, bib
 
-@lorniu §go-translate 이맥스 번역 패키지
+go-translate 패키지가 Emacs 안에서 번역 경험을 어떻게 제공하는지 검토한다. 번역기 통합 패키지 선택지를 넓히는 참고 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250525T164724/)
 
@@ -2742,7 +2750,7 @@ RCS 문자를 활용하면 문자 하나로 다 소통할 수 있겠다.
 
 작성 2024-08-20 · 수정 2025-05-25 · 태그 bib, emacs, iuse, how, why, collection, inquiry
 
-왜 이맥스를 쓰는가를 설명하는 글과 생각들을 모아 두는 이유·방법 컬렉션이다. 실제 활용 흐름을 담았다.
+왜 이맥스를 쓰는가를 설명하는 글과 생각들을 모아 두는 이유·방법 컬렉션이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240820T124757/)
 
@@ -2814,7 +2822,7 @@ kill-region과 delete-region의 차이를 문서와 코드 관점에서 정리�
 
 작성 2024-08-11 · 수정 2025-05-23 · 태그 report, journalism, speculation
 
-지식산업센터 공실과 투기 문제를 저널리즘 탐사보도 관점으로 받아 적은 기록이다. 실제 활용 흐름을 담았다.
+지식산업센터 공실과 투기 문제를 저널리즘 탐사보도 관점으로 받아 적은 기록이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240811T064637/)
 
@@ -2838,7 +2846,7 @@ Kiwi를 중심으로 한국어 형태소분석과 구문분석 도구의 가능�
 
 작성 2025-05-22 · 수정 2025-05-22 · 태그 bib, computing, operating, system
 
-성균관대 분산컴퓨팅연구실과 지도교수, 연구 흐름을 정리해 둔 연구실 노트이다. 실제 활용 흐름을 담았다.
+성균관대 분산컴퓨팅연구실과 지도교수, 연구 흐름을 정리해 둔 연구실 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250522T063814/)
 
@@ -2846,7 +2854,7 @@ Kiwi를 중심으로 한국어 형태소분석과 구문분석 도구의 가능�
 
 작성 2024-12-31 · 수정 2025-05-21 · 태그 usesthis
 
-커브드 모니터를 떠나보내며 그 몰입의 시간을 추억처럼 적어 둔 노트이다. 실제 활용 흐름을 담았다.
+커브드 모니터를 떠나보내며 그 몰입의 시간을 추억처럼 적어 둔 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241231T161812/)
 
@@ -2878,7 +2886,7 @@ ITS가 학습자에게 즉각적이고 맞춤형 피드백을 주는 지능형 �
 
 작성 2025-05-18 · 수정 2025-05-18 · 태그 bauhaus, emacs, intersection
 
-바우하우스와 Emacs가 인간 중심 도구 철학에서 만나는 지점을 풀어내는 노트이다. 실제 활용 흐름을 담았다.
+바우하우스와 Emacs가 인간 중심 도구 철학에서 만나는 지점을 풀어내는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250518T231036/)
 
@@ -2886,7 +2894,7 @@ ITS가 학습자에게 즉각적이고 맞춤형 피드백을 주는 지능형 �
 
 작성 2025-05-18 · 수정 2025-05-18 · 태그 family
 
-어린이와 선생님 역할의 AI 대화를 조카 맥락에서 남겨 둔 가족 로그이다. 실제 활용 흐름을 담았다.
+어린이와 선생님 역할의 AI 대화를 조카 맥락에서 남겨 둔 가족 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250518T143525/)
 
@@ -2894,7 +2902,7 @@ ITS가 학습자에게 즉각적이고 맞춤형 피드백을 주는 지능형 �
 
 작성 2025-01-07 · 수정 2025-05-18 · 태그 mswindows, packages, manager
 
-윈도우즈에서 Scoop으로 패키지와 Emacs 환경을 깔끔히 설치하는 노트이다. 실제 활용 흐름을 담았다.
+윈도우즈에서 Scoop으로 패키지와 Emacs 환경을 깔끔히 설치하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250107T150402/)
 
@@ -2910,7 +2918,7 @@ ITS가 학습자에게 즉각적이고 맞춤형 피드백을 주는 지능형 �
 
 작성 2024-08-19 · 수정 2025-05-18 · 태그 coffee
 
-에어로프레스의 구조와 추출 방식, 셀프 카페 감각을 가볍게 붙잡아 둔 커피 기록이다. 실제 활용 흐름을 담았다.
+에어로프레스의 구조와 추출 방식, 셀프 카페 감각을 가볍게 붙잡아 둔 커피 기록이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240819T155045/)
 
@@ -2926,7 +2934,7 @@ ITS가 학습자에게 즉각적이고 맞춤형 피드백을 주는 지능형 �
 
 작성 2025-05-15 · 수정 2025-05-15 · 태그 autholog, spirituality
 
-빅터 프랭클을 통해 비극 속에서도 낙관을 잃지 않는 태도를 풀어낸 글이다. 실제 활용 흐름을 담았다.
+빅터 프랭클을 통해 비극 속에서도 낙관을 잃지 않는 태도를 풀어낸 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381713)
 
@@ -2950,7 +2958,7 @@ ITS가 학습자에게 즉각적이고 맞춤형 피드백을 주는 지능형 �
 
 작성 2024-12-26 · 수정 2025-05-12 · 태그 emacs, fonts
 
-이맥스에서 폰트 스케일과 유니코드, 이모지 크기를 맞추는 방법을 기록한 노트이다. 실제 활용 흐름을 담았다.
+이맥스에서 폰트 스케일과 유니코드, 이모지 크기를 맞추는 방법을 기록한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241226T001105/)
 
@@ -2974,7 +2982,7 @@ Windows에서 GitHub CLI를 설치하고 기본 명령을 쓰는 방법을 정�
 
 작성 2024-12-16 · 수정 2025-05-06
 
-리눅스에서 Redshift로 블루라이트를 줄이는 방법을 정리한 간단한 노트이다. 실제 활용 흐름을 담았다.
+리눅스에서 Redshift로 블루라이트를 줄이는 방법을 정리한 간단한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241216T205419/)
 
@@ -2982,7 +2990,7 @@ Windows에서 GitHub CLI를 설치하고 기본 명령을 쓰는 방법을 정�
 
 작성 2025-05-03 · 수정 2025-05-03 · 태그 archive, monthly, collection, notetaking
 
-월간 아카이브 목록을 묶어 지식베이스의 시간축을 정리하려는 컬렉션 노트이다. 실제 활용 흐름을 담았다.
+월간 아카이브 목록을 묶어 지식베이스의 시간축을 정리하려는 컬렉션 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250503T071124/)
 
@@ -2998,7 +3006,7 @@ Linktree 같은 link-in-bio 서비스가 SNS 프로필 통합에 어떻게 쓰�
 
 작성 2025-05-01 · 수정 2025-05-01 · 태그 adhd
 
-ADHD 치료 약물인 콘서타와 메디키넷, 스트라테라 등을 정리한 노트이다. 실제 활용 흐름을 담았다.
+ADHD 치료 약물인 콘서타와 메디키넷, 스트라테라 등을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250501T131124/)
 
@@ -3006,7 +3014,7 @@ ADHD 치료 약물인 콘서타와 메디키넷, 스트라테라 등을 정리�
 
 작성 2025-05-01 · 수정 2025-05-01 · 태그 sns
 
-인스타그램 스토리와 피드, 릴스의 차이를 정리한 생활형 SNS 노트이다. 실제 활용 흐름을 담았다.
+인스타그램 스토리와 피드, 릴스의 차이를 정리한 생활형 SNS 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250501T061848/)
 
@@ -3014,7 +3022,7 @@ ADHD 치료 약물인 콘서타와 메디키넷, 스트라테라 등을 정리�
 
 작성 2024-12-28 · 수정 2025-05-01 · 태그 bib, media, sns, social, tools
 
-SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 노트이다. 실제 활용 흐름을 담았다.
+SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241228T112709/)
 
@@ -3030,7 +3038,7 @@ SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 �
 
 작성 2025-04-30 · 수정 2025-04-30 · 태그 questions, lecture, comparison
 
-강좌와 세미나, 콜로키움의 차이를 교육 형식 관점에서 정리한 노트이다. 실제 활용 흐름을 담았다.
+강좌와 세미나, 콜로키움의 차이를 교육 형식 관점에서 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250430T172232/)
 
@@ -3038,7 +3046,7 @@ SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 �
 
 작성 2024-10-04 · 수정 2025-04-30 · 태그 bib, collection, symbol, latex
 
-수학 기호 사전과 레이텍 예제를 함께 보며 기호의 의미를 다시 배우려는 노트이다. 실제 활용 흐름을 담았다.
+수학 기호 사전과 레이텍 예제를 함께 보며 기호의 의미를 다시 배우려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241004T212710/)
 
@@ -3046,7 +3054,7 @@ SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 �
 
 작성 2025-04-29 · 수정 2025-04-29 · 태그 android, emacs, dotfiles
 
-안드로이드용 Emacs 닷파일 작업의 진행 상황과 과제를 기록한 노트이다. 실제 활용 흐름을 담았다.
+안드로이드용 Emacs 닷파일 작업의 진행 상황과 과제를 기록한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250429T110329/)
 
@@ -3062,7 +3070,7 @@ SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 �
 
 작성 2024-08-22 · 수정 2025-04-29 · 태그 health
 
-척추분리증이 무엇인지와 선천·후천 가능성을 가족 대화 흐름으로 정리한 건강 메모이다. 실제 활용 흐름을 담았다.
+척추분리증이 무엇인지와 선천·후천 가능성을 가족 대화 흐름으로 정리한 건강 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240822T125027/)
 
@@ -3094,7 +3102,7 @@ evil-collection이 여러 패키지의 키바인딩을 어떻게 정리하는지
 
 작성 2025-04-23 · 수정 2025-04-23 · 태그 clojure, packages, bib, interactive, development, environment
 
-CIDER를 Emacs 클로저 개발의 핵심 패키지로 정리한 노트이다. 실제 활용 흐름을 담았다.
+CIDER를 Emacs 클로저 개발의 핵심 패키지로 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250423T141910/)
 
@@ -3110,7 +3118,7 @@ Clojure Clerk를 리터레이트 프로그래밍 도구로 바라보며 관련 �
 
 작성 2025-04-22 · 수정 2025-04-22 · 태그 guide, bib, emacs
 
-Protesilaos의 Emacs 정규식 입문 자료를 참고하려고 남긴 노트이다. 실제 활용 흐름을 담았다.
+Protesilaos의 Emacs 정규식 입문 자료를 참고하려고 남긴 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250422T174538/)
 
@@ -3126,7 +3134,7 @@ Protesilaos의 Emacs Lisp Elements 가이드와 그 번역본을 함께 기록�
 
 작성 2024-11-13 · 수정 2025-04-22
 
-SICP를 texi·info 형식으로 변환해 이맥스 인포 매뉴얼로 쓰려는 실험 노트이다. 실제 활용 흐름을 담았다.
+SICP를 texi·info 형식으로 변환해 이맥스 인포 매뉴얼로 쓰려는 실험 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241113T135628/)
 
@@ -3142,7 +3150,7 @@ SICP를 texi·info 형식으로 변환해 이맥스 인포 매뉴얼로 쓰려�
 
 작성 2025-04-21 · 수정 2025-04-21 · 태그 translation, glossary, custom, dictionary, omegat, bib
 
-Immersive Translate용 사용자 용어 사전 저장소를 기록한 번역 노트이다. 실제 활용 흐름을 담았다.
+Immersive Translate용 사용자 용어 사전 저장소를 기록한 번역 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250421T211120/)
 
@@ -3174,7 +3182,7 @@ Immersive Translate를 브라우저, 안드로이드, 전자책까지 아우르�
 
 작성 2024-10-16 · 수정 2025-04-18 · 태그 bib, education, literacy
 
-게임문화 교육과 리터러시, 코딩, 중독 문제를 현장 프로그램 맥락에서 붙잡은 노트이다. 실제 활용 흐름을 담았다.
+게임문화 교육과 리터러시, 코딩, 중독 문제를 현장 프로그램 맥락에서 붙잡은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241016T165700/)
 
@@ -3190,7 +3198,7 @@ Immersive Translate를 브라우저, 안드로이드, 전자책까지 아우르�
 
 작성 2025-04-16 · 수정 2025-04-16 · 태그 dotfiles, doomemacs, spacemacs, bib
 
-둠이맥스와 스페이스맥스를 동시에 지원하는 dotemacs 저장소를 소개하는 노트이다. 실제 활용 흐름을 담았다.
+둠이맥스와 스페이스맥스를 동시에 지원하는 dotemacs 저장소를 소개하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250416T181559/)
 
@@ -3198,7 +3206,7 @@ Immersive Translate를 브라우저, 안드로이드, 전자책까지 아우르�
 
 작성 2025-04-16 · 수정 2025-04-16 · 태그 bib, exports, tools, youtube
 
-유튜브 플레이리스트와 나중에 볼 목록을 내보내는 작은 도구를 기록한 노트이다. 실제 활용 흐름을 담았다.
+유튜브 플레이리스트와 나중에 볼 목록을 내보내는 작은 도구를 기록한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250416T172011/)
 
@@ -3214,7 +3222,7 @@ auto-dim-other-buffers 패키지로 비선택 창을 덜 두드러지게 만드�
 
 작성 2025-04-16 · 수정 2025-04-16 · 태그 bib, comment, convert, elisp, markdown
 
-코드 헤더와 주석에서 README를 생성하는 도구들을 찾고 비교한 노트이다. 실제 활용 흐름을 담았다.
+코드 헤더와 주석에서 README를 생성하는 도구들을 찾고 비교한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250416T165145/)
 
@@ -3222,7 +3230,7 @@ auto-dim-other-buffers 패키지로 비선택 창을 덜 두드러지게 만드�
 
 작성 2024-09-05 · 수정 2025-04-16 · 태그 autholog, daily, orgmode, routines, workflow
 
-데일리 노트와 저널, 습관 기록을 한 축으로 묶는 자신의 워크플로우 전략을 담은 글이다. 실제 활용 흐름을 담았다.
+데일리 노트와 저널, 습관 기록을 한 축으로 묶는 자신의 워크플로우 전략을 담은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381301)
 
@@ -3262,7 +3270,7 @@ GNU Emacs의 dired-x 기능을 읽고 번역하며 Dired 확장 기능을 익히
 
 작성 2025-04-15 · 수정 2025-04-15 · 태그 bib, doomemacs
 
-mu4e와 mbsync로 지메일을 Emacs 안에서 다루는 설정을 정리한 노트이다. 실제 활용 흐름을 담았다.
+mu4e와 mbsync로 지메일을 Emacs 안에서 다루는 설정을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250415T120555/)
 
@@ -3278,7 +3286,7 @@ Obsidian Spacekeys 플러그인이 스페이스맥스식 키 시퀀스를 어떻
 
 작성 2025-04-15 · 수정 2025-04-15 · 태그 hangul, orgmode
 
-Org mode에서 한글과 라틴 문자 사이 공백문자를 어떻게 다룰지 정리한 노트이다. 실제 활용 흐름을 담았다.
+Org mode에서 한글과 라틴 문자 사이 공백문자를 어떻게 다룰지 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250415T174028/)
 
@@ -3286,7 +3294,7 @@ Org mode에서 한글과 라틴 문자 사이 공백문자를 어떻게 다룰�
 
 작성 2025-04-15 · 수정 2025-04-15 · 태그 research, system
 
-OpenAlex를 연구용 개방형 카탈로그와 문헌 검색 시스템으로 정리한 노트이다. 실제 활용 흐름을 담았다.
+OpenAlex를 연구용 개방형 카탈로그와 문헌 검색 시스템으로 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250415T160230/)
 
@@ -3294,7 +3302,7 @@ OpenAlex를 연구용 개방형 카탈로그와 문헌 검색 시스템으로 �
 
 작성 2025-02-11 · 수정 2025-04-15 · 태그 clojure, configuration
 
-clojure-lsp와 clojure-cli 사용자 설정을 분리해 관리하는 노트이다. 실제 활용 흐름을 담았다.
+clojure-lsp와 clojure-cli 사용자 설정을 분리해 관리하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250211T160122/)
 
@@ -3302,7 +3310,7 @@ clojure-lsp와 clojure-cli 사용자 설정을 분리해 관리하는 노트이�
 
 작성 2025-02-06 · 수정 2025-04-15 · 태그 configuration, git
 
-좋은 ~/.gitconfig 예시와 Git 설정 철학을 모아 둔 설정파일 노트이다. 실제 활용 흐름을 담았다.
+좋은 ~/.gitconfig 예시와 Git 설정 철학을 모아 둔 설정파일 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250206T145553/)
 
@@ -3310,7 +3318,7 @@ clojure-lsp와 clojure-cli 사용자 설정을 분리해 관리하는 노트이�
 
 작성 2024-12-19 · 수정 2025-04-15 · 태그 aiprompt, collection, translation
 
-번역에 쓸 만한 AI 프롬프트들을 모아 두고 검토하는 컬렉션 노트이다. 실제 활용 흐름을 담았다.
+번역에 쓸 만한 AI 프롬프트들을 모아 두고 검토하는 컬렉션 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241219T174926/)
 
@@ -3390,7 +3398,7 @@ nbb를 이용해 Node.js 위에서 클로저스크립트 스크립팅을 가볍�
 
 작성 2025-04-13 · 수정 2025-04-13 · 태그 code, coding, programming
 
-Advent of Code를 코드카타와 코딩 훈련 관점에서 소개하는 노트이다. 실제 활용 흐름을 담았다.
+Advent of Code를 코드카타와 코딩 훈련 관점에서 소개하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250413T191610/)
 
@@ -3406,7 +3414,7 @@ Advent of Code를 코드카타와 코딩 훈련 관점에서 소개하는 노트
 
 작성 2025-04-12 · 수정 2025-04-12 · 태그 bib
 
-undo-fu 패키지와 undo/redo 설정을 성능 관점에서 정리한 이맥스 노트이다. 실제 활용 흐름을 담았다.
+undo-fu 패키지와 undo/redo 설정을 성능 관점에서 정리한 이맥스 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250412T055213/)
 
@@ -3422,7 +3430,7 @@ obsidian.el이 Emacs에서 Obsidian 노트를 다루는 방식과 한계를 적�
 
 작성 2025-04-11 · 수정 2025-04-11 · 태그 bib, emacs, llmclient, packages, pair, programming
 
-aidermacs와 emigo 같은 Emacs 페어프로그래밍 패키지를 비교하는 노트이다. 실제 활용 흐름을 담았다.
+aidermacs와 emigo 같은 Emacs 페어프로그래밍 패키지를 비교하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250411T151002/)
 
@@ -3430,7 +3438,7 @@ aidermacs와 emigo 같은 Emacs 페어프로그래밍 패키지를 비교하는 
 
 작성 2025-04-11 · 수정 2025-04-11 · 태그 digitalgarden, links, quartz
 
-디지털가든에서 깨진 이미지 링크와 스크린샷 경로를 복구하려고 모은 작업 노트이다. 실제 활용 흐름을 담았다.
+디지털가든에서 깨진 이미지 링크와 스크린샷 경로를 복구하려고 모은 작업 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250411T141433/)
 
@@ -3446,7 +3454,7 @@ EAF와 EWW, w3m, Xwidgets를 엮어 Emacs 안에서 웹을 다루는 선택지�
 
 작성 2024-10-19 · 수정 2025-04-11 · 태그 browser, omni, workflow
 
-브라우저리스하려면 오히려 브라우저를 품어야 한다는 옴니 워크플로우 노트이다. 실제 활용 흐름을 담았다.
+브라우저리스하려면 오히려 브라우저를 품어야 한다는 옴니 워크플로우 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241019T184622/)
 
@@ -3454,7 +3462,7 @@ EAF와 EWW, w3m, Xwidgets를 엮어 Emacs 안에서 웹을 다루는 선택지�
 
 작성 2024-10-13 · 수정 2025-04-11 · 태그 emacs, omniuse, workflow
 
-웹과 로컬, 비디오 검색을 한곳에 묶는 이맥스 통합 검색 환경의 워크플로우 기록이다. 실제 활용 흐름을 담았다.
+웹과 로컬, 비디오 검색을 한곳에 묶는 이맥스 통합 검색 환경의 워크플로우 기록이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241013T213018/)
 
@@ -3486,7 +3494,7 @@ Denote 공식 매뉴얼을 번역·포맷팅하며 기능을 체계적으로 익
 
 작성 2025-04-09 · 수정 2025-04-09 · 태그 bib, autholog, community, reading
 
-예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다. 실제 활용 흐름을 담았다.
+예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381666)
 
@@ -3494,7 +3502,7 @@ Denote 공식 매뉴얼을 번역·포맷팅하며 기능을 체계적으로 익
 
 작성 2025-04-09 · 수정 2025-04-09 · 태그 autholog, deepsleep, spirituality
 
-이현주 할아버지의 책을 숙면과 밤의 독서 동반자로 소개하는 글이다. 실제 활용 흐름을 담았다.
+이현주 할아버지의 책을 숙면과 밤의 독서 동반자로 소개하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381663)
 
@@ -3502,7 +3510,7 @@ Denote 공식 매뉴얼을 번역·포맷팅하며 기능을 체계적으로 익
 
 작성 2025-04-09 · 수정 2025-04-09 · 태그 abduction, allegory, analogy, autholog, metaphor, search, semantic, trace
 
-도서 탐색에서 흔적과 단서, 분류와 계층을 따라가는 방식을 풀어낸 글이다. 실제 활용 흐름을 담았다.
+도서 탐색에서 흔적과 단서, 분류와 계층을 따라가는 방식을 풀어낸 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381662)
 
@@ -3510,7 +3518,7 @@ Denote 공식 매뉴얼을 번역·포맷팅하며 기능을 체계적으로 익
 
 작성 2025-04-08 · 수정 2025-04-08 · 태그 autocompletion, bib, dictionary
 
-cape-dict의 영어 단어 자동완성이 너무 많을 때 조절하는 노트이다. 실제 활용 흐름을 담았다.
+cape-dict의 영어 단어 자동완성이 너무 많을 때 조절하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250408T174023/)
 
@@ -3518,7 +3526,7 @@ cape-dict의 영어 단어 자동완성이 너무 많을 때 조절하는 노트
 
 작성 2025-04-08 · 수정 2025-04-08 · 태그 emacs, install
 
-Emacs 빌드 설치 뒤 Stow 심볼릭 링크를 다시 맞추는 스크립트를 담은 노트이다. 실제 활용 흐름을 담았다.
+Emacs 빌드 설치 뒤 Stow 심볼릭 링크를 다시 맞추는 스크립트를 담은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250408T150326/)
 
@@ -3534,7 +3542,7 @@ Emacs 빌드 설치 뒤 Stow 심볼릭 링크를 다시 맞추는 스크립트�
 
 작성 2025-04-07 · 수정 2025-04-07 · 태그 bib, dotfiles, gnu
 
-GNU Stow를 닷파일용 심볼릭 링크 관리 도구로 정리한 기본 노트이다. 실제 활용 흐름을 담았다.
+GNU Stow를 닷파일용 심볼릭 링크 관리 도구로 정리한 기본 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250407T224601/)
 
@@ -3542,7 +3550,7 @@ GNU Stow를 닷파일용 심볼릭 링크 관리 도구로 정리한 기본 노�
 
 작성 2025-04-07 · 수정 2025-04-07 · 태그 bib, snippet, services, web, share
 
-Pastebin을 텍스트와 코드, 스니펫 공유 서비스로 소개하는 노트이다. 실제 활용 흐름을 담았다.
+Pastebin을 텍스트와 코드, 스니펫 공유 서비스로 소개하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250407T224346/)
 
@@ -3558,7 +3566,7 @@ Emacs Application Framework 설치와 활용법을 다시 정리해 둔 노트�
 
 작성 2025-04-07 · 수정 2025-04-07 · 태그 altruism
 
-르상티망을 원한과 복수심, 불안사회의 방어기제로 이해하려는 노트이다. 실제 활용 흐름을 담았다.
+르상티망을 원한과 복수심, 불안사회의 방어기제로 이해하려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250407T222646/)
 
@@ -3566,7 +3574,7 @@ Emacs Application Framework 설치와 활용법을 다시 정리해 둔 노트�
 
 작성 2025-04-07 · 수정 2025-04-07 · 태그 i3wm, regolith, scripts, sway, tilingwindowmanager
 
-Sway와 i3WM의 스크래치패드, 플로팅 윈도우 활용을 정리한 노트이다. 실제 활용 흐름을 담았다.
+Sway와 i3WM의 스크래치패드, 플로팅 윈도우 활용을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250407T111613/)
 
@@ -3574,7 +3582,7 @@ Sway와 i3WM의 스크래치패드, 플로팅 윈도우 활용을 정리한 노�
 
 작성 2024-12-31 · 수정 2025-04-07 · 태그 install, linux
 
-리눅스에서 Wine과 Lutris로 카카오톡을 설치하는 절차를 남긴 실용 노트이다. 실제 활용 흐름을 담았다.
+리눅스에서 Wine과 Lutris로 카카오톡을 설치하는 절차를 남긴 실용 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241231T155449/)
 
@@ -3582,7 +3590,7 @@ Sway와 i3WM의 스크래치패드, 플로팅 윈도우 활용을 정리한 노�
 
 작성 2024-11-11 · 수정 2025-04-07 · 태그 bib, docker, install, linux
 
-리눅스에 Docker Engine을 설치하고 이후 해야 할 설정을 정리한 실용 노트이다. 실제 활용 흐름을 담았다.
+리눅스에 Docker Engine을 설치하고 이후 해야 할 설정을 정리한 실용 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241111T152209/)
 
@@ -3630,7 +3638,7 @@ use-package의 :demand 옵션과 의존성 로딩을 org-rich-yank 예제로 설
 
 작성 2024-12-16 · 수정 2025-04-06 · 태그 productivity
 
-한국십진분류에서 자기계발과 인생훈, 생산성 범주를 어떻게 나누는지 정리한 로그이다. 실제 활용 흐름을 담았다.
+한국십진분류에서 자기계발과 인생훈, 생산성 범주를 어떻게 나누는지 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241216T154011/)
 
@@ -3638,7 +3646,7 @@ use-package의 :demand 옵션과 의존성 로딩을 org-rich-yank 예제로 설
 
 작성 2024-07-30 · 수정 2025-04-06 · 태그 collection, inquiry, life
 
-삶을 탐구하게 만드는 질문들과 관련 서적·노트를 모아 둔 사유 컬렉션이다. 실제 활용 흐름을 담았다.
+삶을 탐구하게 만드는 질문들과 관련 서적·노트를 모아 둔 사유 컬렉션이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240730T092053/)
 
@@ -3654,7 +3662,7 @@ use-package의 :demand 옵션과 의존성 로딩을 org-rich-yank 예제로 설
 
 작성 2025-04-05 · 수정 2025-04-05 · 태그 bib, animation
 
-oneko가 마우스를 따라다니는 고양이 애니메이션이라는 점을 기록한 노트이다. 실제 활용 흐름을 담았다.
+oneko가 마우스를 따라다니는 고양이 애니메이션이라는 점을 기록한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250405T171216/)
 
@@ -3662,7 +3670,7 @@ oneko가 마우스를 따라다니는 고양이 애니메이션이라는 점을 
 
 작성 2025-02-14 · 수정 2025-04-05 · 태그 bib, emacs, tools
 
-hrs의 docsim과 docsim.el을 노트 검색과 비교 도구로 살펴보는 노트이다. 실제 활용 흐름을 담았다.
+hrs의 docsim과 docsim.el을 노트 검색과 비교 도구로 살펴보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T135928/)
 
@@ -3686,7 +3694,7 @@ Netlify에서 DNS 레코드 type과 name, value를 넣는 법을 정리한 노�
 
 작성 2024-11-11 · 수정 2025-04-04 · 태그 autholog, bib, collaboration, communication, editing, knowledge, pkm, reading, zotero
 
-라이브 공동편집과 지식통합, 독서와 대화를 하나의 협업 장면으로 바라보는 글이다. 실제 활용 흐름을 담았다.
+라이브 공동편집과 지식통합, 독서와 대화를 하나의 협업 장면으로 바라보는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381379)
 
@@ -3694,7 +3702,7 @@ Netlify에서 DNS 레코드 type과 name, value를 넣는 법을 정리한 노�
 
 작성 2024-11-11 · 수정 2025-04-04 · 태그 alternative, bib, magit, terminal
 
-터미널에서 쓸 수 있는 깃 클라이언트 lazygit과 gitu를 비교해 보는 노트이다. 실제 활용 흐름을 담았다.
+터미널에서 쓸 수 있는 깃 클라이언트 lazygit과 gitu를 비교해 보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241111T151456/)
 
@@ -3702,7 +3710,7 @@ Netlify에서 DNS 레코드 type과 name, value를 넣는 법을 정리한 노�
 
 작성 2024-08-23 · 수정 2025-04-04 · 태그 hangul
 
-바칼로레아 철학 개념어를 한글 표현의 대비쌍과 함께 정리하려는 개념 메모이다. 실제 활용 흐름을 담았다.
+바칼로레아 철학 개념어를 한글 표현의 대비쌍과 함께 정리하려는 개념 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240823T110214/)
 
@@ -3710,7 +3718,7 @@ Netlify에서 DNS 레코드 type과 name, value를 넣는 법을 정리한 노�
 
 작성 2024-08-23 · 수정 2025-04-04 · 태그 concepts, education, keywords, collection
 
-바칼로레아 17개 개념어와 시대별 철학자를 연결해 보는 개념어 컬렉션이다. 실제 활용 흐름을 담았다.
+바칼로레아 17개 개념어와 시대별 철학자를 연결해 보는 개념어 컬렉션이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240823T105845/)
 
@@ -3726,7 +3734,7 @@ Memacs와 quantified self 자원을 참고해 하루 단위 존재 데이터를 
 
 작성 2025-04-03 · 수정 2025-04-03 · 태그 bib, clojure, core
 
-core.async를 중심으로 클로저 비동기 프로그래밍을 공부하려는 노트이다. 실제 활용 흐름을 담았다.
+core.async를 중심으로 클로저 비동기 프로그래밍을 공부하려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250403T122919/)
 
@@ -3734,7 +3742,7 @@ core.async를 중심으로 클로저 비동기 프로그래밍을 공부하려�
 
 작성 2025-04-03 · 수정 2025-04-03 · 태그 bib, coffechat
 
-Jitsi와 Zoom을 중심으로 온라인 회의 플랫폼을 정리한 비교 노트이다. 실제 활용 흐름을 담았다.
+Jitsi와 Zoom을 중심으로 온라인 회의 플랫폼을 정리한 비교 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250403T120250/)
 
@@ -3742,7 +3750,7 @@ Jitsi와 Zoom을 중심으로 온라인 회의 플랫폼을 정리한 비교 노
 
 작성 2025-04-03 · 수정 2025-04-03 · 태그 android, browser, google, webanalytics
 
-내 브라우저 활동이 구글 애널리틱스에 잡히지 않게 차단하는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.
+내 브라우저 활동이 구글 애널리틱스에 잡히지 않게 차단하는 방법을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250403T092006/)
 
@@ -3750,7 +3758,7 @@ Jitsi와 Zoom을 중심으로 온라인 회의 플랫폼을 정리한 비교 노
 
 작성 2025-04-03 · 수정 2025-04-03 · 태그 bib, computing, hci, interactive, research, spaces, uiux
 
-테이블탑과 인터랙티브 서페이스 연구를 학회와 논문 맥락으로 모아 둔 노트이다. 실제 활용 흐름을 담았다.
+테이블탑과 인터랙티브 서페이스 연구를 학회와 논문 맥락으로 모아 둔 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250403T082332/)
 
@@ -3758,7 +3766,7 @@ Jitsi와 Zoom을 중심으로 온라인 회의 플랫폼을 정리한 비교 노
 
 작성 2025-04-03 · 수정 2025-04-03 · 태그 bib, interactive, startup, uiux
 
-네모유엑스의 인터랙티브 라지 디스플레이 경험과 폐업 이후를 돌아보는 노트이다. 실제 활용 흐름을 담았다.
+네모유엑스의 인터랙티브 라지 디스플레이 경험과 폐업 이후를 돌아보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250403T080746/)
 
@@ -3766,7 +3774,7 @@ Jitsi와 Zoom을 중심으로 온라인 회의 플랫폼을 정리한 비교 노
 
 작성 2025-01-22 · 수정 2025-04-03 · 태그 bib, clojure, datascience
 
-Scicloj 커뮤니티를 중심으로 클로저 데이터과학 생태계를 살펴보는 노트이다. 실제 활용 흐름을 담았다.
+Scicloj 커뮤니티를 중심으로 클로저 데이터과학 생태계를 살펴보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250122T115333/)
 
@@ -3782,7 +3790,7 @@ Scicloj 커뮤니티를 중심으로 클로저 데이터과학 생태계를 살�
 
 작성 2025-04-02 · 수정 2025-04-02 · 태그 copilot, gptel, orgbabel, packages, workflow
 
-Emacs 코드블록 중심 리터레이트 AI 패키지 흐름을 비교한 노트이다. 실제 활용 흐름을 담았다.
+Emacs 코드블록 중심 리터레이트 AI 패키지 흐름을 비교한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250402T184512/)
 
@@ -3790,7 +3798,7 @@ Emacs 코드블록 중심 리터레이트 AI 패키지 흐름을 비교한 노�
 
 작성 2025-04-02 · 수정 2025-04-02 · 태그 bib, figma, interactive, prototyping, tools, uiux
 
-ProtoPie와 Figma를 중심으로 인터랙티브 프로토타이핑 도구를 비교한 노트이다. 실제 활용 흐름을 담았다.
+ProtoPie와 Figma를 중심으로 인터랙티브 프로토타이핑 도구를 비교한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250402T134850/)
 
@@ -3798,7 +3806,7 @@ ProtoPie와 Figma를 중심으로 인터랙티브 프로토타이핑 도구를 �
 
 작성 2025-04-02 · 수정 2025-04-02 · 태그 clojure, programming
 
-멀티프로세서 프로그래밍 기술의 현대적 가치와 변화 방향을 평가한 노트이다. 실제 활용 흐름을 담았다.
+멀티프로세서 프로그래밍 기술의 현대적 가치와 변화 방향을 평가한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250402T131839/)
 
@@ -3814,7 +3822,7 @@ Tectonic과 MiKTeX, TeX Live를 운영체제별로 어떻게 쓸지 정리한 �
 
 작성 2025-01-28 · 수정 2025-04-02 · 태그 bib, environment, howtouse, install, python
 
-pipx로 격리 설치한 파이썬 애플리케이션 목록과 용도를 기록한 노트이다. 실제 활용 흐름을 담았다.
+pipx로 격리 설치한 파이썬 애플리케이션 목록과 용도를 기록한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250128T121922/)
 
@@ -3844,7 +3852,7 @@ Doom 바깥의 elisp-demos 확장 예제를 위한 개인 테스트 파일을 �
 
 ## EKG: 이맥스 지식그래프 활용법
 
-작성 2024-02-13 · 수정 2025-04-02 · 태그 bib, howtouse, ekg
+작성 2024-02-13 · 수정 2025-04-02 · 태그 bib, ekg, howtouse
 
 EKG를 이맥스 지식그래프 도구로 실제 워크플로우에 붙일 수 있을지 검토한 활용 실험 노트.
 
@@ -3862,7 +3870,7 @@ EKG를 이맥스 지식그래프 도구로 실제 워크플로우에 붙일 수 
 
 작성 2024-09-15 · 수정 2025-04-01 · 태그 bib, evil, isearch, regex, replace
 
-정규표현식으로 일부 텍스트만 안전하게 바꾸는 치환 예시를 단계별로 적어 둔 기록. 실제 활용 흐름을 담았다.
+정규표현식으로 일부 텍스트만 안전하게 바꾸는 치환 예시를 단계별로 적어 둔 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240915T234215/)
 
@@ -3878,7 +3886,7 @@ Quartz 내보내기에서 링크와 이미지, 서지정보, 동영상 동작을
 
 작성 2024-08-20 · 수정 2025-04-01 · 태그 bib, orgmode, iuse, why, how, collection, inquiry
 
-왜 Org-mode를 쓰는가에 대한 자료와 개인적 이유를 모아 둔 질문형 컬렉션이다. 실제 활용 흐름을 담았다.
+왜 Org-mode를 쓰는가에 대한 자료와 개인적 이유를 모아 둔 질문형 컬렉션이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240820T124819/)
 
@@ -3886,7 +3894,7 @@ Quartz 내보내기에서 링크와 이미지, 서지정보, 동영상 동작을
 
 작성 2024-07-12 · 수정 2025-04-01 · 태그 tools
 
-이맥스 계산기와 수식 입력을 생각도구로 연결해 실용 수학 학습 흐름을 설계한 노트. 실제 활용 흐름을 담았다.
+이맥스 계산기와 수식 입력을 생각도구로 연결해 실용 수학 학습 흐름을 설계한 노트.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240712T165024/)
 
@@ -3926,7 +3934,7 @@ sed를 스트림 편집기 언어로 이해하며 텍스트 변환과 치환 자
 
 작성 2025-03-30 · 수정 2025-03-30 · 태그 bib, ide, prototyping
 
-Replit을 브라우저 기반 통합개발환경과 프로토타이핑 도구로 살펴본 노트이다. 실제 활용 흐름을 담았다.
+Replit을 브라우저 기반 통합개발환경과 프로토타이핑 도구로 살펴본 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250330T032110/)
 
@@ -3942,7 +3950,7 @@ Replit을 브라우저 기반 통합개발환경과 프로토타이핑 도구로
 
 작성 2025-03-29 · 수정 2025-03-29 · 태그 orgmode, property
 
-Org mode 헤더 프로퍼티로 Python 결과 출력을 기본값으로 두는 노트이다. 실제 활용 흐름을 담았다.
+Org mode 헤더 프로퍼티로 Python 결과 출력을 기본값으로 두는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250329T162259/)
 
@@ -3950,7 +3958,7 @@ Org mode 헤더 프로퍼티로 Python 결과 출력을 기본값으로 두는 �
 
 작성 2025-03-29 · 수정 2025-03-29 · 태그 hylang, python
 
-클론한 파이썬 모듈을 전역에서 활용하는 방법을 정리한 실용 노트이다. 실제 활용 흐름을 담았다.
+클론한 파이썬 모듈을 전역에서 활용하는 방법을 정리한 실용 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250329T213644/)
 
@@ -3958,7 +3966,7 @@ Org mode 헤더 프로퍼티로 Python 결과 출력을 기본값으로 두는 �
 
 작성 2025-03-29 · 수정 2025-03-29 · 태그 bib
 
-Hyrule 설치와 Hy 유틸리티 라이브러리 사용법을 간단히 정리한 로그이다. 실제 활용 흐름을 담았다.
+Hyrule 설치와 Hy 유틸리티 라이브러리 사용법을 간단히 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250329T164150/)
 
@@ -3966,7 +3974,7 @@ Hyrule 설치와 Hy 유틸리티 라이브러리 사용법을 간단히 정리�
 
 작성 2025-03-29 · 수정 2025-03-29 · 태그 bib, convert, hylang, python
 
-py2hy로 Python 코드를 Hy로 변환하는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.
+py2hy로 Python 코드를 Hy로 변환하는 방법을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250329T163054/)
 
@@ -3998,7 +4006,7 @@ popweb과 EAF 계열 도구를 중심으로 이맥스 안의 브라우저형 애
 
 작성 2025-03-28 · 수정 2025-03-28 · 태그 bib, textlint, writing
 
-Vale 스타일 통합 예제를 참고해 교열 설정을 다듬으려는 노트이다. 실제 활용 흐름을 담았다.
+Vale 스타일 통합 예제를 참고해 교열 설정을 다듬으려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250328T172918/)
 
@@ -4014,7 +4022,7 @@ Lem을 커먼리스프 기반 텍스트 에디터이자 확장성 높은 통합�
 
 작성 2025-03-28 · 수정 2025-03-28 · 태그 bib, emacs, gptel, llmclient
 
-elysium을 Emacs용 AI 코딩 플러그인으로 검토하며 감상을 남긴 노트이다. 실제 활용 흐름을 담았다.
+elysium을 Emacs용 AI 코딩 플러그인으로 검토하며 감상을 남긴 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250328T022542/)
 
@@ -4022,7 +4030,7 @@ elysium을 Emacs용 AI 코딩 플러그인으로 검토하며 감상을 남긴 �
 
 작성 2025-03-28 · 수정 2025-03-28
 
-Inactive Minibuffer를 없애는 설정과 원인을 짚는 짧은 기술 로그이다. 실제 활용 흐름을 담았다.
+Inactive Minibuffer를 없애는 설정과 원인을 짚는 짧은 기술 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250328T080804/)
 
@@ -4030,7 +4038,7 @@ Inactive Minibuffer를 없애는 설정과 원인을 짚는 짧은 기술 로그
 
 작성 2024-10-19 · 수정 2025-03-28 · 태그 bib, omegat
 
-OmegaT 플러그인과 기계번역 API 연동 방식을 공식 목록과 함께 정리한 노트이다. 실제 활용 흐름을 담았다.
+OmegaT 플러그인과 기계번역 API 연동 방식을 공식 목록과 함께 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241019T151240/)
 
@@ -4038,7 +4046,7 @@ OmegaT 플러그인과 기계번역 API 연동 방식을 공식 목록과 함께
 
 작성 2024-09-23 · 수정 2025-03-28 · 태그 bib, emacside, hylang, lisp, python
 
-Hy 언어를 이맥스 통합개발환경에 올리기 위해 설치와 버전 관리 경로를 정리한 기록이다. 실제 활용 흐름을 담았다.
+Hy 언어를 이맥스 통합개발환경에 올리기 위해 설치와 버전 관리 경로를 정리한 기록이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240923T165700/)
 
@@ -4046,7 +4054,7 @@ Hy 언어를 이맥스 통합개발환경에 올리기 위해 설치와 버전 �
 
 작성 2024-08-28 · 수정 2025-03-28 · 태그 bib, client, github, magit
 
-Magit과 Forge로 깃허브 이슈와 알림을 이맥스 안에서 다루는 방법을 정리한 기록. 실제 활용 흐름을 담았다.
+Magit과 Forge로 깃허브 이슈와 알림을 이맥스 안에서 다루는 방법을 정리한 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240828T194548/)
 
@@ -4094,7 +4102,7 @@ paredit, smartparens, puni를 중심으로 이맥스의 구조적 괄호 편집 
 
 작성 2025-03-27 · 수정 2025-03-27 · 태그 autocompletion, copilot, snippet, ai
 
-스니펫과 AI 코파일럿 자동완성의 차이와 장인적 수고의 의미를 묻는 노트이다. 실제 활용 흐름을 담았다.
+스니펫과 AI 코파일럿 자동완성의 차이와 장인적 수고의 의미를 묻는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250327T131812/)
 
@@ -4110,7 +4118,7 @@ Marginalia와 vertico-multiform에서 정렬과 표시를 다듬는 실험 노�
 
 작성 2025-03-27 · 수정 2025-03-27 · 태그 clojure, dashboard, intelligence, opensource
 
-Metabase를 오픈소스 대시보드와 데이터 시각화 도구로 정리한 노트이다. 실제 활용 흐름을 담았다.
+Metabase를 오픈소스 대시보드와 데이터 시각화 도구로 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250327T111410/)
 
@@ -4118,7 +4126,7 @@ Metabase를 오픈소스 대시보드와 데이터 시각화 도구로 정리한
 
 작성 2025-03-27 · 수정 2025-03-27
 
-JVM 위의 코틀린과 클로저가 닮은 점과 풀스택 가능성을 묻는 LLM 로그이다. 실제 활용 흐름을 담았다.
+JVM 위의 코틀린과 클로저가 닮은 점과 풀스택 가능성을 묻는 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250327T110315/)
 
@@ -4142,7 +4150,7 @@ JVM 위의 코틀린과 클로저가 닮은 점과 풀스택 가능성을 묻는
 
 작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, autholog, bib, emacs, neovim
 
-렉스 프리드먼 팟캐스트에서 ThePrimeagen과 ADHD 이야기를 엮어 적은 글이다. 실제 활용 흐름을 담았다.
+렉스 프리드먼 팟캐스트에서 ThePrimeagen과 ADHD 이야기를 엮어 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381620)
 
@@ -4158,7 +4166,7 @@ Jira와 Confluence를 협업 도구로 보고 Emacs 연동 가능성을 정리�
 
 작성 2024-08-14 · 수정 2025-03-26 · 태그 bib
 
-호스팅케이알과 넷리파이에서 서브도메인을 연결하는 DNS 설정 흐름을 정리한 기록. 실제 활용 흐름을 담았다.
+호스팅케이알과 넷리파이에서 서브도메인을 연결하는 DNS 설정 흐름을 정리한 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240814T152821/)
 
@@ -4166,7 +4174,7 @@ Jira와 Confluence를 협업 도구로 보고 Emacs 연동 가능성을 정리�
 
 작성 2025-03-25 · 수정 2025-03-25 · 태그 bib, clojure
 
-clojure.camp 위키와 핸드북 자료를 참고하려고 남겨 둔 클로저 노트이다. 실제 활용 흐름을 담았다.
+clojure.camp 위키와 핸드북 자료를 참고하려고 남겨 둔 클로저 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250325T201529/)
 
@@ -4174,7 +4182,7 @@ clojure.camp 위키와 핸드북 자료를 참고하려고 남겨 둔 클로저 
 
 작성 2025-03-25 · 수정 2025-03-25 · 태그 creativity
 
-@에릭호퍼 @도스토예프스키 №백치 - #간질
+도스토예프스키의 『백치』가 뜻하는 순수함과 간질, 그리고 에릭 호퍼와의 연결 가능성을 질문한다. 창조성과 병, 독서의 인상들이 교차하는 문학 탐색 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250325T085647/)
 
@@ -4198,7 +4206,7 @@ Denote와 Logseq, Obsidian, Org-roam 등 노트테이킹 앱을 모아 보는 �
 
 작성 2025-03-24 · 수정 2025-03-24 · 태그 autholog, interface, llm, llmclient, toolsforthought
 
-AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 말하는 글이다. 실제 활용 흐름을 담았다.
+AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 말하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381616)
 
@@ -4222,17 +4230,9 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 
 작성 2025-03-23 · 수정 2025-03-23 · 태그 doomemacs
 
-Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이다. 실제 활용 흐름을 담았다.
+Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250323T072708/)
-
-## 모음: 둠이맥스 모듈
-
-작성 2024-02-20 · 수정 2025-03-23 · 태그 collection, doomemacs
-
-둠이맥스 모듈 구조와 관련 자료를 모아 두고 필요할 때 다시 찾기 위한 컬렉션 정리 노트.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240220T091923/)
 
 ## 어드벤트 캘린더 - 특정 주제로 꾸준히 기록
 
@@ -4246,7 +4246,7 @@ Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이�
 
 작성 2025-03-22 · 수정 2025-03-22
 
-상하목장 유기농·무항생제 우유 배달 옵션을 정리한 생활형 LLM 로그이다. 실제 활용 흐름을 담았다.
+상하목장 유기농·무항생제 우유 배달 옵션을 정리한 생활형 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250322T085717/)
 
@@ -4262,7 +4262,7 @@ Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이�
 
 작성 2025-03-21 · 수정 2025-03-21 · 태그 alternative, bib, copilot, emacs, llmclient, packages
 
-Minuet AI.el을 코파일럿과 gptel의 대체 패키지로 검토한 노트이다. 실제 활용 흐름을 담았다.
+Minuet AI.el을 코파일럿과 gptel의 대체 패키지로 검토한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250321T095719/)
 
@@ -4270,7 +4270,7 @@ Minuet AI.el을 코파일럿과 gptel의 대체 패키지로 검토한 노트이
 
 작성 2025-03-21 · 수정 2025-03-21 · 태그 clojure, emacs, evil, ide, manual
 
-코지 이맥스 매뉴얼을 Clojure와 Evil 중심 IDE 관점에서 정리한 노트이다. 실제 활용 흐름을 담았다.
+코지 이맥스 매뉴얼을 Clojure와 Evil 중심 IDE 관점에서 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250321T070503/)
 
@@ -4286,7 +4286,7 @@ Minuet AI.el을 코파일럿과 gptel의 대체 패키지로 검토한 노트이
 
 작성 2025-03-20 · 수정 2025-03-20 · 태그 autholog, bib
 
-왜 이름이 힣인지, 그 호명이 어떤 뜻을 갖는지 풀어내는 글이다. 실제 활용 흐름을 담았다.
+왜 이름이 힣인지, 그 호명이 어떤 뜻을 갖는지 풀어내는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381605)
 
@@ -4294,7 +4294,7 @@ Minuet AI.el을 코파일럿과 gptel의 대체 패키지로 검토한 노트이
 
 작성 2025-03-20 · 수정 2025-03-20 · 태그 bib, emacs, evil, packages
 
-evil-owl로 Emacs의 레지스터와 마크를 더 잘 보이게 관리하는 노트이다. 실제 활용 흐름을 담았다.
+evil-owl로 Emacs의 레지스터와 마크를 더 잘 보이게 관리하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250320T144237/)
 
@@ -4302,7 +4302,7 @@ evil-owl로 Emacs의 레지스터와 마크를 더 잘 보이게 관리하는 �
 
 작성 2025-03-20 · 수정 2025-03-20 · 태그 bib, clojure
 
-HAMT와 RRB를 통해 클로저의 영속 자료구조를 이해하려는 노트이다. 실제 활용 흐름을 담았다.
+HAMT와 RRB를 통해 클로저의 영속 자료구조를 이해하려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250320T140704/)
 
@@ -4390,7 +4390,7 @@ gptel과 함께 yank-excluded-properties 설정이 왜 필요한지 정리한 �
 
 작성 2025-03-19 · 수정 2025-03-19 · 태그 bib, human, information, system, management, pay, welfare
 
-HRIS와 복지 관리 도구로 Rippling과 Flex 같은 서비스를 검토한 노트이다. 실제 활용 흐름을 담았다.
+HRIS와 복지 관리 도구로 Rippling과 Flex 같은 서비스를 검토한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250319T112544/)
 
@@ -4398,7 +4398,7 @@ HRIS와 복지 관리 도구로 Rippling과 Flex 같은 서비스를 검토한 �
 
 작성 2025-03-19 · 수정 2025-03-19 · 태그 system, autholog
 
-톨보이 스피커와 하이파이 오디오 시스템에 대한 취향과 구상을 적은 글이다. 실제 활용 흐름을 담았다.
+톨보이 스피커와 하이파이 오디오 시스템에 대한 취향과 구상을 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381595)
 
@@ -4414,7 +4414,7 @@ aider를 터미널 기반 페어 프로그래밍 도구로 바라보며 설치�
 
 작성 2024-11-26 · 수정 2025-03-19 · 태그 orgmode, templates
 
-조직모드와 LaTeX 기반 manuscript 템플릿 샘플을 모아 참고하려는 노트이다. 실제 활용 흐름을 담았다.
+조직모드와 LaTeX 기반 manuscript 템플릿 샘플을 모아 참고하려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241126T060719/)
 
@@ -4454,7 +4454,7 @@ aider를 터미널 기반 페어 프로그래밍 도구로 바라보며 설치�
 
 작성 2025-03-17 · 수정 2025-03-17 · 태그 autholog, bib, publication, research
 
-컴퓨터공학 분야의 연구 실적과 발표 이력을 정리해 두는 노트이다. 실제 활용 흐름을 담았다.
+컴퓨터공학 분야의 연구 실적과 발표 이력을 정리해 두는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381593)
 
@@ -4462,7 +4462,7 @@ aider를 터미널 기반 페어 프로그래밍 도구로 바라보며 설치�
 
 작성 2025-03-17 · 수정 2025-03-17 · 태그 bib, history
 
-git blame을 사유의 과정과 수정 이력을 드러내는 도구로 바라보는 노트이다. 실제 활용 흐름을 담았다.
+git blame을 사유의 과정과 수정 이력을 드러내는 도구로 바라보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250317T122832/)
 
@@ -4470,7 +4470,7 @@ git blame을 사유의 과정과 수정 이력을 드러내는 도구로 바라�
 
 작성 2025-03-16 · 수정 2025-03-16 · 태그 adhd, autholog
 
-성인 ADHD를 주제로 한 블로그 시즌3를 어떤 방향으로 쓸지 적어 둔 노트이다. 실제 활용 흐름을 담았다.
+성인 ADHD를 주제로 한 블로그 시즌3를 어떤 방향으로 쓸지 적어 둔 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381591)
 
@@ -4478,7 +4478,7 @@ git blame을 사유의 과정과 수정 이력을 드러내는 도구로 바라�
 
 작성 2025-03-15 · 수정 2025-03-15
 
-ox-hugo와 마크다운 사이의 개행 문자 처리 문제를 정리한 기술 로그이다. 실제 활용 흐름을 담았다.
+ox-hugo와 마크다운 사이의 개행 문자 처리 문제를 정리한 기술 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250315T155225/)
 
@@ -4486,7 +4486,7 @@ ox-hugo와 마크다운 사이의 개행 문자 처리 문제를 정리한 기�
 
 작성 2025-03-15 · 수정 2025-03-15
 
-웹페이지 로딩 속도를 개선하는 기본 방법들을 정리한 LLM 로그이다. 실제 활용 흐름을 담았다.
+웹페이지 로딩 속도를 개선하는 기본 방법들을 정리한 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250315T152549/)
 
@@ -4510,7 +4510,7 @@ ox-hugo와 마크다운 사이의 개행 문자 처리 문제를 정리한 기�
 
 작성 2025-03-14 · 수정 2025-03-14 · 태그 contents, sns, substack
 
-Buffer를 소셜미디어와 뉴스레터 배포 자동화 도구로 검토한 임시 노트이다. 실제 활용 흐름을 담았다.
+Buffer를 소셜미디어와 뉴스레터 배포 자동화 도구로 검토한 임시 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250314T124024/)
 
@@ -4518,7 +4518,7 @@ Buffer를 소셜미디어와 뉴스레터 배포 자동화 도구로 검토한 �
 
 작성 2025-03-13 · 수정 2025-03-13 · 태그 bib, codekata, coding
 
-LeetCode를 코딩 훈련과 문제풀이 습관의 관점에서 기록한 노트이다. 실제 활용 흐름을 담았다.
+LeetCode를 코딩 훈련과 문제풀이 습관의 관점에서 기록한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250313T114109/)
 
@@ -4550,7 +4550,7 @@ Quartz에서 다양한 callout 블록과 TODO 키워드를 내보내기 테스�
 
 작성 2025-03-12 · 수정 2025-03-12 · 태그 autobiography, memoir
 
-자서전과 회고록을 쓰는 일의 차이와 의미를 묻는 LLM 로그이다. 실제 활용 흐름을 담았다.
+자서전과 회고록을 쓰는 일의 차이와 의미를 묻는 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250312T121827/)
 
@@ -4558,7 +4558,7 @@ Quartz에서 다양한 callout 블록과 TODO 키워드를 내보내기 테스�
 
 작성 2024-11-26 · 수정 2025-03-11 · 태그 autholog, spirituality
 
-삶은 언제나 여여하다는 문장을 영어와 불교 용어 맥락으로 다시 음미하는 글이다. 실제 활용 흐름을 담았다.
+삶은 언제나 여여하다는 문장을 영어와 불교 용어 맥락으로 다시 음미하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381384)
 
@@ -4574,7 +4574,7 @@ Doom Emacs와 Evil 학습에 큰 영향을 준 evil.dot.doom 자료를 정리한
 
 작성 2025-03-09 · 수정 2025-03-09 · 태그 bib, management, reading
 
-org-books로 이맥스 안에서 도서 목록과 읽기 관리를 해보려는 노트이다. 실제 활용 흐름을 담았다.
+org-books로 이맥스 안에서 도서 목록과 읽기 관리를 해보려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250309T194056/)
 
@@ -4598,7 +4598,7 @@ Emacs와 Zotero, Org mode로 reading list를 관리하는 코드 흐름을 정�
 
 작성 2025-03-09 · 수정 2025-03-09 · 태그 series, collection, person, history, index
 
-무엇무엇한 자, 하는 존재 같은 인명 시리즈를 모아 색인하려는 노트이다. 실제 활용 흐름을 담았다.
+무엇무엇한 자, 하는 존재 같은 인명 시리즈를 모아 색인하려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250309T151452/)
 
@@ -4606,7 +4606,7 @@ Emacs와 Zotero, Org mode로 reading list를 관리하는 코드 흐름을 정�
 
 작성 2025-03-09 · 수정 2025-03-09 · 태그 debug, elisp, orgmode
 
-Org mode의 tab-width 경고와 들여쓰기 이슈를 추적하는 디버그 노트이다. 실제 활용 흐름을 담았다.
+Org mode의 tab-width 경고와 들여쓰기 이슈를 추적하는 디버그 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250309T142131/)
 
@@ -4638,7 +4638,7 @@ Meditations on Knowledge and Knowing
 
 작성 2025-03-08 · 수정 2025-03-08
 
-세차를 간단하고 무리 없이 하는 방법을 물어본 생활형 LLM 로그이다. 실제 활용 흐름을 담았다.
+세차를 간단하고 무리 없이 하는 방법을 물어본 생활형 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250308T125450/)
 
@@ -4670,7 +4670,7 @@ PAW를 이맥스 안의 주석 도구이자 언어 학습 솔루션으로 바라
 
 작성 2025-03-06 · 수정 2025-03-06
 
-경탄과 감탄, 놀람 같은 감정 표현을 헤세와 츠바이크 맥락으로 더듬는 로그이다. 실제 활용 흐름을 담았다.
+경탄과 감탄, 놀람 같은 감정 표현을 헤세와 츠바이크 맥락으로 더듬는 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250306T043741/)
 
@@ -4678,7 +4678,7 @@ PAW를 이맥스 안의 주석 도구이자 언어 학습 솔루션으로 바라
 
 작성 2024-10-24 · 수정 2025-03-06 · 태그 newsletter, autholog
 
-어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다. 실제 활용 흐름을 담았다.
+어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381365)
 
@@ -4694,7 +4694,7 @@ Claude Code와 claude-code.el을 중심으로 에이전틱 코딩 흐름을 정�
 
 작성 2025-03-05 · 수정 2025-03-05 · 태그 bib, lsp, optimization, packages
 
-Emacs LSP 성능을 높이는 booster 패키지들을 비교하며 정리한 노트이다. 실제 활용 흐름을 담았다.
+Emacs LSP 성능을 높이는 booster 패키지들을 비교하며 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250305T113510/)
 
@@ -4702,7 +4702,7 @@ Emacs LSP 성능을 높이는 booster 패키지들을 비교하며 정리한 노
 
 작성 2025-03-05 · 수정 2025-03-05 · 태그 bib
 
-영문 제목 규칙을 변환하는 titlecase.el 패키지를 소개하는 짧은 노트이다. 실제 활용 흐름을 담았다.
+영문 제목 규칙을 변환하는 titlecase.el 패키지를 소개하는 짧은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250305T070646/)
 
@@ -4710,7 +4710,7 @@ Emacs LSP 성능을 높이는 booster 패키지들을 비교하며 정리한 노
 
 작성 2025-03-05 · 수정 2025-03-05
 
-iedit 패키지가 같은 텍스트를 동시에 편집하는 데 어떻게 쓰이는지 정리한 로그이다. 실제 활용 흐름을 담았다.
+iedit 패키지가 같은 텍스트를 동시에 편집하는 데 어떻게 쓰이는지 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250305T153705/)
 
@@ -4718,7 +4718,7 @@ iedit 패키지가 같은 텍스트를 동시에 편집하는 데 어떻게 쓰�
 
 작성 2025-03-05 · 수정 2025-03-05 · 태그 bib
 
-Cohere라는 AI 기업이 어떤 회사인지 기본 정보를 정리한 짧은 로그이다. 실제 활용 흐름을 담았다.
+Cohere라는 AI 기업이 어떤 회사인지 기본 정보를 정리한 짧은 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250305T134819/)
 
@@ -4774,7 +4774,7 @@ string-inflection과 evil-string-inflection으로 문자열 케이스를 바꾸�
 
 작성 2025-03-04 · 수정 2025-03-04 · 태그 autocompletion, doomemacs, tag
 
-Emacs 태그 자동완성을 꺼야 하는 이유와 해결 설정을 정리한 노트이다. 실제 활용 흐름을 담았다.
+Emacs 태그 자동완성을 꺼야 하는 이유와 해결 설정을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250304T172608/)
 
@@ -4782,7 +4782,7 @@ Emacs 태그 자동완성을 꺼야 하는 이유와 해결 설정을 정리한 
 
 작성 2025-03-02 · 수정 2025-03-02
 
-K-Culture 플랫폼 메이크스타가 어떤 회사인지 기본 정보를 정리한 로그이다. 실제 활용 흐름을 담았다.
+K-Culture 플랫폼 메이크스타가 어떤 회사인지 기본 정보를 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250302T104842/)
 
@@ -4798,7 +4798,7 @@ imenu-list를 treemacs처럼 다듬어 쓰는 설정과 화면 구성을 기록�
 
 작성 2025-02-27 · 수정 2025-02-27 · 태그 emacs, keybindings, outline
 
-헤딩 이동과 레벨 조작 키를 Alt 계열로 통일하려는 키바인딩 정리 노트이다. 실제 활용 흐름을 담았다.
+헤딩 이동과 레벨 조작 키를 Alt 계열로 통일하려는 키바인딩 정리 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250227T195539/)
 
@@ -4806,7 +4806,7 @@ imenu-list를 treemacs처럼 다듬어 쓰는 설정과 화면 구성을 기록�
 
 작성 2025-02-27 · 수정 2025-02-27 · 태그 bib
 
-imenu-list를 버퍼용 TOC 프레임워크로 활용하는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.
+imenu-list를 버퍼용 TOC 프레임워크로 활용하는 방법을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250227T143549/)
 
@@ -4814,7 +4814,7 @@ imenu-list를 버퍼용 TOC 프레임워크로 활용하는 방법을 정리한 
 
 작성 2025-02-27 · 수정 2025-02-27
 
-발자크의 작업 습관과 ADHD 유사성을 조심스럽게 비교해 보는 LLM 로그이다. 실제 활용 흐름을 담았다.
+발자크의 작업 습관과 ADHD 유사성을 조심스럽게 비교해 보는 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250227T065258/)
 
@@ -4830,7 +4830,7 @@ imenu-list를 버퍼용 TOC 프레임워크로 활용하는 방법을 정리한 
 
 작성 2025-02-26 · 수정 2025-02-26 · 태그 learning, goals, plan, exploration, inquiry
 
-학습 목표가 질문과 방향, 목차를 어떻게 만들어 주는지 살피는 노트이다. 실제 활용 흐름을 담았다.
+학습 목표가 질문과 방향, 목차를 어떻게 만들어 주는지 살피는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250226T110316/)
 
@@ -4838,7 +4838,7 @@ imenu-list를 버퍼용 TOC 프레임워크로 활용하는 방법을 정리한 
 
 작성 2024-11-11 · 수정 2025-02-26 · 태그 bib, latex, snippet, symbol, packages
 
-LaTeX 자동 활성 스니펫을 이맥스 수식 입력 흐름에 붙이는 방법을 살피는 노트이다. 실제 활용 흐름을 담았다.
+LaTeX 자동 활성 스니펫을 이맥스 수식 입력 흐름에 붙이는 방법을 살피는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241111T144638/)
 
@@ -4862,7 +4862,7 @@ Org 파일로 Hugo 블로깅 위한 예제 (Org -&gt; Markdown)
 
 작성 2025-02-25 · 수정 2025-02-25
 
-생각이 너무 많은 상태로 알려진 PESM 증후군 개념을 정리한 짧은 로그이다. 실제 활용 흐름을 담았다.
+생각이 너무 많은 상태로 알려진 PESM 증후군 개념을 정리한 짧은 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250225T111816/)
 
@@ -4870,7 +4870,7 @@ Org 파일로 Hugo 블로깅 위한 예제 (Org -&gt; Markdown)
 
 작성 2025-02-24 · 수정 2025-02-24 · 태그 bib, jupyter, literate, orgbabel, orgmode, quarto
 
-Org Babel을 리터레이트 프로그래밍과 출판의 중심으로 바라보는 노트이다. 실제 활용 흐름을 담았다.
+Org Babel을 리터레이트 프로그래밍과 출판의 중심으로 바라보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250224T125854/)
 
@@ -4910,7 +4910,7 @@ Vale가 한국어 글쓰기에서 왜 한계에 부딪히는지 형태소분석 
 
 작성 2025-02-23 · 수정 2025-02-23 · 태그 bib
 
-swiper와 consult-line의 장단점을 검색 경험 관점에서 비교하는 노트이다. 실제 활용 흐름을 담았다.
+swiper와 consult-line의 장단점을 검색 경험 관점에서 비교하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250223T182857/)
 
@@ -4918,7 +4918,7 @@ swiper와 consult-line의 장단점을 검색 경험 관점에서 비교하는 �
 
 작성 2025-02-23 · 수정 2025-02-23 · 태그 community, emacs, substack
 
-지식 유희자를 위한 텍스트 힙스터 놀이터를 만들려는 커뮤니티 구상 노트이다. 실제 활용 흐름을 담았다.
+지식 유희자를 위한 텍스트 힙스터 놀이터를 만들려는 커뮤니티 구상 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250223T114721/)
 
@@ -4926,7 +4926,7 @@ swiper와 consult-line의 장단점을 검색 경험 관점에서 비교하는 �
 
 작성 2025-02-22 · 수정 2025-02-22 · 태그 bib, jupyter, linux, python, graphical
 
-Jupyter QtConsole을 리눅스 그래픽 콘솔로 쓰는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.
+Jupyter QtConsole을 리눅스 그래픽 콘솔로 쓰는 방법을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250222T190241/)
 
@@ -4934,7 +4934,7 @@ Jupyter QtConsole을 리눅스 그래픽 콘솔로 쓰는 방법을 정리한 �
 
 작성 2025-02-21 · 수정 2025-02-21 · 태그 bib, emacs, jupyter, repl
 
-emacs-jupyter에서 코드블록과 버퍼를 REPL로 보내는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.
+emacs-jupyter에서 코드블록과 버퍼를 REPL로 보내는 방법을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250221T192910/)
 
@@ -4942,7 +4942,7 @@ emacs-jupyter에서 코드블록과 버퍼를 REPL로 보내는 방법을 정리
 
 작성 2025-02-21 · 수정 2025-02-21 · 태그 ancient, autholog, bib, contemporary, ethics, history, map, ontology
 
-철학사를 시대와 분야, 인물과 학파의 지도로 다시 그려 보려는 글이다. 실제 활용 흐름을 담았다.
+철학사를 시대와 분야, 인물과 학파의 지도로 다시 그려 보려는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381546)
 
@@ -4950,7 +4950,7 @@ emacs-jupyter에서 코드블록과 버퍼를 REPL로 보내는 방법을 정리
 
 작성 2025-02-21 · 수정 2025-02-21 · 태그 bib
 
-Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트이다. 실제 활용 흐름을 담았다.
+Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250221T114912/)
 
@@ -4958,7 +4958,7 @@ Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트�
 
 작성 2025-02-20 · 수정 2025-02-20 · 태그 emacsian, korean, collection, geeks
 
-한국인 이맥스 사용자와 관련 블로그, 흔적을 모아 보려는 커뮤니티 노트이다. 실제 활용 흐름을 담았다.
+한국인 이맥스 사용자와 관련 블로그, 흔적을 모아 보려는 커뮤니티 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250220T122335/)
 
@@ -4974,7 +4974,7 @@ Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트�
 
 작성 2025-02-19 · 수정 2025-02-19 · 태그 bib
 
-elpy와 ipython을 중심으로 이맥스 파이썬 인터프리터 환경을 살펴보는 노트이다. 실제 활용 흐름을 담았다.
+elpy와 ipython을 중심으로 이맥스 파이썬 인터프리터 환경을 살펴보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250219T211552/)
 
@@ -5006,7 +5006,7 @@ org-roam을 중심으로 제텔카스텐, 에버그린, 블로그 퍼블리시�
 
 작성 2025-02-18 · 수정 2025-02-18 · 태그 keybindings, emacs, editing
 
-이맥스 스크롤과 편집 키바인딩을 손목 친화적으로 바꾸려는 대안 노트이다. 실제 활용 흐름을 담았다.
+이맥스 스크롤과 편집 키바인딩을 손목 친화적으로 바꾸려는 대안 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250218T171350/)
 
@@ -5014,7 +5014,7 @@ org-roam을 중심으로 제텔카스텐, 에버그린, 블로그 퍼블리시�
 
 작성 2025-02-18 · 수정 2025-02-18 · 태그 bib, jupyter, python
 
-snakemacs를 파이썬과 주피터 중심 스타터키트로 검토한 노트이다. 실제 활용 흐름을 담았다.
+snakemacs를 파이썬과 주피터 중심 스타터키트로 검토한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250218T151435/)
 
@@ -5022,7 +5022,7 @@ snakemacs를 파이썬과 주피터 중심 스타터키트로 검토한 노트�
 
 작성 2025-02-18 · 수정 2025-02-18 · 태그 bib, emacs, python
 
-scimax를 과학자용 Emacs 스타터키트와 주피터 환경 관점에서 살펴보는 노트이다. 실제 활용 흐름을 담았다.
+scimax를 과학자용 Emacs 스타터키트와 주피터 환경 관점에서 살펴보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250218T111836/)
 
@@ -5038,7 +5038,7 @@ kludge와 deprecated, obsolete 같은 용어 차이를 태그 감각으로 정�
 
 작성 2025-02-18 · 수정 2025-02-18 · 태그 bib
 
-ZeroMQ와 libzmq가 주피터와 이맥스 빌드에서 왜 필요한지 정리한 노트이다. 실제 활용 흐름을 담았다.
+ZeroMQ와 libzmq가 주피터와 이맥스 빌드에서 왜 필요한지 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250218T071249/)
 
@@ -5062,7 +5062,7 @@ Emacs Writing Studio를 한국어로 풀어내기 위한 EWS-KO 프로젝트 작
 
 작성 2023-12-09 · 수정 2025-02-18 · 태그 bib, examples, orgmode, workflow
 
-#어젠다: 워크플로우 예제 모음 - 조직모드
+org-agenda 워크플로우 예제를 모아 두고 캡처와 파일 구조, 운영 원칙을 함께 점검한다. 실제 환경에 가져다 쓰기 전에 어떤 전제가 필요한지 파악하기 좋은 참고 노트다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231209T075807/)
 
@@ -5102,7 +5102,7 @@ norang의 org-agenda 문서를 바탕으로 텍스트 기반 삶 설계 철학�
 
 작성 2025-02-17 · 수정 2025-02-17
 
-Apheleia 포매팅 결과가 환경마다 달라지는 이유를 추적하는 기술 로그이다. 실제 활용 흐름을 담았다.
+Apheleia 포매팅 결과가 환경마다 달라지는 이유를 추적하는 기술 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250217T153318/)
 
@@ -5134,7 +5134,7 @@ ob-jupyter와 조직모드 바벨을 이용해 파이썬·주피터 작업을 �
 
 작성 2025-02-16 · 수정 2025-02-16 · 태그 bib, camping, reservation
 
-국립공원공단 예약시스템을 캠핑과 가족여행 맥락에서 기록한 실용 노트이다. 실제 활용 흐름을 담았다.
+국립공원공단 예약시스템을 캠핑과 가족여행 맥락에서 기록한 실용 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250216T001443/)
 
@@ -5142,7 +5142,7 @@ ob-jupyter와 조직모드 바벨을 이용해 파이썬·주피터 작업을 �
 
 작성 2025-01-18 · 수정 2025-02-16 · 태그 doomemacs, ebook
 
-Doom Emacs에서 nov 패키지로 EPUB을 읽도록 설정하는 방법을 적은 노트이다. 실제 활용 흐름을 담았다.
+Doom Emacs에서 nov 패키지로 EPUB을 읽도록 설정하는 방법을 적은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250118T124126/)
 
@@ -5158,7 +5158,7 @@ Exercism을 언어 학습과 멘토링형 코딩 훈련 도구로 바라보며 �
 
 작성 2024-09-22 · 수정 2025-02-15 · 태그 autholog, communication, sns, subscriber, newsletter, community
 
-모두가 생산자라는 관점에서 작은 소통 공간과 뉴스레터 커뮤니티의 필요를 적은 글이다. 실제 활용 흐름을 담았다.
+모두가 생산자라는 관점에서 작은 소통 공간과 뉴스레터 커뮤니티의 필요를 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381327)
 
@@ -5182,7 +5182,7 @@ junghanacs와 junghan0611로 이어지는 온라인 자아의 흐름과 기록 �
 
 작성 2025-02-14 · 수정 2025-02-14 · 태그 bib
 
-just와 justfile이 프로젝트 명령 실행을 어떻게 단순화하는지 정리한 노트이다. 실제 활용 흐름을 담았다.
+just와 justfile이 프로젝트 명령 실행을 어떻게 단순화하는지 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T135644/)
 
@@ -5190,7 +5190,7 @@ just와 justfile이 프로젝트 명령 실행을 어떻게 단순화하는지 �
 
 작성 2025-02-14 · 수정 2025-02-14 · 태그 bib
 
-회색돌기법이 왜 효과적인지 비폭력 대화 맥락과 함께 살펴보는 노트이다. 실제 활용 흐름을 담았다.
+회색돌기법이 왜 효과적인지 비폭력 대화 맥락과 함께 살펴보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T120837/)
 
@@ -5198,7 +5198,7 @@ just와 justfile이 프로젝트 명령 실행을 어떻게 단순화하는지 �
 
 작성 2025-02-14 · 수정 2025-02-14 · 태그 ecosystem, python, library, collection
 
-파이썬 생태계에서 자주 쓰는 표준 라이브러리와 모듈을 묶어 두는 컬렉션이다. 실제 활용 흐름을 담았다.
+파이썬 생태계에서 자주 쓰는 표준 라이브러리와 모듈을 묶어 두는 컬렉션이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250214T141826/)
 
@@ -5230,7 +5230,7 @@ OmegaT 설치와 Solar Mini Translate 플러그인 활용 흐름을 요약해 �
 
 작성 2024-08-19 · 수정 2025-02-14 · 태그 android, bib, desktop, termux
 
-안드로이드 16과 삼성 DeX가 데스크톱 대안이 될 수 있는지 기사와 함께 검토한 기록. 실제 활용 흐름을 담았다.
+안드로이드 16과 삼성 DeX가 데스크톱 대안이 될 수 있는지 기사와 함께 검토한 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240819T162208/)
 
@@ -5254,7 +5254,7 @@ OmegaT 설치와 Solar Mini Translate 플러그인 활용 흐름을 요약해 �
 
 작성 2025-02-13 · 수정 2025-02-13 · 태그 quarto
 
-Quarto로 한국어와 영어 같은 다국어 포스팅을 운영하는 방법을 정리한 로그이다. 실제 활용 흐름을 담았다.
+Quarto로 한국어와 영어 같은 다국어 포스팅을 운영하는 방법을 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250213T135857/)
 
@@ -5302,7 +5302,7 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 
 작성 2025-02-12 · 수정 2025-02-12 · 태그 bib, collection, physics, quantum
 
-양자역학과 현대물리의 역사 드라마를 한곳에 모아 보려는 물리학 컬렉션 노트이다. 실제 활용 흐름을 담았다.
+양자역학과 현대물리의 역사 드라마를 한곳에 모아 보려는 물리학 컬렉션 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T123217/)
 
@@ -5310,7 +5310,7 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 
 작성 2025-02-12 · 수정 2025-02-12 · 태그 bib
 
-허슬 문화가 과도한 긴장과 보여주기 경쟁을 만든다는 문제의식을 적은 노트이다. 실제 활용 흐름을 담았다.
+허슬 문화가 과도한 긴장과 보여주기 경쟁을 만든다는 문제의식을 적은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T092332/)
 
@@ -5318,7 +5318,7 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 
 작성 2025-02-09 · 수정 2025-02-09
 
-강화도 옥토끼 우주센터 주변 정보와 가족 나들이 맥락을 적은 LLM 로그이다. 실제 활용 흐름을 담았다.
+강화도 옥토끼 우주센터 주변 정보와 가족 나들이 맥락을 적은 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250209T112155/)
 
@@ -5326,7 +5326,7 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 
 작성 2025-02-07 · 수정 2025-02-07
 
-리눅스에서 청약Home 인증을 통과하며 공동·금융·간편 인증서를 정리한 노트이다. 실제 활용 흐름을 담았다.
+리눅스에서 청약Home 인증을 통과하며 공동·금융·간편 인증서를 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250207T142057/)
 
@@ -5334,7 +5334,7 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 
 작성 2025-02-07 · 수정 2025-02-07 · 태그 bib, clojure
 
-클로저 풀스택 개발의 전체 그림을 서버와 UI 도구 관점에서 모아 본 노트이다. 실제 활용 흐름을 담았다.
+클로저 풀스택 개발의 전체 그림을 서버와 UI 도구 관점에서 모아 본 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250207T123109/)
 
@@ -5342,7 +5342,7 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 
 작성 2025-02-06 · 수정 2025-02-06 · 태그 emacs, geeks
 
-Emacs geek와 Emacs geeks 표현 차이를 두고 고민한 짧은 언어 로그이다. 실제 활용 흐름을 담았다.
+Emacs geek와 Emacs geeks 표현 차이를 두고 고민한 짧은 언어 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250206T160514/)
 
@@ -5350,7 +5350,7 @@ Emacs geek와 Emacs geeks 표현 차이를 두고 고민한 짧은 언어 로그
 
 작성 2025-02-06 · 수정 2025-02-06
 
-CAF 파일을 MP3나 WAV로 바꾸는 방법을 정리한 짧은 변환 로그이다. 실제 활용 흐름을 담았다.
+CAF 파일을 MP3나 WAV로 바꾸는 방법을 정리한 짧은 변환 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250206T091027/)
 
@@ -5366,7 +5366,7 @@ lsp-mode와 eglot의 차이를 단순성, 빌트인 선호, 프로젝트 관리 
 
 작성 2025-02-03 · 수정 2025-02-03 · 태그 bib, finance, economics, packages, money
 
-Ledger와 Beancount로 개인 금융과 복식부기를 다뤄 보려는 회계 노트이다. 실제 활용 흐름을 담았다.
+Ledger와 Beancount로 개인 금융과 복식부기를 다뤄 보려는 회계 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250203T195102/)
 
@@ -5382,7 +5382,7 @@ Corfu, Vertico, Consult, Embark를 묶어 이맥스 자동완성·탐색 흐름�
 
 작성 2025-02-02 · 수정 2025-02-02 · 태그 emacs
 
-이맥스를 실제로 누가 만들고 커밋하는지 추적해 보려는 짧은 로그이다. 실제 활용 흐름을 담았다.
+이맥스를 실제로 누가 만들고 커밋하는지 추적해 보려는 짧은 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250202T075822/)
 
@@ -5390,7 +5390,7 @@ Corfu, Vertico, Consult, Embark를 묶어 이맥스 자동완성·탐색 흐름�
 
 작성 2025-01-31 · 수정 2025-01-31 · 태그 community
 
-기술 커뮤니티 lobste.rs와 Reddit의 차이를 비교하는 커뮤니티 메모이다. 실제 활용 흐름을 담았다.
+기술 커뮤니티 lobste.rs와 Reddit의 차이를 비교하는 커뮤니티 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250131T122608/)
 
@@ -5406,7 +5406,7 @@ wokeness의 의미 변화와 논쟁성을 통해 도덕 언어, 정체성, 계�
 
 작성 2025-01-29 · 수정 2025-01-29 · 태그 configuration, emacs, pandoc
 
-이맥스와 판독, pandoc 변환 설정을 연결해 두는 작업용 설정 노트이다. 실제 활용 흐름을 담았다.
+이맥스와 판독, pandoc 변환 설정을 연결해 두는 작업용 설정 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250129T215257/)
 
@@ -5414,7 +5414,7 @@ wokeness의 의미 변화와 논쟁성을 통해 도덕 언어, 정체성, 계�
 
 작성 2025-01-29 · 수정 2025-01-29 · 태그 terminal
 
-터미널에서 asciiquarium 같은 아스키아트 프로그램을 찾고 비교한 노트이다. 실제 활용 흐름을 담았다.
+터미널에서 asciiquarium 같은 아스키아트 프로그램을 찾고 비교한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250129T180814/)
 
@@ -5422,7 +5422,7 @@ wokeness의 의미 변화와 논쟁성을 통해 도덕 언어, 정체성, 계�
 
 작성 2025-01-25 · 수정 2025-01-25 · 태그 unicode, pandoc, hangul
 
-한글 NFD 자모를 NFC 완성형으로 정규화하는 문제와 해결책을 정리한 노트이다. 실제 활용 흐름을 담았다.
+한글 NFD 자모를 NFC 완성형으로 정규화하는 문제와 해결책을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250125T190619/)
 
@@ -5430,7 +5430,7 @@ wokeness의 의미 변화와 논쟁성을 통해 도덕 언어, 정체성, 계�
 
 작성 2025-01-24 · 수정 2025-01-24
 
-이맥스 xref가 정의와 참조 검색에서 어떻게 동작하는지 정리한 로그이다. 실제 활용 흐름을 담았다.
+이맥스 xref가 정의와 참조 검색에서 어떻게 동작하는지 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250124T103402/)
 
@@ -5438,7 +5438,7 @@ wokeness의 의미 변화와 논쟁성을 통해 도덕 언어, 정체성, 계�
 
 작성 2025-01-24 · 수정 2025-01-24
 
-XeLaTeX와 PDFLaTeX의 차이와 설치 방법을 정리한 LLM 로그이다. 실제 활용 흐름을 담았다.
+XeLaTeX와 PDFLaTeX의 차이와 설치 방법을 정리한 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250124T060946/)
 
@@ -5462,7 +5462,7 @@ gpt-babel이 조직모드 코드블록 수정과 리터레이트 작업에 주�
 
 작성 2025-01-07 · 수정 2025-01-07
 
-젠틀몬스터 안경 브랜드와 유사 브랜드, 광학 원리를 함께 물어본 로그이다. 실제 활용 흐름을 담았다.
+젠틀몬스터 안경 브랜드와 유사 브랜드, 광학 원리를 함께 물어본 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250107T050708/)
 
@@ -5470,7 +5470,7 @@ gpt-babel이 조직모드 코드블록 수정과 리터레이트 작업에 주�
 
 작성 2024-12-30 · 수정 2024-12-30
 
-영유아 알레르기 MAST 검사가 무엇이고 어떻게 해석되는지 묻는 LLM 로그이다. 실제 활용 흐름을 담았다.
+영유아 알레르기 MAST 검사가 무엇이고 어떻게 해석되는지 묻는 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241230T165720/)
 
@@ -5486,7 +5486,7 @@ Google Analytics와 Plausible, Umami, GoatCounter를 비교해 보는 웹분석 
 
 작성 2024-12-26 · 수정 2024-12-26
 
-Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이다. 실제 활용 흐름을 담았다.
+Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241226T220559/)
 
@@ -5494,7 +5494,7 @@ Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이
 
 작성 2024-12-26 · 수정 2024-12-26
 
-마크 로버식 도미노 과학 실험 장치와 구현 아이디어를 물어본 LLM 로그이다. 실제 활용 흐름을 담았다.
+마크 로버식 도미노 과학 실험 장치와 구현 아이디어를 물어본 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241226T122537/)
 
@@ -5502,7 +5502,7 @@ Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이
 
 작성 2024-12-25 · 수정 2024-12-25
 
-인공지능 시대 전문직이 어떻게 변하고 인간 역할이 무엇이 될지 더듬는 로그이다. 실제 활용 흐름을 담았다.
+인공지능 시대 전문직이 어떻게 변하고 인간 역할이 무엇이 될지 더듬는 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241225T044849/)
 
@@ -5510,7 +5510,7 @@ Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이
 
 작성 2024-12-24 · 수정 2024-12-24
 
-개념 기반 탐구 학습이론의 핵심과 교실 적용 포인트를 정리한 LLM 로그이다. 실제 활용 흐름을 담았다.
+개념 기반 탐구 학습이론의 핵심과 교실 적용 포인트를 정리한 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241224T095614/)
 
@@ -5518,7 +5518,7 @@ Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이
 
 작성 2024-12-23 · 수정 2024-12-23 · 태그 creativity, folgezettel, subconscious
 
-니체와 피아제, 칼융이 어린이를 어떻게 바라보는지 비교 정리하려는 노트이다. 실제 활용 흐름을 담았다.
+니체와 피아제, 칼융이 어린이를 어떻게 바라보는지 비교 정리하려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241223T232713/)
 
@@ -5526,7 +5526,7 @@ Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이
 
 작성 2024-12-23 · 태그 install, quarto
 
-콰르토는 직접 빌드하지 말고 패키지로 설치하자는 교훈을 남긴 노트이다. 실제 활용 흐름을 담았다.
+콰르토는 직접 빌드하지 말고 패키지로 설치하자는 교훈을 남긴 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241223T105927/)
 
@@ -5542,7 +5542,7 @@ Projectile 검색을 casual 메뉴 인터페이스로 감싸 보려는 이맥스
 
 작성 2024-12-20 · 수정 2024-12-20 · 태그 arts, books, culture, lists, publishing, recommend, industries
 
-희망도서와 올해의 책, 세종도서 추천 목록을 20년 흐름으로 보려는 노트이다. 실제 활용 흐름을 담았다.
+희망도서와 올해의 책, 세종도서 추천 목록을 20년 흐름으로 보려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241220T154648/)
 
@@ -5550,7 +5550,7 @@ Projectile 검색을 casual 메뉴 인터페이스로 감싸 보려는 이맥스
 
 작성 2024-12-18 · 수정 2024-12-18 · 태그 bookmark
 
-이맥스에서 URL 북마크를 저장하고 관리하는 방법을 정리한 짧은 로그이다. 실제 활용 흐름을 담았다.
+이맥스에서 URL 북마크를 저장하고 관리하는 방법을 정리한 짧은 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241218T154517/)
 
@@ -5558,7 +5558,7 @@ Projectile 검색을 casual 메뉴 인터페이스로 감싸 보려는 이맥스
 
 작성 2024-12-18 · 수정 2024-12-18 · 태그 bib, internationalization, localization
 
-번역과 지역화, 국제화를 문화와 접근성 관점까지 넓혀 보는 다국어 노트이다. 실제 활용 흐름을 담았다.
+번역과 지역화, 국제화를 문화와 접근성 관점까지 넓혀 보는 다국어 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241218T033907/)
 
@@ -5566,7 +5566,7 @@ Projectile 검색을 casual 메뉴 인터페이스로 감싸 보려는 이맥스
 
 작성 2024-12-18 · 수정 2024-12-18 · 태그 orgmode
 
-Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트이다. 실제 활용 흐름을 담았다.
+Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241218T031505/)
 
@@ -5574,7 +5574,7 @@ Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트
 
 작성 2024-12-17 · 수정 2024-12-17 · 태그 linux
 
-리눅스 inotify와 파일 감시 한도 문제를 해결하는 방법을 기록한 기술 노트이다. 실제 활용 흐름을 담았다.
+리눅스 inotify와 파일 감시 한도 문제를 해결하는 방법을 기록한 기술 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241217T091727/)
 
@@ -5582,7 +5582,7 @@ Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트
 
 작성 2024-12-17 · 수정 2024-12-17 · 태그 alternative, novel, substitute
 
-곤충젤리에서 출발해 대안 식품과 대체 단백질 흐름을 살피는 질문답변 노트이다. 실제 활용 흐름을 담았다.
+곤충젤리에서 출발해 대안 식품과 대체 단백질 흐름을 살피는 질문답변 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241217T084746/)
 
@@ -5590,7 +5590,7 @@ Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트
 
 작성 2024-12-16 · 수정 2024-12-16 · 태그 bib, emacs, install
 
-리눅스에서 이맥스를 PPA나 빌드 방식으로 설치하는 경로를 정리한 노트이다. 실제 활용 흐름을 담았다.
+리눅스에서 이맥스를 PPA나 빌드 방식으로 설치하는 경로를 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241216T100853/)
 
@@ -5598,7 +5598,7 @@ Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트
 
 작성 2024-12-15 · 수정 2024-12-15 · 태그 bib, collection, education, ubuntu
 
-오픈소스 교육용 앱과 KDE, 우분투 계열 도구를 함께 모아 보는 컬렉션이다. 실제 활용 흐름을 담았다.
+오픈소스 교육용 앱과 KDE, 우분투 계열 도구를 함께 모아 보는 컬렉션이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241215T201239/)
 
@@ -5606,7 +5606,7 @@ Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트
 
 작성 2024-12-15 · 수정 2024-12-15 · 태그 browser, editing
 
-브라우저에서 텍스트 치환을 할 수 있는 방법과 플러그인을 정리한 로그이다. 실제 활용 흐름을 담았다.
+브라우저에서 텍스트 치환을 할 수 있는 방법과 플러그인을 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241215T185538/)
 
@@ -5614,7 +5614,7 @@ Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트
 
 작성 2024-12-15 · 수정 2024-12-15 · 태그 bib
 
-EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼런스 메모이다. 실제 활용 흐름을 담았다.
+EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼런스 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241215T170144/)
 
@@ -5622,7 +5622,7 @@ EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼
 
 작성 2024-12-15 · 수정 2024-12-15 · 태그 ambiguity, collection, dictionary, glossary, polysemy
 
-애매함과 모호함, 용어 차이를 사전처럼 모으려는 어휘 컬렉션 노트이다. 실제 활용 흐름을 담았다.
+애매함과 모호함, 용어 차이를 사전처럼 모으려는 어휘 컬렉션 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241215T121847/)
 
@@ -5630,7 +5630,7 @@ EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼
 
 작성 2024-12-15 · 수정 2024-12-15 · 태그 guide, orgmode, tutorial
 
-조직모드의 가이드와 튜토리얼 자료를 줍줍하며 배우는 흐름을 적은 노트이다. 실제 활용 흐름을 담았다.
+조직모드의 가이드와 튜토리얼 자료를 줍줍하며 배우는 흐름을 적은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241215T120457/)
 
@@ -5646,7 +5646,7 @@ EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼
 
 작성 2024-12-13 · 태그 bib
 
-울프럼알파를 이맥스와 연결하기 위한 API 정보와 기본 자료를 모은 노트이다. 실제 활용 흐름을 담았다.
+울프럼알파를 이맥스와 연결하기 위한 API 정보와 기본 자료를 모은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241213T161527/)
 
@@ -5654,7 +5654,7 @@ EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼
 
 작성 2024-12-12 · 수정 2024-12-12 · 태그 sky, why
 
-하늘이 왜 파란지 레일리 산란으로 설명한 아주 짧은 과학 질답 로그이다. 실제 활용 흐름을 담았다.
+하늘이 왜 파란지 레일리 산란으로 설명한 아주 짧은 과학 질답 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241212T172507/)
 
@@ -5662,7 +5662,7 @@ EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼
 
 작성 2024-12-12 · 수정 2024-12-12 · 태그 bib, aiprompt, engineering, guide, manual, tutorial, collection, programmer
 
-개발자를 위한 AI 프롬프트 엔지니어링 자료와 가이드를 모아 두는 컬렉션이다. 실제 활용 흐름을 담았다.
+개발자를 위한 AI 프롬프트 엔지니어링 자료와 가이드를 모아 두는 컬렉션이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241212T140836/)
 
@@ -5670,7 +5670,7 @@ EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼
 
 작성 2024-12-12 · 수정 2024-12-12
 
-신시아 솔로몬과 로고 프로그래밍 교육의 계보를 간단히 정리한 LLM 로그이다. 실제 활용 흐름을 담았다.
+신시아 솔로몬과 로고 프로그래밍 교육의 계보를 간단히 정리한 LLM 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241212T103436/)
 
@@ -5702,7 +5702,7 @@ AWK와 Janet, 스크립트 도구를 이맥스 통합개발환경 안에 묶어 
 
 작성 2024-10-08 · 수정 2024-12-10 · 태그 dotfiles, emacs, generator
 
-이맥스 스타터키트와 설정 생성기를 비교하며 닷파일 생성기의 의미를 살피는 노트이다. 실제 활용 흐름을 담았다.
+이맥스 스타터키트와 설정 생성기를 비교하며 닷파일 생성기의 의미를 살피는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241008T131536/)
 
@@ -5710,7 +5710,7 @@ AWK와 Janet, 스크립트 도구를 이맥스 통합개발환경 안에 묶어 
 
 작성 2024-12-10 · 수정 2024-12-10 · 태그 emacs, awk, programming
 
-AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어로 다시 보는 노트이다. 실제 활용 흐름을 담았다.
+AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어로 다시 보는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241210T130047/)
 
@@ -5718,7 +5718,7 @@ AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어�
 
 작성 2024-12-10 · 수정 2024-12-10
 
-레고 마인드스톰과 스파이크 프라임에 함수형 프로그래밍 감각을 붙여 보려는 로그이다. 실제 활용 흐름을 담았다.
+레고 마인드스톰과 스파이크 프라임에 함수형 프로그래밍 감각을 붙여 보려는 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241210T081931/)
 
@@ -5726,7 +5726,7 @@ AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어�
 
 작성 2024-12-10 · 수정 2024-12-10 · 태그 knowing, autholog
 
-생각이 덜 요구되는 시대에 오히려 앎이 무엇인지 다시 묻는 어쏠로그이다. 실제 활용 흐름을 담았다.
+생각이 덜 요구되는 시대에 오히려 앎이 무엇인지 다시 묻는 어쏠로그이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381420)
 
@@ -5734,7 +5734,7 @@ AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어�
 
 작성 2024-11-30 · 수정 2024-12-09 · 태그 sns
 
-블루스카이 도메인 핸들과 계정 연결 정보를 간단히 남겨 둔 소셜 메모이다. 실제 활용 흐름을 담았다.
+블루스카이 도메인 핸들과 계정 연결 정보를 간단히 남겨 둔 소셜 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241130T183311/)
 
@@ -5742,7 +5742,7 @@ AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어�
 
 작성 2024-12-09 · 수정 2024-12-09
 
-빌 브라이슨을 읽다 만난 탐험가 일화가 과장인지 검토하며 대항해시대를 더듬은 로그이다. 실제 활용 흐름을 담았다.
+빌 브라이슨을 읽다 만난 탐험가 일화가 과장인지 검토하며 대항해시대를 더듬은 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241209T145307/)
 
@@ -5758,7 +5758,7 @@ Softcover와 Quarto를 비교하며 확장 가능한 퍼블리싱 도구의 미�
 
 작성 2024-12-08 · 수정 2024-12-08 · 태그 bib
 
-넘버블록스를 숫자 학습 교구로 바라보며 관련 자료를 짧게 모아 둔 노트이다. 실제 활용 흐름을 담았다.
+넘버블록스를 숫자 학습 교구로 바라보며 관련 자료를 짧게 모아 둔 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241208T114711/)
 
@@ -5766,7 +5766,7 @@ Softcover와 Quarto를 비교하며 확장 가능한 퍼블리싱 도구의 미�
 
 작성 2024-12-08 · 수정 2024-12-08
 
-넘버블록스 같은 수리과학 교구가 아이의 수학 감각에 주는 도움을 정리한 로그이다. 실제 활용 흐름을 담았다.
+넘버블록스 같은 수리과학 교구가 아이의 수학 감각에 주는 도움을 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241208T114808/)
 
@@ -5774,7 +5774,7 @@ Softcover와 Quarto를 비교하며 확장 가능한 퍼블리싱 도구의 미�
 
 작성 2024-08-23 · 수정 2024-12-08
 
-셀프바베큐장 방문 정보와 왜 이런 장소가 필요한지에 대한 생각을 적어 둔 메모이다. 실제 활용 흐름을 담았다.
+셀프바베큐장 방문 정보와 왜 이런 장소가 필요한지에 대한 생각을 적어 둔 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240823T103322/)
 
@@ -5782,7 +5782,7 @@ Softcover와 Quarto를 비교하며 확장 가능한 퍼블리싱 도구의 미�
 
 작성 2024-12-07 · 수정 2024-12-07 · 태그 autholog, fortune, quote, collection
 
-포춘쿠키와 삶과 죽음, 삶으로서의 일에 관한 도서 목록을 영감 구조로 묶는 글이다. 실제 활용 흐름을 담았다.
+포춘쿠키와 삶과 죽음, 삶으로서의 일에 관한 도서 목록을 영감 구조로 묶는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381411)
 
@@ -5798,7 +5798,7 @@ Documents 디렉토리를 Git LFS로 관리하는 방법과 장점을 질문답�
 
 작성 2024-12-06 · 수정 2024-12-06 · 태그 folksonomy, taxonomy, glossary, dictionary, ontology
 
-텍사노미와 폭소노미, 온톨로지 차이를 용어와 분류 체계 관점으로 정리한 로그이다. 실제 활용 흐름을 담았다.
+텍사노미와 폭소노미, 온톨로지 차이를 용어와 분류 체계 관점으로 정리한 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241206T164930/)
 
@@ -5806,7 +5806,7 @@ Documents 디렉토리를 Git LFS로 관리하는 방법과 장점을 질문답�
 
 작성 2024-12-06 · 수정 2024-12-06
 
-이맥스 Calc가 컴퓨터대수학시스템과 어디까지 닿는지 비교해 본 짧은 로그이다. 실제 활용 흐름을 담았다.
+이맥스 Calc가 컴퓨터대수학시스템과 어디까지 닿는지 비교해 본 짧은 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241206T150106/)
 
@@ -5814,7 +5814,7 @@ Documents 디렉토리를 Git LFS로 관리하는 방법과 장점을 질문답�
 
 작성 2024-12-06 · 수정 2024-12-06 · 태그 autholog, surrender
 
-내맡기기와 시그날, 마을과 공동교육, 자연의 호출을 삶의 흐름으로 적어 낸 글이다. 실제 활용 흐름을 담았다.
+내맡기기와 시그날, 마을과 공동교육, 자연의 호출을 삶의 흐름으로 적어 낸 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381404)
 
@@ -5830,7 +5830,7 @@ Documents 디렉토리를 Git LFS로 관리하는 방법과 장점을 질문답�
 
 작성 2024-12-05 · 수정 2024-12-05 · 태그 enlightenment
 
-새로운 물결과 신계몽주의를 스티븐 핑커, 가브리엘 맥락으로 더듬는 메모이다. 실제 활용 흐름을 담았다.
+새로운 물결과 신계몽주의를 스티븐 핑커, 가브리엘 맥락으로 더듬는 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241205T162217/)
 
@@ -5870,7 +5870,7 @@ Magit과 Org를 넘어 일상적으로 손에 남는 이맥스 패키지들을 �
 
 작성 2024-09-27 · 수정 2024-12-04 · 태그 cheatsheet, evil
 
-Evil 모드의 기본 이동과 단어 단위 조작을 빠르게 보기 위한 치트시트 노트이다. 실제 활용 흐름을 담았다.
+Evil 모드의 기본 이동과 단어 단위 조작을 빠르게 보기 위한 치트시트 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240927T144314/)
 
@@ -5910,7 +5910,7 @@ textlint, RedPen, stylechecker, prh 등 교열·린터 도구의 지형을 한�
 
 작성 2024-12-03 · 수정 2024-12-03 · 태그 bib, denote, quarto
 
-Quarto 파일을 Denote 방식으로 통합해 쓰는 가능성을 실험한 짧은 노트이다. 실제 활용 흐름을 담았다.
+Quarto 파일을 Denote 방식으로 통합해 쓰는 가능성을 실험한 짧은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241203T131250/)
 
@@ -5942,7 +5942,7 @@ Markdownload 같은 웹클리퍼를 옵시디언 흐름과 함께 다시 살펴�
 
 작성 2024-10-06 · 수정 2024-12-03 · 태그 cooperation, worklog
 
-디스코드 스레드가 오픈소스 커뮤니티 작업로그와 협업에 어떻게 쓰이는지 관찰한 노트이다. 실제 활용 흐름을 담았다.
+디스코드 스레드가 오픈소스 커뮤니티 작업로그와 협업에 어떻게 쓰이는지 관찰한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241006T083729/)
 
@@ -5974,7 +5974,7 @@ translatewiki를 오픈소스 번역 공동체의 실제 거점으로 바라보�
 
 작성 2024-11-16 · 수정 2024-12-01 · 태그 custom, doomemacs, dotfiles, emacs, tuning
 
-닷파일 튜닝에서 커스텀과 순정의 균형을 어떻게 잡을지 풀어낸 실천 메모이다. 실제 활용 흐름을 담았다.
+닷파일 튜닝에서 커스텀과 순정의 균형을 어떻게 잡을지 풀어낸 실천 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241116T173401/)
 
@@ -5982,7 +5982,7 @@ translatewiki를 오픈소스 번역 공동체의 실제 거점으로 바라보�
 
 작성 2024-11-11 · 수정 2024-12-01 · 태그 bib, emacs, scheme
 
-SICM과 MIT Scheme을 설치하고 이맥스에서 활용하려는 경로를 정리한 노트이다. 실제 활용 흐름을 담았다.
+SICM과 MIT Scheme을 설치하고 이맥스에서 활용하려는 경로를 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241111T152346/)
 
@@ -5998,7 +5998,7 @@ org-web-tools와 orgabilize로 조직모드 웹클리핑을 다루는 방법을 
 
 작성 2024-11-04 · 수정 2024-12-01 · 태그 emacside, scheme, racket, lisp, elisp
 
-스킴과 래킷, 이맥스리스프를 하나의 통합개발환경 관점으로 묶어 보려는 메모이다. 실제 활용 흐름을 담았다.
+스킴과 래킷, 이맥스리스프를 하나의 통합개발환경 관점으로 묶어 보려는 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241104T163330/)
 
@@ -6006,7 +6006,7 @@ org-web-tools와 orgabilize로 조직모드 웹클리핑을 다루는 방법을 
 
 작성 2024-10-30 · 수정 2024-12-01 · 태그 cloud, google
 
-구글 클라우드 엔진 관련 계정과 인증 정보, 연결 단서를 임시로 모아 둔 메모이다. 실제 활용 흐름을 담았다.
+구글 클라우드 엔진 관련 계정과 인증 정보, 연결 단서를 임시로 모아 둔 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241030T155448/)
 
@@ -6014,7 +6014,7 @@ org-web-tools와 orgabilize로 조직모드 웹클리핑을 다루는 방법을 
 
 작성 2024-10-23 · 수정 2024-12-01 · 태그 gptel, omni
 
-팝업 프레임을 이용해 둠이맥스와 옴니 인터페이스를 어디서나 부르는 방법을 적은 노트이다. 실제 활용 흐름을 담았다.
+팝업 프레임을 이용해 둠이맥스와 옴니 인터페이스를 어디서나 부르는 방법을 적은 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241023T221717/)
 
@@ -6022,7 +6022,7 @@ org-web-tools와 orgabilize로 조직모드 웹클리핑을 다루는 방법을 
 
 작성 2024-10-09 · 수정 2024-12-01 · 태그 emacside, rlang, rstudio, quarto
 
-R과 ESS, 그리고 Quarto 흐름을 이맥스 통합개발환경으로 가져오는 설치 기록이다. 실제 활용 흐름을 담았다.
+R과 ESS, 그리고 Quarto 흐름을 이맥스 통합개발환경으로 가져오는 설치 기록이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241009T123308/)
 
@@ -6030,7 +6030,7 @@ R과 ESS, 그리고 Quarto 흐름을 이맥스 통합개발환경으로 가져�
 
 작성 2024-10-03 · 수정 2024-12-01 · 태그 autholog, digital, minimalism, youtube
 
-유튜브를 더 불편하게 만들어 오히려 편리하게 쓰는 스마트폰 활용법을 적은 실천 노트이다. 실제 활용 흐름을 담았다.
+유튜브를 더 불편하게 만들어 오히려 편리하게 쓰는 스마트폰 활용법을 적은 실천 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381342)
 
@@ -6038,7 +6038,7 @@ R과 ESS, 그리고 Quarto 흐름을 이맥스 통합개발환경으로 가져�
 
 작성 2024-09-30 · 수정 2024-12-01 · 태그 bib, github
 
-깃허브 듀얼 계정을 SSH 별칭으로 관리하며 리포지토리를 분리하는 방법을 적은 기록이다. 실제 활용 흐름을 담았다.
+깃허브 듀얼 계정을 SSH 별칭으로 관리하며 리포지토리를 분리하는 방법을 적은 기록이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240930T134814/)
 
@@ -6062,7 +6062,7 @@ textlint와 Vale를 바탕으로 한국어용 린터를 직접 만들고 싶은 
 
 작성 2024-09-17 · 수정 2024-12-01 · 태그 denote, obsidian, templates
 
-옵시디언 데일리 노트를 Denote 파일명 규칙과 맞추어 자동 연동하려는 설정 메모이다. 실제 활용 흐름을 담았다.
+옵시디언 데일리 노트를 Denote 파일명 규칙과 맞추어 자동 연동하려는 설정 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240917T161254/)
 
@@ -6070,7 +6070,7 @@ textlint와 Vale를 바탕으로 한국어용 린터를 직접 만들고 싶은 
 
 작성 2024-09-15 · 수정 2024-12-01 · 태그 orgmode, tutorial
 
-Org-mode를 배울 때 참고할 튜토리얼과 입문 경로를 느슨하게 정리한 메모이다. 실제 활용 흐름을 담았다.
+Org-mode를 배울 때 참고할 튜토리얼과 입문 경로를 느슨하게 정리한 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240915T222919/)
 
@@ -6078,7 +6078,7 @@ Org-mode를 배울 때 참고할 튜토리얼과 입문 경로를 느슨하게 �
 
 작성 2024-09-15 · 수정 2024-12-01 · 태그 ubuntu, packages, linux
 
-우분투 스냅 패키지를 지우고 저장 공간을 확보하는 실제 명령과 판단을 남긴 메모이다. 실제 활용 흐름을 담았다.
+우분투 스냅 패키지를 지우고 저장 공간을 확보하는 실제 명령과 판단을 남긴 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240915T124328/)
 
@@ -6086,7 +6086,7 @@ Org-mode를 배울 때 참고할 튜토리얼과 입문 경로를 느슨하게 �
 
 작성 2024-09-08 · 수정 2024-12-01 · 태그 scripts
 
-스크린샷 파일 이름을 Denote 형식으로 일괄변경하는 스크립트 아이디어를 남긴 기록. 실제 활용 흐름을 담았다.
+스크린샷 파일 이름을 Denote 형식으로 일괄변경하는 스크립트 아이디어를 남긴 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240908T203202/)
 
@@ -6118,7 +6118,7 @@ Vertico-repeat로 미니버퍼 세션을 반복·재시작하는 의미를 정�
 
 작성 2024-09-01 · 수정 2024-12-01 · 태그 emacs
 
-디레드를 빌트인 파일 매니저로 쓰는 감각과 캐주얼 인터페이스 활용을 적어 둔 메모이다. 실제 활용 흐름을 담았다.
+디레드를 빌트인 파일 매니저로 쓰는 감각과 캐주얼 인터페이스 활용을 적어 둔 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240901T105220/)
 
@@ -6126,7 +6126,7 @@ Vertico-repeat로 미니버퍼 세션을 반복·재시작하는 의미를 정�
 
 작성 2024-08-25 · 수정 2024-12-01 · 태그 monday
 
-월요일 칠보 분리수거와 부모님 관련 할 일을 남겨 둔 아주 짧은 생활 메모이다. 실제 활용 흐름을 담았다.
+월요일 칠보 분리수거와 부모님 관련 할 일을 남겨 둔 아주 짧은 생활 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240825T081256/)
 
@@ -6134,7 +6134,7 @@ Vertico-repeat로 미니버퍼 세션을 반복·재시작하는 의미를 정�
 
 작성 2024-08-22 · 수정 2024-12-01 · 태그 robot
 
-부모님 집에 들인 에브리봇 로봇청소기의 사용감과 필터 교환을 기록한 생활 메모이다. 실제 활용 흐름을 담았다.
+부모님 집에 들인 에브리봇 로봇청소기의 사용감과 필터 교환을 기록한 생활 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240822T114309/)
 
@@ -6142,7 +6142,7 @@ Vertico-repeat로 미니버퍼 세션을 반복·재시작하는 의미를 정�
 
 작성 2024-08-20 · 수정 2024-12-01
 
-안산 어린이 천문대 방문 일정과 연락처를 남겨 둔 가족 천문 여행 메모이다. 실제 활용 흐름을 담았다.
+안산 어린이 천문대 방문 일정과 연락처를 남겨 둔 가족 천문 여행 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240820T155314/)
 
@@ -6158,7 +6158,7 @@ Markdown에서 marksman을 eglot과 연동해 언어 서버 기능을 쓰는 최
 
 작성 2024-07-16 · 수정 2024-12-01 · 태그 emacs, regex
 
-re-builder를 이용해 정규표현식을 대화형으로 시험하고 이해하는 빌트인 도구 노트. 실제 활용 흐름을 담았다.
+re-builder를 이용해 정규표현식을 대화형으로 시험하고 이해하는 빌트인 도구 노트.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240716T090453/)
 
@@ -6166,7 +6166,7 @@ re-builder를 이용해 정규표현식을 대화형으로 시험하고 이해�
 
 작성 2024-07-08 · 수정 2024-12-01 · 태그 emacs
 
-Coq PDF 매뉴얼의 인덱스를 추출해 이맥스 lookup 도구와 연결하려는 실험 기록. 실제 활용 흐름을 담았다.
+Coq PDF 매뉴얼의 인덱스를 추출해 이맥스 lookup 도구와 연결하려는 실험 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240708T060954/)
 
@@ -6182,7 +6182,7 @@ MS윈도우즈에서 workspacer를 설치하고 i3wm 비슷한 타일링 환경�
 
 작성 2024-07-08 · 수정 2024-12-01 · 태그 coq, emacs, install
 
-강의 예제를 따라가며 Coq를 이맥스 에디터와 연동하고 자동완성까지 확인한 학습 기록. 실제 활용 흐름을 담았다.
+강의 예제를 따라가며 Coq를 이맥스 에디터와 연동하고 자동완성까지 확인한 학습 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240708T053516/)
 
@@ -6574,7 +6574,7 @@ Burly로 프레임과 창 구성을 저장·복원하며 북마크처럼 워크�
 
 작성 2024-11-30 · 수정 2024-11-30
 
-블루스카이를 이맥스에서 다룰 수 있는 방법을 질문답변 형식으로 탐색한 초안 노트이다. 실제 활용 흐름을 담았다.
+블루스카이를 이맥스에서 다룰 수 있는 방법을 질문답변 형식으로 탐색한 초안 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241130T165328/)
 
@@ -6582,7 +6582,7 @@ Burly로 프레임과 창 구성을 저장·복원하며 북마크처럼 워크�
 
 작성 2024-11-29 · 수정 2024-11-29
 
-LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은 짧은 대화 로그이다. 실제 활용 흐름을 담았다.
+LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은 짧은 대화 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241129T140734/)
 
@@ -6590,7 +6590,7 @@ LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은
 
 작성 2024-11-29 · 수정 2024-11-29
 
-형식 논리를 조직모드와 org-babel 안에서 다룰 수 있을지 실험한 초안 로그이다. 실제 활용 흐름을 담았다.
+형식 논리를 조직모드와 org-babel 안에서 다룰 수 있을지 실험한 초안 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241129T123432/)
 
@@ -6598,7 +6598,7 @@ LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은
 
 작성 2024-11-27 · 수정 2024-11-27 · 태그 emacs, hangul
 
-이맥스에서 한글 입력기와 다국어 입력 메서드를 설정하는 차이를 정리한 노트이다. 실제 활용 흐름을 담았다.
+이맥스에서 한글 입력기와 다국어 입력 메서드를 설정하는 차이를 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241127T121915/)
 
@@ -6606,7 +6606,7 @@ LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은
 
 작성 2024-08-21 · 수정 2024-11-27
 
-플레이스테이션을 게임콘솔로 이해하고 세대별 차이를 정리한 짧은 가족 대화 메모이다. 실제 활용 흐름을 담았다.
+플레이스테이션을 게임콘솔로 이해하고 세대별 차이를 정리한 짧은 가족 대화 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240821T222216/)
 
@@ -6614,7 +6614,7 @@ LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은
 
 작성 2024-11-11 · 수정 2024-11-11 · 태그 autholog, education, emacs, presentation, tools, vim
 
-Vim으로 만나는 이맥스라는 발표 구상과 메시지, 형식을 키워드로 정리한 노트이다. 실제 활용 흐름을 담았다.
+Vim으로 만나는 이맥스라는 발표 구상과 메시지, 형식을 키워드로 정리한 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381372)
 
@@ -6630,7 +6630,7 @@ Quartz figure 태그의 src 경로를 뽑는 타입스크립트 정규식을 실
 
 작성 2024-10-06 · 수정 2024-10-06 · 태그 collaboration, doomemacs, github
 
-둠이맥스 사례를 통해 깃허브 프로젝트 관리와 협업의 미학을 읽어 보려는 노트이다. 실제 활용 흐름을 담았다.
+둠이맥스 사례를 통해 깃허브 프로젝트 관리와 협업의 미학을 읽어 보려는 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241006T084511/)
 

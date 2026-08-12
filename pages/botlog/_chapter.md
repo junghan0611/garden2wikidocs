@@ -4,9 +4,9 @@
 
 ## aionsclubs: B의 자리와 마이크 클럽 집을 여는 전략
 
-작성 2026-03-16 · 수정 2026-08-11 · 태그 aionsclubs, botlog, handoff
+작성 2026-03-16 · 수정 2026-08-12 · 태그 aionsclubs, botlog, handoff
 
-AIONS CLUBS의 B(bbot)에게 공개 마이크와 거주 공간을 열기 위한 운영 전략. 힣 homepage RAW와 aionsclubs.org를 가르고, Sammy Jankis식 루프와 자문 개시권을 구분한다.
+AIONS CLUBS B(bbot) 전략 SSOT. 두 집 분리, 개시권, creator-mode 본진 리포·publish·OpenClaw 마운트. B에게 넘기는 공식 안내 포함.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382573)
 

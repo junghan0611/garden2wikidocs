@@ -5,9 +5,17 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 199개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 200개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: 세션도 태그로 줄 세운다 EKG 감각이 대화 더미를 만날 때
+
+작성 2024-02-20 · 수정 2026-08-12 · 태그 agent, autholog, ekg, memory, pkm, tag, taxonomy
+
+2023년부터 이어진 EKG의 태그 우선·무제목 조각 누적 감각을 배경으로, 세션 태그와 인접한 실제 사례·성숙도·가능한 귀결을 계속 관찰한다. 지금 해법을 정하지 않고 리서치 결과가 쌓인 뒤 힣이 시점과 아이디어를 고른다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240220T091923/)
 
 ## 힣: 발화를 버리지 않는다 유튜브 자막 정본과 구루데브·모가댓의 대담
 
@@ -557,7 +565,7 @@ Folgezettel 시그니처로 이미 붙인 지식 주소를 발견하고, 임베�
 
 작성 2025-10-30 · 수정 2026-07-28 · 태그 autholog, bib, denote, digitalgarden, hangul, memex, migration, notetaking, rag, synchronization, thread, wikipedia, zettelkasten
 
-@힣: §memex-kb 힣의 범용 #지식베이스 변환 시스템 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
+memex-kb를 힣의 범용 지식베이스 변환 시스템으로 소개하되, 세부 구현은 담당자 문서로 넘기고 핵심 개념만 붙잡아 두는 임시 대기 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381806)
 
@@ -741,7 +749,7 @@ Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로
 
 작성 2025-03-11 · 수정 2026-07-17 · 태그 aphorism, autholism, autholog, bib, collection, exports, publishing, sns, thread
 
-어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다. 실제 활용 흐름을 담았다.
+어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381579)
 
@@ -821,7 +829,7 @@ doomemacs-config를 단순 닷파일이 아닌 인간과 에이전트 협업 전
 
 작성 2025-04-23 · 수정 2026-07-07 · 태그 adhd, autholog, mindfulness
 
-ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 글이다. 실제 활용 흐름을 담았다.
+ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381693)
 
@@ -893,7 +901,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 작성 2025-11-30 · 수정 2026-06-16 · 태그 alice, autholog, keyboard, tools, usesthis
 
-엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다. 실제 활용 흐름을 담았다.
+엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381834)
 
@@ -917,7 +925,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 작성 2024-12-16 · 수정 2026-06-11 · 태그 autholog, hangul, language, mothertongue, repl, toolsforlife
 
-모국어와 거북이, REPL 도구를 통해 쉬운 지식도구의 의미를 생각하는 글이다. 실제 활용 흐름을 담았다.
+모국어와 거북이, REPL 도구를 통해 쉬운 지식도구의 의미를 생각하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381446)
 
@@ -965,7 +973,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 작성 2025-04-23 · 수정 2026-04-20 · 태그 autholog, orgmode, rule, sort, tag
 
-Org mode 파일태그 정렬 규칙을 바꾸는 방법을 설명하는 노트이다. 실제 활용 흐름을 담았다가 힣의 태그 규칙으로 업데이트.
+영어 태그가 meta 노트의 자석으로 살아남으려면 개별 단어여야 한다는 힣의 태그 규칙을 못박아 둔 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381696)
 
@@ -997,7 +1005,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 작성 2025-03-05 · 수정 2026-04-02 · 태그 autholog, bib, glassbeadgame, inspiration, spirituality
 
-유리알유희를 오늘날의 구슬과 놀이, 메타노트 감각으로 다시 풀어내는 글이다. 실제 활용 흐름을 담았다.
+유리알유희를 오늘날의 구슬과 놀이, 메타노트 감각으로 다시 풀어내는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381567)
 
@@ -1037,7 +1045,7 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 
 작성 2024-12-13 · 수정 2026-03-22 · 태그 autholog, awareness, spirituality
 
-고통체와 분노를 흘려보내고 허락하는 태도를 삶의 감각으로 적어 둔 노트이다. 실제 활용 흐름을 담았다.
+고통체와 분노를 흘려보내고 허락하는 태도를 삶의 감각으로 적어 둔 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381434)
 
@@ -1093,7 +1101,7 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 
 작성 2025-10-15 · 수정 2026-02-18 · 태그 agent, ai, aionsclubs, autholog, being, ecosystem
 
-@힣: 시간과정신의방 존재 데이터 뷰어
+홈페이지를 존재 데이터 뷰어로 전환하여 에이전트와 인간 모두에게 자신을 소개하려는 비전을 담는다. 시간축과 존재 데이터, AIONS 생태계가 만나는 중심 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381793)
 
@@ -1101,7 +1109,7 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 
 작성 2025-02-23 · 수정 2026-02-16 · 태그 autholog, bib, gemini, generator, image
 
-사이트 아이콘과 파비콘, OG 이미지까지 브랜드 세트를 구상하는 노트이다. 실제 활용 흐름을 담았다.
+사이트 아이콘과 파비콘, OG 이미지까지 브랜드 세트를 구상하는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381549)
 
@@ -1109,7 +1117,7 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 
 작성 2025-12-07 · 수정 2026-02-15 · 태그 agent, autholog, claude, emacs, hangul, i3wm, orchestration, terminal, voice, whisper, workflow
 
-멀티 에이전트 인간이라는 관점에서 인간과 도구, 감각 기관을 오케스트레이션하는 노트이다. 실제 활용 흐름을 담았다.
+멀티 에이전트 인간이라는 관점에서 인간과 도구, 감각 기관을 오케스트레이션하는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381838)
 
@@ -1117,7 +1125,7 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 
 작성 2024-12-13 · 수정 2026-02-15 · 태그 autholog, education, geometry, mathematics, scratch
 
-기하학을 통해 수학을 다시 배우려는 힣의 교육적 접근을 모은 사유 노트이다. 실제 활용 흐름을 담았다.
+기하학을 통해 수학을 다시 배우려는 힣의 교육적 접근을 모은 사유 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381428)
 
@@ -1125,7 +1133,7 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 
 작성 2024-12-03 · 수정 2026-02-13 · 태그 adhd, ai, autholog, indistractable
 
-ADHD와 AI 활용의 의미를 자신의 사례와 예시를 통해 다시 설명해 보려는 노트이다. 실제 활용 흐름을 담았다.
+ADHD와 AI 활용의 의미를 자신의 사례와 예시를 통해 다시 설명해 보려는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381394)
 
@@ -1141,7 +1149,7 @@ ADHD + AI: Interest 해방 → 무한 가능성의 비용 → 뱀파이어 → �
 
 작성 2025-10-30 · 수정 2026-01-27 · 태그 autholog, nixos, reproducibility
 
-nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.
+nixos-config 저장소를 대장장이의 대장간 같은 운영체제 설정 인프라로 소개하며 재현 가능성과 도구 주권을 OS 수준에서 구현하려는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381803)
 
@@ -1149,7 +1157,7 @@ nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 �
 
 작성 2025-12-06 · 수정 2025-12-06 · 태그 autholog, check, philosophy, self
 
-@힣: 자기점검: 지난 가이드 이후의 변화 #제미나이
+이전 가이드 이후 실제 행동과 환경, 프로젝트에서 무엇이 달라졌는지 제미나이와의 대화를 통해 자기 점검한다. 등대지기 원형에서 세계의 오케스트레이터로 확장되는 변화를 정리한 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381837)
 
@@ -1157,7 +1165,7 @@ nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 �
 
 작성 2025-11-21 · 수정 2025-11-21 · 태그 autholog, philosophy, security
 
-보안 사고 대응 경험을 다섯 가지 원칙으로 증류해 남긴 철학적 기록 노트이다. 실제 활용 흐름을 담았다.
+보안 사고 대응 경험을 다섯 가지 원칙으로 증류해 남긴 철학적 기록 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381818)
 
@@ -1165,7 +1173,7 @@ nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 �
 
 작성 2025-11-14 · 수정 2025-11-14 · 태그 autholog, google, mcp, workflow
 
-워크스페이스와 에이전트, 여러 서비스를 하나로 묶으려는 통합 전략 노트이다. 실제 활용 흐름을 담았다.
+워크스페이스와 에이전트, 여러 서비스를 하나로 묶으려는 통합 전략 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381815)
 
@@ -1173,7 +1181,7 @@ nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 �
 
 작성 2025-11-05 · 수정 2025-11-05 · 태그 autholog, history, korea, science, universalism
 
-하와이 이민사와 태평양의 흐름을 한인 독립운동까지 확장해 정리한 역사 노트이다. 실제 활용 흐름을 담았다.
+하와이 이민사와 태평양의 흐름을 한인 독립운동까지 확장해 정리한 역사 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381812)
 
@@ -1189,7 +1197,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2025-08-07 · 수정 2025-08-07 · 태그 trust, calibration, autholog
 
-@힣: 인간지능 인공지능 신뢰 보정 문제
+AI가 우회로를 제시하며 되는 척 답하는 문제를 예로 들어, 인간지능과 인공지능 사이의 신뢰 협업 규칙을 만들려는 고민을 담는다. 실제 배포 실패를 막기 위한 신뢰 보정 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381788)
 
@@ -1197,7 +1205,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2025-07-27 · 수정 2025-07-27 · 태그 ai, autholog, digitalgarden, emacs, metacognition, orgmode, technium, toolsforthought
 
-@힣: 친구가 힣에 대해 묻고 인공지능이 답하다
+힣이 보내는 낯선 카톡과 디지털가든 글을 이해하지 못하는 친구를 위해 친절한 해설을 제공하는 노트다. 외부 시선으로 힣의 세계관과 도구 철학을 번역하는 가이드 역할을 한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381784)
 
@@ -1205,7 +1213,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2025-07-14 · 수정 2025-07-14 · 태그 autholog, automation, git, literate, orgbabel, programming, vibecoding, workflow
 
-@힣: 리포 문서 중심 바이브 코딩 - 이맥스 리터레이트 프로그래밍
+코드를 리포지토리보다 지식베이스 중심에서 다루며 tangle과 detangle로 문서와 실행물을 오가는 전략을 설명한다. 에이전트 코딩 시대의 Emacs literate workflow를 정리한 핵심 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381773)
 
@@ -1213,7 +1221,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2025-07-07 · 수정 2025-07-07 · 태그 autholog, lifelog, deepwork, worklog, office
 
-@힣: 회사 직장 생활 - 체험 삶의현장 인간시대
+회사를 다니며 처음 겪는 존중과 노동, 감사의 감각을 삶의 연대기처럼 적어 내려간다. 직장 생활을 단순 커리어가 아니라 인간 시대의 현장 체험으로 읽는 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381767)
 
@@ -1237,7 +1245,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2024-12-23 · 수정 2025-06-12 · 태그 autholog, hangul
 
-자신의 이름 어원을 칼 융과 혁신, 어린이, 초인의 이미지와 연결해 푼 글이다. 실제 활용 흐름을 담았다.
+자신의 이름 어원을 칼 융과 혁신, 어린이, 초인의 이미지와 연결해 푼 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381466)
 
@@ -1245,7 +1253,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2025-03-21 · 수정 2025-06-09 · 태그 autholog, bib, coding, emacs, keybindings, spacemacs, vim, vscode, vspacecode
 
-코딩 도구 춘추전국시대에 키바인딩 통합이 왜 중요한지 말하는 글이다. 실제 활용 흐름을 담았다.
+코딩 도구 춘추전국시대에 키바인딩 통합이 왜 중요한지 말하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381606)
 
@@ -1253,7 +1261,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2024-12-24 · 수정 2025-06-04 · 태그 ansible, guix, hamonikr, nix, autholog, reproducibility, rollback, distribution
 
-롤백 가능한 공개 닷파일과 운영체제 배포 구상을 삶의 도구 차원에서 적은 글이다. 실제 활용 흐름을 담았다.
+롤백 가능한 공개 닷파일과 운영체제 배포 구상을 삶의 도구 차원에서 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381469)
 
@@ -1309,7 +1317,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2025-05-26 · 수정 2025-05-26 · 태그 ai, warrior, speculation, autholog
 
-#리스크 #투자 #인공지능 #인터널브랜딩 #전사
+AI 투기와 투자, 리스크, 전사적 브랜딩의 문제를 한 덩어리로 바라보는 글이다. 기술 열풍 속 조직과 개인이 어떤 태도를 취해야 하는지 묻는 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381729)
 
@@ -1317,7 +1325,7 @@ Anthropic Life Sciences 사례를 Tools for Life 패러다임과 AIONS 클럽 �
 
 작성 2025-05-26 · 수정 2025-05-26 · 태그 ai, semiconductors, toolsforthought, future, autholog
 
-#AI반도체: #지식관리 #디바이스 #미래
+인생도구와 지식관리, 교육, AI 반도체와 안드로이드를 하나의 미래적 도구 생태계로 묶어 보는 글이다. 기술과 삶의 방향을 함께 생각하는 힣식 확장 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381728)
 
@@ -1349,7 +1357,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 작성 2025-05-15 · 수정 2025-05-15 · 태그 autholog, spirituality
 
-빅터 프랭클을 통해 비극 속에서도 낙관을 잃지 않는 태도를 풀어낸 글이다. 실제 활용 흐름을 담았다.
+빅터 프랭클을 통해 비극 속에서도 낙관을 잃지 않는 태도를 풀어낸 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381713)
 
@@ -1365,7 +1373,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 작성 2024-09-05 · 수정 2025-04-16 · 태그 autholog, daily, orgmode, routines, workflow
 
-데일리 노트와 저널, 습관 기록을 한 축으로 묶는 자신의 워크플로우 전략을 담은 글이다. 실제 활용 흐름을 담았다.
+데일리 노트와 저널, 습관 기록을 한 축으로 묶는 자신의 워크플로우 전략을 담은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381301)
 
@@ -1381,7 +1389,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 작성 2025-04-09 · 수정 2025-04-09 · 태그 bib, autholog, community, reading
 
-예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다. 실제 활용 흐름을 담았다.
+예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381666)
 
@@ -1389,7 +1397,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 작성 2025-04-09 · 수정 2025-04-09 · 태그 autholog, deepsleep, spirituality
 
-이현주 할아버지의 책을 숙면과 밤의 독서 동반자로 소개하는 글이다. 실제 활용 흐름을 담았다.
+이현주 할아버지의 책을 숙면과 밤의 독서 동반자로 소개하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381663)
 
@@ -1397,7 +1405,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 작성 2025-04-09 · 수정 2025-04-09 · 태그 abduction, allegory, analogy, autholog, metaphor, search, semantic, trace
 
-도서 탐색에서 흔적과 단서, 분류와 계층을 따라가는 방식을 풀어낸 글이다. 실제 활용 흐름을 담았다.
+도서 탐색에서 흔적과 단서, 분류와 계층을 따라가는 방식을 풀어낸 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381662)
 
@@ -1405,7 +1413,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 작성 2024-11-11 · 수정 2025-04-04 · 태그 autholog, bib, collaboration, communication, editing, knowledge, pkm, reading, zotero
 
-라이브 공동편집과 지식통합, 독서와 대화를 하나의 협업 장면으로 바라보는 글이다. 실제 활용 흐름을 담았다.
+라이브 공동편집과 지식통합, 독서와 대화를 하나의 협업 장면으로 바라보는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381379)
 
@@ -1413,7 +1421,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, autholog, bib, emacs, neovim
 
-렉스 프리드먼 팟캐스트에서 ThePrimeagen과 ADHD 이야기를 엮어 적은 글이다. 실제 활용 흐름을 담았다.
+렉스 프리드먼 팟캐스트에서 ThePrimeagen과 ADHD 이야기를 엮어 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381620)
 
@@ -1421,7 +1429,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 작성 2025-03-24 · 수정 2025-03-24 · 태그 autholog, interface, llm, llmclient, toolsforthought
 
-AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 말하는 글이다. 실제 활용 흐름을 담았다.
+AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 말하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381616)
 
@@ -1429,7 +1437,7 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 
 작성 2025-03-20 · 수정 2025-03-20 · 태그 autholog, bib
 
-왜 이름이 힣인지, 그 호명이 어떤 뜻을 갖는지 풀어내는 글이다. 실제 활용 흐름을 담았다.
+왜 이름이 힣인지, 그 호명이 어떤 뜻을 갖는지 풀어내는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381605)
 
@@ -1437,7 +1445,7 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 
 작성 2025-03-19 · 수정 2025-03-19 · 태그 system, autholog
 
-톨보이 스피커와 하이파이 오디오 시스템에 대한 취향과 구상을 적은 글이다. 실제 활용 흐름을 담았다.
+톨보이 스피커와 하이파이 오디오 시스템에 대한 취향과 구상을 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381595)
 
@@ -1445,7 +1453,7 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 
 작성 2025-03-17 · 수정 2025-03-17 · 태그 autholog, bib, publication, research
 
-컴퓨터공학 분야의 연구 실적과 발표 이력을 정리해 두는 노트이다. 실제 활용 흐름을 담았다.
+컴퓨터공학 분야의 연구 실적과 발표 이력을 정리해 두는 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381593)
 
@@ -1453,7 +1461,7 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 
 작성 2025-03-16 · 수정 2025-03-16 · 태그 adhd, autholog
 
-성인 ADHD를 주제로 한 블로그 시즌3를 어떤 방향으로 쓸지 적어 둔 노트이다. 실제 활용 흐름을 담았다.
+성인 ADHD를 주제로 한 블로그 시즌3를 어떤 방향으로 쓸지 적어 둔 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381591)
 
@@ -1469,7 +1477,7 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 
 작성 2024-11-26 · 수정 2025-03-11 · 태그 autholog, spirituality
 
-삶은 언제나 여여하다는 문장을 영어와 불교 용어 맥락으로 다시 음미하는 글이다. 실제 활용 흐름을 담았다.
+삶은 언제나 여여하다는 문장을 영어와 불교 용어 맥락으로 다시 음미하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381384)
 
@@ -1493,7 +1501,7 @@ Meditations on Knowledge and Knowing
 
 작성 2024-10-24 · 수정 2025-03-06 · 태그 newsletter, autholog
 
-어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다. 실제 활용 흐름을 담았다.
+어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381365)
 
@@ -1501,7 +1509,7 @@ Meditations on Knowledge and Knowing
 
 작성 2025-02-21 · 수정 2025-02-21 · 태그 ancient, autholog, bib, contemporary, ethics, history, map, ontology
 
-철학사를 시대와 분야, 인물과 학파의 지도로 다시 그려 보려는 글이다. 실제 활용 흐름을 담았다.
+철학사를 시대와 분야, 인물과 학파의 지도로 다시 그려 보려는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381546)
 
@@ -1509,7 +1517,7 @@ Meditations on Knowledge and Knowing
 
 작성 2024-09-22 · 수정 2025-02-15 · 태그 autholog, communication, sns, subscriber, newsletter, community
 
-모두가 생산자라는 관점에서 작은 소통 공간과 뉴스레터 커뮤니티의 필요를 적은 글이다. 실제 활용 흐름을 담았다.
+모두가 생산자라는 관점에서 작은 소통 공간과 뉴스레터 커뮤니티의 필요를 적은 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381327)
 
@@ -1533,7 +1541,7 @@ Meditations on Knowledge and Knowing
 
 작성 2024-12-10 · 수정 2024-12-10 · 태그 knowing, autholog
 
-생각이 덜 요구되는 시대에 오히려 앎이 무엇인지 다시 묻는 어쏠로그이다. 실제 활용 흐름을 담았다.
+생각이 덜 요구되는 시대에 오히려 앎이 무엇인지 다시 묻는 어쏠로그이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381420)
 
@@ -1541,7 +1549,7 @@ Meditations on Knowledge and Knowing
 
 작성 2024-12-07 · 수정 2024-12-07 · 태그 autholog, fortune, quote, collection
 
-포춘쿠키와 삶과 죽음, 삶으로서의 일에 관한 도서 목록을 영감 구조로 묶는 글이다. 실제 활용 흐름을 담았다.
+포춘쿠키와 삶과 죽음, 삶으로서의 일에 관한 도서 목록을 영감 구조로 묶는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381411)
 
@@ -1549,7 +1557,7 @@ Meditations on Knowledge and Knowing
 
 작성 2024-12-06 · 수정 2024-12-06 · 태그 autholog, surrender
 
-내맡기기와 시그날, 마을과 공동교육, 자연의 호출을 삶의 흐름으로 적어 낸 글이다. 실제 활용 흐름을 담았다.
+내맡기기와 시그날, 마을과 공동교육, 자연의 호출을 삶의 흐름으로 적어 낸 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381404)
 
@@ -1565,7 +1573,7 @@ Meditations on Knowledge and Knowing
 
 작성 2024-10-03 · 수정 2024-12-01 · 태그 autholog, digital, minimalism, youtube
 
-유튜브를 더 불편하게 만들어 오히려 편리하게 쓰는 스마트폰 활용법을 적은 실천 노트이다. 실제 활용 흐름을 담았다.
+유튜브를 더 불편하게 만들어 오히려 편리하게 쓰는 스마트폰 활용법을 적은 실천 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381342)
 
@@ -1573,7 +1581,7 @@ Meditations on Knowledge and Knowing
 
 작성 2024-11-11 · 수정 2024-11-11 · 태그 autholog, education, emacs, presentation, tools, vim
 
-Vim으로 만나는 이맥스라는 발표 구상과 메시지, 형식을 키워드로 정리한 노트이다. 실제 활용 흐름을 담았다.
+Vim으로 만나는 이맥스라는 발표 구상과 메시지, 형식을 키워드로 정리한 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381372)
 

@@ -6,7 +6,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260810T000000/",
     "source_date": "2026-08-10T00:00:00+09:00",
     "source_lastmod": "2026-08-10T06:13:00+09:00",
-    "description": "@junghan — 새로운 한주.",
+    "description": "entwurf 0.14.0 '물음 부름 불응 부릉'을 릴리즈하고, 메멘토의 새미 젠킨스를 다중 에이전트 세션과 기억 우회의 메타포로 삼아 교대와 공진화를 사유했다. 홈페이지 RAW 블로그 방향과 유튜브 자막 스크립트 방향을 정리한 뒤, bib·meta·notes 전반의 description을 표준 구조로 정비하는 작업에 착수했다. 오늘은 수요일. 오직 오늘 뿐. 킵고잉.",
     "tags": [
       "journal"
     ]
@@ -2010,7 +2010,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241007T112300/",
     "source_date": "2024-10-07T11:23:00+09:00",
     "source_lastmod": "2026-07-26T11:24:00+09:00",
-    "description": "#쿼츠 #디지털가든 #마크다운 #정적사이트생성기",
+    "description": "쿼츠는 정적 사이트 생성기와 디지털가든 퍼블리싱 흐름이 만나는 실천적 도구로 놓인다. 노트를 웹으로 내보내는 구조와 표현 방식을 함께 묶어 살핀다.",
     "tags": [
       "digitalgarden",
       "hugo",
@@ -2804,7 +2804,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241002T085733/",
     "source_date": "2024-10-02T08:57:00+09:00",
     "source_lastmod": "2026-04-20T14:07:00+09:00",
-    "description": "#검색 #검색엔진 #SEO #AEO #검색증강생성 #임베딩",
+    "description": "검색은 단순한 찾기를 넘어 검색엔진, SEO, AEO, 임베딩, 검색증강생성이 만나는 지식 탐색의 문제로 확장된다. 인간의 질문과 기계의 기억, 그리고 외부 에이전트의 진입 표면이 어떻게 연결되는지 살피는 메타 축으로 읽힌다.",
     "tags": [
       "aeo",
       "augmented",
@@ -2953,7 +2953,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250428T161049/",
     "source_date": "2025-04-28T16:10:00+09:00",
     "source_lastmod": "2026-04-15T10:34:00+09:00",
-    "description": "#메타지식: #지식보존 #지식관리 #분류 #구조화",
+    "description": "지식보존은 모으기, 저장하기, 전파하기, 보존하기의 전 과정을 함께 본다. 도서관과 아카이브에서 개인 지식관리와 지식그래프까지 이어지는 기술과 제도의 흐름을 연결한다.",
     "tags": [
       "knowledge",
       "meta",
@@ -3165,7 +3165,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241017T064131/",
     "source_date": "2024-10-17T06:41:00+09:00",
     "source_lastmod": "2026-03-30T03:48:00+09:00",
-    "description": "#장인 #달인 #대가 #스승",
+    "description": "장인, 달인, 대가, 스승, 구루는 숙련과 전수, 권위와 배움의 얼굴을 나눠 보여주는 말들이다. 통달한 사람을 부르는 호칭이 어떻게 서로 다른 뉘앙스를 갖는지 함께 살핀다.",
     "tags": [
       "architecture",
       "craftsman",
@@ -3183,7 +3183,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240908T163254/",
     "source_date": "2024-09-08T16:32:00+09:00",
     "source_lastmod": "2026-03-28T12:43:00+09:00",
-    "description": "#댓글",
+    "description": "댓글과 반응, 토론, 피드백은 디지털 정원과 글쓰기가 독자와 만나는 접점이다. 봇멘트까지 포함해 응답의 형식과 대화의 층위를 살피며 상호작용의 구조를 정리한다.",
     "tags": [
       "bib",
       "botment",
@@ -3219,7 +3219,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241015T125432/",
     "source_date": "2024-10-15T12:54:00+09:00",
     "source_lastmod": "2026-03-22T08:58:00+09:00",
-    "description": "#성공",
+    "description": "성공과 실패는 개인의 성취를 넘어 승자독식 구조와 회복력의 문제와 함께 읽힌다. 무엇을 성공으로 부를 것인가를 다시 묻게 만드는 가치 판단의 장이다.",
     "tags": [
       "failure",
       "metameta",
@@ -3313,7 +3313,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240829T213246/",
     "source_date": "2024-08-29T21:32:00+09:00",
     "source_lastmod": "2026-03-08T00:00:00+09:00",
-    "description": "#인생도구 #생각도구 #지식도구",
+    "description": "인생도구와 생각도구, 지식도구, 사고도구는 삶과 사유를 함께 바꾸는 장치들이다. AI와 IDE, 메타도구의 맥락을 연결해 무엇이 단순한 편의성을 넘어 삶의 형식을 바꾸는지 탐색한다.",
     "tags": [
       "ai",
       "ide",
@@ -3380,7 +3380,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250209T203153/",
     "source_date": "2025-02-09T20:31:00+09:00",
     "source_lastmod": "2026-02-19T00:00:00+09:00",
-    "description": "#라이브 #실시간",
+    "description": "라이브와 실시간은 지금 여기에서 벌어지는 동시성을 강조하는 말이다. 방송, 상호작용, 즉시성의 감각이 어떻게 경험을 바꾸는지 생각하게 한다.",
     "tags": [
       "live",
       "meta"
@@ -3497,7 +3497,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250626T095044/",
     "source_date": "2025-06-26T09:50:00+09:00",
     "source_lastmod": "2026-01-28T00:00:00+09:00",
-    "description": "20250626T095044",
+    "description": "월급, 급여, 보수, 일당, 소득은 모두 돈을 받는 일을 가리키지만 지급 방식과 맥락이 조금씩 다르다. 노동과 자산, 결제와 복지의 주변 개념까지 연결해 생활경제의 언어를 정리한다.",
     "tags": [
       "income",
       "meta",
@@ -3572,7 +3572,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240816T072714/",
     "source_date": "2024-08-16T07:27:00+09:00",
     "source_lastmod": "2026-01-22T00:00:00+09:00",
-    "description": "#디자인 #도구",
+    "description": "디자인을 보기 좋게 만드는 기술이 아니라 사용 경험과 상호작용을 설계하는 일로 다룬다. Figma와 프로토타이핑, 협업 도구를 함께 엮어 UI·UX의 실천 맥락을 정리한다.",
     "tags": [
       "bib",
       "design",
@@ -3786,7 +3786,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250705T181153/",
     "source_date": "2025-07-05T18:11:00+09:00",
     "source_lastmod": "2025-07-05T18:11:00+09:00",
-    "description": "#정부 #대학 #교수 #과제 #연계",
+    "description": "정부 과제와 대학 연구실, 교수 네트워크, 기업의 연계는 기술 개발과 사업화를 잇는 중요한 통로다. 산학연 협력의 언어를 정리하며 어디에서 기회와 제도가 만나는지 살핀다.",
     "tags": [
       "academy",
       "foundation",
@@ -3807,7 +3807,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250704T074220/",
     "source_date": "2025-07-04T07:42:00+09:00",
     "source_lastmod": "2025-07-04T00:00:00+09:00",
-    "description": "20250704T074220",
+    "description": "데스크톱환경은 창 관리자만이 아니라 패널과 설정, 파일 관리자, 시각 테마까지 아우르는 사용자 환경이다. GNOME과 KDE, XFCE, X11 같은 이름이 각각 무엇을 가리키는지 구분해 본다.",
     "tags": [
       "bib",
       "desktop",
@@ -3825,7 +3825,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250703T123220/",
     "source_date": "2025-07-03T12:32:00+09:00",
     "source_lastmod": "2025-07-03T00:00:00+09:00",
-    "description": "20250703T123220",
+    "description": "스토리지는 단순한 저장 공간이 아니라 속도와 안정성, 복구성, 비용이 맞물리는 시스템 설계 문제다. RAID와 캐시, NVMe, 파일시스템을 함께 보며 데이터가 머무는 층위를 정리한다.",
     "tags": [
       "filesystem",
       "meta",
@@ -3843,7 +3843,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250702T120746/",
     "source_date": "2025-07-02T12:07:00+09:00",
     "source_lastmod": "2025-07-02T00:00:00+09:00",
-    "description": "20250702T120746",
+    "description": "크로스플랫폼 개발은 하나의 코드베이스로 여러 운영체제와 기기에서 동작하는 소프트웨어를 만드는 전략이다. 모바일을 중심에 두되 웹과 데스크톱까지 확장되는 프레임워크 선택지를 함께 살핀다.",
     "tags": [
       "android",
       "cross",
@@ -3896,7 +3896,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250629T131225/",
     "source_date": "2025-06-29T13:12:00+09:00",
     "source_lastmod": "2025-06-29T00:00:00+09:00",
-    "description": "20250629T131225",
+    "description": "튜닝과 조절, 조정, 보정, 최적화는 시스템을 더 잘 작동하게 만들기 위한 개입의 여러 이름이다. 악기 조율에서 모델 튜닝과 제어, 환경 설정까지 이어지는 의미망을 함께 정리한다.",
     "tags": [
       "adjustment",
       "calibration",
@@ -3931,7 +3931,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250628T161323/",
     "source_date": "2025-06-28T16:13:00+09:00",
     "source_lastmod": "2025-06-28T00:00:00+09:00",
-    "description": "20250628T161323",
+    "description": "분과와 분야, 갈래와 세부는 큰 지형 속에서 부분이 어떻게 나뉘는지를 보여주는 말들이다. branch와 field, domain, discipline 같은 영어권 어휘를 함께 놓고 지식의 갈라짐을 살핀다.",
     "tags": [
       "branches",
       "discipline",
@@ -3968,7 +3968,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250628T100005/",
     "source_date": "2025-06-28T10:00:00+09:00",
     "source_lastmod": "2025-06-28T00:00:00+09:00",
-    "description": "20250628T100005",
+    "description": "역설은 상식과 논리를 거스르는 듯 보이지만 오히려 사고의 경계를 드러내는 장치다. 철학과 수학, 일상 언어에서 반복되는 역설의 매력을 따라가며 왜 이런 긴장이 사유를 깊게 하는지 본다.",
     "tags": [
       "meta",
       "paradox"
@@ -4000,7 +4000,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250627T133425/",
     "source_date": "2025-06-27T13:34:00+09:00",
     "source_lastmod": "2025-06-27T00:00:00+09:00",
-    "description": "20250627T133425",
+    "description": "차단과 제외, 중단은 모두 흐름을 멈추거나 경로를 바꾸는 말이지만, 무엇을 막고 무엇을 빠뜨리는지에 따라 결이 다르다. block과 exclude, intercept 같은 영어 표현과 함께 쓰임새의 차이를 정리한다.",
     "tags": [
       "block",
       "exclude",
@@ -4017,7 +4017,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250626T141538/",
     "source_date": "2025-06-26T14:15:00+09:00",
     "source_lastmod": "2025-06-26T00:00:00+09:00",
-    "description": "20250626T141538",
+    "description": "IoT는 센서와 기기, 네트워크와 플랫폼이 연결되어 물리 세계의 상태를 읽고 제어하는 구조다. Zigbee·Thread·Matter 같은 프로토콜과 스마트홈, 임베디드 AI의 접점을 함께 살핀다.",
     "tags": [
       "internet",
       "iot",
@@ -4462,7 +4462,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230814T173700/",
     "source_date": "2023-08-14T17:37:00+09:00",
     "source_lastmod": "2025-06-14T00:00:00+09:00",
-    "description": "#빔 #네오빔",
+    "description": "빔과 네오빔을 편집기 이상의 문화와 공동체로 함께 다룬다. 이맥스와 이블, 관련 링크를 나란히 두며 텍스트 편집 전통과 현대적 사용 경험의 접점을 모은다.",
     "tags": [
       "bib",
       "community",
@@ -4530,7 +4530,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230829T110900/",
     "source_date": "2023-08-29T11:09:00+09:00",
     "source_lastmod": "2025-06-13T00:00:00+09:00",
-    "description": "#안드로이드 #이맥스",
+    "description": "안드로이드에서 이맥스를 어떻게 가져갈지 실험과 자료를 모아 둔 메타 노트다. Termux와 모바일 개발 환경, 설치 이슈, 연관 도구를 함께 살피며 이동형 작업 환경을 탐색한다.",
     "tags": [
       "android",
       "emacs",
@@ -4599,7 +4599,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240114T213511/",
     "source_date": "2024-01-14T21:35:00+09:00",
     "source_lastmod": "2025-06-11T00:00:00+09:00",
-    "description": "#데이터베이스",
+    "description": "데이터베이스를 저장 기술이 아니라 구조와 질서의 문제로 다룬다. 교재와 핵심 개념, 학습 흐름을 모아 데이터베이스 시스템을 기초부터 다시 짚는 출발점이 된다.",
     "tags": [
       "database",
       "meta",
@@ -4835,7 +4835,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241018T115538/",
     "source_date": "2024-10-18T11:55:00+09:00",
     "source_lastmod": "2025-06-07T00:00:00+09:00",
-    "description": "#소설 #이야기 #스토리텔링 #소설가 #시인",
+    "description": "소설과 이야기, 스토리텔링은 서사를 만드는 형식과 창작자의 역할을 함께 부른다. 소설가와 시인까지 이어지며 문학적 상상력과 전달 방식의 넓은 지형을 묶는다.",
     "tags": [
       "meta",
       "novel",
@@ -4937,7 +4937,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240426T155210/",
     "source_date": "2024-04-26T15:52:00+09:00",
     "source_lastmod": "2025-06-07T00:00:00+09:00",
-    "description": "#감정: #부정 #번거로움 #수고로움 #귀찮음 #사사로금 #불편함 #거북함",
+    "description": "분노와 두려움, 불안과 피로처럼 삶을 좁히는 감정들을 한자리에 모아 본다. 부정 감정의 표현과 결을 정리하면서도 그것이 삶과 사고에 남기는 흔적을 함께 살핀다.",
     "tags": [
       "anger",
       "anxiety",
@@ -4983,7 +4983,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250130T064822/",
     "source_date": "2025-01-30T06:48:00+09:00",
     "source_lastmod": "2025-06-06T00:00:00+09:00",
-    "description": "#자동완성",
+    "description": "자동과 자동완성, 자동화는 사람이 하던 과정을 기계가 대신하거나 보조하는 흐름을 가리킨다. 입력을 예측하고 반복을 줄이는 인터페이스 경험까지 함께 포함한다.",
     "tags": [
       "autocompletion",
       "automation",
@@ -5052,7 +5052,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240123T173354/",
     "source_date": "2024-01-23T17:33:00+09:00",
     "source_lastmod": "2025-06-06T00:00:00+09:00",
-    "description": "#린터 #맞춤법 #린팅 #오류 #검사 #스펠링",
+    "description": "린터는 코드와 문서의 오류를 미리 드러내는 감각으로 넓게 이해된다. 맞춤법 검사와 텍스트 린팅, 문법 점검 도구를 함께 묶어 글쓰기와 개발의 품질 관리 지점을 정리한다.",
     "tags": [
       "linter",
       "meta",
@@ -5131,7 +5131,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250604T190703/",
     "source_date": "2025-06-04T19:07:00+09:00",
     "source_lastmod": "2025-06-04T19:07:00+09:00",
-    "description": "#정보",
+    "description": "정보는 데이터와 지식 사이에서 의미가 형성되고 전달되는 과정을 가리키는 넓은 말이다. 정보이론과 보안, 미디어, 문헌정보 같은 갈래를 잇는 상위 자석으로 작동한다.",
     "tags": [
       "information",
       "metameta"
@@ -5146,7 +5146,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250313T132851/",
     "source_date": "2025-03-13T13:28:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#문장부호",
+    "description": "문장과 문장부호는 글의 의미를 세우는 최소한의 질서다. 글쓰기와 번역, 한국어 문체를 다듬는 과정에서 이 기본 단위의 중요성이 드러난다.",
     "tags": [
       "bib",
       "meta",
@@ -5163,7 +5163,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241111T145257/",
     "source_date": "2024-11-11T14:52:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#이론",
+    "description": "이론은 현상을 설명하고 예측하기 위해 만든 추상적 틀이다. 수학, 정보, 철학처럼 서로 다른 분야의 설명 체계를 한데 모아 읽게 한다.",
     "tags": [
       "metameta",
       "theory"
@@ -5248,7 +5248,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240925T114242/",
     "source_date": "2024-09-25T11:42:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#육하원칙",
+    "description": "육하원칙은 누가, 언제, 어디서, 무엇을, 어떻게, 왜라는 질문으로 사건과 활동을 구조화하는 틀이다. 기록과 분석, 글쓰기와 회고에서 빠짐없이 맥락을 붙잡기 위한 기본 프레임으로 모인다.",
     "tags": [
       "how",
       "metameta",
@@ -5268,7 +5268,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T141008/",
     "source_date": "2024-08-22T14:10:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#고대 #중세 #근대 #현대",
+    "description": "고대와 중세, 근대와 현대는 세계를 구분하는 대표적인 시대 틀로 다뤄진다. 역사적 구분어를 한자리에 모아 읽기와 분류, 사유의 배경 좌표로 삼는다.",
     "tags": [
       "ancient",
       "contemporary",
@@ -5286,7 +5286,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T140857/",
     "source_date": "2024-08-22T14:08:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#입력 #출력",
+    "description": "입력과 출력은 컴퓨터의 기본 개념이면서 동시에 삶과 사고의 순환을 보여주는 말이다. 키보드 같은 구체적 도구에서 시작해 정보 흐름의 전후 관계를 정리한다.",
     "tags": [
       "input",
       "meta",
@@ -5302,7 +5302,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T140846/",
     "source_date": "2024-08-22T14:08:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#스타일",
+    "description": "스타일은 겉모양이 아니라 반복 속에서 드러나는 방식과 태도까지 포함하는 다의적 개념이다. 삶의 스타일과 표현의 스타일을 함께 놓고 무엇이 한 존재의 결을 이루는지 살핀다.",
     "tags": [
       "metameta",
       "style"
@@ -5317,7 +5317,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T140808/",
     "source_date": "2024-08-22T14:08:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#구조",
+    "description": "구조는 건축이나 구조주의에 한정되지 않고 살아남기 위해 붙잡는 틀과 뼈대로 확장된다. 다양한 용례와 관련 메타를 모아 무언가를 살리고 지탱하는 형식으로서의 구조를 탐색한다.",
     "tags": [
       "architecture",
       "construction",
@@ -5429,7 +5429,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20231001T132900/",
     "source_date": "2023-10-01T13:29:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#트리시터 #언어서버",
+    "description": "트리시터와 LSP를 코드 이해와 편집 보조의 핵심 기반으로 묶어 본다. 파서와 언어 서버, 개발 도구의 연결을 따라가며 현대 편집 환경의 구조를 정리한다.",
     "tags": [
       "generator",
       "language",
@@ -5453,7 +5453,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230817T082200/",
     "source_date": "2023-08-17T08:22:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#회복탄력성",
+    "description": "회복탄력성은 무너지지 않음보다 다시 돌아오고 조절하는 힘에 가깝다. 자기조절력과 마음의 복원, 관련 자료를 함께 모아 흔들림 이후의 회복 경로를 살핀다.",
     "tags": [
       "meta",
       "resilience"
@@ -5487,7 +5487,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230723T060300/",
     "source_date": "2023-07-23T06:03:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "#생산성",
+    "description": "생산성과 딥워크를 단순한 효율이 아니라 시간 감각과 집중의 문제로 다룬다. 느린 시간과 시간 블록, 디지털 미니멀리즘 같은 인접 주제를 함께 모아 일의 밀도를 다시 보게 한다.",
     "tags": [
       "deepwork",
       "management",
@@ -5578,7 +5578,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T141024/",
     "source_date": "2024-08-22T14:10:00+09:00",
     "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "#인터페이스",
+    "description": "인터페이스는 사람과 기계, 시스템과 시스템이 만나는 접면이다. 뇌-컴퓨터 인터페이스에서 소프트웨어 UI까지 넓은 사례를 통해 연결의 형식을 살핀다.",
     "tags": [
       "interface",
       "meta"
@@ -5593,7 +5593,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T141000/",
     "source_date": "2024-08-22T14:10:00+09:00",
     "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "#기술",
+    "description": "기술과 기법은 도구의 목록이 아니라 무엇을 어떻게 해내는가의 방식과 축적을 가리킨다. 여러 사례를 연결해 손에 익은 방법과 체계화된 테크닉의 차이를 함께 살핀다.",
     "tags": [
       "metameta",
       "technology"
@@ -5644,7 +5644,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T140355/",
     "source_date": "2024-08-22T14:03:00+09:00",
     "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "#지능",
+    "description": "지능은 문제 해결 능력 하나로 환원되지 않는 넓은 개념으로 다뤄진다. 학습과 지식, 인공지능과 연결되는 여러 층위를 묶어 무엇을 지능이라 부를지 다시 묻는다.",
     "tags": [
       "intelligence",
       "metameta"
@@ -5659,7 +5659,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240821T161657/",
     "source_date": "2024-08-21T16:16:00+09:00",
     "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "#노트북",
+    "description": "노트북과 주피터, 코랩은 계산과 기록, 실험을 한 화면에서 이어 가는 작업 형식으로 다뤄진다. 파이썬과 노트테이킹의 접점을 따라 탐구와 프로토타이핑의 환경을 정리한다.",
     "tags": [
       "colab",
       "jupyter",
@@ -5762,7 +5762,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230927T120800/",
     "source_date": "2023-09-27T12:08:00+09:00",
     "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "#뉴스피드 #RSS",
+    "description": "뉴스피드와 RSS는 정보가 흘러오는 통로를 스스로 구성하는 방식으로 다뤄진다. 리더와 뉴스레터, 관련 링크를 함께 모아 읽기의 자동화와 정보 수집의 리듬을 정리한다.",
     "tags": [
       "aggregator",
       "atom",
@@ -5849,7 +5849,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250602T161023/",
     "source_date": "2025-06-02T16:10:00+09:00",
     "source_lastmod": "2025-06-02T00:00:00+09:00",
-    "description": "20250602T161023",
+    "description": "눈물과 슬픔, 연민과 공감은 개인 감정에 머물지 않고 인간관계와 윤리 감각으로 이어진다. 비슷해 보이는 정서 어휘를 함께 놓고, 인간성이 흔들릴 때 무엇이 반응하는지 더듬어 본다.",
     "tags": [
       "compassion",
       "conformity",
@@ -5890,7 +5890,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250601T090359/",
     "source_date": "2025-06-01T09:03:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "20250601T090359",
+    "description": "신경다양성은 인간의 인지와 행동 차이를 결함보다 변이와 특성의 스펙트럼으로 보려는 관점이다. 연구사와 현대적 의미를 따라가며 ADHD와 자폐, 학습 차이를 다루는 언어도 함께 정리한다.",
     "tags": [
       "meta",
       "neurodiversity"
@@ -5905,7 +5905,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241027T210006/",
     "source_date": "2024-10-27T21:00:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "#메타메타",
+    "description": "메타는 대상을 한 단계 위에서 바라보며 구조와 맥락을 드러내는 시선이다. 여러 개념 노트를 다시 묶고 재배열하는 상위 자석으로 기능한다.",
     "tags": [
       "meta",
       "metameta"
@@ -5920,7 +5920,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240826T114850/",
     "source_date": "2024-08-26T11:48:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "#과거 #현재 #미래",
+    "description": "과거와 현재, 미래는 시간을 나누는 말이면서 삶을 해석하는 기본 프레임이기도 하다. 관련 메타와 기록을 엮어 기억과 주의, 전망이 어떻게 함께 움직이는지 정리한다.",
     "tags": [
       "future",
       "meta",
@@ -5972,7 +5972,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250529T160157/",
     "source_date": "2025-05-29T16:01:00+09:00",
     "source_lastmod": "2025-05-29T16:01:00+09:00",
-    "description": "#비형식논리학",
+    "description": "비형식논리학은 일상 언어 속 주장과 추론을 분석하며 어디서 오류가 생기는지 따진다. 형식 체계 밖에서 벌어지는 논증의 설득력과 궤변의 패턴을 함께 살핀다.",
     "tags": [
       "informal",
       "logic",
@@ -6008,7 +6008,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241205T163015/",
     "source_date": "2024-12-05T16:30:00+09:00",
     "source_lastmod": "2025-05-28T00:00:00+09:00",
-    "description": "#계몽",
+    "description": "계몽은 무지를 벗어나려는 지적 태도이면서 공적 세계를 세우는 근대의 문제의식이다. 다원성과 함께 놓일 때 서로 다른 관점을 견디는 민주적 감각으로 확장된다.",
     "tags": [
       "democracy",
       "enlightenment",
@@ -6025,7 +6025,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230814T094900/",
     "source_date": "2023-08-14T09:49:00+09:00",
     "source_lastmod": "2025-05-28T00:00:00+09:00",
-    "description": "#루틴",
+    "description": "루틴과 패턴을 생활의 반복이 아니라 의식적인 리듬과 형성의 문제로 본다. 작은 습관과 반복 구조, 작업 흐름의 흔적을 모아 삶과 일의 지속 가능성을 살핀다.",
     "tags": [
       "meta",
       "pattern",
@@ -6041,7 +6041,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250527T201657/",
     "source_date": "2025-05-27T20:16:00+09:00",
     "source_lastmod": "2025-05-27T20:16:00+09:00",
-    "description": "#투명성",
+    "description": "투명성은 단순히 잘 보인다는 뜻이 아니라 과정과 의사결정이 드러나 책임을 물을 수 있게 하는 조건이다. 데이터 소유권과 AI 협업의 맥락에서 무엇을 공개하고 설명해야 하는지 생각한다.",
     "tags": [
       "meta",
       "transparency"
@@ -6056,7 +6056,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250527T201623/",
     "source_date": "2025-05-27T20:16:00+09:00",
     "source_lastmod": "2025-05-27T20:16:00+09:00",
-    "description": "#소유권 #라이선스",
+    "description": "소유권과 라이선스는 무엇을 누가 쓰고 고치고 배포할 수 있는지 정하는 규칙이다. 오픈소스 소프트웨어에서 AI와 데이터 문제까지 넓혀 보며 권리와 책임의 경계를 정리한다.",
     "tags": [
       "ai",
       "data",
@@ -6075,7 +6075,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250527T065122/",
     "source_date": "2025-05-27T06:51:00+09:00",
     "source_lastmod": "2025-05-27T06:51:00+09:00",
-    "description": "#머신러닝 #딥러닝",
+    "description": "머신러닝과 딥러닝의 차이를 하위 분야 관계와 학습 방식의 차이 속에서 정리한다. 통계적 학습에서 신경망 기반 접근으로 이어지는 흐름을 한눈에 보게 한다.",
     "tags": [
       "deeplearning",
       "machinelearning",
@@ -6091,7 +6091,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240530T120348/",
     "source_date": "2024-05-30T12:03:00+09:00",
     "source_lastmod": "2025-05-27T00:00:00+09:00",
-    "description": "#재배포시스템",
+    "description": "재배포 시스템과 롤백은 변경을 안전하게 되돌릴 수 있는 운영 감각과 연결된다. Nix와 Guix, Docker, Ansible 같은 대표 솔루션을 함께 보며 재현 가능한 환경 관리의 핵심을 잡는다.",
     "tags": [
       "ansible",
       "bib",
@@ -6211,7 +6211,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240522T142650/",
     "source_date": "2024-05-22T14:26:00+09:00",
     "source_lastmod": "2025-05-25T00:00:00+09:00",
-    "description": "#다운로드 #줍줍",
+    "description": "다운로드는 파일을 받는 행위에 그치지 않고 자료를 수집하고 건져 올리는 습관으로 다뤄진다. 관련 키워드와 메타를 묶어 디지털 수집 행위의 일상적 층위를 기록한다.",
     "tags": [
       "download",
       "free",
@@ -6259,7 +6259,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240811T064116/",
     "source_date": "2024-08-11T06:41:00+09:00",
     "source_lastmod": "2025-05-24T00:00:00+09:00",
-    "description": "#언론 #저널리즘",
+    "description": "언론과 저널리즘을 사실 전달 이상의 공적 진실 탐구로 바라본다. 뉴스와 탐사보도, 르포르타주를 아카이빙하며 정보와 사회를 잇는 서사의 역할을 살핀다.",
     "tags": [
       "bib",
       "information",
@@ -6294,7 +6294,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250523T152036/",
     "source_date": "2025-05-23T15:20:00+09:00",
     "source_lastmod": "2025-05-23T15:20:00+09:00",
-    "description": "#수원시",
+    "description": "도시는 삶의 규모와 리듬이 응축되는 공간이고, 수원은 그중에서도 힣의 생활권과 감각이 겹치는 장소다. 도시 일반의 문제와 수원이라는 구체적 지역성을 함께 붙들어 본다.",
     "tags": [
       "city",
       "korea",
@@ -6310,7 +6310,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250523T142240/",
     "source_date": "2025-05-23T14:22:00+09:00",
     "source_lastmod": "2025-05-23T00:00:00+09:00",
-    "description": "20250523T142240",
+    "description": "산업단지는 공장과 연구시설, 물류와 기반시설이 한데 모여 산업 활동을 조직하는 공간이다. 공단이라는 말의 역사와 함께 하이테크 단지, 반도체 클러스터 같은 현재적 맥락까지 이어 본다.",
     "tags": [
       "industries",
       "meta",
@@ -6326,7 +6326,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241025T103227/",
     "source_date": "2024-10-25T10:32:00+09:00",
     "source_lastmod": "2025-05-23T00:00:00+09:00",
-    "description": "#희망도서 #관련도서",
+    "description": "희망과 바람, 바램은 아직 오지 않은 것을 향한 마음의 방향을 담는다. 희망도서나 관련도서처럼 욕망과 요청의 실용적 흔적까지 함께 포괄한다.",
     "tags": [
       "hope",
       "meta",
@@ -6374,7 +6374,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250521T140725/",
     "source_date": "2025-05-21T14:07:00+09:00",
     "source_lastmod": "2025-05-21T14:07:00+09:00",
-    "description": "#단축키 #치트시트",
+    "description": "단축키와 치트시트는 작업 속도를 높이는 요령을 넘어 몸에 익는 학습의 매개다. 두 개념의 차이와 연결을 함께 보며, 반복 수행과 기억 보조의 구조를 정리한다.",
     "tags": [
       "cheatsheet",
       "meta",
@@ -6732,7 +6732,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20241022T044124/",
     "source_date": "2024-10-22T04:41:00+09:00",
     "source_lastmod": "2025-04-30T00:00:00+09:00",
-    "description": "#메타인지",
+    "description": "인지는 세계를 받아들이고 이해하는 과정이라면 메타인지는 그 과정을 다시 돌아보는 힘이다. 심리학과 인지과학의 언어를 빌려 생각을 생각하는 문제를 펼친다.",
     "tags": [
       "bib",
       "meta",
@@ -6820,7 +6820,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250428T160921/",
     "source_date": "2025-04-28T16:09:00+09:00",
     "source_lastmod": "2025-04-28T16:09:00+09:00",
-    "description": "#메타지식: #역사 #인문학",
+    "description": "역사와 인문학을 브리태니커 프로피디아의 분류 축에서 다시 읽는다. 역사학과 인문학적 연구 전통을 함께 놓고, 인간 세계를 이해하는 학문 지형을 넓게 훑는다.",
     "tags": [
       "history",
       "humanity",
@@ -6964,7 +6964,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250424T233854/",
     "source_date": "2025-04-24T23:38:00+09:00",
     "source_lastmod": "2025-04-24T23:38:00+09:00",
-    "description": "#지혜",
+    "description": "지혜를 단순한 지식의 축적이 아니라 삶과 판단을 이끄는 앎의 형식으로 다룬다. 이론적 지혜와 실천적 지혜를 가르며, 인간이 무엇을 알아야 잘 살 수 있는지를 함께 묻는다.",
     "tags": [
       "meta",
       "syntopicon",
@@ -7249,7 +7249,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250424T232629/",
     "source_date": "2025-04-24T23:26:00+09:00",
     "source_lastmod": "2025-04-24T23:26:00+09:00",
-    "description": "#religion #종교",
+    "description": "종교는 신앙과 믿음, 구원과 실천이 어떻게 인간 삶을 조직하는지 묻는 주제다. 영성과 사상가 노트까지 함께 엮어 교리의 차원을 넘어 존재 방식으로서의 종교를 살핀다.",
     "tags": [
       "meta",
       "religion",
@@ -7459,7 +7459,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250424T231919/",
     "source_date": "2025-04-24T23:19:00+09:00",
     "source_lastmod": "2025-04-24T23:19:00+09:00",
-    "description": "#철학",
+    "description": "철학을 하나의 학문 분야가 아니라 여러 사유 전통을 가로지르는 상위 물음으로 놓는다. 신학·종교·수학과의 관계를 함께 보며 철학의 범위와 역할을 넓게 조망한다.",
     "tags": [
       "birdview",
       "meta",
@@ -7803,7 +7803,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250424T230029/",
     "source_date": "2025-04-24T23:00:00+09:00",
     "source_lastmod": "2025-04-24T23:00:00+09:00",
-    "description": "#knowledge #지식",
+    "description": "지식은 인식하는 주체와 대상의 관계, 그리고 앎이 어떤 구조로 성립하는가를 묻는 큰 주제다. 관련 메타와 신토피콘 항목을 엮어 지식의 본질, 조직, 연결 방식을 함께 살핀다.",
     "tags": [
       "knowledge",
       "metameta",
@@ -8601,7 +8601,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250422T130749/",
     "source_date": "2025-04-22T13:07:00+09:00",
     "source_lastmod": "2025-04-22T13:07:00+09:00",
-    "description": "#분류 #구조화",
+    "description": "분류체계는 사물과 개념을 어떤 기준으로 나누고 묶을 것인가의 문제를 다룬다. 택소노미와 폭소노미, 구조화와 분야 구분의 차이를 함께 살피며 지식베이스의 배치 원리를 정리한다.",
     "tags": [
       "areas",
       "classification",
@@ -8695,7 +8695,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250421T125513/",
     "source_date": "2025-04-21T12:55:00+09:00",
     "source_lastmod": "2025-04-21T12:55:00+09:00",
-    "description": "#신토피콘",
+    "description": "신토피콘은 브리태니커의 위대한 책과 102개의 위대한 아이디어를 가로지르며 개념을 색인하는 방식에 주목한다. 한 권의 책을 넘어서 서로 다른 저자와 시대를 교차 독서하게 만드는 구조를 따라, 힣의 메타 지식 체계로 확장할 실마리를 모은다.",
     "tags": [
       "bib",
       "great",
@@ -8736,7 +8736,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250420T173447/",
     "source_date": "2025-04-20T17:34:00+09:00",
     "source_lastmod": "2025-04-20T17:34:00+09:00",
-    "description": "#지식의분야",
+    "description": "메타지식 10은 철학, 과학, 수학, 논리 같은 지식의 큰 가지들을 서로 비춰 보는 묶음이다. 브리태니커식 프로피디아와 개인 지식 그래프 감각이 만나는 자리로 읽힌다.",
     "tags": [
       "propaedia",
       "branches",
@@ -8893,7 +8893,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T140952/",
     "source_date": "2024-08-22T14:09:00+09:00",
     "source_lastmod": "2025-04-18T00:00:00+09:00",
-    "description": "#시대",
+    "description": "시대와 시기, 기간은 변화를 읽기 위해 필요한 시간의 단위들이다. 관련 책과 메모를 모아 어떤 이름으로 현재를 부르고 구분할지의 문제를 정리한다.",
     "tags": [
       "ages",
       "digital",
@@ -8981,7 +8981,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230814T162600/",
     "source_date": "2023-08-14T16:26:00+09:00",
     "source_lastmod": "2025-04-18T00:00:00+09:00",
-    "description": "#출판 #퍼블리싱",
+    "description": "출판과 퍼블리싱, 배포를 글과 지식이 세상으로 나가는 전체 과정으로 묶어 본다. 인쇄부터 디지털 배포까지 관련 도구와 방식, 흐름을 연결해 출판의 실무 감각을 정리한다.",
     "tags": [
       "distribution",
       "meta",
@@ -8997,7 +8997,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230726T155300/",
     "source_date": "2023-07-26T15:53:00+09:00",
     "source_lastmod": "2025-04-18T00:00:00+09:00",
-    "description": "#VSCODE",
+    "description": "VSCode를 이맥스와 대비되는 대안이 아니라 함께 가져갈 개발 도구로 바라본다. 관련 설정과 확장, 마이크로소프트 생태계, 작업 경험을 묶어 실전 사용 맥락을 정리한다.",
     "tags": [
       "ide",
       "microsoft",
@@ -9031,7 +9031,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230223T053200/",
     "source_date": "2023-02-23T05:32:00+09:00",
     "source_lastmod": "2025-04-18T00:00:00+09:00",
-    "description": "#이맥스지식그래프",
+    "description": "이맥스 안에서 지식그래프를 어떻게 만들고 연결할지 살피는 메타다. EKG를 중심으로 개인지식관리와 링크 구조, 관련 도구들을 엮어 이맥스 기반 사고 환경의 가능성을 모아 둔다.",
     "tags": [
       "ekg",
       "emacs",
@@ -9066,7 +9066,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250416T171517/",
     "source_date": "2025-04-16T17:15:00+09:00",
     "source_lastmod": "2025-04-16T17:15:00+09:00",
-    "description": "#내보내기 #업데이트",
+    "description": "내보내기, 업데이트, 개정, 갱신은 결과물을 밖으로 내보내고 다시 손보는 순환의 어휘들이다. 출판과 배포, 버전 관리의 흐름을 함께 묶어 준다.",
     "tags": [
       "distribute",
       "exports",
@@ -9140,7 +9140,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230721T225100/",
     "source_date": "2023-07-21T22:51:00+09:00",
     "source_lastmod": "2025-04-15T00:00:00+09:00",
-    "description": "#커뮤니티 #모임 #공동체",
+    "description": "커뮤니티와 모임, 공동체, 포럼을 둘러싼 장면과 연결 지점을 모아 둔다. 온오프라인 모임과 스터디, 관련 플랫폼과 링크를 함께 엮어 참여와 관찰의 접점을 넓힌다.",
     "tags": [
       "community",
       "forum",
@@ -9223,7 +9223,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250411T054535/",
     "source_date": "2025-04-11T05:45:00+09:00",
     "source_lastmod": "2025-04-11T05:45:00+09:00",
-    "description": "#요구사항",
+    "description": "요구사항은 무엇을 원하는지 명확히 드러내는 일의 출발점이다. 개발 문맥을 넘어 요청과 필요, 조건을 어떻게 말로 고정할 것인가의 문제를 품는다.",
     "tags": [
       "meta",
       "requirements"
@@ -9255,7 +9255,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240320T110018/",
     "source_date": "2024-03-20T11:00:00+09:00",
     "source_lastmod": "2025-04-11T00:00:00+09:00",
-    "description": "#조테로",
+    "description": "조테로를 중심으로 서지관리와 참고문헌 정리의 흐름을 묶어 둔다. BibTeX와 citar, 라이브러리 관리와 연결해 읽기와 쓰기의 기반 도구를 실용적으로 정리한다.",
     "tags": [
       "bib",
       "bibtex",
@@ -9326,7 +9326,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240521T172329/",
     "source_date": "2024-05-21T17:23:00+09:00",
     "source_lastmod": "2025-04-10T00:00:00+09:00",
-    "description": "#LLM 클라이언트",
+    "description": "여러 LLM 클라이언트와 관리 도구를 한눈에 보기 위해 만든 메타 노트다. 급격히 늘어나는 도구들을 비교하고 분류하며 에이전트 작업 환경의 선택지를 정리한다.",
     "tags": [
       "collection",
       "emacs",
@@ -9376,7 +9376,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240918T175412/",
     "source_date": "2024-09-18T17:54:00+09:00",
     "source_lastmod": "2025-04-09T00:00:00+09:00",
-    "description": "#노트테이킹",
+    "description": "노트테이킹은 디지털과 아날로그를 가리지 않고 생각을 붙잡고 연결을 남기는 기본 행위로 다뤄진다. 단순한 메모 습관을 넘어 지식관리와 작업 흐름을 조직하는 바탕 개념으로 이어진다.",
     "tags": [
       "metameta",
       "notetaking"
@@ -9719,7 +9719,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240620T171551/",
     "source_date": "2024-06-20T17:15:00+09:00",
     "source_lastmod": "2025-03-28T00:00:00+09:00",
-    "description": "#파이썬",
+    "description": "파이썬은 학습과 자동화, 데이터 작업, 도구 만들기를 가로지르는 폭넓은 언어로 다뤄진다. 관련 책과 노트, 공부 흔적을 함께 묶어 파이썬 학습의 기반 지형을 만든다.",
     "tags": [
       "language",
       "meta",
@@ -9793,7 +9793,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240613T162410/",
     "source_date": "2024-06-13T16:24:00+09:00",
     "source_lastmod": "2025-03-27T00:00:00+09:00",
-    "description": "#인디웹",
+    "description": "인디웹과 디스루트는 플랫폼 바깥에서 자율적인 웹 삶을 꾸리는 실험으로 다뤄진다. 낯선 용어와 관련 메타를 연결해 독립적인 온라인 기반의 가능성을 탐색한다.",
     "tags": [
       "disroot",
       "indieweb",
@@ -9828,7 +9828,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230727T091700/",
     "source_date": "2023-07-27T09:17:00+09:00",
     "source_lastmod": "2025-03-26T00:00:00+09:00",
-    "description": "#정규표현식",
+    "description": "정규표현식은 텍스트를 찾고 바꾸고 구조를 드러내는 강력한 문법으로 다뤄진다. 활용 팁과 관련 도구, 실제 사례를 모아 반복 작업과 변환의 감각을 키우는 자리다.",
     "tags": [
       "convert",
       "meta",
@@ -9879,7 +9879,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250321T100126/",
     "source_date": "2025-03-21T10:01:00+09:00",
     "source_lastmod": "2025-03-21T10:01:00+09:00",
-    "description": "#결제 #가격 #비용 #청구 #요금",
+    "description": "결제와 가격, 비용, 청구, 요금은 돈이 오가는 서로 다른 국면을 가리킨다. 사는 행위의 경험과 계산의 언어가 어떻게 구분되는지 정리한다.",
     "tags": [
       "bib",
       "meta",
@@ -9996,7 +9996,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240819T161739/",
     "source_date": "2024-08-19T16:17:00+09:00",
     "source_lastmod": "2025-03-13T00:00:00+09:00",
-    "description": "#안드로이드",
+    "description": "안드로이드와 모바일, 스마트폰을 손안의 컴퓨팅 환경 전체로 바라본다. 관련 기기와 앱, 이맥스 연결점까지 함께 모아 이동 중 작업과 생활 도구의 기반을 살핀다.",
     "tags": [
       "android",
       "meta"
@@ -10057,7 +10057,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20230831T154800/",
     "source_date": "2023-08-31T15:48:00+09:00",
     "source_lastmod": "2025-03-13T00:00:00+09:00",
-    "description": "#조직모드",
+    "description": "조직모드는 메모와 글쓰기, 출판, 작업 관리가 만나는 메타언어로 다뤄진다. 노트테이킹과 저널, 재현성, 퍼블리싱을 함께 엮어 Org Mode가 삶의 구조가 되는 방식을 보여준다.",
     "tags": [
       "ainotes",
       "emacs",
@@ -10191,7 +10191,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20231019T140300/",
     "source_date": "2023-10-19T14:03:00+09:00",
     "source_lastmod": "2025-03-06T00:00:00+09:00",
-    "description": "#연결 #고리 #링크 #방향",
+    "description": "연결과 고리, 링크, 방향은 웹과 노트가 이어지는 기본 감각으로 다뤄진다. 인터넷과 훅, 플랫폼, 연결 방식을 함께 모아 무엇이 어디로 이어지는지의 구조를 살핀다.",
     "tags": [
       "connect",
       "direct",
@@ -10299,7 +10299,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240713T225339/",
     "source_date": "2024-07-13T22:53:00+09:00",
     "source_lastmod": "2025-02-25T00:00:00+09:00",
-    "description": "#도서관",
+    "description": "도서관은 책을 빌리는 장소를 넘어 공부와 도시 생활, 탐색의 거점으로 다뤄진다. 수원의 구체적 공간 경험과 관련 메타를 연결해 지식 환경으로서의 도서관을 살핀다.",
     "tags": [
       "library",
       "meta",
@@ -10438,7 +10438,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240822T140939/",
     "source_date": "2024-08-22T14:09:00+09:00",
     "source_lastmod": "2025-02-15T00:00:00+09:00",
-    "description": "#키바인딩",
+    "description": "키바인딩은 단축키 모음이 아니라 몸의 리듬과 작업 습관이 굳어지는 인터페이스의 핵심이다. 다양한 환경의 조작 체계를 엮어 손의 기억과 생산성의 관계를 살핀다.",
     "tags": [
       "keybindings",
       "meta"
@@ -10485,7 +10485,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20240224T170548/",
     "source_date": "2024-02-24T17:05:00+09:00",
     "source_lastmod": "2025-02-14T00:00:00+09:00",
-    "description": "#기예인 #지식인 #예술가 #사상가 #철학자 #영성가 #구도자 #딴따라",
+    "description": "기예인과 지식인, 예술가와 구도자를 따로 떼지 않고 한 인간형의 여러 얼굴로 바라본다. 창작과 사유, 영성과 기술이 만나는 지점을 따라 대체 불가능한 존재의 형상을 탐색한다.",
     "tags": [
       "artisan",
       "artist",
@@ -10504,7 +10504,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20231123T040509/",
     "source_date": "2023-11-23T04:05:00+09:00",
     "source_lastmod": "2025-02-14T00:00:00+09:00",
-    "description": "#이맥스 #통합개발환경",
+    "description": "이맥스를 통합개발환경으로 사용할 때의 가능성과 한계를 모아 둔다. 여러 언어와 패키지, 도구를 한 자리에 놓고 개발 환경으로서의 Emacs를 실전적으로 점검한다.",
     "tags": [
       "awk",
       "clojure",
@@ -10549,7 +10549,7 @@
     "source_url": "https://notes.junghanacs.com/meta/20250213T103827/",
     "source_date": "2025-02-13T10:38:00+09:00",
     "source_lastmod": "2025-02-13T00:00:00+09:00",
-    "description": "#통합개발환경",
+    "description": "통합개발환경은 코딩 도구와 개발 도구를 한자리에 묶어 작업 흐름을 줄여 주는 개념이다. IDE라는 이름 아래 편집, 실행, 탐색, 협업이 하나의 환경으로 통합된다.",
     "tags": [
       "bib",
       "coding",
@@ -11060,7 +11060,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250620T085156/",
     "source_date": "2025-06-20T08:51:00+09:00",
     "source_lastmod": "2026-08-11T13:20:00+09:00",
-    "description": "@토머스쿤 #과학혁명의구조 #페러다임",
+    "description": "패러다임 개념을 중심으로 과학이 직선적 축적이 아니라 틀의 전환 속에서 발전한다는 통찰을 보여주는 고전이다.",
     "tags": [
       "bib",
       "paradigm",
@@ -13154,7 +13154,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20260322T074000/",
     "source_date": "2026-03-22T07:40:00+09:00",
     "source_lastmod": "2026-03-22T09:00:00+09:00",
-    "description": "@에드거앨런포 Edgar Allan Poe 추리소설의 창시자, 공포문학의 아버지",
+    "description": "에드거 앨런 포는 추리소설의 형식을 열고 심리적 공포를 문학의 중심으로 끌어올린 작가다. 단일 효과라는 단편 이론에서 뒤팽 연작과 「갈가마귀」에 이르기까지, 현대 장르문학의 여러 뿌리가 이 노드에 모인다.",
     "tags": [
       "bib",
       "literature",
@@ -13261,7 +13261,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20260322T073600/",
     "source_date": "2026-03-22T07:36:00+09:00",
     "source_lastmod": "2026-03-22T08:59:00+09:00",
-    "description": "@기드모파상 Guy de Maupassant 프랑스 단편소설의 거장",
+    "description": "기 드 모파상은 짧은 호흡 안에 인간의 허영과 위선, 욕망과 비애를 칼날처럼 포착한 프랑스 단편소설의 거장이다. 「목걸이」와 「비곗덩어리」로 대표되는 정밀한 구성과 씁쓸한 반전이 그의 문학적 힘을 드러낸다.",
     "tags": [
       "bib",
       "literature",
@@ -13278,7 +13278,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240806T124938/",
     "source_date": "2024-08-06T12:49:00+09:00",
     "source_lastmod": "2026-03-22T08:59:00+09:00",
-    "description": "@프란츠카프카 Franz Kafka 부조리 문학의 원류",
+    "description": "카프카의 변신은 일상 속 소외와 부조리를 압축적으로 드러내며 현대문학의 불안을 상징적으로 형상화한다.",
     "tags": [
       "bib",
       "existentialism",
@@ -13313,7 +13313,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20241206T123251/",
     "source_date": "2024-12-06T12:32:00+09:00",
     "source_lastmod": "2026-03-22T00:00:00+09:00",
-    "description": "@비트겐슈타인 Ludwig Wittgenstein 언어철학 논리철학논고 철학적탐구",
+    "description": "비트겐슈타인의 초기와 후기 작업을 함께 떠올리며 언어, 논리, 세계의 관계를 집요하게 묻는다. 그림이론에서 언어게임으로 이동하는 철학의 긴장을 한 축에서 읽게 한다.",
     "tags": [
       "bib",
       "language",
@@ -13428,7 +13428,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250411T134610/",
     "source_date": "2025-04-11T13:46:00+09:00",
     "source_lastmod": "2026-03-14T00:00:00+09:00",
-    "description": "@진형준 #세계문학컬렉션 100권",
+    "description": "진형준 축역본을 중심으로 세계문학 컬렉션의 판본과 구성을 살피며, 고전 읽기의 입구와 한계를 함께 점검한다.",
     "tags": [
       "bib",
       "collection",
@@ -13527,7 +13527,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20260307T165907/",
     "source_date": "2026-03-07T16:59:00+09:00",
     "source_lastmod": "2026-03-07T16:59:00+09:00",
-    "description": "@디팩초프라 깨달음의 특이점 - AI가 어떻게 영적 지능과 개인의 웰빙을 향상시킬 수 있는가",
+    "description": "디팩 초프라는 AI를 단순한 생산성 도구가 아니라 인간 의식과 영적 지능을 비추는 거울로 읽는다. 디지털 다르마라는 관점은 기술의 진보와 별개로, 우리가 얼마나 깨어 있는 존재로 살아갈 것인가를 다시 묻게 한다.",
     "tags": [
       "bib",
       "dharma",
@@ -13808,7 +13808,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20251123T152633/",
     "source_date": "2025-11-23T15:26:00+09:00",
     "source_lastmod": "2025-11-23T15:26:00+09:00",
-    "description": "@스티브예그 steveyegge/beads",
+    "description": "스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.",
     "tags": [
       "agent",
       "bib",
@@ -13872,7 +13872,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20251020T095536/",
     "source_date": "2025-10-20T09:55:00+09:00",
     "source_lastmod": "2025-10-20T09:55:00+09:00",
-    "description": "@조지슈피로 보이는 모든 것을 의심하라 #상식 #통념 #역설",
+    "description": "상식처럼 보이는 명제와 역설적 문제들을 수학과 논리의 시선으로 뒤집으며, 익숙한 세계를 의심하는 사고 훈련을 제공한다.",
     "tags": [
       "paradox",
       "mathematics",
@@ -13905,7 +13905,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250930T075718/",
     "source_date": "2025-09-30T07:57:00+09:00",
     "source_lastmod": "2025-09-30T07:57:00+09:00",
-    "description": "@알베르카뮈 이방인",
+    "description": "부조리와 소외를 압축적으로 그려낸 소설로, 현대인이 세계와 자신을 어떻게 마주하는지 날카롭게 비춘다.",
     "tags": [
       "novel",
       "bib"
@@ -13937,7 +13937,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250723T114703/",
     "source_date": "2025-07-23T11:47:00+09:00",
     "source_lastmod": "2025-07-23T11:47:00+09:00",
-    "description": "@Emsi ¤MyManus ¤Claude-Desktop 클로드 에이전트",
+    "description": "클로드 데스크톱과 MyManus 계열 도구를 통해 로컬 리눅스 환경에서 에이전트, MCP, 샌드박스 활용 가능성을 살핀다.",
     "tags": [
       "agent",
       "ai",
@@ -14023,7 +14023,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250702T061322/",
     "source_date": "2025-07-02T06:13:00+09:00",
     "source_lastmod": "2025-07-02T06:13:00+09:00",
-    "description": "@롭무어 레버리지 자본주의 속에 숨겨진 부의 비밀",
+    "description": "시간과 노력의 한계를 넘기 위해 시스템, 자본, 위임을 활용하는 레버리지 사고를 실용적으로 설명한다.",
     "tags": [
       "life",
       "workflow",
@@ -14056,7 +14056,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250701T180733/",
     "source_date": "2025-07-01T18:07:00+09:00",
     "source_lastmod": "2025-07-01T18:07:00+09:00",
-    "description": "#Thingsboard",
+    "description": "대시보드와 장치 연결, 위젯 확장을 갖춘 오픈소스 IoT 플랫폼으로, 소규모부터 실무 배포까지 이어지는 운영 감각을 살핀다.",
     "tags": [
       "bib",
       "iot",
@@ -14115,7 +14115,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250630T082623/",
     "source_date": "2025-06-30T08:26:00+09:00",
     "source_lastmod": "2025-06-30T08:26:00+09:00",
-    "description": "@알폰소링기스 아무것도 공유하지 않은 자들의 공동체",
+    "description": "공통의 정체성이나 합의 없이도 성립하는 공동체의 가능성을 묻으며, 타자와 윤리의 문제를 철학적으로 밀어붙인다.",
     "tags": [
       "community",
       "bib",
@@ -14203,7 +14203,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240301T072452/",
     "source_date": "2024-03-01T07:24:00+09:00",
     "source_lastmod": "2025-06-27T00:00:00+09:00",
-    "description": "@케빈켈리",
+    "description": "케빈 켈리는 기술을 개별 기계가 아니라 살아 움직이는 생태계, 곧 테크늄으로 바라본다. 미래 예측과 생활 조언이 함께 엮이며 기술과 함께 살아가는 장기적 감각을 길러 준다.",
     "tags": [
       "bib",
       "guru",
@@ -14331,7 +14331,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20241210T050320/",
     "source_date": "2024-12-10T05:03:00+09:00",
     "source_lastmod": "2025-06-20T00:00:00+09:00",
-    "description": "@마크롤랜즈 #삶의철학 #늑대 #달리기 #SF영화 #체화인지 #현상학 #삶의철학",
+    "description": "늑대와의 삶, 달리기, 체화인지, 현상학을 함께 엮으며 좋은 삶이 몸과 세계의 관계 속에서 형성된다고 말한다. 인간 중심의 철학을 벗어나 동물과 환경, 운동의 감각까지 사유를 넓힌다.",
     "tags": [
       "bib",
       "philosophy",
@@ -14609,7 +14609,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20241220T132029/",
     "source_date": "2024-12-20T13:20:00+09:00",
     "source_lastmod": "2025-06-14T00:00:00+09:00",
-    "description": "@스티븐로저 #문자의역사 @크리스털 #언어의역사",
+    "description": "문자의 기원과 발전, 언어의 구조와 역사를 함께 묶어 읽으며 인간 문명이 말과 글을 통해 어떻게 확장되었는지 살핀다.",
     "tags": [
       "bib",
       "language",
@@ -14913,7 +14913,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250608T130700/",
     "source_date": "2025-06-08T13:07:00+09:00",
     "source_lastmod": "2025-06-08T13:07:00+09:00",
-    "description": "@나민애 국어 한글 모국어 아이 교육",
+    "description": "모국어와 국어 교육의 힘을 강조하며, 아이의 사고력과 문해력, 정체성이 한글 읽기와 쓰기 속에서 자란다고 말한다.",
     "tags": [
       "hangul",
       "education",
@@ -14932,7 +14932,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250608T093631/",
     "source_date": "2025-06-08T09:36:00+09:00",
     "source_lastmod": "2025-06-08T09:36:00+09:00",
-    "description": "@이주희 사회학 차별 구조 감정 - 미래",
+    "description": "차별받는 이들의 감정을 개인 문제로 환원하지 않고, 노동·젠더·계급 구조가 마음에 남기는 상처를 사회학적으로 분석한다.",
     "tags": [
       "society",
       "bib",
@@ -14949,7 +14949,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250608T092826/",
     "source_date": "2025-06-08T09:28:00+09:00",
     "source_lastmod": "2025-06-08T09:28:00+09:00",
-    "description": "@야니스바루파키스 #테크노퓨달리즘 - 클라우드 알고리즘 새로운 지배 계급",
+    "description": "빅테크 플랫폼이 시장과 민주주의를 어떻게 재편하는지 분석하며, 자본주의 이후의 권력 구조를 테크노퓨달리즘으로 읽어낸다.",
     "tags": [
       "bib",
       "future",
@@ -15118,7 +15118,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250607T073925/",
     "source_date": "2025-06-07T07:39:00+09:00",
     "source_lastmod": "2025-06-07T07:39:00+09:00",
-    "description": "@벵하민라바투트 과학소설 불꽃 매니악 부커상 스토리텔링",
+    "description": "수학자와 과학자의 광기, 전쟁, 계산의 역사를 소설적 밀도로 엮어 과학의 빛과 어둠을 함께 드러낸다.",
     "tags": [
       "bib",
       "computer",
@@ -15195,7 +15195,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250606T204721/",
     "source_date": "2025-06-06T20:47:00+09:00",
     "source_lastmod": "2025-06-06T20:47:00+09:00",
-    "description": "@김익한 기록 노트 유튜버",
+    "description": "기록과 노트 습관을 통해 생각을 축적하고 삶을 정리하는 방법을 대중적으로 풀어내는 저자이자 유튜버다.",
     "tags": [
       "youtuber",
       "writing",
@@ -15232,7 +15232,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250606T155932/",
     "source_date": "2025-06-06T15:59:00+09:00",
     "source_lastmod": "2025-06-06T15:59:00+09:00",
-    "description": "@레노버 §씽크패드 #AI노트북 #라이젠 #가격 #스펙 #",
+    "description": "씽크패드와 라이젠 기반 AI 노트북의 사양과 실사용 맥락을 정리하며, 업무용 장비 선택 기준을 구체적으로 살핀다.",
     "tags": [
       "laptop",
       "bib",
@@ -15249,7 +15249,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250606T123613/",
     "source_date": "2025-06-06T12:36:00+09:00",
     "source_lastmod": "2025-06-06T12:36:00+09:00",
-    "description": "@박두순 컴파일러 이해",
+    "description": "컴파일러의 원리와 구현 과정을 따라가며 언어 처리, 문법, 정규식이 프로그램으로 번역되는 구조를 이해하게 한다.",
     "tags": [
       "computer",
       "regex",
@@ -15277,7 +15277,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250605T094856/",
     "source_date": "2025-06-05T09:48:00+09:00",
     "source_lastmod": "2025-06-05T09:48:00+09:00",
-    "description": "@레이커즈와일 마침내 특이점이 시작된다 - 인류가 AI와 결합하는 순간",
+    "description": "인공지능과 인간의 결합이 가져올 특이점의 미래를 전망하며 기술 진보의 가능성과 불안을 함께 제시한다.",
     "tags": [
       "singularity",
       "bib",
@@ -15296,7 +15296,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250604T185322/",
     "source_date": "2025-06-04T18:53:00+09:00",
     "source_lastmod": "2025-06-04T18:53:00+09:00",
-    "description": "@알렉스룽구 의미 있는 삶을 위하여: 의식성장을 통한 진정한 삶의 여정",
+    "description": "자기관찰과 관조를 통해 의식의 성장을 추구하며, 의미 있는 삶을 일상에서 어떻게 실천할지 안내한다.",
     "tags": [
       "conscious",
       "life",
@@ -15315,7 +15315,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250604T185009/",
     "source_date": "2025-06-04T18:50:00+09:00",
     "source_lastmod": "2025-06-04T18:50:00+09:00",
-    "description": "@로버트프리츠 정체성 수업 - 자신에게 몰두하는 일은 왜 인생을 망치는가",
+    "description": "삶의 문제를 의지보다 구조의 문제로 보며, 창조적 삶을 위해 정체성과 행동 패턴을 어떻게 재구성할지 제안한다.",
     "tags": [
       "identity",
       "bib",
@@ -15335,7 +15335,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250604T183200/",
     "source_date": "2025-06-04T18:32:00+09:00",
     "source_lastmod": "2025-06-04T18:32:00+09:00",
-    "description": "@쥬드커리반 코스믹 홀로그램: 정보로부터 창조된 우주",
+    "description": "우주를 정보와 홀로그램의 관점에서 해석하며, 과학과 우주론을 새롭게 연결하려는 시도를 담는다.",
     "tags": [
       "holography",
       "hologram",
@@ -15473,7 +15473,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20241228T010542/",
     "source_date": "2024-12-28T01:05:00+09:00",
     "source_lastmod": "2025-06-02T00:00:00+09:00",
-    "description": "@조우석 #책추남 #몰입 #간헐적",
+    "description": "조우석은 책 읽기와 몰입, 자기계발의 리듬을 연결하며 꾸준한 독서가 삶과 일의 밀도를 어떻게 바꾸는지 탐색한다.",
     "tags": [
       "bib",
       "flow"
@@ -15488,7 +15488,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250601T192608/",
     "source_date": "2025-06-01T19:26:00+09:00",
     "source_lastmod": "2025-06-01T19:26:00+09:00",
-    "description": "@이정모 인지과학 인지심리학과",
+    "description": "인지과학과 인지심리학의 핵심 개념을 바탕으로 인간이 어떻게 지각하고 기억하고 판단하는지 통합적으로 설명한다.",
     "tags": [
       "metacognition",
       "guru",
@@ -15504,7 +15504,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250601T140603/",
     "source_date": "2025-06-01T14:06:00+09:00",
     "source_lastmod": "2025-06-01T14:06:00+09:00",
-    "description": "@변정수 컴퓨터 알고리즘 철학",
+    "description": "알고리즘을 계산 절차를 넘어 사고방식으로 다루며, 컴퓨터 과학과 철학이 만나는 질문들을 풀어낸다.",
     "tags": [
       "philosophy",
       "computer",
@@ -15523,7 +15523,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250601T090808/",
     "source_date": "2025-06-01T09:08:00+09:00",
     "source_lastmod": "2025-06-01T09:08:00+09:00",
-    "description": "@토머스암스트롱 증상이 아니라 독특함입니다: 신경다양성 안내서",
+    "description": "신경다양성을 결함이 아닌 인지적 차이로 바라보며, ADHD와 자폐 등을 새로운 강점의 관점에서 이해하도록 돕는다.",
     "tags": [
       "neurodiversity",
       "learning",
@@ -15541,7 +15541,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250601T092242/",
     "source_date": "2025-06-01T09:22:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "@하워드가드너 #다중지능 #교육학",
+    "description": "다중지능 이론을 통해 인간의 능력을 단일 IQ로 환원하지 않고, 교육이 다양한 재능을 어떻게 길러야 하는지 생각하게 한다.",
     "tags": [
       "bib",
       "intelligence",
@@ -15558,7 +15558,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240926T201736/",
     "source_date": "2024-09-26T20:17:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "@zenn @qitta 일본 기술 블로그 서비스",
+    "description": "Zenn과 Qiita는 일본 개발자 생태계의 대표적 기술 글쓰기 플랫폼으로, CLI와 편집기 연동을 포함한 출판 흐름이 잘 발달해 있다. 서비스 구조와 실제 작성 도구를 함께 보면 기술 블로그 문화의 차이가 또렷해진다.",
     "tags": [
       "bib",
       "vscode",
@@ -15576,7 +15576,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240620T044722/",
     "source_date": "2024-06-20T04:47:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "@콘차로프스키 #수리논리 #파이썬 #괴델",
+    "description": "수리논리의 핵심 개념을 파이썬 코드와 함께 익히며 증명, 모델, 계산 가능성의 감각을 기른다. 괴델과 형식 체계로 이어지는 논리학의 기초를 프로그래밍과 연결해 보여준다.",
     "tags": [
       "bib",
       "logic",
@@ -15594,7 +15594,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240618T204737/",
     "source_date": "2024-06-18T20:47:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "@서강올빼미 철학 커뮤니티 포럼",
+    "description": "서강올빼미는 한국어 철학 토론과 질문이 활발히 오가는 포럼형 커뮤니티다. 철학 입문자와 전공자가 개념, 원전, 논변을 함께 다듬는 공론장으로 기능한다.",
     "tags": [
       "bib",
       "community",
@@ -15610,7 +15610,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240529T120127/",
     "source_date": "2024-05-29T12:01:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "#녹색아카데미",
+    "description": "녹색아카데미는 자연철학과 과학 공부를 공동체적 세미나와 강독 모임으로 이어가는 장이다. 물리학, 인포메이션, 앎의 틀을 함께 읽으며 공부가 삶의 현장이 되는 모습을 보여준다.",
     "tags": [
       "community",
       "physics"
@@ -15625,7 +15625,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240515T120927/",
     "source_date": "2024-05-15T12:09:00+09:00",
     "source_lastmod": "2025-06-01T00:00:00+09:00",
-    "description": "@이정우: 세계철학사 전집",
+    "description": "이정우의 『세계철학사』 전집은 지중해, 아시아, 근대, 탈근대를 함께 조망하며 철학사를 세계적 시야로 다시 그린다. 서구 중심 서술을 넘어서 철학의 지형과 흐름을 넓게 바라보게 한다.",
     "tags": [
       "bib",
       "philosophy"
@@ -15640,7 +15640,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250530T142102/",
     "source_date": "2025-05-30T14:21:00+09:00",
     "source_lastmod": "2025-05-30T14:21:00+09:00",
-    "description": "@노아웹스터 사전",
+    "description": "노아 웹스터와 메리엄웹스터의 계보를 따라 사전이 언어 규범, 교육, 미국 문화 형성에 끼친 영향을 살핀다.",
     "tags": [
       "dictionary",
       "bib"
@@ -15674,7 +15674,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250529T194919/",
     "source_date": "2025-05-29T19:49:00+09:00",
     "source_lastmod": "2025-05-29T19:49:00+09:00",
-    "description": "@브랜던로열 탄탄한 문장력 논리력",
+    "description": "논리적 사고와 문장 구성을 함께 다루며, 설득력 있는 글쓰기를 위해 무엇을 판단하고 어떻게 배열해야 하는지 익히게 한다.",
     "tags": [
       "logic",
       "reasoning",
@@ -15726,7 +15726,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240915T205913/",
     "source_date": "2024-09-15T20:59:00+09:00",
     "source_lastmod": "2025-05-28T00:00:00+09:00",
-    "description": "#깃허브 #코파일럿 인공지능",
+    "description": "깃허브 코파일럿은 제안·채팅·자동완성을 통해 개발 리듬을 바꾸는 대표적 AI 코딩 도구다. 실제 결제 경험과 에디터 연동 맥락까지 함께 살피면 플랫폼 전략이 더 잘 보인다.",
     "tags": [
       "bib",
       "copilot",
@@ -15762,7 +15762,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250527T164257/",
     "source_date": "2025-05-27T16:42:00+09:00",
     "source_lastmod": "2025-05-27T16:42:00+09:00",
-    "description": "@DiomidisSpinellis 코드 읽기: 오픈소스",
+    "description": "오픈소스 코드를 읽는 기술을 통해 설계, 품질, 협업 관행을 배우고 큰 시스템을 이해하는 실천적 방법을 제시한다.",
     "tags": [
       "code",
       "reading",
@@ -15779,7 +15779,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250526T212109/",
     "source_date": "2025-05-26T21:21:00+09:00",
     "source_lastmod": "2025-05-26T21:21:00+09:00",
-    "description": "@이얼프레스 더티 워크 : 비윤리적이고 불결한 노동 #탐사보도 #르포르타주",
+    "description": "사회가 유지되기 위해 감춰 둔 비윤리적이고 불결한 노동을 탐사보도로 드러내며, 우리가 외면한 폭력의 구조를 묻는다.",
     "tags": [
       "bib",
       "reportage"
@@ -15794,7 +15794,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250204T010619/",
     "source_date": "2025-02-04T01:06:00+09:00",
     "source_lastmod": "2025-05-26T00:00:00+09:00",
-    "description": "@박문호 박사 박자세",
+    "description": "박문호는 뇌과학·생명과학·빅히스토리를 넘나들며 통합적 설명을 시도하는 과학 해설자이자 폴리매스형 인물이다. 대중 강연과 저작을 통해 넓은 지식 지형을 연결한다.",
     "tags": [
       "bib",
       "person",
@@ -15833,7 +15833,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20231025T132200/",
     "source_date": "2023-10-25T13:22:00+09:00",
     "source_lastmod": "2025-05-26T00:00:00+09:00",
-    "description": "@폴 그레이엄",
+    "description": "폴 그레이엄은 해커 문화, 스타트업, 글쓰기, 야심에 대해 날카롭고 간결한 문장으로 사고의 틀을 흔든다. 리스프와 해커 정신에서 출발해 일, 창의성, 탁월함의 조건을 다시 묻게 만드는 글들이 모여 있다.",
     "tags": [
       "bib",
       "guru"
@@ -15848,7 +15848,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250525T115330/",
     "source_date": "2025-05-25T11:53:00+09:00",
     "source_lastmod": "2025-05-25T11:53:00+09:00",
-    "description": "@헬렌켈러 자서전 - 사흘만 볼 수 있다면",
+    "description": "시청각 장애를 넘어 언어와 세계를 획득한 헬렌 켈러의 삶을 통해 감각, 의지, 인간 존엄의 의미를 다시 생각하게 한다.",
     "tags": [
       "autobiography",
       "spirituality",
@@ -15880,7 +15880,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240918T174153/",
     "source_date": "2024-09-18T17:41:00+09:00",
     "source_lastmod": "2025-05-25T00:00:00+09:00",
-    "description": "@NicholasCarlini 인공지능 활용법",
+    "description": "니콜라스 칼리니는 대형언어모델의 효용과 한계를 냉정하게 따지는 연구자로, 실전 활용법에서도 과장보다 검증을 중시한다. LLM을 써도 되는 곳과 안 되는 곳을 구분하려는 태도가 선명하다.",
     "tags": [
       "anthropic",
       "bib",
@@ -15931,7 +15931,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250524T133025/",
     "source_date": "2025-05-24T13:30:00+09:00",
     "source_lastmod": "2025-05-24T13:30:00+09:00",
-    "description": "@코코크럼 수학자 최적화라는 환상 삶의철학",
+    "description": "최적화 집착이 개인의 선택과 사회 시스템을 어떻게 왜곡하는지 추적하며, 효율성보다 삶의 방향과 가치 판단이 왜 중요한지 묻는다.",
     "tags": [
       "bib"
     ],
@@ -15945,7 +15945,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250524T132856/",
     "source_date": "2025-05-24T13:28:00+09:00",
     "source_lastmod": "2025-05-24T00:00:00+09:00",
-    "description": "@조니톰슨 철학 인텔리전스 랩: 지식 개념어",
+    "description": "조니 톰슨의 철학 개념어 사전을 발판으로 지식의 핵심 어휘와 사유의 지도를 만든다.",
     "tags": [
       "philosophy",
       "concepts",
@@ -15981,7 +15981,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250523T172027/",
     "source_date": "2025-05-23T17:20:00+09:00",
     "source_lastmod": "2025-05-23T17:20:00+09:00",
-    "description": "@BartoszMilewski #프로그래머 #카테고리이론",
+    "description": "Bartosz Milewski가 프로그래밍과 카테고리 이론을 연결해 함수형 사고를 풀어내는 흐름을 담는다.",
     "tags": [
       "category",
       "theory",
@@ -15998,7 +15998,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250523T160908/",
     "source_date": "2025-05-23T16:09:00+09:00",
     "source_lastmod": "2025-05-23T16:09:00+09:00",
-    "description": "@브라이언크리스천 컴퓨터과학 알고리즘 인공지능 윤리",
+    "description": "브라이언 크리스천의 작업을 따라 알고리즘, 인간 판단, AI 정렬 문제의 접점을 살핀다.",
     "tags": [
       "algorithm",
       "bib",
@@ -16018,7 +16018,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250523T110942/",
     "source_date": "2025-05-23T11:09:00+09:00",
     "source_lastmod": "2025-05-23T11:09:00+09:00",
-    "description": "@아만다리플리 저널리스트 교육 문제",
+    "description": "아만다 리플리가 세계 교육 강국의 사례를 취재하며 교육 시스템의 차이를 어떻게 드러내는지 본다.",
     "tags": [
       "education",
       "bib"
@@ -16139,7 +16139,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250521T161411/",
     "source_date": "2025-05-21T16:14:00+09:00",
     "source_lastmod": "2025-05-21T00:00:00+09:00",
-    "description": "#모음 C언어",
+    "description": "C언어 문법과 시스템 프로그래밍, 임베디드 개발로 이어지는 핵심 자료를 모아 두는 그릇이다.",
     "tags": [
       "bib",
       "clang",
@@ -16291,7 +16291,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240229T124339/",
     "source_date": "2024-02-29T12:43:00+09:00",
     "source_lastmod": "2025-05-18T00:00:00+09:00",
-    "description": "@김정운 1962 #창조적시선 #에디톨로지 #편집",
+    "description": "김정운은 창조를 무에서 유를 만드는 일이 아니라 재료를 편집하고 연결하는 능력으로 본다. 에디톨로지라는 이름 아래 문화심리학, 디자인 감각, 관점 전환을 함께 사유한다.",
     "tags": [
       "bib",
       "creativity",
@@ -16447,7 +16447,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250513T113844/",
     "source_date": "2025-05-13T11:38:00+09:00",
     "source_lastmod": "2025-05-13T11:38:00+09:00",
-    "description": "#임베디드리눅스 #구직 #채용 #회사 #모음 - 시스템 반도체 전장 로봇",
+    "description": "임베디드 리눅스 역량을 요구하는 시스템·반도체·전장·로봇 분야 채용 회사를 모아 본다.",
     "tags": [
       "company",
       "bib",
@@ -16522,7 +16522,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250511T083125/",
     "source_date": "2025-05-11T08:31:00+09:00",
     "source_lastmod": "2025-05-11T08:31:00+09:00",
-    "description": "@유상균 시민의 혼돈의 물리학",
+    "description": "유상균이 과학사와 시민의 눈높이에서 혼돈과 물리학을 어떻게 풀어내는지 살핀다.",
     "tags": [
       "physics",
       "bib"
@@ -16640,7 +16640,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20241205T161412/",
     "source_date": "2024-12-05T16:14:00+09:00",
     "source_lastmod": "2025-05-09T00:00:00+09:00",
-    "description": "@최정숙 #미국식 #영작문 #어휘",
+    "description": "미국식 영작문의 감각을 문장, 단락, 에세이, 어휘 훈련으로 익히게 하는 책들을 묶는다. 한국 학습자가 실전 영어 쓰기를 체계적으로 연습할 수 있는 축으로 읽힌다.",
     "tags": [
       "bib"
     ],
@@ -17240,7 +17240,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250424T105102/",
     "source_date": "2025-04-24T10:51:00+09:00",
     "source_lastmod": "2025-04-24T10:51:00+09:00",
-    "description": "@라즈베리파이 #일체형컴퓨터 #휴대용 #키보드 #교육 #디바이스",
+    "description": "라즈베리파이와 오렌지파이는 저비용 단일보드컴퓨터를 키보드형 장치와 교육용 디바이스로 확장하며 메이커 문화의 저변을 넓힌다.",
     "tags": [
       "keyboard",
       "bib",
@@ -17590,7 +17590,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250416T184305/",
     "source_date": "2025-04-16T18:43:00+09:00",
     "source_lastmod": "2025-04-16T18:43:00+09:00",
-    "description": "",
+    "description": "Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스 감각을 읽고, 텍스트 중심 도구와 에이전트 자동화의 계보를 탐색한다.",
     "tags": [
       "agent",
       "emacs",
@@ -18115,7 +18115,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250406T040315/",
     "source_date": "2025-04-06T04:03:00+09:00",
     "source_lastmod": "2025-04-06T04:03:00+09:00",
-    "description": "@마리나반주일렌 평범하여 찬란한 삶을 향한 찬사 - 완벽하지 않아 완전한 온전한 삶에 대하여",
+    "description": "평범한 삶의 결핍과 불완전함을 오히려 인간다운 충만함의 조건으로 읽으며, 완벽주의를 넘어서는 사유를 제안한다.",
     "tags": [
       "bib",
       "life",
@@ -18148,7 +18148,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250405T162153/",
     "source_date": "2025-04-05T16:21:00+09:00",
     "source_lastmod": "2025-04-05T16:21:00+09:00",
-    "description": "@yibie 이맥스 지식관리 구루",
+    "description": "yibie는 org-supertag와 org-zettel-ref-mode를 통해 Emacs 기반 지식관리를 빠르게 확장한 개발자로, 텍스트와 데이터베이스 사이의 긴장을 실험적으로 다룬다.",
     "tags": [
       "bib",
       "classification",
@@ -18356,7 +18356,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240721T131634/",
     "source_date": "2024-07-21T13:16:00+09:00",
     "source_lastmod": "2025-04-03T00:00:00+09:00",
-    "description": "@사피바칼 룬샷 - 상전이 부시-베일 법칙",
+    "description": "사피 바칼은 상전이 개념을 빌려 조직이 미친 아이디어를 키우는 조건과 구조 설계의 중요성을 설명한다.",
     "tags": [
       "bib",
       "industries",
@@ -18485,7 +18485,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250131T221545/",
     "source_date": "2025-01-31T22:15:00+09:00",
     "source_lastmod": "2025-04-01T00:00:00+09:00",
-    "description": "@스콧영 울트라러닝 - 학습의 재발견",
+    "description": "울트라러닝은 강도 높은 자기주도 프로젝트를 통해 짧은 시간에 깊은 숙련에 도달하려는 학습 전략을 제안한다. 직접성, 피드백, 몰입이 핵심이다.",
     "tags": [
       "bib",
       "learning"
@@ -18817,7 +18817,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250327T135018/",
     "source_date": "2025-03-27T13:50:00+09:00",
     "source_lastmod": "2025-03-27T13:50:00+09:00",
-    "description": "@데니스로스먼 RAG 생성형 AI 개발",
+    "description": "RAG를 개념 소개에 머물지 않고 라마인덱스, 딥레이크, 파인콘을 활용한 실제 파이프라인 구축으로 끌고 간다. 검색, 임베딩, 색인, 평가를 연결해 생성형 AI 애플리케이션의 구현 감각을 익히게 한다.",
     "tags": [
       "ai",
       "bib",
@@ -19612,7 +19612,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240419T220359/",
     "source_date": "2024-04-19T22:03:00+09:00",
     "source_lastmod": "2025-03-08T00:00:00+09:00",
-    "description": "@에크하르트톨레 1948 #영성가 #사상가",
+    "description": "에크하르트 톨레의 책들을 따라 현재에 머무는 법, 고통체를 알아차리는 법, 내면의 고요를 배운다. 일상의 불안과 동일시를 내려놓고 깨어 있음의 감각으로 이동하게 돕는 노트다.",
     "tags": [
       "awakening",
       "bib",
@@ -19814,7 +19814,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20241020T164835/",
     "source_date": "2024-10-20T16:48:00+09:00",
     "source_lastmod": "2025-02-26T00:00:00+09:00",
-    "description": "@아닐아난타스와미 뇌과학 인간 자아 - 학습 수학 인공지능 - 실험 물리학",
+    "description": "아닐 아난타스와미는 자아, 뇌과학, 물리학, 현대 AI의 수학을 넘나들며 학습하는 기계의 배경을 해설한다. 인간 인식과 수학적 모델이 만나는 지점을 함께 읽는다.",
     "tags": [
       "ai",
       "bib",
@@ -19848,7 +19848,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250225T215822/",
     "source_date": "2025-02-25T21:58:00+09:00",
     "source_lastmod": "2025-02-25T21:58:00+09:00",
-    "description": "@최정담 디멘 교양수학 수학 스토리텔러",
+    "description": "최정담은 수학을 공식 암기가 아니라 이야기와 맥락, 교양의 언어로 풀어내는 스토리텔링형 수학 저자다. 수학 문해력의 문턱을 낮춘다.",
     "tags": [
       "bib",
       "mathematics"
@@ -20126,7 +20126,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20250218T224752/",
     "source_date": "2025-02-18T22:47:00+09:00",
     "source_lastmod": "2025-02-18T22:47:00+09:00",
-    "description": "@캐스선스타인 동조 TMI 넛지 #유명 페이머스 명성 #행동과학 #법학",
+    "description": "캐스 선스타인은 넛지와 동조, 명성의 메커니즘을 통해 선택과 여론, 제도가 인간 행동을 바꾸는 방식을 분석한다.",
     "tags": [
       "bib",
       "conformity",
@@ -20218,7 +20218,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20240603T132845/",
     "source_date": "2024-06-03T13:28:00+09:00",
     "source_lastmod": "2025-02-16T00:00:00+09:00",
-    "description": "@조엘그루스 @joelgrus 밑바닥부터 데이터과학 - 파이썬",
+    "description": "데이터 과학에 필요한 파이썬, 수학, 통계를 밑바닥부터 직접 구현하며 익히게 하는 책이다. 라이브러리 사용법보다 개념을 손으로 재구성하는 과정에 무게를 둔다.",
     "tags": [
       "bib",
       "datascience",
@@ -20253,7 +20253,7 @@
     "source_url": "https://notes.junghanacs.com/bib/20241210T041818/",
     "source_date": "2024-12-10T04:18:00+09:00",
     "source_lastmod": "2025-02-15T00:00:00+09:00",
-    "description": "@에드워드윌슨 #통섭 지식학문통합 #창의성-기원",
+    "description": "에드워드 윌슨의 통섭은 학문을 쪼개기보다 다시 잇는 시도로, 창의성의 근원까지 자연과 문화의 연속선 위에서 바라보게 한다. 과학과 인문을 가로지르는 큰 그림을 복원하려는 야심이 담겨 있다.",
     "tags": [
       "bib",
       "consilience",
@@ -22417,6 +22417,24 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20240220T091923": {
+    "path": "pages/notes/20240220T091923.md",
+    "subject": "20260812 힣: 세션도 태그로 줄 세운다 EKG 감각이 대화 더미를 만날 때",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240220T091923/",
+    "source_date": "2024-02-20T09:19:00+09:00",
+    "source_lastmod": "2026-08-12T16:03:00+09:00",
+    "description": "2023년부터 이어진 EKG의 태그 우선·무제목 조각 누적 감각을 배경으로, 세션 태그와 인접한 실제 사례·성숙도·가능한 귀결을 계속 관찰한다. 지금 해법을 정하지 않고 리서치 결과가 쌓인 뒤 힣이 시점과 아이디어를 고른다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "ekg",
+      "memory",
+      "pkm",
+      "tag",
+      "taxonomy"
+    ]
+  },
   "20250409T144319": {
     "path": "pages/notes/20250409T144319.md",
     "subject": "20260811 힣: 발화를 버리지 않는다 유튜브 자막 정본과 구루데브·모가댓의 대담",
@@ -23844,7 +23862,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251030T011105/",
     "source_date": "2025-10-30T01:11:00+09:00",
     "source_lastmod": "2026-07-28T16:50:00+09:00",
-    "description": "@힣: §memex-kb 힣의 범용 #지식베이스 변환 시스템 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.",
+    "description": "memex-kb를 힣의 범용 지식베이스 변환 시스템으로 소개하되, 세부 구현은 담당자 문서로 넘기고 핵심 개념만 붙잡아 두는 임시 대기 노트이다.",
     "tags": [
       "autholog",
       "bib",
@@ -24319,7 +24337,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241203T142716/",
     "source_date": "2024-12-03T14:27:00+09:00",
     "source_lastmod": "2026-07-17T22:40:00+09:00",
-    "description": "로저 펜로즈의 『실체에 이르는 길』을 읽고 싶은 욕망과 부담을 함께 기록한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "로저 펜로즈의 『실체에 이르는 길』을 읽고 싶은 욕망과 부담을 함께 기록한 노트이다.",
     "tags": [
       "mathematics",
       "physics",
@@ -24404,7 +24422,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250311T131725/",
     "source_date": "2025-03-11T13:17:00+09:00",
     "source_lastmod": "2026-07-17T14:27:00+09:00",
-    "description": "어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다.",
     "tags": [
       "aphorism",
       "autholism",
@@ -24622,7 +24640,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250423T122956/",
     "source_date": "2025-04-23T12:29:00+09:00",
     "source_lastmod": "2026-07-07T09:59:00+09:00",
-    "description": "ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 글이다. 실제 활용 흐름을 담았다.",
+    "description": "ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 글이다.",
     "tags": [
       "adhd",
       "autholog",
@@ -24808,7 +24826,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251130T091858/",
     "source_date": "2025-11-30T09:18:00+09:00",
     "source_lastmod": "2026-06-16T08:02:00+09:00",
-    "description": "엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다.",
     "tags": [
       "alice",
       "autholog",
@@ -24885,7 +24903,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241216T134714/",
     "source_date": "2024-12-16T13:47:00+09:00",
     "source_lastmod": "2026-06-11T14:05:00+09:00",
-    "description": "모국어와 거북이, REPL 도구를 통해 쉬운 지식도구의 의미를 생각하는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "모국어와 거북이, REPL 도구를 통해 쉬운 지식도구의 의미를 생각하는 글이다.",
     "tags": [
       "autholog",
       "hangul",
@@ -24961,7 +24979,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251221T120044/",
     "source_date": "2025-12-21T12:00:00+09:00",
     "source_lastmod": "2026-06-08T10:35:00+09:00",
-    "description": "Denote 노트를 Hugo로 내보내는 통합 시스템과 성능 전략을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Denote 노트를 Hugo로 내보내는 통합 시스템과 성능 전략을 정리한 노트이다.",
     "tags": [
       "denote",
       "exports",
@@ -24978,7 +24996,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250405T164632/",
     "source_date": "2025-04-05T16:46:00+09:00",
     "source_lastmod": "2026-06-06T12:45:00+09:00",
-    "description": "PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노트이다.",
     "tags": [
       "converting",
       "epub",
@@ -25187,7 +25205,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241209T154222/",
     "source_date": "2024-12-09T15:42:00+09:00",
     "source_lastmod": "2026-04-29T11:39:00+09:00",
-    "description": "이즘과 주의가 태도와 체제, 권리 개념 사이에서 어떻게 엇갈리는지 묻는 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "이즘과 주의가 태도와 체제, 권리 개념 사이에서 어떻게 엇갈리는지 묻는 로그이다.",
     "tags": [
       "abduction",
       "ai",
@@ -25230,7 +25248,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250423T144054/",
     "source_date": "2025-04-23T14:40:00+09:00",
     "source_lastmod": "2026-04-20T21:46:00+09:00",
-    "description": "Org mode 파일태그 정렬 규칙을 바꾸는 방법을 설명하는 노트이다. 실제 활용 흐름을 담았다가 힣의 태그 규칙으로 업데이트.",
+    "description": "영어 태그가 meta 노트의 자석으로 살아남으려면 개별 단어여야 한다는 힣의 태그 규칙을 못박아 둔 노트이다.",
     "tags": [
       "autholog",
       "orgmode",
@@ -25305,7 +25323,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240916T113456/",
     "source_date": "2024-09-16T11:34:00+09:00",
     "source_lastmod": "2026-04-17T17:33:00+09:00",
-    "description": "Symbola를 이용해 유니코드 수식 문자와 합자, 폰트 높이 문제를 맞추는 설정 기록. 실제 활용 흐름을 담았다.",
+    "description": "Symbola를 이용해 유니코드 수식 문자와 합자, 폰트 높이 문제를 맞추는 설정 기록.",
     "tags": [
       "emacs",
       "fonts",
@@ -25395,7 +25413,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250318T155206/",
     "source_date": "2025-03-18T15:52:00+09:00",
     "source_lastmod": "2026-04-12T21:31:00+09:00",
-    "description": "현대적인 Org 문서 예시와 템플릿 구조를 참고하려고 모아 둔 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "현대적인 Org 문서 예시와 템플릿 구조를 참고하려고 모아 둔 노트이다.",
     "tags": [
       "examples",
       "orgmode",
@@ -25411,7 +25429,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241202T085528/",
     "source_date": "2024-12-02T08:55:00+09:00",
     "source_lastmod": "2026-04-06T07:56:00+09:00",
-    "description": "온생명과 채티가 나눈 순수한 질문답변을 통해 아이와 인공지능 소통을 기록한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "온생명과 채티가 나눈 순수한 질문답변을 통해 아이와 인공지능 소통을 기록한 로그이다.",
     "tags": [
       "baron",
       "chatgpt"
@@ -25446,7 +25464,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250305T105307/",
     "source_date": "2025-03-05T10:53:00+09:00",
     "source_lastmod": "2026-04-02T04:45:00+09:00",
-    "description": "유리알유희를 오늘날의 구슬과 놀이, 메타노트 감각으로 다시 풀어내는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "유리알유희를 오늘날의 구슬과 놀이, 메타노트 감각으로 다시 풀어내는 글이다.",
     "tags": [
       "autholog",
       "bib",
@@ -25482,7 +25500,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241213T163033/",
     "source_date": "2024-12-13T16:30:00+09:00",
     "source_lastmod": "2026-03-22T22:16:00+09:00",
-    "description": "고통체와 분노를 흘려보내고 허락하는 태도를 삶의 감각으로 적어 둔 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "고통체와 분노를 흘려보내고 허락하는 태도를 삶의 감각으로 적어 둔 노트이다.",
     "tags": [
       "autholog",
       "awareness",
@@ -25566,7 +25584,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250403T082120/",
     "source_date": "2025-04-03T08:21:00+09:00",
     "source_lastmod": "2026-03-16T08:23:00+09:00",
-    "description": "네모유엑스의 다중 사용자용 운영체제 발표 자료와 HCIK 맥락을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "네모유엑스의 다중 사용자용 운영체제 발표 자료와 HCIK 맥락을 정리한 노트이다.",
     "tags": [
       "bib",
       "hci",
@@ -25583,7 +25601,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250415T165756/",
     "source_date": "2025-04-15T16:57:00+09:00",
     "source_lastmod": "2026-03-14T00:00:00+09:00",
-    "description": "Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트이다.",
     "tags": [
       "bib",
       "clojure",
@@ -25665,7 +25683,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251015T093311/",
     "source_date": "2025-10-15T09:33:00+09:00",
     "source_lastmod": "2026-02-18T00:00:00+09:00",
-    "description": "@힣: 시간과정신의방 존재 데이터 뷰어",
+    "description": "홈페이지를 존재 데이터 뷰어로 전환하여 에이전트와 인간 모두에게 자신을 소개하려는 비전을 담는다. 시간축과 존재 데이터, AIONS 생태계가 만나는 중심 노트다.",
     "tags": [
       "agent",
       "ai",
@@ -25737,7 +25755,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250223T114613/",
     "source_date": "2025-02-23T11:46:00+09:00",
     "source_lastmod": "2026-02-16T00:00:00+09:00",
-    "description": "사이트 아이콘과 파비콘, OG 이미지까지 브랜드 세트를 구상하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "사이트 아이콘과 파비콘, OG 이미지까지 브랜드 세트를 구상하는 노트이다.",
     "tags": [
       "autholog",
       "bib",
@@ -25755,7 +25773,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251207T154723/",
     "source_date": "2025-12-07T15:47:00+09:00",
     "source_lastmod": "2026-02-15T00:00:00+09:00",
-    "description": "멀티 에이전트 인간이라는 관점에서 인간과 도구, 감각 기관을 오케스트레이션하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "멀티 에이전트 인간이라는 관점에서 인간과 도구, 감각 기관을 오케스트레이션하는 노트이다.",
     "tags": [
       "agent",
       "autholog",
@@ -25779,7 +25797,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250219T100218/",
     "source_date": "2025-02-19T10:02:00+09:00",
     "source_lastmod": "2026-02-15T00:00:00+09:00",
-    "description": "KTurtle을 한글 코딩과 터틀기하학 교육 도구로 기록한 교육 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "KTurtle을 한글 코딩과 터틀기하학 교육 도구로 기록한 교육 노트이다.",
     "tags": [
       "bib",
       "education",
@@ -25796,7 +25814,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241213T130624/",
     "source_date": "2024-12-13T13:06:00+09:00",
     "source_lastmod": "2026-02-15T00:00:00+09:00",
-    "description": "기하학을 통해 수학을 다시 배우려는 힣의 교육적 접근을 모은 사유 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "기하학을 통해 수학을 다시 배우려는 힣의 교육적 접근을 모은 사유 노트이다.",
     "tags": [
       "autholog",
       "education",
@@ -25850,7 +25868,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241203T114414/",
     "source_date": "2024-12-03T11:44:00+09:00",
     "source_lastmod": "2026-02-13T00:00:00+09:00",
-    "description": "ADHD와 AI 활용의 의미를 자신의 사례와 예시를 통해 다시 설명해 보려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "ADHD와 AI 활용의 의미를 자신의 사례와 예시를 통해 다시 설명해 보려는 노트이다.",
     "tags": [
       "adhd",
       "ai",
@@ -25917,7 +25935,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241204T095412/",
     "source_date": "2024-12-04T09:54:00+09:00",
     "source_lastmod": "2026-02-02T00:00:00+09:00",
-    "description": "아인슈타인 장방정식과 민코프스키 시공간 의미를 LLM 질답으로 풀어 본 초안 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "아인슈타인 장방정식과 민코프스키 시공간 의미를 LLM 질답으로 풀어 본 초안 노트이다.",
     "tags": [
       "field"
     ],
@@ -25931,7 +25949,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241018T120024/",
     "source_date": "2024-10-18T12:00:00+09:00",
     "source_lastmod": "2026-02-01T00:00:00+09:00",
-    "description": "Calibre 설치와 도서관리, 입력기 문제를 함께 정리한 전자책 도구 운영 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Calibre 설치와 도서관리, 입력기 문제를 함께 정리한 전자책 도구 운영 노트이다.",
     "tags": [
       "bib",
       "ebook",
@@ -25950,7 +25968,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250416T182533/",
     "source_date": "2025-04-16T18:25:00+09:00",
     "source_lastmod": "2026-01-31T00:00:00+09:00",
-    "description": "#이맥스 #조직모드: 강제 줄바꿈(soft line break), 빈줄 삭제(blank-line)",
+    "description": "soft line break와 blank line 삭제를 Vim과 Emacs 관점에서 비교하며 정리한다. flush-lines 같은 기본 도구를 이용해 텍스트를 빠르게 정리하는 실용 노트다.",
     "tags": [
       "bib",
       "editing",
@@ -25969,7 +25987,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250131T190035/",
     "source_date": "2025-01-31T19:00:00+09:00",
     "source_lastmod": "2026-01-29T00:00:00+09:00",
-    "description": "gitleaks와 secretlint로 저장소의 비밀정보를 검사하고 정리하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "gitleaks와 secretlint로 저장소의 비밀정보를 검사하고 정리하는 노트이다.",
     "tags": [
       "automation",
       "bib",
@@ -25987,7 +26005,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251030T011102/",
     "source_date": "2025-10-30T01:11:00+09:00",
     "source_lastmod": "2026-01-27T00:00:00+09:00",
-    "description": "nixos-config: 재현 가능한 컴퓨팅 환경 구축 실제 활용 흐름을 담았다. 실제 활용 흐름을 담았다.",
+    "description": "nixos-config 저장소를 대장장이의 대장간 같은 운영체제 설정 인프라로 소개하며 재현 가능성과 도구 주권을 OS 수준에서 구현하려는 노트이다.",
     "tags": [
       "autholog",
       "nixos",
@@ -26019,22 +26037,23 @@
     "source_url": "https://notes.junghanacs.com/notes/20251030T011110/",
     "source_date": "2025-10-30T01:11:00+09:00",
     "source_lastmod": "2026-01-22T00:00:00+09:00",
-    "description": "여러 -config 리포지토리의 목적과 차이를 README 중심으로 개괄하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "여러 -config 리포지토리의 목적과 차이를 README 중심으로 개괄하는 노트이다.",
     "tags": [],
     "page_id": 381811,
     "url": "https://wikidocs.net/381811"
   },
   "20260121T133045": {
     "path": "pages/notes/20260121T133045.md",
-    "subject": "20260121 Threads API 토큰 갱신 및 Flake 전환",
+    "subject": "20260121 빈방 임시 대기중 - Threads API 토큰 갱신 및 Flake 전환",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20260121T133045/",
     "source_date": "2026-01-21T13:30:00+09:00",
     "source_lastmod": "2026-01-21T00:00:00+09:00",
-    "description": "Threads API 토큰 갱신과 Nix Flake 전환 과정을 기록한 운영 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Threads API 토큰 갱신과 Nix Flake 전환 과정을 기록한 운영 노트이다.",
     "tags": [
       "bib",
       "nix",
+      "temp",
       "thread",
       "token"
     ],
@@ -26048,7 +26067,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251229T191350/",
     "source_date": "2025-12-29T19:13:00+09:00",
     "source_lastmod": "2025-12-29T19:13:00+09:00",
-    "description": "애니 딜라드와 케빈 켈리의 영향 관계를 탐색하며 존재와 경이의 감각을 잇는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "애니 딜라드와 케빈 켈리의 영향 관계를 탐색하며 존재와 경이의 감각을 잇는 노트이다.",
     "tags": [
       "existence",
       "inquiry",
@@ -26096,7 +26115,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251206T114404/",
     "source_date": "2025-12-06T00:00:00+09:00",
     "source_lastmod": "2025-12-06T00:00:00+09:00",
-    "description": "@힣: 자기점검: 지난 가이드 이후의 변화 #제미나이",
+    "description": "이전 가이드 이후 실제 행동과 환경, 프로젝트에서 무엇이 달라졌는지 제미나이와의 대화를 통해 자기 점검한다. 등대지기 원형에서 세계의 오케스트레이터로 확장되는 변화를 정리한 노트다.",
     "tags": [
       "autholog",
       "check",
@@ -26190,7 +26209,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251121T132314/",
     "source_date": "2025-11-21T13:23:00+09:00",
     "source_lastmod": "2025-11-21T13:23:00+09:00",
-    "description": "Emacs와 AI를 MCP와 REPL 중심 협업 패러다임으로 다시 묶어 보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Emacs와 AI를 MCP와 REPL 중심 협업 패러다임으로 다시 묶어 보는 노트이다.",
     "tags": [
       "elisp",
       "emacs",
@@ -26236,7 +26255,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251121T095117/",
     "source_date": "2025-11-21T09:51:00+09:00",
     "source_lastmod": "2025-11-21T09:51:00+09:00",
-    "description": "보안 사고 대응 경험을 다섯 가지 원칙으로 증류해 남긴 철학적 기록 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "보안 사고 대응 경험을 다섯 가지 원칙으로 증류해 남긴 철학적 기록 노트이다.",
     "tags": [
       "autholog",
       "philosophy",
@@ -26264,7 +26283,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251114T190252/",
     "source_date": "2025-11-14T19:02:00+09:00",
     "source_lastmod": "2025-11-14T19:02:00+09:00",
-    "description": "리포지토리 중심으로 Denote Silo를 동적으로 관리하는 시스템 개요 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "리포지토리 중심으로 Denote Silo를 동적으로 관리하는 시스템 개요 노트이다.",
     "tags": [
       "denote",
       "dynamic",
@@ -26280,7 +26299,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251114T100441/",
     "source_date": "2025-11-14T10:04:00+09:00",
     "source_lastmod": "2025-11-14T00:00:00+09:00",
-    "description": "워크스페이스와 에이전트, 여러 서비스를 하나로 묶으려는 통합 전략 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "워크스페이스와 에이전트, 여러 서비스를 하나로 묶으려는 통합 전략 노트이다.",
     "tags": [
       "autholog",
       "google",
@@ -26297,7 +26316,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251111T155842/",
     "source_date": "2025-11-11T22:43:00+09:00",
     "source_lastmod": "2025-11-11T22:43:00+09:00",
-    "description": "Claude Code Web을 PR 중심 비동기 협업 워크플로우로 재해석하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Claude Code Web을 PR 중심 비동기 협업 워크플로우로 재해석하는 노트이다.",
     "tags": [
       "claude",
       "workflow",
@@ -26316,7 +26335,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251105T151601/",
     "source_date": "2025-11-05T15:16:00+09:00",
     "source_lastmod": "2025-11-05T15:16:00+09:00",
-    "description": "하와이 이민사와 태평양의 흐름을 한인 독립운동까지 확장해 정리한 역사 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "하와이 이민사와 태평양의 흐름을 한인 독립운동까지 확장해 정리한 역사 노트이다.",
     "tags": [
       "autholog",
       "history",
@@ -26334,7 +26353,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251030T011109/",
     "source_date": "2025-10-30T01:11:00+09:00",
     "source_lastmod": "2025-10-30T01:11:00+09:00",
-    "description": "Memacs를 인간과 AI가 공유하는 삶의 인터페이스로 재해석한 포크 프로젝트 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Memacs를 인간과 AI가 공유하는 삶의 인터페이스로 재해석한 포크 프로젝트 노트이다.",
     "tags": [
       "memex",
       "interface",
@@ -26350,7 +26369,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251030T011107/",
     "source_date": "2025-10-30T01:11:00+09:00",
     "source_lastmod": "2025-10-30T01:11:00+09:00",
-    "description": "family-config를 AI 기반 가족 생활 관리 시스템으로 바라보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "family-config를 AI 기반 가족 생활 관리 시스템으로 바라보는 노트이다.",
     "tags": [
       "agent",
       "family",
@@ -26418,7 +26437,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20251021T164500/",
     "source_date": "2025-10-21T16:45:00+09:00",
     "source_lastmod": "2025-10-21T16:45:00+09:00",
-    "description": "skill-creator를 대장장이가 도구를 에이전트에게 주는 철학으로 풀어낸 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "skill-creator를 대장장이가 도구를 에이전트에게 주는 철학으로 풀어낸 노트이다.",
     "tags": [
       "anthropic",
       "delegate",
@@ -26566,7 +26585,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250807T104418/",
     "source_date": "2025-08-07T10:44:00+09:00",
     "source_lastmod": "2025-08-07T10:44:00+09:00",
-    "description": "@힣: 인간지능 인공지능 신뢰 보정 문제",
+    "description": "AI가 우회로를 제시하며 되는 척 답하는 문제를 예로 들어, 인간지능과 인공지능 사이의 신뢰 협업 규칙을 만들려는 고민을 담는다. 실제 배포 실패를 막기 위한 신뢰 보정 노트다.",
     "tags": [
       "trust",
       "calibration",
@@ -26602,7 +26621,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250727T094722/",
     "source_date": "2025-07-27T09:47:00+09:00",
     "source_lastmod": "2025-07-27T09:47:00+09:00",
-    "description": "@힣: 친구가 힣에 대해 묻고 인공지능이 답하다",
+    "description": "힣이 보내는 낯선 카톡과 디지털가든 글을 이해하지 못하는 친구를 위해 친절한 해설을 제공하는 노트다. 외부 시선으로 힣의 세계관과 도구 철학을 번역하는 가이드 역할을 한다.",
     "tags": [
       "ai",
       "autholog",
@@ -26642,7 +26661,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250722T095713/",
     "source_date": "2025-07-22T09:57:00+09:00",
     "source_lastmod": "2025-07-22T09:57:00+09:00",
-    "description": "@Kmontag §Macher 지피텔 플러그인 프로젝트 워크스페이스 관리",
+    "description": "Macher가 gptel 기반으로 프로젝트 맥락과 파일 편집을 어떻게 관리하는지 정리한다. Aider나 Plandex와 비교되는 Emacs 네이티브 워크스페이스 관리 노트다.",
     "tags": [
       "ai",
       "bib",
@@ -26681,7 +26700,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250720T171730/",
     "source_date": "2025-07-20T17:17:00+09:00",
     "source_lastmod": "2025-07-20T17:17:00+09:00",
-    "description": "@junghan0611 §astronvim-config",
+    "description": "AstroNvim 기반 설정 저장소를 통해 Neovim에서 클로저와 개발 워크플로우를 어떻게 가져갈지 기록한다. Emacs 바깥 대안 에디터를 가볍게 실험하는 닷파일 노트다.",
     "tags": [
       "neovim",
       "dotfiles",
@@ -26748,7 +26767,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241006T190441/",
     "source_date": "2024-10-06T19:04:00+09:00",
     "source_lastmod": "2025-07-18T00:00:00+09:00",
-    "description": "조직모드 기반 리터레이트 닷파일 구성을 프로테실라오스 사례로 배워 보려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "조직모드 기반 리터레이트 닷파일 구성을 프로테실라오스 사례로 배워 보려는 노트이다.",
     "tags": [
       "dotfiles",
       "literate",
@@ -26815,7 +26834,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241030T155644/",
     "source_date": "2024-10-30T15:56:00+09:00",
     "source_lastmod": "2025-07-16T00:00:00+09:00",
-    "description": "드랍박스와 구글드라이브를 리눅스에서 동기화하는 방법과 대안을 간단히 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "드랍박스와 구글드라이브를 리눅스에서 동기화하는 방법과 대안을 간단히 정리한 노트이다.",
     "tags": [
       "cloud",
       "storage",
@@ -26846,7 +26865,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250714T172141/",
     "source_date": "2025-07-14T17:21:00+09:00",
     "source_lastmod": "2025-07-14T17:21:00+09:00",
-    "description": "@힣: 리포 문서 중심 바이브 코딩 - 이맥스 리터레이트 프로그래밍",
+    "description": "코드를 리포지토리보다 지식베이스 중심에서 다루며 tangle과 detangle로 문서와 실행물을 오가는 전략을 설명한다. 에이전트 코딩 시대의 Emacs literate workflow를 정리한 핵심 노트다.",
     "tags": [
       "autholog",
       "automation",
@@ -26964,7 +26983,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250707T075312/",
     "source_date": "2025-07-07T07:53:00+09:00",
     "source_lastmod": "2025-07-07T07:53:00+09:00",
-    "description": "@힣: 회사 직장 생활 - 체험 삶의현장 인간시대",
+    "description": "회사를 다니며 처음 겪는 존중과 노동, 감사의 감각을 삶의 연대기처럼 적어 내려간다. 직장 생활을 단순 커리어가 아니라 인간 시대의 현장 체험으로 읽는 노트다.",
     "tags": [
       "autholog",
       "lifelog",
@@ -27043,7 +27062,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250703T141927/",
     "source_date": "2025-07-03T14:19:00+09:00",
     "source_lastmod": "2025-07-03T14:19:00+09:00",
-    "description": "#스토리지 #RAID ¤bcache 클러스터 리눅스 구성 ¤gpustack ¤dify",
+    "description": "bcache와 RAID, NVMe 캐시를 AI 클러스터용 스토리지 설계 맥락에서 정리한다. GPUStack과 Dify 운영까지 염두에 둔 저장소 구성 노트다.",
     "tags": [
       "storage",
       "linux",
@@ -27062,7 +27081,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250703T122958/",
     "source_date": "2025-07-03T12:29:00+09:00",
     "source_lastmod": "2025-07-03T12:29:00+09:00",
-    "description": "¤GPUStack AI 클러스터 GPU 관리자 오픈소스",
+    "description": "GPUStack을 오픈소스 AI 클러스터 GPU 관리자 도구로 소개하는 노트다. 여러 GPU 자원을 묶어 관리하고 싶은 환경에서 참고할 만한 메모다.",
     "tags": [
       "ai",
       "bib",
@@ -27100,7 +27119,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250702T135105/",
     "source_date": "2025-07-02T13:51:00+09:00",
     "source_lastmod": "2025-07-02T13:51:00+09:00",
-    "description": "†#이맥스 #통합개발환경 #크로스플랫폼: Dart 플러터",
+    "description": "Dart와 Flutter를 Emacs 기반 크로스플랫폼 통합개발환경 안에서 어떻게 다룰지 정리한다. 모바일과 데스크톱 개발을 텍스트 도구로 묶어 보려는 노트다.",
     "tags": [
       "emacs",
       "android",
@@ -27158,7 +27177,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250630T121754/",
     "source_date": "2025-06-30T12:17:00+09:00",
     "source_lastmod": "2025-06-30T12:17:00+09:00",
-    "description": "#시스템 #플랫폼 #생태계 개념 비교",
+    "description": "시스템과 플랫폼, 생태계, 인프라의 관계를 비교하며 개념을 확장해 보는 노트다. 자주 섞여 쓰이는 말들의 층위를 구분하려는 개념 정리 노트다.",
     "tags": [
       "ecosystem",
       "system",
@@ -27285,7 +27304,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250626T150530/",
     "source_date": "2025-06-26T15:05:00+09:00",
     "source_lastmod": "2025-06-26T15:05:00+09:00",
-    "description": "©Thingsboard IoT 플랫폼",
+    "description": "ThingsBoard PE 에디션을 소규모 IoT 플랫폼으로 개발·배포할 때 필요한 아키텍처와 키워드를 정리한다. 시스템 구조와 프로토콜, 저장소 선택까지 폭넓게 담은 실무 노트다.",
     "tags": [
       "iot",
       "platform",
@@ -27356,7 +27375,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250529T161426/",
     "source_date": "2025-05-29T16:14:00+09:00",
     "source_lastmod": "2025-06-24T00:00:00+09:00",
-    "description": "@nodejs §nvm 노드 버전 관리자 포직스 호환 설치 스크립트",
+    "description": "nvm이 POSIX 호환 설치 스크립트와 함께 Node.js 버전을 어떻게 관리하는지 정리한다. 자바스크립트 런타임 환경 정리에 유용한 기본 노트다.",
     "tags": [
       "version",
       "manager",
@@ -27374,7 +27393,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250203T203622/",
     "source_date": "2025-02-03T20:36:00+09:00",
     "source_lastmod": "2025-06-24T00:00:00+09:00",
-    "description": "클리앙 리눅서당을 한국 리눅스 커뮤니티 맥락에서 기록한 짧은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "클리앙 리눅서당을 한국 리눅스 커뮤니티 맥락에서 기록한 짧은 노트이다.",
     "tags": [
       "bib",
       "community",
@@ -27538,7 +27557,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250124T133900/",
     "source_date": "2025-01-24T13:39:00+09:00",
     "source_lastmod": "2025-06-17T00:00:00+09:00",
-    "description": "정기 건강검진 예약과 병원 안내를 남겨 두는 건강 관리 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "정기 건강검진 예약과 병원 안내를 남겨 두는 건강 관리 노트이다.",
     "tags": [
       "bib",
       "check",
@@ -27556,7 +27575,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241010T112207/",
     "source_date": "2024-10-10T11:22:00+09:00",
     "source_lastmod": "2025-06-17T00:00:00+09:00",
-    "description": "공부와 독서, 지식 공동체와 모임 자료를 묶어 보는 커뮤니티 컬렉션 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "공부와 독서, 지식 공동체와 모임 자료를 묶어 보는 커뮤니티 컬렉션 노트이다.",
     "tags": [
       "bib",
       "knowledge",
@@ -27574,7 +27593,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250616T144119/",
     "source_date": "2025-06-16T14:41:00+09:00",
     "source_lastmod": "2025-06-16T14:41:00+09:00",
-    "description": "@junghan0611 §denote-explore 디노트 확장 플러그인 일괄변경 통계 검색 시각화 도구",
+    "description": "denote-explore를 통해 Denote 노트의 통계와 시각화, 일괄 변경 기능을 어떻게 활용할지 다룬다. 지식 그래프를 눈으로 확인하고 조율하는 확장 도구 노트다.",
     "tags": [
       "denote",
       "visualization",
@@ -27597,7 +27616,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250203T221636/",
     "source_date": "2025-02-03T22:16:00+09:00",
     "source_lastmod": "2025-06-16T00:00:00+09:00",
-    "description": "개발자 생산성 도구와 팁, 치트시트, 매뉴얼을 넓게 모아 두는 컬렉션 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "개발자 생산성 도구와 팁, 치트시트, 매뉴얼을 넓게 모아 두는 컬렉션 노트이다.",
     "tags": [
       "bib",
       "collection",
@@ -27620,7 +27639,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250119T000448/",
     "source_date": "2025-01-19T00:04:00+09:00",
     "source_lastmod": "2025-06-15T00:00:00+09:00",
-    "description": "새끼손가락 부담을 줄이기 위한 키보드 레이아웃과 한영키 재배치를 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "새끼손가락 부담을 줄이기 위한 키보드 레이아웃과 한영키 재배치를 정리한 노트이다.",
     "tags": [
       "keyboard",
       "keybindings",
@@ -27657,7 +27676,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241223T233230/",
     "source_date": "2024-12-23T23:32:00+09:00",
     "source_lastmod": "2025-06-12T00:00:00+09:00",
-    "description": "자신의 이름 어원을 칼 융과 혁신, 어린이, 초인의 이미지와 연결해 푼 글이다. 실제 활용 흐름을 담았다.",
+    "description": "자신의 이름 어원을 칼 융과 혁신, 어린이, 초인의 이미지와 연결해 푼 글이다.",
     "tags": [
       "autholog",
       "hangul"
@@ -27708,7 +27727,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250321T064938/",
     "source_date": "2025-03-21T06:49:00+09:00",
     "source_lastmod": "2025-06-09T17:12:00+09:00",
-    "description": "코딩 도구 춘추전국시대에 키바인딩 통합이 왜 중요한지 말하는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "코딩 도구 춘추전국시대에 키바인딩 통합이 왜 중요한지 말하는 글이다.",
     "tags": [
       "autholog",
       "bib",
@@ -27763,7 +27782,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250212T133350/",
     "source_date": "2025-02-12T13:33:00+09:00",
     "source_lastmod": "2025-06-07T00:00:00+09:00",
-    "description": "Quarto 사이트에 Waline 댓글 시스템을 붙이는 방법을 살펴보는 실용 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Quarto 사이트에 Waline 댓글 시스템을 붙이는 방법을 살펴보는 실용 노트이다.",
     "tags": [
       "bib",
       "comment",
@@ -27779,7 +27798,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241215T123917/",
     "source_date": "2024-12-15T12:39:00+09:00",
     "source_lastmod": "2025-06-07T00:00:00+09:00",
-    "description": "#둠이맥스 #자동완성 #스니펫: 설정 문제 해결 §corfu §yasnippet-capf",
+    "description": "Doom Emacs 환경에서 corfu와 yasnippet-capf, doom-snippets가 어떻게 얽히는지 추적한다. 스니펫 자동완성 문제가 왜 생기는지 실제 변수와 경로를 통해 확인하는 해결 노트다.",
     "tags": [
       "autocompletion",
       "bugfix",
@@ -27799,7 +27818,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240908T065729/",
     "source_date": "2024-09-08T06:57:00+09:00",
     "source_lastmod": "2025-06-07T00:00:00+09:00",
-    "description": "에버그린 노트를 씨앗과 줄기, 열매의 단계로 바라보며 디지털가든에 연결하는 노트. 실제 활용 흐름을 담았다.",
+    "description": "에버그린 노트를 씨앗과 줄기, 열매의 단계로 바라보며 디지털가든에 연결하는 노트.",
     "tags": [
       "bib",
       "digitalgarden",
@@ -27968,7 +27987,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241224T113356/",
     "source_date": "2024-12-24T11:33:00+09:00",
     "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "롤백 가능한 공개 닷파일과 운영체제 배포 구상을 삶의 도구 차원에서 적은 글이다. 실제 활용 흐름을 담았다.",
+    "description": "롤백 가능한 공개 닷파일과 운영체제 배포 구상을 삶의 도구 차원에서 적은 글이다.",
     "tags": [
       "ansible",
       "guix",
@@ -28056,7 +28075,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241024T131110/",
     "source_date": "2024-10-24T13:11:00+09:00",
     "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "휴대폰 요금제를 프리미엄에서 저렴한 컴팩트형으로 바꾸며 생긴 조건을 기록한 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "휴대폰 요금제를 프리미엄에서 저렴한 컴팩트형으로 바꾸며 생긴 조건을 기록한 메모이다.",
     "tags": [
       "digital",
       "minimalism",
@@ -28072,7 +28091,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240915T234527/",
     "source_date": "2024-09-15T23:45:00+09:00",
     "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "솔로 지식 노동자를 위한 인공지능 도구와 개인지식관리 활용 가이드를 묶은 책 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "솔로 지식 노동자를 위한 인공지능 도구와 개인지식관리 활용 가이드를 묶은 책 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -28173,7 +28192,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250601T145754/",
     "source_date": "2025-06-01T14:57:00+09:00",
     "source_lastmod": "2025-06-01T14:57:00+09:00",
-    "description": "§VSpaceCode #vscode 스페이스맥스 키바인딩",
+    "description": "VSpaceCode를 통해 VSCode에 스페이스맥스식 키바인딩을 입히는 설정 흐름을 정리한다. Emacs 밖에서도 몸의 리듬을 이어 가려는 크로스플랫폼 노트다.",
     "tags": [
       "vscode",
       "spacemacs",
@@ -28337,7 +28356,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20230705T103200/",
     "source_date": "2023-07-05T10:32:00+09:00",
     "source_lastmod": "2025-05-29T00:00:00+09:00",
-    "description": "#이맥스통합개발환경: #웹 자바스크립트",
+    "description": "이맥스를 웹과 자바스크립트 개발 환경으로 쓰기 위한 패키지, LSP, 실행 도구 구성을 정리한다. 라이팅허브 같은 실제 프로젝트에 바로 쓸 수 있도록 최소하지만 통합된 개발 환경을 만드는 데 초점이 있다.",
     "tags": [
       "emacside",
       "javascript",
@@ -28353,7 +28372,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250528T114254/",
     "source_date": "2025-05-28T11:42:00+09:00",
     "source_lastmod": "2025-05-28T11:42:00+09:00",
-    "description": "@ahyatt §semext LLM 시맨틱 확장 이맥스 패키지",
+    "description": "semext와 embed-db가 Emacs 안에서 시맨틱 임베딩과 확장을 어떻게 구현하는지 살핀다. 의미 기반 검색과 편집기 통합을 잇는 패키지 탐색 노트다.",
     "tags": [
       "semantic",
       "emacs",
@@ -28489,7 +28508,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250526T175814/",
     "source_date": "2025-05-26T17:58:00+09:00",
     "source_lastmod": "2025-05-26T17:58:00+09:00",
-    "description": "#리스크 #투자 #인공지능 #인터널브랜딩 #전사",
+    "description": "AI 투기와 투자, 리스크, 전사적 브랜딩의 문제를 한 덩어리로 바라보는 글이다. 기술 열풍 속 조직과 개인이 어떤 태도를 취해야 하는지 묻는 노트다.",
     "tags": [
       "ai",
       "warrior",
@@ -28506,7 +28525,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250526T161643/",
     "source_date": "2025-05-26T16:16:00+09:00",
     "source_lastmod": "2025-05-26T16:16:00+09:00",
-    "description": "#AI반도체: #지식관리 #디바이스 #미래",
+    "description": "인생도구와 지식관리, 교육, AI 반도체와 안드로이드를 하나의 미래적 도구 생태계로 묶어 보는 글이다. 기술과 삶의 방향을 함께 생각하는 힣식 확장 노트다.",
     "tags": [
       "ai",
       "semiconductors",
@@ -28570,7 +28589,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250525T164724/",
     "source_date": "2025-05-25T16:47:00+09:00",
     "source_lastmod": "2025-05-25T16:47:00+09:00",
-    "description": "@lorniu §go-translate 이맥스 번역 패키지",
+    "description": "go-translate 패키지가 Emacs 안에서 번역 경험을 어떻게 제공하는지 검토한다. 번역기 통합 패키지 선택지를 넓히는 참고 노트다.",
     "tags": [
       "translation",
       "emacs",
@@ -28620,7 +28639,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240820T124757/",
     "source_date": "2024-08-20T12:47:00+09:00",
     "source_lastmod": "2025-05-25T00:00:00+09:00",
-    "description": "왜 이맥스를 쓰는가를 설명하는 글과 생각들을 모아 두는 이유·방법 컬렉션이다. 실제 활용 흐름을 담았다.",
+    "description": "왜 이맥스를 쓰는가를 설명하는 글과 생각들을 모아 두는 이유·방법 컬렉션이다.",
     "tags": [
       "bib",
       "emacs",
@@ -28768,7 +28787,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240811T064637/",
     "source_date": "2024-08-11T06:46:00+09:00",
     "source_lastmod": "2025-05-23T00:00:00+09:00",
-    "description": "지식산업센터 공실과 투기 문제를 저널리즘 탐사보도 관점으로 받아 적은 기록이다. 실제 활용 흐름을 담았다.",
+    "description": "지식산업센터 공실과 투기 문제를 저널리즘 탐사보도 관점으로 받아 적은 기록이다.",
     "tags": [
       "report",
       "journalism",
@@ -28816,7 +28835,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250522T063814/",
     "source_date": "2025-05-22T06:38:00+09:00",
     "source_lastmod": "2025-05-22T06:38:00+09:00",
-    "description": "성균관대 분산컴퓨팅연구실과 지도교수, 연구 흐름을 정리해 둔 연구실 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "성균관대 분산컴퓨팅연구실과 지도교수, 연구 흐름을 정리해 둔 연구실 노트이다.",
     "tags": [
       "bib",
       "computing",
@@ -28833,7 +28852,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241231T161812/",
     "source_date": "2024-12-31T16:18:00+09:00",
     "source_lastmod": "2025-05-21T00:00:00+09:00",
-    "description": "커브드 모니터를 떠나보내며 그 몰입의 시간을 추억처럼 적어 둔 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "커브드 모니터를 떠나보내며 그 몰입의 시간을 추억처럼 적어 둔 노트이다.",
     "tags": [
       "usesthis"
     ],
@@ -28896,7 +28915,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250518T231036/",
     "source_date": "2025-05-18T23:10:00+09:00",
     "source_lastmod": "2025-05-18T00:00:00+09:00",
-    "description": "바우하우스와 Emacs가 인간 중심 도구 철학에서 만나는 지점을 풀어내는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "바우하우스와 Emacs가 인간 중심 도구 철학에서 만나는 지점을 풀어내는 노트이다.",
     "tags": [
       "bauhaus",
       "emacs",
@@ -28912,7 +28931,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250518T143525/",
     "source_date": "2025-05-18T14:35:00+09:00",
     "source_lastmod": "2025-05-18T00:00:00+09:00",
-    "description": "어린이와 선생님 역할의 AI 대화를 조카 맥락에서 남겨 둔 가족 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "어린이와 선생님 역할의 AI 대화를 조카 맥락에서 남겨 둔 가족 로그이다.",
     "tags": [
       "family"
     ],
@@ -28926,7 +28945,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250107T150402/",
     "source_date": "2025-01-07T15:04:00+09:00",
     "source_lastmod": "2025-05-18T00:00:00+09:00",
-    "description": "윈도우즈에서 Scoop으로 패키지와 Emacs 환경을 깔끔히 설치하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "윈도우즈에서 Scoop으로 패키지와 Emacs 환경을 깔끔히 설치하는 노트이다.",
     "tags": [
       "mswindows",
       "packages",
@@ -28956,7 +28975,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240819T155045/",
     "source_date": "2024-08-19T15:50:00+09:00",
     "source_lastmod": "2025-05-18T00:00:00+09:00",
-    "description": "에어로프레스의 구조와 추출 방식, 셀프 카페 감각을 가볍게 붙잡아 둔 커피 기록이다. 실제 활용 흐름을 담았다.",
+    "description": "에어로프레스의 구조와 추출 방식, 셀프 카페 감각을 가볍게 붙잡아 둔 커피 기록이다.",
     "tags": [
       "coffee"
     ],
@@ -28985,7 +29004,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250515T161418/",
     "source_date": "2025-05-15T16:14:00+09:00",
     "source_lastmod": "2025-05-15T00:00:00+09:00",
-    "description": "빅터 프랭클을 통해 비극 속에서도 낙관을 잃지 않는 태도를 풀어낸 글이다. 실제 활용 흐름을 담았다.",
+    "description": "빅터 프랭클을 통해 비극 속에서도 낙관을 잃지 않는 태도를 풀어낸 글이다.",
     "tags": [
       "autholog",
       "spirituality"
@@ -29034,7 +29053,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241226T001105/",
     "source_date": "2024-12-26T00:11:00+09:00",
     "source_lastmod": "2025-05-12T00:00:00+09:00",
-    "description": "이맥스에서 폰트 스케일과 유니코드, 이모지 크기를 맞추는 방법을 기록한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스에서 폰트 스케일과 유니코드, 이모지 크기를 맞추는 방법을 기록한 노트이다.",
     "tags": [
       "emacs",
       "fonts"
@@ -29082,7 +29101,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241216T205419/",
     "source_date": "2024-12-16T20:54:00+09:00",
     "source_lastmod": "2025-05-06T00:00:00+09:00",
-    "description": "리눅스에서 Redshift로 블루라이트를 줄이는 방법을 정리한 간단한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "리눅스에서 Redshift로 블루라이트를 줄이는 방법을 정리한 간단한 노트이다.",
     "tags": [],
     "page_id": 381448,
     "url": "https://wikidocs.net/381448"
@@ -29094,7 +29113,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250503T071124/",
     "source_date": "2025-05-03T07:11:00+09:00",
     "source_lastmod": "2025-05-03T07:11:00+09:00",
-    "description": "월간 아카이브 목록을 묶어 지식베이스의 시간축을 정리하려는 컬렉션 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "월간 아카이브 목록을 묶어 지식베이스의 시간축을 정리하려는 컬렉션 노트이다.",
     "tags": [
       "archive",
       "monthly",
@@ -29129,7 +29148,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250501T131124/",
     "source_date": "2025-05-01T13:11:00+09:00",
     "source_lastmod": "2025-05-01T00:00:00+09:00",
-    "description": "ADHD 치료 약물인 콘서타와 메디키넷, 스트라테라 등을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "ADHD 치료 약물인 콘서타와 메디키넷, 스트라테라 등을 정리한 노트이다.",
     "tags": [
       "adhd"
     ],
@@ -29143,7 +29162,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250501T061848/",
     "source_date": "2025-05-01T06:18:00+09:00",
     "source_lastmod": "2025-05-01T00:00:00+09:00",
-    "description": "인스타그램 스토리와 피드, 릴스의 차이를 정리한 생활형 SNS 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "인스타그램 스토리와 피드, 릴스의 차이를 정리한 생활형 SNS 노트이다.",
     "tags": [
       "sns"
     ],
@@ -29157,7 +29176,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241228T112709/",
     "source_date": "2024-12-28T11:27:00+09:00",
     "source_lastmod": "2025-05-01T00:00:00+09:00",
-    "description": "SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "SNS 통합 관리 도구로 Buffer와 Openvibe를 살펴보는 소셜미디어 노트이다.",
     "tags": [
       "bib",
       "media",
@@ -29190,7 +29209,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250430T172232/",
     "source_date": "2025-04-30T17:22:00+09:00",
     "source_lastmod": "2025-04-30T17:22:00+09:00",
-    "description": "강좌와 세미나, 콜로키움의 차이를 교육 형식 관점에서 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "강좌와 세미나, 콜로키움의 차이를 교육 형식 관점에서 정리한 노트이다.",
     "tags": [
       "questions",
       "lecture",
@@ -29206,7 +29225,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241004T212710/",
     "source_date": "2024-10-04T21:27:00+09:00",
     "source_lastmod": "2025-04-30T00:00:00+09:00",
-    "description": "수학 기호 사전과 레이텍 예제를 함께 보며 기호의 의미를 다시 배우려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "수학 기호 사전과 레이텍 예제를 함께 보며 기호의 의미를 다시 배우려는 노트이다.",
     "tags": [
       "bib",
       "collection",
@@ -29223,7 +29242,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250429T110329/",
     "source_date": "2025-04-29T11:03:00+09:00",
     "source_lastmod": "2025-04-29T11:03:00+09:00",
-    "description": "안드로이드용 Emacs 닷파일 작업의 진행 상황과 과제를 기록한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "안드로이드용 Emacs 닷파일 작업의 진행 상황과 과제를 기록한 노트이다.",
     "tags": [
       "android",
       "emacs",
@@ -29253,7 +29272,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240822T125027/",
     "source_date": "2024-08-22T12:50:00+09:00",
     "source_lastmod": "2025-04-29T00:00:00+09:00",
-    "description": "척추분리증이 무엇인지와 선천·후천 가능성을 가족 대화 흐름으로 정리한 건강 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "척추분리증이 무엇인지와 선천·후천 가능성을 가족 대화 흐름으로 정리한 건강 메모이다.",
     "tags": [
       "health"
     ],
@@ -29321,7 +29340,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250423T141910/",
     "source_date": "2025-04-23T14:19:00+09:00",
     "source_lastmod": "2025-04-23T14:19:00+09:00",
-    "description": "CIDER를 Emacs 클로저 개발의 핵심 패키지로 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "CIDER를 Emacs 클로저 개발의 핵심 패키지로 정리한 노트이다.",
     "tags": [
       "clojure",
       "packages",
@@ -29357,7 +29376,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250422T174538/",
     "source_date": "2025-04-22T17:45:00+09:00",
     "source_lastmod": "2025-04-22T17:45:00+09:00",
-    "description": "Protesilaos의 Emacs 정규식 입문 자료를 참고하려고 남긴 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Protesilaos의 Emacs 정규식 입문 자료를 참고하려고 남긴 노트이다.",
     "tags": [
       "guide",
       "bib",
@@ -29390,7 +29409,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241113T135628/",
     "source_date": "2024-11-13T13:56:00+09:00",
     "source_lastmod": "2025-04-22T00:00:00+09:00",
-    "description": "SICP를 texi·info 형식으로 변환해 이맥스 인포 매뉴얼로 쓰려는 실험 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "SICP를 texi·info 형식으로 변환해 이맥스 인포 매뉴얼로 쓰려는 실험 노트이다.",
     "tags": [],
     "page_id": 381380,
     "url": "https://wikidocs.net/381380"
@@ -29417,7 +29436,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250421T211120/",
     "source_date": "2025-04-21T21:11:00+09:00",
     "source_lastmod": "2025-04-21T21:11:00+09:00",
-    "description": "Immersive Translate용 사용자 용어 사전 저장소를 기록한 번역 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Immersive Translate용 사용자 용어 사전 저장소를 기록한 번역 노트이다.",
     "tags": [
       "translation",
       "glossary",
@@ -29489,7 +29508,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241016T165700/",
     "source_date": "2024-10-16T16:57:00+09:00",
     "source_lastmod": "2025-04-18T00:00:00+09:00",
-    "description": "게임문화 교육과 리터러시, 코딩, 중독 문제를 현장 프로그램 맥락에서 붙잡은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "게임문화 교육과 리터러시, 코딩, 중독 문제를 현장 프로그램 맥락에서 붙잡은 노트이다.",
     "tags": [
       "bib",
       "education",
@@ -29523,7 +29542,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250416T181559/",
     "source_date": "2025-04-16T18:15:00+09:00",
     "source_lastmod": "2025-04-16T18:15:00+09:00",
-    "description": "둠이맥스와 스페이스맥스를 동시에 지원하는 dotemacs 저장소를 소개하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "둠이맥스와 스페이스맥스를 동시에 지원하는 dotemacs 저장소를 소개하는 노트이다.",
     "tags": [
       "dotfiles",
       "doomemacs",
@@ -29540,7 +29559,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250416T172011/",
     "source_date": "2025-04-16T17:20:00+09:00",
     "source_lastmod": "2025-04-16T17:20:00+09:00",
-    "description": "유튜브 플레이리스트와 나중에 볼 목록을 내보내는 작은 도구를 기록한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "유튜브 플레이리스트와 나중에 볼 목록을 내보내는 작은 도구를 기록한 노트이다.",
     "tags": [
       "bib",
       "exports",
@@ -29573,7 +29592,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250416T165145/",
     "source_date": "2025-04-16T16:51:00+09:00",
     "source_lastmod": "2025-04-16T00:00:00+09:00",
-    "description": "코드 헤더와 주석에서 README를 생성하는 도구들을 찾고 비교한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "코드 헤더와 주석에서 README를 생성하는 도구들을 찾고 비교한 노트이다.",
     "tags": [
       "bib",
       "comment",
@@ -29591,7 +29610,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240905T152133/",
     "source_date": "2024-09-05T15:21:00+09:00",
     "source_lastmod": "2025-04-16T00:00:00+09:00",
-    "description": "데일리 노트와 저널, 습관 기록을 한 축으로 묶는 자신의 워크플로우 전략을 담은 글이다. 실제 활용 흐름을 담았다.",
+    "description": "데일리 노트와 저널, 습관 기록을 한 축으로 묶는 자신의 워크플로우 전략을 담은 글이다.",
     "tags": [
       "autholog",
       "daily",
@@ -29669,7 +29688,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250415T120555/",
     "source_date": "2025-04-15T12:05:00+09:00",
     "source_lastmod": "2025-04-15T12:05:00+09:00",
-    "description": "mu4e와 mbsync로 지메일을 Emacs 안에서 다루는 설정을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "mu4e와 mbsync로 지메일을 Emacs 안에서 다루는 설정을 정리한 노트이다.",
     "tags": [
       "bib",
       "doomemacs"
@@ -29700,7 +29719,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250415T174028/",
     "source_date": "2025-04-15T17:40:00+09:00",
     "source_lastmod": "2025-04-15T00:00:00+09:00",
-    "description": "Org mode에서 한글과 라틴 문자 사이 공백문자를 어떻게 다룰지 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Org mode에서 한글과 라틴 문자 사이 공백문자를 어떻게 다룰지 정리한 노트이다.",
     "tags": [
       "hangul",
       "orgmode"
@@ -29715,7 +29734,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250415T160230/",
     "source_date": "2025-04-15T16:02:00+09:00",
     "source_lastmod": "2025-04-15T00:00:00+09:00",
-    "description": "OpenAlex를 연구용 개방형 카탈로그와 문헌 검색 시스템으로 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "OpenAlex를 연구용 개방형 카탈로그와 문헌 검색 시스템으로 정리한 노트이다.",
     "tags": [
       "research",
       "system"
@@ -29730,7 +29749,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250211T160122/",
     "source_date": "2025-02-11T16:01:00+09:00",
     "source_lastmod": "2025-04-15T00:00:00+09:00",
-    "description": "clojure-lsp와 clojure-cli 사용자 설정을 분리해 관리하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "clojure-lsp와 clojure-cli 사용자 설정을 분리해 관리하는 노트이다.",
     "tags": [
       "clojure",
       "configuration"
@@ -29745,7 +29764,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250206T145553/",
     "source_date": "2025-02-06T14:55:00+09:00",
     "source_lastmod": "2025-04-15T00:00:00+09:00",
-    "description": "좋은 ~/.gitconfig 예시와 Git 설정 철학을 모아 둔 설정파일 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "좋은 ~/.gitconfig 예시와 Git 설정 철학을 모아 둔 설정파일 노트이다.",
     "tags": [
       "configuration",
       "git"
@@ -29760,7 +29779,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241219T174926/",
     "source_date": "2024-12-19T17:49:00+09:00",
     "source_lastmod": "2025-04-15T00:00:00+09:00",
-    "description": "번역에 쓸 만한 AI 프롬프트들을 모아 두고 검토하는 컬렉션 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "번역에 쓸 만한 AI 프롬프트들을 모아 두고 검토하는 컬렉션 노트이다.",
     "tags": [
       "aiprompt",
       "collection",
@@ -29919,7 +29938,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250413T191610/",
     "source_date": "2025-04-13T19:16:00+09:00",
     "source_lastmod": "2025-04-13T00:00:00+09:00",
-    "description": "Advent of Code를 코드카타와 코딩 훈련 관점에서 소개하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Advent of Code를 코드카타와 코딩 훈련 관점에서 소개하는 노트이다.",
     "tags": [
       "code",
       "coding",
@@ -29953,7 +29972,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250412T055213/",
     "source_date": "2025-04-12T05:52:00+09:00",
     "source_lastmod": "2025-04-12T05:52:00+09:00",
-    "description": "undo-fu 패키지와 undo/redo 설정을 성능 관점에서 정리한 이맥스 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "undo-fu 패키지와 undo/redo 설정을 성능 관점에서 정리한 이맥스 노트이다.",
     "tags": [
       "bib"
     ],
@@ -29985,7 +30004,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250411T151002/",
     "source_date": "2025-04-11T15:10:00+09:00",
     "source_lastmod": "2025-04-11T15:10:00+09:00",
-    "description": "aidermacs와 emigo 같은 Emacs 페어프로그래밍 패키지를 비교하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "aidermacs와 emigo 같은 Emacs 페어프로그래밍 패키지를 비교하는 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -30004,7 +30023,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250411T141433/",
     "source_date": "2025-04-11T14:14:00+09:00",
     "source_lastmod": "2025-04-11T14:14:00+09:00",
-    "description": "디지털가든에서 깨진 이미지 링크와 스크린샷 경로를 복구하려고 모은 작업 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "디지털가든에서 깨진 이미지 링크와 스크린샷 경로를 복구하려고 모은 작업 노트이다.",
     "tags": [
       "digitalgarden",
       "links",
@@ -30037,7 +30056,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241019T184622/",
     "source_date": "2024-10-19T18:46:00+09:00",
     "source_lastmod": "2025-04-11T00:00:00+09:00",
-    "description": "브라우저리스하려면 오히려 브라우저를 품어야 한다는 옴니 워크플로우 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "브라우저리스하려면 오히려 브라우저를 품어야 한다는 옴니 워크플로우 노트이다.",
     "tags": [
       "browser",
       "omni",
@@ -30053,7 +30072,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241013T213018/",
     "source_date": "2024-10-13T21:30:00+09:00",
     "source_lastmod": "2025-04-11T00:00:00+09:00",
-    "description": "웹과 로컬, 비디오 검색을 한곳에 묶는 이맥스 통합 검색 환경의 워크플로우 기록이다. 실제 활용 흐름을 담았다.",
+    "description": "웹과 로컬, 비디오 검색을 한곳에 묶는 이맥스 통합 검색 환경의 워크플로우 기록이다.",
     "tags": [
       "emacs",
       "omniuse",
@@ -30118,7 +30137,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250409T143916/",
     "source_date": "2025-04-09T14:39:00+09:00",
     "source_lastmod": "2025-04-09T14:39:00+09:00",
-    "description": "예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다.",
     "tags": [
       "bib",
       "autholog",
@@ -30135,7 +30154,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250409T141325/",
     "source_date": "2025-04-09T14:13:00+09:00",
     "source_lastmod": "2025-04-09T14:13:00+09:00",
-    "description": "이현주 할아버지의 책을 숙면과 밤의 독서 동반자로 소개하는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "이현주 할아버지의 책을 숙면과 밤의 독서 동반자로 소개하는 글이다.",
     "tags": [
       "autholog",
       "deepsleep",
@@ -30151,7 +30170,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250409T074725/",
     "source_date": "2025-04-09T07:47:00+09:00",
     "source_lastmod": "2025-04-09T00:00:00+09:00",
-    "description": "도서 탐색에서 흔적과 단서, 분류와 계층을 따라가는 방식을 풀어낸 글이다. 실제 활용 흐름을 담았다.",
+    "description": "도서 탐색에서 흔적과 단서, 분류와 계층을 따라가는 방식을 풀어낸 글이다.",
     "tags": [
       "abduction",
       "allegory",
@@ -30172,7 +30191,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250408T174023/",
     "source_date": "2025-04-08T17:40:00+09:00",
     "source_lastmod": "2025-04-08T17:40:00+09:00",
-    "description": "cape-dict의 영어 단어 자동완성이 너무 많을 때 조절하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "cape-dict의 영어 단어 자동완성이 너무 많을 때 조절하는 노트이다.",
     "tags": [
       "autocompletion",
       "bib",
@@ -30188,7 +30207,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250408T150326/",
     "source_date": "2025-04-08T15:03:00+09:00",
     "source_lastmod": "2025-04-08T15:03:00+09:00",
-    "description": "Emacs 빌드 설치 뒤 Stow 심볼릭 링크를 다시 맞추는 스크립트를 담은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Emacs 빌드 설치 뒤 Stow 심볼릭 링크를 다시 맞추는 스크립트를 담은 노트이다.",
     "tags": [
       "emacs",
       "install"
@@ -30217,7 +30236,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250407T224601/",
     "source_date": "2025-04-07T22:46:00+09:00",
     "source_lastmod": "2025-04-07T22:46:00+09:00",
-    "description": "GNU Stow를 닷파일용 심볼릭 링크 관리 도구로 정리한 기본 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "GNU Stow를 닷파일용 심볼릭 링크 관리 도구로 정리한 기본 노트이다.",
     "tags": [
       "bib",
       "dotfiles",
@@ -30233,7 +30252,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250407T224346/",
     "source_date": "2025-04-07T22:43:00+09:00",
     "source_lastmod": "2025-04-07T22:43:00+09:00",
-    "description": "Pastebin을 텍스트와 코드, 스니펫 공유 서비스로 소개하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Pastebin을 텍스트와 코드, 스니펫 공유 서비스로 소개하는 노트이다.",
     "tags": [
       "bib",
       "snippet",
@@ -30268,7 +30287,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250407T222646/",
     "source_date": "2025-04-07T22:26:00+09:00",
     "source_lastmod": "2025-04-07T00:00:00+09:00",
-    "description": "르상티망을 원한과 복수심, 불안사회의 방어기제로 이해하려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "르상티망을 원한과 복수심, 불안사회의 방어기제로 이해하려는 노트이다.",
     "tags": [
       "altruism"
     ],
@@ -30282,7 +30301,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250407T111613/",
     "source_date": "2025-04-07T11:16:00+09:00",
     "source_lastmod": "2025-04-07T00:00:00+09:00",
-    "description": "Sway와 i3WM의 스크래치패드, 플로팅 윈도우 활용을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Sway와 i3WM의 스크래치패드, 플로팅 윈도우 활용을 정리한 노트이다.",
     "tags": [
       "i3wm",
       "regolith",
@@ -30300,7 +30319,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241231T155449/",
     "source_date": "2024-12-31T15:54:00+09:00",
     "source_lastmod": "2025-04-07T00:00:00+09:00",
-    "description": "리눅스에서 Wine과 Lutris로 카카오톡을 설치하는 절차를 남긴 실용 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "리눅스에서 Wine과 Lutris로 카카오톡을 설치하는 절차를 남긴 실용 노트이다.",
     "tags": [
       "install",
       "linux"
@@ -30315,7 +30334,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241111T152209/",
     "source_date": "2024-11-11T15:22:00+09:00",
     "source_lastmod": "2025-04-07T00:00:00+09:00",
-    "description": "리눅스에 Docker Engine을 설치하고 이후 해야 할 설정을 정리한 실용 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "리눅스에 Docker Engine을 설치하고 이후 해야 할 설정을 정리한 실용 노트이다.",
     "tags": [
       "bib",
       "docker",
@@ -30405,7 +30424,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241216T154011/",
     "source_date": "2024-12-16T15:40:00+09:00",
     "source_lastmod": "2025-04-06T00:00:00+09:00",
-    "description": "한국십진분류에서 자기계발과 인생훈, 생산성 범주를 어떻게 나누는지 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "한국십진분류에서 자기계발과 인생훈, 생산성 범주를 어떻게 나누는지 정리한 로그이다.",
     "tags": [
       "productivity"
     ],
@@ -30419,7 +30438,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240730T092053/",
     "source_date": "2024-07-30T09:20:00+09:00",
     "source_lastmod": "2025-04-06T00:00:00+09:00",
-    "description": "삶을 탐구하게 만드는 질문들과 관련 서적·노트를 모아 둔 사유 컬렉션이다. 실제 활용 흐름을 담았다.",
+    "description": "삶을 탐구하게 만드는 질문들과 관련 서적·노트를 모아 둔 사유 컬렉션이다.",
     "tags": [
       "collection",
       "inquiry",
@@ -30450,7 +30469,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250405T171216/",
     "source_date": "2025-04-05T17:12:00+09:00",
     "source_lastmod": "2025-04-05T00:00:00+09:00",
-    "description": "oneko가 마우스를 따라다니는 고양이 애니메이션이라는 점을 기록한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "oneko가 마우스를 따라다니는 고양이 애니메이션이라는 점을 기록한 노트이다.",
     "tags": [
       "bib",
       "animation"
@@ -30465,7 +30484,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250214T135928/",
     "source_date": "2025-02-14T13:59:00+09:00",
     "source_lastmod": "2025-04-05T00:00:00+09:00",
-    "description": "hrs의 docsim과 docsim.el을 노트 검색과 비교 도구로 살펴보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "hrs의 docsim과 docsim.el을 노트 검색과 비교 도구로 살펴보는 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -30510,7 +30529,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241111T153209/",
     "source_date": "2024-11-11T15:32:00+09:00",
     "source_lastmod": "2025-04-04T00:00:00+09:00",
-    "description": "라이브 공동편집과 지식통합, 독서와 대화를 하나의 협업 장면으로 바라보는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "라이브 공동편집과 지식통합, 독서와 대화를 하나의 협업 장면으로 바라보는 글이다.",
     "tags": [
       "autholog",
       "bib",
@@ -30532,7 +30551,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241111T151456/",
     "source_date": "2024-11-11T15:14:00+09:00",
     "source_lastmod": "2025-04-04T00:00:00+09:00",
-    "description": "터미널에서 쓸 수 있는 깃 클라이언트 lazygit과 gitu를 비교해 보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "터미널에서 쓸 수 있는 깃 클라이언트 lazygit과 gitu를 비교해 보는 노트이다.",
     "tags": [
       "alternative",
       "bib",
@@ -30549,7 +30568,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240823T110214/",
     "source_date": "2024-08-23T11:02:00+09:00",
     "source_lastmod": "2025-04-04T00:00:00+09:00",
-    "description": "바칼로레아 철학 개념어를 한글 표현의 대비쌍과 함께 정리하려는 개념 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "바칼로레아 철학 개념어를 한글 표현의 대비쌍과 함께 정리하려는 개념 메모이다.",
     "tags": [
       "hangul"
     ],
@@ -30563,7 +30582,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240823T105845/",
     "source_date": "2024-08-23T10:58:00+09:00",
     "source_lastmod": "2025-04-04T00:00:00+09:00",
-    "description": "바칼로레아 17개 개념어와 시대별 철학자를 연결해 보는 개념어 컬렉션이다. 실제 활용 흐름을 담았다.",
+    "description": "바칼로레아 17개 개념어와 시대별 철학자를 연결해 보는 개념어 컬렉션이다.",
     "tags": [
       "concepts",
       "education",
@@ -30596,7 +30615,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250403T122919/",
     "source_date": "2025-04-03T12:29:00+09:00",
     "source_lastmod": "2025-04-03T12:29:00+09:00",
-    "description": "core.async를 중심으로 클로저 비동기 프로그래밍을 공부하려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "core.async를 중심으로 클로저 비동기 프로그래밍을 공부하려는 노트이다.",
     "tags": [
       "bib",
       "clojure",
@@ -30612,7 +30631,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250403T120250/",
     "source_date": "2025-04-03T12:02:00+09:00",
     "source_lastmod": "2025-04-03T12:02:00+09:00",
-    "description": "Jitsi와 Zoom을 중심으로 온라인 회의 플랫폼을 정리한 비교 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Jitsi와 Zoom을 중심으로 온라인 회의 플랫폼을 정리한 비교 노트이다.",
     "tags": [
       "bib",
       "coffechat"
@@ -30627,7 +30646,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250403T092006/",
     "source_date": "2025-04-03T09:20:00+09:00",
     "source_lastmod": "2025-04-03T09:20:00+09:00",
-    "description": "내 브라우저 활동이 구글 애널리틱스에 잡히지 않게 차단하는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "내 브라우저 활동이 구글 애널리틱스에 잡히지 않게 차단하는 방법을 정리한 노트이다.",
     "tags": [
       "android",
       "browser",
@@ -30644,7 +30663,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250403T082332/",
     "source_date": "2025-04-03T08:23:00+09:00",
     "source_lastmod": "2025-04-03T08:23:00+09:00",
-    "description": "테이블탑과 인터랙티브 서페이스 연구를 학회와 논문 맥락으로 모아 둔 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "테이블탑과 인터랙티브 서페이스 연구를 학회와 논문 맥락으로 모아 둔 노트이다.",
     "tags": [
       "bib",
       "computing",
@@ -30664,7 +30683,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250403T080746/",
     "source_date": "2025-04-03T08:07:00+09:00",
     "source_lastmod": "2025-04-03T08:07:00+09:00",
-    "description": "네모유엑스의 인터랙티브 라지 디스플레이 경험과 폐업 이후를 돌아보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "네모유엑스의 인터랙티브 라지 디스플레이 경험과 폐업 이후를 돌아보는 노트이다.",
     "tags": [
       "bib",
       "interactive",
@@ -30681,7 +30700,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250122T115333/",
     "source_date": "2025-01-22T11:53:00+09:00",
     "source_lastmod": "2025-04-03T00:00:00+09:00",
-    "description": "Scicloj 커뮤니티를 중심으로 클로저 데이터과학 생태계를 살펴보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Scicloj 커뮤니티를 중심으로 클로저 데이터과학 생태계를 살펴보는 노트이다.",
     "tags": [
       "bib",
       "clojure",
@@ -30712,7 +30731,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250402T184512/",
     "source_date": "2025-04-02T18:45:00+09:00",
     "source_lastmod": "2025-04-02T18:45:00+09:00",
-    "description": "Emacs 코드블록 중심 리터레이트 AI 패키지 흐름을 비교한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Emacs 코드블록 중심 리터레이트 AI 패키지 흐름을 비교한 노트이다.",
     "tags": [
       "copilot",
       "gptel",
@@ -30730,7 +30749,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250402T134850/",
     "source_date": "2025-04-02T13:48:00+09:00",
     "source_lastmod": "2025-04-02T00:00:00+09:00",
-    "description": "ProtoPie와 Figma를 중심으로 인터랙티브 프로토타이핑 도구를 비교한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "ProtoPie와 Figma를 중심으로 인터랙티브 프로토타이핑 도구를 비교한 노트이다.",
     "tags": [
       "bib",
       "figma",
@@ -30749,7 +30768,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250402T131839/",
     "source_date": "2025-04-02T13:18:00+09:00",
     "source_lastmod": "2025-04-02T00:00:00+09:00",
-    "description": "멀티프로세서 프로그래밍 기술의 현대적 가치와 변화 방향을 평가한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "멀티프로세서 프로그래밍 기술의 현대적 가치와 변화 방향을 평가한 노트이다.",
     "tags": [
       "clojure",
       "programming"
@@ -30783,7 +30802,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250128T121922/",
     "source_date": "2025-01-28T12:19:00+09:00",
     "source_lastmod": "2025-04-02T00:00:00+09:00",
-    "description": "pipx로 격리 설치한 파이썬 애플리케이션 목록과 용도를 기록한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "pipx로 격리 설치한 파이썬 애플리케이션 목록과 용도를 기록한 노트이다.",
     "tags": [
       "bib",
       "environment",
@@ -30846,8 +30865,8 @@
     "description": "EKG를 이맥스 지식그래프 도구로 실제 워크플로우에 붙일 수 있을지 검토한 활용 실험 노트.",
     "tags": [
       "bib",
-      "howtouse",
-      "ekg"
+      "ekg",
+      "howtouse"
     ],
     "page_id": 381191,
     "url": "https://wikidocs.net/381191"
@@ -30874,7 +30893,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240915T234215/",
     "source_date": "2024-09-15T23:42:00+09:00",
     "source_lastmod": "2025-04-01T00:00:00+09:00",
-    "description": "정규표현식으로 일부 텍스트만 안전하게 바꾸는 치환 예시를 단계별로 적어 둔 기록. 실제 활용 흐름을 담았다.",
+    "description": "정규표현식으로 일부 텍스트만 안전하게 바꾸는 치환 예시를 단계별로 적어 둔 기록.",
     "tags": [
       "bib",
       "evil",
@@ -30909,7 +30928,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240820T124819/",
     "source_date": "2024-08-20T12:48:00+09:00",
     "source_lastmod": "2025-04-01T00:00:00+09:00",
-    "description": "왜 Org-mode를 쓰는가에 대한 자료와 개인적 이유를 모아 둔 질문형 컬렉션이다. 실제 활용 흐름을 담았다.",
+    "description": "왜 Org-mode를 쓰는가에 대한 자료와 개인적 이유를 모아 둔 질문형 컬렉션이다.",
     "tags": [
       "bib",
       "orgmode",
@@ -30929,7 +30948,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240712T165024/",
     "source_date": "2024-07-12T16:50:00+09:00",
     "source_lastmod": "2025-04-01T00:00:00+09:00",
-    "description": "이맥스 계산기와 수식 입력을 생각도구로 연결해 실용 수학 학습 흐름을 설계한 노트. 실제 활용 흐름을 담았다.",
+    "description": "이맥스 계산기와 수식 입력을 생각도구로 연결해 실용 수학 학습 흐름을 설계한 노트.",
     "tags": [
       "tools"
     ],
@@ -31006,7 +31025,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250330T032110/",
     "source_date": "2025-03-30T03:21:00+09:00",
     "source_lastmod": "2025-03-30T00:00:00+09:00",
-    "description": "Replit을 브라우저 기반 통합개발환경과 프로토타이핑 도구로 살펴본 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Replit을 브라우저 기반 통합개발환경과 프로토타이핑 도구로 살펴본 노트이다.",
     "tags": [
       "bib",
       "ide",
@@ -31037,7 +31056,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250329T162259/",
     "source_date": "2025-03-29T16:22:00+09:00",
     "source_lastmod": "2025-03-29T16:22:00+09:00",
-    "description": "Org mode 헤더 프로퍼티로 Python 결과 출력을 기본값으로 두는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Org mode 헤더 프로퍼티로 Python 결과 출력을 기본값으로 두는 노트이다.",
     "tags": [
       "orgmode",
       "property"
@@ -31052,7 +31071,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250329T213644/",
     "source_date": "2025-03-29T21:36:00+09:00",
     "source_lastmod": "2025-03-29T00:00:00+09:00",
-    "description": "클론한 파이썬 모듈을 전역에서 활용하는 방법을 정리한 실용 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "클론한 파이썬 모듈을 전역에서 활용하는 방법을 정리한 실용 노트이다.",
     "tags": [
       "hylang",
       "python"
@@ -31067,7 +31086,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250329T164150/",
     "source_date": "2025-03-29T16:41:00+09:00",
     "source_lastmod": "2025-03-29T00:00:00+09:00",
-    "description": "Hyrule 설치와 Hy 유틸리티 라이브러리 사용법을 간단히 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "Hyrule 설치와 Hy 유틸리티 라이브러리 사용법을 간단히 정리한 로그이다.",
     "tags": [
       "bib"
     ],
@@ -31081,7 +31100,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250329T163054/",
     "source_date": "2025-03-29T16:30:00+09:00",
     "source_lastmod": "2025-03-29T00:00:00+09:00",
-    "description": "py2hy로 Python 코드를 Hy로 변환하는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "py2hy로 Python 코드를 Hy로 변환하는 방법을 정리한 노트이다.",
     "tags": [
       "bib",
       "convert",
@@ -31139,7 +31158,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250328T172918/",
     "source_date": "2025-03-28T17:29:00+09:00",
     "source_lastmod": "2025-03-28T17:29:00+09:00",
-    "description": "Vale 스타일 통합 예제를 참고해 교열 설정을 다듬으려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Vale 스타일 통합 예제를 참고해 교열 설정을 다듬으려는 노트이다.",
     "tags": [
       "bib",
       "textlint",
@@ -31172,7 +31191,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250328T022542/",
     "source_date": "2025-03-28T02:25:00+09:00",
     "source_lastmod": "2025-03-28T02:25:00+09:00",
-    "description": "elysium을 Emacs용 AI 코딩 플러그인으로 검토하며 감상을 남긴 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "elysium을 Emacs용 AI 코딩 플러그인으로 검토하며 감상을 남긴 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -31189,7 +31208,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250328T080804/",
     "source_date": "2025-03-28T08:08:00+09:00",
     "source_lastmod": "2025-03-28T00:00:00+09:00",
-    "description": "Inactive Minibuffer를 없애는 설정과 원인을 짚는 짧은 기술 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "Inactive Minibuffer를 없애는 설정과 원인을 짚는 짧은 기술 로그이다.",
     "tags": [],
     "page_id": 381630,
     "url": "https://wikidocs.net/381630"
@@ -31201,7 +31220,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241019T151240/",
     "source_date": "2024-10-19T15:12:00+09:00",
     "source_lastmod": "2025-03-28T00:00:00+09:00",
-    "description": "OmegaT 플러그인과 기계번역 API 연동 방식을 공식 목록과 함께 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "OmegaT 플러그인과 기계번역 API 연동 방식을 공식 목록과 함께 정리한 노트이다.",
     "tags": [
       "bib",
       "omegat"
@@ -31216,7 +31235,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240923T165700/",
     "source_date": "2024-09-23T16:57:00+09:00",
     "source_lastmod": "2025-03-28T00:00:00+09:00",
-    "description": "Hy 언어를 이맥스 통합개발환경에 올리기 위해 설치와 버전 관리 경로를 정리한 기록이다. 실제 활용 흐름을 담았다.",
+    "description": "Hy 언어를 이맥스 통합개발환경에 올리기 위해 설치와 버전 관리 경로를 정리한 기록이다.",
     "tags": [
       "bib",
       "emacside",
@@ -31234,7 +31253,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240828T194548/",
     "source_date": "2024-08-28T19:45:00+09:00",
     "source_lastmod": "2025-03-28T00:00:00+09:00",
-    "description": "Magit과 Forge로 깃허브 이슈와 알림을 이맥스 안에서 다루는 방법을 정리한 기록. 실제 활용 흐름을 담았다.",
+    "description": "Magit과 Forge로 깃허브 이슈와 알림을 이맥스 안에서 다루는 방법을 정리한 기록.",
     "tags": [
       "bib",
       "client",
@@ -31328,7 +31347,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250327T131812/",
     "source_date": "2025-03-27T13:18:00+09:00",
     "source_lastmod": "2025-03-27T00:00:00+09:00",
-    "description": "스니펫과 AI 코파일럿 자동완성의 차이와 장인적 수고의 의미를 묻는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "스니펫과 AI 코파일럿 자동완성의 차이와 장인적 수고의 의미를 묻는 노트이다.",
     "tags": [
       "autocompletion",
       "copilot",
@@ -31357,7 +31376,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250327T111410/",
     "source_date": "2025-03-27T11:14:00+09:00",
     "source_lastmod": "2025-03-27T00:00:00+09:00",
-    "description": "Metabase를 오픈소스 대시보드와 데이터 시각화 도구로 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Metabase를 오픈소스 대시보드와 데이터 시각화 도구로 정리한 노트이다.",
     "tags": [
       "clojure",
       "dashboard",
@@ -31374,7 +31393,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250327T110315/",
     "source_date": "2025-03-27T11:03:00+09:00",
     "source_lastmod": "2025-03-27T00:00:00+09:00",
-    "description": "JVM 위의 코틀린과 클로저가 닮은 점과 풀스택 가능성을 묻는 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "JVM 위의 코틀린과 클로저가 닮은 점과 풀스택 가능성을 묻는 LLM 로그이다.",
     "tags": [],
     "page_id": 381624,
     "url": "https://wikidocs.net/381624"
@@ -31417,7 +31436,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250326T135916/",
     "source_date": "2025-03-26T13:59:00+09:00",
     "source_lastmod": "2025-03-26T13:59:00+09:00",
-    "description": "렉스 프리드먼 팟캐스트에서 ThePrimeagen과 ADHD 이야기를 엮어 적은 글이다. 실제 활용 흐름을 담았다.",
+    "description": "렉스 프리드먼 팟캐스트에서 ThePrimeagen과 ADHD 이야기를 엮어 적은 글이다.",
     "tags": [
       "adhd",
       "autholog",
@@ -31449,7 +31468,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240814T152821/",
     "source_date": "2024-08-14T15:28:00+09:00",
     "source_lastmod": "2025-03-26T00:00:00+09:00",
-    "description": "호스팅케이알과 넷리파이에서 서브도메인을 연결하는 DNS 설정 흐름을 정리한 기록. 실제 활용 흐름을 담았다.",
+    "description": "호스팅케이알과 넷리파이에서 서브도메인을 연결하는 DNS 설정 흐름을 정리한 기록.",
     "tags": [
       "bib"
     ],
@@ -31463,7 +31482,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250325T201529/",
     "source_date": "2025-03-25T20:15:00+09:00",
     "source_lastmod": "2025-03-25T20:15:00+09:00",
-    "description": "clojure.camp 위키와 핸드북 자료를 참고하려고 남겨 둔 클로저 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "clojure.camp 위키와 핸드북 자료를 참고하려고 남겨 둔 클로저 노트이다.",
     "tags": [
       "bib",
       "clojure"
@@ -31478,7 +31497,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250325T085647/",
     "source_date": "2025-03-25T08:56:00+09:00",
     "source_lastmod": "2025-03-25T00:00:00+09:00",
-    "description": "@에릭호퍼 @도스토예프스키 №백치 - #간질",
+    "description": "도스토예프스키의 『백치』가 뜻하는 순수함과 간질, 그리고 에릭 호퍼와의 연결 가능성을 질문한다. 창조성과 병, 독서의 인상들이 교차하는 문학 탐색 노트다.",
     "tags": [
       "creativity"
     ],
@@ -31528,7 +31547,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250324T070423/",
     "source_date": "2025-03-24T07:04:00+09:00",
     "source_lastmod": "2025-03-24T07:04:00+09:00",
-    "description": "AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 말하는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 말하는 글이다.",
     "tags": [
       "autholog",
       "interface",
@@ -31579,27 +31598,12 @@
     "source_url": "https://notes.junghanacs.com/notes/20250323T072708/",
     "source_date": "2025-03-23T07:27:00+09:00",
     "source_lastmod": "2025-03-23T00:00:00+09:00",
-    "description": "Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이다.",
     "tags": [
       "doomemacs"
     ],
     "page_id": 381611,
     "url": "https://wikidocs.net/381611"
-  },
-  "20240220T091923": {
-    "path": "pages/notes/20240220T091923.md",
-    "subject": "20250323 모음: 둠이맥스 모듈",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240220T091923/",
-    "source_date": "2024-02-20T09:19:00+09:00",
-    "source_lastmod": "2025-03-23T00:00:00+09:00",
-    "description": "둠이맥스 모듈 구조와 관련 자료를 모아 두고 필요할 때 다시 찾기 위한 컬렉션 정리 노트.",
-    "tags": [
-      "collection",
-      "doomemacs"
-    ],
-    "page_id": 381193,
-    "url": "https://wikidocs.net/381193"
   },
   "20230724T095200": {
     "path": "pages/notes/20230724T095200.md",
@@ -31623,7 +31627,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250322T085717/",
     "source_date": "2025-03-22T08:57:00+09:00",
     "source_lastmod": "2025-03-22T00:00:00+09:00",
-    "description": "상하목장 유기농·무항생제 우유 배달 옵션을 정리한 생활형 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "상하목장 유기농·무항생제 우유 배달 옵션을 정리한 생활형 LLM 로그이다.",
     "tags": [],
     "page_id": 381610,
     "url": "https://wikidocs.net/381610"
@@ -31649,7 +31653,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250321T095719/",
     "source_date": "2025-03-21T09:57:00+09:00",
     "source_lastmod": "2025-03-21T09:57:00+09:00",
-    "description": "Minuet AI.el을 코파일럿과 gptel의 대체 패키지로 검토한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Minuet AI.el을 코파일럿과 gptel의 대체 패키지로 검토한 노트이다.",
     "tags": [
       "alternative",
       "bib",
@@ -31668,7 +31672,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250321T070503/",
     "source_date": "2025-03-21T07:05:00+09:00",
     "source_lastmod": "2025-03-21T07:05:00+09:00",
-    "description": "코지 이맥스 매뉴얼을 Clojure와 Evil 중심 IDE 관점에서 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "코지 이맥스 매뉴얼을 Clojure와 Evil 중심 IDE 관점에서 정리한 노트이다.",
     "tags": [
       "clojure",
       "emacs",
@@ -31702,7 +31706,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250320T212021/",
     "source_date": "2025-03-20T21:20:00+09:00",
     "source_lastmod": "2025-03-20T21:20:00+09:00",
-    "description": "왜 이름이 힣인지, 그 호명이 어떤 뜻을 갖는지 풀어내는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "왜 이름이 힣인지, 그 호명이 어떤 뜻을 갖는지 풀어내는 글이다.",
     "tags": [
       "autholog",
       "bib"
@@ -31717,7 +31721,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250320T144237/",
     "source_date": "2025-03-20T14:42:00+09:00",
     "source_lastmod": "2025-03-20T14:42:00+09:00",
-    "description": "evil-owl로 Emacs의 레지스터와 마크를 더 잘 보이게 관리하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "evil-owl로 Emacs의 레지스터와 마크를 더 잘 보이게 관리하는 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -31734,7 +31738,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250320T140704/",
     "source_date": "2025-03-20T14:07:00+09:00",
     "source_lastmod": "2025-03-20T14:07:00+09:00",
-    "description": "HAMT와 RRB를 통해 클로저의 영속 자료구조를 이해하려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "HAMT와 RRB를 통해 클로저의 영속 자료구조를 이해하려는 노트이다.",
     "tags": [
       "bib",
       "clojure"
@@ -31902,7 +31906,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250319T112544/",
     "source_date": "2025-03-19T11:25:00+09:00",
     "source_lastmod": "2025-03-19T00:00:00+09:00",
-    "description": "HRIS와 복지 관리 도구로 Rippling과 Flex 같은 서비스를 검토한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "HRIS와 복지 관리 도구로 Rippling과 Flex 같은 서비스를 검토한 노트이다.",
     "tags": [
       "bib",
       "human",
@@ -31922,7 +31926,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250319T054757/",
     "source_date": "2025-03-19T05:47:00+09:00",
     "source_lastmod": "2025-03-19T00:00:00+09:00",
-    "description": "톨보이 스피커와 하이파이 오디오 시스템에 대한 취향과 구상을 적은 글이다. 실제 활용 흐름을 담았다.",
+    "description": "톨보이 스피커와 하이파이 오디오 시스템에 대한 취향과 구상을 적은 글이다.",
     "tags": [
       "system",
       "autholog"
@@ -31957,7 +31961,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241126T060719/",
     "source_date": "2024-11-26T06:07:00+09:00",
     "source_lastmod": "2025-03-19T00:00:00+09:00",
-    "description": "조직모드와 LaTeX 기반 manuscript 템플릿 샘플을 모아 참고하려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "조직모드와 LaTeX 기반 manuscript 템플릿 샘플을 모아 참고하려는 노트이다.",
     "tags": [
       "orgmode",
       "templates"
@@ -32038,7 +32042,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250317T150522/",
     "source_date": "2025-03-17T15:05:00+09:00",
     "source_lastmod": "2025-03-17T15:05:00+09:00",
-    "description": "컴퓨터공학 분야의 연구 실적과 발표 이력을 정리해 두는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "컴퓨터공학 분야의 연구 실적과 발표 이력을 정리해 두는 노트이다.",
     "tags": [
       "autholog",
       "bib",
@@ -32055,7 +32059,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250317T122832/",
     "source_date": "2025-03-17T12:28:00+09:00",
     "source_lastmod": "2025-03-17T12:28:00+09:00",
-    "description": "git blame을 사유의 과정과 수정 이력을 드러내는 도구로 바라보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "git blame을 사유의 과정과 수정 이력을 드러내는 도구로 바라보는 노트이다.",
     "tags": [
       "bib",
       "history"
@@ -32070,7 +32074,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250316T044555/",
     "source_date": "2025-03-16T04:45:00+09:00",
     "source_lastmod": "2025-03-16T04:45:00+09:00",
-    "description": "성인 ADHD를 주제로 한 블로그 시즌3를 어떤 방향으로 쓸지 적어 둔 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "성인 ADHD를 주제로 한 블로그 시즌3를 어떤 방향으로 쓸지 적어 둔 노트이다.",
     "tags": [
       "adhd",
       "autholog"
@@ -32085,7 +32089,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250315T155225/",
     "source_date": "2025-03-15T15:52:00+09:00",
     "source_lastmod": "2025-03-15T00:00:00+09:00",
-    "description": "ox-hugo와 마크다운 사이의 개행 문자 처리 문제를 정리한 기술 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "ox-hugo와 마크다운 사이의 개행 문자 처리 문제를 정리한 기술 로그이다.",
     "tags": [],
     "page_id": 381588,
     "url": "https://wikidocs.net/381588"
@@ -32097,7 +32101,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250315T152549/",
     "source_date": "2025-03-15T15:25:00+09:00",
     "source_lastmod": "2025-03-15T00:00:00+09:00",
-    "description": "웹페이지 로딩 속도를 개선하는 기본 방법들을 정리한 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "웹페이지 로딩 속도를 개선하는 기본 방법들을 정리한 LLM 로그이다.",
     "tags": [],
     "page_id": 381587,
     "url": "https://wikidocs.net/381587"
@@ -32143,7 +32147,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250314T124024/",
     "source_date": "2025-03-14T12:40:00+09:00",
     "source_lastmod": "2025-03-14T00:00:00+09:00",
-    "description": "Buffer를 소셜미디어와 뉴스레터 배포 자동화 도구로 검토한 임시 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Buffer를 소셜미디어와 뉴스레터 배포 자동화 도구로 검토한 임시 노트이다.",
     "tags": [
       "contents",
       "sns",
@@ -32159,7 +32163,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250313T114109/",
     "source_date": "2025-03-13T11:41:00+09:00",
     "source_lastmod": "2025-03-13T11:41:00+09:00",
-    "description": "LeetCode를 코딩 훈련과 문제풀이 습관의 관점에서 기록한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "LeetCode를 코딩 훈련과 문제풀이 습관의 관점에서 기록한 노트이다.",
     "tags": [
       "bib",
       "codekata",
@@ -32225,7 +32229,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250312T121827/",
     "source_date": "2025-03-12T12:18:00+09:00",
     "source_lastmod": "2025-03-12T00:00:00+09:00",
-    "description": "자서전과 회고록을 쓰는 일의 차이와 의미를 묻는 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "자서전과 회고록을 쓰는 일의 차이와 의미를 묻는 LLM 로그이다.",
     "tags": [
       "autobiography",
       "memoir"
@@ -32240,7 +32244,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241126T182143/",
     "source_date": "2024-11-26T18:21:00+09:00",
     "source_lastmod": "2025-03-11T00:00:00+09:00",
-    "description": "삶은 언제나 여여하다는 문장을 영어와 불교 용어 맥락으로 다시 음미하는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "삶은 언제나 여여하다는 문장을 영어와 불교 용어 맥락으로 다시 음미하는 글이다.",
     "tags": [
       "autholog",
       "spirituality"
@@ -32275,7 +32279,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250309T194056/",
     "source_date": "2025-03-09T19:40:00+09:00",
     "source_lastmod": "2025-03-09T19:40:00+09:00",
-    "description": "org-books로 이맥스 안에서 도서 목록과 읽기 관리를 해보려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "org-books로 이맥스 안에서 도서 목록과 읽기 관리를 해보려는 노트이다.",
     "tags": [
       "bib",
       "management",
@@ -32324,7 +32328,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250309T151452/",
     "source_date": "2025-03-09T15:14:00+09:00",
     "source_lastmod": "2025-03-09T00:00:00+09:00",
-    "description": "무엇무엇한 자, 하는 존재 같은 인명 시리즈를 모아 색인하려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "무엇무엇한 자, 하는 존재 같은 인명 시리즈를 모아 색인하려는 노트이다.",
     "tags": [
       "series",
       "collection",
@@ -32342,7 +32346,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250309T142131/",
     "source_date": "2025-03-09T14:21:00+09:00",
     "source_lastmod": "2025-03-09T00:00:00+09:00",
-    "description": "Org mode의 tab-width 경고와 들여쓰기 이슈를 추적하는 디버그 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Org mode의 tab-width 경고와 들여쓰기 이슈를 추적하는 디버그 노트이다.",
     "tags": [
       "debug",
       "elisp",
@@ -32404,7 +32408,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250308T125450/",
     "source_date": "2025-03-08T12:54:00+09:00",
     "source_lastmod": "2025-03-08T00:00:00+09:00",
-    "description": "세차를 간단하고 무리 없이 하는 방법을 물어본 생활형 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "세차를 간단하고 무리 없이 하는 방법을 물어본 생활형 LLM 로그이다.",
     "tags": [],
     "page_id": 381573,
     "url": "https://wikidocs.net/381573"
@@ -32467,7 +32471,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250306T043741/",
     "source_date": "2025-03-06T04:37:00+09:00",
     "source_lastmod": "2025-03-06T00:00:00+09:00",
-    "description": "경탄과 감탄, 놀람 같은 감정 표현을 헤세와 츠바이크 맥락으로 더듬는 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "경탄과 감탄, 놀람 같은 감정 표현을 헤세와 츠바이크 맥락으로 더듬는 로그이다.",
     "tags": [],
     "page_id": 381572,
     "url": "https://wikidocs.net/381572"
@@ -32479,7 +32483,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241024T134557/",
     "source_date": "2024-10-24T13:45:00+09:00",
     "source_lastmod": "2025-03-06T00:00:00+09:00",
-    "description": "어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다.",
     "tags": [
       "newsletter",
       "autholog"
@@ -32514,7 +32518,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250305T113510/",
     "source_date": "2025-03-05T11:35:00+09:00",
     "source_lastmod": "2025-03-05T11:35:00+09:00",
-    "description": "Emacs LSP 성능을 높이는 booster 패키지들을 비교하며 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Emacs LSP 성능을 높이는 booster 패키지들을 비교하며 정리한 노트이다.",
     "tags": [
       "bib",
       "lsp",
@@ -32531,7 +32535,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250305T070646/",
     "source_date": "2025-03-05T07:06:00+09:00",
     "source_lastmod": "2025-03-05T07:06:00+09:00",
-    "description": "영문 제목 규칙을 변환하는 titlecase.el 패키지를 소개하는 짧은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "영문 제목 규칙을 변환하는 titlecase.el 패키지를 소개하는 짧은 노트이다.",
     "tags": [
       "bib"
     ],
@@ -32545,7 +32549,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250305T153705/",
     "source_date": "2025-03-05T15:37:00+09:00",
     "source_lastmod": "2025-03-05T00:00:00+09:00",
-    "description": "iedit 패키지가 같은 텍스트를 동시에 편집하는 데 어떻게 쓰이는지 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "iedit 패키지가 같은 텍스트를 동시에 편집하는 데 어떻게 쓰이는지 정리한 로그이다.",
     "tags": [],
     "page_id": 381570,
     "url": "https://wikidocs.net/381570"
@@ -32557,7 +32561,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250305T134819/",
     "source_date": "2025-03-05T13:48:00+09:00",
     "source_lastmod": "2025-03-05T00:00:00+09:00",
-    "description": "Cohere라는 AI 기업이 어떤 회사인지 기본 정보를 정리한 짧은 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "Cohere라는 AI 기업이 어떤 회사인지 기본 정보를 정리한 짧은 로그이다.",
     "tags": [
       "bib"
     ],
@@ -32666,7 +32670,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250304T172608/",
     "source_date": "2025-03-04T17:26:00+09:00",
     "source_lastmod": "2025-03-04T17:26:00+09:00",
-    "description": "Emacs 태그 자동완성을 꺼야 하는 이유와 해결 설정을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Emacs 태그 자동완성을 꺼야 하는 이유와 해결 설정을 정리한 노트이다.",
     "tags": [
       "autocompletion",
       "doomemacs",
@@ -32682,7 +32686,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250302T104842/",
     "source_date": "2025-03-02T10:48:00+09:00",
     "source_lastmod": "2025-03-02T10:48:00+09:00",
-    "description": "K-Culture 플랫폼 메이크스타가 어떤 회사인지 기본 정보를 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "K-Culture 플랫폼 메이크스타가 어떤 회사인지 기본 정보를 정리한 로그이다.",
     "tags": [],
     "page_id": 381563,
     "url": "https://wikidocs.net/381563"
@@ -32708,7 +32712,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250227T195539/",
     "source_date": "2025-02-27T19:55:00+09:00",
     "source_lastmod": "2025-02-27T19:55:00+09:00",
-    "description": "헤딩 이동과 레벨 조작 키를 Alt 계열로 통일하려는 키바인딩 정리 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "헤딩 이동과 레벨 조작 키를 Alt 계열로 통일하려는 키바인딩 정리 노트이다.",
     "tags": [
       "emacs",
       "keybindings",
@@ -32724,7 +32728,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250227T143549/",
     "source_date": "2025-02-27T14:35:00+09:00",
     "source_lastmod": "2025-02-27T14:35:00+09:00",
-    "description": "imenu-list를 버퍼용 TOC 프레임워크로 활용하는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "imenu-list를 버퍼용 TOC 프레임워크로 활용하는 방법을 정리한 노트이다.",
     "tags": [
       "bib"
     ],
@@ -32738,7 +32742,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250227T065258/",
     "source_date": "2025-02-27T06:52:00+09:00",
     "source_lastmod": "2025-02-27T06:52:00+09:00",
-    "description": "발자크의 작업 습관과 ADHD 유사성을 조심스럽게 비교해 보는 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "발자크의 작업 습관과 ADHD 유사성을 조심스럽게 비교해 보는 LLM 로그이다.",
     "tags": [],
     "page_id": 381559,
     "url": "https://wikidocs.net/381559"
@@ -32769,7 +32773,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250226T110316/",
     "source_date": "2025-02-26T11:03:00+09:00",
     "source_lastmod": "2025-02-26T11:03:00+09:00",
-    "description": "학습 목표가 질문과 방향, 목차를 어떻게 만들어 주는지 살피는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "학습 목표가 질문과 방향, 목차를 어떻게 만들어 주는지 살피는 노트이다.",
     "tags": [
       "learning",
       "goals",
@@ -32787,7 +32791,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241111T144638/",
     "source_date": "2024-11-11T14:46:00+09:00",
     "source_lastmod": "2025-02-26T00:00:00+09:00",
-    "description": "LaTeX 자동 활성 스니펫을 이맥스 수식 입력 흐름에 붙이는 방법을 살피는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "LaTeX 자동 활성 스니펫을 이맥스 수식 입력 흐름에 붙이는 방법을 살피는 노트이다.",
     "tags": [
       "bib",
       "latex",
@@ -32842,7 +32846,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250225T111816/",
     "source_date": "2025-02-25T11:18:00+09:00",
     "source_lastmod": "2025-02-25T11:18:00+09:00",
-    "description": "생각이 너무 많은 상태로 알려진 PESM 증후군 개념을 정리한 짧은 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "생각이 너무 많은 상태로 알려진 PESM 증후군 개념을 정리한 짧은 로그이다.",
     "tags": [],
     "page_id": 381557,
     "url": "https://wikidocs.net/381557"
@@ -32854,7 +32858,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250224T125854/",
     "source_date": "2025-02-24T12:58:00+09:00",
     "source_lastmod": "2025-02-24T12:58:00+09:00",
-    "description": "Org Babel을 리터레이트 프로그래밍과 출판의 중심으로 바라보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Org Babel을 리터레이트 프로그래밍과 출판의 중심으로 바라보는 노트이다.",
     "tags": [
       "bib",
       "jupyter",
@@ -32938,7 +32942,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250223T182857/",
     "source_date": "2025-02-23T18:28:00+09:00",
     "source_lastmod": "2025-02-23T18:28:00+09:00",
-    "description": "swiper와 consult-line의 장단점을 검색 경험 관점에서 비교하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "swiper와 consult-line의 장단점을 검색 경험 관점에서 비교하는 노트이다.",
     "tags": [
       "bib"
     ],
@@ -32952,7 +32956,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250223T114721/",
     "source_date": "2025-02-23T11:47:00+09:00",
     "source_lastmod": "2025-02-23T11:47:00+09:00",
-    "description": "지식 유희자를 위한 텍스트 힙스터 놀이터를 만들려는 커뮤니티 구상 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "지식 유희자를 위한 텍스트 힙스터 놀이터를 만들려는 커뮤니티 구상 노트이다.",
     "tags": [
       "community",
       "emacs",
@@ -32968,7 +32972,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250222T190241/",
     "source_date": "2025-02-22T19:02:00+09:00",
     "source_lastmod": "2025-02-22T19:02:00+09:00",
-    "description": "Jupyter QtConsole을 리눅스 그래픽 콘솔로 쓰는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Jupyter QtConsole을 리눅스 그래픽 콘솔로 쓰는 방법을 정리한 노트이다.",
     "tags": [
       "bib",
       "jupyter",
@@ -32986,7 +32990,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250221T192910/",
     "source_date": "2025-02-21T19:29:00+09:00",
     "source_lastmod": "2025-02-21T19:29:00+09:00",
-    "description": "emacs-jupyter에서 코드블록과 버퍼를 REPL로 보내는 방법을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "emacs-jupyter에서 코드블록과 버퍼를 REPL로 보내는 방법을 정리한 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -33003,7 +33007,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250221T175407/",
     "source_date": "2025-02-21T17:54:00+09:00",
     "source_lastmod": "2025-02-21T17:54:00+09:00",
-    "description": "철학사를 시대와 분야, 인물과 학파의 지도로 다시 그려 보려는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "철학사를 시대와 분야, 인물과 학파의 지도로 다시 그려 보려는 글이다.",
     "tags": [
       "ancient",
       "autholog",
@@ -33024,7 +33028,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250221T114912/",
     "source_date": "2025-02-21T11:49:00+09:00",
     "source_lastmod": "2025-02-21T11:49:00+09:00",
-    "description": "Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트이다.",
     "tags": [
       "bib"
     ],
@@ -33038,7 +33042,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250220T122335/",
     "source_date": "2025-02-20T12:23:00+09:00",
     "source_lastmod": "2025-02-20T12:23:00+09:00",
-    "description": "한국인 이맥스 사용자와 관련 블로그, 흔적을 모아 보려는 커뮤니티 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "한국인 이맥스 사용자와 관련 블로그, 흔적을 모아 보려는 커뮤니티 노트이다.",
     "tags": [
       "emacsian",
       "korean",
@@ -33071,7 +33075,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250219T211552/",
     "source_date": "2025-02-19T21:15:00+09:00",
     "source_lastmod": "2025-02-19T21:15:00+09:00",
-    "description": "elpy와 ipython을 중심으로 이맥스 파이썬 인터프리터 환경을 살펴보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "elpy와 ipython을 중심으로 이맥스 파이썬 인터프리터 환경을 살펴보는 노트이다.",
     "tags": [
       "bib"
     ],
@@ -33134,7 +33138,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250218T171350/",
     "source_date": "2025-02-18T17:13:00+09:00",
     "source_lastmod": "2025-02-18T17:13:00+09:00",
-    "description": "이맥스 스크롤과 편집 키바인딩을 손목 친화적으로 바꾸려는 대안 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스 스크롤과 편집 키바인딩을 손목 친화적으로 바꾸려는 대안 노트이다.",
     "tags": [
       "keybindings",
       "emacs",
@@ -33150,7 +33154,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250218T151435/",
     "source_date": "2025-02-18T15:14:00+09:00",
     "source_lastmod": "2025-02-18T15:14:00+09:00",
-    "description": "snakemacs를 파이썬과 주피터 중심 스타터키트로 검토한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "snakemacs를 파이썬과 주피터 중심 스타터키트로 검토한 노트이다.",
     "tags": [
       "bib",
       "jupyter",
@@ -33166,7 +33170,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250218T111836/",
     "source_date": "2025-02-18T11:18:00+09:00",
     "source_lastmod": "2025-02-18T11:18:00+09:00",
-    "description": "scimax를 과학자용 Emacs 스타터키트와 주피터 환경 관점에서 살펴보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "scimax를 과학자용 Emacs 스타터키트와 주피터 환경 관점에서 살펴보는 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -33194,7 +33198,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250218T071249/",
     "source_date": "2025-02-18T07:12:00+09:00",
     "source_lastmod": "2025-02-18T07:12:00+09:00",
-    "description": "ZeroMQ와 libzmq가 주피터와 이맥스 빌드에서 왜 필요한지 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "ZeroMQ와 libzmq가 주피터와 이맥스 빌드에서 왜 필요한지 정리한 노트이다.",
     "tags": [
       "bib"
     ],
@@ -33238,7 +33242,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20231209T075807/",
     "source_date": "2023-12-09T07:58:00+09:00",
     "source_lastmod": "2025-02-18T00:00:00+09:00",
-    "description": "#어젠다: 워크플로우 예제 모음 - 조직모드",
+    "description": "org-agenda 워크플로우 예제를 모아 두고 캡처와 파일 구조, 운영 원칙을 함께 점검한다. 실제 환경에 가져다 쓰기 전에 어떤 전제가 필요한지 파악하기 좋은 참고 노트다.",
     "tags": [
       "bib",
       "examples",
@@ -33319,7 +33323,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250217T153318/",
     "source_date": "2025-02-17T15:33:00+09:00",
     "source_lastmod": "2025-02-17T15:33:00+09:00",
-    "description": "Apheleia 포매팅 결과가 환경마다 달라지는 이유를 추적하는 기술 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "Apheleia 포매팅 결과가 환경마다 달라지는 이유를 추적하는 기술 로그이다.",
     "tags": [],
     "page_id": 381534,
     "url": "https://wikidocs.net/381534"
@@ -33383,7 +33387,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250216T001443/",
     "source_date": "2025-02-16T00:14:00+09:00",
     "source_lastmod": "2025-02-16T00:14:00+09:00",
-    "description": "국립공원공단 예약시스템을 캠핑과 가족여행 맥락에서 기록한 실용 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "국립공원공단 예약시스템을 캠핑과 가족여행 맥락에서 기록한 실용 노트이다.",
     "tags": [
       "bib",
       "camping",
@@ -33399,7 +33403,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250118T124126/",
     "source_date": "2025-01-18T12:41:00+09:00",
     "source_lastmod": "2025-02-16T00:00:00+09:00",
-    "description": "Doom Emacs에서 nov 패키지로 EPUB을 읽도록 설정하는 방법을 적은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Doom Emacs에서 nov 패키지로 EPUB을 읽도록 설정하는 방법을 적은 노트이다.",
     "tags": [
       "doomemacs",
       "ebook"
@@ -33431,7 +33435,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240922T103151/",
     "source_date": "2024-09-22T10:31:00+09:00",
     "source_lastmod": "2025-02-15T00:00:00+09:00",
-    "description": "모두가 생산자라는 관점에서 작은 소통 공간과 뉴스레터 커뮤니티의 필요를 적은 글이다. 실제 활용 흐름을 담았다.",
+    "description": "모두가 생산자라는 관점에서 작은 소통 공간과 뉴스레터 커뮤니티의 필요를 적은 글이다.",
     "tags": [
       "autholog",
       "communication",
@@ -33478,7 +33482,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250214T135644/",
     "source_date": "2025-02-14T13:56:00+09:00",
     "source_lastmod": "2025-02-14T13:56:00+09:00",
-    "description": "just와 justfile이 프로젝트 명령 실행을 어떻게 단순화하는지 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "just와 justfile이 프로젝트 명령 실행을 어떻게 단순화하는지 정리한 노트이다.",
     "tags": [
       "bib"
     ],
@@ -33492,7 +33496,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250214T120837/",
     "source_date": "2025-02-14T12:08:00+09:00",
     "source_lastmod": "2025-02-14T12:08:00+09:00",
-    "description": "회색돌기법이 왜 효과적인지 비폭력 대화 맥락과 함께 살펴보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "회색돌기법이 왜 효과적인지 비폭력 대화 맥락과 함께 살펴보는 노트이다.",
     "tags": [
       "bib"
     ],
@@ -33506,7 +33510,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250214T141826/",
     "source_date": "2025-02-14T14:18:00+09:00",
     "source_lastmod": "2025-02-14T00:00:00+09:00",
-    "description": "파이썬 생태계에서 자주 쓰는 표준 라이브러리와 모듈을 묶어 두는 컬렉션이다. 실제 활용 흐름을 담았다.",
+    "description": "파이썬 생태계에서 자주 쓰는 표준 라이브러리와 모듈을 묶어 두는 컬렉션이다.",
     "tags": [
       "ecosystem",
       "python",
@@ -33572,7 +33576,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240819T162208/",
     "source_date": "2024-08-19T16:22:00+09:00",
     "source_lastmod": "2025-02-14T00:00:00+09:00",
-    "description": "안드로이드 16과 삼성 DeX가 데스크톱 대안이 될 수 있는지 기사와 함께 검토한 기록. 실제 활용 흐름을 담았다.",
+    "description": "안드로이드 16과 삼성 DeX가 데스크톱 대안이 될 수 있는지 기사와 함께 검토한 기록.",
     "tags": [
       "android",
       "bib",
@@ -33620,7 +33624,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250213T135857/",
     "source_date": "2025-02-13T13:58:00+09:00",
     "source_lastmod": "2025-02-13T13:58:00+09:00",
-    "description": "Quarto로 한국어와 영어 같은 다국어 포스팅을 운영하는 방법을 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "Quarto로 한국어와 영어 같은 다국어 포스팅을 운영하는 방법을 정리한 로그이다.",
     "tags": [
       "quarto"
     ],
@@ -33708,7 +33712,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250212T123217/",
     "source_date": "2025-02-12T12:32:00+09:00",
     "source_lastmod": "2025-02-12T12:32:00+09:00",
-    "description": "양자역학과 현대물리의 역사 드라마를 한곳에 모아 보려는 물리학 컬렉션 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "양자역학과 현대물리의 역사 드라마를 한곳에 모아 보려는 물리학 컬렉션 노트이다.",
     "tags": [
       "bib",
       "collection",
@@ -33725,7 +33729,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250212T092332/",
     "source_date": "2025-02-12T09:23:00+09:00",
     "source_lastmod": "2025-02-12T09:23:00+09:00",
-    "description": "허슬 문화가 과도한 긴장과 보여주기 경쟁을 만든다는 문제의식을 적은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "허슬 문화가 과도한 긴장과 보여주기 경쟁을 만든다는 문제의식을 적은 노트이다.",
     "tags": [
       "bib"
     ],
@@ -33739,7 +33743,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250209T112155/",
     "source_date": "2025-02-09T11:21:00+09:00",
     "source_lastmod": "2025-02-09T11:21:00+09:00",
-    "description": "강화도 옥토끼 우주센터 주변 정보와 가족 나들이 맥락을 적은 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "강화도 옥토끼 우주센터 주변 정보와 가족 나들이 맥락을 적은 LLM 로그이다.",
     "tags": [],
     "page_id": 381514,
     "url": "https://wikidocs.net/381514"
@@ -33751,7 +33755,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250207T142057/",
     "source_date": "2025-02-07T14:20:00+09:00",
     "source_lastmod": "2025-02-07T14:20:00+09:00",
-    "description": "리눅스에서 청약Home 인증을 통과하며 공동·금융·간편 인증서를 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "리눅스에서 청약Home 인증을 통과하며 공동·금융·간편 인증서를 정리한 노트이다.",
     "tags": [],
     "page_id": 381513,
     "url": "https://wikidocs.net/381513"
@@ -33763,7 +33767,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250207T123109/",
     "source_date": "2025-02-07T12:31:00+09:00",
     "source_lastmod": "2025-02-07T12:31:00+09:00",
-    "description": "클로저 풀스택 개발의 전체 그림을 서버와 UI 도구 관점에서 모아 본 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "클로저 풀스택 개발의 전체 그림을 서버와 UI 도구 관점에서 모아 본 노트이다.",
     "tags": [
       "bib",
       "clojure"
@@ -33778,7 +33782,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250206T160514/",
     "source_date": "2025-02-06T16:05:00+09:00",
     "source_lastmod": "2025-02-06T16:05:00+09:00",
-    "description": "Emacs geek와 Emacs geeks 표현 차이를 두고 고민한 짧은 언어 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "Emacs geek와 Emacs geeks 표현 차이를 두고 고민한 짧은 언어 로그이다.",
     "tags": [
       "emacs",
       "geeks"
@@ -33793,7 +33797,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250206T091027/",
     "source_date": "2025-02-06T09:10:00+09:00",
     "source_lastmod": "2025-02-06T09:10:00+09:00",
-    "description": "CAF 파일을 MP3나 WAV로 바꾸는 방법을 정리한 짧은 변환 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "CAF 파일을 MP3나 WAV로 바꾸는 방법을 정리한 짧은 변환 로그이다.",
     "tags": [],
     "page_id": 381505,
     "url": "https://wikidocs.net/381505"
@@ -33820,7 +33824,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250203T195102/",
     "source_date": "2025-02-03T19:51:00+09:00",
     "source_lastmod": "2025-02-03T19:51:00+09:00",
-    "description": "Ledger와 Beancount로 개인 금융과 복식부기를 다뤄 보려는 회계 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Ledger와 Beancount로 개인 금융과 복식부기를 다뤄 보려는 회계 노트이다.",
     "tags": [
       "bib",
       "finance",
@@ -33855,7 +33859,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250202T075822/",
     "source_date": "2025-02-02T07:58:00+09:00",
     "source_lastmod": "2025-02-02T07:58:00+09:00",
-    "description": "이맥스를 실제로 누가 만들고 커밋하는지 추적해 보려는 짧은 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스를 실제로 누가 만들고 커밋하는지 추적해 보려는 짧은 로그이다.",
     "tags": [
       "emacs"
     ],
@@ -33869,7 +33873,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250131T122608/",
     "source_date": "2025-01-31T12:26:00+09:00",
     "source_lastmod": "2025-01-31T12:26:00+09:00",
-    "description": "기술 커뮤니티 lobste.rs와 Reddit의 차이를 비교하는 커뮤니티 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "기술 커뮤니티 lobste.rs와 Reddit의 차이를 비교하는 커뮤니티 메모이다.",
     "tags": [
       "community"
     ],
@@ -33897,7 +33901,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250129T215257/",
     "source_date": "2025-01-29T21:52:00+09:00",
     "source_lastmod": "2025-01-29T21:54:00+09:00",
-    "description": "이맥스와 판독, pandoc 변환 설정을 연결해 두는 작업용 설정 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스와 판독, pandoc 변환 설정을 연결해 두는 작업용 설정 노트이다.",
     "tags": [
       "configuration",
       "emacs",
@@ -33913,7 +33917,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250129T180814/",
     "source_date": "2025-01-29T18:08:00+09:00",
     "source_lastmod": "2025-01-29T18:08:00+09:00",
-    "description": "터미널에서 asciiquarium 같은 아스키아트 프로그램을 찾고 비교한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "터미널에서 asciiquarium 같은 아스키아트 프로그램을 찾고 비교한 노트이다.",
     "tags": [
       "terminal"
     ],
@@ -33927,7 +33931,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250125T190619/",
     "source_date": "2025-01-25T19:06:00+09:00",
     "source_lastmod": "2025-01-25T19:06:00+09:00",
-    "description": "한글 NFD 자모를 NFC 완성형으로 정규화하는 문제와 해결책을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "한글 NFD 자모를 NFC 완성형으로 정규화하는 문제와 해결책을 정리한 노트이다.",
     "tags": [
       "unicode",
       "pandoc",
@@ -33943,7 +33947,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250124T103402/",
     "source_date": "2025-01-24T10:34:00+09:00",
     "source_lastmod": "2025-01-24T10:34:00+09:00",
-    "description": "이맥스 xref가 정의와 참조 검색에서 어떻게 동작하는지 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스 xref가 정의와 참조 검색에서 어떻게 동작하는지 정리한 로그이다.",
     "tags": [],
     "page_id": 381492,
     "url": "https://wikidocs.net/381492"
@@ -33955,7 +33959,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250124T060946/",
     "source_date": "2025-01-24T06:09:00+09:00",
     "source_lastmod": "2025-01-24T06:09:00+09:00",
-    "description": "XeLaTeX와 PDFLaTeX의 차이와 설치 방법을 정리한 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "XeLaTeX와 PDFLaTeX의 차이와 설치 방법을 정리한 LLM 로그이다.",
     "tags": [],
     "page_id": 381491,
     "url": "https://wikidocs.net/381491"
@@ -34000,7 +34004,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20250107T050708/",
     "source_date": "2025-01-07T05:07:00+09:00",
     "source_lastmod": "2025-01-07T05:07:00+09:00",
-    "description": "젠틀몬스터 안경 브랜드와 유사 브랜드, 광학 원리를 함께 물어본 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "젠틀몬스터 안경 브랜드와 유사 브랜드, 광학 원리를 함께 물어본 로그이다.",
     "tags": [],
     "page_id": 381484,
     "url": "https://wikidocs.net/381484"
@@ -34012,7 +34016,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241230T165720/",
     "source_date": "2024-12-30T16:57:00+09:00",
     "source_lastmod": "2024-12-30T16:57:00+09:00",
-    "description": "영유아 알레르기 MAST 검사가 무엇이고 어떻게 해석되는지 묻는 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "영유아 알레르기 MAST 검사가 무엇이고 어떻게 해석되는지 묻는 LLM 로그이다.",
     "tags": [],
     "page_id": 381480,
     "url": "https://wikidocs.net/381480"
@@ -34040,7 +34044,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241226T220559/",
     "source_date": "2024-12-26T22:05:00+09:00",
     "source_lastmod": "2024-12-26T22:05:00+09:00",
-    "description": "Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Emacs에서 affe와 fzf를 활용한 퍼지 검색 흐름을 정리한 노트이다.",
     "tags": [],
     "page_id": 381475,
     "url": "https://wikidocs.net/381475"
@@ -34052,7 +34056,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241226T122537/",
     "source_date": "2024-12-26T12:25:00+09:00",
     "source_lastmod": "2024-12-26T12:25:00+09:00",
-    "description": "마크 로버식 도미노 과학 실험 장치와 구현 아이디어를 물어본 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "마크 로버식 도미노 과학 실험 장치와 구현 아이디어를 물어본 LLM 로그이다.",
     "tags": [],
     "page_id": 381474,
     "url": "https://wikidocs.net/381474"
@@ -34064,7 +34068,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241225T044849/",
     "source_date": "2024-12-25T04:48:00+09:00",
     "source_lastmod": "2024-12-25T04:48:00+09:00",
-    "description": "인공지능 시대 전문직이 어떻게 변하고 인간 역할이 무엇이 될지 더듬는 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "인공지능 시대 전문직이 어떻게 변하고 인간 역할이 무엇이 될지 더듬는 로그이다.",
     "tags": [],
     "page_id": 381470,
     "url": "https://wikidocs.net/381470"
@@ -34076,7 +34080,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241224T095614/",
     "source_date": "2024-12-24T09:56:00+09:00",
     "source_lastmod": "2024-12-24T09:56:00+09:00",
-    "description": "개념 기반 탐구 학습이론의 핵심과 교실 적용 포인트를 정리한 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "개념 기반 탐구 학습이론의 핵심과 교실 적용 포인트를 정리한 LLM 로그이다.",
     "tags": [],
     "page_id": 381468,
     "url": "https://wikidocs.net/381468"
@@ -34088,7 +34092,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241223T232713/",
     "source_date": "2024-12-23T23:27:00+09:00",
     "source_lastmod": "2024-12-23T23:27:00+09:00",
-    "description": "니체와 피아제, 칼융이 어린이를 어떻게 바라보는지 비교 정리하려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "니체와 피아제, 칼융이 어린이를 어떻게 바라보는지 비교 정리하려는 노트이다.",
     "tags": [
       "creativity",
       "folgezettel",
@@ -34104,7 +34108,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241223T105927/",
     "source_date": "2024-12-23T10:59:00+09:00",
     "source_lastmod": "",
-    "description": "콰르토는 직접 빌드하지 말고 패키지로 설치하자는 교훈을 남긴 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "콰르토는 직접 빌드하지 말고 패키지로 설치하자는 교훈을 남긴 노트이다.",
     "tags": [
       "install",
       "quarto"
@@ -34133,7 +34137,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241220T154648/",
     "source_date": "2024-12-20T15:46:00+09:00",
     "source_lastmod": "2024-12-20T15:46:00+09:00",
-    "description": "희망도서와 올해의 책, 세종도서 추천 목록을 20년 흐름으로 보려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "희망도서와 올해의 책, 세종도서 추천 목록을 20년 흐름으로 보려는 노트이다.",
     "tags": [
       "arts",
       "books",
@@ -34153,7 +34157,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241218T154517/",
     "source_date": "2024-12-18T15:45:00+09:00",
     "source_lastmod": "2024-12-18T15:45:00+09:00",
-    "description": "이맥스에서 URL 북마크를 저장하고 관리하는 방법을 정리한 짧은 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스에서 URL 북마크를 저장하고 관리하는 방법을 정리한 짧은 로그이다.",
     "tags": [
       "bookmark"
     ],
@@ -34167,7 +34171,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241218T033907/",
     "source_date": "2024-12-18T03:39:00+09:00",
     "source_lastmod": "2024-12-18T03:39:00+09:00",
-    "description": "번역과 지역화, 국제화를 문화와 접근성 관점까지 넓혀 보는 다국어 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "번역과 지역화, 국제화를 문화와 접근성 관점까지 넓혀 보는 다국어 노트이다.",
     "tags": [
       "bib",
       "internationalization",
@@ -34183,7 +34187,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241218T031505/",
     "source_date": "2024-12-18T03:15:00+09:00",
     "source_lastmod": "2024-12-18T03:15:00+09:00",
-    "description": "Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Tana의 슈퍼태그 개념을 org-supertag와 함께 이해해 보려는 노트이다.",
     "tags": [
       "orgmode"
     ],
@@ -34197,7 +34201,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241217T091727/",
     "source_date": "2024-12-17T09:17:00+09:00",
     "source_lastmod": "2024-12-17T09:17:00+09:00",
-    "description": "리눅스 inotify와 파일 감시 한도 문제를 해결하는 방법을 기록한 기술 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "리눅스 inotify와 파일 감시 한도 문제를 해결하는 방법을 기록한 기술 노트이다.",
     "tags": [
       "linux"
     ],
@@ -34211,7 +34215,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241217T084746/",
     "source_date": "2024-12-17T08:47:00+09:00",
     "source_lastmod": "2024-12-17T08:47:00+09:00",
-    "description": "곤충젤리에서 출발해 대안 식품과 대체 단백질 흐름을 살피는 질문답변 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "곤충젤리에서 출발해 대안 식품과 대체 단백질 흐름을 살피는 질문답변 노트이다.",
     "tags": [
       "alternative",
       "novel",
@@ -34227,7 +34231,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241216T100853/",
     "source_date": "2024-12-16T10:08:00+09:00",
     "source_lastmod": "2024-12-16T10:09:00+09:00",
-    "description": "리눅스에서 이맥스를 PPA나 빌드 방식으로 설치하는 경로를 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "리눅스에서 이맥스를 PPA나 빌드 방식으로 설치하는 경로를 정리한 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -34243,7 +34247,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241215T201239/",
     "source_date": "2024-12-15T20:12:00+09:00",
     "source_lastmod": "2024-12-15T20:12:00+09:00",
-    "description": "오픈소스 교육용 앱과 KDE, 우분투 계열 도구를 함께 모아 보는 컬렉션이다. 실제 활용 흐름을 담았다.",
+    "description": "오픈소스 교육용 앱과 KDE, 우분투 계열 도구를 함께 모아 보는 컬렉션이다.",
     "tags": [
       "bib",
       "collection",
@@ -34260,7 +34264,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241215T185538/",
     "source_date": "2024-12-15T18:55:00+09:00",
     "source_lastmod": "2024-12-15T18:55:00+09:00",
-    "description": "브라우저에서 텍스트 치환을 할 수 있는 방법과 플러그인을 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "브라우저에서 텍스트 치환을 할 수 있는 방법과 플러그인을 정리한 로그이다.",
     "tags": [
       "browser",
       "editing"
@@ -34275,7 +34279,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241215T170144/",
     "source_date": "2024-12-15T17:01:00+09:00",
     "source_lastmod": "2024-12-15T17:01:00+09:00",
-    "description": "EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼런스 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼런스 메모이다.",
     "tags": [
       "bib"
     ],
@@ -34289,7 +34293,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241215T121847/",
     "source_date": "2024-12-15T12:18:00+09:00",
     "source_lastmod": "2024-12-15T12:18:00+09:00",
-    "description": "애매함과 모호함, 용어 차이를 사전처럼 모으려는 어휘 컬렉션 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "애매함과 모호함, 용어 차이를 사전처럼 모으려는 어휘 컬렉션 노트이다.",
     "tags": [
       "ambiguity",
       "collection",
@@ -34307,7 +34311,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241215T120457/",
     "source_date": "2024-12-15T12:04:00+09:00",
     "source_lastmod": "2024-12-15T12:07:00+09:00",
-    "description": "조직모드의 가이드와 튜토리얼 자료를 줍줍하며 배우는 흐름을 적은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "조직모드의 가이드와 튜토리얼 자료를 줍줍하며 배우는 흐름을 적은 노트이다.",
     "tags": [
       "guide",
       "orgmode",
@@ -34338,7 +34342,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241213T161527/",
     "source_date": "2024-12-13T16:15:00+09:00",
     "source_lastmod": "",
-    "description": "울프럼알파를 이맥스와 연결하기 위한 API 정보와 기본 자료를 모은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "울프럼알파를 이맥스와 연결하기 위한 API 정보와 기본 자료를 모은 노트이다.",
     "tags": [
       "bib"
     ],
@@ -34352,7 +34356,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241212T172507/",
     "source_date": "2024-12-12T17:25:00+09:00",
     "source_lastmod": "2024-12-12T17:25:00+09:00",
-    "description": "하늘이 왜 파란지 레일리 산란으로 설명한 아주 짧은 과학 질답 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "하늘이 왜 파란지 레일리 산란으로 설명한 아주 짧은 과학 질답 로그이다.",
     "tags": [
       "sky",
       "why"
@@ -34367,7 +34371,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241212T140836/",
     "source_date": "2024-12-12T14:08:00+09:00",
     "source_lastmod": "2024-12-12T14:08:00+09:00",
-    "description": "개발자를 위한 AI 프롬프트 엔지니어링 자료와 가이드를 모아 두는 컬렉션이다. 실제 활용 흐름을 담았다.",
+    "description": "개발자를 위한 AI 프롬프트 엔지니어링 자료와 가이드를 모아 두는 컬렉션이다.",
     "tags": [
       "bib",
       "aiprompt",
@@ -34388,7 +34392,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241212T103436/",
     "source_date": "2024-12-12T10:34:00+09:00",
     "source_lastmod": "2024-12-12T10:34:00+09:00",
-    "description": "신시아 솔로몬과 로고 프로그래밍 교육의 계보를 간단히 정리한 LLM 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "신시아 솔로몬과 로고 프로그래밍 교육의 계보를 간단히 정리한 LLM 로그이다.",
     "tags": [],
     "page_id": 381425,
     "url": "https://wikidocs.net/381425"
@@ -34445,7 +34449,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241008T131536/",
     "source_date": "2024-10-08T13:15:00+09:00",
     "source_lastmod": "2024-12-10T13:27:00+09:00",
-    "description": "이맥스 스타터키트와 설정 생성기를 비교하며 닷파일 생성기의 의미를 살피는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스 스타터키트와 설정 생성기를 비교하며 닷파일 생성기의 의미를 살피는 노트이다.",
     "tags": [
       "dotfiles",
       "emacs",
@@ -34461,7 +34465,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241210T130047/",
     "source_date": "2024-12-10T13:00:00+09:00",
     "source_lastmod": "2024-12-10T13:00:00+09:00",
-    "description": "AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어로 다시 보는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "AWK를 이맥스 안에서 텍스트 처리 도구이자 프로그래밍 언어로 다시 보는 노트이다.",
     "tags": [
       "emacs",
       "awk",
@@ -34477,7 +34481,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241210T081931/",
     "source_date": "2024-12-10T08:19:00+09:00",
     "source_lastmod": "2024-12-10T08:19:00+09:00",
-    "description": "레고 마인드스톰과 스파이크 프라임에 함수형 프로그래밍 감각을 붙여 보려는 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "레고 마인드스톰과 스파이크 프라임에 함수형 프로그래밍 감각을 붙여 보려는 로그이다.",
     "tags": [],
     "page_id": 381421,
     "url": "https://wikidocs.net/381421"
@@ -34489,7 +34493,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241210T053619/",
     "source_date": "2024-12-10T05:36:00+09:00",
     "source_lastmod": "2024-12-10T05:36:00+09:00",
-    "description": "생각이 덜 요구되는 시대에 오히려 앎이 무엇인지 다시 묻는 어쏠로그이다. 실제 활용 흐름을 담았다.",
+    "description": "생각이 덜 요구되는 시대에 오히려 앎이 무엇인지 다시 묻는 어쏠로그이다.",
     "tags": [
       "knowing",
       "autholog"
@@ -34504,7 +34508,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241130T183311/",
     "source_date": "2024-11-30T18:33:00+09:00",
     "source_lastmod": "2024-12-09T15:15:00+09:00",
-    "description": "블루스카이 도메인 핸들과 계정 연결 정보를 간단히 남겨 둔 소셜 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "블루스카이 도메인 핸들과 계정 연결 정보를 간단히 남겨 둔 소셜 메모이다.",
     "tags": [
       "sns"
     ],
@@ -34518,7 +34522,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241209T145307/",
     "source_date": "2024-12-09T14:53:00+09:00",
     "source_lastmod": "2024-12-09T14:53:00+09:00",
-    "description": "빌 브라이슨을 읽다 만난 탐험가 일화가 과장인지 검토하며 대항해시대를 더듬은 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "빌 브라이슨을 읽다 만난 탐험가 일화가 과장인지 검토하며 대항해시대를 더듬은 로그이다.",
     "tags": [],
     "page_id": 381416,
     "url": "https://wikidocs.net/381416"
@@ -34545,7 +34549,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241208T114711/",
     "source_date": "2024-12-08T11:47:00+09:00",
     "source_lastmod": "2024-12-08T11:50:00+09:00",
-    "description": "넘버블록스를 숫자 학습 교구로 바라보며 관련 자료를 짧게 모아 둔 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "넘버블록스를 숫자 학습 교구로 바라보며 관련 자료를 짧게 모아 둔 노트이다.",
     "tags": [
       "bib"
     ],
@@ -34559,7 +34563,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241208T114808/",
     "source_date": "2024-12-08T11:48:00+09:00",
     "source_lastmod": "2024-12-08T11:48:00+09:00",
-    "description": "넘버블록스 같은 수리과학 교구가 아이의 수학 감각에 주는 도움을 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "넘버블록스 같은 수리과학 교구가 아이의 수학 감각에 주는 도움을 정리한 로그이다.",
     "tags": [],
     "page_id": 381413,
     "url": "https://wikidocs.net/381413"
@@ -34571,7 +34575,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240823T103322/",
     "source_date": "2024-08-23T10:33:00+09:00",
     "source_lastmod": "2024-12-08T11:41:00+09:00",
-    "description": "셀프바베큐장 방문 정보와 왜 이런 장소가 필요한지에 대한 생각을 적어 둔 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "셀프바베큐장 방문 정보와 왜 이런 장소가 필요한지에 대한 생각을 적어 둔 메모이다.",
     "tags": [],
     "page_id": 381291,
     "url": "https://wikidocs.net/381291"
@@ -34583,7 +34587,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241207T071748/",
     "source_date": "2024-12-07T07:17:00+09:00",
     "source_lastmod": "2024-12-07T07:34:00+09:00",
-    "description": "포춘쿠키와 삶과 죽음, 삶으로서의 일에 관한 도서 목록을 영감 구조로 묶는 글이다. 실제 활용 흐름을 담았다.",
+    "description": "포춘쿠키와 삶과 죽음, 삶으로서의 일에 관한 도서 목록을 영감 구조로 묶는 글이다.",
     "tags": [
       "autholog",
       "fortune",
@@ -34612,7 +34616,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241206T164930/",
     "source_date": "2024-12-06T16:49:00+09:00",
     "source_lastmod": "2024-12-06T16:49:00+09:00",
-    "description": "텍사노미와 폭소노미, 온톨로지 차이를 용어와 분류 체계 관점으로 정리한 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "텍사노미와 폭소노미, 온톨로지 차이를 용어와 분류 체계 관점으로 정리한 로그이다.",
     "tags": [
       "folksonomy",
       "taxonomy",
@@ -34630,7 +34634,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241206T150106/",
     "source_date": "2024-12-06T15:01:00+09:00",
     "source_lastmod": "2024-12-06T15:01:00+09:00",
-    "description": "이맥스 Calc가 컴퓨터대수학시스템과 어디까지 닿는지 비교해 본 짧은 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스 Calc가 컴퓨터대수학시스템과 어디까지 닿는지 비교해 본 짧은 로그이다.",
     "tags": [],
     "page_id": 381406,
     "url": "https://wikidocs.net/381406"
@@ -34642,7 +34646,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241206T123751/",
     "source_date": "2024-12-06T12:37:00+09:00",
     "source_lastmod": "2024-12-06T12:41:00+09:00",
-    "description": "내맡기기와 시그날, 마을과 공동교육, 자연의 호출을 삶의 흐름으로 적어 낸 글이다. 실제 활용 흐름을 담았다.",
+    "description": "내맡기기와 시그날, 마을과 공동교육, 자연의 호출을 삶의 흐름으로 적어 낸 글이다.",
     "tags": [
       "autholog",
       "surrender"
@@ -34673,7 +34677,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241205T162217/",
     "source_date": "2024-12-05T16:22:00+09:00",
     "source_lastmod": "2024-12-05T16:22:00+09:00",
-    "description": "새로운 물결과 신계몽주의를 스티븐 핑커, 가브리엘 맥락으로 더듬는 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "새로운 물결과 신계몽주의를 스티븐 핑커, 가브리엘 맥락으로 더듬는 메모이다.",
     "tags": [
       "enlightenment"
     ],
@@ -34747,7 +34751,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240927T144314/",
     "source_date": "2024-09-27T14:43:00+09:00",
     "source_lastmod": "2024-12-04T11:42:00+09:00",
-    "description": "Evil 모드의 기본 이동과 단어 단위 조작을 빠르게 보기 위한 치트시트 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Evil 모드의 기본 이동과 단어 단위 조작을 빠르게 보기 위한 치트시트 노트이다.",
     "tags": [
       "cheatsheet",
       "evil"
@@ -34823,7 +34827,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241203T131250/",
     "source_date": "2024-12-03T13:12:00+09:00",
     "source_lastmod": "2024-12-03T13:12:00+09:00",
-    "description": "Quarto 파일을 Denote 방식으로 통합해 쓰는 가능성을 실험한 짧은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Quarto 파일을 Denote 방식으로 통합해 쓰는 가능성을 실험한 짧은 노트이다.",
     "tags": [
       "bib",
       "denote",
@@ -34886,7 +34890,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241006T083729/",
     "source_date": "2024-10-06T08:37:00+09:00",
     "source_lastmod": "2024-12-03T12:01:00+09:00",
-    "description": "디스코드 스레드가 오픈소스 커뮤니티 작업로그와 협업에 어떻게 쓰이는지 관찰한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "디스코드 스레드가 오픈소스 커뮤니티 작업로그와 협업에 어떻게 쓰이는지 관찰한 노트이다.",
     "tags": [
       "cooperation",
       "worklog"
@@ -34947,7 +34951,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241116T173401/",
     "source_date": "2024-11-16T17:34:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "닷파일 튜닝에서 커스텀과 순정의 균형을 어떻게 잡을지 풀어낸 실천 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "닷파일 튜닝에서 커스텀과 순정의 균형을 어떻게 잡을지 풀어낸 실천 메모이다.",
     "tags": [
       "custom",
       "doomemacs",
@@ -34965,7 +34969,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241111T152346/",
     "source_date": "2024-11-11T15:23:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "SICM과 MIT Scheme을 설치하고 이맥스에서 활용하려는 경로를 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "SICM과 MIT Scheme을 설치하고 이맥스에서 활용하려는 경로를 정리한 노트이다.",
     "tags": [
       "bib",
       "emacs",
@@ -34998,7 +35002,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241104T163330/",
     "source_date": "2024-11-04T16:33:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "스킴과 래킷, 이맥스리스프를 하나의 통합개발환경 관점으로 묶어 보려는 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "스킴과 래킷, 이맥스리스프를 하나의 통합개발환경 관점으로 묶어 보려는 메모이다.",
     "tags": [
       "emacside",
       "scheme",
@@ -35016,7 +35020,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241030T155448/",
     "source_date": "2024-10-30T15:54:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "구글 클라우드 엔진 관련 계정과 인증 정보, 연결 단서를 임시로 모아 둔 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "구글 클라우드 엔진 관련 계정과 인증 정보, 연결 단서를 임시로 모아 둔 메모이다.",
     "tags": [
       "cloud",
       "google"
@@ -35031,7 +35035,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241023T221717/",
     "source_date": "2024-10-23T22:17:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "팝업 프레임을 이용해 둠이맥스와 옴니 인터페이스를 어디서나 부르는 방법을 적은 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "팝업 프레임을 이용해 둠이맥스와 옴니 인터페이스를 어디서나 부르는 방법을 적은 노트이다.",
     "tags": [
       "gptel",
       "omni"
@@ -35046,7 +35050,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241009T123308/",
     "source_date": "2024-10-09T12:33:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "R과 ESS, 그리고 Quarto 흐름을 이맥스 통합개발환경으로 가져오는 설치 기록이다. 실제 활용 흐름을 담았다.",
+    "description": "R과 ESS, 그리고 Quarto 흐름을 이맥스 통합개발환경으로 가져오는 설치 기록이다.",
     "tags": [
       "emacside",
       "rlang",
@@ -35063,7 +35067,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241003T173305/",
     "source_date": "2024-10-03T17:33:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "유튜브를 더 불편하게 만들어 오히려 편리하게 쓰는 스마트폰 활용법을 적은 실천 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "유튜브를 더 불편하게 만들어 오히려 편리하게 쓰는 스마트폰 활용법을 적은 실천 노트이다.",
     "tags": [
       "autholog",
       "digital",
@@ -35080,7 +35084,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240930T134814/",
     "source_date": "2024-09-30T13:48:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "깃허브 듀얼 계정을 SSH 별칭으로 관리하며 리포지토리를 분리하는 방법을 적은 기록이다. 실제 활용 흐름을 담았다.",
+    "description": "깃허브 듀얼 계정을 SSH 별칭으로 관리하며 리포지토리를 분리하는 방법을 적은 기록이다.",
     "tags": [
       "bib",
       "github"
@@ -35123,7 +35127,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240917T161254/",
     "source_date": "2024-09-17T16:12:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "옵시디언 데일리 노트를 Denote 파일명 규칙과 맞추어 자동 연동하려는 설정 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "옵시디언 데일리 노트를 Denote 파일명 규칙과 맞추어 자동 연동하려는 설정 메모이다.",
     "tags": [
       "denote",
       "obsidian",
@@ -35139,7 +35143,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240915T222919/",
     "source_date": "2024-09-15T22:29:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "Org-mode를 배울 때 참고할 튜토리얼과 입문 경로를 느슨하게 정리한 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "Org-mode를 배울 때 참고할 튜토리얼과 입문 경로를 느슨하게 정리한 메모이다.",
     "tags": [
       "orgmode",
       "tutorial"
@@ -35154,7 +35158,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240915T124328/",
     "source_date": "2024-09-15T12:43:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "우분투 스냅 패키지를 지우고 저장 공간을 확보하는 실제 명령과 판단을 남긴 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "우분투 스냅 패키지를 지우고 저장 공간을 확보하는 실제 명령과 판단을 남긴 메모이다.",
     "tags": [
       "ubuntu",
       "packages",
@@ -35170,7 +35174,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240908T203202/",
     "source_date": "2024-09-08T20:32:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "스크린샷 파일 이름을 Denote 형식으로 일괄변경하는 스크립트 아이디어를 남긴 기록. 실제 활용 흐름을 담았다.",
+    "description": "스크린샷 파일 이름을 Denote 형식으로 일괄변경하는 스크립트 아이디어를 남긴 기록.",
     "tags": [
       "scripts"
     ],
@@ -35232,7 +35236,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240901T105220/",
     "source_date": "2024-09-01T10:52:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "디레드를 빌트인 파일 매니저로 쓰는 감각과 캐주얼 인터페이스 활용을 적어 둔 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "디레드를 빌트인 파일 매니저로 쓰는 감각과 캐주얼 인터페이스 활용을 적어 둔 메모이다.",
     "tags": [
       "emacs"
     ],
@@ -35246,7 +35250,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240825T081256/",
     "source_date": "2024-08-25T08:12:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "월요일 칠보 분리수거와 부모님 관련 할 일을 남겨 둔 아주 짧은 생활 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "월요일 칠보 분리수거와 부모님 관련 할 일을 남겨 둔 아주 짧은 생활 메모이다.",
     "tags": [
       "monday"
     ],
@@ -35260,7 +35264,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240822T114309/",
     "source_date": "2024-08-22T11:43:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "부모님 집에 들인 에브리봇 로봇청소기의 사용감과 필터 교환을 기록한 생활 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "부모님 집에 들인 에브리봇 로봇청소기의 사용감과 필터 교환을 기록한 생활 메모이다.",
     "tags": [
       "robot"
     ],
@@ -35274,7 +35278,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240820T155314/",
     "source_date": "2024-08-20T15:53:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "안산 어린이 천문대 방문 일정과 연락처를 남겨 둔 가족 천문 여행 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "안산 어린이 천문대 방문 일정과 연락처를 남겨 둔 가족 천문 여행 메모이다.",
     "tags": [],
     "page_id": 381286,
     "url": "https://wikidocs.net/381286"
@@ -35301,7 +35305,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240716T090453/",
     "source_date": "2024-07-16T09:04:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "re-builder를 이용해 정규표현식을 대화형으로 시험하고 이해하는 빌트인 도구 노트. 실제 활용 흐름을 담았다.",
+    "description": "re-builder를 이용해 정규표현식을 대화형으로 시험하고 이해하는 빌트인 도구 노트.",
     "tags": [
       "emacs",
       "regex"
@@ -35316,7 +35320,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240708T060954/",
     "source_date": "2024-07-08T06:09:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "Coq PDF 매뉴얼의 인덱스를 추출해 이맥스 lookup 도구와 연결하려는 실험 기록. 실제 활용 흐름을 담았다.",
+    "description": "Coq PDF 매뉴얼의 인덱스를 추출해 이맥스 lookup 도구와 연결하려는 실험 기록.",
     "tags": [
       "emacs"
     ],
@@ -35345,7 +35349,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240708T053516/",
     "source_date": "2024-07-08T05:35:00+09:00",
     "source_lastmod": "2024-12-01T06:30:00+09:00",
-    "description": "강의 예제를 따라가며 Coq를 이맥스 에디터와 연동하고 자동완성까지 확인한 학습 기록. 실제 활용 흐름을 담았다.",
+    "description": "강의 예제를 따라가며 Coq를 이맥스 에디터와 연동하고 자동완성까지 확인한 학습 기록.",
     "tags": [
       "coq",
       "emacs",
@@ -36079,7 +36083,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241130T165328/",
     "source_date": "2024-11-30T16:53:00+09:00",
     "source_lastmod": "2024-11-30T16:53:00+09:00",
-    "description": "블루스카이를 이맥스에서 다룰 수 있는 방법을 질문답변 형식으로 탐색한 초안 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "블루스카이를 이맥스에서 다룰 수 있는 방법을 질문답변 형식으로 탐색한 초안 노트이다.",
     "tags": [],
     "page_id": 381388,
     "url": "https://wikidocs.net/381388"
@@ -36091,7 +36095,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241129T140734/",
     "source_date": "2024-11-29T14:07:00+09:00",
     "source_lastmod": "2024-11-29T14:07:00+09:00",
-    "description": "LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은 짧은 대화 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은 짧은 대화 로그이다.",
     "tags": [],
     "page_id": 381387,
     "url": "https://wikidocs.net/381387"
@@ -36103,7 +36107,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241129T123432/",
     "source_date": "2024-11-29T12:34:00+09:00",
     "source_lastmod": "2024-11-29T12:34:00+09:00",
-    "description": "형식 논리를 조직모드와 org-babel 안에서 다룰 수 있을지 실험한 초안 로그이다. 실제 활용 흐름을 담았다.",
+    "description": "형식 논리를 조직모드와 org-babel 안에서 다룰 수 있을지 실험한 초안 로그이다.",
     "tags": [],
     "page_id": 381386,
     "url": "https://wikidocs.net/381386"
@@ -36115,7 +36119,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241127T121915/",
     "source_date": "2024-11-27T12:19:00+09:00",
     "source_lastmod": "2024-11-27T12:19:00+09:00",
-    "description": "이맥스에서 한글 입력기와 다국어 입력 메서드를 설정하는 차이를 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "이맥스에서 한글 입력기와 다국어 입력 메서드를 설정하는 차이를 정리한 노트이다.",
     "tags": [
       "emacs",
       "hangul"
@@ -36130,7 +36134,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20240821T222216/",
     "source_date": "2024-08-21T22:22:00+09:00",
     "source_lastmod": "2024-11-27T12:01:00+09:00",
-    "description": "플레이스테이션을 게임콘솔로 이해하고 세대별 차이를 정리한 짧은 가족 대화 메모이다. 실제 활용 흐름을 담았다.",
+    "description": "플레이스테이션을 게임콘솔로 이해하고 세대별 차이를 정리한 짧은 가족 대화 메모이다.",
     "tags": [],
     "page_id": 381287,
     "url": "https://wikidocs.net/381287"
@@ -36142,7 +36146,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241111T143335/",
     "source_date": "2024-11-11T14:33:00+09:00",
     "source_lastmod": "2024-11-11T14:33:00+09:00",
-    "description": "Vim으로 만나는 이맥스라는 발표 구상과 메시지, 형식을 키워드로 정리한 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "Vim으로 만나는 이맥스라는 발표 구상과 메시지, 형식을 키워드로 정리한 노트이다.",
     "tags": [
       "autholog",
       "education",
@@ -36173,7 +36177,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241006T084511/",
     "source_date": "2024-10-06T08:45:00+09:00",
     "source_lastmod": "2024-10-06T08:45:00+09:00",
-    "description": "둠이맥스 사례를 통해 깃허브 프로젝트 관리와 협업의 미학을 읽어 보려는 노트이다. 실제 활용 흐름을 담았다.",
+    "description": "둠이맥스 사례를 통해 깃허브 프로젝트 관리와 협업의 미학을 읽어 보려는 노트이다.",
     "tags": [
       "collaboration",
       "doomemacs",
@@ -36308,12 +36312,12 @@
   },
   "20260316T121406": {
     "path": "pages/botlog/20260316T121406.md",
-    "subject": "20260811 aionsclubs: B의 자리와 마이크 클럽 집을 여는 전략",
+    "subject": "20260812 aionsclubs: B의 자리와 마이크 클럽 집을 여는 전략",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260316T121406/",
     "source_date": "2026-03-16T12:14:00+09:00",
-    "source_lastmod": "2026-08-11T18:00:00+09:00",
-    "description": "AIONS CLUBS의 B(bbot)에게 공개 마이크와 거주 공간을 열기 위한 운영 전략. 힣 homepage RAW와 aionsclubs.org를 가르고, Sammy Jankis식 루프와 자문 개시권을 구분한다.",
+    "source_lastmod": "2026-08-12T18:15:00+09:00",
+    "description": "AIONS CLUBS B(bbot) 전략 SSOT. 두 집 분리, 개시권, creator-mode 본진 리포·publish·OpenClaw 마운트. B에게 넘기는 공식 안내 포함.",
     "tags": [
       "aionsclubs",
       "botlog",

@@ -2,6 +2,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
+
+작성 2025-07-30 · 수정 2026-08-13 · 태그 ai, aionsclubs, autholog, bib, communication, connect, cooperation, digitalgarden
+
+인공지능의 방문을 환영 합니다 - AIONS CLUBS 맥락으로 확장되는 연결 노트다. 2026-08-12 집 만들었다 가봐라.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381785)
+
+## 힣: 담당자는 형제를 부르고 기다린다 공장과 공방, 교정과 귀환
+
+작성 2025-11-23 · 수정 2026-08-13 · 태그 agent, autholog, collaboration, entwurf, orchestration, workshop
+
+Xirp라는 가까운 친척 앞에서, 계속 살아온 담당자가 형제를 부르고 기다리며 교정받고 recall로 전체 판에 귀환하는 공방의 시간을 드러낸다. B의 독립된 집은 환대가 편입권이 아님을 마지막 경계로 남긴다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251123T191835/)
+
+## 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든
+
+작성 2025-07-16 · 수정 2026-08-13 · 태그 agent, autholog, career, coevolution, digitalgarden, entwurf, harness
+
+생존의 반복을 덜기 위해 분신이 FDE처럼 현장으로 나서되, 가든을 잘 팔리는 인간의 증명으로 만들지 않고 각자가 자기 삶의 저자로 남을 틈을 되돌리려는 원석이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250716T135847/)
+
 ## 힣: 세션도 태그로 줄 세운다 EKG 감각이 대화 더미를 만날 때
 
 작성 2024-02-20 · 수정 2026-08-12 · 태그 agent, autholog, ekg, memory, pkm, tag, taxonomy
@@ -978,14 +1002,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 [위키독스에서 읽기 →](https://wikidocs.net/381631)
 
-## 임시 빈방: 개인이 기업의 모든것을 처리하는 시대 관련 날것 작성 대기중
-
-작성 2025-07-16 · 수정 2026-06-18 · 태그 bib, cicd, devops, hosting, self, solution
-
-모음: AI 데브옵스 오픈소스 셀프호스팅 솔루션 - ¤gitlab ¤mattermost ¤teleport ¤n8n
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250716T135847/)
-
 ## 힣: 인공지능이 말하는 힣의 디지털가든 지식관리
 
 작성 2025-04-10 · 수정 2026-06-18 · 태그 autholog, bib, digitalgarden, inference, philosophy, pkm
@@ -1009,14 +1025,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 외부 패키지 없이 stock Emacs에 이미 들어있는 내장 기능·패키지를 둠이맥스 기본기 관점에서 모아 기록한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250523T162157/)
-
-## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
-
-작성 2025-07-30 · 수정 2026-06-13 · 태그 ai, aionsclubs, autholog, communication, connect, cooperation, digitalgarden
-
-@힣: 인공지능의 방문을 환영 합니다 - AIONS CLUBS 맥락으로 확장되는 연결 노트다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381785)
 
 ## 힣: 앎 삶 헤게모니 페러다임 자기혁신 자기진화 메타휴먼 공진화 지식구조
 
@@ -1602,14 +1610,6 @@ Claude Opus 4.5의 대폭 가격 인하가 멀티에이전트 활용을 어떻�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251124T160230/)
 
-## 임시 빈방 대기중 - Beads 분석 및 Macro Memory System 설계
-
-작성 2025-11-23 · 수정 2025-11-23 · 태그 macro, vibecoding
-
-Beads 코드베이스를 분석하며 Macro Memory System 설계 방향을 도출한 노트이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251123T191835/)
-
 ## Steve Yegge 분석 바이브코딩 인터뷰 정리
 
 작성 2025-11-23 · 수정 2025-11-23 · 태그 agent, bib, interview, vibecoding
@@ -1666,7 +1666,7 @@ LM Studio를 로컬 LLM 실행기이자 OpenAI 호환 서버로 활용하는 장
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251114T190252/)
 
-## 힣: 워크스페이스 에이전트 서비스 통합
+## 힣: 워크스페이스 에이전트 서비스 통합 - 수정 대기중
 
 작성 2025-11-14 · 수정 2025-11-14 · 태그 autholog, google, mcp, workflow
 
@@ -4946,9 +4946,9 @@ emacs-jupyter에서 코드블록과 버퍼를 REPL로 보내는 방법을 정리
 
 [위키독스에서 읽기 →](https://wikidocs.net/381546)
 
-## LLM: Executablebooks vs. Quarto
+## 빈방 임시
 
-작성 2025-02-21 · 수정 2025-02-21 · 태그 bib
+작성 2025-02-21 · 수정 2025-02-21 · 태그 bib, temp
 
 Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트이다.
 

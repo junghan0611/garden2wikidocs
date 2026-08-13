@@ -5,9 +5,33 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 200개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 202개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
+
+작성 2025-07-30 · 수정 2026-08-13 · 태그 ai, aionsclubs, autholog, bib, communication, connect, cooperation, digitalgarden
+
+인공지능의 방문을 환영 합니다 - AIONS CLUBS 맥락으로 확장되는 연결 노트다. 2026-08-12 집 만들었다 가봐라.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381785)
+
+## 힣: 담당자는 형제를 부르고 기다린다 공장과 공방, 교정과 귀환
+
+작성 2025-11-23 · 수정 2026-08-13 · 태그 agent, autholog, collaboration, entwurf, orchestration, workshop
+
+Xirp라는 가까운 친척 앞에서, 계속 살아온 담당자가 형제를 부르고 기다리며 교정받고 recall로 전체 판에 귀환하는 공방의 시간을 드러낸다. B의 독립된 집은 환대가 편입권이 아님을 마지막 경계로 남긴다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20251123T191835/)
+
+## 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든
+
+작성 2025-07-16 · 수정 2026-08-13 · 태그 agent, autholog, career, coevolution, digitalgarden, entwurf, harness
+
+생존의 반복을 덜기 위해 분신이 FDE처럼 현장으로 나서되, 가든을 잘 팔리는 인간의 증명으로 만들지 않고 각자가 자기 삶의 저자로 남을 틈을 되돌리려는 원석이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250716T135847/)
 
 ## 힣: 세션도 태그로 줄 세운다 EKG 감각이 대화 더미를 만날 때
 
@@ -905,14 +929,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 [위키독스에서 읽기 →](https://wikidocs.net/381834)
 
-## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
-
-작성 2025-07-30 · 수정 2026-06-13 · 태그 ai, aionsclubs, autholog, communication, connect, cooperation, digitalgarden
-
-@힣: 인공지능의 방문을 환영 합니다 - AIONS CLUBS 맥락으로 확장되는 연결 노트다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381785)
-
 ## 힣: 앎 삶 헤게모니 페러다임 자기혁신 자기진화 메타휴먼 공진화 지식구조
 
 작성 2024-11-26 · 수정 2026-06-12 · 태그 autholog, ego, hegemony, individuation, knowing, life, metahuman, paradigm, self
@@ -1169,7 +1185,7 @@ nixos-config 저장소를 대장장이의 대장간 같은 운영체제 설정 �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381818)
 
-## 힣: 워크스페이스 에이전트 서비스 통합
+## 힣: 워크스페이스 에이전트 서비스 통합 - 수정 대기중
 
 작성 2025-11-14 · 수정 2025-11-14 · 태그 autholog, google, mcp, workflow
 

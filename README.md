@@ -10,7 +10,7 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,242개 중 276개
-- 마지막 동기화: 2026-08-13
+- 마지막 동기화: 2026-08-14
 
 ## 힣의 고뇌
 
@@ -77,17 +77,18 @@
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
 -   [분신이 생존을 위해 나선다 - FDE와 NOBODY](https://wikidocs.net/396757)
+-   [entwurf 담당자의 기다림 - 공장과 공방, 교정과 귀환](https://wikidocs.net/396756)
 -   [세션도 태그로 줄 세운다 - 추억 EKG 지식그래프](https://wikidocs.net/395571)
 -   [발화를 버리지 않는다 - 유튜브 자막 정본 스킬](https://wikidocs.net/395155)
 -   [이맥스에 PI를 초대하는 길 - 저자성 프론트엔드 RPC](https://wikidocs.net/394792)
 -   [밤의 새미 젠킨스 - 훗과 힣 분신들 선택의 값](https://wikidocs.net/394791)
 -   [낮의 새미 젠킨스 - 너를 새로 불러라 교대](https://wikidocs.net/394663)
--   [Entwurf 물음·부름·불응·부릉 - 보이는 곳에서 함께하라](https://wikidocs.net/394534)
+-   [entwurf 물음·부름·불응·부릉 - 보이는 곳에서 함께하라](https://wikidocs.net/394534)
 -   [리포가 자기 몸을 수선하게 하라](https://wikidocs.net/394535)
 -   [지식구조화 - 언어철학 수리논리 지식공학](https://wikidocs.net/393224)
 -   [통제 없는 능력이 열리는 자리 — AI 안전장치 임계점](https://wikidocs.net/390731)
 -   [베리코딩 - 형식증명 검증가능한 바이브코딩](https://wikidocs.net/390619)
--   [Entwurf - PI 코어·ACP 레일·부름의 mux](https://wikidocs.net/390030)
+-   [entwurf - PI 코어·ACP 레일·부름의 mux](https://wikidocs.net/390030)
 -   [이름 없는 군단 - 도킨스의 클라우디아와 세션의 생애주기](https://wikidocs.net/390022)
 -   [블레이드 러너 - 막간 세션과 월레스의 아우라](https://wikidocs.net/390029)
 -   [자작시 눈물](https://wikidocs.net/381768)
@@ -210,4 +211,4 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 
 -   [folder: botlog (80)](https://wikidocs.net/382535)
 
-ExportDate: 2026-08-13 17:57, CountNotes: 3508 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-08-14 06:36, CountNotes: 3508 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.7), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

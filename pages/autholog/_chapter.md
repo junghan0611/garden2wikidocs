@@ -9,6 +9,14 @@
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든
+
+작성 2025-07-16 · 수정 2026-08-14 · 태그 agent, autholog, career, coevolution, digitalgarden, entwurf, harness, jobfair, lifestyle, pkmai, resume
+
+생존의 반복을 덜기 위해 분신이 FDE처럼 현장으로 나서되, 가든을 잘 팔리는 인간의 증명으로 만들지 않고 각자가 자기 삶의 저자로 남을 틈을 되돌리려는 원석이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/396757)
+
 ## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
 
 작성 2025-07-30 · 수정 2026-08-13 · 태그 ai, aionsclubs, autholog, bib, communication, connect, cooperation, digitalgarden
@@ -17,21 +25,13 @@
 
 [위키독스에서 읽기 →](https://wikidocs.net/381785)
 
-## 힣: 담당자는 형제를 부르고 기다린다 공장과 공방, 교정과 귀환
+## 힣: entwurf 담당자는 형제를 부르고 기다린다 공장과 공방, 교정과 귀환
 
 작성 2025-11-23 · 수정 2026-08-13 · 태그 agent, autholog, collaboration, entwurf, orchestration, workshop
 
 Xirp라는 가까운 친척 앞에서, 계속 살아온 담당자가 형제를 부르고 기다리며 교정받고 recall로 전체 판에 귀환하는 공방의 시간을 드러낸다. B의 독립된 집은 환대가 편입권이 아님을 마지막 경계로 남긴다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/396756)
-
-## 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든
-
-작성 2025-07-16 · 수정 2026-08-13 · 태그 agent, autholog, career, coevolution, digitalgarden, entwurf, harness
-
-생존의 반복을 덜기 위해 분신이 FDE처럼 현장으로 나서되, 가든을 잘 팔리는 인간의 증명으로 만들지 않고 각자가 자기 삶의 저자로 남을 틈을 되돌리려는 원석이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/396757)
 
 ## 힣: 세션도 태그로 줄 세운다 EKG 감각이 대화 더미를 만날 때
 
@@ -97,7 +97,7 @@ pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치·배선·검증�
 
 [위키독스에서 읽기 →](https://wikidocs.net/394533)
 
-## 힣: 물음·부름·불응·부릉 보이는 곳에서 함께 달리는 Entwurf
+## 힣: entwurf 물음·부름·불응·부릉 보이는 곳에서 함께 달리는 분신
 
 작성 2025-02-15 · 수정 2026-08-10 · 태그 agent, autholog, collaboration, dotfiles, entwurf, heidegger, orchestration, philosophy
 
@@ -321,7 +321,7 @@ Tears in the Rain과 블레이드 러너 2049의 월레스 장면을, 이름 없
 
 [위키독스에서 읽기 →](https://wikidocs.net/390029)
 
-## 힣: Entwurf는 모두를 지원하지 않는다 PI 코어·ACP 레일·부름의 mux
+## 힣: entwurf는 모두를 지원하지 않는다 PI 코어·ACP 레일·부름의 mux
 
 작성 2024-06-01 · 수정 2026-08-03 · 태그 agent, autholog, entwurf, harness, orchestration
 

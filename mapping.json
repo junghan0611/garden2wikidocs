@@ -22417,6 +22417,30 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250716T135847": {
+    "path": "pages/notes/20250716T135847.md",
+    "subject": "20260814 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250716T135847/",
+    "source_date": "2025-07-16T13:58:00+09:00",
+    "source_lastmod": "2026-08-14T06:16:00+09:00",
+    "description": "생존의 반복을 덜기 위해 분신이 FDE처럼 현장으로 나서되, 가든을 잘 팔리는 인간의 증명으로 만들지 않고 각자가 자기 삶의 저자로 남을 틈을 되돌리려는 원석이다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "career",
+      "coevolution",
+      "digitalgarden",
+      "entwurf",
+      "harness",
+      "jobfair",
+      "lifestyle",
+      "pkmai",
+      "resume"
+    ],
+    "page_id": 396757,
+    "url": "https://wikidocs.net/396757"
+  },
   "20250730T104129": {
     "path": "pages/notes/20250730T104129.md",
     "subject": "20260813 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약",
@@ -22440,7 +22464,7 @@
   },
   "20251123T191835": {
     "path": "pages/notes/20251123T191835.md",
-    "subject": "20260813 힣: 담당자는 형제를 부르고 기다린다 공장과 공방, 교정과 귀환",
+    "subject": "20260813 힣: entwurf 담당자는 형제를 부르고 기다린다 공장과 공방, 교정과 귀환",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251123T191835/",
     "source_date": "2025-11-23T19:18:00+09:00",
@@ -22456,26 +22480,6 @@
     ],
     "page_id": 396756,
     "url": "https://wikidocs.net/396756"
-  },
-  "20250716T135847": {
-    "path": "pages/notes/20250716T135847.md",
-    "subject": "20260813 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250716T135847/",
-    "source_date": "2025-07-16T13:58:00+09:00",
-    "source_lastmod": "2026-08-13T17:25:00+09:00",
-    "description": "생존의 반복을 덜기 위해 분신이 FDE처럼 현장으로 나서되, 가든을 잘 팔리는 인간의 증명으로 만들지 않고 각자가 자기 삶의 저자로 남을 틈을 되돌리려는 원석이다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "career",
-      "coevolution",
-      "digitalgarden",
-      "entwurf",
-      "harness"
-    ],
-    "page_id": 396757,
-    "url": "https://wikidocs.net/396757"
   },
   "20240220T091923": {
     "path": "pages/notes/20240220T091923.md",
@@ -22635,7 +22639,7 @@
   },
   "20250215T202517": {
     "path": "pages/notes/20250215T202517.md",
-    "subject": "20260810 힣: 물음·부름·불응·부릉 보이는 곳에서 함께 달리는 Entwurf",
+    "subject": "20260810 힣: entwurf 물음·부름·불응·부릉 보이는 곳에서 함께 달리는 분신",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250215T202517/",
     "source_date": "2025-02-15T20:25:00+09:00",
@@ -23254,7 +23258,7 @@
   },
   "20240601T210854": {
     "path": "pages/notes/20240601T210854.md",
-    "subject": "20260803 힣: Entwurf는 모두를 지원하지 않는다 PI 코어·ACP 레일·부름의 mux",
+    "subject": "20260803 힣: entwurf는 모두를 지원하지 않는다 PI 코어·ACP 레일·부름의 mux",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20240601T210854/",
     "source_date": "2024-06-01T21:08:00+09:00",
@@ -29676,7 +29680,7 @@
   },
   "20231114T064414": {
     "path": "pages/notes/20231114T064414.md",
-    "subject": "20250416 매뉴얼: 디레드 Dired-Extra 확장",
+    "subject": "20250416 빈방 임시 - 디레드 Dired-Extra 확장",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20231114T064414/",
     "source_date": "2023-11-14T06:44:00+09:00",
@@ -29684,7 +29688,8 @@
     "description": "GNU Emacs의 dired-x 기능을 읽고 번역하며 Dired 확장 기능을 익히려는 매뉴얼 노트.",
     "tags": [
       "emacs",
-      "manual"
+      "manual",
+      "temp"
     ],
     "page_id": 381161,
     "url": "https://wikidocs.net/381161"

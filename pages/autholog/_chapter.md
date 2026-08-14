@@ -1433,9 +1433,9 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 [위키독스에서 읽기 →](https://wikidocs.net/381379)
 
-## 힣: 렉스프리드만 팟케스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)
+## 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)
 
-작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, autholog, bib, emacs, neovim
+작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, autholog, bib, emacs, neovim, podcast
 
 렉스 프리드먼 팟캐스트에서 ThePrimeagen과 ADHD 이야기를 엮어 적은 글이다.
 

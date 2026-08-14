@@ -1507,6 +1507,60 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250424T231001": {
+    "path": "pages/meta/20250424T231001.md",
+    "subject": "20260814 마음",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T231001/",
+    "source_date": "2025-04-24T23:10:00+09:00",
+    "source_lastmod": "2026-08-14T18:07:00+09:00",
+    "description": "마음을 이성과 지성, 상상과 감각, 몸과의 관계 속에서 이해하며 인간 정신의 여러 층위를 함께 살핀다.",
+    "tags": [
+      "meta",
+      "mind",
+      "mindsbodies",
+      "syntopicon"
+    ],
+    "page_id": 380909,
+    "url": "https://wikidocs.net/380909"
+  },
+  "20241022T044124": {
+    "path": "pages/meta/20241022T044124.md",
+    "subject": "20260814 인지 체화인지 메타인지 인지심리 인지과학 인식",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241022T044124/",
+    "source_date": "2024-10-22T04:41:00+09:00",
+    "source_lastmod": "2026-08-14T18:06:00+09:00",
+    "description": "인지는 세계를 받아들이고 이해하는 과정이라면 메타인지는 그 과정을 다시 돌아보는 힘이다. 심리학과 인지과학의 언어를 빌려 생각을 생각하는 문제를 펼친다.",
+    "tags": [
+      "bib",
+      "embodied",
+      "meta",
+      "metacognition",
+      "mindsbodies",
+      "psychology",
+      "recognition",
+      "tat"
+    ],
+    "page_id": 380727,
+    "url": "https://wikidocs.net/380727"
+  },
+  "20240822T140248": {
+    "path": "pages/meta/20240822T140248.md",
+    "subject": "20260814 의식 무의식",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240822T140248/",
+    "source_date": "2024-08-22T14:02:00+09:00",
+    "source_lastmod": "2026-08-14T18:04:00+09:00",
+    "description": "의식과 무의식을 철학·인지과학·AI 논의가 만나는 자리에서 함께 읽기 위한 상위 개념으로 다룬다.",
+    "tags": [
+      "conscious",
+      "metameta",
+      "subconscious"
+    ],
+    "page_id": 380637,
+    "url": "https://wikidocs.net/380637"
+  },
   "20240522T143739": {
     "path": "pages/meta/20240522T143739.md",
     "subject": "20260811 과학철학",
@@ -1796,7 +1850,7 @@
   },
   "20240918T175053": {
     "path": "pages/meta/20240918T175053.md",
-    "subject": "20260801 디지털가든 브레인덤프 아날로그가든 날것쓰기",
+    "subject": "20260801 디지털가든 브레인덤프 아날로그가든 날것쓰기 세컨드브레인",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20240918T175053/",
     "source_date": "2024-09-18T17:50:00+09:00",
@@ -1806,7 +1860,8 @@
       "braindump",
       "digitalgarden",
       "meta",
-      "rawwriting"
+      "rawwriting",
+      "secondbrain"
     ],
     "page_id": 380674,
     "url": "https://wikidocs.net/380674"
@@ -3628,7 +3683,7 @@
   },
   "20230927T135800": {
     "path": "pages/meta/20230927T135800.md",
-    "subject": "20251214 유튜버 유튜브",
+    "subject": "20251214 유튜버 유튜브 팟캐스트",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20230927T135800/",
     "source_date": "2023-09-27T13:58:00+09:00",
@@ -3637,6 +3692,7 @@
     "tags": [
       "human",
       "meta",
+      "podcast",
       "youtube",
       "youtuber"
     ],
@@ -5829,7 +5885,7 @@
   },
   "20230531T132600": {
     "path": "pages/meta/20230531T132600.md",
-    "subject": "20250603 ADHD: 선택적집중",
+    "subject": "20250603 ADHD 선택적집중 하이퍼포커스",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20230531T132600/",
     "source_date": "2023-05-31T13:26:00+09:00",
@@ -5837,7 +5893,9 @@
     "description": "ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하고 관련 경험·도구·자료를 연결한다.",
     "tags": [
       "adhd",
-      "meta"
+      "hyperfocus",
+      "meta",
+      "metahuman"
     ],
     "page_id": 380489,
     "url": "https://wikidocs.net/380489"
@@ -6725,25 +6783,6 @@
     "page_id": 380966,
     "url": "https://wikidocs.net/380966"
   },
-  "20241022T044124": {
-    "path": "pages/meta/20241022T044124.md",
-    "subject": "20250430 인지 메타인지 인지심리 인지과학 인식",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241022T044124/",
-    "source_date": "2024-10-22T04:41:00+09:00",
-    "source_lastmod": "2025-04-30T00:00:00+09:00",
-    "description": "인지는 세계를 받아들이고 이해하는 과정이라면 메타인지는 그 과정을 다시 돌아보는 힘이다. 심리학과 인지과학의 언어를 빌려 생각을 생각하는 문제를 펼친다.",
-    "tags": [
-      "bib",
-      "meta",
-      "metacognition",
-      "psychology",
-      "recognition",
-      "tat"
-    ],
-    "page_id": 380727,
-    "url": "https://wikidocs.net/380727"
-  },
   "20250429T103134": {
     "path": "pages/meta/20250429T103134.md",
     "subject": "20250429 메멕스 셀프트레킹",
@@ -7583,22 +7622,6 @@
     ],
     "page_id": 380910,
     "url": "https://wikidocs.net/380910"
-  },
-  "20250424T231001": {
-    "path": "pages/meta/20250424T231001.md",
-    "subject": "20250424 마음",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T231001/",
-    "source_date": "2025-04-24T23:10:00+09:00",
-    "source_lastmod": "2025-04-24T23:10:00+09:00",
-    "description": "마음을 이성과 지성, 상상과 감각, 몸과의 관계 속에서 이해하며 인간 정신의 여러 층위를 함께 살핀다.",
-    "tags": [
-      "meta",
-      "mind",
-      "syntopicon"
-    ],
-    "page_id": 380909,
-    "url": "https://wikidocs.net/380909"
   },
   "20250424T230925": {
     "path": "pages/meta/20250424T230925.md",
@@ -8850,6 +8873,7 @@
       "exploration",
       "inquiry",
       "meta",
+      "prospector",
       "survey"
     ],
     "page_id": 380683,
@@ -8903,22 +8927,6 @@
     ],
     "page_id": 380646,
     "url": "https://wikidocs.net/380646"
-  },
-  "20240822T140248": {
-    "path": "pages/meta/20240822T140248.md",
-    "subject": "20250418 의식 무의식",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240822T140248/",
-    "source_date": "2024-08-22T14:02:00+09:00",
-    "source_lastmod": "2025-04-18T00:00:00+09:00",
-    "description": "의식과 무의식을 철학·인지과학·AI 논의가 만나는 자리에서 함께 읽기 위한 상위 개념으로 다룬다.",
-    "tags": [
-      "conscious",
-      "metameta",
-      "subconscious"
-    ],
-    "page_id": 380637,
-    "url": "https://wikidocs.net/380637"
   },
   "20240522T143732": {
     "path": "pages/meta/20240522T143732.md",
@@ -10480,7 +10488,7 @@
   },
   "20240224T170548": {
     "path": "pages/meta/20240224T170548.md",
-    "subject": "20250214 기예인 지식인 예술가 사상가 영성가 구도자 사색가",
+    "subject": "20250214 기예인 지식인 예술가 사상가 영성가 구도자 사색가 도인",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20240224T170548/",
     "source_date": "2024-02-24T17:05:00+09:00",
@@ -10492,6 +10500,7 @@
       "geeks",
       "intellectual",
       "meta",
+      "taoist",
       "thinker"
     ],
     "page_id": 380555,
@@ -13586,7 +13595,9 @@
       "bib",
       "brain",
       "connect",
-      "resilience"
+      "mindsbodies",
+      "resilience",
+      "secondbrain"
     ],
     "page_id": 382513,
     "url": "https://wikidocs.net/382513"
@@ -20039,8 +20050,9 @@
     "source_lastmod": "2025-02-19T10:32:00+09:00",
     "description": "렉스 프리드먼은 AI·과학·철학 인물들과 긴 대화를 이어가는 MIT 연구자이자 대표적 장문 팟캐스트 진행자다.",
     "tags": [
-      "youtuber",
-      "guru"
+      "guru",
+      "podcast",
+      "youtuber"
     ],
     "page_id": 382282,
     "url": "https://wikidocs.net/382282"
@@ -21516,6 +21528,7 @@
     "description": "티아고 포르테는 PARA와 세컨드 브레인 개념으로 디지털 기록을 실행 가능한 지식 자산으로 바꾸는 방법을 제안한다.",
     "tags": [
       "bib",
+      "secondbrain",
       "zettelkasten"
     ],
     "page_id": 381902,
@@ -31444,7 +31457,7 @@
   },
   "20250326T135916": {
     "path": "pages/notes/20250326T135916.md",
-    "subject": "20250326 힣: 렉스프리드만 팟케스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)",
+    "subject": "20250326 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250326T135916/",
     "source_date": "2025-03-26T13:59:00+09:00",
@@ -31455,7 +31468,8 @@
       "autholog",
       "bib",
       "emacs",
-      "neovim"
+      "neovim",
+      "podcast"
     ],
     "page_id": 381620,
     "url": "https://wikidocs.net/381620"

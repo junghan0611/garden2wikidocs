@@ -4146,9 +4146,9 @@ JVM 위의 코틀린과 클로저가 닮은 점과 풀스택 가능성을 묻는
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230710T170200/)
 
-## 힣: 렉스프리드만 팟케스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)
+## 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)
 
-작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, autholog, bib, emacs, neovim
+작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, autholog, bib, emacs, neovim, podcast
 
 렉스 프리드먼 팟캐스트에서 ThePrimeagen과 ADHD 이야기를 엮어 적은 글이다.
 

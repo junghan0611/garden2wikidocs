@@ -177,7 +177,7 @@
   - [20250409 힣: 숙면을 위한 책 - 이현주 할아버지](pages/notes/20250409T141325.md)
   - [20250409 힣: 흔적 찾기 도서 - 단서 저자 분류 계층 장방시 층위](pages/notes/20250409T074725.md)
   - [20250404 힣: 라이브 공동편집 - 지식통합 협업 독서 대화](pages/notes/20241111T153209.md)
-  - [20250326 힣: 렉스프리드만 팟케스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)](pages/notes/20250326T135916.md)
+  - [20250326 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)](pages/notes/20250326T135916.md)
   - [20250324 힣: AI 모델 선택과 도구 - API 게이트웨이 인터페이스](pages/notes/20250324T070423.md)
   - [20250320 힣: 왜 힣인가](pages/notes/20250320T212021.md)
   - [20250319 힣: 오디오 시스템 - 톨보이 하이파이 Denon Klipsch](pages/notes/20250319T054757.md)

@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 올더스헉슬리 AldousHuxley 문명·의식·교육의 탐구
+
+작성 2024-12-05 · 수정 2026-08-21 · 태그 bib, conscious, culture, education, essay, future, liberty, literature, modernism, novel, peace, person, philosophy, religion, science, spirituality
+
+올더스 헉슬리의 소설·에세이·의식 탐구를 문명 비판과 더 나은 삶·교육의 조건을 묻는 긴 궤적으로 읽으며, GLG가 직접 읽을 영문 원전 목록을 모으는 서지 허브다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241205T164800/)
+
 ## 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체
 
 작성 2024-09-05 · 수정 2026-08-19 · 태그 bib, deception, informatics, infosphere, logic, ontology, posthuman
@@ -9,14 +17,6 @@
 정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240905T111921/)
-
-## 올더스헉슬리 AldousHuxley 문명·의식·교육의 탐구
-
-작성 2024-12-05 · 수정 2026-08-19 · 태그 bib, conscious, culture, education, essay, future, liberty, literature, modernism, novel, peace, person, philosophy, religion, science, spirituality
-
-올더스 헉슬리의 소설·에세이·의식 탐구를 문명 비판과 더 나은 삶·교육의 조건을 묻는 긴 궤적으로 읽으며, GLG가 직접 읽을 영문 원전 목록을 모으는 서지 허브다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241205T164800/)
 
 ## 지미소니 클로드섀넌 디지털 세상을 설계하다
 

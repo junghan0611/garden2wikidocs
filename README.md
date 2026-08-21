@@ -10,7 +10,7 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,243개 중 278개
-- 마지막 동기화: 2026-08-21
+- 마지막 동기화: 2026-08-22
 
 ## 힣의 고뇌
 
@@ -76,7 +76,7 @@
 
 [어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
 
--   [원격근무 지식노동자 미래 - 삶으로서의일 폴리매스](https://notes.junghanacs.com/notes/20250212T092332/)
+-   [원격근무 지식노동자 미래 - 삶으로서의일 폴리매스](https://wikidocs.net/408486)
 -   [분신이 생존을 위해 나선다 - FDE와 NOBODY](https://wikidocs.net/396757)
 -   [entwurf 담당자의 기다림 - 공장과 공방, 교정과 귀환](https://wikidocs.net/396756)
 -   [세션도 태그로 줄 세운다 - 추억 EKG 지식그래프](https://wikidocs.net/395571)

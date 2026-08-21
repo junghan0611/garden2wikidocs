@@ -10994,33 +10994,13 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
-  "20240905T111921": {
-    "path": "pages/bib/20240905T111921.md",
-    "subject": "20260819 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240905T111921/",
-    "source_date": "2024-09-05T11:19:00+09:00",
-    "source_lastmod": "2026-08-19T17:37:00+09:00",
-    "description": "정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.",
-    "tags": [
-      "bib",
-      "deception",
-      "informatics",
-      "infosphere",
-      "logic",
-      "ontology",
-      "posthuman"
-    ],
-    "page_id": 382071,
-    "url": "https://wikidocs.net/382071"
-  },
   "20241205T164800": {
     "path": "pages/bib/20241205T164800.md",
-    "subject": "20260819 올더스헉슬리 AldousHuxley 문명·의식·교육의 탐구",
+    "subject": "20260821 올더스헉슬리 AldousHuxley 문명·의식·교육의 탐구",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20241205T164800/",
     "source_date": "2024-12-05T16:48:00+09:00",
-    "source_lastmod": "2026-08-19T17:00:00+09:00",
+    "source_lastmod": "2026-08-21T18:43:00+09:00",
     "description": "올더스 헉슬리의 소설·에세이·의식 탐구를 문명 비판과 더 나은 삶·교육의 조건을 묻는 긴 궤적으로 읽으며, GLG가 직접 읽을 영문 원전 목록을 모으는 서지 허브다.",
     "tags": [
       "bib",
@@ -11042,6 +11022,26 @@
     ],
     "page_id": 382174,
     "url": "https://wikidocs.net/382174"
+  },
+  "20240905T111921": {
+    "path": "pages/bib/20240905T111921.md",
+    "subject": "20260819 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240905T111921/",
+    "source_date": "2024-09-05T11:19:00+09:00",
+    "source_lastmod": "2026-08-19T17:37:00+09:00",
+    "description": "정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.",
+    "tags": [
+      "bib",
+      "deception",
+      "informatics",
+      "infosphere",
+      "logic",
+      "ontology",
+      "posthuman"
+    ],
+    "page_id": 382071,
+    "url": "https://wikidocs.net/382071"
   },
   "20240305T064621": {
     "path": "pages/bib/20240305T064621.md",
@@ -22462,6 +22462,20 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20240610T130556": {
+    "path": "pages/notes/20240610T130556.md",
+    "subject": "20260821 백업: 올드노트 제텔노트 홀드 대기",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240610T130556/",
+    "source_date": "2024-06-10T13:05:00+09:00",
+    "source_lastmod": "2026-08-21T18:47:00+09:00",
+    "description": "오래된 제텔노트와 이야기 노트를 다시 보기 위해 백업·홀드 상태로 묶어 둔 노트. 관련 내용을 정리한 기록.",
+    "tags": [
+      "hold"
+    ],
+    "page_id": 381244,
+    "url": "https://wikidocs.net/381244"
+  },
   "20250212T092332": {
     "path": "pages/notes/20250212T092332.md",
     "subject": "20260815 힣: 원격근무 지식노동자 미래 삶으로서의 일과 폴리매스의 부름",
@@ -22477,7 +22491,9 @@
       "lifestyle",
       "polymath",
       "remote"
-    ]
+    ],
+    "page_id": 408486,
+    "url": "https://wikidocs.net/408486"
   },
   "20250716T135847": {
     "path": "pages/notes/20250716T135847.md",
@@ -25385,7 +25401,9 @@
       "practice",
       "remember",
       "test"
-    ]
+    ],
+    "page_id": 408488,
+    "url": "https://wikidocs.net/408488"
   },
   "20250716T091254": {
     "path": "pages/notes/20250716T091254.md",
@@ -30917,20 +30935,6 @@
     "tags": [],
     "page_id": 381332,
     "url": "https://wikidocs.net/381332"
-  },
-  "20240610T130556": {
-    "path": "pages/notes/20240610T130556.md",
-    "subject": "20250402 백업: 올드노트 제텔노트 홀드",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240610T130556/",
-    "source_date": "2024-06-10T13:05:00+09:00",
-    "source_lastmod": "2025-04-02T00:00:00+09:00",
-    "description": "오래된 제텔노트와 이야기 노트를 다시 보기 위해 백업·홀드 상태로 묶어 둔 노트. 관련 내용을 정리한 기록.",
-    "tags": [
-      "hold"
-    ],
-    "page_id": 381244,
-    "url": "https://wikidocs.net/381244"
   },
   "20240213T144401": {
     "path": "pages/notes/20240213T144401.md",

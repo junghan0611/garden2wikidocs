@@ -2,6 +2,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체
+
+작성 2024-09-05 · 수정 2026-08-19 · 태그 bib, deception, informatics, infosphere, logic, ontology, posthuman
+
+정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240905T111921/)
+
+## 올더스헉슬리 AldousHuxley 문명·의식·교육의 탐구
+
+작성 2024-12-05 · 수정 2026-08-19 · 태그 bib, conscious, culture, education, essay, future, liberty, literature, modernism, novel, peace, person, philosophy, religion, science, spirituality
+
+올더스 헉슬리의 소설·에세이·의식 탐구를 문명 비판과 더 나은 삶·교육의 조건을 묻는 긴 궤적으로 읽으며, GLG가 직접 읽을 영문 원전 목록을 모으는 서지 허브다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241205T164800/)
+
 ## 지미소니 클로드섀넌 디지털 세상을 설계하다
 
 작성 2024-03-05 · 수정 2026-08-11 · 태그 bib, information
@@ -9,22 +25,6 @@
 클로드 섀넌 전기는 정보이론의 탄생과 디지털 혁명의 밑바탕을 만든 천재의 삶을 생생하게 복원한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240305T064621/)
-
-## 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체
-
-작성 2024-09-05 · 수정 2026-08-11 · 태그 bib, deception, logic, ontology, posthuman
-
-정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240905T111921/)
-
-## 임시 빈방 — 2024-12-05
-
-작성 2024-12-05 · 수정 2026-08-11 · 태그 temp
-
-웹과 인공지능 시대의 존재론을 대상보다 관계의 논리로 다시 사유하며 디지털 객체의 철학적 지위를 탐구한다. - [[denote:20240905T111921][신상규/석기용 정보철학 노트]]로 합쳐지고 빈방이 됨.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241205T164800/)
 
 ## 캐서린헤일스 우리는 어떻게 포스트휴먼 이 되었는가 사이버네틱스 정보과학
 
@@ -724,9 +724,9 @@ KONIGE(Korea National Institute for General Education)는 liberal education, gen
 
 ## 루치아노플로리디 LucianoFloridi 정보철학 입문
 
-작성 2024-05-15 · 수정 2026-04-20 · 태그 bib, digital, ethics, information, philosopher, philosophy
+작성 2024-05-15 · 수정 2026-04-20 · 태그 bib, digital, ethics, information, infosphere, philosopher, philosophy
 
-Luciano Floridi의 Philosophy of Information은 infosphere, information ethics, digital ethics를 통해 정보철학의 지형을 정리한다.
+루치아노 플로리디는 인간을 인포스피어에 거주하는 정보 유기체(인포그)로 다시 읽으며, 정보 혁명을 코페르니쿠스·다윈·프로이트에 이은 제4차 혁명으로 세운다. 이 방은 그 정보철학 입문서를 정리하는 서지 허브다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240515T144959/)
 
@@ -2244,7 +2244,7 @@ Cursor와 Windsurf 같은 AI IDE는 GUI 기반 코딩 에이전트가 개발 흐
 
 ## 조니톰슨 철학 지식 개념어 사전
 
-작성 2025-05-24 · 수정 2025-05-24 · 태그 philosophy, concepts, intelligence, glossary, bib, keywords, syntopicon, idea
+작성 2025-05-24 · 수정 2025-05-24 · 태그 bib, concepts, glossary, idea, intelligence, keywords, philosophy, syntopicon
 
 조니 톰슨의 철학 개념어 사전을 발판으로 지식의 핵심 어휘와 사유의 지도를 만든다.
 
@@ -5106,7 +5106,7 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241004T134708/)
 
-## 임시 빈방 — 2024-09-25
+## 임시 빈방
 
 작성 2024-09-25 · 수정 2024-12-01 · 태그 temp
 

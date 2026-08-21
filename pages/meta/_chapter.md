@@ -1620,7 +1620,7 @@ Logseq, RemNote, Obsidian 등 노트테이킹 도구들의 경험과 이맥스 �
 
 ## 정보
 
-작성 2025-06-04 · 수정 2025-06-04 · 태그 information, metameta
+작성 2025-06-04 · 수정 2025-06-04 · 태그 information, infosphere, metameta
 
 정보는 데이터와 지식 사이에서 의미가 형성되고 전달되는 과정을 가리키는 넓은 말이다. 정보이론과 보안, 미디어, 문헌정보 같은 갈래를 잇는 상위 자석으로 작동한다.
 
@@ -1732,7 +1732,7 @@ MOOC와 KOCW는 누구나 접근 가능한 온라인 강의 인프라로, 대규
 
 ## 정보이론 정보철학 분석철학
 
-작성 2024-03-05 · 수정 2025-06-04 · 태그 analytic, information, linguistics, meta, philosophy, theory
+작성 2024-03-05 · 수정 2025-06-04 · 태그 analytic, informatics, information, linguistics, meta, philosophy, theory
 
 정보를 수량, 의미, 언어 분석의 관점에서 함께 다루며, 정보이론·정보철학·분석철학이 만나는 접점을 가리킨다.
 

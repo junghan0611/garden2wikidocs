@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 원격근무 지식노동자 미래 삶으로서의 일과 폴리매스의 부름
+
+작성 2025-02-12 · 수정 2026-08-15 · 태그 autholog, career, coevolution, lifestyle, polymath, remote
+
+거제도행 기차에서 던진 날것 — 원격근무가 되찾는 것은 통근 시간이 아니라 일·탐구·삶이 한 몸이라는 감각이며, 허슬 문화의 반대말은 게으름이 아니라 삶으로서의 일이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T092332/)
+
 ## 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든
 
 작성 2025-07-16 · 수정 2026-08-14 · 태그 agent, autholog, career, coevolution, digitalgarden, entwurf, harness, jobfair, lifestyle, pkmai, resume
@@ -1194,21 +1202,21 @@ PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노
 
 [위키독스에서 읽기 →](https://wikidocs.net/381696)
 
-## 코딩테스트 기억 추억 - 오일러
+## 알못시대 - 불완전한 시작과 배움 - 코알못
 
-작성 2025-03-29 · 수정 2026-04-20 · 태그 coding, delete, evaluation, legacy, practice, remember, test
-
-오일러 문제를 파이썬 코드로 풀며 Org Babel 설정을 시험한 테스트 노트는 아니다. 그냥 추억한다. 코테를.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250329T161615/)
-
-## 알못시대 - 불완전한 시작과 배움
-
-작성 2025-03-26 · 수정 2026-04-19 · 태그 beginner, coding, learning, practice
+작성 2025-03-26 · 수정 2026-04-19 · 태그 beginner, coding, imperfectionlist, learning, practice, test
 
 코딩을 잘 모르는 출발점 자체를 배움의 철학으로 받아들이며 '코알라'라는 말을 붙잡아 본다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250326T163625/)
+
+## 힣: 코딩테스트 머리에 넣지 않는 공부, 지도를 읽는 메타 인지
+
+작성 2025-03-29 · 수정 2026-04-19 · 태그 autholog, coding, education, evaluation, learning, metacognition, practice, remember, test
+
+2025년 오일러 바벨 테스트에서 시작해 백준 사라짐의 날것을 거쳐, 메타풀이로 이어지는 원석. 머리에 케이스 코드를 넣는 공부 대신 무엇을 요구하는가를 읽는 지도를 펼치는, 코딩테스트 관점에서 교육을 두드리는 노트.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250329T161615/)
 
 ## 안드로이드 새폰 syncthing termux 데이터 동기화 소유권
 
@@ -5305,14 +5313,6 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 양자역학과 현대물리의 역사 드라마를 한곳에 모아 보려는 물리학 컬렉션 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T123217/)
-
-## 허슬문화 - 수정 대기중
-
-작성 2025-02-12 · 수정 2025-02-12 · 태그 bib
-
-허슬 문화가 과도한 긴장과 보여주기 경쟁을 만든다는 문제의식을 적은 노트이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T092332/)
 
 ## LLM: 우주센터 옥토끼 강화도
 

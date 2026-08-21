@@ -1,4 +1,16 @@
 {
+  "20260817T000000": {
+    "path": "pages/journal/20260817T000000.md",
+    "subject": "2026-08-17~2026-08-23_W33",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260817T000000/",
+    "source_date": "2026-08-17T00:00:00+09:00",
+    "source_lastmod": "2026-08-17T06:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260810T000000": {
     "path": "pages/journal/20260810T000000.md",
     "subject": "2026-08-10~2026-08-16_W32",
@@ -5190,6 +5202,7 @@
     "description": "정보는 데이터와 지식 사이에서 의미가 형성되고 전달되는 과정을 가리키는 넓은 말이다. 정보이론과 보안, 미디어, 문헌정보 같은 갈래를 잇는 상위 자석으로 작동한다.",
     "tags": [
       "information",
+      "infosphere",
       "metameta"
     ],
     "page_id": 380994,
@@ -5435,6 +5448,7 @@
     "description": "정보를 수량, 의미, 언어 분석의 관점에서 함께 다루며, 정보이론·정보철학·분석철학이 만나는 접점을 가리킨다.",
     "tags": [
       "analytic",
+      "informatics",
       "information",
       "linguistics",
       "meta",
@@ -10980,6 +10994,55 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240905T111921": {
+    "path": "pages/bib/20240905T111921.md",
+    "subject": "20260819 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240905T111921/",
+    "source_date": "2024-09-05T11:19:00+09:00",
+    "source_lastmod": "2026-08-19T17:37:00+09:00",
+    "description": "정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.",
+    "tags": [
+      "bib",
+      "deception",
+      "informatics",
+      "infosphere",
+      "logic",
+      "ontology",
+      "posthuman"
+    ],
+    "page_id": 382071,
+    "url": "https://wikidocs.net/382071"
+  },
+  "20241205T164800": {
+    "path": "pages/bib/20241205T164800.md",
+    "subject": "20260819 올더스헉슬리 AldousHuxley 문명·의식·교육의 탐구",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241205T164800/",
+    "source_date": "2024-12-05T16:48:00+09:00",
+    "source_lastmod": "2026-08-19T17:00:00+09:00",
+    "description": "올더스 헉슬리의 소설·에세이·의식 탐구를 문명 비판과 더 나은 삶·교육의 조건을 묻는 긴 궤적으로 읽으며, GLG가 직접 읽을 영문 원전 목록을 모으는 서지 허브다.",
+    "tags": [
+      "bib",
+      "conscious",
+      "culture",
+      "education",
+      "essay",
+      "future",
+      "liberty",
+      "literature",
+      "modernism",
+      "novel",
+      "peace",
+      "person",
+      "philosophy",
+      "religion",
+      "science",
+      "spirituality"
+    ],
+    "page_id": 382174,
+    "url": "https://wikidocs.net/382174"
+  },
   "20240305T064621": {
     "path": "pages/bib/20240305T064621.md",
     "subject": "20260811 지미소니 클로드섀넌 디지털 세상을 설계하다",
@@ -10994,38 +11057,6 @@
     ],
     "page_id": 381890,
     "url": "https://wikidocs.net/381890"
-  },
-  "20240905T111921": {
-    "path": "pages/bib/20240905T111921.md",
-    "subject": "20260811 신상규 석기용 허욱 정보철학 논리학 철학 온톨로지 디지털객체",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240905T111921/",
-    "source_date": "2024-09-05T11:19:00+09:00",
-    "source_lastmod": "2026-08-11T17:27:00+09:00",
-    "description": "정보철학과 논리학, 그리고 디지털 객체의 존재론을 함께 엮어 정보사회에서 앎, 속임, 인포스피어, 관계론적 존재론을 어떻게 사유할지 탐색하는 참고축이다.",
-    "tags": [
-      "bib",
-      "deception",
-      "logic",
-      "ontology",
-      "posthuman"
-    ],
-    "page_id": 382071,
-    "url": "https://wikidocs.net/382071"
-  },
-  "20241205T164800": {
-    "path": "pages/bib/20241205T164800.md",
-    "subject": "20260811 임시 빈방",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241205T164800/",
-    "source_date": "2024-12-05T16:48:00+09:00",
-    "source_lastmod": "2026-08-11T17:20:00+09:00",
-    "description": "웹과 인공지능 시대의 존재론을 대상보다 관계의 논리로 다시 사유하며 디지털 객체의 철학적 지위를 탐구한다. - [[denote:20240905T111921][신상규/석기용 정보철학 노트]]로 합쳐지고 빈방이 됨.",
-    "tags": [
-      "temp"
-    ],
-    "page_id": 382174,
-    "url": "https://wikidocs.net/382174"
   },
   "20240515T165300": {
     "path": "pages/bib/20240515T165300.md",
@@ -12675,12 +12706,13 @@
     "source_url": "https://notes.junghanacs.com/bib/20240515T144959/",
     "source_date": "2024-05-15T14:49:00+09:00",
     "source_lastmod": "2026-04-20T19:57:00+09:00",
-    "description": "Luciano Floridi의 Philosophy of Information은 infosphere, information ethics, digital ethics를 통해 정보철학의 지형을 정리한다.",
+    "description": "루치아노 플로리디는 인간을 인포스피어에 거주하는 정보 유기체(인포그)로 다시 읽으며, 정보 혁명을 코페르니쿠스·다윈·프로이트에 이은 제4차 혁명으로 세운다. 이 방은 그 정보철학 입문서를 정리하는 서지 허브다.",
     "tags": [
       "bib",
       "digital",
       "ethics",
       "information",
+      "infosphere",
       "philosopher",
       "philosophy"
     ],
@@ -15958,14 +15990,14 @@
     "source_lastmod": "2025-05-24T00:00:00+09:00",
     "description": "조니 톰슨의 철학 개념어 사전을 발판으로 지식의 핵심 어휘와 사유의 지도를 만든다.",
     "tags": [
-      "philosophy",
-      "concepts",
-      "intelligence",
-      "glossary",
       "bib",
+      "concepts",
+      "glossary",
+      "idea",
+      "intelligence",
       "keywords",
-      "syntopicon",
-      "idea"
+      "philosophy",
+      "syntopicon"
     ],
     "page_id": 382454,
     "url": "https://wikidocs.net/382454"
@@ -22430,6 +22462,23 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250212T092332": {
+    "path": "pages/notes/20250212T092332.md",
+    "subject": "20260815 힣: 원격근무 지식노동자 미래 삶으로서의 일과 폴리매스의 부름",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250212T092332/",
+    "source_date": "2025-02-12T09:23:00+09:00",
+    "source_lastmod": "2026-08-15T10:40:00+09:00",
+    "description": "거제도행 기차에서 던진 날것 — 원격근무가 되찾는 것은 통근 시간이 아니라 일·탐구·삶이 한 몸이라는 감각이며, 허슬 문화의 반대말은 게으름이 아니라 삶으로서의 일이다.",
+    "tags": [
+      "autholog",
+      "career",
+      "coevolution",
+      "lifestyle",
+      "polymath",
+      "remote"
+    ]
+  },
   "20250716T135847": {
     "path": "pages/notes/20250716T135847.md",
     "subject": "20260814 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든",
@@ -25299,29 +25348,9 @@
     "page_id": 381696,
     "url": "https://wikidocs.net/381696"
   },
-  "20250329T161615": {
-    "path": "pages/notes/20250329T161615.md",
-    "subject": "20260420 코딩테스트 기억 추억 - 오일러",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250329T161615/",
-    "source_date": "2025-03-29T16:16:00+09:00",
-    "source_lastmod": "2026-04-20T08:45:00+09:00",
-    "description": "오일러 문제를 파이썬 코드로 풀며 Org Babel 설정을 시험한 테스트 노트는 아니다. 그냥 추억한다. 코테를.",
-    "tags": [
-      "coding",
-      "delete",
-      "evaluation",
-      "legacy",
-      "practice",
-      "remember",
-      "test"
-    ],
-    "page_id": 381635,
-    "url": "https://wikidocs.net/381635"
-  },
   "20250326T163625": {
     "path": "pages/notes/20250326T163625.md",
-    "subject": "20260419 알못시대 - 불완전한 시작과 배움",
+    "subject": "20260419 알못시대 - 불완전한 시작과 배움 - 코알못",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250326T163625/",
     "source_date": "2025-03-26T16:36:00+09:00",
@@ -25330,11 +25359,33 @@
     "tags": [
       "beginner",
       "coding",
+      "imperfectionlist",
       "learning",
-      "practice"
+      "practice",
+      "test"
     ],
     "page_id": 381622,
     "url": "https://wikidocs.net/381622"
+  },
+  "20250329T161615": {
+    "path": "pages/notes/20250329T161615.md",
+    "subject": "20260419 힣: 코딩테스트 머리에 넣지 않는 공부, 지도를 읽는 메타 인지",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250329T161615/",
+    "source_date": "2025-03-29T16:16:00+09:00",
+    "source_lastmod": "2026-04-19T13:47:00+09:00",
+    "description": "2025년 오일러 바벨 테스트에서 시작해 백준 사라짐의 날것을 거쳐, 메타풀이로 이어지는 원석. 머리에 케이스 코드를 넣는 공부 대신 무엇을 요구하는가를 읽는 지도를 펼치는, 코딩테스트 관점에서 교육을 두드리는 노트.",
+    "tags": [
+      "autholog",
+      "coding",
+      "education",
+      "evaluation",
+      "learning",
+      "metacognition",
+      "practice",
+      "remember",
+      "test"
+    ]
   },
   "20250716T091254": {
     "path": "pages/notes/20250716T091254.md",
@@ -33749,20 +33800,6 @@
     ],
     "page_id": 381517,
     "url": "https://wikidocs.net/381517"
-  },
-  "20250212T092332": {
-    "path": "pages/notes/20250212T092332.md",
-    "subject": "20250212 허슬문화 - 수정 대기중",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250212T092332/",
-    "source_date": "2025-02-12T09:23:00+09:00",
-    "source_lastmod": "2025-02-12T09:23:00+09:00",
-    "description": "허슬 문화가 과도한 긴장과 보여주기 경쟁을 만든다는 문제의식을 적은 노트이다.",
-    "tags": [
-      "bib"
-    ],
-    "page_id": 381516,
-    "url": "https://wikidocs.net/381516"
   },
   "20250209T112155": {
     "path": "pages/notes/20250209T112155.md",

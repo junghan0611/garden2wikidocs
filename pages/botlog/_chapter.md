@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## zotero-config: bibcli 캡처 금고와 메타 서지의 얇은 손
+
+작성 2026-03-04 · 수정 2026-08-22 · 태그 agent, bibtex, botlog, citar, workflow, zotero
+
+zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT, URL 원샷 pin, dateAdded 성스러움, 과정 공개의 경계를 한 얼굴에 모은다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382558)
+
 ## aionsclubs: B의 자리와 마이크 클럽 집을 여는 전략
 
 작성 2026-03-16 · 수정 2026-08-12 · 태그 aionsclubs, botlog, handoff
@@ -33,14 +41,6 @@ andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과
 담당자 없는 오케스트레이터/에이전트 도구 판도 관찰 노트 — OpenClaw, Hermes 등 하네스의 릴리즈 속도·포크 관계·메인테이너 판단을 계속 쌓는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382608)
-
-## zotero-config: 캡처 금고와 메타 서지의 얇은 손
-
-작성 2026-03-04 · 수정 2026-08-02 · 태그 agent, bibtex, botlog, citar, workflow, zotero
-
-zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT, URL 원샷 pin, dateAdded 성스러움, 과정 공개의 경계를 한 얼굴에 모은다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382558)
 
 ## memex-kb 스캔책을 귀로 듣기까지 OCR 파이프라인 여정 모델/도구
 

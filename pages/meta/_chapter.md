@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 인공지능 수학 물리 학습역학
+
+작성 2025-04-29 · 수정 2026-08-23 · 태그 ai, bib, learning, mathematics, mechanics, meta, physics
+
+인공지능을 수학·물리의 방법으로 설명 가능한 이론으로 만들려는 갈래를 묶는다. 학습역학(Learning Mechanics)과 지능·행위의 물리학이 여기에 걸린다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250429T102902/)
+
+## 장인 달인 대가 스승 구루 마스터 힙스터
+
+작성 2024-10-17 · 수정 2026-08-22 · 태그 architecture, craftsman, guru, hipster, master, meta
+
+장인, 달인, 대가, 스승, 구루는 숙련과 전수, 권위와 배움의 얼굴을 나눠 보여주는 말들이다. 통달한 사람을 부르는 호칭이 어떻게 서로 다른 뉘앙스를 갖는지 함께 살핀다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241017T064131/)
+
+## 옴니 옴니유즈
+
+작성 2024-10-13 · 수정 2026-08-22 · 태그 meta, omni, omniuse
+
+옴니를 모든 것을 아우르는 접두와 감각으로 받아들이며, 통합 검색과 전면적 연결의 느낌을 담는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241013T213110/)
+
+## 코파일럿 페어프로그래밍
+
+작성 2024-09-15 · 수정 2026-08-22 · 태그 ai, copilot, github, meta, pair, programming
+
+코파일럿을 코드 자동완성보다 대화형 페어프로그래밍의 한 방식으로 보고 AI 협업의 감각을 정리한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240915T210126/)
+
 ## 마음
 
 작성 2025-04-24 · 수정 2026-08-14 · 태그 meta, mind, mindsbodies, syntopicon
@@ -730,14 +762,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241003T173105/)
 
-## 장인 달인 대가 스승 구루
-
-작성 2024-10-17 · 수정 2026-03-30 · 태그 architecture, craftsman, guru, master, meta
-
-장인, 달인, 대가, 스승, 구루는 숙련과 전수, 권위와 배움의 얼굴을 나눠 보여주는 말들이다. 통달한 사람을 부르는 호칭이 어떻게 서로 다른 뉘앙스를 갖는지 함께 살핀다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241017T064131/)
-
 ## 댓글 반응 토론 피드백 의견 봇멘트 코멘트
 
 작성 2024-09-08 · 수정 2026-03-28 · 태그 bib, botment, comment, discussions, feedback, meta, reactions
@@ -1242,9 +1266,9 @@ IoT는 센서와 기기, 네트워크와 플랫폼이 연결되어 물리 세계
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240617T112259/)
 
-## 여가 오락 놀이 유희
+## 여가 오락 놀이 유희 게임
 
-작성 2024-05-20 · 수정 2025-06-17 · 태그 glassbeadgame, leisure, meta
+작성 2024-05-20 · 수정 2025-06-17 · 태그 game, glassbeadgame, leisure, meta
 
 여가와 놀이, 유희는 생산의 바깥에서만 머물지 않고 자기실현과 관계 형성, 사유의 자유를 여는 시간이다.
 
@@ -1810,14 +1834,6 @@ MOOC와 KOCW는 누구나 접근 가능한 온라인 강의 인프라로, 대규
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241006T085056/)
 
-## 코파일럿 페어프로그래밍
-
-작성 2024-09-15 · 수정 2025-06-03 · 태그 ai, copilot, meta, pair, programming
-
-코파일럿을 코드 자동완성보다 대화형 페어프로그래밍의 한 방식으로 보고 AI 협업의 감각을 정리한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240915T210126/)
-
 ## 인터페이스
 
 작성 2024-08-22 · 수정 2025-06-03 · 태그 interface, meta
@@ -2369,14 +2385,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 원격 개발과 SSH, 프록시, 포워딩, TRAMP 같은 연결 방식을 묶어 원격 작업의 언어를 정리한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250429T103025/)
-
-## 인공지능 수학
-
-작성 2025-04-29 · 수정 2025-04-29 · 태그 ai, mathematics, meta
-
-인공지능과 수학
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250429T102902/)
 
 ## 철학 10.5
 
@@ -3266,9 +3274,9 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20231005T141500/)
 
-## SICP 마법사책
+## SICP 마법사
 
-작성 2023-09-09 · 수정 2025-04-22 · 태그 bib, computer, interpretation, lisp, meta, programs, scheme, sicp, structure
+작성 2023-09-09 · 수정 2025-04-22 · 태그 bib, computer, interpretation, lisp, meta, programs, scheme, sicm, sicp, structure
 
 SICP를 중심으로 컴퓨터 과학의 핵심 개념, 스킴 실습, 관련 강의와 노트 자원을 묶는다.
 
@@ -4074,9 +4082,9 @@ AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20220411T101300/)
 
-## 텍마텍스트장인텍스트마스터텍스트힙스터
+## 텍스트힙스터 텍마 텍스트마스터 텍스트장인
 
-작성 2024-10-23 · 수정 2025-02-14 · 태그 meta, textmaster
+작성 2024-10-23 · 수정 2025-02-14 · 태그 geeks, hipster, meta, textmaster
 
 텍스트장인과 텍스트마스터, 텍스트힙스터라는 자기호명을 통해 글쓰기 유희와 장인성을 엮는다.
 
@@ -4242,21 +4250,13 @@ AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241213T213054/)
 
-## 옴니유즈
+## 빈방 임시 — 2024-12-13
 
-작성 2024-12-13 · 수정 2024-12-13 · 태그 meta, omniuse
+작성 2024-12-13 · 수정 2024-12-13 · 태그 meta, temp
 
 옴니유즈라는 말을 모든 용도에 걸친 활용성과 범용적 사용성, 통합 도구 감각으로 읽어내려는 시도다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241213T113213/)
-
-## 옴니
-
-작성 2024-10-13 · 수정 2024-12-13 · 태그 meta, omni
-
-옴니를 모든 것을 아우르는 접두와 감각으로 받아들이며, 통합 검색과 전면적 연결의 느낌을 담는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241013T213110/)
 
 ## 긳 사용자 이맥시안
 

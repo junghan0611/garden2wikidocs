@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 스티븐울프럼 수학 소프트웨어 컴퓨터대수시스템 울프럼
+
+작성 2024-05-17 · 수정 2026-08-23 · 태그 bib, chatgpt, computational
+
+스티븐 울프럼의 강의를 따라 챗GPT를 언어 인터페이스와 계산 지성의 결합으로 새롭게 해석한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240517T162304/)
+
+## 마이클스피박 MichaelSpivak 미분기하학 다양체 표기법 라그랑주
+
+작성 2024-12-04 · 수정 2026-08-23 · 태그 bib, classicalmechanics, mathematics, mechanics, sicm
+
+미분기하학의 엄밀한 표기와 다양체 감각이 라그랑주 역학의 수학적 서술과 어떻게 만나는지 가늠하게 한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241204T205333/)
+
+## 마크롤랜즈 피터싱어 늑대 달리기 SF영화 체화인지 현상학 삶의철학 동물 윤리
+
+작성 2024-12-10 · 수정 2026-08-23 · 태그 bib, embedded, embodied, good, happiness, life, mind, phenomenology, philosophy, running, science, universe
+
+늑대와의 삶, 달리기, 체화인지, 현상학을 함께 엮으며 좋은 삶이 몸과 세계의 관계 속에서 형성된다고 말한다. 인간 중심의 철학을 벗어나 동물과 환경, 운동의 감각까지 사유를 넓힌다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241210T050320/)
+
+## 모티머애들러 파이데이아 평생공부 가이드 브리태니커 폴리매스
+
+작성 2025-04-15 · 수정 2026-08-22 · 태그 bib, britannica, encyclopedia, guide, knowing, knowledge, learning, lifelong, paideia, philosopher
+
+모티머 애들러는 브리태니커와 파이데이아 구상을 통해 고전 읽기와 평생교육을 하나의 교양 체계로 엮은 사상가다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250415T142810/)
+
 ## 올더스헉슬리 AldousHuxley 문명·의식·교육의 탐구
 
 작성 2024-12-05 · 수정 2026-08-21 · 태그 bib, conscious, culture, education, essay, future, liberty, literature, modernism, novel, peace, person, philosophy, religion, science, spirituality
@@ -1178,14 +1210,6 @@ M.C. Escher - 수학적 영감의 판화 예술
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250116T153404/)
 
-## 마이클스피박(Michael Spivak) 미분기하학 다양체 표기법 라그랑주
-
-작성 2024-12-04 · 수정 2026-02-03 · 태그 bib, classicalmechanics, mechanics
-
-미분기하학의 엄밀한 표기와 다양체 감각이 라그랑주 역학의 수학적 서술과 어떻게 만나는지 가늠하게 한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241204T205333/)
-
 ## 다니엘시투나야케 제니플런켓 엣지AI 임베디드 머신러닝
 
 작성 2025-05-22 · 수정 2026-01-27 · 태그 ai, bib, edge, embedded, machinelearning
@@ -1497,14 +1521,6 @@ HTDP는 함수형 사고와 디자인 레시피를 통해 프로그램을 어떻
 곽영직은 물리학의 핵심 개념과 단위, 과학혁명의 흐름을 쉽게 풀어내며 과학과 철학의 접점을 넓힌 과학 저술가다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241226T101418/)
-
-## 마크롤랜즈 늑대 달리기 SF영화 체화인지 현상학 삶의철학 동물 윤리
-
-작성 2024-12-10 · 수정 2025-06-20 · 태그 bib, philosophy, happiness, universe, science, mind, phenomenology, life, good, running, embedded
-
-늑대와의 삶, 달리기, 체화인지, 현상학을 함께 엮으며 좋은 삶이 몸과 세계의 관계 속에서 형성된다고 말한다. 인간 중심의 철학을 벗어나 동물과 환경, 운동의 감각까지 사유를 넓힌다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241210T050320/)
 
 ## 박정일 추상적사고 논리철학 괴델 논리학
 
@@ -3090,14 +3106,6 @@ Andrew Hyatt은 EKG, LLM, calc, triples 실험을 통해 Emacs를 지식그래�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250415T165126/)
 
-## 모티머애들러 파이데이아 평생공부 가이드 - 브리태니커 폴리매스
-
-작성 2025-04-15 · 수정 2025-04-15 · 태그 bib, britannica, encyclopedia, guide, knowing, knowledge, learning, lifelong, philosopher, paideia
-
-모티머 애들러는 브리태니커와 파이데이아 구상을 통해 고전 읽기와 평생교육을 하나의 교양 체계로 엮은 사상가다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250415T142810/)
-
 ## X-CMD - 커맨드라인 도구 통합 스크립트
 
 작성 2025-04-15 · 수정 2025-04-15 · 태그 bib, omni, scripts, unified
@@ -3266,9 +3274,9 @@ Shopify는 온라인 스토어 인프라를 대중화한 전자상거래 플랫�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250408T143654/)
 
-## clj-tiles: 스템 융합교육
+## 임시 빈방 clj-tiles: 스템 융합교육
 
-작성 2024-12-05 · 수정 2025-04-07 · 태그 bib, education
+작성 2024-12-05 · 수정 2025-04-07 · 태그 bib, education, sicm
 
 clj-tiles는 클로저 기반 시각 도구로 수학·과학·코딩을 손으로 만지는 듯 배우게 하는 융합교육 실험을 보여준다.
 
@@ -5346,9 +5354,9 @@ Scholia는 위키데이터를 연구자·논문·주제 네트워크로 시각�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240522T225411/)
 
-## 교육용 수학 소프트웨어 - 컴퓨터대수시스템 지오지브라 울프럼 맥시마
+## 임시 대기
 
-작성 2024-05-22 · 수정 2024-12-01 · 태그 bib
+작성 2024-05-22 · 수정 2024-12-01 · 태그 temp
 
 맥시마·지오지브라·울프럼 같은 도구를 통해 계산, 시각화, 탐구를 잇는 교육용 수학 소프트웨어 지형을 살핀다.
 
@@ -5361,14 +5369,6 @@ Scholia는 위키데이터를 연구자·논문·주제 네트워크로 시각�
 countvajhula의 drym 실험은 이맥스 생태계에서 유지보수와 보상 구조를 잇는 오픈소스 경제 모델을 모색한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240520T163402/)
-
-## 스티븐울프럼 챗GPT 강의
-
-작성 2024-05-17 · 수정 2024-12-01 · 태그 bib, chatgpt
-
-스티븐 울프럼의 강의를 따라 챗GPT를 언어 인터페이스와 계산 지성의 결합으로 새롭게 해석한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240517T162304/)
 
 ## 앤드류양 보통 사람들의 전쟁 기계와의 일자리 전쟁
 

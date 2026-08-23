@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: sicm-study 공존의 언어로서의 수식 모델 사용자가 지능을 묻는 자리 학습역학
+
+작성 2025-02-12 · 수정 2026-08-23 · 태그 autholog, coevolution, emacs, intelligence, learning, lisp, mechanics, physics, sicm, vericoding
+
+케빈 켈리에서 제이컵 예이츠와 학습역학으로 흘러온 하루의 날것. AI 연구자가 아니라 모델 사용자라는 자리에서, 수식을 에이전트와 공유하는 중간 언어로 놓고 SICM·리스프·gptel·베리코딩을 한 사슬로 잇는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T123217/)
+
+## 힣: 코딩테스트 머리에 넣지 않는 공부, 지도를 읽는 메타 인지
+
+작성 2025-03-29 · 수정 2026-08-23 · 태그 autholog, coding, education, evaluation, learning, metacognition, practice, remember, test
+
+2025년 오일러 바벨 테스트에서 시작해 백준 사라짐의 날것을 거쳐, 메타풀이로 이어지는 원석. 머리에 케이스 코드를 넣는 공부 대신 무엇을 요구하는가를 읽는 지도를 펼치는, 코딩테스트 관점에서 교육을 두드리는 노트.
+
+[위키독스에서 읽기 →](https://wikidocs.net/408488)
+
+## 힣: 원격근무 지식노동자 미래 삶으로서의 일과 폴리매스의 부름
+
+작성 2025-02-12 · 수정 2026-08-23 · 태그 autholog, career, coevolution, lifestyle, polymath, remote
+
+거제도행 기차에서 던진 날것 — 원격근무가 되찾는 것은 통근 시간이 아니라 일·탐구·삶이 한 몸이라는 감각이며, 허슬 문화의 반대말은 게으름이 아니라 삶으로서의 일이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/408486)
+
+## 힣: Magit Forge 에이전트 채널을 읽는 인간 면
+
+작성 2024-08-28 · 수정 2026-08-23 · 태그 autholog, emacs, github, magit, workflow
+
+GitHub 이슈는 에이전트 소통 채널이다. 브라우저는 느리고 gh는 매번 왕복한다. Magit Forge 로컬 DB가 인간의 인박스 면 — 1탄(손의 분담)의 2탄.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240828T194548/)
+
 ## 백업: 올드노트 제텔노트 홀드 대기
 
 작성 2024-06-10 · 수정 2026-08-21 · 태그 hold
@@ -9,14 +41,6 @@
 오래된 제텔노트와 이야기 노트를 다시 보기 위해 백업·홀드 상태로 묶어 둔 노트. 관련 내용을 정리한 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240610T130556/)
-
-## 힣: 원격근무 지식노동자 미래 삶으로서의 일과 폴리매스의 부름
-
-작성 2025-02-12 · 수정 2026-08-15 · 태그 autholog, career, coevolution, lifestyle, polymath, remote
-
-거제도행 기차에서 던진 날것 — 원격근무가 되찾는 것은 통근 시간이 아니라 일·탐구·삶이 한 몸이라는 감각이며, 허슬 문화의 반대말은 게으름이 아니라 삶으로서의 일이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/408486)
 
 ## 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든
 
@@ -434,7 +458,7 @@ Entwurf는 모든 하네스를 직접 떠안지 않는다. PI를 코어로, ACP�
 
 [위키독스에서 읽기 →](https://wikidocs.net/388694)
 
-## 힣: 아무도 읽지 않는 디지털가든 만들고 행복한 지인 이야기 - 6세 아이에게 기술이란
+## 힣: 아무도 읽지 않는 디지털가든 만들고 행복한 지인(W씨) 이야기 - 6세 아이에게 기술이란
 
 작성 2025-03-16 · 수정 2026-07-31 · 태그 autholog, creativity, digitalgarden, happiness, skills, technology
 
@@ -1217,14 +1241,6 @@ PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노
 코딩을 잘 모르는 출발점 자체를 배움의 철학으로 받아들이며 '코알라'라는 말을 붙잡아 본다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250326T163625/)
-
-## 힣: 코딩테스트 머리에 넣지 않는 공부, 지도를 읽는 메타 인지
-
-작성 2025-03-29 · 수정 2026-04-19 · 태그 autholog, coding, education, evaluation, learning, metacognition, practice, remember, test
-
-2025년 오일러 바벨 테스트에서 시작해 백준 사라짐의 날것을 거쳐, 메타풀이로 이어지는 원석. 머리에 케이스 코드를 넣는 공부 대신 무엇을 요구하는가를 읽는 지도를 펼치는, 코딩테스트 관점에서 교육을 두드리는 노트.
-
-[위키독스에서 읽기 →](https://wikidocs.net/408488)
 
 ## 안드로이드 새폰 syncthing termux 데이터 동기화 소유권
 
@@ -2516,7 +2532,7 @@ Emacs abbrev 기능으로 자주 쓰는 축약어를 자동 확장하는 방법�
 
 ## 자연철학: 학습: 이맥스: 전산물리: 수식입력 코드
 
-작성 2024-05-17 · 수정 2025-06-03 · 태그 computational, physics, learning
+작성 2024-05-17 · 수정 2025-06-03 · 태그 computational, learning, physics
 
 이맥스 안에서 전산물리와 수식 입력, 코드 문서를 함께 배우려는 자연철학 학습 구상 노트.
 
@@ -4058,14 +4074,6 @@ Hy 언어를 이맥스 통합개발환경에 올리기 위해 설치와 버전 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240923T165700/)
 
-## 이맥스 깃허브: magit forge 깃허브 이슈 관리
-
-작성 2024-08-28 · 수정 2025-03-28 · 태그 bib, client, github, magit
-
-Magit과 Forge로 깃허브 이슈와 알림을 이맥스 안에서 다루는 방법을 정리한 기록.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240828T194548/)
-
 ## 인공지능 커먼리스프
 
 작성 2024-07-04 · 수정 2025-03-28 · 태그 ai, commonlisp
@@ -4786,9 +4794,9 @@ Emacs 태그 자동완성을 꺼야 하는 이유와 해결 설정을 정리한 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250304T172608/)
 
-## LLM: 메이크스타 - makestar
+## W씨 임시 빈방
 
-작성 2025-03-02 · 수정 2025-03-02
+작성 2025-03-02 · 수정 2025-03-02 · 태그 temp
 
 K-Culture 플랫폼 메이크스타가 어떤 회사인지 기본 정보를 정리한 로그이다.
 
@@ -4924,7 +4932,7 @@ swiper와 consult-line의 장단점을 검색 경험 관점에서 비교하는 �
 
 ## 텍스트 힙스터 - 지식 유희자를 위한 놀이터
 
-작성 2025-02-23 · 수정 2025-02-23 · 태그 community, emacs, substack
+작성 2025-02-23 · 수정 2025-02-23 · 태그 community, emacs, hipster, substack, textmaster
 
 지식 유희자를 위한 텍스트 힙스터 놀이터를 만들려는 커뮤니티 구상 노트이다.
 
@@ -5305,14 +5313,6 @@ MIT Press Essential Knowledge와 Oxford VSI 입문서 시리즈를 비교하는 
 안드로이드 화면을 리눅스에서 미러링하는 scrcpy 설치·빌드·사용 경험을 정리한 실전 기록.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231118T065236/)
-
-## 모음: 양자역학 현대물리 역사 드라마
-
-작성 2025-02-12 · 수정 2025-02-12 · 태그 bib, collection, physics, quantum
-
-양자역학과 현대물리의 역사 드라마를 한곳에 모아 보려는 물리학 컬렉션 노트이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T123217/)
 
 ## LLM: 우주센터 옥토끼 강화도
 

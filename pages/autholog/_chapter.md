@@ -5,17 +5,41 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 204개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 206개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: sicm-study 공존의 언어로서의 수식 모델 사용자가 지능을 묻는 자리 학습역학
+
+작성 2025-02-12 · 수정 2026-08-23 · 태그 autholog, coevolution, emacs, intelligence, learning, lisp, mechanics, physics, sicm, vericoding
+
+케빈 켈리에서 제이컵 예이츠와 학습역학으로 흘러온 하루의 날것. AI 연구자가 아니라 모델 사용자라는 자리에서, 수식을 에이전트와 공유하는 중간 언어로 놓고 SICM·리스프·gptel·베리코딩을 한 사슬로 잇는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250212T123217/)
+
+## 힣: 코딩테스트 머리에 넣지 않는 공부, 지도를 읽는 메타 인지
+
+작성 2025-03-29 · 수정 2026-08-23 · 태그 autholog, coding, education, evaluation, learning, metacognition, practice, remember, test
+
+2025년 오일러 바벨 테스트에서 시작해 백준 사라짐의 날것을 거쳐, 메타풀이로 이어지는 원석. 머리에 케이스 코드를 넣는 공부 대신 무엇을 요구하는가를 읽는 지도를 펼치는, 코딩테스트 관점에서 교육을 두드리는 노트.
+
+[위키독스에서 읽기 →](https://wikidocs.net/408488)
+
 ## 힣: 원격근무 지식노동자 미래 삶으로서의 일과 폴리매스의 부름
 
-작성 2025-02-12 · 수정 2026-08-15 · 태그 autholog, career, coevolution, lifestyle, polymath, remote
+작성 2025-02-12 · 수정 2026-08-23 · 태그 autholog, career, coevolution, lifestyle, polymath, remote
 
 거제도행 기차에서 던진 날것 — 원격근무가 되찾는 것은 통근 시간이 아니라 일·탐구·삶이 한 몸이라는 감각이며, 허슬 문화의 반대말은 게으름이 아니라 삶으로서의 일이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/408486)
+
+## 힣: Magit Forge 에이전트 채널을 읽는 인간 면
+
+작성 2024-08-28 · 수정 2026-08-23 · 태그 autholog, emacs, github, magit, workflow
+
+GitHub 이슈는 에이전트 소통 채널이다. 브라우저는 느리고 gh는 매번 왕복한다. Magit Forge 로컬 DB가 인간의 인박스 면 — 1탄(손의 분담)의 2탄.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240828T194548/)
 
 ## 힣: 분신이 생존을 위해 나선다 FDE와 아무도 읽지 않는 가든
 
@@ -393,7 +417,7 @@ Entwurf는 모든 하네스를 직접 떠안지 않는다. PI를 코어로, ACP�
 
 [위키독스에서 읽기 →](https://wikidocs.net/388694)
 
-## 힣: 아무도 읽지 않는 디지털가든 만들고 행복한 지인 이야기 - 6세 아이에게 기술이란
+## 힣: 아무도 읽지 않는 디지털가든 만들고 행복한 지인(W씨) 이야기 - 6세 아이에게 기술이란
 
 작성 2025-03-16 · 수정 2026-07-31 · 태그 autholog, creativity, digitalgarden, happiness, skills, technology
 
@@ -1000,14 +1024,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 영어 태그가 meta 노트의 자석으로 살아남으려면 개별 단어여야 한다는 힣의 태그 규칙을 못박아 둔 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381696)
-
-## 힣: 코딩테스트 머리에 넣지 않는 공부, 지도를 읽는 메타 인지
-
-작성 2025-03-29 · 수정 2026-04-19 · 태그 autholog, coding, education, evaluation, learning, metacognition, practice, remember, test
-
-2025년 오일러 바벨 테스트에서 시작해 백준 사라짐의 날것을 거쳐, 메타풀이로 이어지는 원석. 머리에 케이스 코드를 넣는 공부 대신 무엇을 요구하는가를 읽는 지도를 펼치는, 코딩테스트 관점에서 교육을 두드리는 노트.
-
-[위키독스에서 읽기 →](https://wikidocs.net/408488)
 
 ## 힣: 이맥스 학습 의미 - 도구 효율성 가치
 

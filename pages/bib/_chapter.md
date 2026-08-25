@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 스티브예기 steveyegge gastown beads efrit ampcode
+
+작성 2025-11-23 · 수정 2026-08-25 · 태그 agent, bib, emacsian, guru, harness, vibecoding
+
+스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20251123T152633/)
+
 ## 스티븐울프럼 수학 소프트웨어 컴퓨터대수시스템 울프럼
 
 작성 2024-05-17 · 수정 2026-08-23 · 태그 bib, chatgpt, computational
@@ -1273,14 +1281,6 @@ Emanuel Jeff는 beads의 Rust 포팅과 멀티에이전트 오케스트레이션
 스티븐 호킹과 레오나르드 믈로디노프가 우주론, 기하학, 과학사, 감정과 사고를 대중적으로 풀어낸 작업을 함께 묶는다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20251219T104716/)
-
-## 스티브예기 steveyegge beads efrit ampcode 바이브코딩
-
-작성 2025-11-23 · 수정 2025-11-23 · 태그 agent, bib, emacsian, guru, vibecoding
-
-스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20251123T152633/)
 
 ## 모르텐알베크 삶으로서의일 의미 삶의철학 워라벨
 

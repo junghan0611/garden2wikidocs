@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 가상사설네트워크 보안 개인정보 방화벽 포트 암호 가드레일
+
+작성 2024-08-02 · 수정 2026-08-25 · 태그 ai, cipher, firewall, guardrail, meta, network, ports, privacy, private, security, ssh, virtual, vpn
+
+VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보호와 네트워크 안전 전략을 한데 묶는다. 가드레일 추가했다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240802T124300/)
+
+## 에피파니 현현 깨달음 해탈 메타노이아 회심
+
+작성 2025-03-14 · 수정 2026-08-25 · 태그 awakening, boundary, dharma, emancipation, enlightenment, epiphany, liberation, meta, metanoia, nonduality, opposites, transcendence
+
+에피파니의 순간적 현현과 깨달음·해탈·메타노이아의 삶의 전환을 구분하고, 경계를 넘어서는 동서양의 언어를 함께 엮는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250314T144713/)
+
+## 울타리 경계 바운더리 놀이터 샌드박스 터널 신뢰
+
+작성 2024-10-23 · 수정 2026-08-25 · 태그 agent, boundary, fence, guardrail, meta, philosophy, playground, protocol, sandbox, trust, tunnel
+
+에이전트를 가두지 않고 \"이 안에서는 같은 규칙으로 함께 일하자\"는 프로토콜 — 놀이터의 경계이자 신뢰의 구조로서 울타리(fence)·샌드박스(sandbox)·터널(tunnel)을 한데 묶는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241023T072322/)
+
+## 임베디드시스템 피지컬컴퓨팅 펌웨어
+
+작성 2025-05-16 · 수정 2026-08-24 · 태그 bib, edgeai, embedded, firmware, iot, linux, mcu, meta, physicalcomputing, rtos, system, yocto
+
+임베디드 시스템 — 하드웨어·펌웨어·물리세계 상호작용의 기술 스택
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250516T110351/)
+
 ## 인공지능 수학 물리 학습역학
 
 작성 2025-04-29 · 수정 2026-08-23 · 태그 ai, bib, learning, mathematics, mechanics, meta, physics
@@ -345,14 +377,6 @@ AX를 AI 기술 도입이 아니라 인간·조직의 판단·기록·협업·�
 글쓰기를 읽기·듣기·미디어 리터러시와 연결하고, 흩어진 작성 노트를 모으는 라이팅 허브로 삼는다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240902T173233/)
-
-## 에피파니 현현 깨달음 해탈 메타노이아 회심 경계
-
-작성 2025-03-14 · 수정 2026-07-17 · 태그 awakening, boundary, dharma, emancipation, enlightenment, epiphany, liberation, meta, metanoia, nonduality, opposites, transcendence
-
-에피파니의 순간적 현현과 깨달음·해탈·메타노이아의 삶의 전환을 구분하고, 경계를 넘어서는 동서양의 언어를 함께 엮는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250314T144713/)
 
 ## 진리 진실 정직 확증편향 아첨
 
@@ -946,14 +970,6 @@ REPL을 읽기·평가·출력을 반복하며 생각과 코드를 즉시 시험
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240816T072714/)
 
-## 임베디드시스템 피지컬컴퓨팅 펌웨어
-
-작성 2025-05-16 · 수정 2026-01-12 · 태그 bib, edgeai, embedded, firmware, iot, linux, mcu, meta, physicalcomputing, rtos, system, yocto
-
-임베디드 시스템 — 하드웨어·펌웨어·물리세계 상호작용의 기술 스택
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250516T110351/)
-
 ## 수리물리학
 
 작성 2024-11-15 · 수정 2025-12-14 · 태그 mathematicalphysics, meta
@@ -1297,14 +1313,6 @@ LaTeX, Typst, 수식 입력, 조판과 기호 표현을 문서 제작과 수학�
 본짓과 딴짓, 낭비의 경계를 시간감각과 몰입의 문제로 다루며, 하루의 에너지 배분을 돌아보게 한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241212T112839/)
-
-## 가상사설네트워크 보안 개인정보 방화벽 포트 암호
-
-작성 2024-08-02 · 수정 2025-06-16 · 태그 ai, cipher, firewall, meta, network, ports, privacy, private, security, ssh, virtual, vpn
-
-VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보호와 네트워크 안전 전략을 한데 묶는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240802T124300/)
 
 ## 마인드맵 다이어그램 시각화 사고법
 
@@ -2490,7 +2498,7 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T233629/)
 
-## 폭정전제정치
+## 폭정 전제정치
 
 작성 2025-04-24 · 수정 2025-04-24 · 태그 despotism, meta, syntopicon, tyranny
 
@@ -4265,14 +4273,6 @@ AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 �
 긳, 사용자, 이맥시안 같은 호칭을 통해 도구 사용자 정체성과 문화적 결을 함께 묶어본다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241213T105315/)
-
-## 빈방 임시 — 2024-10-23
-
-작성 2024-10-23 · 수정 2024-10-23 · 태그 meta, temp
-
-Anthropic과 다리오 아모데이 자료를 20241208T120006 bib 허브로 이관한 뒤 비워둔 meta 방이다. 기존 anthropic·claude 태그의 자석을 임시 유지하며 다음 개념의 입주를 기다린다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241023T072322/)
 
 ## 버전 업그레이드 업데이트
 

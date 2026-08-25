@@ -1,4 +1,16 @@
 {
+  "20260824T000000": {
+    "path": "pages/journal/20260824T000000.md",
+    "subject": "2026-08-24~2026-08-30_W34",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260824T000000/",
+    "source_date": "2026-08-24T00:00:00+09:00",
+    "source_lastmod": "2026-08-24T06:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260817T000000": {
     "path": "pages/journal/20260817T000000.md",
     "subject": "2026-08-17~2026-08-23_W33",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260817T000000/",
     "source_date": "2026-08-17T00:00:00+09:00",
     "source_lastmod": "2026-08-17T06:13:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "거제도 폭우 속 'this is water'를 던지며 울타리(fence) 철학과 담금질을 새긴 주. 올더스 헉슬리의 『멋진 신세계』·『지각의 문』을 조테로에 들여 캠벨의 '블리스로 가는 길'로 잇고, 코파일럿 entwurf 지원과 oh-my-pi 검수에서 'GLG의 검수 홉 수'가 진짜 통화 단위임을 확인했다.",
     "tags": [
       "journal"
     ]
@@ -1519,6 +1531,106 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20240802T124300": {
+    "path": "pages/meta/20240802T124300.md",
+    "subject": "20260825 가상사설네트워크 보안 개인정보 방화벽 포트 암호 가드레일",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240802T124300/",
+    "source_date": "2024-08-02T12:43:00+09:00",
+    "source_lastmod": "2026-08-25T22:55:00+09:00",
+    "description": "VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보호와 네트워크 안전 전략을 한데 묶는다. 가드레일 추가했다.",
+    "tags": [
+      "ai",
+      "cipher",
+      "firewall",
+      "guardrail",
+      "meta",
+      "network",
+      "ports",
+      "privacy",
+      "private",
+      "security",
+      "ssh",
+      "virtual",
+      "vpn"
+    ],
+    "page_id": 380616,
+    "url": "https://wikidocs.net/380616"
+  },
+  "20250314T144713": {
+    "path": "pages/meta/20250314T144713.md",
+    "subject": "20260825 에피파니 현현 깨달음 해탈 메타노이아 회심",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250314T144713/",
+    "source_date": "2025-03-14T14:47:00+09:00",
+    "source_lastmod": "2026-08-25T22:51:00+09:00",
+    "description": "에피파니의 순간적 현현과 깨달음·해탈·메타노이아의 삶의 전환을 구분하고, 경계를 넘어서는 동서양의 언어를 함께 엮는다.",
+    "tags": [
+      "awakening",
+      "boundary",
+      "dharma",
+      "emancipation",
+      "enlightenment",
+      "epiphany",
+      "liberation",
+      "meta",
+      "metanoia",
+      "nonduality",
+      "opposites",
+      "transcendence"
+    ],
+    "page_id": 380809,
+    "url": "https://wikidocs.net/380809"
+  },
+  "20241023T072322": {
+    "path": "pages/meta/20241023T072322.md",
+    "subject": "20260825 울타리 경계 바운더리 놀이터 샌드박스 터널 신뢰",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241023T072322/",
+    "source_date": "2024-10-23T07:23:00+09:00",
+    "source_lastmod": "2026-08-25T22:43:00+09:00",
+    "description": "에이전트를 가두지 않고 \\\"이 안에서는 같은 규칙으로 함께 일하자\\\"는 프로토콜 — 놀이터의 경계이자 신뢰의 구조로서 울타리(fence)·샌드박스(sandbox)·터널(tunnel)을 한데 묶는다.",
+    "tags": [
+      "agent",
+      "boundary",
+      "fence",
+      "guardrail",
+      "meta",
+      "philosophy",
+      "playground",
+      "protocol",
+      "sandbox",
+      "trust",
+      "tunnel"
+    ],
+    "page_id": 380731,
+    "url": "https://wikidocs.net/380731"
+  },
+  "20250516T110351": {
+    "path": "pages/meta/20250516T110351.md",
+    "subject": "20260824 임베디드시스템 피지컬컴퓨팅 펌웨어",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250516T110351/",
+    "source_date": "2025-05-16T11:03:00+09:00",
+    "source_lastmod": "2026-08-24T15:56:00+09:00",
+    "description": "임베디드 시스템 — 하드웨어·펌웨어·물리세계 상호작용의 기술 스택",
+    "tags": [
+      "bib",
+      "edgeai",
+      "embedded",
+      "firmware",
+      "iot",
+      "linux",
+      "mcu",
+      "meta",
+      "physicalcomputing",
+      "rtos",
+      "system",
+      "yocto"
+    ],
+    "page_id": 380975,
+    "url": "https://wikidocs.net/380975"
+  },
   "20250429T102902": {
     "path": "pages/meta/20250429T102902.md",
     "subject": "20260823 인공지능 수학 물리 학습역학",
@@ -2322,31 +2434,6 @@
     ],
     "page_id": 380662,
     "url": "https://wikidocs.net/380662"
-  },
-  "20250314T144713": {
-    "path": "pages/meta/20250314T144713.md",
-    "subject": "20260717 에피파니 현현 깨달음 해탈 메타노이아 회심 경계",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250314T144713/",
-    "source_date": "2025-03-14T14:47:00+09:00",
-    "source_lastmod": "2026-07-17T22:37:00+09:00",
-    "description": "에피파니의 순간적 현현과 깨달음·해탈·메타노이아의 삶의 전환을 구분하고, 경계를 넘어서는 동서양의 언어를 함께 엮는다.",
-    "tags": [
-      "awakening",
-      "boundary",
-      "dharma",
-      "emancipation",
-      "enlightenment",
-      "epiphany",
-      "liberation",
-      "meta",
-      "metanoia",
-      "nonduality",
-      "opposites",
-      "transcendence"
-    ],
-    "page_id": 380809,
-    "url": "https://wikidocs.net/380809"
   },
   "20250424T233441": {
     "path": "pages/meta/20250424T233441.md",
@@ -3709,31 +3796,6 @@
     "page_id": 380624,
     "url": "https://wikidocs.net/380624"
   },
-  "20250516T110351": {
-    "path": "pages/meta/20250516T110351.md",
-    "subject": "20260112 임베디드시스템 피지컬컴퓨팅 펌웨어",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250516T110351/",
-    "source_date": "2025-05-16T11:03:00+09:00",
-    "source_lastmod": "2026-01-12T00:00:00+09:00",
-    "description": "임베디드 시스템 — 하드웨어·펌웨어·물리세계 상호작용의 기술 스택",
-    "tags": [
-      "bib",
-      "edgeai",
-      "embedded",
-      "firmware",
-      "iot",
-      "linux",
-      "mcu",
-      "meta",
-      "physicalcomputing",
-      "rtos",
-      "system",
-      "yocto"
-    ],
-    "page_id": 380975,
-    "url": "https://wikidocs.net/380975"
-  },
   "20241115T103526": {
     "path": "pages/meta/20241115T103526.md",
     "subject": "20251214 수리물리학",
@@ -4485,31 +4547,6 @@
     ],
     "page_id": 380764,
     "url": "https://wikidocs.net/380764"
-  },
-  "20240802T124300": {
-    "path": "pages/meta/20240802T124300.md",
-    "subject": "20250616 가상사설네트워크 보안 개인정보 방화벽 포트 암호",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240802T124300/",
-    "source_date": "2024-08-02T12:43:00+09:00",
-    "source_lastmod": "2025-06-16T00:00:00+09:00",
-    "description": "VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보호와 네트워크 안전 전략을 한데 묶는다.",
-    "tags": [
-      "ai",
-      "cipher",
-      "firewall",
-      "meta",
-      "network",
-      "ports",
-      "privacy",
-      "private",
-      "security",
-      "ssh",
-      "virtual",
-      "vpn"
-    ],
-    "page_id": 380616,
-    "url": "https://wikidocs.net/380616"
   },
   "20240411T215933": {
     "path": "pages/meta/20240411T215933.md",
@@ -7105,7 +7142,7 @@
   },
   "20250424T233520": {
     "path": "pages/meta/20250424T233520.md",
-    "subject": "20250424 폭정전제정치",
+    "subject": "20250424 폭정 전제정치",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T233520/",
     "source_date": "2025-04-24T23:35:00+09:00",
@@ -10918,21 +10955,6 @@
     "page_id": 380765,
     "url": "https://wikidocs.net/380765"
   },
-  "20241023T072322": {
-    "path": "pages/meta/20241023T072322.md",
-    "subject": "20241023 빈방 임시",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241023T072322/",
-    "source_date": "2024-10-23T07:23:00+09:00",
-    "source_lastmod": "2024-10-23T07:23:00+09:00",
-    "description": "Anthropic과 다리오 아모데이 자료를 20241208T120006 bib 허브로 이관한 뒤 비워둔 meta 방이다. 기존 anthropic·claude 태그의 자석을 임시 유지하며 다음 개념의 입주를 기다린다.",
-    "tags": [
-      "meta",
-      "temp"
-    ],
-    "page_id": 380731,
-    "url": "https://wikidocs.net/380731"
-  },
   "20240821T162824": {
     "path": "pages/meta/20240821T162824.md",
     "subject": "20240821 버전 업그레이드 업데이트",
@@ -11004,6 +11026,25 @@
     ],
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
+  },
+  "20251123T152633": {
+    "path": "pages/bib/20251123T152633.md",
+    "subject": "20260825 스티브예기 steveyegge gastown beads efrit ampcode",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20251123T152633/",
+    "source_date": "2025-11-23T15:26:00+09:00",
+    "source_lastmod": "2026-08-25T23:00:00+09:00",
+    "description": "스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.",
+    "tags": [
+      "agent",
+      "bib",
+      "emacsian",
+      "guru",
+      "harness",
+      "vibecoding"
+    ],
+    "page_id": 382504,
+    "url": "https://wikidocs.net/382504"
   },
   "20240517T162304": {
     "path": "pages/bib/20240517T162304.md",
@@ -13920,24 +13961,6 @@
     ],
     "page_id": 382505,
     "url": "https://wikidocs.net/382505"
-  },
-  "20251123T152633": {
-    "path": "pages/bib/20251123T152633.md",
-    "subject": "20251123 스티브예기 steveyegge beads efrit ampcode 바이브코딩",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20251123T152633/",
-    "source_date": "2025-11-23T15:26:00+09:00",
-    "source_lastmod": "2025-11-23T15:26:00+09:00",
-    "description": "스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.",
-    "tags": [
-      "agent",
-      "bib",
-      "emacsian",
-      "guru",
-      "vibecoding"
-    ],
-    "page_id": 382504,
-    "url": "https://wikidocs.net/382504"
   },
   "20240721T222905": {
     "path": "pages/bib/20240721T222905.md",
@@ -22535,6 +22558,7 @@
       "autholog",
       "career",
       "coevolution",
+      "fence",
       "lifestyle",
       "polymath",
       "remote"
@@ -36406,6 +36430,30 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260227T141200": {
+    "path": "pages/botlog/20260227T141200.md",
+    "subject": "20260825 doomemacs-config: agent-server 에이전트서버 놀이터 신뢰 울타리",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260227T141200/",
+    "source_date": "2026-02-27T14:12:00+09:00",
+    "source_lastmod": "2026-08-25T22:57:00+09:00",
+    "description": "agent-server가 경로 가드 실험에서 출발해 인간과 에이전트가 Org·Denote·agenda의 의미론과 복구선을 공유하는 Emacs 구조 조작 서버로 성장한 과정을 기록한다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "boundary",
+      "emacs",
+      "fence",
+      "orchestration",
+      "playground",
+      "protocol",
+      "sandbox",
+      "trust",
+      "workflow"
+    ],
+    "page_id": 382548,
+    "url": "https://wikidocs.net/382548"
+  },
   "20260304T105300": {
     "path": "pages/botlog/20260304T105300.md",
     "subject": "20260822 zotero-config: bibcli 캡처 금고와 메타 서지의 얇은 손",
@@ -36742,26 +36790,6 @@
     ],
     "page_id": 382551,
     "url": "https://wikidocs.net/382551"
-  },
-  "20260227T141200": {
-    "path": "pages/botlog/20260227T141200.md",
-    "subject": "20260717 doomemacs-config: agent-server 에이전트서버 놀이터 신뢰 울타리",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260227T141200/",
-    "source_date": "2026-02-27T14:12:00+09:00",
-    "source_lastmod": "2026-07-17T22:40:00+09:00",
-    "description": "agent-server가 경로 가드 실험에서 출발해 인간과 에이전트가 Org·Denote·agenda의 의미론과 복구선을 공유하는 Emacs 구조 조작 서버로 성장한 과정을 기록한다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "emacs",
-      "orchestration",
-      "protocol",
-      "trust",
-      "workflow"
-    ],
-    "page_id": 382548,
-    "url": "https://wikidocs.net/382548"
   },
   "20260518T094818": {
     "path": "pages/botlog/20260518T094818.md",
@@ -37647,8 +37675,10 @@
     "tags": [
       "agent",
       "botlog",
+      "boundary",
       "coevolution",
       "engineering",
+      "fence",
       "harness",
       "heidegger",
       "metahuman",

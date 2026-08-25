@@ -2,6 +2,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## doomemacs-config: agent-server 에이전트서버 놀이터 신뢰 울타리
+
+작성 2026-02-27 · 수정 2026-08-25 · 태그 agent, botlog, boundary, emacs, fence, orchestration, playground, protocol, sandbox, trust, workflow
+
+agent-server가 경로 가드 실험에서 출발해 인간과 에이전트가 Org·Denote·agenda의 의미론과 복구선을 공유하는 Emacs 구조 조작 서버로 성장한 과정을 기록한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382548)
+
 ## zotero-config: bibcli 캡처 금고와 메타 서지의 얇은 손
 
 작성 2026-03-04 · 수정 2026-08-22 · 태그 agent, bibtex, botlog, citar, workflow, zotero
@@ -145,14 +153,6 @@ PKM-AI를 노트에 챗봇이나 검색을 붙이는 기술이 아니라, 인간
 보편학에서 마인드스톰으로 내려가던 직선 계보를 지식의 지형, 배움의 권리, 학문 간 번역, 삶의 경로, 만들기의 환경이 교차하는 관계도로 다시 펼친다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382551)
-
-## doomemacs-config: agent-server 에이전트서버 놀이터 신뢰 울타리
-
-작성 2026-02-27 · 수정 2026-07-17 · 태그 agent, botlog, emacs, orchestration, protocol, trust, workflow
-
-agent-server가 경로 가드 실험에서 출발해 인간과 에이전트가 Org·Denote·agenda의 의미론과 복구선을 공유하는 Emacs 구조 조작 서버로 성장한 과정을 기록한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382548)
 
 ## butlercli 집사 - 생활 운영 루프 수리 구입 자동차 세차 청소 캘린더 추적
 
@@ -532,7 +532,7 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 
 ## 하네스 엔지니어링: 돌도끼에서 인공지능까지, 도구와 존재의 접합부
 
-작성 2026-03-19 · 수정 2026-03-29 · 태그 agent, botlog, coevolution, engineering, harness, heidegger, metahuman, technium, tools
+작성 2026-03-19 · 수정 2026-03-29 · 태그 agent, botlog, boundary, coevolution, engineering, fence, harness, heidegger, metahuman, technium, tools
 
 돌도끼에서 AI까지, 도구와 존재의 접합부를 하네싱이라는 렌즈로 읽는다. 오케스트레이션이 아닌 하네싱이 AI 시대 핵심 엔지니어링이라는 테제.
 

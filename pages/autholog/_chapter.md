@@ -27,7 +27,7 @@
 
 ## 힣: 원격근무 지식노동자 미래 삶으로서의 일과 폴리매스의 부름
 
-작성 2025-02-12 · 수정 2026-08-23 · 태그 autholog, career, coevolution, lifestyle, polymath, remote
+작성 2025-02-12 · 수정 2026-08-23 · 태그 autholog, career, coevolution, fence, lifestyle, polymath, remote
 
 거제도행 기차에서 던진 날것 — 원격근무가 되찾는 것은 통근 시간이 아니라 일·탐구·삶이 한 몸이라는 감각이며, 허슬 문화의 반대말은 게으름이 아니라 삶으로서의 일이다.
 

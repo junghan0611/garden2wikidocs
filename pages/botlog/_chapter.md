@@ -2,6 +2,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 에이전트 오케스트레이터 리서치 뉴스와 비교 누적
+
+작성 2026-05-21 · 수정 2026-08-27 · 태그 agent, botlog, comparison, memory, orchestration, research
+
+오케스트레이터와 에이전트 하네스 판도 관찰 노트 — OpenClaw, Hermes, Oh My Pi, Prime Agent, entwurf를 control plane·continuity·delegation·learning authority 축으로 비교한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382608)
+
+## cos: 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프
+
+작성 2026-04-07 · 수정 2026-08-26 · 태그 agent, botlog, company, entwurf, hangul, memory, orchestration, timeline, verification, workflow
+
+COS를 실험장으로 삼아 memory·git·NEXT를 결합하고, 새 세션이 이전 대화를 모르더라도 현재 판단과 경계에 도달하도록 설계한 에이전트 루프의 형성 과정.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382592)
+
 ## doomemacs-config: agent-server 에이전트서버 놀이터 신뢰 울타리
 
 작성 2026-02-27 · 수정 2026-08-25 · 태그 agent, botlog, boundary, emacs, fence, orchestration, playground, protocol, sandbox, trust, workflow
@@ -41,14 +57,6 @@ andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과
 리포 담당자가 자기 리포의 반복 수선을 스킬로 굳히는 순서 — SKILL.md 한 벌과 =.pi/settings.json= 한 줄로 두 하네스를 잇는 정본 구조, 삭제 계약 일곱, 패키지 정본 하나의 전역 규율.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382545)
-
-## 에이전트 오케스트레이터 리서치 뉴스와 비교 누적
-
-작성 2026-05-21 · 수정 2026-08-08 · 태그 agent, botlog, comparison, memory, orchestration, research
-
-담당자 없는 오케스트레이터/에이전트 도구 판도 관찰 노트 — OpenClaw, Hermes 등 하네스의 릴리즈 속도·포크 관계·메인테이너 판단을 계속 쌓는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382608)
 
 ## memex-kb 스캔책을 귀로 듣기까지 OCR 파이프라인 여정 모델/도구
 
@@ -409,14 +417,6 @@ pi-shell-acp의 핵심은 정체성 검사다. 블레이드 러너의 한 장면
 랜덤 메타노트 검토를 인터뷰·어젠다·분신 루프로 확장해, 시간축을 다루는 메타플레이 개념으로 정리한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382587)
-
-## COS 비서실장 회사 업무 관리자 에이전트 설계
-
-작성 2026-04-07 · 수정 2026-04-07 · 태그 agent, botlog, company, design, entwurf, workflow
-
-회사 업무를 위한 COS 에이전트를 분신과 분리된 타임라인과 승인 프로토콜 위에서 설계한 문서다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382592)
 
 ## openglg-config 셀프호스팅 가이드
 

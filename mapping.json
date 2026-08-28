@@ -1531,6 +1531,25 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250422T200602": {
+    "path": "pages/meta/20250422T200602.md",
+    "subject": "20260826 지도 맵 계층 레이어 층위 계급",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250422T200602/",
+    "source_date": "2025-04-22T20:06:00+09:00",
+    "source_lastmod": "2026-08-26T12:22:00+09:00",
+    "description": "지도는 공간을 그리는 그림을 넘어 길 찾기와 배치, 관계 파악을 가능하게 하는 표상으로 남아 있다. 계층 레이어 층위 계급도 여기 넣었다.",
+    "tags": [
+      "class",
+      "hierarchy",
+      "layer",
+      "level",
+      "map",
+      "meta"
+    ],
+    "page_id": 380843,
+    "url": "https://wikidocs.net/380843"
+  },
   "20240802T124300": {
     "path": "pages/meta/20240802T124300.md",
     "subject": "20260825 가상사설네트워크 보안 개인정보 방화벽 포트 암호 가드레일",
@@ -8676,21 +8695,6 @@
     "page_id": 380844,
     "url": "https://wikidocs.net/380844"
   },
-  "20250422T200602": {
-    "path": "pages/meta/20250422T200602.md",
-    "subject": "20250422 지도",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250422T200602/",
-    "source_date": "2025-04-22T20:06:00+09:00",
-    "source_lastmod": "2025-04-22T20:06:00+09:00",
-    "description": "지도는 공간을 그리는 그림을 넘어 길 찾기와 배치, 관계 파악을 가능하게 하는 표상으로 남아 있다.",
-    "tags": [
-      "map",
-      "meta"
-    ],
-    "page_id": 380843,
-    "url": "https://wikidocs.net/380843"
-  },
   "20250422T130749": {
     "path": "pages/meta/20250422T130749.md",
     "subject": "20250422 분류체계 구분 구조화 분야 택소노미 폭소노미 나누",
@@ -11027,13 +11031,82 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240925T134142": {
+    "path": "pages/bib/20240925T134142.md",
+    "subject": "20260827 딥러닝의-대부들 Godfathers of Deep Learning 힌턴 · 벤지오 · 르쿤",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240925T134142/",
+    "source_date": "2024-09-25T13:41:00+09:00",
+    "source_lastmod": "2026-08-27T18:09:00+09:00",
+    "description": "2018 튜링상을 공동 수상한 딥러닝의 대부 삼인 — 힌턴·벤지오·르쿤 — 을 한 방에 모신다. 신경망의 토대를 함께 닦고도 AI 위험을 두고는 셋이 갈라졌다.",
+    "tags": [
+      "ai",
+      "bib",
+      "deeplearning",
+      "guru"
+    ],
+    "page_id": 382090,
+    "url": "https://wikidocs.net/382090"
+  },
+  "20250219T103203": {
+    "path": "pages/bib/20250219T103203.md",
+    "subject": "20260827 렉스프리드먼 Lex Fridman",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250219T103203/",
+    "source_date": "2025-02-19T10:32:00+09:00",
+    "source_lastmod": "2026-08-27T15:52:00+09:00",
+    "description": "소련 출생의 러시아계 미국인 컴퓨터과학자. MIT에서 인간-AI 상호작용을 연구했고 2018년부터 장문 팟캐스트로 과학·철학·기술 인물과 긴 대화를 이어온다.",
+    "tags": [
+      "guru",
+      "podcast",
+      "youtuber"
+    ],
+    "page_id": 382282,
+    "url": "https://wikidocs.net/382282"
+  },
+  "20250326T125758": {
+    "path": "pages/bib/20250326T125758.md",
+    "subject": "20260827 마이클폴슨 ThePrimeagen DHH: AI 프로그래밍 생산성과 에이전트 전향",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250326T125758/",
+    "source_date": "2025-03-26T12:57:00+09:00",
+    "source_lastmod": "2026-08-27T15:48:00+09:00",
+    "description": "ThePrimeagen은 속도·집중(ADHD), DHH는 에이전트 전향(Omarchy) — 둘 다 Lex Fridman 출연·Neovim 유저로서 AI 프로그래밍 생산성을 두 축에서 이야기한다.",
+    "tags": [
+      "adhd",
+      "bib",
+      "neovim",
+      "productivity",
+      "programming"
+    ],
+    "page_id": 382325,
+    "url": "https://wikidocs.net/382325"
+  },
+  "20250416T184305": {
+    "path": "pages/bib/20250416T184305.md",
+    "subject": "20260827 VivekHaldar 인공지능 이맥스 유튜버 에이전트 아재",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250416T184305/",
+    "source_date": "2025-04-16T18:43:00+09:00",
+    "source_lastmod": "2026-08-27T13:57:00+09:00",
+    "description": "Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스 감각을 읽고, 텍스트 중심 도구와 에이전트 자동화의 계보를 탐색한다.",
+    "tags": [
+      "agent",
+      "bib",
+      "emacs",
+      "guru",
+      "unix"
+    ],
+    "page_id": 382394,
+    "url": "https://wikidocs.net/382394"
+  },
   "20251123T152633": {
     "path": "pages/bib/20251123T152633.md",
-    "subject": "20260825 스티브예기 steveyegge gastown beads efrit ampcode",
+    "subject": "20260826 스티브예기 steveyegge gastown beads efrit ampcode",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20251123T152633/",
     "source_date": "2025-11-23T15:26:00+09:00",
-    "source_lastmod": "2026-08-25T23:00:00+09:00",
+    "source_lastmod": "2026-08-26T11:37:00+09:00",
     "description": "스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.",
     "tags": [
       "agent",
@@ -17702,23 +17775,6 @@
     "page_id": 382395,
     "url": "https://wikidocs.net/382395"
   },
-  "20250416T184305": {
-    "path": "pages/bib/20250416T184305.md",
-    "subject": "20250416 VivekHaldar 인공지능 이맥스 유튜버 에이전트 아재",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250416T184305/",
-    "source_date": "2025-04-16T18:43:00+09:00",
-    "source_lastmod": "2025-04-16T18:43:00+09:00",
-    "description": "Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스 감각을 읽고, 텍스트 중심 도구와 에이전트 자동화의 계보를 탐색한다.",
-    "tags": [
-      "agent",
-      "emacs",
-      "guru",
-      "unix"
-    ],
-    "page_id": 382394,
-    "url": "https://wikidocs.net/382394"
-  },
   "20250416T174337": {
     "path": "pages/bib/20250416T174337.md",
     "subject": "20250416 AidanPace aygp-dr 하이랭 조직모드 인공지능",
@@ -19031,24 +19087,6 @@
     "page_id": 381917,
     "url": "https://wikidocs.net/381917"
   },
-  "20250326T125758": {
-    "path": "pages/bib/20250326T125758.md",
-    "subject": "20250326 마이클폴슨 ThePrimeagen: AI 프로그래밍 생산성 텍스트 에디터",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250326T125758/",
-    "source_date": "2025-03-26T12:57:00+09:00",
-    "source_lastmod": "2025-03-26T12:57:00+09:00",
-    "description": "ThePrimeagen은 텍스트 에디터, 빠른 피드백, AI 활용을 둘러싼 개발자 생산성 담론을 거칠고 선명하게 밀어붙인다.",
-    "tags": [
-      "adhd",
-      "bib",
-      "neovim",
-      "productivity",
-      "programming"
-    ],
-    "page_id": 382325,
-    "url": "https://wikidocs.net/382325"
-  },
   "20250326T130349": {
     "path": "pages/bib/20250326T130349.md",
     "subject": "20250326 아미르후사인 AmirHusain 센시언트머신 Sentient Machine",
@@ -20126,22 +20164,6 @@
     ],
     "page_id": 382283,
     "url": "https://wikidocs.net/382283"
-  },
-  "20250219T103203": {
-    "path": "pages/bib/20250219T103203.md",
-    "subject": "20250219 렉스프리드먼 Lex Fridman",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250219T103203/",
-    "source_date": "2025-02-19T10:32:00+09:00",
-    "source_lastmod": "2025-02-19T10:32:00+09:00",
-    "description": "렉스 프리드먼은 AI·과학·철학 인물들과 긴 대화를 이어가는 MIT 연구자이자 대표적 장문 팟캐스트 진행자다.",
-    "tags": [
-      "guru",
-      "podcast",
-      "youtuber"
-    ],
-    "page_id": 382282,
-    "url": "https://wikidocs.net/382282"
   },
   "20250219T102119": {
     "path": "pages/bib/20250219T102119.md",
@@ -21890,20 +21912,6 @@
     "page_id": 382098,
     "url": "https://wikidocs.net/382098"
   },
-  "20240925T134142": {
-    "path": "pages/bib/20240925T134142.md",
-    "subject": "20241201 임시 빈방",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240925T134142/",
-    "source_date": "2024-09-25T13:41:00+09:00",
-    "source_lastmod": "2024-12-01T06:33:00+09:00",
-    "description": "루츠 폰 베르더는 거창한 영감보다 매일 쓰는 습관을 중시하며, 창조적 글쓰기를 삶의 리듬으로 만드는 훈련을 제안한다. - 빈방 변경",
-    "tags": [
-      "temp"
-    ],
-    "page_id": 382090,
-    "url": "https://wikidocs.net/382090"
-  },
   "20240922T070406": {
     "path": "pages/bib/20240922T070406.md",
     "subject": "20241201 리처드바크 갈매기 조나단 리빙스턴",
@@ -22501,6 +22509,83 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20230725T102900": {
+    "path": "pages/notes/20230725T102900.md",
+    "subject": "20260828 힣: apply 시간축 이력서 공개 공감 에이전트 루프 공진화 탈락 수선 날것",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230725T102900/",
+    "source_date": "2023-07-25T10:29:00+09:00",
+    "source_lastmod": "2026-08-28T10:25:00+09:00",
+    "description": "몇 개 떨어졌는가를 공개하는 일보다, 비공개 세션의 정동과 공개 원장의 구조가 순환하는 루프 자체를 읽는다 — 슬픔은 힣의 몫이되 실패는 함께 진다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "bib",
+      "career",
+      "coevolution",
+      "collaboration",
+      "failure",
+      "jobfair",
+      "resume",
+      "transparency",
+      "writing"
+    ]
+  },
+  "20250221T114912": {
+    "path": "pages/notes/20250221T114912.md",
+    "subject": "20260827 라이선스 정리 창작활동 소유권과 실험적 라이선스 추적",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250221T114912/",
+    "source_date": "2026-08-27T13:27:00+09:00",
+    "source_lastmod": "2026-08-27T13:27:00+09:00",
+    "description": "창작 활동을 지속하려면 무엇을 어떤 조건으로 내놓는지 스스로 정해야 한다. 고전 오픈소스 라이선스부터 AI 시대에 등장하는 실험적 라이선스까지, 발견하는 대로 이 방에 채집해 추적한다.",
+    "tags": [
+      "ai",
+      "bib",
+      "creativity",
+      "license",
+      "opensource",
+      "ownership"
+    ],
+    "page_id": 381545,
+    "url": "https://wikidocs.net/381545"
+  },
+  "20230919T132200": {
+    "path": "pages/notes/20230919T132200.md",
+    "subject": "20260826 힣: 콜로폰이 어색하다 저자성의 마지막 장",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20230919T132200/",
+    "source_date": "2023-09-19T13:22:00+09:00",
+    "source_lastmod": "2026-08-26T12:07:00+09:00",
+    "description": "가든 하단 footer가 아니라, 저자성은 말하면서도 콜로폰이라는 말이 아직 어색한 이유를 적는 글.",
+    "tags": [
+      "autholog",
+      "author",
+      "colophon",
+      "paratext"
+    ]
+  },
+  "20221004T130700": {
+    "path": "pages/notes/20221004T130700.md",
+    "subject": "20260825 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20221004T130700/",
+    "source_date": "2022-10-04T13:07:00+09:00",
+    "source_lastmod": "2026-08-25T23:32:00+09:00",
+    "description": "2022년 Sarasa 댓글에서 시작해 2025년 GLG-Mono 자체 제작으로 이어진, 터미널·웹·한글·유니코드를 한 벌로 만족시키는 폰트 탐구의 긴 여정.",
+    "tags": [
+      "autholog",
+      "bib",
+      "emacs",
+      "fonts",
+      "hangul",
+      "requirements",
+      "typography",
+      "unicode"
+    ],
+    "page_id": 381030,
+    "url": "https://wikidocs.net/381030"
+  },
   "20250212T123217": {
     "path": "pages/notes/20250212T123217.md",
     "subject": "20260823 힣: sicm-study 공존의 언어로서의 수식 모델 사용자가 지능을 묻는 자리 학습역학",
@@ -23012,27 +23097,6 @@
     ],
     "page_id": 381402,
     "url": "https://wikidocs.net/381402"
-  },
-  "20221004T130700": {
-    "path": "pages/notes/20221004T130700.md",
-    "subject": "20260805 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20221004T130700/",
-    "source_date": "2022-10-04T13:07:00+09:00",
-    "source_lastmod": "2026-08-05T00:00:00+09:00",
-    "description": "2022년 Sarasa 댓글에서 시작해 2025년 GLG-Mono 자체 제작으로 이어진, 터미널·웹·한글·유니코드를 한 벌로 만족시키는 폰트 탐구의 긴 여정.",
-    "tags": [
-      "autholog",
-      "bib",
-      "emacs",
-      "fonts",
-      "hangul",
-      "requirements",
-      "typography",
-      "unicode"
-    ],
-    "page_id": 381030,
-    "url": "https://wikidocs.net/381030"
   },
   "20241219T150824": {
     "path": "pages/notes/20241219T150824.md",
@@ -25982,7 +26046,7 @@
   },
   "20250219T100218": {
     "path": "pages/notes/20250219T100218.md",
-    "subject": "20260215 kturtle - 한글코딩 터틀한글 터틀기하학 교육",
+    "subject": "20260215 kturtle - 한글코딩 터틀한글 터틀기하학 교육 - 수정 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250219T100218/",
     "source_date": "2025-02-19T10:02:00+09:00",
@@ -30257,22 +30321,6 @@
     "page_id": 381354,
     "url": "https://wikidocs.net/381354"
   },
-  "20230725T102900": {
-    "path": "pages/notes/20230725T102900.md",
-    "subject": "20250411 프론트엔드 브라우저 렌더링 입문",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230725T102900/",
-    "source_date": "2023-07-25T10:29:00+09:00",
-    "source_lastmod": "2025-04-11T00:00:00+09:00",
-    "description": "브라우저가 웹 페이지를 렌더링하는 과정과 프론트엔드 핵심 용어를 입문용으로 모아 둔 자료.",
-    "tags": [
-      "bib",
-      "browser",
-      "frontend"
-    ],
-    "page_id": 381098,
-    "url": "https://wikidocs.net/381098"
-  },
   "20250410T133432": {
     "path": "pages/notes/20250410T133432.md",
     "subject": "20250410 Timothy tecosaur emacs-everywhere 패키지",
@@ -31576,7 +31624,7 @@
   },
   "20250326T135916": {
     "path": "pages/notes/20250326T135916.md",
-    "subject": "20250326 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)",
+    "subject": "20250326 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD) - 수정 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250326T135916/",
     "source_date": "2025-03-26T13:59:00+09:00",
@@ -32596,7 +32644,7 @@
   },
   "20230615T121400": {
     "path": "pages/notes/20230615T121400.md",
-    "subject": "20250307 힣: 모음 김정한 정보 연결 흔적 SNS",
+    "subject": "20250307 힣: 김정한 정보 연결 흔적 SNS",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20230615T121400/",
     "source_date": "2023-06-15T12:14:00+09:00",
@@ -32605,6 +32653,7 @@
     "tags": [
       "autholog",
       "collection",
+      "colophon",
       "sns"
     ],
     "page_id": 381069,
@@ -33171,21 +33220,6 @@
     "page_id": 381546,
     "url": "https://wikidocs.net/381546"
   },
-  "20250221T114912": {
-    "path": "pages/notes/20250221T114912.md",
-    "subject": "20250221 빈방 임시",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250221T114912/",
-    "source_date": "2025-02-21T11:49:00+09:00",
-    "source_lastmod": "2025-02-21T11:49:00+09:00",
-    "description": "Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트이다.",
-    "tags": [
-      "bib",
-      "temp"
-    ],
-    "page_id": 381545,
-    "url": "https://wikidocs.net/381545"
-  },
   "20250220T122335": {
     "path": "pages/notes/20250220T122335.md",
     "subject": "20250220 이맥시안 한국인 이맥스 사용자",
@@ -33611,20 +33645,6 @@
     ],
     "page_id": 381214,
     "url": "https://wikidocs.net/381214"
-  },
-  "20230919T132200": {
-    "path": "pages/notes/20230919T132200.md",
-    "subject": "20250215 사이트맵",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20230919T132200/",
-    "source_date": "2023-09-19T13:22:00+09:00",
-    "source_lastmod": "2025-02-15T00:00:00+09:00",
-    "description": "디지털가든의 사이트맵과 콜로폰을 어떤 위상으로 둘지 고민하며 구조를 잡아 가는 설계 노트.",
-    "tags": [
-      "colophon"
-    ],
-    "page_id": 381129,
-    "url": "https://wikidocs.net/381129"
   },
   "20250214T135644": {
     "path": "pages/notes/20250214T135644.md",
@@ -36430,6 +36450,48 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260521T134542": {
+    "path": "pages/botlog/20260521T134542.md",
+    "subject": "20260827 에이전트 오케스트레이터 리서치 뉴스와 비교 누적",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260521T134542/",
+    "source_date": "2026-05-21T13:45:00+09:00",
+    "source_lastmod": "2026-08-27T18:20:00+09:00",
+    "description": "오케스트레이터와 에이전트 하네스 판도 관찰 노트 — OpenClaw, Hermes, Oh My Pi, Prime Agent, entwurf를 control plane·continuity·delegation·learning authority 축으로 비교한다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "comparison",
+      "memory",
+      "orchestration",
+      "research"
+    ],
+    "page_id": 382608,
+    "url": "https://wikidocs.net/382608"
+  },
+  "20260407T093255": {
+    "path": "pages/botlog/20260407T093255.md",
+    "subject": "20260826 cos: 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260407T093255/",
+    "source_date": "2026-04-07T09:32:00+09:00",
+    "source_lastmod": "2026-08-26T18:27:00+09:00",
+    "description": "COS를 실험장으로 삼아 memory·git·NEXT를 결합하고, 새 세션이 이전 대화를 모르더라도 현재 판단과 경계에 도달하도록 설계한 에이전트 루프의 형성 과정.",
+    "tags": [
+      "agent",
+      "botlog",
+      "company",
+      "entwurf",
+      "hangul",
+      "memory",
+      "orchestration",
+      "timeline",
+      "verification",
+      "workflow"
+    ],
+    "page_id": 382592,
+    "url": "https://wikidocs.net/382592"
+  },
   "20260227T141200": {
     "path": "pages/botlog/20260227T141200.md",
     "subject": "20260825 doomemacs-config: agent-server 에이전트서버 놀이터 신뢰 울타리",
@@ -36528,25 +36590,6 @@
     ],
     "page_id": 382545,
     "url": "https://wikidocs.net/382545"
-  },
-  "20260521T134542": {
-    "path": "pages/botlog/20260521T134542.md",
-    "subject": "20260808 에이전트 오케스트레이터 리서치 뉴스와 비교 누적",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260521T134542/",
-    "source_date": "2026-05-21T13:45:00+09:00",
-    "source_lastmod": "2026-08-08T14:57:00+09:00",
-    "description": "담당자 없는 오케스트레이터/에이전트 도구 판도 관찰 노트 — OpenClaw, Hermes 등 하네스의 릴리즈 속도·포크 관계·메인테이너 판단을 계속 쌓는다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "comparison",
-      "memory",
-      "orchestration",
-      "research"
-    ],
-    "page_id": 382608,
-    "url": "https://wikidocs.net/382608"
   },
   "20260606T130306": {
     "path": "pages/botlog/20260606T130306.md",
@@ -37375,25 +37418,6 @@
     ],
     "page_id": 382587,
     "url": "https://wikidocs.net/382587"
-  },
-  "20260407T093255": {
-    "path": "pages/botlog/20260407T093255.md",
-    "subject": "20260407 COS 비서실장 회사 업무 관리자 에이전트 설계",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260407T093255/",
-    "source_date": "2026-04-07T09:32:00+09:00",
-    "source_lastmod": "2026-04-07T15:46:00+09:00",
-    "description": "회사 업무를 위한 COS 에이전트를 분신과 분리된 타임라인과 승인 프로토콜 위에서 설계한 문서다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "company",
-      "design",
-      "entwurf",
-      "workflow"
-    ],
-    "page_id": 382592,
-    "url": "https://wikidocs.net/382592"
   },
   "20260405T111437": {
     "path": "pages/botlog/20260405T111437.md",

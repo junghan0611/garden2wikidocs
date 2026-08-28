@@ -2,9 +2,41 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 딥러닝의-대부들 Godfathers of Deep Learning 힌턴 · 벤지오 · 르쿤
+
+작성 2024-09-25 · 수정 2026-08-27 · 태그 ai, bib, deeplearning, guru
+
+2018 튜링상을 공동 수상한 딥러닝의 대부 삼인 — 힌턴·벤지오·르쿤 — 을 한 방에 모신다. 신경망의 토대를 함께 닦고도 AI 위험을 두고는 셋이 갈라졌다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240925T134142/)
+
+## 렉스프리드먼 Lex Fridman
+
+작성 2025-02-19 · 수정 2026-08-27 · 태그 guru, podcast, youtuber
+
+소련 출생의 러시아계 미국인 컴퓨터과학자. MIT에서 인간-AI 상호작용을 연구했고 2018년부터 장문 팟캐스트로 과학·철학·기술 인물과 긴 대화를 이어온다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250219T103203/)
+
+## 마이클폴슨 ThePrimeagen DHH: AI 프로그래밍 생산성과 에이전트 전향
+
+작성 2025-03-26 · 수정 2026-08-27 · 태그 adhd, bib, neovim, productivity, programming
+
+ThePrimeagen은 속도·집중(ADHD), DHH는 에이전트 전향(Omarchy) — 둘 다 Lex Fridman 출연·Neovim 유저로서 AI 프로그래밍 생산성을 두 축에서 이야기한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250326T125758/)
+
+## VivekHaldar 인공지능 이맥스 유튜버 에이전트 아재
+
+작성 2025-04-16 · 수정 2026-08-27 · 태그 agent, bib, emacs, guru, unix
+
+Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스 감각을 읽고, 텍스트 중심 도구와 에이전트 자동화의 계보를 탐색한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250416T184305/)
+
 ## 스티브예기 steveyegge gastown beads efrit ampcode
 
-작성 2025-11-23 · 수정 2026-08-25 · 태그 agent, bib, emacsian, guru, harness, vibecoding
+작성 2025-11-23 · 수정 2026-08-26 · 태그 agent, bib, emacsian, guru, harness, vibecoding
 
 스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.
 
@@ -3042,14 +3074,6 @@ Janet은 함수형과 명령형을 아우르며 임베디드와 스크립트 작
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250417T162438/)
 
-## VivekHaldar 인공지능 이맥스 유튜버 에이전트 아재
-
-작성 2025-04-16 · 수정 2025-04-16 · 태그 agent, emacs, guru, unix
-
-Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스 감각을 읽고, 텍스트 중심 도구와 에이전트 자동화의 계보를 탐색한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250416T184305/)
-
 ## AidanPace aygp-dr 하이랭 조직모드 인공지능
 
 작성 2025-04-16 · 수정 2025-04-16 · 태그 hylang, bib, orgmode, ai
@@ -3682,14 +3706,6 @@ PADAone의 글과 책을 바탕으로 일본 옵시디언 활용법과 Zenn 기�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240424T151159/)
 
-## 마이클폴슨 ThePrimeagen: AI 프로그래밍 생산성 텍스트 에디터
-
-작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, bib, neovim, productivity, programming
-
-ThePrimeagen은 텍스트 에디터, 빠른 피드백, AI 활용을 둘러싼 개발자 생산성 담론을 거칠고 선명하게 밀어붙인다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250326T125758/)
-
 ## 아미르후사인 AmirHusain 센시언트머신 Sentient Machine
 
 작성 2025-03-26 · 수정 2025-03-26 · 태그 bib, ai
@@ -4217,14 +4233,6 @@ Stefan Thesing은 Denote와 서명 체계를 엮어 이맥스 기반 제텔카�
 최재천은 생태와 통섭, 공부와 숙론의 가치를 한국 사회에 꾸준히 전해 온 생물학자이자 공적 지성이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250219T191342/)
-
-## 렉스프리드먼 Lex Fridman
-
-작성 2025-02-19 · 수정 2025-02-19 · 태그 guru, podcast, youtuber
-
-렉스 프리드먼은 AI·과학·철학 인물들과 긴 대화를 이어가는 MIT 연구자이자 대표적 장문 팟캐스트 진행자다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250219T103203/)
 
 ## DwarkeshPatel 유튜버 Lunar Society 폴리매스
 
@@ -5113,14 +5121,6 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 알렉스 라이트는 인류가 세계를 분류하고 정리해온 방식을 추적하며, 문헌정보와 정보 구조의 깊은 역사를 보여준다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241004T134708/)
-
-## 임시 빈방
-
-작성 2024-09-25 · 수정 2024-12-01 · 태그 temp
-
-루츠 폰 베르더는 거창한 영감보다 매일 쓰는 습관을 중시하며, 창조적 글쓰기를 삶의 리듬으로 만드는 훈련을 제안한다. - 빈방 변경
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240925T134142/)
 
 ## 리처드바크 갈매기 조나단 리빙스턴
 

@@ -5,9 +5,33 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 206개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 208개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: apply 시간축 이력서 공개 공감 에이전트 루프 공진화 탈락 수선 날것
+
+작성 2023-07-25 · 수정 2026-08-28 · 태그 agent, autholog, bib, career, coevolution, collaboration, failure, jobfair, resume, transparency, writing
+
+몇 개 떨어졌는가를 공개하는 일보다, 비공개 세션의 정동과 공개 원장의 구조가 순환하는 루프 자체를 읽는다 — 슬픔은 힣의 몫이되 실패는 함께 진다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230725T102900/)
+
+## 힣: 콜로폰이 어색하다 저자성의 마지막 장
+
+작성 2023-09-19 · 수정 2026-08-26 · 태그 autholog, author, colophon, paratext
+
+가든 하단 footer가 아니라, 저자성은 말하면서도 콜로폰이라는 말이 아직 어색한 이유를 적는 글.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230919T132200/)
+
+## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono
+
+작성 2022-10-04 · 수정 2026-08-25 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
+
+2022년 Sarasa 댓글에서 시작해 2025년 GLG-Mono 자체 제작으로 이어진, 터미널·웹·한글·유니코드를 한 벌로 만족시키는 폰트 탐구의 긴 여정.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381030)
 
 ## 힣: sicm-study 공존의 언어로서의 수식 모델 사용자가 지능을 묻는 자리 학습역학
 
@@ -208,14 +232,6 @@ Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇�
 힘든 과정에서 견뎌내야 했던 맹세·각서·조건부허락의 언어를, 2년에 걸쳐 조금씩 내려놓는 두 번의 날것으로 기록한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381402)
-
-## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono
-
-작성 2022-10-04 · 수정 2026-08-05 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
-
-2022년 Sarasa 댓글에서 시작해 2025년 GLG-Mono 자체 제작으로 이어진, 터미널·웹·한글·유니코드를 한 벌로 만족시키는 폰트 탐구의 긴 여정.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381030)
 
 ## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
 
@@ -1465,7 +1481,7 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 
 [위키독스에서 읽기 →](https://wikidocs.net/381379)
 
-## 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)
+## 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD) - 수정 대기중
 
 작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, autholog, bib, emacs, neovim, podcast
 
@@ -1537,9 +1553,9 @@ Meditations on Knowledge and Knowing
 
 [위키독스에서 읽기 →](https://wikidocs.net/381392)
 
-## 힣: 모음 김정한 정보 연결 흔적 SNS
+## 힣: 김정한 정보 연결 흔적 SNS
 
-작성 2023-06-15 · 수정 2025-03-07 · 태그 autholog, collection, sns
+작성 2023-06-15 · 수정 2025-03-07 · 태그 autholog, collection, colophon, sns
 
 김정한이라는 이름으로 남겨진 계정, 프로필, 링크, 소개 문구를 한곳에 모아 연결 지형을 살핀 기록.
 

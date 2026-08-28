@@ -2,6 +2,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: apply 시간축 이력서 공개 공감 에이전트 루프 공진화 탈락 수선 날것
+
+작성 2023-07-25 · 수정 2026-08-28 · 태그 agent, autholog, bib, career, coevolution, collaboration, failure, jobfair, resume, transparency, writing
+
+몇 개 떨어졌는가를 공개하는 일보다, 비공개 세션의 정동과 공개 원장의 구조가 순환하는 루프 자체를 읽는다 — 슬픔은 힣의 몫이되 실패는 함께 진다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230725T102900/)
+
+## 라이선스 정리 창작활동 소유권과 실험적 라이선스 추적
+
+작성 2026-08-27 · 수정 2026-08-27 · 태그 ai, bib, creativity, license, opensource, ownership
+
+창작 활동을 지속하려면 무엇을 어떤 조건으로 내놓는지 스스로 정해야 한다. 고전 오픈소스 라이선스부터 AI 시대에 등장하는 실험적 라이선스까지, 발견하는 대로 이 방에 채집해 추적한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250221T114912/)
+
+## 힣: 콜로폰이 어색하다 저자성의 마지막 장
+
+작성 2023-09-19 · 수정 2026-08-26 · 태그 autholog, author, colophon, paratext
+
+가든 하단 footer가 아니라, 저자성은 말하면서도 콜로폰이라는 말이 아직 어색한 이유를 적는 글.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230919T132200/)
+
+## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono
+
+작성 2022-10-04 · 수정 2026-08-25 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
+
+2022년 Sarasa 댓글에서 시작해 2025년 GLG-Mono 자체 제작으로 이어진, 터미널·웹·한글·유니코드를 한 벌로 만족시키는 폰트 탐구의 긴 여정.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381030)
+
 ## 힣: sicm-study 공존의 언어로서의 수식 모델 사용자가 지능을 묻는 자리 학습역학
 
 작성 2025-02-12 · 수정 2026-08-23 · 태그 autholog, coevolution, emacs, intelligence, learning, lisp, mechanics, physics, sicm, vericoding
@@ -209,14 +241,6 @@ Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇�
 힘든 과정에서 견뎌내야 했던 맹세·각서·조건부허락의 언어를, 2년에 걸쳐 조금씩 내려놓는 두 번의 날것으로 기록한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381402)
-
-## 힣: 최적 폰트 탐구 요구사항 터미널 콜아웃 웹 한글 가변폭 고정폭 유니코드 심볼 합자 Sarasa GLG-Mono
-
-작성 2022-10-04 · 수정 2026-08-05 · 태그 autholog, bib, emacs, fonts, hangul, requirements, typography, unicode
-
-2022년 Sarasa 댓글에서 시작해 2025년 GLG-Mono 자체 제작으로 이어진, 터미널·웹·한글·유니코드를 한 벌로 만족시키는 폰트 탐구의 긴 여정.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381030)
 
 ## 힣: NEXT.md 에이전트 시대 투두 할일 간편 관리
 
@@ -1458,7 +1482,7 @@ Quartz 블로그에서 댓글과 소통 기능을 Disqus, Giscus, Remark42로 �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381838)
 
-## kturtle - 한글코딩 터틀한글 터틀기하학 교육
+## kturtle - 한글코딩 터틀한글 터틀기하학 교육 - 수정 대기중
 
 작성 2025-02-19 · 수정 2026-02-15 · 태그 bib, education, hangul, scratch
 
@@ -3498,14 +3522,6 @@ EAF와 EWW, w3m, Xwidgets를 엮어 Emacs 안에서 웹을 다루는 선택지�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241013T213018/)
 
-## 프론트엔드 브라우저 렌더링 입문
-
-작성 2023-07-25 · 수정 2025-04-11 · 태그 bib, browser, frontend
-
-브라우저가 웹 페이지를 렌더링하는 과정과 프론트엔드 핵심 용어를 입문용으로 모아 둔 자료.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230725T102900/)
-
 ## Timothy tecosaur emacs-everywhere 패키지
 
 작성 2025-04-10 · 수정 2025-04-10 · 태그 bib, emacs, omni, packages
@@ -4162,7 +4178,7 @@ JVM 위의 코틀린과 클로저가 닮은 점과 풀스택 가능성을 묻는
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230710T170200/)
 
-## 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD)
+## 힣: 렉스프리드만 팟캐스트 ThePrimeagen Emacs vs. NeoVIM (feat. ADHD) - 수정 대기중
 
 작성 2025-03-26 · 수정 2025-03-26 · 태그 adhd, autholog, bib, emacs, neovim, podcast
 
@@ -4674,9 +4690,9 @@ PAW를 이맥스 안의 주석 도구이자 언어 학습 솔루션으로 바라
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240704T165255/)
 
-## 힣: 모음 김정한 정보 연결 흔적 SNS
+## 힣: 김정한 정보 연결 흔적 SNS
 
-작성 2023-06-15 · 수정 2025-03-07 · 태그 autholog, collection, sns
+작성 2023-06-15 · 수정 2025-03-07 · 태그 autholog, collection, colophon, sns
 
 김정한이라는 이름으로 남겨진 계정, 프로필, 링크, 소개 문구를 한곳에 모아 연결 지형을 살핀 기록.
 
@@ -4962,14 +4978,6 @@ emacs-jupyter에서 코드블록과 버퍼를 REPL로 보내는 방법을 정리
 
 [위키독스에서 읽기 →](https://wikidocs.net/381546)
 
-## 빈방 임시
-
-작성 2025-02-21 · 수정 2025-02-21 · 태그 bib, temp
-
-Executable Books와 Quarto를 출판 시스템 관점에서 비교하는 노트이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250221T114912/)
-
 ## 이맥시안 한국인 이맥스 사용자
 
 작성 2025-02-20 · 수정 2025-02-20 · 태그 emacsian, korean, collection, geeks
@@ -5185,14 +5193,6 @@ Exercism을 언어 학습과 멘토링형 코딩 훈련 도구로 바라보며 �
 junghanacs와 junghan0611로 이어지는 온라인 자아의 흐름과 기록 방식을 정리한 인덱스 노트.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240418T124656/)
-
-## 사이트맵
-
-작성 2023-09-19 · 수정 2025-02-15 · 태그 colophon
-
-디지털가든의 사이트맵과 콜로폰을 어떤 위상으로 둘지 고민하며 구조를 잡아 가는 설계 노트.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230919T132200/)
 
 ## casey/just command runner justfile
 

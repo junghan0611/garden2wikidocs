@@ -658,6 +658,19 @@ def collection_index(tag: str, entries: list, published=None) -> str:
     return "\n\n".join(blocks) + "\n"
 
 
+def chapter_provenance_block(folder: str) -> str:
+    """가든 폴더 색인면으로 돌아가는 챕터 표지 provenance 블록."""
+    source_url = f"{GARDEN_URL}/{folder}/"
+    return "\n".join([
+        PROVENANCE_START,
+        '[[TIP("원본·최신본")]]',
+        "이 페이지는 가든 폴더 색인면을 WikiDocs 안에서 순회하기 위한 집합 페이지입니다. "
+        f'[원본·최신본은 가든]({source_url})에 있습니다.',
+        "[[/TIP]]",
+        PROVENANCE_END,
+    ])
+
+
 def chapter_index(folder: str, entries: list, published=None) -> str:
     """WikiDocs sidebar 오름차순과 분리된 AEO recent-first chapter index."""
     basis = "작성일(source_date)" if folder == "journal" \
@@ -666,7 +679,7 @@ def chapter_index(folder: str, entries: list, published=None) -> str:
         f"가든과 같은 {basis} 기준으로 {len(entries)}개 문서를 최신순으로 모았습니다. "
         "각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다."
     )
-    blocks = [CHAPTER_INDEX_START, intro]
+    blocks = [chapter_provenance_block(folder), CHAPTER_INDEX_START, intro]
     blocks.extend(index_item_blocks(entries, published))
     blocks.append(CHAPTER_INDEX_END)
     return "\n\n".join(blocks) + "\n"

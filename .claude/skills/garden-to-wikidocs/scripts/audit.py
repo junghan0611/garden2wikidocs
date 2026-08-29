@@ -63,6 +63,18 @@ def unprotected(text: str) -> str:
     return guarded
 
 
+def index_provenance_findings(label: str, text: str, expected: str):
+    """폴더 표지의 가든 색인 provenance가 정확히 맨 앞에 있는지 검증한다."""
+    blocks = list(PROVENANCE_BLOCK.finditer(text))
+    if len(blocks) != 1:
+        return [f"{label}: provenance 블록 수 불일치 {len(blocks)} != 1"]
+    if blocks[0].group(0) != expected:
+        return [f"{label}: provenance 원본·최신본 가든 폴더 URL/문구 불일치"]
+    if text[:blocks[0].start()].strip():
+        return [f"{label}: provenance가 첫 블록이 아님"]
+    return []
+
+
 def index_structure_findings(label: str, text: str, entries, published):
     """exact regeneration과 별개로 AEO 항목 수·링크 수/순서를 검증한다."""
     errors = []
@@ -314,6 +326,9 @@ def main():
             actual_index = cover_path.read_text(encoding="utf-8")
             if actual_index != expected_index:
                 errors.append(f"chapter index: {folder} recent-first AEO 목록/링크 불일치")
+            errors.extend(index_provenance_findings(
+                f"chapter index: {folder}", actual_index,
+                BUILD.chapter_provenance_block(folder)))
             errors.extend(index_structure_findings(
                 f"chapter index: {folder}", actual_index, index_entries, link_scope))
 

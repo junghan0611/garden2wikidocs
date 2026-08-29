@@ -1,3 +1,9 @@
+<!-- provenance:source:start -->
+[[TIP("원본·최신본")]]
+이 페이지는 가든 폴더 색인면을 WikiDocs 안에서 순회하기 위한 집합 페이지입니다. [원본·최신본은 가든](https://notes.junghanacs.com/journal/)에 있습니다.
+[[/TIP]]
+<!-- provenance:source:end -->
+
 <!-- chapter-index:recent-first:start -->
 
 가든과 같은 작성일(source_date) 기준으로 109개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.

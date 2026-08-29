@@ -11,22 +11,21 @@
 
 현재 좌표: 1 완료 → 2 입력 대기 → 3 보류
 
-## NOW — 다음 가든 export 를 기다린다 (이번 판 종료)
+## NOW — 폴더 표지 provenance를 다음 가든 export와 함께 발행
 
-- **Current**: 가든 `8917437f9` 증분이 **2단계 push** 로 라이브 `249/249` 에 도달했다.
-  어쏠로그 173→174, 발행면 247→248. 자동 전파만으로 끝났다. worktree clean.
-- **Next**: org 원문을 garden markdown 으로 export·commit 한 뒤 이 리포에서
-  `build --core` → `relink` → `audit --core` → 테스트 → 승인 push. build 가
-  `[warn] 발행면 page_id 미회수 N개` 를 찍으면 2단계 push 로 간다(어쏠로그 태그를 새로
-  붙였으면 거의 항상 찍힌다).
-- **Blocker**: 없음.
-- **Verify**: `audit --core` 경고 0, unittest 84/84, build→relink 후 생성물 diff 0줄
-  (스킬/테스트 파일만 변경), `status.py --list` 미생성 0 / pending 0.
-- **Read**: SKILL.md 「삭제된 페이지의 page_id 는 부활하지 않는다」 + 그 뒤 두 불변식
-  (fail-closed 경계, warning 두 층), `build.py` 의 `previous_publish_surface`/
-  `has_recovered_ids`/`inherit_remote_id`.
-- **Do not touch**: `~/repos/gh/notes` 또는 `pages/` 생성물을 손편집하지 않는다. 항상 정본
-  export를 입력으로 전체 재생성한다.
+- **Current**: `build.py`가 다섯 폴더 표지에 가든 폴더 URL provenance를 생성하고,
+  `audit.py`가 블록의 정확성·첫 위치를 검증한다. clean garden `fdef59dcd` 입력으로
+  `build --core → relink → audit --core`, 동일 출력 SHA256, unittest **86/86**을 통과했다.
+- **Next**: diff에는 표지 5개, generator/audit/테스트, source commit에 따른
+  `BUILD-MANIFEST.json`·README 동기화일만 남는다. GLG 승인 시 commit하고, 별도 push 승인 시에만
+  push 뒤 `status.py --list`로 동기화 상태를 확인한다.
+- **Blocker**: 없음 — 가든 worktree clean, origin/main과 일치(측정: 2026-08-29).
+- **Verify**: `audit --core` 경고 0, unittest 86/86, 같은 clean 입력의 build→relink 출력
+  SHA256 동일, `status.py --list` 미생성 0 / pending 0.
+- **Read**: SKILL.md 「폴더 = 챕터」 및 「삭제된 페이지의 page_id 는 부활하지 않는다」,
+  `build.py`의 `chapter_provenance_block`, `audit.py`의 `index_provenance_findings`.
+- **Do not touch**: `~/repos/gh/notes` 또는 `pages/` 생성물을 손편집하지 않는다. TOC 밖
+  page_id 링크를 만들지 않으며, GLG의 현재 세션 명시 승인 전 commit/push하지 않는다.
 
 ## DONE — 2026-07-27 세 판 + 2026-07-28 4판 (전부 push 완료)
 

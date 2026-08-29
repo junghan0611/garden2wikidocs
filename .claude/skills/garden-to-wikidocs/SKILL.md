@@ -196,6 +196,7 @@ python3 -m unittest discover -s tests -q
   아니다. audit은 현재 garden 입력과 exact match를 검증한다. 생성 시각은 넣지 않는다.
 - **pages/ 서브디렉토리 지원됨.** `pages/<folder>/...` 로 가든 폴더 구조를 미러한다.
 - **폴더 = 챕터.** `pages/<folder>/_chapter.md`에 전 항목 AEO recent-first index를 생성한다.
+  표지 자신도 별도 `원본·최신본` provenance 블록으로 대응 가든 폴더 URL로 돌아간다.
   단순 링크 목록이 아니라 제목·source 날짜·태그·description·목적지 명시 링크를 싣는다.
   description은 plain text를 기본으로 다루되 authored `*강조*`/`_강조_`와 중간 `#태그`,
   기존 HTML entity는 보존한다. angle bracket의 HTML 소실과 미래의 줄 시작 Markdown block

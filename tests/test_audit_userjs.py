@@ -55,6 +55,20 @@ class AeoIndexContractTests(unittest.TestCase):
         errors = AUDIT.index_structure_findings("notes", text, self.ENTRIES, None)
         self.assertTrue(any("순서/대상 불일치" in error for error in errors))
 
+    def test_folder_provenance_must_be_exact_and_first(self):
+        expected = AUDIT.BUILD.chapter_provenance_block("notes")
+        self.assertEqual(
+            AUDIT.index_provenance_findings("chapter index: notes", expected, expected), [])
+        wrong_url = expected.replace("/notes/", "/meta/")
+        errors = AUDIT.index_provenance_findings(
+            "chapter index: notes", wrong_url, expected)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("가든 폴더 URL/문구 불일치", errors[0])
+        errors = AUDIT.index_provenance_findings(
+            "chapter index: notes", "안내\n\n" + expected, expected)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("첫 블록이 아님", errors[0])
+
 
 class UserScriptParseTests(unittest.TestCase):
     def test_ch_array_is_read_as_page_id_and_subject(self):

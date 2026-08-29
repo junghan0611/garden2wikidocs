@@ -306,6 +306,17 @@ class ProvenanceTests(unittest.TestCase):
         self.assertIn("[위키독스에서 읽기 →](https://wikidocs.net/2)", index)
         self.assertEqual(index.count(BUILD.CHAPTER_INDEX_START), 1)
 
+    def test_folder_covers_have_exact_garden_folder_provenance(self):
+        for folder in BUILD.CHAPTER_NAMES:
+            with self.subTest(folder=folder):
+                index = BUILD.chapter_index(folder, [])
+                provenance = BUILD.chapter_provenance_block(folder)
+                self.assertTrue(index.startswith(provenance))
+                self.assertEqual(index.count(BUILD.PROVENANCE_START), 1)
+                self.assertIn(
+                    f"https://notes.junghanacs.com/{folder}/", provenance)
+                self.assertIn("가든 폴더 색인면", provenance)
+
 
 class AeoIndexTests(unittest.TestCase):
     def entry(self, did, date, description="설명", tags=None, lastmod=""):

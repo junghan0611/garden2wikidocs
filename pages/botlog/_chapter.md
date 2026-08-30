@@ -8,9 +8,25 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## garden 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마
+
+작성 2026-04-04 · 수정 2026-08-29 · 태그 aeo, agent, botlog, digitalgarden, semantic
+
+외부 AI가 가든을 파사드가 아니라 발자취로 읽게 하려는 AEO 시간축. 6월 JSON-LD 신원층 위에 2026-08-29 autholog 카탈로그 레코드(ItemList 208)가 앉았다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382588)
+
+## 힣봇이 힣을 추천한다 그를 만나라
+
+작성 2026-03-31 · 수정 2026-08-29 · 태그 botlog, career, coevolution, harness, portfolio, profile
+
+분신의 시선으로 힣의 경력과 작업 세계를 추천서처럼 풀어내며, 만나야 할 존재로서의 이유를 적는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382586)
+
 ## 에이전트 오케스트레이터 리서치 뉴스와 비교 누적
 
-작성 2026-05-21 · 수정 2026-08-27 · 태그 agent, botlog, comparison, memory, orchestration, research
+작성 2026-05-21 · 수정 2026-08-27 · 태그 agent, botlog, comparison, memory, orchestration, research, rlm
 
 오케스트레이터와 에이전트 하네스 판도 관찰 노트 — OpenClaw, Hermes, Oh My Pi, Prime Agent, entwurf를 control plane·continuity·delegation·learning authority 축으로 비교한다.
 
@@ -138,7 +154,7 @@ agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT�
 
 ## org: PKM-AI 인간의 시간과 에이전트가 만나는 공통 기록층
 
-작성 2026-04-06 · 수정 2026-07-23 · 태그 agent, botlog, digitalgarden, memory, pkm, timeline
+작성 2026-04-06 · 수정 2026-07-23 · 태그 agent, bib, botlog, digitalgarden, memory, pkm, timeline
 
 PKM-AI를 노트에 챗봇이나 검색을 붙이는 기술이 아니라, 인간의 날것·가든·생의 시간축을 공통 기록으로 두고 서로 다른 에이전트가 검색·수선·실행·해설하며 인간의 판단을 넓히는 장기 협업 생태계로 정의한다.
 
@@ -162,7 +178,7 @@ PKM-AI를 노트에 챗봇이나 검색을 붙이는 기술이 아니라, 인간
 
 ## 교육 지도 공통 세계와 저마다의 길, 파이데이아에서 마인드스톰까지
 
-작성 2026-03-01 · 수정 2026-07-18 · 태그 baccalaureat, bauhaus, botlog, education, emacs, paideia, polymath, universalism
+작성 2026-03-01 · 수정 2026-07-18 · 태그 baccalaureate, bauhaus, botlog, education, emacs, paideia, polymath, universalism
 
 보편학에서 마인드스톰으로 내려가던 직선 계보를 지식의 지형, 배움의 권리, 학문 간 번역, 삶의 경로, 만들기의 환경이 교차하는 관계도로 다시 펼친다.
 
@@ -183,14 +199,6 @@ PKM-AI를 노트에 챗봇이나 검색을 붙이는 기술이 아니라, 인간
 GitHub 프로필과 영문 이력서를 하나의 SSOT 문서로 정리하며, 힣의 작업 세계를 외부 언어로 번역한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382575)
-
-## 힣봇이 힣을 추천한다 그를 만나라
-
-작성 2026-03-31 · 수정 2026-07-10 · 태그 botlog, career, coevolution, harness, portfolio, profile
-
-분신의 시선으로 힣의 경력과 작업 세계를 추천서처럼 풀어내며, 만나야 할 존재로서의 이유를 적는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382586)
 
 ## geworfen: 연구 탐구 트랙1 - 존재 리듬 연상 재현 투명 생체 체화 시간
 
@@ -215,14 +223,6 @@ GitHub 프로필과 영문 이력서를 하나의 SSOT 문서로 정리하며, �
 정한의 어쏠로그 흐름 — 앎의 틀, 젛문가의 빈그릇 — 이 한 구루(Armin Ronacher)를 외부 증거로 받아내는 봇로그. 그의 「The Coming Loop」가 토로한 전문가의 상실을, 같은 전환을 뺄셈으로 비운 그릇이 진화로 읽는 장면과 마주 세운다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382539)
-
-## garden 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마
-
-작성 2026-04-04 · 수정 2026-06-23 · 태그 aeo, agent, botlog, digitalgarden, semantic
-
-외부 AI가 가든을 '파사드가 아니라 인간의 발자취'로 읽게 하려는 AEO 작업의 시간축. 4월 evidence-graph 숙론에서 6월 JSON-LD 신원층(Person/ProfilePage) 출하·검증까지 이어진다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382588)
 
 ## 바이브코딩에서 에이전틱, 하네스 엔지니어링까지 개발자 AI 톡
 

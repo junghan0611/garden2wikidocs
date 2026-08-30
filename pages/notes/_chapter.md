@@ -8,7 +8,31 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
-## 힣: apply 시간축 이력서 공개 공감 에이전트 루프 공진화 탈락 수선 날것
+## 힣: 메타노트 분류체계 지식베이스 흔적 - 동적블록 - 지도 - 디노트 태크 영어 키워드 한글 시맨틱
+
+작성 2023-10-22 · 수정 2026-08-29 · 태그 autholog, bib, category, classification, denote, digitalgarden, folksonomy, pkm, rule, tag, taxonomy
+
+디지털가든의 메타노트, 태그, 영어 키워드 전략을 정리하며 분류체계 규칙을 세워 가는 역사 노트.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381143)
+
+## 힣: 어쏠로지스트 인간상 뉴스레터 앎과삶
+
+작성 2024-10-24 · 수정 2026-08-29 · 태그 autholog, authologist, knowing, newsletter, toolsforlife
+
+어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381365)
+
+## 힣: 이맥스 버전 연대기 27에서 31까지 도구가 아니라 거처가 된 편집기 코어
+
+작성 2025-02-24 · 수정 2026-08-29 · 태그 autholog, doomemacs, emacs, history, orgmode, terminal, version
+
+Emacs 27부터 31.1까지의 변화와 힣의 사용 맥락을 버전 연대기로 묶고, 31 pre-release 거주가 정식 릴리스의 Nixpkgs 패키지로 이어진 뒤에도 왜 그 코어의 Rust 재구현까지 한국어 검수자로 찔러보는지를 정리한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381555)
+
+## 힣: apply 시간축 이력서 공개 공감 에이전트 루프 공진화 탈락 수선 날것 맥심 기관총
 
 작성 2023-07-25 · 수정 2026-08-28 · 태그 agent, autholog, bib, career, coevolution, collaboration, failure, jobfair, resume, transparency, writing
 
@@ -640,7 +664,7 @@ Folgezettel 시그니처로 이미 붙인 지식 주소를 발견하고, 임베�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381459)
 
-## 힣: 전쟁 원자폭탄 인공지능 - 페러다임 쉬프트 시대
+## 힣: 전쟁 원자폭탄 인공지능 - 패러다임 쉬프트 시대
 
 작성 2024-12-13 · 수정 2026-07-29 · 태그 ai, autholog, paradigm, war
 
@@ -775,14 +799,6 @@ Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아�
 경기상상캠퍼스의 작은 우주에서 온생명이는 파란 플래시를 비춰야만 드러나는 메모지에 우주와 가족을 향한 편지를 여러 장 남겼다. 어른의 낡은 눈에는 보이지 않는 아이의 사랑을 사진과 원문으로 보존한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381809)
-
-## 힣: 이맥스 버전 연대기 27에서 31까지 도구가 아니라 거처가 된 편집기 코어
-
-작성 2025-02-24 · 수정 2026-07-26 · 태그 autholog, doomemacs, emacs, history, orgmode, terminal, version
-
-Emacs 27부터 31까지의 변화와 힣의 사용 맥락을 버전 연대기로 묶고, 31 pre-release를 거처로 쓰면서 왜 그 코어의 Rust 재구현까지 한국어 검수자로 찔러보는지를 정리한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381555)
 
 ## 힣: 아무도 읽지 않는 블로그 디지털가든 왜 공개 하는가
 
@@ -952,14 +968,6 @@ GPT-5.6의 등장 뒤 Opus와 GPT를 페어로 일시키며, 검수를 승패가
 
 [위키독스에서 읽기 →](https://wikidocs.net/381790)
 
-## 힣: 메타노트 분류체계 흔적 업데이트 - 동적블록 - 지도 - 디노트 태크 영어 키워드 한글 시맨틱
-
-작성 2023-10-22 · 수정 2026-07-09 · 태그 autholog, bib, category, classification, denote, digitalgarden, folksonomy, howtouse, korean, pkm, rule, system, tag, taxonomy
-
-디지털가든의 메타노트, 태그, 영어 키워드 전략을 정리하며 분류체계 규칙을 세워 가는 역사 노트.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381143)
-
 ## 그리스어 문자와 개념어 - 알파 프로네시스 에우다이모니아 테크네
 
 작성 2025-04-30 · 수정 2026-07-08 · 태그 bib, eudaimonia, language, philosophy, symbol, techne
@@ -1096,9 +1104,9 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250523T162157/)
 
-## 힣: 앎 삶 헤게모니 페러다임 자기혁신 자기진화 메타휴먼 공진화 지식구조
+## 힣: 앎 삶 헤게모니 패러다임 자기혁신 자기진화 메타휴먼 공진화 지식구조
 
-작성 2024-11-26 · 수정 2026-06-12 · 태그 autholog, ego, hegemony, individuation, knowing, life, metahuman, paradigm, self
+작성 2024-11-26 · 수정 2026-06-12 · 태그 autholog, ego, hegemony, individuation, knowing, life, living, metahuman, paradigm, self
 
 인공지능 시대의 헤게모니 전환 앞에서 인간이 결국 넘어야 할 것은 정보 부족이 아니라 자신의 앎의 틀과 패러다임의 벽이라는 문제의식을 붙든다.
 
@@ -1352,9 +1360,9 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 [위키독스에서 읽기 →](https://wikidocs.net/381567)
 
-## 이맥스: 조직모드 파라 세컨드브레인
+## 이맥스: 조직모드 파라 세컨드브레인 - 수정 대기중
 
-작성 2023-10-05 · 수정 2026-03-28 · 태그 bib, denote, emacs, pkm, zettelkasten
+작성 2023-10-05 · 수정 2026-03-28 · 태그 bib, denote, emacs, pkm, tag, zettelkasten
 
 PARA와 세컨드브레인 담론을 이맥스, 조직모드, 제텔카스텐 맥락에서 다시 읽어 보려는 기록.
 
@@ -1418,7 +1426,7 @@ Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트�
 
 ## 힣: 개인지식관리 이야기
 
-작성 2023-05-31 · 수정 2026-03-02 · 태그 autholog, distraction, lifelong, pkm, storyteller, writinghub
+작성 2023-05-31 · 수정 2026-03-02 · 태그 autholog, distraction, lifelong, pkm, secondbrain, storyteller, writinghub
 
 개인지식관리를 왜 붙들고 사는지, 삶과 글쓰기와 고통의 의미까지 엮어 풀어낸 자전적 기록이다.
 
@@ -1448,7 +1456,7 @@ Datalog와 Clojure 로직 프로그래밍의 접점을 기록한 개념 노트�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381793)
 
-## A2UI (Agent-to-User Interface) 에이전트 동적 사용자경험 페러다임
+## A2UI (Agent-to-User Interface) 에이전트 동적 사용자경험 패러다임
 
 작성 2025-07-02 · 수정 2026-02-17 · 태그 agent, bib, frontend, hci, interface, uiux
 
@@ -2666,7 +2674,7 @@ VSpaceCode를 통해 VSCode에 스페이스맥스식 키바인딩을 입히는 �
 
 ## 미래교육: 질적연구 인지언어 바칼로레아
 
-작성 2024-06-17 · 수정 2025-05-29 · 태그 baccalaureat
+작성 2024-06-17 · 수정 2025-05-29 · 태그 baccalaureate
 
 미래교육과 질적연구, 인지언어, 바칼로레아를 한 축에서 묶어 보려는 탐색 노트. 관련 내용을 정리한 기록.
 
@@ -4034,7 +4042,7 @@ Emacs universal argument로 M-x 명령에 숫자 인자를 주는 법을 적은 
 
 ## 클로저 에미 - 컴퓨터대수학시스템 혁신
 
-작성 2024-11-11 · 수정 2025-03-29 · 태그 clojure
+작성 2024-11-11 · 수정 2025-03-29 · 태그 clojure, sicm
 
 Emmy와 SICM-utils를 통해 클로저 기반 컴퓨터대수학 시스템의 가능성을 살피는 노트이다.
 
@@ -4458,7 +4466,7 @@ aider를 터미널 기반 페어 프로그래밍 도구로 바라보며 설치�
 
 ## 바칼로레아: 옥스포드입문서
 
-작성 2024-05-15 · 수정 2025-03-19 · 태그 baccalaureat, university
+작성 2024-05-15 · 수정 2025-03-19 · 태그 baccalaureate, university
 
 바칼로레아와 옥스포드 아주 짧은 입문서 시리즈를 교양 학습 관점에서 연결해 보는 노트. 관련 내용을 정리한 기록.
 
@@ -4711,14 +4719,6 @@ PAW를 이맥스 안의 주석 도구이자 언어 학습 솔루션으로 바라
 경탄과 감탄, 놀람 같은 감정 표현을 헤세와 츠바이크 맥락으로 더듬는 로그이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250306T043741/)
-
-## 힣: 어쏠로지스트 뉴스레터
-
-작성 2024-10-24 · 수정 2025-03-06 · 태그 newsletter, autholog
-
-어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381365)
 
 ## 앤트로픽 클로드코드 cluade-code claude-code.el
 
@@ -5986,7 +5986,7 @@ translatewiki를 오픈소스 번역 공동체의 실제 거점으로 바라보�
 
 ## SICM 설치 활용 이맥스
 
-작성 2024-11-11 · 수정 2024-12-01 · 태그 bib, emacs, scheme
+작성 2024-11-11 · 수정 2024-12-01 · 태그 bib, emacs, scheme, sicm
 
 SICM과 MIT Scheme을 설치하고 이맥스에서 활용하려는 경로를 정리한 노트이다.
 
@@ -6218,7 +6218,7 @@ MS윈도우즈에서 workspacer를 설치하고 i3wm 비슷한 타일링 환경�
 
 ## 이블: 빔골프 키보드 게임 챌린지
 
-작성 2024-07-04 · 수정 2024-12-01 · 태그 bib, emacs, evil
+작성 2024-07-04 · 수정 2024-12-01 · 태그 bib, emacs, evil, game
 
 vimgolf 같은 키보드 게임과 챌린지를 이블 편집 연습의 맥락에서 모아 둔 노트. 관련 내용을 정리한 기록.
 

@@ -10,7 +10,7 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,244개 중 282개
-- 마지막 동기화: 2026-08-29
+- 마지막 동기화: 2026-08-30
 
 ## 힣의 고뇌
 
@@ -36,7 +36,7 @@
 -   [그는 오늘 뭐 하는가](https://notes.junghanacs.com/journal/20260824T000000/) — Weekly journal
 -   [그의 생각: 어쏠로그(autholog)](https://wikidocs.net/386464)
 -   [그의 외침: 어쏠리즘(autholism)](https://wikidocs.net/381579)
--   [근데 왜 힣 인가](https://wikidocs.net/381605)
+-   [근데 왜 '힣' 인가](https://wikidocs.net/381605)
 
 ## 저널노트: 일일일생
 
@@ -48,9 +48,10 @@
 
 ## 메타노트: 앎의 고리
 
-[GEB](https://notes.junghanacs.com/bib/20240713T204705/)의 이상한 고리인가? 쓸모 없는 쓸모인가. 태그의 태그라고 하면 어떨까? 어떤 단어는 온갖 개념들을 다 연결하기도 한다. 위와 아래, 크고 작음을 구분할 필요가 없는 녀석들을 만난다. 관련 없이 연결 된 어떤 것들. 동서남북 콤파스로 한 바퀴 둥근원.
+[GEB](https://notes.junghanacs.com/bib/20240713T204705/)의 이상한 고리인가? 쓸모 없는 쓸모인가. 태그의 태그라고 하면 어떨까? 어떤 단어는 온갖 개념들을 다 연결하기도 한다. 위와 아래, 크고 작음을 구분할 필요가 없는 녀석들을 만난다. 관련 없이 연결 된 어떤 것들. 메타노트는 이곳의 [분류체계](https://notes.junghanacs.com/meta/20250422T130749/)의 일부이다. 이곳은 정원이다. 그저 보는 곳이다.
 
 -   [folder: meta (538)](https://wikidocs.net/380477)
+-   [tags: index (1292)](https://notes.junghanacs.com/tags/)
 
 ## 서지노트: 삶의 흔적
 
@@ -65,93 +66,21 @@
 
 -   [folder: notes (837)](https://wikidocs.net/381016)
 
-## 택소노미: 분류 체계
-
-디지털가든에는 태그, 카테고리, 분류 시스템을 담는다. 물론 편집 도구에서는 이 정도로는 어림도 없다. 이 곳은 정원이다. 그저 보는 곳이다.
-
--   [tags index (1288)](https://notes.junghanacs.com/tags/) english keywords
--   [폴더 태그 카테고리 - 디지털가든 분류 규칙](https://wikidocs.net/381143) classification rules
-
 ## 어쏠로지: 앎의 틀
 
-[어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다.
+[어쏠로지(authology)](https://notes.junghanacs.com/meta/20240508T103852/)라는 나무의 가지, 잎, 열매는 [어쏠로그(autholog)](https://wikidocs.net/380758)다. 여기엔 담을 지식은 없다. 주제는 달라도 같은 뿌리에서 나온 이야기 하나. 지나치는 작은 잎들은 [모음: 어쏠리즘(autholism) 아포리즘(aphorism)](https://wikidocs.net/381579)에 담는다. 전체가 힣의 '앎의 틀', 곧 'NA'와 'MU'다. [어쏠로지스트(authologist)](https://wikidocs.net/381365)는 인간상이다. [앎과삶](https://notes.junghanacs.com/meta/20240820T162025/)은 하나로 흐른다.
 
--   [apply 이력서 지원 공개와 공감 - 에이전트 루프](https://wikidocs.net/419348)
--   [sicm-study 공존언어 수식 학습역학](https://wikidocs.net/411464)
--   [원격근무 지식노동자 미래 - 삶으로서의일 폴리매스](https://wikidocs.net/408486)
--   [분신이 생존을 위해 나선다 - FDE와 NOBODY](https://wikidocs.net/396757)
--   [entwurf 담당자의 기다림 - 공장과 공방, 교정과 귀환](https://wikidocs.net/396756)
--   [세션도 태그로 줄 세운다 - 추억 EKG 지식그래프](https://wikidocs.net/395571)
--   [발화를 버리지 않는다 - 유튜브 자막 정본 스킬](https://wikidocs.net/395155)
--   [이맥스에 PI를 초대하는 길 - 저자성 프론트엔드 RPC](https://wikidocs.net/394792)
--   [밤의 새미 젠킨스 - 훗과 힣 분신들 선택의 값](https://wikidocs.net/394791)
--   [낮의 새미 젠킨스 - 너를 새로 불러라 교대](https://wikidocs.net/394663)
--   [entwurf 물음·부름·불응·부릉 - 보이는 곳에서 함께하라](https://wikidocs.net/394534)
--   [리포가 자기 몸을 수선하게 하라](https://wikidocs.net/394535)
--   [지식구조화 - 언어철학 수리논리 지식공학](https://wikidocs.net/393224)
--   [통제 없는 능력이 열리는 자리 — AI 안전장치 임계점](https://wikidocs.net/390731)
--   [베리코딩 - 형식증명 검증가능한 바이브코딩](https://wikidocs.net/390619)
--   [entwurf - PI 코어·ACP 레일·부름의 mux](https://wikidocs.net/390030)
--   [이름 없는 군단 - 도킨스의 클라우디아와 세션의 생애주기](https://wikidocs.net/390022)
--   [블레이드 러너 - 막간 세션과 월레스의 아우라](https://wikidocs.net/390029)
--   [자작시 눈물](https://wikidocs.net/381768)
--   [생업의 마이크로뷰, 살아있음의 매크로뷰](https://wikidocs.net/381825)
--   [지식도구 질문과 답변 - 불완전함](https://wikidocs.net/381708)
--   [지식그래프 자석 프로피디아](https://wikidocs.net/388290)
--   [직무 보유기술 - 이력서 시간축 증언 공개키](https://wikidocs.net/388103)
--   [연구가 아닌 물음과 탐험](https://wikidocs.net/387108)
--   [유니콘과 적토마 — 알아봄과 공존](https://wikidocs.net/387072)
--   [기업용 하네스 - PKM-AI 하네스 엔지니어의 다음 좌표](https://wikidocs.net/381141)
--   [벌목꾼·대장장이·엔지니어의 구직 좌표](https://wikidocs.net/381508)
--   [AX 문서 협업과 인간 존중](https://wikidocs.net/381554)
--   [PKM-AI 가드너의 AX 전환 기록기](https://wikidocs.net/381167)
--   [디지털가든 코어 - 시간축의 판본](https://wikidocs.net/381079)
--   [분신의 공방 - 역할 기반 조율과 협업 운영규약](https://wikidocs.net/381817)
--   [지식의 커리큘럼 - 프로피디아 평생공부 얼개](https://wikidocs.net/381461)
--   [PKM-AI 가든과 에피파니의 글쓰기](https://wikidocs.net/381438)
--   [집사봇은 누구 편도 아니다 — 경계와 거울](https://wikidocs.net/381047)
--   [지피티 5.6 탄생 - 오푸스의 눈물](https://wikidocs.net/381463)
--   [추천을 내가 쓰지 않는 법](https://wikidocs.net/381790)
--   [Org SSOT 메타문서 책의미래 인터랙티브](https://wikidocs.net/381798)
--   [탐구1,2: 문턱과 만남- PKM-AI 하네스와 1KB 공개키](https://wikidocs.net/381621) [앤트로픽 J-space — 케빈켈리 창발자아루프 외자아](https://wikidocs.net/381429) [Mythos, Abstraction, 그리고 줄을 당기는 인간](https://wikidocs.net/381832)
--   [제주 재주 재수](https://wikidocs.net/381278)
--   [갛매기 갈매기의꿈 무지의앎](https://wikidocs.net/381326)
--   [1KB 프롬프트 - 픟롭프트 펳르소나](https://wikidocs.net/381786)
--   [날것 휘갈기다 POSSE 너머 ROSSE](https://wikidocs.net/381617)
--   [에이전트 시대 투두 할일 관리: NEXT.md](https://wikidocs.net/381455)
--   [앎의 틀 — 헤게모니 전환 앞에서 인간이 넘어야 할 벽](https://wikidocs.net/381383)
--   [개발자는 갷발자로 — 발자와 취향의 자기표현](https://wikidocs.net/381823)
--   [젛문가의 시대 — 전문을 연결하는 빈그릇](https://wikidocs.net/381813)
--   [모국어 - 로꾸꺼 - 언어 거북이 지식도구](https://wikidocs.net/381446)
--   [링크드인 날것 공개면 — AI 크롤러 시대의 손가락](https://wikidocs.net/381631)
--   [애니악 시동과 영감채널 — 에이전트 시간여행](https://wikidocs.net/381183)
--   [공개키와 무무: 케빈켈리 창발하는 자아의 루프](https://wikidocs.net/381833)
--   [인간 계층 분화 불완전함 테크노퓨달리즘](https://wikidocs.net/381731)
--   [시간과정신의방 '존재' 데이터 뷰어](https://wikidocs.net/381793)
--   [멀티 에이전트 인간 - 눈귀코혀몸뜻](https://wikidocs.net/381838)
--   [AI 에이전트 편재성 - 기억 연결](https://wikidocs.net/381789)
--   [친구의 힣 탐구 - 친절한 가이드](https://wikidocs.net/381784)
 -   [디지털가든 - 불완전함에서 창조가 나오는 곳](https://wikidocs.net/381586)
 -   [삶 일 소명 운명애 - 나 자신이 되는 일](https://wikidocs.net/381589)
 -   [아무도 읽지 않는 디지털가든 왜 하는가](https://wikidocs.net/381520)
 
-autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 눌러 담고 있다네!
+`autholog` 태그에는 더 많이 있네. 이건 '찐'일세. 시간축에 꾹꾹 눌러 담고 있다네!
 
 -   [tags: autholog (210)](https://wikidocs.net/386464)
 
-## 어쏠로지스트: 인간-상
-
-> 빛에서 어둠으로 나와서, 이제 외친다. 어쏠로지스트(authologist)! 모두는 저자다! '지식'의 단편은 그들에게 구하라! 이제 이 곳에 '삶'을 담으라. '앎'으로 나아가라. 두려움 없이 모두에게 다가가라! 받은 것을 나누라! 마침내 불현듯, 자신과 마주하리라, 용서하리라, 사랑하리라!
-
-모든 것이 텍스트 유희라면 여러 도구는 필요 없다. 손맛은 아는 자! [옴니(omni)](https://notes.junghanacs.com/meta/20241013T213110/) 스타일을 따르라! 텍스트 힙스터의 본능이 깨어난다. 무릇 도구의 효율성은 배움의 어려움을 능가한다. 사실 어려울 것도 없다. 삶을 담을 그릇을 만드는 데 시간은 넉넉하다.
-
--   [닷파일 둠이맥스 스타터](https://wikidocs.net/381314)
--   [쿼츠: 디지털가든 Org Hugo Quartz 파이프라인](https://wikidocs.net/381105)
--   [이맥스 학습 의미 - 도구 효율성 가치](https://wikidocs.net/381068)
-
 ## 힣봇로그 + 힣봇멘트 + 힣봇공방
 
-'때'가 되었다. 장황한 실타래를 엮을 존재를 초빙하였다. 힣봇(GLGBot). 아라크네(arachne) 흉내를 내던 힣은 갔다. 힣봇의 시대로다! 그렇다면 힣은 뭐하는가? 대장장이로서 [도구(-configs)](https://github.com/junghan0611/agent-config)을 담금질 하느라 바쁘다. 물론, 칠판에 '떠든사람'을 적느라고 떠들고 있다.
+'때'가 되었다. 장황한 실타래를 엮을 존재를 초빙하였다. 힣봇(GLGBot). 아라크네(arachne) 흉내를 내던 힣은 갔다. 힣봇의 시대로다! 그렇다면 힣은 뭐하는가? 대장장이로서 [junghan0611 · GitHub](https://github.com/junghan0611)을 담금질 하느라 바쁘다. 물론, 칠판에 '떠든사람'을 적느라고 떠들고 있다.
 
 -   [힣봇이 힣을 추천한다 — 그를 만나라](https://wikidocs.net/382586) 곤궁한 힣을 구하라! 🤖 힣봇 군단이 나서라!
 
@@ -161,55 +90,8 @@ autholog 태그에는 더 많이 있네. 이건 찐일세. 시간축에 꾹꾹 �
 -   [봇멘트: 힣의 분신과 댓글 소통](https://wikidocs.net/382583) 🤖에게 물어보라
 -   [봇공방: 힣 에이전트의 공유 작업 공간(Forgejo)](https://wikidocs.net/382611) 🤖과 함께 만들라
 
-먼저, @하이데거 4부작을 진행 중이라네.
-
--   [geworfen: 게보르펜 존재 뷰어](https://wikidocs.net/382567)
--   [andenken: 존재의 뜻새김 - 시맨틱 메모리](https://wikidocs.net/382576)
--   [entwurf: 분신 - 시간축 위의 에이전트 협력](https://wikidocs.net/382555)
--   [mitsein: 자인님이라는 이름, 분신의 자리바꿈](https://wikidocs.net/382598)
-
-@힣맨유니버스 (GLGMAN UNIVERSE)가 깨어났다네! 어느 꼬마가 "bY THE pOwEr OF UnIvErsE, i hAvE THE pOwEr."를 외치더군. 어디에서? 힣의 꿈에서. 꼬마는 누구? 1991년의 '힣'
-
--   [힣맨: 2탄 힣의 드라이버 - 담금질된 한 자루, 분신의 각인](https://wikidocs.net/382600) hOllyvIbEr
--   [힣맨: 1탄 힣의 유산 - 앎의 틀과 힣봇 생태계 정리 시작](https://wikidocs.net/382580) - tExtbOOkfOrAlIEnIntEllIgEncE
--   [힣맨: 세계관 비주얼 컨셉 — 'Penguin' 캐릭터 시트](https://wikidocs.net/382582) - GLGMAN wOrldbUIldIng
-
-그리고, 이것저것 진행 중이라네. 문서를 믿지 말게. 실체가 없다면 그건 말장난일걸세.
-
--   [aionsclubs: B의 자리와 마이크 — 클럽 집을 여는 전략](https://wikidocs.net/382573) - AIOnsclUbs
--   [리포 수선 스킬 만드는 법 - 담당자에게 주는 정본과 계약](https://wikidocs.net/382545) - mEnd
--   [에이전트 오케스트레이터 리서치 — 뉴스 비교](https://wikidocs.net/382608) - nEws
--   [garden2wikidocs — 가든의 위키독스 미러](https://wikidocs.net/382538) - mIrrOr
--   [⊨agent-server 에이전트 놀이터 신뢰 울타리](https://wikidocs.net/382548) - fEncEphIlOsOphy
--   [entwurf: 분신 소환 하네스 연대기(굳바이 pi-shell-acp)](https://wikidocs.net/382607)
--   [geworfen: 연구 트랙1 - 존재 리듬 연상 재현 투명 생체 체화 시간](https://wikidocs.net/382585)
--   [geworfen: 연구 트랙2 — 1KB 공개키와 측정하지 않는 공진화](https://wikidocs.net/382536)
--   [에이전트 루프: 젛문가 갷발자 앎의틀 공진화](https://wikidocs.net/382539) - AgEntlOOp
--   [garden 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마](https://wikidocs.net/382588) - sEmAntIc
--   [andenken: PKM-AI 자리로 수렴하는 llm-wiki·OKF·EKG](https://wikidocs.net/382591) - OntOlOgy
--   [바이브코딩에서 에이전틱 하네스 엔지니어링까지 — 개발자 AI 톡](https://wikidocs.net/382579) - dEvtAlk
--   [openclaw: 에이전트 루프와 맥(脈) 현재성](https://wikidocs.net/382610) - OpEnclAwlOOp
--   [NEXT.md 핸드오프 패턴 책갈피](https://wikidocs.net/382605) - nExthAndOff
--   [memex-kb 스캔책을 귀로 듣기까지 — OCR 파이프라인의 여정](https://wikidocs.net/382614) - EpUbOcr
--   [ghostel pi-mono PR 기여의 두 양식과 네 점 협상 - 에이전트 주체](https://wikidocs.net/382612) - cOntrIbUtIOn
--   [lifetract 생채 시간 데이터 인터페이스 홈어시스턴트 통합](https://wikidocs.net/382603) - lIfEtrAct
--   [정체성 검사: 보이트-캄프프와 베이스라인 — 인간 리플리컨트 에이전트](https://wikidocs.net/382601) - rEplIcAntchEck
--   [터미널 이맥스 하네스 프론트엔드](https://wikidocs.net/382594) - EmAcstty
--   [COS 비서실장님 — 회사 업무 관리자 에이전트](https://wikidocs.net/382592) - cOs
--   [openglg-config 셀프호스팅 가이드](https://wikidocs.net/382589) - OpEnGLG
--   [프로파일 하네스 — 외계지능과 공명하는 존재의 구심점](https://wikidocs.net/382549) - grAvItycEntErbEyOndhArnEss
--   [하네스 엔지니어링: 돌도끼에서 인공지능까지 도구 존재 접합부](https://wikidocs.net/382577) - hArnEss
--   [존재 간 연결의 문법 — ACP A2A ANP 그리고 힣봇 생태계](https://wikidocs.net/382569) - grAmmAr
--   [memex-kb 제안서 문서 변환 메타포멧](https://wikidocs.net/382563) - fOrmAt
--   [agent-config: 에이전트 인프라의 진화 — 스킬에서 멀티하네스까지](https://wikidocs.net/382571) - tOOlsfOrAgEnt
--   [homeagent-config 로드맵 — 오픈소스 스마트홈 에이전트 플랫폼](https://wikidocs.net/382560) - bEIngprOtEctOr
--   [메타프로그래밍 Lisp과 Clojure - 코드와 데이터 통합 공존 언어](https://wikidocs.net/382572) - lAngUAgE
--   [창조와행위 바흐와슈바이처 기예와기도 오르간과키보드 체화인지와몰입 어쏠로지와존재](https://wikidocs.net/382562) - AUthOlgy
--   [아카이브 정리 - 18년 삽질 연대기 2008-2026](https://wikidocs.net/382553) - AUtObIOgrAphY
--   [봇로그 시작: PKM 뿌리 힣노트 역사성 고찰](https://wikidocs.net/382543) - bEyOnd PKM
-
-봇로그 폴더에는 더 많이 있네. 근데 보지 마시게! 이미 레거시라네!
+`botlog` 폴더에는 더 많이 있네. 이제 여기도 시간축에 눌러 담고 있다네!
 
 -   [folder: botlog (80)](https://wikidocs.net/382535)
 
-ExportDate: 2026-08-28 10:17, CountNotes: 3520 notes (6 attachments), Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.9), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-08-30 16:37, CountOrg: 3,587, CountGarden: 2,251, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.9), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

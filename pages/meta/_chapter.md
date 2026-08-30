@@ -8,6 +8,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 연결 고리 링크 방향 인터넷 자석 복붙
+
+작성 2023-10-19 · 수정 2026-08-29 · 태그 connect, direct, hook, internet, links, magnet, meta
+
+연결과 고리, 링크, 방향은 웹과 노트가 이어지는 기본 감각으로 다뤄진다. 인터넷과 훅, 플랫폼, 연결 방식을 함께 모아 무엇이 어디로 이어지는지의 구조를 살핀다. 자석, 복붙이라는 개념도 여기서 다룬다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20231019T140300/)
+
+## 분류체계 구분 구조화 분야 택소노미 폭소노미 나누
+
+작성 2025-04-22 · 수정 2026-08-29 · 태그 areas, classification, folksonomy, magnet, metameta, organisation, structure, tag, taxonomy
+
+분류체계는 사물과 개념을 어떤 기준으로 나누고 묶을 것인가의 문제를 다룬다. 택소노미와 폭소노미, 구조화와 분야 구분의 차이를 함께 살피며 지식베이스의 배치 원리를 정리한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250422T130749/)
+
+## 도구
+
+작성 2024-12-28 · 수정 2026-08-29 · 태그 metameta, tools
+
+도구라는 말을 하나의 상위 개념으로 붙들며, 생각도구·생활도구·LLM 실행도구까지 넓은 스펙트럼의 기록을 연결한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241228T155522/)
+
+## 대형언어모델 대규모언어모델 재귀언어모델
+
+작성 2025-03-27 · 수정 2026-08-28 · 태그 ai, bib, language, llm, meta, model, rlm
+
+대형 언어 모델의 역사와 용어, 관련 자료를 모으며 LLM을 언어 기술과 인공지능 흐름 속에 놓고 본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250327T135707/)
+
 ## 지도 맵 계층 레이어 층위 계급
 
 작성 2025-04-22 · 수정 2026-08-26 · 태그 class, hierarchy, layer, level, map, meta
@@ -456,9 +488,9 @@ AX를 AI 기술 도입이 아니라 인간·조직의 판단·기록·협업·�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240822T140930/)
 
-## 어쏠로지
+## 어쏠로지 어쏠로지스트
 
-작성 2024-05-08 · 수정 2026-07-06 · 태그 authenticity, authology, editology, genuine, meta
+작성 2024-05-08 · 수정 2026-07-06 · 태그 authenticity, authologist, authology, editology, genuine, meta
 
 어쏠로지는 편집된 대표본보다 날것의 전체상을 중시하며, 모두가 저자로서 자신을 살아내고 기록한다는 감각을 담는다.
 
@@ -704,11 +736,11 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20260415T132239/)
 
-## 앎의틀 페러다임 헤게모니
+## 앎의틀 앎과삶 헤게모니
 
-작성 2024-08-20 · 수정 2026-04-15 · 태그 hegemony, knowledge, meta, organisation, paradigm
+작성 2024-08-20 · 수정 2026-04-15 · 태그 hegemony, knowing, knowledge, living, meta, organisation, paradigm
 
-앎의 틀은 무엇이 보이고 무엇이 보이지 않는지를 가르는 경계이며, 페러다임과 헤게모니는 그 틀이 시대와 공동체 속에서 굳어지는 방식을 드러낸다.
+앎의 틀은 무엇이 보이고 무엇이 보이지 않는지를 가르는 경계이며, 패러다임과 헤게모니는 그 틀이 시대와 공동체 속에서 굳어지는 방식을 드러낸다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240820T162025/)
 
@@ -962,7 +994,7 @@ REPL을 읽기·평가·출력을 반복하며 생각과 코드를 즉시 시험
 
 ## 프로그래밍언어 개발자 프로그래머 엔지니어
 
-작성 2024-06-20 · 수정 2026-01-28 · 태그 bib, developer, development, enginner, language, meta, programmer, programming
+작성 2024-06-20 · 수정 2026-01-28 · 태그 bib, developer, development, engineer, language, meta, programmer, programming
 
 프로그래밍언어와 개발자·프로그래머·엔지니어는 코드를 쓰는 행위와 그것을 둘러싼 역할, 학습, 직업 정체성을 함께 형성한다.
 
@@ -1144,7 +1176,7 @@ performance
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250628T134448/)
 
-## 역설 페러독스
+## 역설 패러독스
 
 작성 2025-06-28 · 수정 2025-06-28 · 태그 meta, paradox
 
@@ -1416,7 +1448,7 @@ LaTeX, Typst, 수식 입력, 조판과 기호 표현을 문서 제작과 수학�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240523T145852/)
 
-## 혁신 페러다임
+## 혁신 패러다임
 
 작성 2024-01-24 · 수정 2025-06-11 · 태그 meta, paradigm
 
@@ -1986,7 +2018,7 @@ ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하�
 
 ## 눈물 슬픔 연민 공감 동조
 
-작성 2025-06-02 · 수정 2025-06-02 · 태그 compassion, conformity, empathie, humanity, meta, sorrow, tears
+작성 2025-06-02 · 수정 2025-06-02 · 태그 compassion, conformity, empathy, humanity, meta, sorrow, tears
 
 눈물과 슬픔, 연민과 공감은 개인 감정에 머물지 않고 인간관계와 윤리 감각으로 이어진다. 비슷해 보이는 정서 어휘를 함께 놓고, 인간성이 흔들릴 때 무엇이 반응하는지 더듬어 본다.
 
@@ -2138,7 +2170,7 @@ ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하�
 
 ## 바칼로레아 IB교육
 
-작성 2024-06-17 · 수정 2025-05-25 · 태그 baccalaureat, internationalization, meta
+작성 2024-06-17 · 수정 2025-05-25 · 태그 baccalaureate, internationalization, meta
 
 바칼로레아와 IB 교육은 국제적 기준의 초중등 교육과 대학입학 자격 체계를 통해 질문 중심 학습을 지향한다.
 
@@ -2250,7 +2282,7 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 ## 듣기 경청 이해 말귀
 
-작성 2024-12-03 · 수정 2025-05-20 · 태그 active, cognition, communication, comprehension, empathie, interpersonal, listening, meta, understanding
+작성 2024-12-03 · 수정 2025-05-20 · 태그 active, cognition, communication, comprehension, empathy, interpersonal, listening, meta, understanding
 
 듣기와 경청, 말귀와 이해를 하나의 흐름으로 묶고 소통의 바탕이 되는 감각을 함께 살핀다.
 
@@ -2282,7 +2314,7 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 ## 고요 이완 멈춤 한가 심심 내면 침묵 새벽 점멸 조용 평온 충만
 
-작성 2025-05-18 · 수정 2025-05-18 · 태그 fulfillment, meta, serenity, silience
+작성 2025-05-18 · 수정 2025-05-18 · 태그 fulfillment, meta, serenity, silence
 
 고요와 이완, 침묵과 새벽, 심심함과 충만을 한 묶음으로 보며 내면의 회복과 평온을 탐색한다.
 
@@ -3178,7 +3210,7 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 ## 동물 생태학 생물학
 
-작성 2025-04-24 · 수정 2025-04-24 · 태그 animal, biology, ecologie, ecosystem, meta, syntopicon
+작성 2025-04-24 · 수정 2025-04-24 · 태그 animal, biology, ecology, ecosystem, meta, syntopicon
 
 동물과 생태학, 생물학을 함께 묶어 생명체의 본성, 분류, 생태계 속 위치를 넓게 살핀다.
 
@@ -3256,14 +3288,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T142939/)
 
-## 분류체계 구분 구조화 분야 택소노미 폭소노미 나누
-
-작성 2025-04-22 · 수정 2025-04-22 · 태그 areas, classification, folksonomy, metameta, organisation, structure, taxonomy
-
-분류체계는 사물과 개념을 어떤 기준으로 나누고 묶을 것인가의 문제를 다룬다. 택소노미와 폭소노미, 구조화와 분야 구분의 차이를 함께 살피며 지식베이스의 배치 원리를 정리한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250422T130749/)
-
 ## 총서 연재물 시리즈 섹션 분권
 
 작성 2025-04-22 · 수정 2025-04-22 · 태그 category, classification, collection, meta, section, series
@@ -3320,14 +3344,6 @@ SICP를 중심으로 컴퓨터 과학의 핵심 개념, 스킴 실습, 관련 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250420T173447/)
 
-## 도구
-
-작성 2024-12-28 · 수정 2025-04-18 · 태그 metameta, tools
-
-도구라는 말을 하나의 상위 개념으로 붙들며, 생각도구·생활도구·LLM 실행도구까지 넓은 스펙트럼의 기록을 연결한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241228T155522/)
-
 ## 대체 대안 차이 비교 차별 분별 충돌
 
 작성 2024-12-26 · 수정 2025-04-18 · 태그 alternative, comparison, difference, meta, replace, substitute
@@ -3354,7 +3370,7 @@ SICP를 중심으로 컴퓨터 과학의 핵심 개념, 스킴 실습, 관련 �
 
 ## 소통 불통 대화 숙론 문자 연락 통화 대담 면담
 
-작성 2024-10-06 · 수정 2025-04-18 · 태그 communication, discourse, empathie, meta
+작성 2024-10-06 · 수정 2025-04-18 · 태그 communication, discourse, empathy, meta
 
 소통과 불통, 대화와 숙론, 문자와 통화, 대담과 면담을 공감의 문제와 함께 넓게 묶는다.
 
@@ -3768,14 +3784,6 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230521T215600/)
 
-## 대형언어모델 대규모언어모델
-
-작성 2025-03-27 · 수정 2025-03-27 · 태그 ai, bib, language, llm, meta, model
-
-대형 언어 모델의 역사와 용어, 관련 자료를 모으며 LLM을 언어 기술과 인공지능 흐름 속에 놓고 본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250327T135707/)
-
 ## 가상머신 가상환경 가상현실
 
 작성 2025-03-27 · 수정 2025-03-27 · 태그 environment, jvm, machine, meta, reality, virtual
@@ -3967,14 +3975,6 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 뉴스레터를 링크 큐레이션, 독자 소통, 정기 발행 리듬을 갖춘 글쓰기 형식으로 다룬다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20231223T072758/)
-
-## 연결 고리 링크 방향 인터넷
-
-작성 2023-10-19 · 수정 2025-03-06 · 태그 connect, direct, hook, internet, links, meta
-
-연결과 고리, 링크, 방향은 웹과 노트가 이어지는 기본 감각으로 다뤄진다. 인터넷과 훅, 플랫폼, 연결 방식을 함께 모아 무엇이 어디로 이어지는지의 구조를 살핀다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20231019T140300/)
 
 ## 서브스택 위키독스
 

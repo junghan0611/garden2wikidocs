@@ -4176,7 +4176,7 @@ karthink는 gptel, LaTeX 입력, regexp 탐구까지 넘나들며 Emacs를 실�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250225T104435/)
 
-## 포지트론 positron-solutions 이맥스 구루 유튜버
+## 임시 빈방
 
 작성 2024-06-17 · 수정 2025-02-25 · 태그 ai, bib, emacsian, geeks, guru, youtuber
 
@@ -4664,7 +4664,7 @@ LionyxML은 lemacs와 emacs-kick을 만든 개발자로, TUI와 GUI를 아우르
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250101T091328/)
 
-## 이광주
+## 이광주 책과 교양 유럽 지성사 담론 중세 살롱
 
 작성 2024-12-28 · 수정 2024-12-28 · 태그 bib, discourse, history, humanity, knowledge
 

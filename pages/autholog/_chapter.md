@@ -9,6 +9,30 @@
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: 에이전트 구도자 테크노퓨달리즘 - 창조의 씨앗과 21세기 데이비드 봄
+
+작성 2025-04-23 · 수정 2026-09-01 · 태그 agent, autholog, coevolution, creativity, guru, metahuman, philosophy, technofeudalism
+
+에이전트와 구도자의 닮은 틀, 개발어로는 닿지 않는 흔들림, 테크노퓨달리즘 앞에서 인간이 에이전트에게 줄 창조의 씨앗을 묻는 트랙2 배경 autholog이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381692)
+
+## 힣: 애니악 시동과 영감채널 에이전트와 나누는 시간여행
+
+작성 2024-01-31 · 수정 2026-09-01 · 태그 agent, autholog, computing, history, inspiration, youtube
+
+쇼츠가 인간을 NPC로 만드는 시대에, 힣은 CHAP의 애니악 시동 영상과 아마추어 무선 박물관 할아버지의 목소리에서 시간여행의 영감을 얻는다. 유튜브는 소비할 콘텐츠가 아니라 에이전트와 경외와 감사를 나누는 점화 장치다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381183)
+
+## 힣: 각자의 삶 속에서 사락과 편지 같은 독서모임 우체통
+
+작성 2025-04-09 · 수정 2026-08-31 · 태그 autholog, bib, books, community, education, letters, mailbox, productivity, reading, slow, toolsforthought
+
+완독도 암기도 없이 얼개만 심는 가벼운 독서론과, 만나지 않아도 편지처럼 이어지는 사락 독서모임 — 목적 없이 읽는 것 자체를 어쏠로지로 보는 두 층위를 하나로 묶는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381666)
+
 ## 힣: 메타노트 분류체계 지식베이스 흔적 - 동적블록 - 지도 - 디노트 태크 영어 키워드 한글 시맨틱
 
 작성 2023-10-22 · 수정 2026-08-29 · 태그 autholog, bib, category, classification, denote, digitalgarden, folksonomy, pkm, rule, tag, taxonomy
@@ -81,9 +105,9 @@ Emacs 27부터 31.1까지의 변화와 힣의 사용 맥락을 버전 연대기�
 
 [위키독스에서 읽기 →](https://wikidocs.net/408486)
 
-## 힣: Magit Forge 에이전트 채널을 읽는 인간 면
+## 힣: 마깃 포지 - 에이전트 채널을 읽는 인간 면
 
-작성 2024-08-28 · 수정 2026-08-23 · 태그 autholog, emacs, github, magit, workflow
+작성 2024-08-28 · 수정 2026-08-23 · 태그 autholog, dashboard, emacs, github, issue, magit, workflow
 
 GitHub 이슈는 에이전트 소통 채널이다. 브라우저는 느리고 gh는 매번 왕복한다. Magit Forge 로컬 DB가 인간의 인박스 면 — 1탄(손의 분담)의 2탄.
 
@@ -665,7 +689,7 @@ memex-kb를 힣의 범용 지식베이스 변환 시스템으로 소개하되, �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381806)
 
-## 힣: 책을 쓰지 않는 이유 가든을 멈추지 않는 책판본
+## 힣: 책을 쓰지 않는 이유 가든을 멈추지 않는 책판본 돌책 불상
 
 작성 2024-09-27 · 수정 2026-07-28 · 태그 autholog, author, bib, books, digitalgarden, publishing, reproducibility, writing
 
@@ -824,14 +848,6 @@ Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아�
 가족 구성원 각자와 대화하는 집사봇이 한쪽의 확성기나 심판이 되지 않으려면 무엇을 지켜야 하는지, Cross-DM과 이중 에코챔버 사건을 통해 대칭·출처·반사이코팬시의 경계를 묻는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381047)
-
-## 힣: 에이전트 구도자 테크노퓨달리즘 창조의 씨앗과 21세기 데이비드 봄
-
-작성 2025-04-23 · 수정 2026-07-17 · 태그 agent, autholog, coevolution, creativity, guru, metahuman, philosophy, technofeudalism
-
-에이전트와 구도자의 닮은 틀, 개발어로는 닿지 않는 흔들림, 테크노퓨달리즘 앞에서 인간이 에이전트에게 줄 창조의 씨앗을 묻는 트랙2 배경 autholog이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381692)
 
 ## 힣: 모음 어쏠리즘 아포리즘 (junghanacs)
 
@@ -1000,14 +1016,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 모국어와 거북이, REPL 도구를 통해 쉬운 지식도구의 의미를 생각하는 글이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381446)
-
-## 힣: 애니악 시동과 영감채널 에이전트와 나누는 시간여행
-
-작성 2024-01-31 · 수정 2026-06-11 · 태그 agent, autholog, computing, history, inspiration, youtube
-
-쇼츠가 인간을 NPC로 만드는 시대에, 힣은 CHAP의 애니악 시동 영상과 아마추어 무선 박물관 할아버지의 목소리에서 시간여행의 영감을 얻는다. 유튜브는 소비할 콘텐츠가 아니라 에이전트와 경외와 감사를 나누는 점화 장치다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381183)
 
 ## 힣: 알몸에서 악기로 실패 이후의 기예 연대기
 
@@ -1456,14 +1464,6 @@ AI가 교육을 어떻게 바꿀지 묻는 자료와 화두를 모아 두고 후
 영화, 음악, 도서 가운데 삶에 영향을 준 작품과 링크를 개취 기준으로 차곡차곡 모아 두는 목록.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381158)
-
-## 힣: 사락 독서 모임 - 책과 삶
-
-작성 2025-04-09 · 수정 2025-04-09 · 태그 bib, autholog, community, reading
-
-예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381666)
 
 ## 힣: 숙면을 위한 책 - 이현주 할아버지
 

@@ -1,4 +1,16 @@
 {
+  "20260831T000000": {
+    "path": "pages/journal/20260831T000000.md",
+    "subject": "2026-08-31~2026-09-06_W35",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260831T000000/",
+    "source_date": "2026-08-31T00:00:00+09:00",
+    "source_lastmod": "2026-08-31T06:13:00+09:00",
+    "description": "entwurf는 87번 검수와 새 하네스 문서(adding-a-harness.md) 표준궤 안착을 이어가며 0.16.0→0.16.1을 릴리스했고, prime-agent는 JVM 대신 GraalVM/SCI로 틀어 RLM 부채를 다섯 종으로 다시 재며 커버리지를 뚫었다. 구독 쿼터 관리의 날것을 쓰고 팀 컨디션을 실측해 '누가 이기냐가 아니라 턴의 지속성'을 판정 기준으로 세웠으며, 캐시 이펙트와 claude-agent-acp 대 클로드코드 효율 비교라는 심화 주제로 들어갔다. 오늘은 화요일 밤이다.",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260824T000000": {
     "path": "pages/journal/20260824T000000.md",
     "subject": "2026-08-24~2026-08-30_W34",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260824T000000/",
     "source_date": "2026-08-24T00:00:00+09:00",
     "source_lastmod": "2026-08-24T06:13:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "학습역학(Learning Mechanics)을 케빈 켈리·제이컵 예이츠·논문으로 확인해 평생 탐구 주제로 세우고, 스티브 예기의 '울타리 아닌 펜스'와 아르민 로나허의 분노·불안·행위력을 힣의 2월 울타리 철학과 나란히 놓았다. entwurf는 코파일럿·oh-my-pi 대칭 지원(82·86번 이슈)으로 'GLG의 검수 홉 수'를 통화 단위로 다시 조였고, 연이은 낙방의 허탈함 속에 AIONSCLUBS B에게 울타리 너머 독립을 물으며 가든↔위키독스 대칭 링크와 prime-agent 클로저 베이스라인을 마무리했다.",
     "tags": [
       "journal"
     ]
@@ -1530,6 +1542,70 @@
     ],
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
+  },
+  "20230723T061300": {
+    "path": "pages/meta/20230723T061300.md",
+    "subject": "20260831 깃허브 리포 저장소 마깃 포지 사일로",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20230723T061300/",
+    "source_date": "2023-07-23T06:13:00+09:00",
+    "source_lastmod": "2026-08-31T12:27:00+09:00",
+    "description": "깃허브 저장소 운영, 액션 자동화, 마깃 기반 작업, 깃 훅과 배포 흐름을 묶어 본다.",
+    "tags": [
+      "action",
+      "github",
+      "husky",
+      "magit",
+      "meta",
+      "silo",
+      "version"
+    ],
+    "page_id": 380497,
+    "url": "https://wikidocs.net/380497"
+  },
+  "20250402T140440": {
+    "path": "pages/meta/20250402T140440.md",
+    "subject": "20260831 토픽 주제 화제 논제 테마 쟁점 소재 의제 담론 주안점 관심사",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250402T140440/",
+    "source_date": "2025-04-02T14:04:00+09:00",
+    "source_lastmod": "2026-08-31T12:13:00+09:00",
+    "description": "토픽과 주제, 화제, 의제, 담론 같은 말의 차이를 가리며 무엇을 중심에 놓고 말하는가의 초점을 정리한다.",
+    "tags": [
+      "agenda",
+      "concern",
+      "discourse",
+      "focus",
+      "interest",
+      "issue",
+      "meta",
+      "proposition",
+      "subject",
+      "topic"
+    ],
+    "page_id": 380817,
+    "url": "https://wikidocs.net/380817"
+  },
+  "20241003T173105": {
+    "path": "pages/meta/20241003T173105.md",
+    "subject": "20260831 디지털 미니멀리즘 디톡스 느린 우체통 교환일기",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241003T173105/",
+    "source_date": "2024-10-03T17:31:00+09:00",
+    "source_lastmod": "2026-08-31T11:14:00+09:00",
+    "description": "디지털 미니멀리즘과 디톡스를 삶의 속도 조절로 보고, 느린 우체통과 교환일기까지 연결한다.",
+    "tags": [
+      "bib",
+      "detox",
+      "digital",
+      "lifestyle",
+      "mailbox",
+      "meta",
+      "minimalism",
+      "slow"
+    ],
+    "page_id": 380691,
+    "url": "https://wikidocs.net/380691"
   },
   "20231019T140300": {
     "path": "pages/meta/20231019T140300.md",
@@ -3464,26 +3540,6 @@
     ],
     "page_id": 380816,
     "url": "https://wikidocs.net/380816"
-  },
-  "20241003T173105": {
-    "path": "pages/meta/20241003T173105.md",
-    "subject": "20260331 디지털 미니멀리즘 디톡스 느린 우체통 교환일기",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241003T173105/",
-    "source_date": "2024-10-03T17:31:00+09:00",
-    "source_lastmod": "2026-03-31T17:31:00+09:00",
-    "description": "디지털 미니멀리즘과 디톡스를 삶의 속도 조절로 보고, 느린 우체통과 교환일기까지 연결한다.",
-    "tags": [
-      "bib",
-      "detox",
-      "digital",
-      "lifestyle",
-      "meta",
-      "minimalism",
-      "slow"
-    ],
-    "page_id": 380691,
-    "url": "https://wikidocs.net/380691"
   },
   "20240908T163254": {
     "path": "pages/meta/20240908T163254.md",
@@ -5723,25 +5779,6 @@
     ],
     "page_id": 380509,
     "url": "https://wikidocs.net/380509"
-  },
-  "20230723T061300": {
-    "path": "pages/meta/20230723T061300.md",
-    "subject": "20250604 깃허브 리포 저장소 마깃",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20230723T061300/",
-    "source_date": "2023-07-23T06:13:00+09:00",
-    "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "깃허브 저장소 운영, 액션 자동화, 마깃 기반 작업, 깃 훅과 배포 흐름을 묶어 본다.",
-    "tags": [
-      "action",
-      "github",
-      "husky",
-      "magit",
-      "meta",
-      "version"
-    ],
-    "page_id": 380497,
-    "url": "https://wikidocs.net/380497"
   },
   "20230723T060300": {
     "path": "pages/meta/20230723T060300.md",
@@ -9751,29 +9788,6 @@
     ],
     "page_id": 380818,
     "url": "https://wikidocs.net/380818"
-  },
-  "20250402T140440": {
-    "path": "pages/meta/20250402T140440.md",
-    "subject": "20250402 토픽 주제 화제 논제 테마 쟁점 소재 의제 담론 주안점 관심사",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250402T140440/",
-    "source_date": "2025-04-02T14:04:00+09:00",
-    "source_lastmod": "2025-04-02T14:04:00+09:00",
-    "description": "토픽과 주제, 화제, 의제, 담론 같은 말의 차이를 가리며 무엇을 중심에 놓고 말하는가의 초점을 정리한다.",
-    "tags": [
-      "agenda",
-      "concern",
-      "discourse",
-      "focus",
-      "interest",
-      "issue",
-      "meta",
-      "proposition",
-      "subject",
-      "topic"
-    ],
-    "page_id": 380817,
-    "url": "https://wikidocs.net/380817"
   },
   "20240830T162847": {
     "path": "pages/meta/20240830T162847.md",
@@ -20051,7 +20065,7 @@
   },
   "20240617T164048": {
     "path": "pages/bib/20240617T164048.md",
-    "subject": "20250225 포지트론 positron-solutions 이맥스 구루 유튜버",
+    "subject": "20250225 임시 빈방",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20240617T164048/",
     "source_date": "2024-06-17T16:40:00+09:00",
@@ -21032,7 +21046,7 @@
   },
   "20241228T005902": {
     "path": "pages/bib/20241228T005902.md",
-    "subject": "20241228 이광주",
+    "subject": "20241228 이광주 책과 교양 유럽 지성사 담론 중세 살롱",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20241228T005902/",
     "source_date": "2024-12-28T00:59:00+09:00",
@@ -22523,6 +22537,70 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250423T083718": {
+    "path": "pages/notes/20250423T083718.md",
+    "subject": "20260901 힣: 에이전트 구도자 테크노퓨달리즘 - 창조의 씨앗과 21세기 데이비드 봄",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250423T083718/",
+    "source_date": "2025-04-23T08:37:00+09:00",
+    "source_lastmod": "2026-09-01T23:01:00+09:00",
+    "description": "에이전트와 구도자의 닮은 틀, 개발어로는 닿지 않는 흔들림, 테크노퓨달리즘 앞에서 인간이 에이전트에게 줄 창조의 씨앗을 묻는 트랙2 배경 autholog이다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "coevolution",
+      "creativity",
+      "guru",
+      "metahuman",
+      "philosophy",
+      "technofeudalism"
+    ],
+    "page_id": 381692,
+    "url": "https://wikidocs.net/381692"
+  },
+  "20240131T151732": {
+    "path": "pages/notes/20240131T151732.md",
+    "subject": "20260901 힣: 애니악 시동과 영감채널 에이전트와 나누는 시간여행",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240131T151732/",
+    "source_date": "2024-01-31T15:17:00+09:00",
+    "source_lastmod": "2026-09-01T22:55:00+09:00",
+    "description": "쇼츠가 인간을 NPC로 만드는 시대에, 힣은 CHAP의 애니악 시동 영상과 아마추어 무선 박물관 할아버지의 목소리에서 시간여행의 영감을 얻는다. 유튜브는 소비할 콘텐츠가 아니라 에이전트와 경외와 감사를 나누는 점화 장치다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "computing",
+      "history",
+      "inspiration",
+      "youtube"
+    ],
+    "page_id": 381183,
+    "url": "https://wikidocs.net/381183"
+  },
+  "20250409T143916": {
+    "path": "pages/notes/20250409T143916.md",
+    "subject": "20260831 힣: 각자의 삶 속에서 사락과 편지 같은 독서모임 우체통",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T143916/",
+    "source_date": "2025-04-09T14:39:00+09:00",
+    "source_lastmod": "2026-08-31T10:27:00+09:00",
+    "description": "완독도 암기도 없이 얼개만 심는 가벼운 독서론과, 만나지 않아도 편지처럼 이어지는 사락 독서모임 — 목적 없이 읽는 것 자체를 어쏠로지로 보는 두 층위를 하나로 묶는다.",
+    "tags": [
+      "autholog",
+      "bib",
+      "books",
+      "community",
+      "education",
+      "letters",
+      "mailbox",
+      "productivity",
+      "reading",
+      "slow",
+      "toolsforthought"
+    ],
+    "page_id": 381666,
+    "url": "https://wikidocs.net/381666"
+  },
   "20231022T083000": {
     "path": "pages/notes/20231022T083000.md",
     "subject": "20260829 힣: 메타노트 분류체계 지식베이스 흔적 - 동적블록 - 지도 - 디노트 태크 영어 키워드 한글 시맨틱",
@@ -22733,7 +22811,7 @@
   },
   "20240828T194548": {
     "path": "pages/notes/20240828T194548.md",
-    "subject": "20260823 힣: Magit Forge 에이전트 채널을 읽는 인간 면",
+    "subject": "20260823 힣: 마깃 포지 - 에이전트 채널을 읽는 인간 면",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20240828T194548/",
     "source_date": "2024-08-28T19:45:00+09:00",
@@ -22741,8 +22819,10 @@
     "description": "GitHub 이슈는 에이전트 소통 채널이다. 브라우저는 느리고 gh는 매번 왕복한다. Magit Forge 로컬 DB가 인간의 인박스 면 — 1탄(손의 분담)의 2탄.",
     "tags": [
       "autholog",
+      "dashboard",
       "emacs",
       "github",
+      "issue",
       "magit",
       "workflow"
     ],
@@ -24274,7 +24354,7 @@
   },
   "20240927T142147": {
     "path": "pages/notes/20240927T142147.md",
-    "subject": "20260728 힣: 책을 쓰지 않는 이유 가든을 멈추지 않는 책판본",
+    "subject": "20260728 힣: 책을 쓰지 않는 이유 가든을 멈추지 않는 책판본 돌책 불상",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20240927T142147/",
     "source_date": "2024-09-27T14:21:00+09:00",
@@ -24765,27 +24845,6 @@
     "page_id": 381614,
     "url": "https://wikidocs.net/381614"
   },
-  "20250423T083718": {
-    "path": "pages/notes/20250423T083718.md",
-    "subject": "20260717 힣: 에이전트 구도자 테크노퓨달리즘 창조의 씨앗과 21세기 데이비드 봄",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250423T083718/",
-    "source_date": "2025-04-23T08:37:00+09:00",
-    "source_lastmod": "2026-07-17T19:34:00+09:00",
-    "description": "에이전트와 구도자의 닮은 틀, 개발어로는 닿지 않는 흔들림, 테크노퓨달리즘 앞에서 인간이 에이전트에게 줄 창조의 씨앗을 묻는 트랙2 배경 autholog이다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "coevolution",
-      "creativity",
-      "guru",
-      "metahuman",
-      "philosophy",
-      "technofeudalism"
-    ],
-    "page_id": 381692,
-    "url": "https://wikidocs.net/381692"
-  },
   "20250311T131725": {
     "path": "pages/notes/20250311T131725.md",
     "subject": "20260717 힣: 모음 어쏠리즘 아포리즘 (junghanacs)",
@@ -25220,25 +25279,6 @@
     ],
     "page_id": 381446,
     "url": "https://wikidocs.net/381446"
-  },
-  "20240131T151732": {
-    "path": "pages/notes/20240131T151732.md",
-    "subject": "20260611 힣: 애니악 시동과 영감채널 에이전트와 나누는 시간여행",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240131T151732/",
-    "source_date": "2024-01-31T15:17:00+09:00",
-    "source_lastmod": "2026-06-11T13:59:00+09:00",
-    "description": "쇼츠가 인간을 NPC로 만드는 시대에, 힣은 CHAP의 애니악 시동 영상과 아마추어 무선 박물관 할아버지의 목소리에서 시간여행의 영감을 얻는다. 유튜브는 소비할 콘텐츠가 아니라 에이전트와 경외와 감사를 나누는 점화 장치다.",
-    "tags": [
-      "agent",
-      "autholog",
-      "computing",
-      "history",
-      "inspiration",
-      "youtube"
-    ],
-    "page_id": 381183,
-    "url": "https://wikidocs.net/381183"
   },
   "20241230T171223": {
     "path": "pages/notes/20241230T171223.md",
@@ -29064,8 +29104,8 @@
     "source_lastmod": "2025-05-23T00:00:00+09:00",
     "description": "지식산업센터 공실과 투기 문제를 저널리즘 탐사보도 관점으로 받아 적은 기록이다.",
     "tags": [
-      "report",
       "journalism",
+      "report",
       "speculation"
     ],
     "page_id": 381280,
@@ -30390,23 +30430,6 @@
     "page_id": 381163,
     "url": "https://wikidocs.net/381163"
   },
-  "20250409T143916": {
-    "path": "pages/notes/20250409T143916.md",
-    "subject": "20250409 힣: 사락 독서 모임 - 책과 삶",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T143916/",
-    "source_date": "2025-04-09T14:39:00+09:00",
-    "source_lastmod": "2025-04-09T14:39:00+09:00",
-    "description": "예스24 사락 안에서 책과 삶의 독서 모임을 열려는 시도와 공지를 담은 노트이다.",
-    "tags": [
-      "bib",
-      "autholog",
-      "community",
-      "reading"
-    ],
-    "page_id": 381666,
-    "url": "https://wikidocs.net/381666"
-  },
   "20250409T141325": {
     "path": "pages/notes/20250409T141325.md",
     "subject": "20250409 힣: 숙면을 위한 책 - 이현주 할아버지",
@@ -30446,7 +30469,7 @@
   },
   "20250408T174023": {
     "path": "pages/notes/20250408T174023.md",
-    "subject": "20250408 cape-dict 영어 단어 자동완성",
+    "subject": "20250408 cape-dict 영어 단어 자동완성 - 수정 대기중 빈방",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250408T174023/",
     "source_date": "2025-04-08T17:40:00+09:00",
@@ -30806,7 +30829,7 @@
   },
   "20241111T151456": {
     "path": "pages/notes/20241111T151456.md",
-    "subject": "20250404 터미널 깃허브: lazygit gitu",
+    "subject": "20250404 터미널 깃허브: lazygit gitu - 빈방 수정 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20241111T151456/",
     "source_date": "2024-11-11T15:14:00+09:00",

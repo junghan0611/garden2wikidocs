@@ -8,6 +8,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 깃허브 리포 저장소 마깃 포지 사일로
+
+작성 2023-07-23 · 수정 2026-08-31 · 태그 action, github, husky, magit, meta, silo, version
+
+깃허브 저장소 운영, 액션 자동화, 마깃 기반 작업, 깃 훅과 배포 흐름을 묶어 본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230723T061300/)
+
+## 토픽 주제 화제 논제 테마 쟁점 소재 의제 담론 주안점 관심사
+
+작성 2025-04-02 · 수정 2026-08-31 · 태그 agenda, concern, discourse, focus, interest, issue, meta, proposition, subject, topic
+
+토픽과 주제, 화제, 의제, 담론 같은 말의 차이를 가리며 무엇을 중심에 놓고 말하는가의 초점을 정리한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250402T140440/)
+
+## 디지털 미니멀리즘 디톡스 느린 우체통 교환일기
+
+작성 2024-10-03 · 수정 2026-08-31 · 태그 bib, detox, digital, lifestyle, mailbox, meta, minimalism, slow
+
+디지털 미니멀리즘과 디톡스를 삶의 속도 조절로 보고, 느린 우체통과 교환일기까지 연결한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241003T173105/)
+
 ## 연결 고리 링크 방향 인터넷 자석 복붙
 
 작성 2023-10-19 · 수정 2026-08-29 · 태그 connect, direct, hook, internet, links, magnet, meta
@@ -823,14 +847,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 토폴로지를 수학에만 가두지 않고, 시스템·네트워크·언어에서 연결과 배치를 보는 틀로 사용한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250331T100147/)
-
-## 디지털 미니멀리즘 디톡스 느린 우체통 교환일기
-
-작성 2024-10-03 · 수정 2026-03-31 · 태그 bib, detox, digital, lifestyle, meta, minimalism, slow
-
-디지털 미니멀리즘과 디톡스를 삶의 속도 조절로 보고, 느린 우체통과 교환일기까지 연결한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241003T173105/)
 
 ## 댓글 반응 토론 피드백 의견 봇멘트 코멘트
 
@@ -1847,14 +1863,6 @@ MOOC와 KOCW는 누구나 접근 가능한 온라인 강의 인프라로, 대규
 회복탄력성은 무너지지 않음보다 다시 돌아오고 조절하는 힘에 가깝다. 자기조절력과 마음의 복원, 관련 자료를 함께 모아 흔들림 이후의 회복 경로를 살핀다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230817T082200/)
-
-## 깃허브 리포 저장소 마깃
-
-작성 2023-07-23 · 수정 2025-06-04 · 태그 action, github, husky, magit, meta, version
-
-깃허브 저장소 운영, 액션 자동화, 마깃 기반 작업, 깃 훅과 배포 흐름을 묶어 본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230723T061300/)
 
 ## 생산성 딥워크
 
@@ -3727,14 +3735,6 @@ VSCode를 이맥스와 대비되는 대안이 아니라 함께 가져갈 개발 
 프로토타이핑을 결과 이전의 시도와 초안의 감각으로 보며, 도전과 반복 속에서 형태를 만드는 과정을 묶는다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250402T143200/)
-
-## 토픽 주제 화제 논제 테마 쟁점 소재 의제 담론 주안점 관심사
-
-작성 2025-04-02 · 수정 2025-04-02 · 태그 agenda, concern, discourse, focus, interest, issue, meta, proposition, subject, topic
-
-토픽과 주제, 화제, 의제, 담론 같은 말의 차이를 가리며 무엇을 중심에 놓고 말하는가의 초점을 정리한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250402T140440/)
 
 ## 앞 뒤 프론트엔드 백엔드 시작 끝
 

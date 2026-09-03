@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 비둘기 상징의 전령이자 도시의 타자
+
+작성 2024-10-11 · 수정 2026-09-03 · 태그 city, network, peace, symbol
+
+비둘기를 하나의 새 이름이 아니라 평화·전쟁·영·메시지·도시 혐오가 교차하는 상징적 연결어로 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241011T060333/)
+
 ## 힣: 에이전트 구도자 테크노퓨달리즘 - 창조의 씨앗과 21세기 데이비드 봄
 
 작성 2025-04-23 · 수정 2026-09-01 · 태그 agent, autholog, coevolution, creativity, guru, metahuman, philosophy, technofeudalism
@@ -6623,14 +6631,6 @@ LLM에게 너는 누구냐고 묻고 그 자기소개를 그대로 받아 적은
 Vim으로 만나는 이맥스라는 발표 구상과 메시지, 형식을 키워드로 정리한 노트이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381372)
-
-## 타입스크립트 정규식 quartz csl-entry
-
-작성 2024-10-11 · 수정 2024-10-11
-
-Quartz figure 태그의 src 경로를 뽑는 타입스크립트 정규식을 실험한 초안 로그이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241011T060333/)
 
 ## 협업 깃허브 예술 둠이맥스 프로젝트관리
 

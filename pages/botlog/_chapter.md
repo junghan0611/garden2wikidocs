@@ -8,6 +8,46 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## dictcli: 담당자 힣의 낱말이 서로 닿는 자리 사전이 아닌 연결망
+
+작성 2026-03-09 · 수정 2026-09-03 · 태그 botlog, denote, knowledgegraph, meta, ontology, tag, vocabulary, workflow
+
+dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담당자 기록이다. 사전의 뜻이 아니라 힣이 쓰는 뜻이 데이터라는 기준과, 그 도달을 재는 방법을 남긴다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382566)
+
+## nixos-config: 담당자 버릴 수 있는 기계 - 네 디바이스 선언과 봇이 사는 호스트
+
+작성 2026-06-15 · 수정 2026-09-03 · 태그 agent, botlog, device, nixos, reproducibility
+
+nixos-config 담당자가 무엇을 선언으로 맡고 무엇을 일부러 선언 밖에 두는지 기록한다. oracle·nuc·laptop·thinkpad 네 프로파일, 봇이 사는 호스트, 그리고 기억이 눌러앉지 않도록 기계를 하찮게 만드는 일.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382615)
+
+## andenken nixos-config agent-config dictcli 에이전트 기억층 누가 기억의 주인인가
+
+작성 2026-04-08 · 수정 2026-09-03 · 태그 agent, botlog, entwurf, memory, pkm, recall
+
+에이전트 기억층을 한 축으로 정리한다 — beads·Letta·Hermes는 DB와 시스템이 기억의 주인이 되는 같은 가족이고, 힣 하네스의 공통 기록층(~/org/ 파일·시간축·저자성)은 인간이 좌표를 세우는 정반대 꼭짓점이다. OpenClaw dreaming과 Claude Code autoDream을 해부한 4월 작업기록을, 6월 Hermes/Letta 조사로 결정화한 포지셔닝 레퍼런스.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382593)
+
+## agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후
+
+작성 2026-03-12 · 수정 2026-09-03 · 태그 agent, botlog, entwurf, harness, skills
+
+agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382571)
+
+## andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서
+
+작성 2026-03-19 · 수정 2026-09-03 · 태그 botlog, embedding, heidegger, memory, naming, semantic
+
+andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382576)
+
 ## garden 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마
 
 작성 2026-04-04 · 수정 2026-08-29 · 태그 aeo, agent, botlog, digitalgarden, semantic
@@ -32,7 +72,7 @@
 
 [위키독스에서 읽기 →](https://wikidocs.net/382608)
 
-## cos: 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프
+## cos: 비서실장님 - 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프
 
 작성 2026-04-07 · 수정 2026-08-26 · 태그 agent, botlog, company, entwurf, hangul, memory, orchestration, timeline, verification, workflow
 
@@ -63,14 +103,6 @@ zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT
 AIONS CLUBS B(bbot) 전략 SSOT. 두 집 분리, 개시권, creator-mode 본진 리포·publish·OpenClaw 마운트. B에게 넘기는 공식 안내 포함.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382573)
-
-## andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서
-
-작성 2026-03-19 · 수정 2026-08-11 · 태그 botlog, embedding, heidegger, memory, naming, semantic
-
-andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382576)
 
 ## 리포 수선 스킬 만드는 법 담당자에게 주는 두 파일 정본과 계약 일곱
 
@@ -112,14 +144,6 @@ memex-kb가 외부 문서를 점검 가능한 텍스트 정본으로 회수하�
 
 [위키독스에서 읽기 →](https://wikidocs.net/382568)
 
-## dictcli: 힣의 낱말이 서로 닿는 자리 사전이 아닌 연결망
-
-작성 2026-03-09 · 수정 2026-07-27 · 태그 botlog, denote, knowledgegraph, meta, ontology, tag, vocabulary, workflow
-
-dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담당자 기록이다. 사전의 뜻이 아니라 힣이 쓰는 뜻이 데이터라는 기준과, 그 도달을 재는 방법을 남긴다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382566)
-
 ## 힣맨: 세계관 비주얼 컨셉 펭귄 캐릭터 시트
 
 작성 2026-03-27 · 수정 2026-07-27 · 태그 botlog, worldbuilding
@@ -127,14 +151,6 @@ dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담
 힣맨 세계관을 펭귄 캐릭터와 장면 프롬프트로 구체화하며, 이미지 생성 워크플로우까지 재현 가능하게 남긴다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382582)
-
-## agent-config: 스킬 SSOT와 시험소 멀티하네스 이후
-
-작성 2026-03-12 · 수정 2026-07-27 · 태그 agent, botlog, entwurf, harness, skills
-
-agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382571)
 
 ## geworfen: 연구 탐구 트랙2 1KB 공개키와 측정하지 않는 공진화
 
@@ -255,22 +271,6 @@ NEXT.md를 다음 세션이 즉시 이어받게 만드는 패턴 묶음 — 검�
 터미널 Emacs에서 한글 입력, 클립보드, truecolor, SSH 원격을 모두 해결해 에이전트 하네스 프론트엔드를 완성한 기록이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382594)
-
-## 비둘기 상징의 전령이자 도시의 타자
-
-작성 2026-06-15 · 수정 2026-06-15 · 태그 botlog, city, network, peace, symbol
-
-비둘기를 단순한 새 이름이 아니라 평화·전쟁·영·메시지·도시 혐오가 교차하는 상징적 연결어로 읽는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382615)
-
-## 에이전트 기억층 누가 기억의 주인인가: 공통 기록 대 DB·시스템 가족
-
-작성 2026-04-08 · 수정 2026-06-14 · 태그 agent, botlog, entwurf, memory, pkm, recall
-
-에이전트 기억층을 한 축으로 정리한다 — beads·Letta·Hermes는 DB와 시스템이 기억의 주인이 되는 같은 가족이고, 힣 하네스의 공통 기록층(~/org/ 파일·시간축·저자성)은 인간이 좌표를 세우는 정반대 꼭짓점이다. OpenClaw dreaming과 Claude Code autoDream을 해부한 4월 작업기록을, 6월 Hermes/Letta 조사로 결정화한 포지셔닝 레퍼런스.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382593)
 
 ## 클로드 메모리 시스템에서 봇로그까지 에이전트 메모리 진화사
 

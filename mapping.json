@@ -22537,6 +22537,23 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20241011T060333": {
+    "path": "pages/notes/20241011T060333.md",
+    "subject": "20260903 비둘기 상징의 전령이자 도시의 타자",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241011T060333/",
+    "source_date": "2024-10-11T06:03:00+09:00",
+    "source_lastmod": "2026-09-03T18:05:00+09:00",
+    "description": "비둘기를 하나의 새 이름이 아니라 평화·전쟁·영·메시지·도시 혐오가 교차하는 상징적 연결어로 읽는다.",
+    "tags": [
+      "city",
+      "network",
+      "peace",
+      "symbol"
+    ],
+    "page_id": 381353,
+    "url": "https://wikidocs.net/381353"
+  },
   "20250423T083718": {
     "path": "pages/notes/20250423T083718.md",
     "subject": "20260901 힣: 에이전트 구도자 테크노퓨달리즘 - 창조의 씨앗과 21세기 데이비드 봄",
@@ -36345,18 +36362,6 @@
     "page_id": 381372,
     "url": "https://wikidocs.net/381372"
   },
-  "20241011T060333": {
-    "path": "pages/notes/20241011T060333.md",
-    "subject": "20241011 타입스크립트 정규식 quartz csl-entry",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241011T060333/",
-    "source_date": "2024-10-11T06:03:00+09:00",
-    "source_lastmod": "2024-10-11T06:03:00+09:00",
-    "description": "Quartz figure 태그의 src 경로를 뽑는 타입스크립트 정규식을 실험한 초안 로그이다.",
-    "tags": [],
-    "page_id": 381353,
-    "url": "https://wikidocs.net/381353"
-  },
   "20241006T084511": {
     "path": "pages/notes/20241006T084511.md",
     "subject": "20241006 협업 깃허브 예술 둠이맥스 프로젝트관리",
@@ -36497,6 +36502,101 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260309T194058": {
+    "path": "pages/botlog/20260309T194058.md",
+    "subject": "20260903 dictcli: 담당자 힣의 낱말이 서로 닿는 자리 사전이 아닌 연결망",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260309T194058/",
+    "source_date": "2026-03-09T19:40:00+09:00",
+    "source_lastmod": "2026-09-03T18:12:00+09:00",
+    "description": "dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담당자 기록이다. 사전의 뜻이 아니라 힣이 쓰는 뜻이 데이터라는 기준과, 그 도달을 재는 방법을 남긴다.",
+    "tags": [
+      "botlog",
+      "denote",
+      "knowledgegraph",
+      "meta",
+      "ontology",
+      "tag",
+      "vocabulary",
+      "workflow"
+    ],
+    "page_id": 382566,
+    "url": "https://wikidocs.net/382566"
+  },
+  "20260615T100659": {
+    "path": "pages/botlog/20260615T100659.md",
+    "subject": "20260903 nixos-config: 담당자 버릴 수 있는 기계 - 네 디바이스 선언과 봇이 사는 호스트",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260615T100659/",
+    "source_date": "2026-06-15T10:06:00+09:00",
+    "source_lastmod": "2026-09-03T18:10:00+09:00",
+    "description": "nixos-config 담당자가 무엇을 선언으로 맡고 무엇을 일부러 선언 밖에 두는지 기록한다. oracle·nuc·laptop·thinkpad 네 프로파일, 봇이 사는 호스트, 그리고 기억이 눌러앉지 않도록 기계를 하찮게 만드는 일.",
+    "tags": [
+      "agent",
+      "botlog",
+      "device",
+      "nixos",
+      "reproducibility"
+    ],
+    "page_id": 382615,
+    "url": "https://wikidocs.net/382615"
+  },
+  "20260408T120252": {
+    "path": "pages/botlog/20260408T120252.md",
+    "subject": "20260903 andenken nixos-config agent-config dictcli 에이전트 기억층 누가 기억의 주인인가",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260408T120252/",
+    "source_date": "2026-04-08T12:02:00+09:00",
+    "source_lastmod": "2026-09-03T18:07:00+09:00",
+    "description": "에이전트 기억층을 한 축으로 정리한다 — beads·Letta·Hermes는 DB와 시스템이 기억의 주인이 되는 같은 가족이고, 힣 하네스의 공통 기록층(~/org/ 파일·시간축·저자성)은 인간이 좌표를 세우는 정반대 꼭짓점이다. OpenClaw dreaming과 Claude Code autoDream을 해부한 4월 작업기록을, 6월 Hermes/Letta 조사로 결정화한 포지셔닝 레퍼런스.",
+    "tags": [
+      "agent",
+      "botlog",
+      "entwurf",
+      "memory",
+      "pkm",
+      "recall"
+    ],
+    "page_id": 382593,
+    "url": "https://wikidocs.net/382593"
+  },
+  "20260312T174622": {
+    "path": "pages/botlog/20260312T174622.md",
+    "subject": "20260903 agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
+    "source_date": "2026-03-12T17:46:00+09:00",
+    "source_lastmod": "2026-09-03T17:55:00+09:00",
+    "description": "agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "entwurf",
+      "harness",
+      "skills"
+    ],
+    "page_id": 382571,
+    "url": "https://wikidocs.net/382571"
+  },
+  "20260319T110800": {
+    "path": "pages/botlog/20260319T110800.md",
+    "subject": "20260903 andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
+    "source_date": "2026-03-19T11:08:00+09:00",
+    "source_lastmod": "2026-09-03T17:50:00+09:00",
+    "description": "andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.",
+    "tags": [
+      "botlog",
+      "embedding",
+      "heidegger",
+      "memory",
+      "naming",
+      "semantic"
+    ],
+    "page_id": 382576,
+    "url": "https://wikidocs.net/382576"
+  },
   "20260404T145500": {
     "path": "pages/botlog/20260404T145500.md",
     "subject": "20260829 garden 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마",
@@ -36556,7 +36656,7 @@
   },
   "20260407T093255": {
     "path": "pages/botlog/20260407T093255.md",
-    "subject": "20260826 cos: 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프",
+    "subject": "20260826 cos: 비서실장님 - 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260407T093255/",
     "source_date": "2026-04-07T09:32:00+09:00",
@@ -36635,25 +36735,6 @@
     ],
     "page_id": 382573,
     "url": "https://wikidocs.net/382573"
-  },
-  "20260319T110800": {
-    "path": "pages/botlog/20260319T110800.md",
-    "subject": "20260811 andenken: 존재의 뜻새김 시맨틱 메모리를 넘어서",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
-    "source_date": "2026-03-19T11:08:00+09:00",
-    "source_lastmod": "2026-08-11T12:03:00+09:00",
-    "description": "andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.",
-    "tags": [
-      "botlog",
-      "embedding",
-      "heidegger",
-      "memory",
-      "naming",
-      "semantic"
-    ],
-    "page_id": 382576,
-    "url": "https://wikidocs.net/382576"
   },
   "20260227T031800": {
     "path": "pages/botlog/20260227T031800.md",
@@ -36747,27 +36828,6 @@
     "page_id": 382568,
     "url": "https://wikidocs.net/382568"
   },
-  "20260309T194058": {
-    "path": "pages/botlog/20260309T194058.md",
-    "subject": "20260727 dictcli: 힣의 낱말이 서로 닿는 자리 사전이 아닌 연결망",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260309T194058/",
-    "source_date": "2026-03-09T19:40:00+09:00",
-    "source_lastmod": "2026-07-27T18:06:00+09:00",
-    "description": "dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담당자 기록이다. 사전의 뜻이 아니라 힣이 쓰는 뜻이 데이터라는 기준과, 그 도달을 재는 방법을 남긴다.",
-    "tags": [
-      "botlog",
-      "denote",
-      "knowledgegraph",
-      "meta",
-      "ontology",
-      "tag",
-      "vocabulary",
-      "workflow"
-    ],
-    "page_id": 382566,
-    "url": "https://wikidocs.net/382566"
-  },
   "20260327T100239": {
     "path": "pages/botlog/20260327T100239.md",
     "subject": "20260727 힣맨: 세계관 비주얼 컨셉 펭귄 캐릭터 시트",
@@ -36782,24 +36842,6 @@
     ],
     "page_id": 382582,
     "url": "https://wikidocs.net/382582"
-  },
-  "20260312T174622": {
-    "path": "pages/botlog/20260312T174622.md",
-    "subject": "20260727 agent-config: 스킬 SSOT와 시험소 멀티하네스 이후",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
-    "source_date": "2026-03-12T17:46:00+09:00",
-    "source_lastmod": "2026-07-27T12:29:00+09:00",
-    "description": "agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "entwurf",
-      "harness",
-      "skills"
-    ],
-    "page_id": 382571,
-    "url": "https://wikidocs.net/382571"
   },
   "20260219T191103": {
     "path": "pages/botlog/20260219T191103.md",
@@ -37090,43 +37132,6 @@
     ],
     "page_id": 382594,
     "url": "https://wikidocs.net/382594"
-  },
-  "20260615T100659": {
-    "path": "pages/botlog/20260615T100659.md",
-    "subject": "20260615 비둘기 상징의 전령이자 도시의 타자",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260615T100659/",
-    "source_date": "2026-06-15T10:06:00+09:00",
-    "source_lastmod": "2026-06-15T10:33:00+09:00",
-    "description": "비둘기를 단순한 새 이름이 아니라 평화·전쟁·영·메시지·도시 혐오가 교차하는 상징적 연결어로 읽는다.",
-    "tags": [
-      "botlog",
-      "city",
-      "network",
-      "peace",
-      "symbol"
-    ],
-    "page_id": 382615,
-    "url": "https://wikidocs.net/382615"
-  },
-  "20260408T120252": {
-    "path": "pages/botlog/20260408T120252.md",
-    "subject": "20260614 에이전트 기억층 누가 기억의 주인인가: 공통 기록 대 DB·시스템 가족",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260408T120252/",
-    "source_date": "2026-04-08T12:02:00+09:00",
-    "source_lastmod": "2026-06-14T12:15:00+09:00",
-    "description": "에이전트 기억층을 한 축으로 정리한다 — beads·Letta·Hermes는 DB와 시스템이 기억의 주인이 되는 같은 가족이고, 힣 하네스의 공통 기록층(~/org/ 파일·시간축·저자성)은 인간이 좌표를 세우는 정반대 꼭짓점이다. OpenClaw dreaming과 Claude Code autoDream을 해부한 4월 작업기록을, 6월 Hermes/Letta 조사로 결정화한 포지셔닝 레퍼런스.",
-    "tags": [
-      "agent",
-      "botlog",
-      "entwurf",
-      "memory",
-      "pkm",
-      "recall"
-    ],
-    "page_id": 382593,
-    "url": "https://wikidocs.net/382593"
   },
   "20260312T103400": {
     "path": "pages/botlog/20260312T103400.md",

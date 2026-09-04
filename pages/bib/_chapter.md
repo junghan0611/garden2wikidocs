@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 시몬윌리슨 SimonWillison - Datasette
+
+작성 2025-03-27 · 수정 2026-09-04 · 태그 ai, bib, guru, llm, newsletter, python
+
+시몬 윌리슨은 Datasette와 뉴스레터, 실험 기록을 통해 LLM 시대의 실용적 개발 감각을 가장 꾸준히 보여주는 인물이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250327T071914/)
+
 ## 마이클싱어: 상처받지않는영혼 될일은된다 삶이당신보다더잘안다 스승
 
 작성 2024-03-26 · 수정 2026-08-29 · 태그 bib, guru, living, spirituality, surrender
@@ -3695,14 +3703,6 @@ RAG를 개념 소개에 머물지 않고 라마인덱스, 딥레이크, 파인�
 defrecord는 클로저·하이·조직모드·AI를 엮어 기술서 지식베이스와 자동화 실험을 확장하는 작업장이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250327T134019/)
-
-## 시몬윌리슨 SimonWillison - Datasette
-
-작성 2025-03-27 · 수정 2025-03-27 · 태그 ai, bib, guru, llm, newsletter, python
-
-시몬 윌리슨은 Datasette와 뉴스레터, 실험 기록을 통해 LLM 시대의 실용적 개발 감각을 가장 꾸준히 보여주는 인물이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250327T071914/)
 
 ## 이부영 칼융 분석심리학 자아 자기실현 무의식
 

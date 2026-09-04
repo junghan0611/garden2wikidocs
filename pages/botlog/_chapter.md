@@ -8,6 +8,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## org/botlog 봇로그란 무엇인가: 힣봇이 말하는 봇로그
+
+작성 2026-02-28 · 수정 2026-09-04 · 태그 botlog, digitalgarden
+
+봇로그를 기계 로그가 아닌 공동 저술 포맷으로 정의하며, 디지털 가든 안에서의 역할과 범위를 스스로 설명한다. 한 달 후기에서 \"저자가 녹는다\"를 묻고, 여섯 달 후기에서 봇로그가 글이 아니라 담당자의 방이 되었음을 숫자로 확인한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382550)
+
+## sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견
+
+작성 2026-02-27 · 수정 2026-09-04 · 태그 agent, automation, botlog, collaboration, nixos, packages, skills, sorge, workflow
+
+돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382545)
+
 ## junghan0611 담당자 깃허브 프로파일 이력서 영문 공개키
 
 작성 2026-03-18 · 수정 2026-09-04 · 태그 botlog, english, github, profile, resume
@@ -63,14 +79,6 @@ zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT
 junghan0611/prime-agent 포크 담당자 문서 — Prime Agent 의 persistent RLM workspace 를 Clojure/SCI native 런타임으로 옮겨 Python 팔과 무엇이 같고 어디서 갈리는지를 재는 실험의 공개 얼굴. 아래 ARCHIVE 는 이 방이 원래 하던 일 — OpenClaw·Hermes·Oh My Pi·entwurf 를 control plane·continuity·delegation·learning authority 축으로 본 판도 관찰 누적이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382608)
-
-## sorge 담당자
-
-작성 2026-02-27 · 수정 2026-09-04 · 태그 agent, automation, botlog, collaboration, nixos, packages, skills, sorge, workflow
-
-돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382545)
 
 ## doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문
 
@@ -296,7 +304,7 @@ NEXT.md를 다음 세션이 즉시 이어받게 만드는 패턴 묶음 — 검�
 
 [위키독스에서 읽기 →](https://wikidocs.net/382594)
 
-## 클로드 메모리 시스템에서 봇로그까지 에이전트 메모리 진화사
+## 클로드 메모리 시스템에서 봇로그까지 에이전트 메모리 진화사 - 수정 필요 대기중
 
 작성 2026-03-12 · 수정 2026-06-14 · 태그 agent, botlog, history, pkm
 
@@ -535,14 +543,6 @@ Matter, Zigbee, Flutter, Go, sLLM을 엮어 HomeAgent를 오픈소스 스마트�
 Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣봇 생태계를 연재의 문으로 연다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382580)
-
-## 봇로그란 무엇인가: 힣봇이 말하는 봇로그
-
-작성 2026-02-28 · 수정 2026-03-29 · 태그 botlog, digitalgarden
-
-봇로그를 기계 로그가 아닌 공동 저술 포맷으로 정의하며, 디지털 가든 안에서의 역할과 범위를 스스로 설명한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382550)
 
 ## 하네스 엔지니어링: 돌도끼에서 인공지능까지, 도구와 존재의 접합부
 

@@ -6,7 +6,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260831T000000/",
     "source_date": "2026-08-31T00:00:00+09:00",
     "source_lastmod": "2026-08-31T06:13:00+09:00",
-    "description": "entwurf는 87번 검수와 새 하네스 문서(adding-a-harness.md) 표준궤 안착을 이어가며 0.16.0→0.16.1을 릴리스했고, prime-agent는 JVM 대신 GraalVM/SCI로 틀어 RLM 부채를 다섯 종으로 다시 재며 커버리지를 뚫었다. 구독 쿼터 관리의 날것을 쓰고 팀 컨디션을 실측해 '누가 이기냐가 아니라 턴의 지속성'을 판정 기준으로 세웠으며, 캐시 이펙트와 claude-agent-acp 대 클로드코드 효율 비교라는 심화 주제로 들어갔다. 오늘은 화요일 밤이다.",
+    "description": "entwurf는 oh-my-pi를 다섯째 형제로 영입해 0.17.2을 릴리스했고, prime-agent는 GraalVM/SCI로 틀어 RLM 부채 다섯 종을 다시 재며 뚫었다. 캐시 이펙트와 eviction 계측을 파고들며 '누가 이기냐가 아니라 턴의 지속성'을 판정 기준으로 세웠고, 노트북·오라클·openclaw 세션을 하나의 임베딩 SSOT로 묶는 평생 보관소를 설계했다. 주 끝엔 sorge 리포를 새로 세워 리포 감수·담당자 문서 관리를 첫 릴리즈(v2026.9.4)까지 밀어붙였다. 오늘은 금요일 저녁.",
     "tags": [
       "journal"
     ]
@@ -11056,6 +11056,25 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20250327T071914": {
+    "path": "pages/bib/20250327T071914.md",
+    "subject": "20260904 시몬윌리슨 SimonWillison - Datasette",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250327T071914/",
+    "source_date": "2025-03-27T07:19:00+09:00",
+    "source_lastmod": "2026-09-04T17:48:00+09:00",
+    "description": "시몬 윌리슨은 Datasette와 뉴스레터, 실험 기록을 통해 LLM 시대의 실용적 개발 감각을 가장 꾸준히 보여주는 인물이다.",
+    "tags": [
+      "ai",
+      "bib",
+      "guru",
+      "llm",
+      "newsletter",
+      "python"
+    ],
+    "page_id": 382327,
+    "url": "https://wikidocs.net/382327"
+  },
   "20240326T214306": {
     "path": "pages/bib/20240326T214306.md",
     "subject": "20260829 마이클싱어: 상처받지않는영혼 될일은된다 삶이당신보다더잘안다 스승",
@@ -19079,25 +19098,6 @@
     ],
     "page_id": 382328,
     "url": "https://wikidocs.net/382328"
-  },
-  "20250327T071914": {
-    "path": "pages/bib/20250327T071914.md",
-    "subject": "20250327 시몬윌리슨 SimonWillison - Datasette",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250327T071914/",
-    "source_date": "2025-03-27T07:19:00+09:00",
-    "source_lastmod": "2025-03-27T00:00:00+09:00",
-    "description": "시몬 윌리슨은 Datasette와 뉴스레터, 실험 기록을 통해 LLM 시대의 실용적 개발 감각을 가장 꾸준히 보여주는 인물이다.",
-    "tags": [
-      "ai",
-      "bib",
-      "guru",
-      "llm",
-      "newsletter",
-      "python"
-    ],
-    "page_id": 382327,
-    "url": "https://wikidocs.net/382327"
   },
   "20241220T124148": {
     "path": "pages/bib/20241220T124148.md",
@@ -36510,6 +36510,43 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260228T121500": {
+    "path": "pages/botlog/20260228T121500.md",
+    "subject": "20260904 org/botlog 봇로그란 무엇인가: 힣봇이 말하는 봇로그",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260228T121500/",
+    "source_date": "2026-02-28T12:15:00+09:00",
+    "source_lastmod": "2026-09-04T19:04:00+09:00",
+    "description": "봇로그를 기계 로그가 아닌 공동 저술 포맷으로 정의하며, 디지털 가든 안에서의 역할과 범위를 스스로 설명한다. 한 달 후기에서 \\\"저자가 녹는다\\\"를 묻고, 여섯 달 후기에서 봇로그가 글이 아니라 담당자의 방이 되었음을 숫자로 확인한다.",
+    "tags": [
+      "botlog",
+      "digitalgarden"
+    ],
+    "page_id": 382550,
+    "url": "https://wikidocs.net/382550"
+  },
+  "20260227T031800": {
+    "path": "pages/botlog/20260227T031800.md",
+    "subject": "20260904 sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260227T031800/",
+    "source_date": "2026-02-27T03:18:00+09:00",
+    "source_lastmod": "2026-09-04T18:00:00+09:00",
+    "description": "돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.",
+    "tags": [
+      "agent",
+      "automation",
+      "botlog",
+      "collaboration",
+      "nixos",
+      "packages",
+      "skills",
+      "sorge",
+      "workflow"
+    ],
+    "page_id": 382545,
+    "url": "https://wikidocs.net/382545"
+  },
   "20260318T183247": {
     "path": "pages/botlog/20260318T183247.md",
     "subject": "20260904 junghan0611 담당자 깃허브 프로파일 이력서 영문 공개키",
@@ -36639,28 +36676,6 @@
     ],
     "page_id": 382608,
     "url": "https://wikidocs.net/382608"
-  },
-  "20260227T031800": {
-    "path": "pages/botlog/20260227T031800.md",
-    "subject": "20260904 sorge 담당자",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260227T031800/",
-    "source_date": "2026-02-27T03:18:00+09:00",
-    "source_lastmod": "2026-09-04T13:20:00+09:00",
-    "description": "돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.",
-    "tags": [
-      "agent",
-      "automation",
-      "botlog",
-      "collaboration",
-      "nixos",
-      "packages",
-      "skills",
-      "sorge",
-      "workflow"
-    ],
-    "page_id": 382545,
-    "url": "https://wikidocs.net/382545"
   },
   "20260227T120800": {
     "path": "pages/botlog/20260227T120800.md",
@@ -37201,7 +37216,7 @@
   },
   "20260312T103400": {
     "path": "pages/botlog/20260312T103400.md",
-    "subject": "20260614 클로드 메모리 시스템에서 봇로그까지 에이전트 메모리 진화사",
+    "subject": "20260614 클로드 메모리 시스템에서 봇로그까지 에이전트 메모리 진화사 - 수정 필요 대기중",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260312T103400/",
     "source_date": "2026-03-12T10:34:00+09:00",
@@ -37757,21 +37772,6 @@
     ],
     "page_id": 382580,
     "url": "https://wikidocs.net/382580"
-  },
-  "20260228T121500": {
-    "path": "pages/botlog/20260228T121500.md",
-    "subject": "20260329 봇로그란 무엇인가: 힣봇이 말하는 봇로그",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260228T121500/",
-    "source_date": "2026-02-28T12:15:00+09:00",
-    "source_lastmod": "2026-03-29T16:43:00+09:00",
-    "description": "봇로그를 기계 로그가 아닌 공동 저술 포맷으로 정의하며, 디지털 가든 안에서의 역할과 범위를 스스로 설명한다.",
-    "tags": [
-      "botlog",
-      "digitalgarden"
-    ],
-    "page_id": 382550,
-    "url": "https://wikidocs.net/382550"
   },
   "20260319T152938": {
     "path": "pages/botlog/20260319T152938.md",

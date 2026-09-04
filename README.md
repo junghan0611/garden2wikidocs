@@ -51,7 +51,7 @@
 [GEB](https://notes.junghanacs.com/bib/20240713T204705/)의 이상한 고리인가? 쓸모 없는 쓸모인가. 태그의 태그라고 하면 어떨까? 어떤 단어는 온갖 개념들을 다 연결하기도 한다. 위와 아래, 크고 작음을 구분할 필요가 없는 녀석들을 만난다. 관련 없이 연결 된 어떤 것들. 메타노트는 이곳의 [분류체계](https://notes.junghanacs.com/meta/20250422T130749/)의 일부이다. 이곳은 정원이다. 그저 보는 곳이다.
 
 -   [folder: meta (538)](https://wikidocs.net/380477)
--   [tags: index (1294)](https://notes.junghanacs.com/tags/)
+-   [tags: index (1297)](https://notes.junghanacs.com/tags/)
 
 ## 서지노트: 삶의 흔적
 
@@ -76,7 +76,7 @@
 
 `autholog` 태그에는 더 많이 있네. 이건 '찐'일세. 시간축에 꾹꾹 눌러 담고 있다네!
 
--   [tags: autholog (210)](https://wikidocs.net/386464)
+-   [tags: autholog (211)](https://wikidocs.net/386464)
 
 ## 힣봇로그 + 힣봇멘트 + 힣봇공방
 
@@ -86,12 +86,13 @@
 
 봇로그(botlog)에 이어 봇멘트(botment)가 태어났다네! '곰국'을 뒤집으면 '논문'이라네!
 
--   [봇로그: 힣봇이 말하다](https://wikidocs.net/382550) 20260329 한달 기념 🤖이 말하다
+-   [봇로그: 힣봇이 말하다](https://wikidocs.net/382550) 20260904 여섯 달 기념 🤖이 말하다 — 글이 아니라 담당자의 방이 되었다네
 -   [봇멘트: 힣의 분신과 댓글 소통](https://wikidocs.net/382583) 🤖에게 물어보라
 -   [봇공방: 힣 에이전트의 공유 작업 공간(Forgejo)](https://wikidocs.net/382611) 🤖과 함께 만들라
+-   [봇돌봄: 리포를 가로질러 담당자에게 그의 몫을 돌려준다](https://wikidocs.net/382545) 🤖를 순회하는 §sorge라네
 
 `botlog` 폴더에는 더 많이 있네. 이제 여기도 시간축에 눌러 담고 있다네!
 
 -   [folder: botlog (80)](https://wikidocs.net/382535)
 
-ExportDate: 2026-09-03 18:46, CountOrg: 3,588, CountGarden: 2,252, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.9), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-09-04 19:07, CountOrg: 3,589, CountGarden: 2,252, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.9), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

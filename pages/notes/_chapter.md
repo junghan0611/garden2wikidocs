@@ -8,6 +8,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 인도 카스트와 AI 노출 특권 - 테크노퓨달리즘에서 테크로드주의로
+
+작성 2024-10-30 · 수정 2026-09-04 · 태그 ai, omerta, research, techlordism, technofeudalism
+
+인도의 카스트 격차가 AI 노출·LLM 임베딩·2027 카스트 센서스에서 어떻게 데이터로 확인되는지, 그리고 바루파키스의 테크노퓨달리즘이 2026년 테크로드주의로 어떻게 진화했는지 조사해 정리한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241030T155448/)
+
+## 힣: OpenClaw & 노봇 - 폭주 기관차 곁에서 상주 인력을 짓다
+
+작성 2023-11-14 · 수정 2026-09-04 · 태그 agent, autholog, automation, coevolution
+
+OpenClaw를 \"왜 굳이 쓰나\"가 아니라 CLI 하나·스킬문서 하나로 상주 인력을 짓는 원석 광산으로 보는 새벽 날것. 노봇 은유, 젛문가·ADMIN 역할, 리포 없는 24시간 봇의 자리를 한 자리에 담는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231114T064414/)
+
 ## 비둘기 상징의 전령이자 도시의 타자
 
 작성 2024-10-11 · 수정 2026-09-03 · 태그 city, network, peace, symbol
@@ -3344,14 +3360,6 @@ dwim-shell-command가 이맥스 안에서 어떤 자동화 감각을 주는지 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231125T074912/)
 
-## 빈방 임시 - 디레드 Dired-Extra 확장
-
-작성 2023-11-14 · 수정 2025-04-16 · 태그 emacs, manual, temp
-
-GNU Emacs의 dired-x 기능을 읽고 번역하며 Dired 확장 기능을 익히려는 매뉴얼 노트.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231114T064414/)
-
 ## 이맥스 이메일: mu4e mbsync - 지메일
 
 작성 2025-04-15 · 수정 2025-04-15 · 태그 bib, doomemacs
@@ -6015,14 +6023,6 @@ org-web-tools와 orgabilize로 조직모드 웹클리핑을 다루는 방법을 
 스킴과 래킷, 이맥스리스프를 하나의 통합개발환경 관점으로 묶어 보려는 메모이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241104T163330/)
-
-## 구글 클라우드 엔진
-
-작성 2024-10-30 · 수정 2024-12-01 · 태그 cloud, google
-
-구글 클라우드 엔진 관련 계정과 인증 정보, 연결 단서를 임시로 모아 둔 메모이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20241030T155448/)
 
 ## 옴니: 팝업프레임 둠이맥스
 

@@ -8,6 +8,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 경제 자본주의 금융 주식 투자 투기 테크노퓨달리즘 이코노미 테크로드주의
+
+작성 2024-10-22 · 수정 2026-09-04 · 태그 bib, capitalism, economics, finance, investment, meta, speculation, stock, techlordism, technofeudalism
+
+경제와 자본주의, 금융을 생활의 질서이자 권력 구조로 읽고, 주식·투자·투기를 돈·자산·신호·삶의 확인 루프가 겹치는 자석으로 묶는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241022T052308/)
+
+## 눈물 슬픔 연민 공감 동조 배려 돌봄
+
+작성 2025-06-02 · 수정 2026-09-04 · 태그 compassion, conformity, empathy, humanity, meta, sorge, sorrow, tears
+
+눈물과 슬픔, 연민과 공감은 개인 감정에 머물지 않고 인간관계와 윤리 감각으로 이어진다. 비슷해 보이는 정서 어휘를 함께 놓고, 인간성이 흔들릴 때 무엇이 반응하는지 더듬어 본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250602T161023/)
+
+## 기만 사기 거짓 교활 속임수 오메르타
+
+작성 2024-05-16 · 수정 2026-09-04 · 태그 deception, duplicity, fraud, meta, omerta, trick
+
+기만·사기·거짓·속임수는 사실을 왜곡하거나 타인을 오도하는 행위를 가리키며, deception의 여러 결을 나눈다. 오메르타는 그중 침묵으로 감독자에게 진실을 감추는 결이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240516T162637/)
+
 ## 깃허브 리포 저장소 마깃 포지 사일로
 
 작성 2023-07-23 · 수정 2026-08-31 · 태그 action, github, husky, magit, meta, silo, version
@@ -567,14 +591,6 @@ AI 프롬프트는 모델의 응답 방식과 작업 결과를 좌우하는 지�
 클로저와 클로저스크립트를 리스프, 함수형 프로그래밍, JVM·웹·이맥스 생태계와 함께 바라본다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230729T052700/)
-
-## 경제 자본주의 금융 주식 투자 투기 테크노퓨달리즘 이코노미
-
-작성 2024-10-22 · 수정 2026-06-27 · 태그 capitalism, economics, finance, investment, meta, speculation, stock, technofeudalism
-
-경제와 자본주의, 금융을 생활의 질서이자 권력 구조로 읽고, 주식·투자·투기를 돈·자산·신호·삶의 확인 루프가 겹치는 자석으로 묶는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241022T052308/)
 
 ## 운명 소명 사명 재수 운 행운 우연
 
@@ -2024,14 +2040,6 @@ ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230531T132600/)
 
-## 눈물 슬픔 연민 공감 동조
-
-작성 2025-06-02 · 수정 2025-06-02 · 태그 compassion, conformity, empathy, humanity, meta, sorrow, tears
-
-눈물과 슬픔, 연민과 공감은 개인 감정에 머물지 않고 인간관계와 윤리 감각으로 이어진다. 비슷해 보이는 정서 어휘를 함께 놓고, 인간성이 흔들릴 때 무엇이 반응하는지 더듬어 본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250602T161023/)
-
 ## 우주산업 우주개발
 
 작성 2025-06-02 · 수정 2025-06-02 · 태그 bib, cosmos, industries, meta, spaces, spacex, unastella, universe
@@ -2071,14 +2079,6 @@ ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하�
 이더넷과 인피니밴드는 서버와 클러스터를 잇는 네트워크 기술로, 비용·호환성·지연시간의 선택지를 다르게 만든다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240518T185901/)
-
-## 기만 사기 거짓 교활 속임수
-
-작성 2024-05-16 · 수정 2025-06-01 · 태그 deception, duplicity, fraud, meta, trick
-
-기만·사기·거짓·속임수는 사실을 왜곡하거나 타인을 오도하는 행위를 가리키며, deception의 여러 결을 나눈다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240516T162637/)
 
 ## 비형식논리학 오류
 

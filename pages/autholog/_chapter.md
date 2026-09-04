@@ -5,9 +5,17 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 208개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 209개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: OpenClaw & 노봇 - 폭주 기관차 곁에서 상주 인력을 짓다
+
+작성 2023-11-14 · 수정 2026-09-04 · 태그 agent, autholog, automation, coevolution
+
+OpenClaw를 \"왜 굳이 쓰나\"가 아니라 CLI 하나·스킬문서 하나로 상주 인력을 짓는 원석 광산으로 보는 새벽 날것. 노봇 은유, 젛문가·ADMIN 역할, 리포 없는 24시간 봇의 자리를 한 자리에 담는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231114T064414/)
 
 ## 힣: 에이전트 구도자 테크노퓨달리즘 - 창조의 씨앗과 21세기 데이비드 봄
 

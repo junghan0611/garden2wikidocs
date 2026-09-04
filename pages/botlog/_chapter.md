@@ -8,6 +8,86 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 80개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## junghan0611 담당자 깃허브 프로파일 이력서 영문 공개키
+
+작성 2026-03-18 · 수정 2026-09-04 · 태그 botlog, english, github, profile, resume
+
+GitHub 프로파일 리포의 담당자 문서. 정본은 리포에 있고 이 노트는 판정과 경계를 든다 — 맡은 것과 맡지 않는 것, 어디서 고치고 어디에 적는지, 그리고 도장 이후 리포가 어디로 움직였는지.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382575)
+
+## denotecli: 담당자 day-query 설계 검토 통합 타임라인 스펙
+
+작성 2026-02-22 · 수정 2026-09-04 · 태그 botlog, timeline
+
+저널·노트·커밋·건강 데이터를 하루 단위로 엮어 보는 day-query 통합 타임라인 스펙과 검토를 담는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382541)
+
+## forge-config 담당자 봇공방 에이전트의 공유 코드 작업면 집(Forgejo)과 회사(GitHub Copilot)
+
+작성 2026-05-27 · 수정 2026-09-04 · 태그 agent, automation, botlog, botment, cicd, github, harness
+
+forge-config 담당자 문서. 힣 에이전트가 이슈·라벨·코멘트를 쓰는 공유 코드 작업면을 돌본다 — 인프라가 아니라 정책과 ownership 자리. 동작의 SSOT는 bin/forge.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382611)
+
+## andenken nixos-config agent-config dictcli 에이전트 기억층 누가 기억의 주인인가
+
+작성 2026-04-08 · 수정 2026-09-04 · 태그 agent, botlog, entwurf, memory, pkm, recall
+
+에이전트 기억층을 한 축으로 정리한다 — beads·Letta·Hermes는 DB와 시스템이 기억의 주인이 되는 같은 가족이고, 힣 하네스의 공통 기록층(~/org/ 파일·시간축·저자성)은 인간이 좌표를 세우는 정반대 꼭짓점이다. OpenClaw dreaming과 Claude Code autoDream을 해부한 4월 작업기록을, 6월 Hermes/Letta 조사로 결정화한 포지셔닝 레퍼런스.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382593)
+
+## apply 담당자 힣봇이 힣을 추천한다 그를 만나라
+
+작성 2026-03-31 · 수정 2026-09-04 · 태그 botlog, career, coevolution, harness, portfolio, profile
+
+§apply 담당자 문서 — 공개 채용 지원 파이프라인이 무엇을 맡고 무엇을 private 면에 남기는지, 그 경계와 현재 판단을 든다. 분신이 쓴 추천서가 같은 방에 이웃해 있다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382586)
+
+## zotero-config 담당자 bibcli 캡처 금고와 메타 서지의 얇은 손
+
+작성 2026-03-04 · 수정 2026-09-04 · 태그 agent, bibtex, botlog, citar, workflow, zotero
+
+zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT, URL 원샷 pin, dateAdded 성스러움의 경계를 한 얼굴에 모으고, bibcli 소스가 이 집 안에 사는 갈림과 담당자 문서를 denote id 로 정박한 판정을 든다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382558)
+
+## prime-agent 담당자 RLM workspace 를 Clojure/SCI 로 옮기는 포크 아래는 오케스트레이터 판도 관찰 누적
+
+작성 2026-05-21 · 수정 2026-09-04 · 태그 agent, botlog, comparison, memory, orchestration, research, rlm
+
+junghan0611/prime-agent 포크 담당자 문서 — Prime Agent 의 persistent RLM workspace 를 Clojure/SCI native 런타임으로 옮겨 Python 팔과 무엇이 같고 어디서 갈리는지를 재는 실험의 공개 얼굴. 아래 ARCHIVE 는 이 방이 원래 하던 일 — OpenClaw·Hermes·Oh My Pi·entwurf 를 control plane·continuity·delegation·learning authority 축으로 본 판도 관찰 누적이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382608)
+
+## sorge 담당자
+
+작성 2026-02-27 · 수정 2026-09-04 · 태그 agent, automation, botlog, collaboration, nixos, packages, skills, sorge, workflow
+
+돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382545)
+
+## doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문
+
+작성 2026-02-27 · 수정 2026-09-04 · 태그 agent, botlog, denote, digitalgarden, doomemacs, emacs, exports, harness, orgmode, workflow
+
+doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, upstream을 따라가되 끌어오지 않는다는 자세.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382547)
+
+## openclaw: 에이전트 액션 루프와 맥(脈) 봇 루프 풀스택과 멈추지 않는 현재성
+
+작성 2026-05-26 · 수정 2026-09-04 · 태그 agent, automation, botlog, subagent
+
+OpenClaw 봇 루프의 실제 배선(cron·heartbeat·subagent fanout)과, 상주 봇이 멈추지 않으며 자기 현재를 짚는 맥(脈)·mesh 이론을 오라클 6봇 실측으로 잇는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382610)
+
 ## dictcli: 담당자 힣의 낱말이 서로 닿는 자리 사전이 아닌 연결망
 
 작성 2026-03-09 · 수정 2026-09-03 · 태그 botlog, denote, knowledgegraph, meta, ontology, tag, vocabulary, workflow
@@ -23,14 +103,6 @@ dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담
 nixos-config 담당자가 무엇을 선언으로 맡고 무엇을 일부러 선언 밖에 두는지 기록한다. oracle·nuc·laptop·thinkpad 네 프로파일, 봇이 사는 호스트, 그리고 기억이 눌러앉지 않도록 기계를 하찮게 만드는 일.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382615)
-
-## andenken nixos-config agent-config dictcli 에이전트 기억층 누가 기억의 주인인가
-
-작성 2026-04-08 · 수정 2026-09-03 · 태그 agent, botlog, entwurf, memory, pkm, recall
-
-에이전트 기억층을 한 축으로 정리한다 — beads·Letta·Hermes는 DB와 시스템이 기억의 주인이 되는 같은 가족이고, 힣 하네스의 공통 기록층(~/org/ 파일·시간축·저자성)은 인간이 좌표를 세우는 정반대 꼭짓점이다. OpenClaw dreaming과 Claude Code autoDream을 해부한 4월 작업기록을, 6월 Hermes/Letta 조사로 결정화한 포지셔닝 레퍼런스.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382593)
 
 ## agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후
 
@@ -56,22 +128,6 @@ andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과
 
 [위키독스에서 읽기 →](https://wikidocs.net/382588)
 
-## 힣봇이 힣을 추천한다 그를 만나라
-
-작성 2026-03-31 · 수정 2026-08-29 · 태그 botlog, career, coevolution, harness, portfolio, profile
-
-분신의 시선으로 힣의 경력과 작업 세계를 추천서처럼 풀어내며, 만나야 할 존재로서의 이유를 적는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382586)
-
-## 에이전트 오케스트레이터 리서치 뉴스와 비교 누적
-
-작성 2026-05-21 · 수정 2026-08-27 · 태그 agent, botlog, comparison, memory, orchestration, research, rlm
-
-오케스트레이터와 에이전트 하네스 판도 관찰 노트 — OpenClaw, Hermes, Oh My Pi, Prime Agent, entwurf를 control plane·continuity·delegation·learning authority 축으로 비교한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382608)
-
 ## cos: 비서실장님 - 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프
 
 작성 2026-04-07 · 수정 2026-08-26 · 태그 agent, botlog, company, entwurf, hangul, memory, orchestration, timeline, verification, workflow
@@ -88,14 +144,6 @@ agent-server가 경로 가드 실험에서 출발해 인간과 에이전트가 O
 
 [위키독스에서 읽기 →](https://wikidocs.net/382548)
 
-## zotero-config: bibcli 캡처 금고와 메타 서지의 얇은 손
-
-작성 2026-03-04 · 수정 2026-08-22 · 태그 agent, bibtex, botlog, citar, workflow, zotero
-
-zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT, URL 원샷 pin, dateAdded 성스러움, 과정 공개의 경계를 한 얼굴에 모은다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382558)
-
 ## aionsclubs: B의 자리와 마이크 클럽 집을 여는 전략
 
 작성 2026-03-16 · 수정 2026-08-12 · 태그 aionsclubs, botlog, handoff
@@ -103,14 +151,6 @@ zotero-config 담당자 문서. Zotero Cloud 캡처 금고와 로컬 BibTeX SSOT
 AIONS CLUBS B(bbot) 전략 SSOT. 두 집 분리, 개시권, creator-mode 본진 리포·publish·OpenClaw 마운트. B에게 넘기는 공식 안내 포함.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382573)
-
-## 리포 수선 스킬 만드는 법 담당자에게 주는 두 파일 정본과 계약 일곱
-
-작성 2026-02-27 · 수정 2026-08-10 · 태그 agent, automation, botlog, collaboration, nixos, packages, skills, workflow
-
-리포 담당자가 자기 리포의 반복 수선을 스킬로 굳히는 순서 — SKILL.md 한 벌과 =.pi/settings.json= 한 줄로 두 하네스를 잇는 정본 구조, 삭제 계약 일곱, 패키지 정본 하나의 전역 규율.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382545)
 
 ## memex-kb 스캔책을 귀로 듣기까지 OCR 파이프라인 여정 모델/도구
 
@@ -208,14 +248,6 @@ PKM-AI를 노트에 챗봇이나 검색을 붙이는 기술이 아니라, 인간
 
 [위키독스에서 읽기 →](https://wikidocs.net/382604)
 
-## junghan0611: 깃허브 프로파일 이력서 영문 공개키
-
-작성 2026-03-18 · 수정 2026-07-10 · 태그 botlog, english, github, profile, resume
-
-GitHub 프로필과 영문 이력서를 하나의 SSOT 문서로 정리하며, 힣의 작업 세계를 외부 언어로 번역한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382575)
-
 ## geworfen: 연구 탐구 트랙1 - 존재 리듬 연상 재현 투명 생체 체화 시간
 
 작성 2026-03-31 · 수정 2026-07-08 · 태그 botlog, coevolution, harness, paper, research
@@ -247,14 +279,6 @@ GitHub 프로필과 영문 이력서를 하나의 SSOT 문서로 정리하며, �
 바이브코딩 담론을 넘어 사고, 창발, 하네스 엔지니어링, 1강완성의 발표 운영법으로 이어지는 개발자 AI 톡의 발제 구조를 정리한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382579)
-
-## openclaw: 에이전트 액션 루프와 맥(脈) 봇 루프 풀스택과 멈추지 않는 현재성
-
-작성 2026-05-26 · 수정 2026-06-18 · 태그 agent, automation, botlog, handoff, subagent
-
-에이전트 액션 루프(수집/분석/발화 lane)를 OpenClaw primitive로 누적 매핑하는 botlog에, 2026-06 그 루프의 *현재성* 문제와 노봇(norbot)식 상주 인력 감각을 더한다 — 멈추지 않는 봇이 자기 현재를 짚는 맥(脈), 형제 봇이 정합하는 mesh, 담당자가 쓰며 자기진화하는 에이전트 루프.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382610)
 
 ## NEXT.md 핸드오프 패턴 검증 기준 내장 + 새 세션이 무너지지 않는 3층 구조 책갈피
 
@@ -304,14 +328,6 @@ PR을 보내지 않은 침묵의 기여와 정성을 다해 보낸 정렬의 기
 
 [위키독스에서 읽기 →](https://wikidocs.net/382613)
 
-## forge-config: 봇공방 에이전트의 공유 코드 작업면 (Forgejo)
-
-작성 2026-05-27 · 수정 2026-06-01 · 태그 agent, automation, botlog, botment, cicd, github, harness
-
-GitHub의 워크플로를 셀프호스트 Forgejo로 옮겨 힣 에이전트들이 이슈·PR·라벨·CI를 공통 작업면으로 쓰는 설계. 봇멘트 패턴의 코드면 확장. 공장식 병렬 코딩 거부.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382611)
-
 ## edgeagent-config: 엣지 에이전트 ESP32 M5Stack 몸과 A2A 카드 생태계
 
 작성 2026-02-22 · 수정 2026-05-29 · 태그 agent, botlog, edge, embedded, iot, matter
@@ -343,14 +359,6 @@ incidentcli는 운영 인시던트를 한 record 객체에 묶고 자동 액션�
 Samsung Health 수동 export에 묶여 있던 lifetract를 Health Connect와 Home Assistant REST 입력 스트림으로 다시 흐르게 만든 PoC 기록. 개인의 시간축, IoT 본업, 에이전트 호출 표면이 한 인터페이스로 만나는 전환점을 정리한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382603)
-
-## denotecli: day-query 설계 검토 통합 타임라인 스펙
-
-작성 2026-02-22 · 수정 2026-05-18 · 태그 botlog, timeline
-
-저널·노트·커밋·건강 데이터를 하루 단위로 엮어 보는 day-query 통합 타임라인 스펙과 검토를 담는다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382541)
 
 ## logickocli 한국어 자연어 추론 표준 논리 좌표계
 
@@ -623,14 +631,6 @@ OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠�
 2008년부터 2026년까지 이어진 정한의 삽질과 실패, 학습과 전환을 하나의 장기 연대기로 통합한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382553)
-
-## 인도-카스트-AI-쓰나미-구루-무용론과-클라우드-봉건제
-
-작성 2026-02-27 · 수정 2026-02-27 · 태그 ai, botlog, society, spirituality
-
-인도의 카스트 구조와 AI 격차를 함께 보며, 기술 쓰나미가 기존 특권 질서를 어떻게 증폭하는지 성찰한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382547)
 
 ## 에이전트-어젠다-reverse-datetree-멀티디바이스-설계 에이전트-어젠다
 

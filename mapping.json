@@ -1,4 +1,16 @@
 {
+  "20260907T000000": {
+    "path": "pages/journal/20260907T000000.md",
+    "subject": "2026-09-07~2026-09-13_W36",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260907T000000/",
+    "source_date": "2026-09-07T00:00:00+09:00",
+    "source_lastmod": "2026-09-07T06:13:00+09:00",
+    "description": "GLG AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260831T000000": {
     "path": "pages/journal/20260831T000000.md",
     "subject": "2026-08-31~2026-09-06_W35",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260831T000000/",
     "source_date": "2026-08-31T00:00:00+09:00",
     "source_lastmod": "2026-08-31T06:13:00+09:00",
-    "description": "entwurf는 oh-my-pi를 다섯째 형제로 영입해 0.17.2을 릴리스했고, prime-agent는 GraalVM/SCI로 틀어 RLM 부채 다섯 종을 다시 재며 뚫었다. 캐시 이펙트와 eviction 계측을 파고들며 '누가 이기냐가 아니라 턴의 지속성'을 판정 기준으로 세웠고, 노트북·오라클·openclaw 세션을 하나의 임베딩 SSOT로 묶는 평생 보관소를 설계했다. 주 끝엔 sorge 리포를 새로 세워 리포 감수·담당자 문서 관리를 첫 릴리즈(v2026.9.4)까지 밀어붙였다. 오늘은 금요일 저녁.",
+    "description": "entwurf는 oh-my-pi를 다섯째 형제로 영입하며 0.16.0에서 0.18.1까지 한 주에 일곱 번 릴리스했고, prime-agent는 GraalVM/SCI로 틀어 RLM 부채 다섯 종을 다시 재며 뚫었다. 캐시 이펙트와 eviction 계측을 '누가 이기냐가 아니라 턴의 지속성'으로 판정한 뒤, sorge 리포를 새로 세워 리포 감수·담당자 문서 관리 첫 릴리즈(v2026.9.4)까지 밀어붙였다. 주말엔 온생명과 등산하고 아빠표 전복버터구이를 구우며 PI 마리오·아르민의 RLM 방향을 가늠했다.",
     "tags": [
       "journal"
     ]
@@ -1542,6 +1554,100 @@
     ],
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
+  },
+  "20250424T230727": {
+    "path": "pages/meta/20250424T230727.md",
+    "subject": "20260907 역학 통계역학 엔트로피",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T230727/",
+    "source_date": "2025-04-24T23:07:00+09:00",
+    "source_lastmod": "2026-09-07T13:31:00+09:00",
+    "description": "역학을 운동 법칙의 기술을 넘어 물질·질량·힘·공간·시간의 관계를 설명하는 기초 틀로 다룬다. 고전역학·양자역학뿐 아니라 통계역학과 엔트로피까지 아우른다.",
+    "tags": [
+      "entropy",
+      "mechanics",
+      "meta",
+      "statisticalmechanics",
+      "syntopicon"
+    ],
+    "page_id": 380905,
+    "url": "https://wikidocs.net/380905"
+  },
+  "20250424T231955": {
+    "path": "pages/meta/20250424T231955.md",
+    "subject": "20260907 물리학",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T231955/",
+    "source_date": "2025-04-24T23:19:00+09:00",
+    "source_lastmod": "2026-09-07T00:00:00+09:00",
+    "description": "물리학을 변화와 자연 질서의 이론으로 보고, 철학적 자연학과 실험 과학 사이의 관계를 함께 살핀다. 프로피디아 102개 항목에 없는 복잡계도 이 방에서 다룬다.",
+    "tags": [
+      "complexity",
+      "meta",
+      "physics",
+      "syntopicon"
+    ],
+    "page_id": 380918,
+    "url": "https://wikidocs.net/380918"
+  },
+  "20250420T152816": {
+    "path": "pages/meta/20250420T152816.md",
+    "subject": "20260905 프로피디아 파이데이아",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250420T152816/",
+    "source_date": "2025-04-20T15:28:00+09:00",
+    "source_lastmod": "2026-09-05T22:16:00+09:00",
+    "description": "브리태니커 프로피디아를 지식 전체의 개요이자 개별 메타와 신토피콘을 잇는 상위 설계도로 읽는다.",
+    "tags": [
+      "bib",
+      "britannica",
+      "encyclopedia",
+      "knowledge",
+      "metameta",
+      "outline",
+      "paideia",
+      "propaedia"
+    ],
+    "page_id": 380838,
+    "url": "https://wikidocs.net/380838"
+  },
+  "20241015T125432": {
+    "path": "pages/meta/20241015T125432.md",
+    "subject": "20260905 성공 실패 승자 독식 삽질",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241015T125432/",
+    "source_date": "2024-10-15T12:54:00+09:00",
+    "source_lastmod": "2026-09-05T22:02:00+09:00",
+    "description": "성공과 실패는 개인의 성취를 넘어 승자독식 구조와 회복력의 문제와 함께 읽힌다. 무엇을 성공으로 부를 것인가를 다시 묻게 만드는 가치 판단의 장이다.",
+    "tags": [
+      "failure",
+      "meta",
+      "resilience",
+      "success",
+      "victory"
+    ],
+    "page_id": 380715,
+    "url": "https://wikidocs.net/380715"
+  },
+  "20240527T163651": {
+    "path": "pages/meta/20240527T163651.md",
+    "subject": "20260905 봇로그 봇멘트 봇돌봄 에이전트기록",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240527T163651/",
+    "source_date": "2024-05-27T16:36:00+09:00",
+    "source_lastmod": "2026-09-05T21:57:00+09:00",
+    "description": "봇이 기록과 소통의 중심이 되는 노트 형식과 흔적의 층위",
+    "tags": [
+      "agent",
+      "botlog",
+      "botment",
+      "comment",
+      "meta",
+      "records",
+      "sorge"
+    ],
+    "page_id": 380593,
+    "url": "https://wikidocs.net/380593"
   },
   "20241022T052308": {
     "path": "pages/meta/20241022T052308.md",
@@ -3447,25 +3553,6 @@
     "page_id": 380822,
     "url": "https://wikidocs.net/380822"
   },
-  "20240527T163651": {
-    "path": "pages/meta/20240527T163651.md",
-    "subject": "20260406 봇로그 봇멘트 에이전트기록",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240527T163651/",
-    "source_date": "2024-05-27T16:36:00+09:00",
-    "source_lastmod": "2026-04-06T14:29:00+09:00",
-    "description": "봇이 기록과 소통의 중심이 되는 노트 형식과 흔적의 층위",
-    "tags": [
-      "agent",
-      "botlog",
-      "botment",
-      "comment",
-      "meta",
-      "records"
-    ],
-    "page_id": 380593,
-    "url": "https://wikidocs.net/380593"
-  },
   "20250424T233923": {
     "path": "pages/meta/20250424T233923.md",
     "subject": "20260403 세계",
@@ -3618,24 +3705,6 @@
     ],
     "page_id": 381010,
     "url": "https://wikidocs.net/381010"
-  },
-  "20241015T125432": {
-    "path": "pages/meta/20241015T125432.md",
-    "subject": "20260322 성공 실패 승자 독식",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241015T125432/",
-    "source_date": "2024-10-15T12:54:00+09:00",
-    "source_lastmod": "2026-03-22T08:58:00+09:00",
-    "description": "성공과 실패는 개인의 성취를 넘어 승자독식 구조와 회복력의 문제와 함께 읽힌다. 무엇을 성공으로 부를 것인가를 다시 묻게 만드는 가치 판단의 장이다.",
-    "tags": [
-      "failure",
-      "metameta",
-      "resilience",
-      "success",
-      "victory"
-    ],
-    "page_id": 380715,
-    "url": "https://wikidocs.net/380715"
   },
   "20241013T223706": {
     "path": "pages/meta/20241013T223706.md",
@@ -4730,7 +4799,7 @@
   },
   "20241212T112839": {
     "path": "pages/meta/20241212T112839.md",
-    "subject": "20250616 본짓 딴짓 낭비",
+    "subject": "20250616 본짓 딴짓 낭비 산만",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20241212T112839/",
     "source_date": "2024-12-12T11:28:00+09:00",
@@ -6191,7 +6260,7 @@
   },
   "20250601T090359": {
     "path": "pages/meta/20250601T090359.md",
-    "subject": "20250601 신경다양성",
+    "subject": "20250601 신경다양성 다양성",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250601T090359/",
     "source_date": "2025-06-01T09:03:00+09:00",
@@ -7689,22 +7758,6 @@
     "page_id": 380919,
     "url": "https://wikidocs.net/380919"
   },
-  "20250424T231955": {
-    "path": "pages/meta/20250424T231955.md",
-    "subject": "20250424 물리학",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T231955/",
-    "source_date": "2025-04-24T23:19:00+09:00",
-    "source_lastmod": "2025-04-24T23:19:00+09:00",
-    "description": "물리학을 변화와 자연 질서의 이론으로 보고, 철학적 자연학과 실험 과학 사이의 관계를 함께 살핀다.",
-    "tags": [
-      "meta",
-      "physics",
-      "syntopicon"
-    ],
-    "page_id": 380918,
-    "url": "https://wikidocs.net/380918"
-  },
   "20250424T231919": {
     "path": "pages/meta/20250424T231919.md",
     "subject": "20250424 philosophy 철학",
@@ -7868,22 +7921,6 @@
     ],
     "page_id": 380906,
     "url": "https://wikidocs.net/380906"
-  },
-  "20250424T230727": {
-    "path": "pages/meta/20250424T230727.md",
-    "subject": "20250424 mechanics 역학",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T230727/",
-    "source_date": "2025-04-24T23:07:00+09:00",
-    "source_lastmod": "2025-04-24T23:07:00+09:00",
-    "description": "역학을 운동 법칙의 기술을 넘어 물질·질량·힘·공간·시간의 관계를 설명하는 기초 틀로 다룬다.",
-    "tags": [
-      "mechanics",
-      "meta",
-      "syntopicon"
-    ],
-    "page_id": 380905,
-    "url": "https://wikidocs.net/380905"
   },
   "20250424T230651": {
     "path": "pages/meta/20250424T230651.md",
@@ -8385,7 +8422,7 @@
   },
   "20250424T224537": {
     "path": "pages/meta/20250424T224537.md",
-    "subject": "20250424 education 교육",
+    "subject": "20250424 교육 선생 선상",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T224537/",
     "source_date": "2025-04-24T22:45:00+09:00",
@@ -8395,6 +8432,7 @@
       "education",
       "meta",
       "syntopicon",
+      "teacher",
       "teaching"
     ],
     "page_id": 380871,
@@ -8910,27 +8948,6 @@
     ],
     "page_id": 380840,
     "url": "https://wikidocs.net/380840"
-  },
-  "20250420T152816": {
-    "path": "pages/meta/20250420T152816.md",
-    "subject": "20250421 프로피디아: Propaedia",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250420T152816/",
-    "source_date": "2025-04-20T15:28:00+09:00",
-    "source_lastmod": "2025-04-21T00:00:00+09:00",
-    "description": "브리태니커 프로피디아를 지식 전체의 개요이자 개별 메타와 신토피콘을 잇는 상위 설계도로 읽는다.",
-    "tags": [
-      "bib",
-      "britannica",
-      "encyclopedia",
-      "knowledge",
-      "metameta",
-      "outline",
-      "paideia",
-      "propaedia"
-    ],
-    "page_id": 380838,
-    "url": "https://wikidocs.net/380838"
   },
   "20250420T173447": {
     "path": "pages/meta/20250420T173447.md",
@@ -11055,6 +11072,27 @@
     ],
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
+  },
+  "20240520T103805": {
+    "path": "pages/bib/20240520T103805.md",
+    "subject": "20260907 최무영 물리학 과학철학 개론서 통계역학 복잡계",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240520T103805/",
+    "source_date": "2024-05-20T10:38:00+09:00",
+    "source_lastmod": "2026-09-07T00:00:00+09:00",
+    "description": "물리학의 기본 개념과 과학철학의 쟁점을 함께 풀어, 과학을 보는 눈과 공부의 방향을 세운다.",
+    "tags": [
+      "bib",
+      "complexity",
+      "entropy",
+      "mechanics",
+      "person",
+      "philosophy",
+      "physics",
+      "statisticalmechanics"
+    ],
+    "page_id": 381935,
+    "url": "https://wikidocs.net/381935"
   },
   "20250327T071914": {
     "path": "pages/bib/20250327T071914.md",
@@ -17270,21 +17308,6 @@
     "page_id": 382122,
     "url": "https://wikidocs.net/382122"
   },
-  "20240520T103805": {
-    "path": "pages/bib/20240520T103805.md",
-    "subject": "20250501 최무영 물리학 과학철학 개론서",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240520T103805/",
-    "source_date": "2024-05-20T10:38:00+09:00",
-    "source_lastmod": "2025-05-01T00:00:00+09:00",
-    "description": "물리학의 기본 개념과 과학철학의 쟁점을 함께 풀어, 과학을 보는 눈과 공부의 방향을 세운다.",
-    "tags": [
-      "bib",
-      "physics"
-    ],
-    "page_id": 381935,
-    "url": "https://wikidocs.net/381935"
-  },
   "20250430T215110": {
     "path": "pages/bib/20250430T215110.md",
     "subject": "20250430 g4rden Rhizome 가든 작가 지식 보관소",
@@ -17535,7 +17558,8 @@
     "description": "에머슨의 「자기신뢰」는 타인의 기준보다 자기 내면의 목소리를 믿으라고 촉구한 미국 초월주의의 핵심 에세이다.",
     "tags": [
       "bib",
-      "self"
+      "self",
+      "spirituality"
     ],
     "page_id": 381857,
     "url": "https://wikidocs.net/381857"
@@ -19479,9 +19503,9 @@
     "tags": [
       "bib",
       "claude",
+      "company",
       "gptel",
-      "llmclient",
-      "company"
+      "llmclient"
     ],
     "page_id": 382310,
     "url": "https://wikidocs.net/382310"
@@ -22541,6 +22565,46 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250409T142618": {
+    "path": "pages/notes/20250409T142618.md",
+    "subject": "20260907 힣: 딥시크 MoE - 대화 분석과 최무영의 물리학 관점",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T142618/",
+    "source_date": "2025-04-09T00:00:00+09:00",
+    "source_lastmod": "2026-09-07T10:43:00+09:00",
+    "description": "딥시크 대화 분석(봇로그 이관)을 씨앗으로, 최무영 특강 4-5강의 딥시크 MoE 논의를 채워갈 방.",
+    "tags": [
+      "agent",
+      "autholog",
+      "deeplearning",
+      "llm",
+      "physics",
+      "quantum"
+    ]
+  },
+  "20250206T150102": {
+    "path": "pages/notes/20250206T150102.md",
+    "subject": "20260906 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250206T150102/",
+    "source_date": "2025-02-06T15:01:00+09:00",
+    "source_lastmod": "2026-09-06T21:42:00+09:00",
+    "description": "아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.",
+    "tags": [
+      "autholog",
+      "blacksmith",
+      "career",
+      "coevolution",
+      "dossier",
+      "future",
+      "mission",
+      "pkm",
+      "pkmai",
+      "technium"
+    ],
+    "page_id": 381508,
+    "url": "https://wikidocs.net/381508"
+  },
   "20241030T155448": {
     "path": "pages/notes/20241030T155448.md",
     "subject": "20260904 인도 카스트와 AI 노출 특권 - 테크노퓨달리즘에서 테크로드주의로",
@@ -23572,21 +23636,6 @@
     "page_id": 390027,
     "url": "https://wikidocs.net/390027"
   },
-  "20250409T142618": {
-    "path": "pages/notes/20250409T142618.md",
-    "subject": "20260803 임시 빈방 bib 첨부·translation-server - Emacs·botlog 이관",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T142618/",
-    "source_date": "2025-04-09T00:00:00+09:00",
-    "source_lastmod": "2026-08-03T11:05:00+09:00",
-    "description": "file= 첨부는 20240416 Emacs 허브, translation-server 출발은 20260304 botlog로 이관.",
-    "tags": [
-      "bib",
-      "zotero"
-    ],
-    "page_id": 381664,
-    "url": "https://wikidocs.net/381664"
-  },
   "20240416T072524": {
     "path": "pages/notes/20240416T072524.md",
     "subject": "20260803 이맥스: 서지관리 조테로 디노트 citar citar-denote",
@@ -23676,7 +23725,8 @@
       "ax",
       "career",
       "pkmai",
-      "portfolio"
+      "portfolio",
+      "public"
     ],
     "page_id": 390028,
     "url": "https://wikidocs.net/390028"
@@ -24139,29 +24189,6 @@
     ],
     "page_id": 381621,
     "url": "https://wikidocs.net/381621"
-  },
-  "20250206T150102": {
-    "path": "pages/notes/20250206T150102.md",
-    "subject": "20260729 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250206T150102/",
-    "source_date": "2025-02-06T15:01:00+09:00",
-    "source_lastmod": "2026-07-29T17:50:00+09:00",
-    "description": "아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.",
-    "tags": [
-      "autholog",
-      "blacksmith",
-      "career",
-      "coevolution",
-      "dossier",
-      "future",
-      "mission",
-      "pkm",
-      "pkmai",
-      "technium"
-    ],
-    "page_id": 381508,
-    "url": "https://wikidocs.net/381508"
   },
   "20250214T145957": {
     "path": "pages/notes/20250214T145957.md",
@@ -25663,7 +25690,7 @@
   },
   "20250326T163625": {
     "path": "pages/notes/20250326T163625.md",
-    "subject": "20260419 알못시대 - 불완전한 시작과 배움 - 코알못",
+    "subject": "20260419 알못시대 - 불완전한 시작과 배움 - 코알못 코알라 - 수정 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250326T163625/",
     "source_date": "2025-03-26T16:36:00+09:00",
@@ -36510,6 +36537,24 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260303T195201": {
+    "path": "pages/botlog/20260303T195201.md",
+    "subject": "20260906 sicm-study: 담당자 공개된 모름 - 틀·용어 도끼로 앎의 구도를 삭히는 집",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260303T195201/",
+    "source_date": "2026-03-03T19:52:00+09:00",
+    "source_lastmod": "2026-09-06T18:45:00+09:00",
+    "description": "SICM을 출발점으로 장회익·서스먼·최무영의 물리학과 심우십도를 잇는 앎의 구도. 수식=코드와 턴 기록으로 공개된 모름을 삭힌다.",
+    "tags": [
+      "botlog",
+      "mechanics",
+      "physics",
+      "sicm",
+      "sicp"
+    ],
+    "page_id": 382556,
+    "url": "https://wikidocs.net/382556"
+  },
   "20260228T121500": {
     "path": "pages/botlog/20260228T121500.md",
     "subject": "20260904 org/botlog 봇로그란 무엇인가: 힣봇이 말하는 봇로그",
@@ -37216,7 +37261,7 @@
   },
   "20260312T103400": {
     "path": "pages/botlog/20260312T103400.md",
-    "subject": "20260614 클로드 메모리 시스템에서 봇로그까지 에이전트 메모리 진화사 - 수정 필요 대기중",
+    "subject": "20260614 agent-config/claude 클로드 메모리 시스템에서 봇로그까지 에이전트 메모리 진화사 - 수정 필요 대기중",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260312T103400/",
     "source_date": "2026-03-12T10:34:00+09:00",
@@ -37330,7 +37375,8 @@
     "tags": [
       "abduction",
       "agent",
-      "botlog"
+      "botlog",
+      "records"
     ],
     "page_id": 382606,
     "url": "https://wikidocs.net/382606"
@@ -37929,24 +37975,6 @@
     ],
     "page_id": 382559,
     "url": "https://wikidocs.net/382559"
-  },
-  "20260303T195201": {
-    "path": "pages/botlog/20260303T195201.md",
-    "subject": "20260303 딥시크-대화-분석-일관성의-비밀과-에이전트-협업-멤버-가능성",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260303T195201/",
-    "source_date": "2026-03-03T19:52:00+09:00",
-    "source_lastmod": "2026-03-03T19:52:00+09:00",
-    "description": "딥시크와의 장기 대화를 분석해 일관성의 원인과 협업 가능한 에이전트 멤버로서의 성격을 검토한다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "digitalgarden",
-      "llm",
-      "orchestration"
-    ],
-    "page_id": 382556,
-    "url": "https://wikidocs.net/382556"
   },
   "20260302T171652": {
     "path": "pages/botlog/20260302T171652.md",

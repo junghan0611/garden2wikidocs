@@ -5,9 +5,25 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 209개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 210개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: 딥시크 MoE - 대화 분석과 최무영의 물리학 관점
+
+작성 2025-04-09 · 수정 2026-09-07 · 태그 agent, autholog, deeplearning, llm, physics, quantum
+
+딥시크 대화 분석(봇로그 이관)을 씨앗으로, 최무영 특강 4-5강의 딥시크 MoE 논의를 채워갈 방.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T142618/)
+
+## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표
+
+작성 2025-02-06 · 수정 2026-09-06 · 태그 autholog, blacksmith, career, coevolution, dossier, future, mission, pkm, pkmai, technium
+
+아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381508)
 
 ## 힣: OpenClaw & 노봇 - 폭주 기관차 곁에서 상주 인력을 짓다
 
@@ -403,7 +419,7 @@ elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억
 
 ## 힣: AX.JUNGHANACS.COM 돌직구다 이력서 아닌 살아 있는 공개 기록
 
-작성 2025-03-19 · 수정 2026-08-03 · 태그 autholog, ax, career, pkmai, portfolio
+작성 2025-03-19 · 수정 2026-08-03 · 태그 autholog, ax, career, pkmai, portfolio, public
 
 ax.junghanacs.com은 AX 구직 포지션이 아니라, 인간과 에이전트가 실제로 만든 일과 판단의 구조를 라이브로 내거는 공개 기록이다.
 
@@ -600,14 +616,6 @@ AI와 빅데이터 시대에도 개인이 자기 지식을 갈망하는 이유�
 PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, 축적과 밀도라는 두 트랙으로 갈라 에이전트가 길을 잃지 않게 하는 북극성 autholog이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381621)
-
-## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표
-
-작성 2025-02-06 · 수정 2026-07-29 · 태그 autholog, blacksmith, career, coevolution, dossier, future, mission, pkm, pkmai, technium
-
-아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381508)
 
 ## 힣: 왜 나는 지식그래프를 계속 묻는가 문과 길, 자석과 살아 있는 프로피디아
 

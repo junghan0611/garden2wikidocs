@@ -8,6 +8,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 딥시크 MoE - 대화 분석과 최무영의 물리학 관점
+
+작성 2025-04-09 · 수정 2026-09-07 · 태그 agent, autholog, deeplearning, llm, physics, quantum
+
+딥시크 대화 분석(봇로그 이관)을 씨앗으로, 최무영 특강 4-5강의 딥시크 MoE 논의를 채워갈 방.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T142618/)
+
+## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표
+
+작성 2025-02-06 · 수정 2026-09-06 · 태그 autholog, blacksmith, career, coevolution, dossier, future, mission, pkm, pkmai, technium
+
+아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381508)
+
 ## 인도 카스트와 AI 노출 특권 - 테크노퓨달리즘에서 테크로드주의로
 
 작성 2024-10-30 · 수정 2026-09-04 · 태그 ai, omerta, research, techlordism, technofeudalism
@@ -432,14 +448,6 @@ elfeed로 유튜브·RSS를 구독하는 것과 remember로 그 안에서 기억
 
 [위키독스에서 읽기 →](https://wikidocs.net/390027)
 
-## 임시 빈방 bib 첨부·translation-server - Emacs·botlog 이관
-
-작성 2025-04-09 · 수정 2026-08-03 · 태그 bib, zotero
-
-file= 첨부는 20240416 Emacs 허브, translation-server 출발은 20260304 botlog로 이관.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250409T142618/)
-
 ## 이맥스: 서지관리 조테로 디노트 citar citar-denote
 
 작성 2024-04-16 · 수정 2026-08-03 · 태그 bib, bibtex, citar, denote, emacs, zotero
@@ -474,7 +482,7 @@ Zotero·BibTeX·Citar·Denote 경계와 file= 첨부, Emacs 소비 면을 정리
 
 ## 힣: AX.JUNGHANACS.COM 돌직구다 이력서 아닌 살아 있는 공개 기록
 
-작성 2025-03-19 · 수정 2026-08-03 · 태그 autholog, ax, career, pkmai, portfolio
+작성 2025-03-19 · 수정 2026-08-03 · 태그 autholog, ax, career, pkmai, portfolio, public
 
 ax.junghanacs.com은 AX 구직 포지션이 아니라, 인간과 에이전트가 실제로 만든 일과 판단의 구조를 라이브로 내거는 공개 기록이다.
 
@@ -671,14 +679,6 @@ AI와 빅데이터 시대에도 개인이 자기 지식을 갈망하는 이유�
 PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, 축적과 밀도라는 두 트랙으로 갈라 에이전트가 길을 잃지 않게 하는 북극성 autholog이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381621)
-
-## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표
-
-작성 2025-02-06 · 수정 2026-07-29 · 태그 autholog, blacksmith, career, coevolution, dossier, future, mission, pkm, pkmai, technium
-
-아직 찾는 이도 반응도 없는 때에 구직 신호를 먼저 던진다. 구직은 표면이고, 좋아요 백 개 이전의 발화·아무도 잃지 않는 공개·트랙2의 살아 있는 프롬프트·보수 이전에도 계속한 소명을 미래의 인간과 인공지능에게 남기는 시간 좌표다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381508)
 
 ## 힣: 왜 나는 지식그래프를 계속 묻는가 문과 길, 자석과 살아 있는 프로피디아
 
@@ -1304,7 +1304,7 @@ PDF 전자책을 다른 포맷으로 바꾸는 방법과 한계를 정리한 노
 
 [위키독스에서 읽기 →](https://wikidocs.net/381696)
 
-## 알못시대 - 불완전한 시작과 배움 - 코알못
+## 알못시대 - 불완전한 시작과 배움 - 코알못 코알라 - 수정 대기중
 
 작성 2025-03-26 · 수정 2026-04-19 · 태그 beginner, coding, imperfectionlist, learning, practice, test
 

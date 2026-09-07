@@ -8,6 +8,46 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 역학 통계역학 엔트로피
+
+작성 2025-04-24 · 수정 2026-09-07 · 태그 entropy, mechanics, meta, statisticalmechanics, syntopicon
+
+역학을 운동 법칙의 기술을 넘어 물질·질량·힘·공간·시간의 관계를 설명하는 기초 틀로 다룬다. 고전역학·양자역학뿐 아니라 통계역학과 엔트로피까지 아우른다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T230727/)
+
+## 물리학
+
+작성 2025-04-24 · 수정 2026-09-07 · 태그 complexity, meta, physics, syntopicon
+
+물리학을 변화와 자연 질서의 이론으로 보고, 철학적 자연학과 실험 과학 사이의 관계를 함께 살핀다. 프로피디아 102개 항목에 없는 복잡계도 이 방에서 다룬다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T231955/)
+
+## 프로피디아 파이데이아
+
+작성 2025-04-20 · 수정 2026-09-05 · 태그 bib, britannica, encyclopedia, knowledge, metameta, outline, paideia, propaedia
+
+브리태니커 프로피디아를 지식 전체의 개요이자 개별 메타와 신토피콘을 잇는 상위 설계도로 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250420T152816/)
+
+## 성공 실패 승자 독식 삽질
+
+작성 2024-10-15 · 수정 2026-09-05 · 태그 failure, meta, resilience, success, victory
+
+성공과 실패는 개인의 성취를 넘어 승자독식 구조와 회복력의 문제와 함께 읽힌다. 무엇을 성공으로 부를 것인가를 다시 묻게 만드는 가치 판단의 장이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241015T125432/)
+
+## 봇로그 봇멘트 봇돌봄 에이전트기록
+
+작성 2024-05-27 · 수정 2026-09-05 · 태그 agent, botlog, botment, comment, meta, records, sorge
+
+봇이 기록과 소통의 중심이 되는 노트 형식과 흔적의 층위
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240527T163651/)
+
 ## 경제 자본주의 금융 주식 투자 투기 테크노퓨달리즘 이코노미 테크로드주의
 
 작성 2024-10-22 · 수정 2026-09-04 · 태그 bib, capitalism, economics, finance, investment, meta, speculation, stock, techlordism, technofeudalism
@@ -808,14 +848,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250404T065411/)
 
-## 봇로그 봇멘트 에이전트기록
-
-작성 2024-05-27 · 수정 2026-04-06 · 태그 agent, botlog, botment, comment, meta, records
-
-봇이 기록과 소통의 중심이 되는 노트 형식과 흔적의 층위
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240527T163651/)
-
 ## 세계
 
 작성 2025-04-24 · 수정 2026-04-03 · 태그 meta, syntopicon, world
@@ -879,14 +911,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 단편·중편·장편의 형식론 + fragment/프래그먼트의 인식론적 의미
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20260322T075000/)
-
-## 성공 실패 승자 독식
-
-작성 2024-10-15 · 수정 2026-03-22 · 태그 failure, metameta, resilience, success, victory
-
-성공과 실패는 개인의 성취를 넘어 승자독식 구조와 회복력의 문제와 함께 읽힌다. 무엇을 성공으로 부를 것인가를 다시 묻게 만드는 가치 판단의 장이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241015T125432/)
 
 ## 오류 검사
 
@@ -1384,7 +1408,7 @@ LaTeX, Typst, 수식 입력, 조판과 기호 표현을 문서 제작과 수학�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230825T162600/)
 
-## 본짓 딴짓 낭비
+## 본짓 딴짓 낭비 산만
 
 작성 2024-12-12 · 수정 2025-06-16 · 태그 distraction, indistractable, meta, timelog
 
@@ -2048,7 +2072,7 @@ ADHD를 선택적 집중, 도파민, 신경다양성의 맥락에서 이해하�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250602T120428/)
 
-## 신경다양성
+## 신경다양성 다양성
 
 작성 2025-06-01 · 수정 2025-06-01 · 태그 meta, neurodiversity
 
@@ -2752,14 +2776,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T232042/)
 
-## 물리학
-
-작성 2025-04-24 · 수정 2025-04-24 · 태그 meta, physics, syntopicon
-
-물리학을 변화와 자연 질서의 이론으로 보고, 철학적 자연학과 실험 과학 사이의 관계를 함께 살핀다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T231955/)
-
 ## philosophy 철학
 
 작성 2025-04-24 · 수정 2025-04-24 · 태그 birdview, meta, philosophy, syntopicon
@@ -2839,14 +2855,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 의학을 질병 치료 기술에 그치지 않고 몸과 자연, 실험, 윤리, 사회적 돌봄이 만나는 실천으로 본다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T230803/)
-
-## mechanics 역학
-
-작성 2025-04-24 · 수정 2025-04-24 · 태그 mechanics, meta, syntopicon
-
-역학을 운동 법칙의 기술을 넘어 물질·질량·힘·공간·시간의 관계를 설명하는 기초 틀로 다룬다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T230727/)
 
 ## matter 재료 물질 - 질료
 
@@ -3088,9 +3096,9 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T224615/)
 
-## education 교육
+## 교육 선생 선상
 
-작성 2025-04-24 · 수정 2025-04-24 · 태그 education, meta, syntopicon, teaching
+작성 2025-04-24 · 수정 2025-04-24 · 태그 education, meta, syntopicon, teacher, teaching
 
 교육을 지식 전달에 한정하지 않고 인격, 배움, 기술, 국가, 종교까지 아우르는 인간 형성의 문제로 펼친다.
 
@@ -3335,14 +3343,6 @@ SICP를 중심으로 컴퓨터 과학의 핵심 개념, 스킴 실습, 관련 �
 신토피콘은 브리태니커의 위대한 책과 102개의 위대한 아이디어를 가로지르며 개념을 색인하는 방식에 주목한다. 한 권의 책을 넘어서 서로 다른 저자와 시대를 교차 독서하게 만드는 구조를 따라, 힣의 메타 지식 체계로 확장할 실마리를 모은다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250421T125513/)
-
-## 프로피디아: Propaedia
-
-작성 2025-04-20 · 수정 2025-04-21 · 태그 bib, britannica, encyclopedia, knowledge, metameta, outline, paideia, propaedia
-
-브리태니커 프로피디아를 지식 전체의 개요이자 개별 메타와 신토피콘을 잇는 상위 설계도로 읽는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250420T152816/)
 
 ## 메타지식 10
 

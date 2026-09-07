@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 최무영 물리학 과학철학 개론서 통계역학 복잡계
+
+작성 2024-05-20 · 수정 2026-09-07 · 태그 bib, complexity, entropy, mechanics, person, philosophy, physics, statisticalmechanics
+
+물리학의 기본 개념과 과학철학의 쟁점을 함께 풀어, 과학을 보는 눈과 공부의 방향을 세운다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240520T103805/)
+
 ## 시몬윌리슨 SimonWillison - Datasette
 
 작성 2025-03-27 · 수정 2026-09-04 · 태그 ai, bib, guru, llm, newsletter, python
@@ -2824,14 +2832,6 @@ Paul W. Rankin이 영화 작업과 함께 Emacs 글쓰기 도구를 만드는 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241019T145802/)
 
-## 최무영 물리학 과학철학 개론서
-
-작성 2024-05-20 · 수정 2025-05-01 · 태그 bib, physics
-
-물리학의 기본 개념과 과학철학의 쟁점을 함께 풀어, 과학을 보는 눈과 공부의 방향을 세운다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240520T103805/)
-
 ## g4rden Rhizome 가든 작가 지식 보관소
 
 작성 2025-04-30 · 수정 2025-04-30 · 태그 disroot, bib, knowledge, indieweb, archive, humanity, history
@@ -2946,7 +2946,7 @@ SF 영화와 우주 이야기에 숨어 있는 수식을 해설하며, 수학 �
 
 ## 랄프왈도에머슨 자기신뢰
 
-작성 2022-09-14 · 수정 2025-04-24 · 태그 bib, self
+작성 2022-09-14 · 수정 2025-04-24 · 태그 bib, self, spirituality
 
 에머슨의 「자기신뢰」는 타인의 기준보다 자기 내면의 목소리를 믿으라고 촉구한 미국 초월주의의 핵심 에세이다.
 
@@ -3882,7 +3882,7 @@ PADAone의 글과 책을 바탕으로 일본 옵시디언 활용법과 Zenn 기�
 
 ## deepseek-ai 딥시크 awesome-deepseek-integration
 
-작성 2025-03-21 · 수정 2025-03-21 · 태그 bib, claude, gptel, llmclient, company
+작성 2025-03-21 · 수정 2025-03-21 · 태그 bib, claude, company, gptel, llmclient
 
 딥시크 API와 통합 생태계를 한곳에 모아 모델 활용 경로와 도구 연결 지점을 빠르게 파악하게 한다.
 

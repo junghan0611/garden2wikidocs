@@ -22565,6 +22565,34 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20241203T065121": {
+    "path": "pages/notes/20241203T065121.md",
+    "subject": "20260908 힣: USESTHIS 대장간 도구모음",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241203T065121/",
+    "source_date": "2024-12-03T06:51:00+09:00",
+    "source_lastmod": "2026-09-08T13:41:00+09:00",
+    "description": "정한이 실제로 쓰는 하드웨어와 소프트웨어 감각 — NixOS·Doom Emacs·i3wm·Ghostty·tmux로 이어지는 키보드 중심 작업 환경을 적는다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "doomemacs",
+      "emacs",
+      "fonts",
+      "harness",
+      "history",
+      "i3wm",
+      "keyboard",
+      "nixos",
+      "reproducibility",
+      "terminal",
+      "tools",
+      "usesthis",
+      "workflow"
+    ],
+    "page_id": 381393,
+    "url": "https://wikidocs.net/381393"
+  },
   "20240704T161707": {
     "path": "pages/notes/20240704T161707.md",
     "subject": "20260908 힣: 힣의 루프 - 내 에이전트가 아니라 나를 아는 존재를 부르는 일",
@@ -25965,21 +25993,6 @@
     "page_id": 381437,
     "url": "https://wikidocs.net/381437"
   },
-  "20241203T065121": {
-    "path": "pages/notes/20241203T065121.md",
-    "subject": "20260322 힣: 그의도구들",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241203T065121/",
-    "source_date": "2024-12-03T06:51:00+09:00",
-    "source_lastmod": "2026-03-22T09:50:00+09:00",
-    "description": "정한이 실제로 쓰는 노트북과 미니PC, 키보드와 트랙볼 같은 생활 도구 구성을 적어 둔다.",
-    "tags": [
-      "autholog",
-      "usesthis"
-    ],
-    "page_id": 381393,
-    "url": "https://wikidocs.net/381393"
-  },
   "20230117T123100": {
     "path": "pages/notes/20230117T123100.md",
     "subject": "20260322 hunspell-ko 한글: 맞춤법 검사 훈스펠",
@@ -28989,7 +29002,7 @@
   },
   "20250525T165806": {
     "path": "pages/notes/20250525T165806.md",
-    "subject": "20250525 힣: 깃허브 프로파일 오픈프로필",
+    "subject": "20250525 힣: 깃허브 프로파일 오픈프로필 - 수선 필요",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250525T165806/",
     "source_date": "2025-05-25T16:58:00+09:00",
@@ -37854,7 +37867,7 @@
   },
   "20260310T140114": {
     "path": "pages/botlog/20260310T140114.md",
-    "subject": "20260320 geworfen: 게보르펜 존재-데이터-뷰어: WebTUI SF 터미널 어젠다",
+    "subject": "20260320 geworfen: 담당자 게보르펜 존재-데이터-뷰어: WebTUI SF 터미널 어젠다",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260310T140114/",
     "source_date": "2026-03-10T14:01:00+09:00",

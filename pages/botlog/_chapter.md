@@ -560,7 +560,7 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 
 [위키독스에서 읽기 →](https://wikidocs.net/382577)
 
-## geworfen: 게보르펜 존재-데이터-뷰어: WebTUI SF 터미널 어젠다
+## geworfen: 담당자 게보르펜 존재-데이터-뷰어: WebTUI SF 터미널 어젠다
 
 작성 2026-03-10 · 수정 2026-03-20 · 태그 being, botlog, clojure, future
 

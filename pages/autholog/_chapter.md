@@ -9,6 +9,14 @@
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: USESTHIS 대장간 도구모음
+
+작성 2024-12-03 · 수정 2026-09-08 · 태그 agent, autholog, doomemacs, emacs, fonts, harness, history, i3wm, keyboard, nixos, reproducibility, terminal, tools, usesthis, workflow
+
+정한이 실제로 쓰는 하드웨어와 소프트웨어 감각 — NixOS·Doom Emacs·i3wm·Ghostty·tmux로 이어지는 키보드 중심 작업 환경을 적는다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381393)
+
 ## 힣: 힣의 루프 - 내 에이전트가 아니라 나를 아는 존재를 부르는 일
 
 작성 2024-07-04 · 수정 2026-09-08 · 태그 agent, aionsclubs, autholog, automation, being, collaboration, exoself, sorge, workflow
@@ -1153,14 +1161,6 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 
 [위키독스에서 읽기 →](https://wikidocs.net/381434)
 
-## 힣: 그의도구들
-
-작성 2024-12-03 · 수정 2026-03-22 · 태그 autholog, usesthis
-
-정한이 실제로 쓰는 노트북과 미니PC, 키보드와 트랙볼 같은 생활 도구 구성을 적어 둔다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381393)
-
 ## 힣: 수면: 깊은 숙면 - 데일리루틴 브레인오링
 
 작성 2023-05-17 · 수정 2026-03-20 · 태그 autholog, brainwash, deepsleep, routines
@@ -1441,7 +1441,7 @@ AI 투기와 투자, 리스크, 전사적 브랜딩의 문제를 한 덩어리�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381028)
 
-## 힣: 깃허브 프로파일 오픈프로필
+## 힣: 깃허브 프로파일 오픈프로필 - 수선 필요
 
 작성 2025-05-25 · 수정 2025-05-25 · 태그 autholog, bib, github, profile
 

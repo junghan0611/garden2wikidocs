@@ -10,7 +10,7 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,246개 중 285개
-- 마지막 동기화: 2026-09-08
+- 마지막 동기화: 2026-09-09
 
 ## 힣의 고뇌
 
@@ -33,10 +33,11 @@
 -   [그는 누구인가](https://wikidocs.net/381392)
 -   [영어로 좀 적어주시게](https://wikidocs.net/382575) — §junghan0611: English Public Key
 -   [그는 지금 뭐하는가](https://agenda.junghanacs.com/) — §geworfen: thrown into the world
--   [그는 오늘 뭐 하는가](https://notes.junghanacs.com/journal/20260907T000000/) — Weekly journal
--   [그의 생각: 어쏠로그(autholog)](https://wikidocs.net/386464)
--   [그의 외침: 어쏠리즘(autholism)](https://wikidocs.net/381579)
--   [근데 왜 '힣' 인가](https://wikidocs.net/381605)
+-   [그는 오늘 뭐 하는가](https://notes.junghanacs.com/journal/20260907T000000/) — Weekly Journal
+-   [그의 생각: 어쏠로그(autholog)](https://wikidocs.net/386464) - rawwriting
+-   [그의 외침: 어쏠리즘(autholism)](https://wikidocs.net/381579) - aphorism
+-   [그의 도구들](https://wikidocs.net/381393) - usesthis
+-   [근데 왜 '힣' 인가](https://wikidocs.net/381605) - why
 
 ## 저널노트: 일일일생
 
@@ -95,4 +96,4 @@
 
 -   [folder: botlog (80)](https://wikidocs.net/382535)
 
-ExportDate: 2026-09-08 11:20, CountOrg: 3,590, CountGarden: 2,253, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.9), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-09-09 06:32, CountOrg: 3,590, CountGarden: 2,253, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.9), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

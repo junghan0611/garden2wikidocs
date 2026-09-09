@@ -1650,7 +1650,7 @@ AI가 인간의 언어 환경을 바꾸는 시대에 필요한 새로운 문해�
 
 ## 다니엘멘들러 minad 이맥스 구루
 
-작성 2024-12-23 · 수정 2025-06-17 · 태그 bib, emacs, guru, vertico
+작성 2024-12-23 · 수정 2025-06-17 · 태그 autocompletion, bib, emacs, guru, vertico
 
 다니엘 멘들러는 Vertico, Consult, Marginalia 같은 도구로 현대 Emacs 경험을 정교하게 다듬은 핵심 개발자다.
 
@@ -4226,7 +4226,7 @@ Stefan Thesing은 Denote와 서명 체계를 엮어 이맥스 기반 제텔카�
 
 ## 그레고리 gregoryg AI프롬프트 장인 지식그래프 유튜버 이맥스
 
-작성 2024-12-02 · 수정 2025-02-21 · 태그 aiprompt, bib, dotfiles, emacs, emacsian, guru, mcp
+작성 2024-12-02 · 수정 2025-02-21 · 태그 bib, dotfiles, emacs, emacsian, guru, mcp, prompt
 
 프롬프트 설계, 지식그래프, 이맥스 활용을 잇는 그레고리 그럽스의 작업과 자료를 모아 agentic 도구 감각을 살핀다.
 
@@ -4298,7 +4298,7 @@ Stefan Thesing은 Denote와 서명 체계를 엮어 이맥스 기반 제텔카�
 
 ## 개발자 페어 프로그래밍 코파일럿 프롬프트 에이전트
 
-작성 2024-09-15 · 수정 2025-02-18 · 태그 agent, aiprompt, bib, chatgpt, copilot, learning, pair, programming, python
+작성 2024-09-15 · 수정 2025-02-18 · 태그 agent, bib, chatgpt, copilot, learning, pair, programming, prompt, python
 
 페어 프로그래밍부터 코파일럿·ChatGPT·에이전트까지, 개발자의 학습과 협업 방식이 어떻게 바뀌는지 한 흐름으로 묶는다.
 

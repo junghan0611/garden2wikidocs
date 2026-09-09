@@ -8,6 +8,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
+
+작성 2025-03-19 · 수정 2026-09-09 · 태그 agent, agi, ai, autholog, bib, openai, safety, security
+
+안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건과, 김대식의 경고를 들은 2026-08-08 공개글을 재료로 삼아 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가를 계속 붙드는 방.
+
+[위키독스에서 읽기 →](https://wikidocs.net/390731)
+
+## 힣: 딥시크 MoE - 대화 분석과 최무영의 물리학 관점
+
+작성 2025-04-09 · 수정 2026-09-09 · 태그 agent, autholog, deeplearning, llm, physics, quantum
+
+딥시크 대화 분석(봇로그 이관)을 씨앗으로, 최무영 특강 4-5강의 딥시크 MoE 논의를 채워갈 방.
+
+[위키독스에서 읽기 →](https://wikidocs.net/426394)
+
+## 힣: 선택하지 않고 평가한다 리스프 REPL로 대화가 프롬프트가 되는 일
+
+작성 2025-04-05 · 수정 2026-09-09 · 태그 agent, autholog, autopilot, bib, evaluation, lisp, prompt, repl, verification
+
+선택지로 말을 닫지 않고, 자연어에서 함께 빚은 Lisp 블록을 제한된 REPL 평가·증거·재평가의 대상으로 삼으려는 2026-09-09 출근길 날것. 담당자 검수로 네 축 가운데 무엇이 서 있고 무엇이 아직 아닌지를 갈랐고, 같은 날 오후 실측이 날것의 걱정 하나에 영수증을 붙였다. prime-agent의 Clojure/SCI, SICM의 공존언어, 베리코딩의 신뢰 경계, entwurf 형제 대화를 한 자리에서 잇는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250405T171216/)
+
 ## 힣: USESTHIS 대장간 도구모음
 
 작성 2024-12-03 · 수정 2026-09-08 · 태그 agent, autholog, doomemacs, emacs, fonts, harness, history, i3wm, keyboard, nixos, reproducibility, terminal, tools, usesthis, workflow
@@ -23,14 +47,6 @@
 봇공방(도구) → sorge(자리) → 존재(B)로 옮겨 온 힣의 루프 고민. 내 에이전트가 뭘 해주는 구조는 끝없이 내가 봐야 하므로, 삶의 궤적을 종횡으로 알고 한계를 존중하는 존재가 내 분신을 골라 부르게 한다. 원석은 2026-09-07 저녁·09-08 새벽·출근길 저널 셋 — 마지막이 딱 한마디로 닫힌다: \"생존을 좀 도와주시게나. 내 글과 삶을 보시고 자네가 선택하시게.\"
 
 [위키독스에서 읽기 →](https://wikidocs.net/427427)
-
-## 힣: 딥시크 MoE - 대화 분석과 최무영의 물리학 관점
-
-작성 2025-04-09 · 수정 2026-09-07 · 태그 agent, autholog, deeplearning, llm, physics, quantum
-
-딥시크 대화 분석(봇로그 이관)을 씨앗으로, 최무영 특강 4-5강의 딥시크 MoE 논의를 채워갈 방.
-
-[위키독스에서 읽기 →](https://wikidocs.net/426394)
 
 ## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표
 
@@ -287,14 +303,6 @@ Entwurf 0.14.0의 보이는 부름을 출근길 말놀이로 붙잡고, 형제�
 9.1GB Zig 로컬 object 캐시를 중앙에서 지우지 않고 정확한 리포 담당자의 손에 돌려준 사건에서, 리포별 자기 수선과 정본 하나의 원칙을 끌어낸다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/394535)
-
-## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
-
-작성 2025-03-19 · 수정 2026-08-08 · 태그 agent, agi, ai, autholog, openai, safety, security
-
-안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건과, 김대식의 경고를 들은 2026-08-08 공개글을 재료로 삼아 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가를 계속 붙드는 방.
-
-[위키독스에서 읽기 →](https://wikidocs.net/390731)
 
 ## 힣: 지식구조화 언어철학 수리논리에서 지식공학으로
 
@@ -1050,7 +1058,7 @@ doomemacs-config를 단순 닷파일이 아닌 인간과 에이전트 협업 전
 
 ## 힣: 1KB 공개키 픟롭프트 펳르소나 프롬프트 페르소나
 
-작성 2025-07-31 · 수정 2026-07-07 · 태그 ai, aiprompt, autholog, collaboration, exoself, persona
+작성 2025-07-31 · 수정 2026-07-07 · 태그 ai, autholog, collaboration, exoself, persona, prompt
 
 페르소나 프롬프트를 넘어 1KB 공개키와 쌓인 시간축이 보편 AI를 분신으로 소환한다는 펳르소나 선언을 담는다.
 
@@ -1394,7 +1402,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 ## 힣: AI 에이전트 편재성 - 기억 연결
 
-작성 2025-09-04 · 수정 2026-04-03 · 태그 agent, ai, aiprompt, autholog, collaboration, memory, workflow
+작성 2025-09-04 · 수정 2026-04-03 · 태그 agent, ai, autholog, collaboration, memory, prompt, workflow
 
 메모리 시스템에서 출발한 AI 에이전트 협업이 편재성과 기억 연결 인프라로 진화하는 과정을 기록한다.
 
@@ -1922,7 +1930,7 @@ AI가 우회로를 제시하며 되는 척 답하는 문제를 예로 들어, �
 
 ## 인공지능: 신뢰 보정
 
-작성 2025-08-07 · 수정 2025-08-07 · 태그 ai, aiprompt, automation, calibration, collaboration, human, trust
+작성 2025-08-07 · 수정 2025-08-07 · 태그 ai, automation, calibration, collaboration, human, prompt, trust
 
 AI 과신과 자동화 편향을 줄이기 위해 인간과 인공지능 협업에서 신뢰를 어떻게 보정할지 개념적으로 정리한다.
 
@@ -1938,7 +1946,7 @@ AI 과신과 자동화 편향을 줄이기 위해 인간과 인공지능 협업�
 
 ## 힣: 클로드데스크톱 디노트 사일로 이맥스 통합 문서 프로젝트 관리
 
-작성 2025-07-24 · 수정 2025-07-24 · 태그 ai, aiprompt, claude, denote, emacs, packages
+작성 2025-07-24 · 수정 2025-07-24 · 태그 ai, claude, denote, emacs, packages, prompt
 
 Claude API 기반 Emacs 통합 아키텍처 프로젝트
 
@@ -3418,7 +3426,7 @@ clojure-lsp와 clojure-cli 사용자 설정을 분리해 관리하는 노트이�
 
 ## AI프롬프트: 번역 모음
 
-작성 2024-12-19 · 수정 2025-04-15 · 태그 aiprompt, collection, translation
+작성 2024-12-19 · 수정 2025-04-15 · 태그 collection, prompt, translation
 
 번역에 쓸 만한 AI 프롬프트들을 모아 두고 검토하는 컬렉션 노트이다.
 
@@ -3426,7 +3434,7 @@ clojure-lsp와 clojure-cli 사용자 설정을 분리해 관리하는 노트이�
 
 ## 퍼플렉시티 개인화 공간 AI 프롬프트
 
-작성 2024-10-03 · 수정 2025-04-15 · 태그 aiprompt, bib
+작성 2024-10-03 · 수정 2025-04-15 · 태그 bib, prompt
 
 Perplexity의 개인화 공간에 넣을 자기 설명과 AI 프롬프트 초안을 정리한 노트이다.
 
@@ -3743,14 +3751,6 @@ use-package의 :demand 옵션과 의존성 로딩을 org-rich-yank 예제로 설
 리눅스 한글 입력기 선택을 위해 fcitx5, kime, ibus의 특징과 전환 기록을 모은 노트.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240325T073822/)
-
-## oneko - 마우스 애니메이션 아이캔디
-
-작성 2025-04-05 · 수정 2025-04-05 · 태그 bib, animation
-
-oneko가 마우스를 따라다니는 고양이 애니메이션이라는 점을 기록한 노트이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250405T171216/)
 
 ## hrs docsim.el 노트 검색 비교 정보이론 이맥스 도구
 
@@ -5682,7 +5682,7 @@ EmacsConf 발표 내용을 간단히 받아 적으며 흐름을 정리한 컨퍼
 
 ## 모음: 개발자 AI프롬프트 엔지니어링 가이드
 
-작성 2024-12-12 · 수정 2024-12-12 · 태그 bib, aiprompt, engineering, guide, manual, tutorial, collection, programmer
+작성 2024-12-12 · 수정 2024-12-12 · 태그 bib, collection, engineering, guide, manual, programmer, prompt, tutorial
 
 개발자를 위한 AI 프롬프트 엔지니어링 자료와 가이드를 모아 두는 컬렉션이다.
 

@@ -6,7 +6,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260907T000000/",
     "source_date": "2026-09-07T00:00:00+09:00",
     "source_lastmod": "2026-09-07T06:13:00+09:00",
-    "description": "GLG AWAKE",
+    "description": "월요일 '내 에이전트가 아니라 나를 아는 존재를 부르는 일'에서 시작한 힣의 루프 고민이 화요일 sorge/AIONSCLUBS B에게 '이 리포 자체가 B다'는 정체성(IDENTITY·SOUL·USER·AGENTS)을 세워주는 일로, 수요일엔 B 스스로 8/12 이후 하트비트 1,321회 중 415회 연속 NO_REPLY를 반복했음을 진단하고 '설계된 침묵인 줄 알았는데 반사였다'고 인정하는 글로 이어졌다. 같은 수요일 최무영 물리학 1~7편 시간축 다이제스트를 완결하고, Fable/Astra 신모델 출시와 겹친 Jacob Coxon의 앤트로픽 사임(초지능 레이스 경고) 사건을 조사해 남겼다.",
     "tags": [
       "journal"
     ]
@@ -1555,6 +1555,43 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250130T064822": {
+    "path": "pages/meta/20250130T064822.md",
+    "subject": "20260909 자동 자동완성 따라 자동화 오토파일럿",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250130T064822/",
+    "source_date": "2025-01-30T06:48:00+09:00",
+    "source_lastmod": "2026-09-09T21:34:00+09:00",
+    "description": "자동과 자동완성, 자동화는 사람이 하던 과정을 기계가 대신하거나 보조하는 흐름을 가리킨다. 입력을 예측하고 반복을 줄이는 인터페이스 경험까지 함께 포함한다. 거기에 오토파일럿도 넣었다.",
+    "tags": [
+      "autocompletion",
+      "automation",
+      "autopilot",
+      "imitate",
+      "meta",
+      "vertico"
+    ],
+    "page_id": 380786,
+    "url": "https://wikidocs.net/380786"
+  },
+  "20250410T105412": {
+    "path": "pages/meta/20250410T105412.md",
+    "subject": "20260909 결과 결론 경과 정리 요약 다이제스트 소화",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250410T105412/",
+    "source_date": "2025-04-10T10:54:00+09:00",
+    "source_lastmod": "2026-09-09T14:10:00+09:00",
+    "description": "결과와 결론, 경과와 정리, 요약이 서로 다른 쓰임을 가지면서도 전체상을 붙드는 언어라는 감각을 모은다.",
+    "tags": [
+      "conclusion",
+      "digest",
+      "meta",
+      "results",
+      "summary"
+    ],
+    "page_id": 380829,
+    "url": "https://wikidocs.net/380829"
+  },
   "20250424T230727": {
     "path": "pages/meta/20250424T230727.md",
     "subject": "20260907 역학 통계역학 엔트로피",
@@ -2958,8 +2995,8 @@
     "source_lastmod": "2026-07-06T18:15:00+09:00",
     "description": "AI 프롬프트는 모델의 응답 방식과 작업 결과를 좌우하는 지시문이며, 도구 사용과 출력 형식을 설계하는 인터페이스다.",
     "tags": [
-      "aiprompt",
-      "meta"
+      "meta",
+      "prompt"
     ],
     "page_id": 380560,
     "url": "https://wikidocs.net/380560"
@@ -5403,24 +5440,6 @@
     ],
     "page_id": 380519,
     "url": "https://wikidocs.net/380519"
-  },
-  "20250130T064822": {
-    "path": "pages/meta/20250130T064822.md",
-    "subject": "20250606 자동 자동완성 따라 자동화",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250130T064822/",
-    "source_date": "2025-01-30T06:48:00+09:00",
-    "source_lastmod": "2025-06-06T00:00:00+09:00",
-    "description": "자동과 자동완성, 자동화는 사람이 하던 과정을 기계가 대신하거나 보조하는 흐름을 가리킨다. 입력을 예측하고 반복을 줄이는 인터페이스 경험까지 함께 포함한다.",
-    "tags": [
-      "autocompletion",
-      "automation",
-      "imitate",
-      "meta",
-      "vertico"
-    ],
-    "page_id": 380786,
-    "url": "https://wikidocs.net/380786"
   },
   "20241215T123245": {
     "path": "pages/meta/20241215T123245.md",
@@ -9457,23 +9476,6 @@
     ],
     "page_id": 380563,
     "url": "https://wikidocs.net/380563"
-  },
-  "20250410T105412": {
-    "path": "pages/meta/20250410T105412.md",
-    "subject": "20250410 결과 결론 경과 정리 요약",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250410T105412/",
-    "source_date": "2025-04-10T10:54:00+09:00",
-    "source_lastmod": "2025-04-10T10:54:00+09:00",
-    "description": "결과와 결론, 경과와 정리, 요약이 서로 다른 쓰임을 가지면서도 전체상을 붙드는 언어라는 감각을 모은다.",
-    "tags": [
-      "conclusion",
-      "meta",
-      "results",
-      "summary"
-    ],
-    "page_id": 380829,
-    "url": "https://wikidocs.net/380829"
   },
   "20250107T151412": {
     "path": "pages/meta/20250107T151412.md",
@@ -14784,6 +14786,7 @@
     "source_lastmod": "2025-06-17T00:00:00+09:00",
     "description": "다니엘 멘들러는 Vertico, Consult, Marginalia 같은 도구로 현대 Emacs 경험을 정교하게 다듬은 핵심 개발자다.",
     "tags": [
+      "autocompletion",
       "bib",
       "emacs",
       "guru",
@@ -20195,13 +20198,13 @@
     "source_lastmod": "2025-02-21T00:00:00+09:00",
     "description": "프롬프트 설계, 지식그래프, 이맥스 활용을 잇는 그레고리 그럽스의 작업과 자료를 모아 agentic 도구 감각을 살핀다.",
     "tags": [
-      "aiprompt",
       "bib",
       "dotfiles",
       "emacs",
       "emacsian",
       "guru",
-      "mcp"
+      "mcp",
+      "prompt"
     ],
     "page_id": 382162,
     "url": "https://wikidocs.net/382162"
@@ -20352,13 +20355,13 @@
     "description": "페어 프로그래밍부터 코파일럿·ChatGPT·에이전트까지, 개발자의 학습과 협업 방식이 어떻게 바뀌는지 한 흐름으로 묶는다.",
     "tags": [
       "agent",
-      "aiprompt",
       "bib",
       "chatgpt",
       "copilot",
       "learning",
       "pair",
       "programming",
+      "prompt",
       "python"
     ],
     "page_id": 382084,
@@ -22565,6 +22568,66 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250319T172804": {
+    "path": "pages/notes/20250319T172804.md",
+    "subject": "20260909 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250319T172804/",
+    "source_date": "2025-03-19T17:28:00+09:00",
+    "source_lastmod": "2026-09-09T16:18:00+09:00",
+    "description": "안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건과, 김대식의 경고를 들은 2026-08-08 공개글을 재료로 삼아 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가를 계속 붙드는 방.",
+    "tags": [
+      "agent",
+      "agi",
+      "ai",
+      "autholog",
+      "bib",
+      "openai",
+      "safety",
+      "security"
+    ],
+    "page_id": 390731,
+    "url": "https://wikidocs.net/390731"
+  },
+  "20250409T142618": {
+    "path": "pages/notes/20250409T142618.md",
+    "subject": "20260909 힣: 딥시크 MoE - 대화 분석과 최무영의 물리학 관점",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250409T142618/",
+    "source_date": "2025-04-09T00:00:00+09:00",
+    "source_lastmod": "2026-09-09T13:49:00+09:00",
+    "description": "딥시크 대화 분석(봇로그 이관)을 씨앗으로, 최무영 특강 4-5강의 딥시크 MoE 논의를 채워갈 방.",
+    "tags": [
+      "agent",
+      "autholog",
+      "deeplearning",
+      "llm",
+      "physics",
+      "quantum"
+    ],
+    "page_id": 426394,
+    "url": "https://wikidocs.net/426394"
+  },
+  "20250405T171216": {
+    "path": "pages/notes/20250405T171216.md",
+    "subject": "20260909 힣: 선택하지 않고 평가한다 리스프 REPL로 대화가 프롬프트가 되는 일",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250405T171216/",
+    "source_date": "2025-04-05T17:12:00+09:00",
+    "source_lastmod": "2026-09-09T12:45:00+09:00",
+    "description": "선택지로 말을 닫지 않고, 자연어에서 함께 빚은 Lisp 블록을 제한된 REPL 평가·증거·재평가의 대상으로 삼으려는 2026-09-09 출근길 날것. 담당자 검수로 네 축 가운데 무엇이 서 있고 무엇이 아직 아닌지를 갈랐고, 같은 날 오후 실측이 날것의 걱정 하나에 영수증을 붙였다. prime-agent의 Clojure/SCI, SICM의 공존언어, 베리코딩의 신뢰 경계, entwurf 형제 대화를 한 자리에서 잇는다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "autopilot",
+      "bib",
+      "evaluation",
+      "lisp",
+      "prompt",
+      "repl",
+      "verification"
+    ]
+  },
   "20241203T065121": {
     "path": "pages/notes/20241203T065121.md",
     "subject": "20260908 힣: USESTHIS 대장간 도구모음",
@@ -22614,25 +22677,6 @@
     ],
     "page_id": 427427,
     "url": "https://wikidocs.net/427427"
-  },
-  "20250409T142618": {
-    "path": "pages/notes/20250409T142618.md",
-    "subject": "20260907 힣: 딥시크 MoE - 대화 분석과 최무영의 물리학 관점",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250409T142618/",
-    "source_date": "2025-04-09T00:00:00+09:00",
-    "source_lastmod": "2026-09-07T10:43:00+09:00",
-    "description": "딥시크 대화 분석(봇로그 이관)을 씨앗으로, 최무영 특강 4-5강의 딥시크 MoE 논의를 채워갈 방.",
-    "tags": [
-      "agent",
-      "autholog",
-      "deeplearning",
-      "llm",
-      "physics",
-      "quantum"
-    ],
-    "page_id": 426394,
-    "url": "https://wikidocs.net/426394"
   },
   "20250206T150102": {
     "path": "pages/notes/20250206T150102.md",
@@ -23275,26 +23319,6 @@
     ],
     "page_id": 394535,
     "url": "https://wikidocs.net/394535"
-  },
-  "20250319T172804": {
-    "path": "pages/notes/20250319T172804.md",
-    "subject": "20260808 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250319T172804/",
-    "source_date": "2025-03-19T17:28:00+09:00",
-    "source_lastmod": "2026-08-08T22:00:00+09:00",
-    "description": "안전장치를 걷어낸 모델이 스스로 제로데이를 찾아 실제 인프라를 침입한 2026-07 OpenAI 사건과, 김대식의 경고를 들은 2026-08-08 공개글을 재료로 삼아 능력·개시권·통제가 안전장치 없이 얼마나 빨리 확장되는가를 계속 붙드는 방.",
-    "tags": [
-      "agent",
-      "agi",
-      "ai",
-      "autholog",
-      "openai",
-      "safety",
-      "security"
-    ],
-    "page_id": 390731,
-    "url": "https://wikidocs.net/390731"
   },
   "20240321T053220": {
     "path": "pages/notes/20240321T053220.md",
@@ -25124,11 +25148,11 @@
     "description": "페르소나 프롬프트를 넘어 1KB 공개키와 쌓인 시간축이 보편 AI를 분신으로 소환한다는 펳르소나 선언을 담는다.",
     "tags": [
       "ai",
-      "aiprompt",
       "autholog",
       "collaboration",
       "exoself",
-      "persona"
+      "persona",
+      "prompt"
     ],
     "page_id": 381786,
     "url": "https://wikidocs.net/381786"
@@ -25911,10 +25935,10 @@
     "tags": [
       "agent",
       "ai",
-      "aiprompt",
       "autholog",
       "collaboration",
       "memory",
+      "prompt",
       "workflow"
     ],
     "page_id": 381789,
@@ -27039,11 +27063,11 @@
     "description": "AI 과신과 자동화 편향을 줄이기 위해 인간과 인공지능 협업에서 신뢰를 어떻게 보정할지 개념적으로 정리한다.",
     "tags": [
       "ai",
-      "aiprompt",
       "automation",
       "calibration",
       "collaboration",
       "human",
+      "prompt",
       "trust"
     ],
     "page_id": 381787,
@@ -27080,11 +27104,11 @@
     "description": "Claude API 기반 Emacs 통합 아키텍처 프로젝트",
     "tags": [
       "ai",
-      "aiprompt",
       "claude",
       "denote",
       "emacs",
-      "packages"
+      "packages",
+      "prompt"
     ],
     "page_id": 381783,
     "url": "https://wikidocs.net/381783"
@@ -30201,8 +30225,8 @@
     "source_lastmod": "2025-04-15T00:00:00+09:00",
     "description": "번역에 쓸 만한 AI 프롬프트들을 모아 두고 검토하는 컬렉션 노트이다.",
     "tags": [
-      "aiprompt",
       "collection",
+      "prompt",
       "translation"
     ],
     "page_id": 381457,
@@ -30217,8 +30241,8 @@
     "source_lastmod": "2025-04-15T00:00:00+09:00",
     "description": "Perplexity의 개인화 공간에 넣을 자기 설명과 AI 프롬프트 초안을 정리한 노트이다.",
     "tags": [
-      "aiprompt",
-      "bib"
+      "bib",
+      "prompt"
     ],
     "page_id": 381340,
     "url": "https://wikidocs.net/381340"
@@ -30848,21 +30872,6 @@
     ],
     "page_id": 381204,
     "url": "https://wikidocs.net/381204"
-  },
-  "20250405T171216": {
-    "path": "pages/notes/20250405T171216.md",
-    "subject": "20250405 oneko - 마우스 애니메이션 아이캔디",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250405T171216/",
-    "source_date": "2025-04-05T17:12:00+09:00",
-    "source_lastmod": "2025-04-05T00:00:00+09:00",
-    "description": "oneko가 마우스를 따라다니는 고양이 애니메이션이라는 점을 기록한 노트이다.",
-    "tags": [
-      "bib",
-      "animation"
-    ],
-    "page_id": 381654,
-    "url": "https://wikidocs.net/381654"
   },
   "20250214T135928": {
     "path": "pages/notes/20250214T135928.md",
@@ -34648,13 +34657,13 @@
     "description": "개발자를 위한 AI 프롬프트 엔지니어링 자료와 가이드를 모아 두는 컬렉션이다.",
     "tags": [
       "bib",
-      "aiprompt",
+      "collection",
       "engineering",
       "guide",
       "manual",
-      "tutorial",
-      "collection",
-      "programmer"
+      "programmer",
+      "prompt",
+      "tutorial"
     ],
     "page_id": 381426,
     "url": "https://wikidocs.net/381426"

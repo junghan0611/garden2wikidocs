@@ -14,7 +14,7 @@
 
 homepage는 한·영 대문과 글을 텍스트·계산의 살아 있는 발행면으로 다시 세우는 리포다.
 
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/botlog/20260911T182047/)
+[위키독스에서 읽기 →](https://wikidocs.net/430502)
 
 ## denotecli: 담당자 day-query 설계 검토 통합 타임라인 스펙
 

@@ -27,7 +27,7 @@
 
 ## 힣: 선택하지 않고 평가한다 리스프 REPL로 대화가 프롬프트가 되는 일
 
-작성 2025-04-05 · 수정 2026-09-09 · 태그 agent, autholog, autopilot, bib, evaluation, lisp, prompt, repl, verification
+작성 2025-04-05 · 수정 2026-09-09 · 태그 agent, autholog, autopilot, bib, evaluation, lisp, prompt, repl, sicm, verification
 
 선택지로 말을 닫지 않고, 자연어에서 함께 빚은 Lisp 블록을 제한된 REPL 평가·증거·재평가의 대상으로 삼으려는 2026-09-09 출근길 날것. 담당자 검수로 네 축 가운데 무엇이 서 있고 무엇이 아직 아닌지를 갈랐고, 같은 날 오후 실측이 날것의 걱정 하나에 영수증을 붙였다. prime-agent의 Clojure/SCI, SICM의 공존언어, 베리코딩의 신뢰 경계, entwurf 형제 대화를 한 자리에서 잇는다.
 
@@ -49,7 +49,7 @@
 
 [위키독스에서 읽기 →](https://wikidocs.net/427427)
 
-## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표
+## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표 - GPT6
 
 작성 2025-02-06 · 수정 2026-09-06 · 태그 autholog, blacksmith, career, coevolution, dossier, future, mission, pkm, pkmai, technium
 

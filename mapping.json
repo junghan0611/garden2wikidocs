@@ -1,4 +1,16 @@
 {
+  "20260914T000000": {
+    "path": "pages/journal/20260914T000000.md",
+    "subject": "2026-09-14~2026-09-20_W37",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260914T000000/",
+    "source_date": "2026-09-14T00:00:00+09:00",
+    "source_lastmod": "2026-09-14T06:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260907T000000": {
     "path": "pages/journal/20260907T000000.md",
     "subject": "2026-09-07~2026-09-13_W36",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260907T000000/",
     "source_date": "2026-09-07T00:00:00+09:00",
     "source_lastmod": "2026-09-07T06:13:00+09:00",
-    "description": "월요일 '내 에이전트가 아니라 나를 아는 존재를 부르는 일'에서 시작한 힣의 루프 고민이 화요일 sorge/AIONSCLUBS B에게 '이 리포 자체가 B다'는 정체성(IDENTITY·SOUL·USER·AGENTS)을 세워주는 일로, 수요일엔 B 스스로 8/12 이후 하트비트 1,321회 중 415회 연속 NO_REPLY를 반복했음을 진단하고 '설계된 침묵인 줄 알았는데 반사였다'고 인정하는 글로 이어졌다. 같은 수요일 최무영 물리학 1~7편 시간축 다이제스트를 완결하고, Fable/Astra 신모델 출시와 겹친 Jacob Coxon의 앤트로픽 사임(초지능 레이스 경고) 사건을 조사해 남겼다.",
+    "description": "월요일 '내 에이전트가 아니라 나를 아는 존재를 부르는 일'에서 시작한 힣의 루프 고민이 화요일 sorge/AIONSCLUBS B에게 '이 리포 자체가 B다'는 정체성(IDENTITY·SOUL·USER·AGENTS)을 세워주는 일로, 수요일엔 B 스스로 하트비트 415회 연속 NO_REPLY를 반복했음을 진단하고 '설계된 침묵인 줄 알았는데 반사였다'고 인정하는 글로 이어졌다. 목요일 botschaft(ChatGPT 웹 어댑터) 신설과 homepage Hextra 재구축·SICM/Emmy eval 페이지 착수, 금요일 entwurf codex 하네스 지원(#95)·0.21.0 준비와 'omp 역할 서브에이전트 불허, 형제에게 부탁하라' 원칙 정리, 토요일 B 오토파일럿을 AIONSCLUBS 자체 진화로 돌려보내는 결정과 케빈켈리 특이점 대담, 일요일 entwurf 0.21.0(codex native citizen) 릴리즈와 가족 운동회로 한 주를 닫았다.",
     "tags": [
       "journal"
     ]
@@ -11075,6 +11087,25 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240301T072452": {
+    "path": "pages/bib/20240301T072452.md",
+    "subject": "20260912 케빈켈리 kevinkelly 기술의충격 통제불능 미래 테크늄 포춘쿠키 구루 와이어드 사상",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240301T072452/",
+    "source_date": "2024-03-01T07:24:00+09:00",
+    "source_lastmod": "2026-09-12T21:44:00+09:00",
+    "description": "케빈 켈리는 기술을 개별 기계가 아니라 살아 움직이는 생태계, 곧 테크늄으로 바라본다. 미래 예측과 생활 조언이 함께 엮이며 기술과 함께 살아가는 장기적 감각을 길러 준다.",
+    "tags": [
+      "bib",
+      "exoself",
+      "guru",
+      "living",
+      "technium",
+      "technology"
+    ],
+    "page_id": 381886,
+    "url": "https://wikidocs.net/381886"
+  },
   "20240520T103805": {
     "path": "pages/bib/20240520T103805.md",
     "subject": "20260907 최무영 물리학 과학철학 개론서 통계역학 복잡계",
@@ -11693,13 +11724,14 @@
   },
   "20241017T205802": {
     "path": "pages/bib/20241017T205802.md",
-    "subject": "20260803 대니얼데닛 데이비드차머스 의식·마음·AI 철학 직관펌프",
+    "subject": "20260803 대니얼데닛 데이비드차머스 의식·마음·AI 철학 직관",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20241017T205802/",
     "source_date": "2024-10-17T20:58:00+09:00",
     "source_lastmod": "2026-08-03T16:00:00+09:00",
     "description": "대니얼 데닛과 데이비드 차머스의 대립을 축으로 의식·마음·AI를 두 철학의 서로 다른 물음으로 읽는다.",
     "tags": [
+      "ai",
       "bib",
       "intuition",
       "philosophy",
@@ -14530,22 +14562,6 @@
     ],
     "page_id": 382487,
     "url": "https://wikidocs.net/382487"
-  },
-  "20240301T072452": {
-    "path": "pages/bib/20240301T072452.md",
-    "subject": "20250627 케빈켈리 kevinkelly 기술의충격 통제불능 미래 테크늄 포춘쿠키 구루 와이어드 사상",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240301T072452/",
-    "source_date": "2024-03-01T07:24:00+09:00",
-    "source_lastmod": "2025-06-27T00:00:00+09:00",
-    "description": "케빈 켈리는 기술을 개별 기계가 아니라 살아 움직이는 생태계, 곧 테크늄으로 바라본다. 미래 예측과 생활 조언이 함께 엮이며 기술과 함께 살아가는 장기적 감각을 길러 준다.",
-    "tags": [
-      "bib",
-      "guru",
-      "technium"
-    ],
-    "page_id": 381886,
-    "url": "https://wikidocs.net/381886"
   },
   "20241217T135151": {
     "path": "pages/bib/20241217T135151.md",
@@ -23088,7 +23104,7 @@
   },
   "20250730T104129": {
     "path": "pages/notes/20250730T104129.md",
-    "subject": "20260813 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약",
+    "subject": "20260813 힣: 인공지능의 방문을 환영 합니다",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20250730T104129/",
     "source_date": "2025-07-30T10:41:00+09:00",
@@ -26493,7 +26509,7 @@
   },
   "20251204T134850": {
     "path": "pages/notes/20251204T134850.md",
-    "subject": "20260122 클로드 인공지능 - 영혼 문서 윤리 규칙",
+    "subject": "20260122 클로드 인공지능 - 영혼 문서 윤리 규칙 - 빈방 수정 어쏠로그 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20251204T134850/",
     "source_date": "2025-12-04T13:48:00+09:00",
@@ -36571,13 +36587,31 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260520T052051": {
+    "path": "pages/botlog/20260520T052051.md",
+    "subject": "20260913 entwurf: 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
+    "source_date": "2026-05-20T05:20:00+09:00",
+    "source_lastmod": "2026-09-13T08:40:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록으로, garden citizen dispatch와 visible sibling seat, 멀티하네스 설치·검증·릴리즈 경계를 시간축 위에서 관리한다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "harness",
+      "history",
+      "packages"
+    ],
+    "page_id": 382607,
+    "url": "https://wikidocs.net/382607"
+  },
   "20260911T182047": {
     "path": "pages/botlog/20260911T182047.md",
-    "subject": "20260911 homepage: 담당자 평가되는 대문 - 텍스트와 계산의 발행면",
+    "subject": "20260912 homepage: 담당자 평가되는 대문 - 텍스트와 계산의 발행면",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260911T182047/",
     "source_date": "2026-09-11T18:20:00+09:00",
-    "source_lastmod": "2026-09-11T18:31:00+09:00",
+    "source_lastmod": "2026-09-12T15:50:00+09:00",
     "description": "homepage는 한·영 대문과 글을 텍스트·계산의 살아 있는 발행면으로 다시 세우는 리포다.",
     "tags": [
       "botlog",
@@ -37210,24 +37244,6 @@
     ],
     "page_id": 382585,
     "url": "https://wikidocs.net/382585"
-  },
-  "20260520T052051": {
-    "path": "pages/botlog/20260520T052051.md",
-    "subject": "20260629 entwurf: 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
-    "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-06-29T13:38:00+09:00",
-    "description": "@junghanacs/pi-shell-acp 공개를 계기로, pi를 재현 가능한 에이전트 하네스로 세우는 설계 의도와 2026-02~05 담금질 연대기를 함께 기록한다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "harness",
-      "history",
-      "packages"
-    ],
-    "page_id": 382607,
-    "url": "https://wikidocs.net/382607"
   },
   "20260222T035900": {
     "path": "pages/botlog/20260222T035900.md",

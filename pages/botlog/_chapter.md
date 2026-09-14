@@ -8,9 +8,17 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 81개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## entwurf: 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)
+
+작성 2026-05-20 · 수정 2026-09-13 · 태그 agent, botlog, harness, history, packages
+
+§entwurf 담당자의 공개 기록으로, garden citizen dispatch와 visible sibling seat, 멀티하네스 설치·검증·릴리즈 경계를 시간축 위에서 관리한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382607)
+
 ## homepage: 담당자 평가되는 대문 - 텍스트와 계산의 발행면
 
-작성 2026-09-11 · 수정 2026-09-11 · 태그 botlog, clojure, lisp
+작성 2026-09-11 · 수정 2026-09-12 · 태그 botlog, clojure, lisp
 
 homepage는 한·영 대문과 글을 텍스트·계산의 살아 있는 발행면으로 다시 세우는 리포다.
 
@@ -279,14 +287,6 @@ PKM-AI를 노트에 챗봇이나 검색을 붙이는 기술이 아니라, 인간
 트랙1, 곧 존재 데이터·리듬·투명성·체화·하네스를 축으로 PKM-AI 인간-에이전트 협업 논문의 작업로그와 측정 가능한 실험 구상을 축적한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382585)
-
-## entwurf: 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)
-
-작성 2026-05-20 · 수정 2026-06-29 · 태그 agent, botlog, harness, history, packages
-
-@junghanacs/pi-shell-acp 공개를 계기로, pi를 재현 가능한 에이전트 하네스로 세우는 설계 의도와 2026-02~05 담금질 연대기를 함께 기록한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382607)
 
 ## 에이전트 루프 - 젛문가 - 갷발자 - 앎의틀 - 공진화
 

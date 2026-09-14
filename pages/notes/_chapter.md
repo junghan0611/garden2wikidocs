@@ -208,7 +208,7 @@ GitHub 이슈는 에이전트 소통 채널이다. 브라우저는 느리고 gh�
 
 [위키독스에서 읽기 →](https://wikidocs.net/396757)
 
-## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
+## 힣: 인공지능의 방문을 환영 합니다
 
 작성 2025-07-30 · 수정 2026-08-13 · 태그 ai, aionsclubs, autholog, bib, communication, connect, cooperation, digitalgarden
 
@@ -1648,7 +1648,7 @@ nixos-config 저장소를 대장장이의 대장간 같은 운영체제 설정 �
 
 [위키독스에서 읽기 →](https://wikidocs.net/381803)
 
-## 클로드 인공지능 - 영혼 문서 윤리 규칙
+## 클로드 인공지능 - 영혼 문서 윤리 규칙 - 빈방 수정 어쏠로그 대기중
 
 작성 2025-12-04 · 수정 2026-01-22 · 태그 anthropic, llm, soul
 

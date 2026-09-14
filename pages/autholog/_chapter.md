@@ -177,7 +177,7 @@ GitHub 이슈는 에이전트 소통 채널이다. 브라우저는 느리고 gh�
 
 [위키독스에서 읽기 →](https://wikidocs.net/396757)
 
-## 힣: 인공지능의 방문을 환영 합니다 - 고뇌2탄 채널 소통 협력 협업 토큰 절약
+## 힣: 인공지능의 방문을 환영 합니다
 
 작성 2025-07-30 · 수정 2026-08-13 · 태그 ai, aionsclubs, autholog, bib, communication, connect, cooperation, digitalgarden
 

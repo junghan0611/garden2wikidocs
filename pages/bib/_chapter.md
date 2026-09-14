@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 케빈켈리 kevinkelly 기술의충격 통제불능 미래 테크늄 포춘쿠키 구루 와이어드 사상
+
+작성 2024-03-01 · 수정 2026-09-12 · 태그 bib, exoself, guru, living, technium, technology
+
+케빈 켈리는 기술을 개별 기계가 아니라 살아 움직이는 생태계, 곧 테크늄으로 바라본다. 미래 예측과 생활 조언이 함께 엮이며 기술과 함께 살아가는 장기적 감각을 길러 준다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240301T072452/)
+
 ## 최무영 물리학 과학철학 개론서 통계역학 복잡계
 
 작성 2024-05-20 · 수정 2026-09-07 · 태그 bib, complexity, entropy, mechanics, person, philosophy, physics, statisticalmechanics
@@ -264,9 +272,9 @@ Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241214T045836/)
 
-## 대니얼데닛 데이비드차머스 의식·마음·AI 철학 직관펌프
+## 대니얼데닛 데이비드차머스 의식·마음·AI 철학 직관
 
-작성 2024-10-17 · 수정 2026-08-03 · 태그 bib, intuition, philosophy, polymath, thinking, toolsforthought
+작성 2024-10-17 · 수정 2026-08-03 · 태그 ai, bib, intuition, philosophy, polymath, thinking, toolsforthought
 
 대니얼 데닛과 데이비드 차머스의 대립을 축으로 의식·마음·AI를 두 철학의 서로 다른 물음으로 읽는다.
 
@@ -1527,14 +1535,6 @@ Zamansky는 이맥스와 기술 교육을 연결하며, 프로그래밍을 가�
 20250627T221237
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250627T221237/)
-
-## 케빈켈리 kevinkelly 기술의충격 통제불능 미래 테크늄 포춘쿠키 구루 와이어드 사상
-
-작성 2024-03-01 · 수정 2025-06-27 · 태그 bib, guru, technium
-
-케빈 켈리는 기술을 개별 기계가 아니라 살아 움직이는 생태계, 곧 테크늄으로 바라본다. 미래 예측과 생활 조언이 함께 엮이며 기술과 함께 살아가는 장기적 감각을 길러 준다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240301T072452/)
 
 ## 세르빌 브렌트래스터 깃허브 지속적배포 자동화
 

@@ -11087,6 +11087,22 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20241024T144516": {
+    "path": "pages/bib/20241024T144516.md",
+    "subject": "20260914 한병철 피로사회 불안사회 서사의위기 리추얼의종말 정보의지배 관조하는삶 무위",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241024T144516/",
+    "source_date": "2024-10-24T14:45:00+09:00",
+    "source_lastmod": "2026-09-14T13:15:00+09:00",
+    "description": "한병철은 피로, 불안, 정보 과잉, 서사의 붕괴를 통해 동시대 자본주의와 삶의 감각을 날카롭게 진단한다.",
+    "tags": [
+      "bib",
+      "guru",
+      "philosophy"
+    ],
+    "page_id": 382135,
+    "url": "https://wikidocs.net/382135"
+  },
   "20240301T072452": {
     "path": "pages/bib/20240301T072452.md",
     "subject": "20260912 케빈켈리 kevinkelly 기술의충격 통제불능 미래 테크늄 포춘쿠키 구루 와이어드 사상",
@@ -20634,22 +20650,6 @@
     ],
     "page_id": 382218,
     "url": "https://wikidocs.net/382218"
-  },
-  "20241024T144516": {
-    "path": "pages/bib/20241024T144516.md",
-    "subject": "20250214 한병철 피로사회 불안사회 서사의위기 리추얼의종말 정보의지배 관조하는삶 무위",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241024T144516/",
-    "source_date": "2024-10-24T14:45:00+09:00",
-    "source_lastmod": "2025-02-14T00:00:00+09:00",
-    "description": "한병철은 피로, 불안, 정보 과잉, 서사의 붕괴를 통해 동시대 자본주의와 삶의 감각을 날카롭게 진단한다.",
-    "tags": [
-      "bib",
-      "guru",
-      "philosophy"
-    ],
-    "page_id": 382135,
-    "url": "https://wikidocs.net/382135"
   },
   "20240725T061009": {
     "path": "pages/bib/20240725T061009.md",
@@ -36587,9 +36587,31 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260227T031800": {
+    "path": "pages/botlog/20260227T031800.md",
+    "subject": "20260915 sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260227T031800/",
+    "source_date": "2026-02-27T03:18:00+09:00",
+    "source_lastmod": "2026-09-15T15:35:00+09:00",
+    "description": "돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.",
+    "tags": [
+      "agent",
+      "automation",
+      "botlog",
+      "collaboration",
+      "nixos",
+      "packages",
+      "skills",
+      "sorge",
+      "workflow"
+    ],
+    "page_id": 382545,
+    "url": "https://wikidocs.net/382545"
+  },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
-    "subject": "20260913 entwurf: 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "subject": "20260913 entwurf: 담당자 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
     "source_date": "2026-05-20T05:20:00+09:00",
@@ -36668,28 +36690,6 @@
     ],
     "page_id": 382550,
     "url": "https://wikidocs.net/382550"
-  },
-  "20260227T031800": {
-    "path": "pages/botlog/20260227T031800.md",
-    "subject": "20260904 sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260227T031800/",
-    "source_date": "2026-02-27T03:18:00+09:00",
-    "source_lastmod": "2026-09-04T18:00:00+09:00",
-    "description": "돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.",
-    "tags": [
-      "agent",
-      "automation",
-      "botlog",
-      "collaboration",
-      "nixos",
-      "packages",
-      "skills",
-      "sorge",
-      "workflow"
-    ],
-    "page_id": 382545,
-    "url": "https://wikidocs.net/382545"
   },
   "20260318T183247": {
     "path": "pages/botlog/20260318T183247.md",
@@ -37736,7 +37736,7 @@
   },
   "20260302T191200": {
     "path": "pages/botlog/20260302T191200.md",
-    "subject": "20260402 entwurf: 시간축 위의 에이전트 협력 공명에서 분신까지",
+    "subject": "20260402 시간축 위의 에이전트 협력 공명에서 분신까지",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260302T191200/",
     "source_date": "2026-03-02T19:12:00+09:00",

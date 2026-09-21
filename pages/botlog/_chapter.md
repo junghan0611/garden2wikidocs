@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 81개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)
+
+작성 2026-05-20 · 수정 2026-09-20 · 태그 agent, botlog, harness, history, packages
+
+§entwurf 담당자의 공개 기록으로, 독립 AI 형제 세션을 Herdr·tmux 작업면에서 잇는 Entwurf의 설치·검증·릴리즈 경계를 시간축에 남긴다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382607)
+
 ## sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견
 
 작성 2026-02-27 · 수정 2026-09-15 · 태그 agent, automation, botlog, collaboration, nixos, packages, skills, sorge, workflow
@@ -15,14 +23,6 @@
 돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382545)
-
-## entwurf: 담당자 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)
-
-작성 2026-05-20 · 수정 2026-09-13 · 태그 agent, botlog, harness, history, packages
-
-§entwurf 담당자의 공개 기록으로, garden citizen dispatch와 visible sibling seat, 멀티하네스 설치·검증·릴리즈 경계를 시간축 위에서 관리한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382607)
 
 ## homepage: 담당자 평가되는 대문 - 텍스트와 계산의 발행면
 

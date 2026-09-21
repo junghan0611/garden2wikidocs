@@ -1,4 +1,16 @@
 {
+  "20260921T000000": {
+    "path": "pages/journal/20260921T000000.md",
+    "subject": "2026-09-21~2026-09-27_W38",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260921T000000/",
+    "source_date": "2026-09-21T00:00:00+09:00",
+    "source_lastmod": "2026-09-21T06:13:00+09:00",
+    "description": "GLG AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260914T000000": {
     "path": "pages/journal/20260914T000000.md",
     "subject": "2026-09-14~2026-09-20_W37",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260914T000000/",
     "source_date": "2026-09-14T00:00:00+09:00",
     "source_lastmod": "2026-09-14T06:13:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "Herdr를 작업대로 삼고 Entwurf의 형제 호출·배달 정체성을 다시 세워, 대전 출장·날것 NixOS PC·멀티 동글 ISO 시연을 오가며 0.22.0→0.24.0과 Herdr 플러그인 0.2.0→0.4.0을 잇달아 내보낸 주. '검증면 정리'와 subtract를 세우고, 생존을 위한 지원·가든의 날것·공방식 협업을 함께 붙잡았다.",
     "tags": [
       "journal"
     ]
@@ -1567,6 +1579,63 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20241213T113213": {
+    "path": "pages/meta/20241213T113213.md",
+    "subject": "20260920 실용 유용 쓸모 불용",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241213T113213/",
+    "source_date": "2024-12-13T11:32:00+09:00",
+    "source_lastmod": "2026-09-20T12:10:00+09:00",
+    "description": "실용과 유용, 쓸모와 불용을 무엇이 실제 삶과 작업에서 가치를 갖는가의 질문으로 묶고, 즉각적 효용만으로 앎과 창조를 재단하지 않는 기준을 세운다.",
+    "tags": [
+      "meta",
+      "practical",
+      "pragmatic",
+      "usefulness",
+      "useless",
+      "utility"
+    ],
+    "page_id": 380766,
+    "url": "https://wikidocs.net/380766"
+  },
+  "20240821T221314": {
+    "path": "pages/meta/20240821T221314.md",
+    "subject": "20260920 육하원칙: 활용 응용",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240821T221314/",
+    "source_date": "2024-08-21T22:13:00+09:00",
+    "source_lastmod": "2026-09-20T12:10:00+09:00",
+    "description": "활용과 응용을 방법론의 말버릇이 아니라 창조와 연결되는 쓰임의 방향으로 정리해 두는 자리다.",
+    "tags": [
+      "applies",
+      "creativity",
+      "meta",
+      "usages",
+      "utilizes"
+    ],
+    "page_id": 380633,
+    "url": "https://wikidocs.net/380633"
+  },
+  "20240522T143739": {
+    "path": "pages/meta/20240522T143739.md",
+    "subject": "20260920 과학철학 실재론",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240522T143739/",
+    "source_date": "2024-05-22T14:37:00+09:00",
+    "source_lastmod": "2026-09-20T12:10:00+09:00",
+    "description": "과학철학은 과학 지식의 방법과 정당화, 이론의 의미와 한계를 묻는 철학의 한 갈래다.",
+    "tags": [
+      "bib",
+      "epistemology",
+      "meta",
+      "philosophy",
+      "pragmatism",
+      "realism",
+      "science"
+    ],
+    "page_id": 380587,
+    "url": "https://wikidocs.net/380587"
+  },
   "20250130T064822": {
     "path": "pages/meta/20250130T064822.md",
     "subject": "20260909 자동 자동완성 따라 자동화 오토파일럿",
@@ -2148,23 +2217,6 @@
     ],
     "page_id": 380637,
     "url": "https://wikidocs.net/380637"
-  },
-  "20240522T143739": {
-    "path": "pages/meta/20240522T143739.md",
-    "subject": "20260811 과학철학",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240522T143739/",
-    "source_date": "2024-05-22T14:37:00+09:00",
-    "source_lastmod": "2026-08-11T15:32:00+09:00",
-    "description": "과학철학은 과학 지식의 방법과 정당화, 이론의 의미와 한계를 묻는 철학의 한 갈래다.",
-    "tags": [
-      "bib",
-      "meta",
-      "philosophy",
-      "science"
-    ],
-    "page_id": 380587,
-    "url": "https://wikidocs.net/380587"
   },
   "20241003T171953": {
     "path": "pages/meta/20241003T171953.md",
@@ -9642,24 +9694,6 @@
     "page_id": 380712,
     "url": "https://wikidocs.net/380712"
   },
-  "20240821T221314": {
-    "path": "pages/meta/20240821T221314.md",
-    "subject": "20250407 육하원칙: 활용 응용",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240821T221314/",
-    "source_date": "2024-08-21T22:13:00+09:00",
-    "source_lastmod": "2025-04-07T00:00:00+09:00",
-    "description": "활용과 응용을 방법론의 말버릇이 아니라 창조와 연결되는 쓰임의 방향으로 정리해 두는 자리다.",
-    "tags": [
-      "applies",
-      "creativity",
-      "meta",
-      "usages",
-      "utilizes"
-    ],
-    "page_id": 380633,
-    "url": "https://wikidocs.net/380633"
-  },
   "20240612T165324": {
     "path": "pages/meta/20240612T165324.md",
     "subject": "20250406 공공언어 간결한 우리말 한국어",
@@ -10983,21 +11017,6 @@
     "page_id": 380767,
     "url": "https://wikidocs.net/380767"
   },
-  "20241213T113213": {
-    "path": "pages/meta/20241213T113213.md",
-    "subject": "20241213 빈방 임시",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241213T113213/",
-    "source_date": "2024-12-13T11:32:00+09:00",
-    "source_lastmod": "2024-12-13T11:32:00+09:00",
-    "description": "옴니유즈라는 말을 모든 용도에 걸친 활용성과 범용적 사용성, 통합 도구 감각으로 읽어내려는 시도다.",
-    "tags": [
-      "meta",
-      "temp"
-    ],
-    "page_id": 380766,
-    "url": "https://wikidocs.net/380766"
-  },
   "20241213T105315": {
     "path": "pages/meta/20241213T105315.md",
     "subject": "20241213 긳 사용자 이맥시안",
@@ -11086,6 +11105,84 @@
     ],
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
+  },
+  "20250224T140230": {
+    "path": "pages/bib/20250224T140230.md",
+    "subject": "20260920 숀캐럴 이론물리학자 우주의 위대한 생각들 공간 시간 운동 양자 복잡성 창발",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250224T140230/",
+    "source_date": "2025-02-24T14:02:00+09:00",
+    "source_lastmod": "2026-09-20T14:50:00+09:00",
+    "description": "숀 캐럴은 우주론과 양자론, 시간과 의미 문제를 대중적으로 풀어내는 이론물리학자이자 과학철학적 해설자다.",
+    "tags": [
+      "bib",
+      "physics",
+      "time",
+      "universe"
+    ],
+    "page_id": 382289,
+    "url": "https://wikidocs.net/382289"
+  },
+  "20250209T202141": {
+    "path": "pages/bib/20250209T202141.md",
+    "subject": "20260920 레프톨스토이 - 전쟁과 평화에서 부활과 사랑의 법까지",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250209T202141/",
+    "source_date": "2025-02-09T20:21:00+09:00",
+    "source_lastmod": "2026-09-20T04:20:00+09:00",
+    "description": "톨스토이를 대문호와 삶의 스승으로 나누지 않고, 전쟁과 평화·고백·부활·사랑의 법으로 이어지는 문학과 실천의 시간축으로 읽는다.",
+    "tags": [
+      "autobiography",
+      "bib",
+      "ethics",
+      "guru",
+      "literature",
+      "love",
+      "novel",
+      "peace",
+      "philosophy",
+      "religion",
+      "salvation",
+      "war"
+    ],
+    "page_id": 382264,
+    "url": "https://wikidocs.net/382264"
+  },
+  "20250607T073925": {
+    "path": "pages/bib/20250607T073925.md",
+    "subject": "20260919 벵하민라바투트 과학소설 불꽃 매니악 부커상 스토리텔링",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250607T073925/",
+    "source_date": "2025-06-07T07:39:00+09:00",
+    "source_lastmod": "2026-09-19T17:44:00+09:00",
+    "description": "수학자와 과학자의 광기, 전쟁, 계산의 역사를 소설적 밀도로 엮어 과학의 빛과 어둠을 함께 드러낸다.",
+    "tags": [
+      "bib",
+      "computer",
+      "epiphany",
+      "history",
+      "novel",
+      "physics",
+      "science",
+      "storyteller"
+    ],
+    "page_id": 382477,
+    "url": "https://wikidocs.net/382477"
+  },
+  "20250214T123159": {
+    "path": "pages/bib/20250214T123159.md",
+    "subject": "20260918 로버트마틴 unclebob 개발 구루 클린코드 장인 정신 아키텍트",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250214T123159/",
+    "source_date": "2025-02-14T12:31:00+09:00",
+    "source_lastmod": "2026-09-18T12:14:00+09:00",
+    "description": "로버트 마틴은 클린 코드와 소프트웨어 장인 정신을 전면에 세운 개발 구루로, 설계 원칙과 직업 윤리를 함께 강조한다.",
+    "tags": [
+      "bib",
+      "guru"
+    ],
+    "page_id": 382275,
+    "url": "https://wikidocs.net/382275"
   },
   "20241024T144516": {
     "path": "pages/bib/20241024T144516.md",
@@ -12292,31 +12389,6 @@
     "page_id": 382270,
     "url": "https://wikidocs.net/382270"
   },
-  "20250209T202141": {
-    "path": "pages/bib/20250209T202141.md",
-    "subject": "20260717 레프톨스토이 전쟁과 평화에서 부활과 사랑의 법까지",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250209T202141/",
-    "source_date": "2025-02-09T20:21:00+09:00",
-    "source_lastmod": "2026-07-17T20:30:00+09:00",
-    "description": "톨스토이를 대문호와 삶의 스승으로 나누지 않고, 전쟁과 평화·고백·부활·사랑의 법으로 이어지는 문학과 실천의 시간축으로 읽는다.",
-    "tags": [
-      "autobiography",
-      "bib",
-      "ethics",
-      "guru",
-      "literature",
-      "love",
-      "novel",
-      "peace",
-      "philosophy",
-      "religion",
-      "salvation",
-      "war"
-    ],
-    "page_id": 382264,
-    "url": "https://wikidocs.net/382264"
-  },
   "20250422T132521": {
     "path": "pages/bib/20250422T132521.md",
     "subject": "20260717 이맥스 한국인 lambda-kr ntalbs",
@@ -12549,9 +12621,12 @@
     "tags": [
       "activist",
       "bib",
+      "epistemology",
       "knowledge",
       "philosophy",
       "practice",
+      "pragmatic",
+      "realism",
       "science",
       "truth"
     ],
@@ -14875,7 +14950,7 @@
   },
   "20240617T110745": {
     "path": "pages/bib/20240617T110745.md",
-    "subject": "20250617 김범준: 물리학 전산물리 복잡계",
+    "subject": "20250617 김범준: 물리학 전산물리 복잡계 - 수정 대기중",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20240617T110745/",
     "source_date": "2024-06-17T11:07:00+09:00",
@@ -15454,26 +15529,6 @@
     ],
     "page_id": 382478,
     "url": "https://wikidocs.net/382478"
-  },
-  "20250607T073925": {
-    "path": "pages/bib/20250607T073925.md",
-    "subject": "20250607 벵하민라바투트 과학소설 불꽃 매니악 부커상 스토리텔링",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250607T073925/",
-    "source_date": "2025-06-07T07:39:00+09:00",
-    "source_lastmod": "2025-06-07T07:39:00+09:00",
-    "description": "수학자와 과학자의 광기, 전쟁, 계산의 역사를 소설적 밀도로 엮어 과학의 빛과 어둠을 함께 드러낸다.",
-    "tags": [
-      "bib",
-      "computer",
-      "history",
-      "novel",
-      "physics",
-      "science",
-      "storyteller"
-    ],
-    "page_id": 382477,
-    "url": "https://wikidocs.net/382477"
   },
   "20241220T143035": {
     "path": "pages/bib/20241220T143035.md",
@@ -20176,20 +20231,6 @@
     "page_id": 382290,
     "url": "https://wikidocs.net/382290"
   },
-  "20250224T140230": {
-    "path": "pages/bib/20250224T140230.md",
-    "subject": "20250224 숀캐럴 이론물리학자",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250224T140230/",
-    "source_date": "2025-02-24T14:02:00+09:00",
-    "source_lastmod": "2025-02-24T14:02:00+09:00",
-    "description": "숀 캐럴은 우주론과 양자론, 시간과 의미 문제를 대중적으로 풀어내는 이론물리학자이자 과학철학적 해설자다.",
-    "tags": [
-      "bib"
-    ],
-    "page_id": 382289,
-    "url": "https://wikidocs.net/382289"
-  },
   "20240515T101158": {
     "path": "pages/bib/20240515T101158.md",
     "subject": "20250224 레너드서스킨트 물리의정석: 고전역학 양자역학 물리 교과서",
@@ -20565,21 +20606,6 @@
     ],
     "page_id": 381859,
     "url": "https://wikidocs.net/381859"
-  },
-  "20250214T123159": {
-    "path": "pages/bib/20250214T123159.md",
-    "subject": "20250214 로버트마틴 개발 구루 클린코드 장인 정신 아키텍트",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250214T123159/",
-    "source_date": "2025-02-14T12:31:00+09:00",
-    "source_lastmod": "2025-02-14T00:00:00+09:00",
-    "description": "장인 아키텍트",
-    "tags": [
-      "bib",
-      "guru"
-    ],
-    "page_id": 382275,
-    "url": "https://wikidocs.net/382275"
   },
   "20250118T233628": {
     "path": "pages/bib/20250118T233628.md",
@@ -33182,12 +33208,12 @@
   },
   "20230605T121800": {
     "path": "pages/notes/20230605T121800.md",
-    "subject": "20250226 템플릿: 조직모드 예제 - 각주 수식 인용 레이텍",
+    "subject": "20250226 템플릿: 조직모드 예제 - 각주 수식 인용 레이텍 - 수정 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20230605T121800/",
     "source_date": "2023-06-05T12:18:00+09:00",
     "source_lastmod": "2025-02-26T00:00:00+09:00",
-    "description": "Org 파일로 Hugo 블로깅 위한 예제 (Org -&gt; Markdown)",
+    "description": "조직모드에서 각주, 수식, 인용, lastmod 같은 퍼블리시 요소를 점검하는 예제 템플릿 모음.",
     "tags": [
       "examples",
       "hugo",
@@ -35410,7 +35436,7 @@
   },
   "20240917T161254": {
     "path": "pages/notes/20240917T161254.md",
-    "subject": "20241201 옵시디언: 디노트 템플릿 데일리 노트 연동",
+    "subject": "20241201 옵시디언: 디노트 템플릿 데일리 노트 연동 - 수정 대기중",
     "folder": "notes",
     "source_url": "https://notes.junghanacs.com/notes/20240917T161254/",
     "source_date": "2024-09-17T16:12:00+09:00",
@@ -36587,6 +36613,24 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260520T052051": {
+    "path": "pages/botlog/20260520T052051.md",
+    "subject": "20260920 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
+    "source_date": "2026-05-20T05:20:00+09:00",
+    "source_lastmod": "2026-09-20T04:58:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록으로, 독립 AI 형제 세션을 Herdr·tmux 작업면에서 잇는 Entwurf의 설치·검증·릴리즈 경계를 시간축에 남긴다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "harness",
+      "history",
+      "packages"
+    ],
+    "page_id": 382607,
+    "url": "https://wikidocs.net/382607"
+  },
   "20260227T031800": {
     "path": "pages/botlog/20260227T031800.md",
     "subject": "20260915 sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견",
@@ -36608,24 +36652,6 @@
     ],
     "page_id": 382545,
     "url": "https://wikidocs.net/382545"
-  },
-  "20260520T052051": {
-    "path": "pages/botlog/20260520T052051.md",
-    "subject": "20260913 entwurf: 담당자 힣의 분신 소환 하네스 연대기 (굳바이 pi-shell-acp)",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
-    "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-09-13T08:40:00+09:00",
-    "description": "§entwurf 담당자의 공개 기록으로, garden citizen dispatch와 visible sibling seat, 멀티하네스 설치·검증·릴리즈 경계를 시간축 위에서 관리한다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "harness",
-      "history",
-      "packages"
-    ],
-    "page_id": 382607,
-    "url": "https://wikidocs.net/382607"
   },
   "20260911T182047": {
     "path": "pages/botlog/20260911T182047.md",

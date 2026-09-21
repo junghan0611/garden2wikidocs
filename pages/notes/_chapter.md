@@ -4904,11 +4904,11 @@ Tempel, yasnippet, auto-yasnippet 등 이맥스 스니펫 도구들의 차이와
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20231018T171100/)
 
-## 템플릿: 조직모드 예제 - 각주 수식 인용 레이텍
+## 템플릿: 조직모드 예제 - 각주 수식 인용 레이텍 - 수정 대기중
 
 작성 2023-06-05 · 수정 2025-02-26 · 태그 examples, hugo, markdown, orgmode, templates
 
-Org 파일로 Hugo 블로깅 위한 예제 (Org -&gt; Markdown)
+조직모드에서 각주, 수식, 인용, lastmod 같은 퍼블리시 요소를 점검하는 예제 템플릿 모음.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20230605T121800/)
 
@@ -6072,7 +6072,7 @@ textlint와 Vale를 바탕으로 한국어용 린터를 직접 만들고 싶은 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240923T220612/)
 
-## 옵시디언: 디노트 템플릿 데일리 노트 연동
+## 옵시디언: 디노트 템플릿 데일리 노트 연동 - 수정 대기중
 
 작성 2024-09-17 · 수정 2024-12-01 · 태그 denote, obsidian, templates
 

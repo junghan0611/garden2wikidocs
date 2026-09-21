@@ -8,6 +8,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 실용 유용 쓸모 불용
+
+작성 2024-12-13 · 수정 2026-09-20 · 태그 meta, practical, pragmatic, usefulness, useless, utility
+
+실용과 유용, 쓸모와 불용을 무엇이 실제 삶과 작업에서 가치를 갖는가의 질문으로 묶고, 즉각적 효용만으로 앎과 창조를 재단하지 않는 기준을 세운다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241213T113213/)
+
+## 육하원칙: 활용 응용
+
+작성 2024-08-21 · 수정 2026-09-20 · 태그 applies, creativity, meta, usages, utilizes
+
+활용과 응용을 방법론의 말버릇이 아니라 창조와 연결되는 쓰임의 방향으로 정리해 두는 자리다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240821T221314/)
+
+## 과학철학 실재론
+
+작성 2024-05-22 · 수정 2026-09-20 · 태그 bib, epistemology, meta, philosophy, pragmatism, realism, science
+
+과학철학은 과학 지식의 방법과 정당화, 이론의 의미와 한계를 묻는 철학의 한 갈래다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240522T143739/)
+
 ## 자동 자동완성 따라 자동화 오토파일럿
 
 작성 2025-01-30 · 수정 2026-09-09 · 태그 autocompletion, automation, autopilot, imitate, meta, vertico
@@ -239,14 +263,6 @@ VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보
 의식과 무의식을 철학·인지과학·AI 논의가 만나는 자리에서 함께 읽기 위한 상위 개념으로 다룬다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240822T140248/)
-
-## 과학철학
-
-작성 2024-05-22 · 수정 2026-08-11 · 태그 bib, meta, philosophy, science
-
-과학철학은 과학 지식의 방법과 정당화, 이론의 의미와 한계를 묻는 철학의 한 갈래다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240522T143739/)
 
 ## 훈련 연습 실습 테스트 검증
 
@@ -3656,14 +3672,6 @@ VSCode를 이맥스와 대비되는 대안이 아니라 함께 가져갈 개발 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241014T052540/)
 
-## 육하원칙: 활용 응용
-
-작성 2024-08-21 · 수정 2025-04-07 · 태그 applies, creativity, meta, usages, utilizes
-
-활용과 응용을 방법론의 말버릇이 아니라 창조와 연결되는 쓰임의 방향으로 정리해 두는 자리다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240821T221314/)
-
 ## 공공언어 간결한 우리말 한국어
 
 작성 2024-06-12 · 수정 2025-04-06 · 태그 bib, korean, manual, meta, plain, public, writing
@@ -4263,14 +4271,6 @@ AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 �
 인류세를 인간 활동이 지구 환경과 기술 문명을 동시에 바꾸는 시대라는 문제의식으로 붙잡는다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241213T213054/)
-
-## 빈방 임시 — 2024-12-13
-
-작성 2024-12-13 · 수정 2024-12-13 · 태그 meta, temp
-
-옴니유즈라는 말을 모든 용도에 걸친 활용성과 범용적 사용성, 통합 도구 감각으로 읽어내려는 시도다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241213T113213/)
 
 ## 긳 사용자 이맥시안
 

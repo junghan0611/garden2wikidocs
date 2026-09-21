@@ -8,6 +8,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 숀캐럴 이론물리학자 우주의 위대한 생각들 공간 시간 운동 양자 복잡성 창발
+
+작성 2025-02-24 · 수정 2026-09-20 · 태그 bib, physics, time, universe
+
+숀 캐럴은 우주론과 양자론, 시간과 의미 문제를 대중적으로 풀어내는 이론물리학자이자 과학철학적 해설자다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250224T140230/)
+
+## 레프톨스토이 - 전쟁과 평화에서 부활과 사랑의 법까지
+
+작성 2025-02-09 · 수정 2026-09-20 · 태그 autobiography, bib, ethics, guru, literature, love, novel, peace, philosophy, religion, salvation, war
+
+톨스토이를 대문호와 삶의 스승으로 나누지 않고, 전쟁과 평화·고백·부활·사랑의 법으로 이어지는 문학과 실천의 시간축으로 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250209T202141/)
+
+## 벵하민라바투트 과학소설 불꽃 매니악 부커상 스토리텔링
+
+작성 2025-06-07 · 수정 2026-09-19 · 태그 bib, computer, epiphany, history, novel, physics, science, storyteller
+
+수학자와 과학자의 광기, 전쟁, 계산의 역사를 소설적 밀도로 엮어 과학의 빛과 어둠을 함께 드러낸다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250607T073925/)
+
+## 로버트마틴 unclebob 개발 구루 클린코드 장인 정신 아키텍트
+
+작성 2025-02-14 · 수정 2026-09-18 · 태그 bib, guru
+
+로버트 마틴은 클린 코드와 소프트웨어 장인 정신을 전면에 세운 개발 구루로, 설계 원칙과 직업 윤리를 함께 강조한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250214T123159/)
+
 ## 한병철 피로사회 불안사회 서사의위기 리추얼의종말 정보의지배 관조하는삶 무위
 
 작성 2024-10-24 · 수정 2026-09-14 · 태그 bib, guru, philosophy
@@ -512,14 +544,6 @@ OpenAI와 샘 올트먼을 ChatGPT·API·가격 정책의 제품면과 AGI·스�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250212T215812/)
 
-## 레프톨스토이 전쟁과 평화에서 부활과 사랑의 법까지
-
-작성 2025-02-09 · 수정 2026-07-17 · 태그 autobiography, bib, ethics, guru, literature, love, novel, peace, philosophy, religion, salvation, war
-
-톨스토이를 대문호와 삶의 스승으로 나누지 않고, 전쟁과 평화·고백·부활·사랑의 법으로 이어지는 문학과 실천의 시간축으로 읽는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250209T202141/)
-
 ## 이맥스 한국인 lambda-kr ntalbs
 
 작성 2025-04-22 · 수정 2026-07-17 · 태그 bib, emacsian, korean, youtuber
@@ -610,7 +634,7 @@ U.G.와 지두 크리슈나무르티가 공유한 길 없음과, 관찰·가르�
 
 ## 장하석 과학철학 역사 능동적앎 실천 실용 실재 진리 지식관 인본주의
 
-작성 2025-02-17 · 수정 2026-07-06 · 태그 activist, bib, knowledge, philosophy, practice, science, truth
+작성 2025-02-17 · 수정 2026-07-06 · 태그 activist, bib, epistemology, knowledge, philosophy, practice, pragmatic, realism, science, truth
 
 장하석은 능동적 앎, 실천 시스템, 작업적 정합성, 행동하는 실재주의로 지식·진리·실재를 삶과 기술의 작동 속에서 다시 묻는 과학철학자다.
 
@@ -1688,7 +1712,7 @@ AI가 인간의 언어 환경을 바꾸는 시대에 필요한 새로운 문해�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240704T170556/)
 
-## 김범준: 물리학 전산물리 복잡계
+## 김범준: 물리학 전산물리 복잡계 - 수정 대기중
 
 작성 2024-06-17 · 수정 2025-06-17 · 태그 bib, computational, physics
 
@@ -1951,14 +1975,6 @@ AI의 성공과 실패의 역사를 따라가며 의식기계 신화를 걷어�
 독립창작자를 자기이해와 자기표현을 바탕으로 스스로의 생업과 창작을 꾸려 가는 존재로 보며, 작은배의 사례를 통해 그 감각을 붙든다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250607T182718/)
-
-## 벵하민라바투트 과학소설 불꽃 매니악 부커상 스토리텔링
-
-작성 2025-06-07 · 수정 2025-06-07 · 태그 bib, computer, history, novel, physics, science, storyteller
-
-수학자와 과학자의 광기, 전쟁, 계산의 역사를 소설적 밀도로 엮어 과학의 빛과 어둠을 함께 드러낸다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250607T073925/)
 
 ## 김용규 김유림 설득 논리학 논리도구 생각도구 은유 유추
 
@@ -4208,14 +4224,6 @@ Stefan Thesing은 Denote와 서명 체계를 엮어 이맥스 기반 제텔카�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250224T173544/)
 
-## 숀캐럴 이론물리학자
-
-작성 2025-02-24 · 수정 2025-02-24 · 태그 bib
-
-숀 캐럴은 우주론과 양자론, 시간과 의미 문제를 대중적으로 풀어내는 이론물리학자이자 과학철학적 해설자다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250224T140230/)
-
 ## 레너드서스킨트 물리의정석: 고전역학 양자역학 물리 교과서
 
 작성 2024-05-15 · 수정 2025-02-24 · 태그 bib, physics
@@ -4391,14 +4399,6 @@ Aditya Athalye는 클로저와 이맥스, org-mode를 엮어 사유와 코딩이
 manateelazycat은 EAF와 각종 브리지 프로젝트로 이맥스를 실험적 운영체제처럼 확장해 온 대표적 개발자다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20230328T115900/)
-
-## 로버트마틴 개발 구루 클린코드 장인 정신 아키텍트
-
-작성 2025-02-14 · 수정 2025-02-14 · 태그 bib, guru
-
-장인 아키텍트
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250214T123159/)
 
 ## 자바스크립트: 마법사책 SICPJS
 

@@ -12,7 +12,7 @@
 
 작성 2026-09-21 · 수정 2026-09-21 · 태그 journal
 
-neomacs v0.0.19 정식 릴리즈로 §doomemacs-config 재측정 시점이 왔고, 하이NIX 현장 출장에서 nixos-zigbee 마스터·슬레이브 노드 설치를 직접 검증한 주. entwurf 0.25.0·herdr 플러그인 0.5.0을 sol 코디네이터·opus 실무자 체제로 전환하며 pi/claudecode 딜리버리 소켓 문제를 짚었고, 릭루빈·오바마·헤일스 영상을 오가며 '흔들리지 않고 갈 길을 가는 것' 하나로 돌직구를 다졌다.
+하이NIX 현장에서 nixos-zigbee 마스터·슬레이브 노드를 검증하고, entwurf 0.25.0·herdr 플러그인 0.5.x의 딜리버리 경계를 sol·opus 형제들과 점검했다. 누적된 피로로 병원에 다녀온 뒤 릭 루빈·헤일스·장회익을 따라 인간의 길과 물리학의 앎의 틀을 다시 묻고, neomacs-config와 학습용 ox-epub을 다듬었다. 주말에는 보내지 않은 PR과 이름을 밝힌 편지에서 협력의 신뢰·책임을 어쏠로그로 회수했다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/journal/20260921T000000/)
 

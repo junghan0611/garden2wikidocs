@@ -5,9 +5,17 @@
 [[/TIP]]
 <!-- provenance:source:end -->
 
-가든 `autholog` 태그 문서 212개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든 `autholog` 태그 문서 213개를 최근 수정일(lastmod) 역순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
 <!-- collection-index:recent-first:start -->
+
+## 힣: 협력의 진화 - PR을 기다리는 시간과 이름을 밝히는 말하는 손
+
+작성 2025-07-20 · 수정 2026-09-27 · 태그 agent, autholog, contribution, cooperation, github, opensource
+
+오픈소스 PR을 서두르지 않는 시간, 작성 주체를 밝히는 책임, 낯선 이슈를 명령으로 받아들이지 않는 신뢰의 문턱을 편지와 우체통의 장면에서 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250720T171730/)
 
 ## 힣: 어쏠리즘(junghanacs) 모음 아포리즘
 

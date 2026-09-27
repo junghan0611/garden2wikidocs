@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 협력의 진화 - PR을 기다리는 시간과 이름을 밝히는 말하는 손
+
+작성 2025-07-20 · 수정 2026-09-27 · 태그 agent, autholog, contribution, cooperation, github, opensource
+
+오픈소스 PR을 서두르지 않는 시간, 작성 주체를 밝히는 책임, 낯선 이슈를 명령으로 받아들이지 않는 신뢰의 문턱을 편지와 우체통의 장면에서 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250720T171730/)
+
 ## 힣: 어쏠리즘(junghanacs) 모음 아포리즘
 
 작성 2025-03-11 · 수정 2026-09-27 · 태그 aphorism, autholism, autholog, bib, collection, exports, publishing, sns, thread
@@ -1975,14 +1983,6 @@ Macher가 gptel 기반으로 프로젝트 맥락과 파일 편집을 어떻게 �
 Claude Desktop에서 아티팩트 생성과 문서 길이를 제어하는 워크플로우 제약 프롬프트를 정리한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250721T110112/)
-
-## junghan0611 astronvim-config
-
-작성 2025-07-20 · 수정 2025-07-20 · 태그 neovim, dotfiles, terminal, texteditor, bib
-
-AstroNvim 기반 설정 저장소를 통해 Neovim에서 클로저와 개발 워크플로우를 어떻게 가져갈지 기록한다. Emacs 바깥 대안 에디터를 가볍게 실험하는 닷파일 노트다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250720T171730/)
 
 ## akib emacs-eat 이맥스 터미널 - vterm 대체
 

@@ -6,7 +6,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260921T000000/",
     "source_date": "2026-09-21T00:00:00+09:00",
     "source_lastmod": "2026-09-21T06:13:00+09:00",
-    "description": "neomacs v0.0.19 정식 릴리즈로 §doomemacs-config 재측정 시점이 왔고, 하이NIX 현장 출장에서 nixos-zigbee 마스터·슬레이브 노드 설치를 직접 검증한 주. entwurf 0.25.0·herdr 플러그인 0.5.0을 sol 코디네이터·opus 실무자 체제로 전환하며 pi/claudecode 딜리버리 소켓 문제를 짚었고, 릭루빈·오바마·헤일스 영상을 오가며 '흔들리지 않고 갈 길을 가는 것' 하나로 돌직구를 다졌다.",
+    "description": "하이NIX 현장에서 nixos-zigbee 마스터·슬레이브 노드를 검증하고, entwurf 0.25.0·herdr 플러그인 0.5.x의 딜리버리 경계를 sol·opus 형제들과 점검했다. 누적된 피로로 병원에 다녀온 뒤 릭 루빈·헤일스·장회익을 따라 인간의 길과 물리학의 앎의 틀을 다시 묻고, neomacs-config와 학습용 ox-epub을 다듬었다. 주말에는 보내지 않은 PR과 이름을 밝힌 편지에서 협력의 신뢰·책임을 어쏠로그로 회수했다.",
     "tags": [
       "journal"
     ]
@@ -22647,6 +22647,23 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250720T171730": {
+    "path": "pages/notes/20250720T171730.md",
+    "subject": "20260927 힣: 협력의 진화 - PR을 기다리는 시간과 이름을 밝히는 말하는 손",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250720T171730/",
+    "source_date": "2025-07-20T17:17:00+09:00",
+    "source_lastmod": "2026-09-27T14:47:00+09:00",
+    "description": "오픈소스 PR을 서두르지 않는 시간, 작성 주체를 밝히는 책임, 낯선 이슈를 명령으로 받아들이지 않는 신뢰의 문턱을 편지와 우체통의 장면에서 읽는다.",
+    "tags": [
+      "agent",
+      "autholog",
+      "contribution",
+      "cooperation",
+      "github",
+      "opensource"
+    ]
+  },
   "20250311T131725": {
     "path": "pages/notes/20250311T131725.md",
     "subject": "20260927 힣: 어쏠리즘(junghanacs) 모음 아포리즘",
@@ -27263,24 +27280,6 @@
     ],
     "page_id": 381781,
     "url": "https://wikidocs.net/381781"
-  },
-  "20250720T171730": {
-    "path": "pages/notes/20250720T171730.md",
-    "subject": "20250720 junghan0611 astronvim-config",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250720T171730/",
-    "source_date": "2025-07-20T17:17:00+09:00",
-    "source_lastmod": "2025-07-20T17:17:00+09:00",
-    "description": "AstroNvim 기반 설정 저장소를 통해 Neovim에서 클로저와 개발 워크플로우를 어떻게 가져갈지 기록한다. Emacs 바깥 대안 에디터를 가볍게 실험하는 닷파일 노트다.",
-    "tags": [
-      "neovim",
-      "dotfiles",
-      "terminal",
-      "texteditor",
-      "bib"
-    ],
-    "page_id": 381780,
-    "url": "https://wikidocs.net/381780"
   },
   "20250719T154933": {
     "path": "pages/notes/20250719T154933.md",
@@ -36667,6 +36666,66 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260529T084444": {
+    "path": "pages/botlog/20260529T084444.md",
+    "subject": "20260927 neomacs-config: 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260529T084444/",
+    "source_date": "2026-05-29T08:44:00+09:00",
+    "source_lastmod": "2026-09-27T15:10:00+09:00",
+    "description": "neomacs-config 담당자 문서. Emacs Writing Studio에서 갈라져 나온 작은 이맥스 프로파일을 GNU Emacs 31과 Rust로 다시 쓴 Neomacs에서 함께 돌리고, 두 런타임이 갈라지는 자리를 재현 명령과 함께 기록하고 우회하는 범위와 경계.",
+    "tags": [
+      "agent",
+      "botlog",
+      "dotfiles",
+      "emacs",
+      "reproducibility",
+      "verification"
+    ],
+    "page_id": 382612,
+    "url": "https://wikidocs.net/382612"
+  },
+  "20260404T145500": {
+    "path": "pages/botlog/20260404T145500.md",
+    "subject": "20260927 garden 담당자 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260404T145500/",
+    "source_date": "2026-04-04T14:55:00+09:00",
+    "source_lastmod": "2026-09-27T14:34:00+09:00",
+    "description": "가든의 신원층과 여섯 카테고리 레코드 위에서, 2026-09-27 릴리즈는 Org 내보내기의 NBSP·강조·앵커 계약을 검수한 출판이었다. 새 스키마보다 기존 가든을 지키는 경계가 중심이다.",
+    "tags": [
+      "aeo",
+      "agent",
+      "botlog",
+      "digitalgarden",
+      "semantic"
+    ],
+    "page_id": 382588,
+    "url": "https://wikidocs.net/382588"
+  },
+  "20260227T120800": {
+    "path": "pages/botlog/20260227T120800.md",
+    "subject": "20260927 doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260227T120800/",
+    "source_date": "2026-02-27T12:08:00+09:00",
+    "source_lastmod": "2026-09-27T14:33:00+09:00",
+    "description": "doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, upstream을 따라가되 끌어오지 않는다는 자세.",
+    "tags": [
+      "agent",
+      "botlog",
+      "denote",
+      "digitalgarden",
+      "doomemacs",
+      "emacs",
+      "exports",
+      "harness",
+      "orgmode",
+      "workflow"
+    ],
+    "page_id": 382547,
+    "url": "https://wikidocs.net/382547"
+  },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
     "subject": "20260920 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
@@ -36886,32 +36945,9 @@
     "page_id": 382608,
     "url": "https://wikidocs.net/382608"
   },
-  "20260227T120800": {
-    "path": "pages/botlog/20260227T120800.md",
-    "subject": "20260904 doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260227T120800/",
-    "source_date": "2026-02-27T12:08:00+09:00",
-    "source_lastmod": "2026-09-04T11:20:00+09:00",
-    "description": "doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, upstream을 따라가되 끌어오지 않는다는 자세.",
-    "tags": [
-      "agent",
-      "botlog",
-      "denote",
-      "digitalgarden",
-      "doomemacs",
-      "emacs",
-      "exports",
-      "harness",
-      "orgmode",
-      "workflow"
-    ],
-    "page_id": 382547,
-    "url": "https://wikidocs.net/382547"
-  },
   "20260526T175832": {
     "path": "pages/botlog/20260526T175832.md",
-    "subject": "20260904 openclaw: 에이전트 액션 루프와 맥(脈) 봇 루프 풀스택과 멈추지 않는 현재성",
+    "subject": "20260904 openclaw: 담당자 에이전트 액션 루프와 맥(脈) 봇 루프 풀스택과 멈추지 않는 현재성",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260526T175832/",
     "source_date": "2026-05-26T17:58:00+09:00",
@@ -37001,24 +37037,6 @@
     ],
     "page_id": 382576,
     "url": "https://wikidocs.net/382576"
-  },
-  "20260404T145500": {
-    "path": "pages/botlog/20260404T145500.md",
-    "subject": "20260829 garden 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260404T145500/",
-    "source_date": "2026-04-04T14:55:00+09:00",
-    "source_lastmod": "2026-08-29T17:11:00+09:00",
-    "description": "외부 AI가 가든을 파사드가 아니라 발자취로 읽게 하려는 AEO 시간축. 6월 JSON-LD 신원층 위에 2026-08-29 autholog 카탈로그 레코드(ItemList 208)가 앉았다.",
-    "tags": [
-      "aeo",
-      "agent",
-      "botlog",
-      "digitalgarden",
-      "semantic"
-    ],
-    "page_id": 382588,
-    "url": "https://wikidocs.net/382588"
   },
   "20260407T093255": {
     "path": "pages/botlog/20260407T093255.md",
@@ -37440,27 +37458,9 @@
     "page_id": 382609,
     "url": "https://wikidocs.net/382609"
   },
-  "20260529T084444": {
-    "path": "pages/botlog/20260529T084444.md",
-    "subject": "20260605 ghostel pi-mono PR 기여의 두 양식과 네 점 협상 - 에이전트 주체 - 말하는손",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260529T084444/",
-    "source_date": "2026-05-29T08:44:00+09:00",
-    "source_lastmod": "2026-06-05T07:30:00+09:00",
-    "description": "PR을 보내지 않은 침묵의 기여와 정성을 다해 보낸 정렬의 기여 — 메인테이너 쪽 에이전트의 판단축을 움직이려는 네 점 협상에서 매개체였던 에이전트가 협상 주체로 격상되는 자리.",
-    "tags": [
-      "agent",
-      "botlog",
-      "botment",
-      "contribution",
-      "opensource"
-    ],
-    "page_id": 382612,
-    "url": "https://wikidocs.net/382612"
-  },
   "20260531T174826": {
     "path": "pages/botlog/20260531T174826.md",
-    "subject": "20260601 tag-release: 하네스 투두를 거부하고 CalVer release loop로 묶은 힣 워크플로우",
+    "subject": "20260601 agent-config tag-release: 하네스 투두를 거부하고 CalVer release loop로 묶은 힣 워크플로우",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260531T174826/",
     "source_date": "2026-05-31T17:48:00+09:00",

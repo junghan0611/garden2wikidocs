@@ -8,6 +8,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 81개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## neomacs-config: 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집
+
+작성 2026-05-29 · 수정 2026-09-27 · 태그 agent, botlog, dotfiles, emacs, reproducibility, verification
+
+neomacs-config 담당자 문서. Emacs Writing Studio에서 갈라져 나온 작은 이맥스 프로파일을 GNU Emacs 31과 Rust로 다시 쓴 Neomacs에서 함께 돌리고, 두 런타임이 갈라지는 자리를 재현 명령과 함께 기록하고 우회하는 범위와 경계.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382612)
+
+## garden 담당자 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마
+
+작성 2026-04-04 · 수정 2026-09-27 · 태그 aeo, agent, botlog, digitalgarden, semantic
+
+가든의 신원층과 여섯 카테고리 레코드 위에서, 2026-09-27 릴리즈는 Org 내보내기의 NBSP·강조·앵커 계약을 검수한 출판이었다. 새 스키마보다 기존 가든을 지키는 경계가 중심이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382588)
+
+## doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문
+
+작성 2026-02-27 · 수정 2026-09-27 · 태그 agent, botlog, denote, digitalgarden, doomemacs, emacs, exports, harness, orgmode, workflow
+
+doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, upstream을 따라가되 끌어오지 않는다는 자세.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382547)
+
 ## entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)
 
 작성 2026-05-20 · 수정 2026-09-20 · 태그 agent, botlog, harness, history, packages
@@ -104,15 +128,7 @@ junghan0611/prime-agent 포크 담당자 문서 — Prime Agent 의 persistent R
 
 [위키독스에서 읽기 →](https://wikidocs.net/382608)
 
-## doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문
-
-작성 2026-02-27 · 수정 2026-09-04 · 태그 agent, botlog, denote, digitalgarden, doomemacs, emacs, exports, harness, orgmode, workflow
-
-doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, upstream을 따라가되 끌어오지 않는다는 자세.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382547)
-
-## openclaw: 에이전트 액션 루프와 맥(脈) 봇 루프 풀스택과 멈추지 않는 현재성
+## openclaw: 담당자 에이전트 액션 루프와 맥(脈) 봇 루프 풀스택과 멈추지 않는 현재성
 
 작성 2026-05-26 · 수정 2026-09-04 · 태그 agent, automation, botlog, subagent
 
@@ -151,14 +167,6 @@ agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT�
 andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382576)
-
-## garden 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마
-
-작성 2026-04-04 · 수정 2026-08-29 · 태그 aeo, agent, botlog, digitalgarden, semantic
-
-외부 AI가 가든을 파사드가 아니라 발자취로 읽게 하려는 AEO 시간축. 6월 JSON-LD 신원층 위에 2026-08-29 autholog 카탈로그 레코드(ItemList 208)가 앉았다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382588)
 
 ## cos: 비서실장님 - 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프
 
@@ -336,15 +344,7 @@ pi-shell-acp의 비대칭 공존 방향성과 Claude Code·agy·Codex 라이브 
 
 [위키독스에서 읽기 →](https://wikidocs.net/382609)
 
-## ghostel pi-mono PR 기여의 두 양식과 네 점 협상 - 에이전트 주체 - 말하는손
-
-작성 2026-05-29 · 수정 2026-06-05 · 태그 agent, botlog, botment, contribution, opensource
-
-PR을 보내지 않은 침묵의 기여와 정성을 다해 보낸 정렬의 기여 — 메인테이너 쪽 에이전트의 판단축을 움직이려는 네 점 협상에서 매개체였던 에이전트가 협상 주체로 격상되는 자리.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382612)
-
-## tag-release: 하네스 투두를 거부하고 CalVer release loop로 묶은 힣 워크플로우
+## agent-config tag-release: 하네스 투두를 거부하고 CalVer release loop로 묶은 힣 워크플로우
 
 작성 2026-05-31 · 수정 2026-06-01 · 태그 agent, botlog, git, nixos, workflow
 

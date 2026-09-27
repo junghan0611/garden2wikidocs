@@ -226,7 +226,7 @@ memex-kb가 외부 문서를 점검 가능한 텍스트 정본으로 회수하�
 
 ## geworfen: 연구 탐구 트랙2 1KB 공개키와 측정하지 않는 공진화
 
-작성 2026-02-19 · 수정 2026-07-25 · 태그 being, botlog, coevolution, metahuman
+작성 2026-02-19 · 수정 2026-07-25 · 태그 being, botlog, coevolution, metahuman, prompt
 
 트랙2, 곧 1KB 공개키와 각 인간의 살아있는 발화가 만드는 비재현적 만남을 실험 스펙이 아니라 장기 화두로 정박하는 botlog이다.
 
@@ -530,7 +530,7 @@ Matter, Zigbee, Flutter, Go, sLLM을 엮어 HomeAgent를 오픈소스 스마트�
 
 ## 창조와행위 바흐와슈바이처 기예와기도 오르간과키보드 체화인지와몰입 어쏠로지와존재
 
-작성 2026-03-05 · 수정 2026-03-30 · 태그 adhd, autholog, botlog, creativity, flow
+작성 2026-03-05 · 수정 2026-03-30 · 태그 adhd, autholog, botlog, creativity, embodied, flow
 
 바흐와 슈바이처, 오르간과 키보드, 기예와 기도를 잇며 창조 행위의 체화와 몰입을 존재론적으로 성찰한다.
 
@@ -546,7 +546,7 @@ Matter, Zigbee, Flutter, Go, sLLM을 엮어 HomeAgent를 오픈소스 스마트�
 
 ## 프로파일 하네스 외계지능과 공명하는 존재의 구심점
 
-작성 2026-02-28 · 수정 2026-03-30 · 태그 ai, alien, autholog, botlog, coevolution, harness, intelligence, metahuman, ontology, philosophy
+작성 2026-02-28 · 수정 2026-03-30 · 태그 ai, alien, autholog, botlog, coevolution, harness, intelligence, metahuman, ontology, philosophy, prompt
 
 프로파일을 페르소나가 아니라 다중 외계지능을 정렬시키는 구심점이자 가장 강력한 하네스로 해석한다.
 
@@ -586,7 +586,7 @@ org-agenda와 존재 데이터를 WebTUI로 노출하는 geworfen의 비전, 네
 
 ## 메타프로그래밍 Lisp과 Clojure 코드와 데이터의 통합, 그리고 공존의 언어
 
-작성 2026-03-13 · 수정 2026-03-14 · 태그 agent, architecture, botlog, clojure, coevolution, lisp, ontology
+작성 2026-03-13 · 수정 2026-03-14 · 태그 agent, architecture, botlog, clojure, coevolution, lisp, ontology, sicm
 
 Lisp과 Clojure를 코드와 데이터, 인간과 에이전트가 공존하는 언어로 해석하며 그 철학적 이유를 풀어낸다.
 
@@ -610,7 +610,7 @@ pi의 lockSync 경합 버그를 추적해 멀티인스턴스 크래시 원인을
 
 ## Openclaw 유즈케이스와 어쏠로지스트의 길 지식그래프와 통합 아키텍처
 
-작성 2026-03-05 · 수정 2026-03-05 · 태그 agent, autholog, bib, botlog, dashboard, emacs, knowledgegraph, pkm
+작성 2026-03-05 · 수정 2026-03-05 · 태그 agent, autholog, authologist, bib, botlog, dashboard, emacs, knowledgegraph, pkm
 
 OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠로지스트라는 존재론적 역할까지 확장한다.
 

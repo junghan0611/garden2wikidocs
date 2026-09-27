@@ -8,6 +8,46 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 사이버네틱스 포스트휴먼 포스트휴머니즘 트랜스휴머니즘
+
+작성 2024-05-15 · 수정 2026-09-26 · 태그 cybernetics, humanism, informatics, meta, posthuman, posthumanism, transhumanism
+
+사이버네틱스는 생물과 기계, 정보와 제어를 피드백의 관점에서 연결하며 포스트휴먼 사유의 토대를 이룬다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240515T165139/)
+
+## 역사학 인문학 10.4
+
+작성 2025-04-28 · 수정 2026-09-26 · 태그 history, humanity, meta, propaedia
+
+역사와 인문학을 브리태니커 프로피디아의 분류 축에서 다시 읽는다. 역사학과 인문학적 연구 전통을 함께 놓고, 인간 세계를 이해하는 학문 지형을 넓게 훑는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250428T160921/)
+
+## 역사
+
+작성 2025-04-24 · 수정 2026-09-26 · 태그 history, meta, propaedia, syntopicon
+
+역사는 사건의 연대기가 아니라 문명과 시대를 읽는 방식이며, 읽는 즐거움과 관점의 문제를 함께 품는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143807/)
+
+## 휴머니즘 인본주의
+
+작성 2025-04-24 · 수정 2026-09-26 · 태그 humanism, meta
+
+인간의 존엄과 주체성, 창조성을 중심에 두고 휴머니즘의 사상과 실천을 살핀다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T225500/)
+
+## 천사 악마 도깨비 귀신 악령
+
+작성 2025-04-24 · 수정 2026-09-26 · 태그 angel, evil, meta, syntopicon
+
+천사는 다신교의 하위 신부터 일신교의 매개자까지 초월적 존재를 어떻게 상상해왔는지 보여준다. 악마 도깨비 귀신 악령도 여기 묶었다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T150015/)
+
 ## 실용 유용 쓸모 불용
 
 작성 2024-12-13 · 수정 2026-09-20 · 태그 meta, practical, pragmatic, usefulness, useless, utility
@@ -287,14 +327,6 @@ VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보
 맡기다 — 라틴어 dē-lēgāre에서 현대 에이전트 분신까지. 기술·정치·철학을 관통하는 개념인데 별동대도 추가했다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20260323T143428/)
-
-## 사이버네틱스 포스트휴먼
-
-작성 2024-05-15 · 수정 2026-08-11 · 태그 cybernetics, meta, posthuman
-
-사이버네틱스는 생물과 기계, 정보와 제어를 피드백의 관점에서 연결하며 포스트휴먼 사유의 토대를 이룬다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240515T165139/)
 
 ## 계획 스케줄 캘린더 어젠다 일정 커리큘럼
 
@@ -2504,14 +2536,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250428T160957/)
 
-## 역사 인문학 10.4
-
-작성 2025-04-28 · 수정 2025-04-28 · 태그 history, humanity, meta, propaedia
-
-역사와 인문학을 브리태니커 프로피디아의 분류 축에서 다시 읽는다. 역사학과 인문학적 연구 전통을 함께 놓고, 인간 세계를 이해하는 학문 지형을 넓게 훑는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250428T160921/)
-
 ## 과학 10.3
 
 작성 2025-04-28 · 수정 2025-04-28 · 태그 meta, propaedia, science
@@ -3024,14 +3048,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T225530/)
 
-## 역사
-
-작성 2025-04-24 · 수정 2025-04-24 · 태그 history, meta, syntopicon
-
-역사를 사실의 기록을 넘어 인간 행위와 사회 변화를 해석하는 서사이자 배움의 자원으로 다룬다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T225500/)
-
 ## 행복 만족 웰빙 기쁨 즐거움
 
 작성 2025-04-24 · 수정 2025-04-24 · 태그 bliss, contentment, delight, eudaimonia, happiness, joy, meta, satisfaction, syntopicon, wellbeing
@@ -3255,22 +3271,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 동물과 생태학, 생물학을 함께 묶어 생명체의 본성, 분류, 생태계 속 위치를 넓게 살핀다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T150315/)
-
-## angel 천사
-
-작성 2025-04-24 · 수정 2025-04-24 · 태그 angel, meta, syntopicon
-
-천사는 다신교의 하위 신부터 일신교의 매개자까지 초월적 존재를 어떻게 상상해왔는지 보여준다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T150015/)
-
-## 역사 9
-
-작성 2025-04-24 · 수정 2025-04-24 · 태그 history, meta, propaedia
-
-역사는 사건의 연대기가 아니라 문명과 시대를 읽는 방식이며, 읽는 즐거움과 관점의 문제를 함께 품는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143807/)
 
 ## 종교 8
 

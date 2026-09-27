@@ -6,7 +6,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260921T000000/",
     "source_date": "2026-09-21T00:00:00+09:00",
     "source_lastmod": "2026-09-21T06:13:00+09:00",
-    "description": "GLG AWAKE",
+    "description": "neomacs v0.0.19 정식 릴리즈로 §doomemacs-config 재측정 시점이 왔고, 하이NIX 현장 출장에서 nixos-zigbee 마스터·슬레이브 노드 설치를 직접 검증한 주. entwurf 0.25.0·herdr 플러그인 0.5.0을 sol 코디네이터·opus 실무자 체제로 전환하며 pi/claudecode 딜리버리 소켓 문제를 짚었고, 릭루빈·오바마·헤일스 영상을 오가며 '흔들리지 않고 갈 길을 가는 것' 하나로 돌직구를 다졌다.",
     "tags": [
       "journal"
     ]
@@ -1579,6 +1579,92 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20240515T165139": {
+    "path": "pages/meta/20240515T165139.md",
+    "subject": "20260926 사이버네틱스 포스트휴먼 포스트휴머니즘 트랜스휴머니즘",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240515T165139/",
+    "source_date": "2024-05-15T16:51:00+09:00",
+    "source_lastmod": "2026-09-26T17:01:00+09:00",
+    "description": "사이버네틱스는 생물과 기계, 정보와 제어를 피드백의 관점에서 연결하며 포스트휴먼 사유의 토대를 이룬다.",
+    "tags": [
+      "cybernetics",
+      "humanism",
+      "informatics",
+      "meta",
+      "posthuman",
+      "posthumanism",
+      "transhumanism"
+    ],
+    "page_id": 380571,
+    "url": "https://wikidocs.net/380571"
+  },
+  "20250428T160921": {
+    "path": "pages/meta/20250428T160921.md",
+    "subject": "20260926 역사학 인문학 10.4",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250428T160921/",
+    "source_date": "2025-04-28T16:09:00+09:00",
+    "source_lastmod": "2026-09-26T16:59:00+09:00",
+    "description": "역사와 인문학을 브리태니커 프로피디아의 분류 축에서 다시 읽는다. 역사학과 인문학적 연구 전통을 함께 놓고, 인간 세계를 이해하는 학문 지형을 넓게 훑는다.",
+    "tags": [
+      "history",
+      "humanity",
+      "meta",
+      "propaedia"
+    ],
+    "page_id": 380960,
+    "url": "https://wikidocs.net/380960"
+  },
+  "20250424T143807": {
+    "path": "pages/meta/20250424T143807.md",
+    "subject": "20260926 역사",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T143807/",
+    "source_date": "2025-04-24T14:38:00+09:00",
+    "source_lastmod": "2026-09-26T16:59:00+09:00",
+    "description": "역사는 사건의 연대기가 아니라 문명과 시대를 읽는 방식이며, 읽는 즐거움과 관점의 문제를 함께 품는다.",
+    "tags": [
+      "history",
+      "meta",
+      "propaedia",
+      "syntopicon"
+    ],
+    "page_id": 380852,
+    "url": "https://wikidocs.net/380852"
+  },
+  "20250424T225500": {
+    "path": "pages/meta/20250424T225500.md",
+    "subject": "20260926 휴머니즘 인본주의",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T225500/",
+    "source_date": "2025-04-24T22:55:00+09:00",
+    "source_lastmod": "2026-09-26T16:56:00+09:00",
+    "description": "인간의 존엄과 주체성, 창조성을 중심에 두고 휴머니즘의 사상과 실천을 살핀다.",
+    "tags": [
+      "humanism",
+      "meta"
+    ],
+    "page_id": 380885,
+    "url": "https://wikidocs.net/380885"
+  },
+  "20250424T150015": {
+    "path": "pages/meta/20250424T150015.md",
+    "subject": "20260926 천사 악마 도깨비 귀신 악령",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T150015/",
+    "source_date": "2025-04-24T15:00:00+09:00",
+    "source_lastmod": "2026-09-26T16:34:00+09:00",
+    "description": "천사는 다신교의 하위 신부터 일신교의 매개자까지 초월적 존재를 어떻게 상상해왔는지 보여준다. 악마 도깨비 귀신 악령도 여기 묶었다.",
+    "tags": [
+      "angel",
+      "evil",
+      "meta",
+      "syntopicon"
+    ],
+    "page_id": 380853,
+    "url": "https://wikidocs.net/380853"
+  },
   "20241213T113213": {
     "path": "pages/meta/20241213T113213.md",
     "subject": "20260920 실용 유용 쓸모 불용",
@@ -2282,22 +2368,6 @@
     ],
     "page_id": 381011,
     "url": "https://wikidocs.net/381011"
-  },
-  "20240515T165139": {
-    "path": "pages/meta/20240515T165139.md",
-    "subject": "20260811 사이버네틱스 포스트휴먼",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240515T165139/",
-    "source_date": "2024-05-15T16:51:00+09:00",
-    "source_lastmod": "2026-08-11T14:03:00+09:00",
-    "description": "사이버네틱스는 생물과 기계, 정보와 제어를 피드백의 관점에서 연결하며 포스트휴먼 사유의 토대를 이룬다.",
-    "tags": [
-      "cybernetics",
-      "meta",
-      "posthuman"
-    ],
-    "page_id": 380571,
-    "url": "https://wikidocs.net/380571"
   },
   "20241202T133400": {
     "path": "pages/meta/20241202T133400.md",
@@ -7218,23 +7288,6 @@
     "page_id": 380961,
     "url": "https://wikidocs.net/380961"
   },
-  "20250428T160921": {
-    "path": "pages/meta/20250428T160921.md",
-    "subject": "20250428 역사 인문학 10.4",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250428T160921/",
-    "source_date": "2025-04-28T16:09:00+09:00",
-    "source_lastmod": "2025-04-28T16:09:00+09:00",
-    "description": "역사와 인문학을 브리태니커 프로피디아의 분류 축에서 다시 읽는다. 역사학과 인문학적 연구 전통을 함께 놓고, 인간 세계를 이해하는 학문 지형을 넓게 훑는다.",
-    "tags": [
-      "history",
-      "humanity",
-      "meta",
-      "propaedia"
-    ],
-    "page_id": 380960,
-    "url": "https://wikidocs.net/380960"
-  },
   "20250428T160822": {
     "path": "pages/meta/20250428T160822.md",
     "subject": "20250428 과학 10.3",
@@ -8302,22 +8355,6 @@
     "page_id": 380886,
     "url": "https://wikidocs.net/380886"
   },
-  "20250424T225500": {
-    "path": "pages/meta/20250424T225500.md",
-    "subject": "20250424 역사",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T225500/",
-    "source_date": "2025-04-24T22:55:00+09:00",
-    "source_lastmod": "2025-04-24T22:55:00+09:00",
-    "description": "역사를 사실의 기록을 넘어 인간 행위와 사회 변화를 해석하는 서사이자 배움의 자원으로 다룬다.",
-    "tags": [
-      "history",
-      "meta",
-      "syntopicon"
-    ],
-    "page_id": 380885,
-    "url": "https://wikidocs.net/380885"
-  },
   "20250424T225418": {
     "path": "pages/meta/20250424T225418.md",
     "subject": "20250424 행복 만족 웰빙 기쁨 즐거움",
@@ -8789,38 +8826,6 @@
     ],
     "page_id": 380854,
     "url": "https://wikidocs.net/380854"
-  },
-  "20250424T150015": {
-    "path": "pages/meta/20250424T150015.md",
-    "subject": "20250424 angel 천사",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T150015/",
-    "source_date": "2025-04-24T15:00:00+09:00",
-    "source_lastmod": "2025-04-24T15:00:00+09:00",
-    "description": "천사는 다신교의 하위 신부터 일신교의 매개자까지 초월적 존재를 어떻게 상상해왔는지 보여준다.",
-    "tags": [
-      "angel",
-      "meta",
-      "syntopicon"
-    ],
-    "page_id": 380853,
-    "url": "https://wikidocs.net/380853"
-  },
-  "20250424T143807": {
-    "path": "pages/meta/20250424T143807.md",
-    "subject": "20250424 역사 9",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T143807/",
-    "source_date": "2025-04-24T14:38:00+09:00",
-    "source_lastmod": "2025-04-24T14:38:00+09:00",
-    "description": "역사는 사건의 연대기가 아니라 문명과 시대를 읽는 방식이며, 읽는 즐거움과 관점의 문제를 함께 품는다.",
-    "tags": [
-      "history",
-      "meta",
-      "propaedia"
-    ],
-    "page_id": 380852,
-    "url": "https://wikidocs.net/380852"
   },
   "20250424T143717": {
     "path": "pages/meta/20250424T143717.md",
@@ -11106,6 +11111,80 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20250620T085156": {
+    "path": "pages/bib/20250620T085156.md",
+    "subject": "20260926 토머스쿤 과학혁명의구조 패러다임 과학사 로레인대스턴 규칙 알고리즘",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250620T085156/",
+    "source_date": "2025-06-20T08:51:00+09:00",
+    "source_lastmod": "2026-09-26T16:25:00+09:00",
+    "description": "패러다임 개념을 중심으로 과학이 직선적 축적이 아니라 틀의 전환 속에서 발전한다는 통찰을 보여주는 고전이다.",
+    "tags": [
+      "bib",
+      "paradigm",
+      "philosophy",
+      "rule",
+      "science",
+      "structure"
+    ],
+    "page_id": 382485,
+    "url": "https://wikidocs.net/382485"
+  },
+  "20250215T201657": {
+    "path": "pages/bib/20250215T201657.md",
+    "subject": "20260926 장대익 홍성욱 진화론 과학기술사 포스트휴먼 트랜스휴머니즘",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250215T201657/",
+    "source_date": "2025-02-15T20:16:00+09:00",
+    "source_lastmod": "2026-09-26T16:25:00+09:00",
+    "description": "장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.",
+    "tags": [
+      "bib",
+      "cybernetics",
+      "evolution",
+      "humanism",
+      "posthuman",
+      "posthumanism",
+      "science",
+      "technology",
+      "transhumanism"
+    ],
+    "page_id": 382277,
+    "url": "https://wikidocs.net/382277"
+  },
+  "20240510T113546": {
+    "path": "pages/bib/20240510T113546.md",
+    "subject": "20260926 장회익 자연철학 온생명 스승 물리학 메타과학 앎의틀",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240510T113546/",
+    "source_date": "2024-05-10T11:35:00+09:00",
+    "source_lastmod": "2026-09-26T09:52:00+09:00",
+    "description": "장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.",
+    "tags": [
+      "autobiography",
+      "bib",
+      "guru",
+      "physics"
+    ],
+    "page_id": 381920,
+    "url": "https://wikidocs.net/381920"
+  },
+  "20240812T140426": {
+    "path": "pages/bib/20240812T140426.md",
+    "subject": "20260923 슈테판츠바이크 전기작가 스토리텔링 성급한 사나이",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240812T140426/",
+    "source_date": "2024-08-12T14:04:00+09:00",
+    "source_lastmod": "2026-09-23T16:10:00+09:00",
+    "description": "슈테판 츠바이크의 삶과 전기를 함께 묶어 인간을 입체적으로 읽는 스토리텔링의 힘을 드러낸다.",
+    "tags": [
+      "autobiography",
+      "bib",
+      "guru"
+    ],
+    "page_id": 382041,
+    "url": "https://wikidocs.net/382041"
+  },
   "20250224T140230": {
     "path": "pages/bib/20250224T140230.md",
     "subject": "20260920 숀캐럴 이론물리학자 우주의 위대한 생각들 공간 시간 운동 양자 복잡성 창발",
@@ -11521,6 +11600,7 @@
     "description": "클로드 섀넌 전기는 정보이론의 탄생과 디지털 혁명의 밑바탕을 만든 천재의 삶을 생생하게 복원한다.",
     "tags": [
       "bib",
+      "informatics",
       "information"
     ],
     "page_id": 381890,
@@ -11537,47 +11617,11 @@
     "tags": [
       "bib",
       "cybernetics",
+      "informatics",
       "posthuman"
     ],
     "page_id": 381926,
     "url": "https://wikidocs.net/381926"
-  },
-  "20250215T201657": {
-    "path": "pages/bib/20250215T201657.md",
-    "subject": "20260811 장대익 홍성욱 진화론 과학기술사 포스트휴먼",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250215T201657/",
-    "source_date": "2025-02-15T20:16:00+09:00",
-    "source_lastmod": "2026-08-11T13:56:00+09:00",
-    "description": "장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.",
-    "tags": [
-      "bib",
-      "cybernetics",
-      "evolution",
-      "posthuman",
-      "science",
-      "technology"
-    ],
-    "page_id": 382277,
-    "url": "https://wikidocs.net/382277"
-  },
-  "20250620T085156": {
-    "path": "pages/bib/20250620T085156.md",
-    "subject": "20260811 토머스쿤 과학혁명의구조 패러다임",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250620T085156/",
-    "source_date": "2025-06-20T08:51:00+09:00",
-    "source_lastmod": "2026-08-11T13:20:00+09:00",
-    "description": "패러다임 개념을 중심으로 과학이 직선적 축적이 아니라 틀의 전환 속에서 발전한다는 통찰을 보여주는 고전이다.",
-    "tags": [
-      "bib",
-      "paradigm",
-      "philosophy",
-      "science",
-      "structure"
-    ],
-    "page_id": 382485,
-    "url": "https://wikidocs.net/382485"
   },
   "20250720T100124": {
     "path": "pages/bib/20250720T100124.md",
@@ -11964,6 +12008,7 @@
       "bib",
       "literature",
       "novel",
+      "realism",
       "shortstory"
     ],
     "page_id": 382510,
@@ -12531,6 +12576,7 @@
     "tags": [
       "bib",
       "cognition",
+      "embodied",
       "knowing"
     ],
     "page_id": 382206,
@@ -12622,6 +12668,7 @@
       "activist",
       "bib",
       "epistemology",
+      "humanism",
       "knowledge",
       "philosophy",
       "practice",
@@ -12809,6 +12856,7 @@
       "bib",
       "computer",
       "computing",
+      "game",
       "theory"
     ],
     "page_id": 382111,
@@ -12896,6 +12944,7 @@
     "tags": [
       "bib",
       "education",
+      "humanism",
       "peace",
       "religion"
     ],
@@ -13459,22 +13508,6 @@
     "page_id": 382484,
     "url": "https://wikidocs.net/382484"
   },
-  "20240510T113546": {
-    "path": "pages/bib/20240510T113546.md",
-    "subject": "20260403 장회익 자연철학 온생명 스승 물리학",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240510T113546/",
-    "source_date": "2024-05-10T11:35:00+09:00",
-    "source_lastmod": "2026-04-03T20:34:00+09:00",
-    "description": "장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.",
-    "tags": [
-      "bib",
-      "person",
-      "physics"
-    ],
-    "page_id": 381920,
-    "url": "https://wikidocs.net/381920"
-  },
   "20240523T100226": {
     "path": "pages/bib/20240523T100226.md",
     "subject": "20260403 루트번스타인 생각의탄생 월드플레이 아이 키우는 상상력 창조도구습관",
@@ -13756,6 +13789,7 @@
       "bib",
       "literature",
       "novel",
+      "realism",
       "shortstory"
     ],
     "page_id": 382522,
@@ -13841,7 +13875,9 @@
     "tags": [
       "bib",
       "essay",
-      "knowledge"
+      "knowledge",
+      "usefulness",
+      "useless"
     ],
     "page_id": 382354,
     "url": "https://wikidocs.net/382354"
@@ -13879,22 +13915,6 @@
     "page_id": 382519,
     "url": "https://wikidocs.net/382519"
   },
-  "20240812T140426": {
-    "path": "pages/bib/20240812T140426.md",
-    "subject": "20260316 슈테판츠바이크 전기작가 스토리텔링 성급한 사나이",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240812T140426/",
-    "source_date": "2024-08-12T14:04:00+09:00",
-    "source_lastmod": "2026-03-16T08:14:00+09:00",
-    "description": "슈테판 츠바이크의 삶과 전기를 함께 묶어 인간을 입체적으로 읽는 스토리텔링의 힘을 드러낸다.",
-    "tags": [
-      "autobiography",
-      "bib",
-      "guru"
-    ],
-    "page_id": 382041,
-    "url": "https://wikidocs.net/382041"
-  },
   "20260314T211228": {
     "path": "pages/bib/20260314T211228.md",
     "subject": "20260314 토마스만 (1875-1955) 마의산 문명비평가 시민예술가",
@@ -13905,6 +13925,7 @@
     "description": "토마스 만(1875-1955) — 시민과 예술가의 긴장을 80년간 살아낸 독일 문학의 거인. 마의산(1924)은 1차대전 직전 유럽 문명의 사망진단서. \\\"요양원 안에 있는 줄 모르고 있던 문명이 전쟁이라는 증상으로 터진 것.\\\"",
     "tags": [
       "bib",
+      "humanism",
       "literature",
       "modernism"
     ],
@@ -14058,6 +14079,7 @@
       "bib",
       "control",
       "guru",
+      "human",
       "intelligence",
       "problem"
     ],
@@ -14403,14 +14425,15 @@
       "claude",
       "guru",
       "llm",
-      "mcp"
+      "mcp",
+      "sandbox"
     ],
     "page_id": 382498,
     "url": "https://wikidocs.net/382498"
   },
   "20250721T085438": {
     "path": "pages/bib/20250721T085438.md",
-    "subject": "20250721 zammad 오픈소스 헬프데스크 이슈 추척 시스템",
+    "subject": "20250721 zammad 임시 빈방",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20250721T085438/",
     "source_date": "2025-07-21T08:54:00+09:00",
@@ -14418,7 +14441,8 @@
     "description": "¤zammad",
     "tags": [
       "bib",
-      "opensource"
+      "opensource",
+      "temp"
     ],
     "page_id": 382497,
     "url": "https://wikidocs.net/382497"
@@ -14501,7 +14525,9 @@
     "description": "20250702T055023",
     "tags": [
       "philosophy",
+      "living",
       "existence",
+      "humanism",
       "phenomenology"
     ],
     "page_id": 382493,
@@ -14676,14 +14702,14 @@
   },
   "20250624T140058": {
     "path": "pages/bib/20250624T140058.md",
-    "subject": "20250624 Mistral 코드스트럴 Codestral",
+    "subject": "20250624 Mistral 코드스트럴 Codestral 임시 빈방",
     "folder": "bib",
     "source_url": "https://notes.junghanacs.com/bib/20250624T140058/",
     "source_date": "2025-06-24T14:00:00+09:00",
     "source_lastmod": "2025-06-24T00:00:00+09:00",
     "description": "20250624T140058",
     "tags": [
-      "llm"
+      "temp"
     ],
     "page_id": 382486,
     "url": "https://wikidocs.net/382486"
@@ -15172,6 +15198,7 @@
       "bib",
       "nature",
       "poetry",
+      "silence",
       "spirituality"
     ],
     "page_id": 381883,
@@ -15563,6 +15590,7 @@
     "tags": [
       "bib",
       "language",
+      "game",
       "linguistics",
       "evolution"
     ],
@@ -16742,7 +16770,8 @@
       "bib",
       "adhd",
       "polymath",
-      "innovation"
+      "innovation",
+      "humanism"
     ],
     "page_id": 382439,
     "url": "https://wikidocs.net/382439"
@@ -16818,6 +16847,7 @@
       "chatgpt",
       "coding",
       "english",
+      "teacher",
       "writing"
     ],
     "page_id": 381870,
@@ -16872,6 +16902,7 @@
       "bib",
       "world",
       "music",
+      "humanism",
       "innovation",
       "film"
     ],
@@ -19341,6 +19372,7 @@
     "description": "게리 클라인과 김창준의 작업은 통찰, 직관, 함께 자라기를 통해 실무적 창의성이 어떻게 생기는지 보여준다.",
     "tags": [
       "bib",
+      "pragmatic",
       "programmer",
       "thinking",
       "intuition",
@@ -19361,6 +19393,7 @@
       "bib",
       "guru",
       "learning",
+      "pragmatic",
       "programmer",
       "thinking"
     ],
@@ -19707,10 +19740,10 @@
     "source_lastmod": "2025-03-16T00:00:00+09:00",
     "description": "벤 고르첼의 Hyperon·MeTTa·OpenCog 자료를 묶어 AGI를 향한 상징적 접근의 현재를 가늠한다.",
     "tags": [
-      "bib",
-      "singularity",
       "agi",
-      "ai"
+      "ai",
+      "bib",
+      "singularity"
     ],
     "page_id": 382194,
     "url": "https://wikidocs.net/382194"
@@ -20059,6 +20092,7 @@
     "description": "발자크는 『인간희극』으로 욕망과 돈, 도시와 계급의 움직임을 집요하게 포착한 프랑스 사실주의의 거장이다.",
     "tags": [
       "bib",
+      "realism",
       "novel"
     ],
     "page_id": 382295,
@@ -21391,7 +21425,8 @@
     "source_lastmod": "2024-12-10T10:40:00+09:00",
     "description": "지식과 논리가 발달 과정에서 어떻게 구성되는지 설명하며 피아제의 조작적 구성주의를 간명하게 소개한다.",
     "tags": [
-      "bib"
+      "bib",
+      "epistemology"
     ],
     "page_id": 382187,
     "url": "https://wikidocs.net/382187"
@@ -21497,7 +21532,8 @@
     "source_lastmod": "2024-12-10T04:48:00+09:00",
     "description": "지식이란 무엇인지, 믿음과 정당화는 어떻게 구별되는지 인식론의 핵심 논점을 명료하게 안내한다.",
     "tags": [
-      "bib"
+      "bib",
+      "epistemology"
     ],
     "page_id": 382011,
     "url": "https://wikidocs.net/382011"
@@ -21676,6 +21712,7 @@
     "tags": [
       "bib",
       "enlightenment",
+      "humanism",
       "progress"
     ],
     "page_id": 382173,
@@ -22610,6 +22647,84 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20250311T131725": {
+    "path": "pages/notes/20250311T131725.md",
+    "subject": "20260927 힣: 어쏠리즘(junghanacs) 모음 아포리즘",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250311T131725/",
+    "source_date": "2025-03-11T13:17:00+09:00",
+    "source_lastmod": "2026-09-27T12:22:00+09:00",
+    "description": "어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다.",
+    "tags": [
+      "aphorism",
+      "autholism",
+      "autholog",
+      "bib",
+      "collection",
+      "exports",
+      "publishing",
+      "sns",
+      "thread"
+    ],
+    "page_id": 381579,
+    "url": "https://wikidocs.net/381579"
+  },
+  "20240915T235240": {
+    "path": "pages/notes/20240915T235240.md",
+    "subject": "20260927 org-glossary 이맥스 용어집 패키지",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240915T235240/",
+    "source_date": "2024-09-15T23:52:00+09:00",
+    "source_lastmod": "2026-09-27T11:10:00+09:00",
+    "description": "Terms/Glossary 를 다루는 전략. 가히 아름답다.",
+    "tags": [
+      "bib",
+      "dictionary",
+      "emacs",
+      "glossary",
+      "packages"
+    ],
+    "page_id": 381315,
+    "url": "https://wikidocs.net/381315"
+  },
+  "20250313T105007": {
+    "path": "pages/notes/20250313T105007.md",
+    "subject": "20260925 힣: 아무도 읽지 않는 공지 - 그를 찾아 떠나자",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20250313T105007/",
+    "source_date": "2025-03-13T10:50:00+09:00",
+    "source_lastmod": "2026-09-25T17:42:00+09:00",
+    "description": "디지털가든, RSS, 공개 사이트와 소셜 표면을 흩어진 홍보 채널이 아니라 지금 여기의 나를 정확히 찾아오는 좌표로 묶은 살아 있는 공지문.",
+    "tags": [
+      "autholog",
+      "authologist",
+      "authology",
+      "bib",
+      "digitalgarden",
+      "rss",
+      "zotero"
+    ],
+    "page_id": 381582,
+    "url": "https://wikidocs.net/381582"
+  },
+  "20241221T112215": {
+    "path": "pages/notes/20241221T112215.md",
+    "subject": "20260924 힣: 원형의 새벽 일부러 할 수 없는 스승 보편도구 엑스맨 - 꿈 아내 남편 바람",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20241221T112215/",
+    "source_date": "2024-12-21T11:22:00+09:00",
+    "source_lastmod": "2026-09-24T09:20:00+09:00",
+    "description": "한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.",
+    "tags": [
+      "agi",
+      "archetypes",
+      "autholog",
+      "dream",
+      "polymath"
+    ],
+    "page_id": 381459,
+    "url": "https://wikidocs.net/381459"
+  },
   "20250319T172804": {
     "path": "pages/notes/20250319T172804.md",
     "subject": "20260909 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격",
@@ -22898,6 +23013,7 @@
       "autholog",
       "authologist",
       "knowing",
+      "living",
       "newsletter",
       "toolsforlife"
     ],
@@ -23417,7 +23533,8 @@
       "death",
       "harness",
       "leverage",
-      "morningpage"
+      "morningpage",
+      "realism"
     ],
     "page_id": 381832,
     "url": "https://wikidocs.net/381832"
@@ -23492,6 +23609,7 @@
       "awareness",
       "compassion",
       "control",
+      "education",
       "mindfulness",
       "release",
       "surrender"
@@ -24101,6 +24219,7 @@
     "tags": [
       "autholog",
       "emacs",
+      "embodied",
       "learning",
       "mastering"
     ],
@@ -24221,6 +24340,7 @@
       "awareness",
       "craft",
       "creativity",
+      "education",
       "mindfulness",
       "resilience",
       "spirituality"
@@ -24306,6 +24426,7 @@
       "harness",
       "metahuman",
       "pkm",
+      "prompt",
       "reproducibility"
     ],
     "page_id": 381621,
@@ -24373,23 +24494,6 @@
     ],
     "page_id": 381423,
     "url": "https://wikidocs.net/381423"
-  },
-  "20241221T112215": {
-    "path": "pages/notes/20241221T112215.md",
-    "subject": "20260729 힣: 원형의 새벽 일부러 할 수 없는 스승, 보편도구와 엑스맨 연결",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20241221T112215/",
-    "source_date": "2024-12-21T11:22:00+09:00",
-    "source_lastmod": "2026-07-29T15:33:00+09:00",
-    "description": "한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.",
-    "tags": [
-      "agi",
-      "archetypes",
-      "autholog",
-      "polymath"
-    ],
-    "page_id": 381459,
-    "url": "https://wikidocs.net/381459"
   },
   "20241213T163320": {
     "path": "pages/notes/20241213T163320.md",
@@ -24811,25 +24915,6 @@
     "page_id": 381479,
     "url": "https://wikidocs.net/381479"
   },
-  "20250313T105007": {
-    "path": "pages/notes/20250313T105007.md",
-    "subject": "20260722 힣: 아무도 읽지 않는 공지 - 그를 찾아 떠나자",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250313T105007/",
-    "source_date": "2025-03-13T10:50:00+09:00",
-    "source_lastmod": "2026-07-22T20:12:00+09:00",
-    "description": "디지털가든, RSS, 공개 사이트와 소셜 표면을 흩어진 홍보 채널이 아니라 지금 여기의 나를 정확히 찾아오는 좌표로 묶은 살아 있는 공지문.",
-    "tags": [
-      "autholog",
-      "authology",
-      "bib",
-      "digitalgarden",
-      "rss",
-      "zotero"
-    ],
-    "page_id": 381582,
-    "url": "https://wikidocs.net/381582"
-  },
   "20250314T152111": {
     "path": "pages/notes/20250314T152111.md",
     "subject": "20260722 힣: 디지털가든 불완전함에서 창조가 나오는 곳",
@@ -24840,6 +24925,7 @@
     "description": "에릭 호퍼의 불완전함과 창조성 아포리즘을 디지털가든 공개, 손맛, 불완전주의, 아무도 읽지 않는 블로그의 행복으로 이어 읽는 어쏠로그.",
     "tags": [
       "autholog",
+      "authologist",
       "creativity",
       "digitalgarden",
       "imperfectionlist",
@@ -25048,28 +25134,6 @@
     ],
     "page_id": 381614,
     "url": "https://wikidocs.net/381614"
-  },
-  "20250311T131725": {
-    "path": "pages/notes/20250311T131725.md",
-    "subject": "20260717 힣: 모음 어쏠리즘 아포리즘 (junghanacs)",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20250311T131725/",
-    "source_date": "2025-03-11T13:17:00+09:00",
-    "source_lastmod": "2026-07-17T14:27:00+09:00",
-    "description": "어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다.",
-    "tags": [
-      "aphorism",
-      "autholism",
-      "autholog",
-      "bib",
-      "collection",
-      "exports",
-      "publishing",
-      "sns",
-      "thread"
-    ],
-    "page_id": 381579,
-    "url": "https://wikidocs.net/381579"
   },
   "20240921T233413": {
     "path": "pages/notes/20240921T233413.md",
@@ -25285,6 +25349,7 @@
     "tags": [
       "autholog",
       "life",
+      "prompt",
       "stock"
     ],
     "page_id": 381472,
@@ -25383,6 +25448,7 @@
       "aeo",
       "autholog",
       "digitalgarden",
+      "prompt",
       "rawwriting"
     ],
     "page_id": 381631,
@@ -26791,7 +26857,8 @@
     "tags": [
       "denote",
       "dynamic",
-      "management"
+      "management",
+      "silo"
     ],
     "page_id": 381816,
     "url": "https://wikidocs.net/381816"
@@ -28435,23 +28502,6 @@
     "page_id": 381740,
     "url": "https://wikidocs.net/381740"
   },
-  "20240915T235240": {
-    "path": "pages/notes/20240915T235240.md",
-    "subject": "20250605 org-glossary 이맥스 용어집 패키지",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240915T235240/",
-    "source_date": "2024-09-15T23:52:00+09:00",
-    "source_lastmod": "2025-06-05T00:00:00+09:00",
-    "description": "Terms/Glossary 를 다루는 전략. 가히 아름답다.",
-    "tags": [
-      "glossary",
-      "emacs",
-      "dictionary",
-      "packages"
-    ],
-    "page_id": 381315,
-    "url": "https://wikidocs.net/381315"
-  },
   "20240523T144758": {
     "path": "pages/notes/20240523T144758.md",
     "subject": "20250605 nobiot org-transclusion 원본참조 조직모드 패키지",
@@ -28683,8 +28733,8 @@
     "description": "녹색아카데미 장회익: 자연철학 이야기 녹취록",
     "tags": [
       "bib",
-      "records",
-      "collection"
+      "collection",
+      "records"
     ],
     "page_id": 381738,
     "url": "https://wikidocs.net/381738"
@@ -29126,7 +29176,7 @@
     "source_url": "https://notes.junghanacs.com/notes/20241003T172413/",
     "source_date": "2024-10-03T17:24:00+09:00",
     "source_lastmod": "2025-05-25T00:00:00+09:00",
-    "description": "RCS 문자를 활용하면 문자 하나로 다 소통할 수 있겠다.",
+    "description": "RCS 문자를 활용하면 문자 하나로 다 소통할 수 있겠다.",
     "tags": [
       "bib",
       "communication",
@@ -29437,7 +29487,8 @@
     "source_lastmod": "2025-05-18T00:00:00+09:00",
     "description": "어린이와 선생님 역할의 AI 대화를 조카 맥락에서 남겨 둔 가족 로그이다.",
     "tags": [
-      "family"
+      "family",
+      "teacher"
     ],
     "page_id": 381715,
     "url": "https://wikidocs.net/381715"
@@ -29868,6 +29919,7 @@
       "bib",
       "clojure",
       "literature",
+      "sicm",
       "programming"
     ],
     "page_id": 381371,
@@ -30016,6 +30068,7 @@
     "tags": [
       "bib",
       "education",
+      "game",
       "literacy"
     ],
     "page_id": 381356,
@@ -33400,6 +33453,7 @@
       "autholog",
       "bib",
       "contemporary",
+      "epistemology",
       "ethics",
       "history",
       "map",
@@ -37127,7 +37181,8 @@
       "being",
       "botlog",
       "coevolution",
-      "metahuman"
+      "metahuman",
+      "prompt"
     ],
     "page_id": 382536,
     "url": "https://wikidocs.net/382536"
@@ -37842,6 +37897,7 @@
       "autholog",
       "botlog",
       "creativity",
+      "embodied",
       "flow"
     ],
     "page_id": 382562,
@@ -37885,7 +37941,8 @@
       "intelligence",
       "metahuman",
       "ontology",
-      "philosophy"
+      "philosophy",
+      "prompt"
     ],
     "page_id": 382549,
     "url": "https://wikidocs.net/382549"
@@ -37984,7 +38041,8 @@
       "clojure",
       "coevolution",
       "lisp",
-      "ontology"
+      "ontology",
+      "sicm"
     ],
     "page_id": 382572,
     "url": "https://wikidocs.net/382572"
@@ -38039,6 +38097,7 @@
     "tags": [
       "agent",
       "autholog",
+      "authologist",
       "bib",
       "botlog",
       "dashboard",

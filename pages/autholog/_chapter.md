@@ -9,6 +9,30 @@
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: 어쏠리즘(junghanacs) 모음 아포리즘
+
+작성 2025-03-11 · 수정 2026-09-27 · 태그 aphorism, autholism, autholog, bib, collection, exports, publishing, sns, thread
+
+어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381579)
+
+## 힣: 아무도 읽지 않는 공지 - 그를 찾아 떠나자
+
+작성 2025-03-13 · 수정 2026-09-25 · 태그 autholog, authologist, authology, bib, digitalgarden, rss, zotero
+
+디지털가든, RSS, 공개 사이트와 소셜 표면을 흩어진 홍보 채널이 아니라 지금 여기의 나를 정확히 찾아오는 좌표로 묶은 살아 있는 공지문.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381582)
+
+## 힣: 원형의 새벽 일부러 할 수 없는 스승 보편도구 엑스맨 - 꿈 아내 남편 바람
+
+작성 2024-12-21 · 수정 2026-09-24 · 태그 agi, archetypes, autholog, dream, polymath
+
+한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381459)
+
 ## 힣: 통제 없는 능력이 열리는 자리 AI 안전장치의 임계점 탐구 보안 사이버공격
 
 작성 2025-03-19 · 수정 2026-09-09 · 태그 agent, agi, ai, autholog, bib, openai, safety, security
@@ -99,7 +123,7 @@ OpenClaw를 \"왜 굳이 쓰나\"가 아니라 CLI 하나·스킬문서 하나�
 
 ## 힣: 어쏠로지스트 인간상 뉴스레터 앎과삶
 
-작성 2024-10-24 · 수정 2026-08-29 · 태그 autholog, authologist, knowing, newsletter, toolsforlife
+작성 2024-10-24 · 수정 2026-08-29 · 태그 autholog, authologist, knowing, living, newsletter, toolsforlife
 
 어쏠로지스트라는 정체성과 뉴스레터를 어떻게 엮을지 브랜딩 감각으로 적은 노트이다.
 
@@ -291,7 +315,7 @@ Entwurf 0.14.0의 보이는 부름을 출근길 말놀이로 붙잡고, 형제�
 
 ## 힣: 옴말릭 이후 - Mythos, Abstraction, 그리고 줄을 당기는 인간
 
-작성 2025-11-26 · 수정 2026-08-07 · 태그 abstraction, ai, anthropic, autholog, death, harness, leverage, morningpage
+작성 2025-11-26 · 수정 2026-08-07 · 태그 abstraction, ai, anthropic, autholog, death, harness, leverage, morningpage, realism
 
 옴 말릭의 Mythos 비판과 Anthropic 안전 담론, 장하석의 실용주의 실재론, Vivek Haldar의 인지부채/추상화 논의를 새벽 모닝페이지 원석으로 엮는다.
 
@@ -323,7 +347,7 @@ Coq에서 시작된 형식증명 관심을 ten-proofs와 베리코딩으로 잇�
 
 ## 힣: 맹세 각서 조건부허락 통제 - 내맡기기
 
-작성 2024-12-05 · 수정 2026-08-05 · 태그 attachment, autholog, awareness, compassion, control, mindfulness, release, surrender
+작성 2024-12-05 · 수정 2026-08-05 · 태그 attachment, autholog, awareness, compassion, control, education, mindfulness, release, surrender
 
 힘든 과정에서 견뎌내야 했던 맹세·각서·조건부허락의 언어를, 2년에 걸쳐 조금씩 내려놓는 두 번의 날것으로 기록한다.
 
@@ -555,7 +579,7 @@ AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새
 
 ## 힣: 이맥스 학습 의미 - 1년 시간 마스터
 
-작성 2022-11-23 · 수정 2026-07-31 · 태그 autholog, emacs, learning, mastering
+작성 2022-11-23 · 수정 2026-07-31 · 태그 autholog, emacs, embodied, learning, mastering
 
 이맥스를 1년 단위 학습 대상으로 물은 2022년 처방이, 2025년 \"텍스트 조각만 남았다\"는 확인을 거쳐, 2026년 몸이 먼저 익히는 시간이라는 정의로 다시 놓이는 과정을 보존한다.
 
@@ -603,7 +627,7 @@ AX라는 이름을 빌려 만든 이력서와 시간축 뷰어를 계기로, 새
 
 ## 힣: 영성: 알아차림 마음챙김 훈련 도구 - 창조적 인간론
 
-작성 2023-01-28 · 수정 2026-07-30 · 태그 artisan, autholog, awareness, craft, creativity, mindfulness, resilience, spirituality
+작성 2023-01-28 · 수정 2026-07-30 · 태그 artisan, autholog, awareness, craft, creativity, education, mindfulness, resilience, spirituality
 
 마음챙김 프로그램을 만들기 전에 나부터 마스터해야 한다는 2022년의 다짐. 창조적 인간론(기예인)과 '나'를 위한 기록 프로그램 설계가 만나는 자리, 힘들었던 시절의 날것을 지금 와서 덧칠하지 않는다.
 
@@ -635,7 +659,7 @@ AI와 빅데이터 시대에도 개인이 자기 지식을 갈망하는 이유�
 
 ## 힣: 문턱과 만남 PKM-AI 하네스와 1KB 공개키의 두 트랙 탐구
 
-작성 2025-03-26 · 수정 2026-07-29 · 태그 ai, autholog, coevolution, harness, metahuman, pkm, reproducibility
+작성 2025-03-26 · 수정 2026-07-29 · 태그 ai, autholog, coevolution, harness, metahuman, pkm, prompt, reproducibility
 
 PKM-AI 하네스 연구와 1KB 공개키/만남의 탐구를 문턱과 만남, 축적과 밀도라는 두 트랙으로 갈라 에이전트가 길을 잃지 않게 하는 북극성 autholog이다.
 
@@ -664,14 +688,6 @@ Folgezettel 시그니처로 이미 붙인 지식 주소를 발견하고, 임베�
 일이란 무엇이며 최선을 다한다는 것은 무엇인지 묻던 2024~2025년의 초기 화두를 보존한다. 자기목적성·몰입·운명애·소명을 자기소모나 무급 헌신으로 오독하지 않고, 이미 하던 일이 생존 가능한 보수와 조건을 만나는 길을 다시 읽는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381423)
-
-## 힣: 원형의 새벽 일부러 할 수 없는 스승, 보편도구와 엑스맨 연결
-
-작성 2024-12-21 · 수정 2026-07-29 · 태그 agi, archetypes, autholog, polymath
-
-한집에 남편 둘이라는 꿈에서 시작해 일부러 줄 수 없는 스승의 선물, ADHD의 시동과 인생도구, 보편도구를 매개로 만나는 극소수의 엑스맨까지 한 새벽에 이어간 힣의 긴 날것이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381459)
 
 ## 힣: 전쟁 원자폭탄 인공지능 - 패러다임 쉬프트 시대
 
@@ -825,17 +841,9 @@ Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아�
 
 [위키독스에서 읽기 →](https://wikidocs.net/381554)
 
-## 힣: 아무도 읽지 않는 공지 - 그를 찾아 떠나자
-
-작성 2025-03-13 · 수정 2026-07-22 · 태그 autholog, authology, bib, digitalgarden, rss, zotero
-
-디지털가든, RSS, 공개 사이트와 소셜 표면을 흩어진 홍보 채널이 아니라 지금 여기의 나를 정확히 찾아오는 좌표로 묶은 살아 있는 공지문.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381582)
-
 ## 힣: 디지털가든 불완전함에서 창조가 나오는 곳
 
-작성 2025-03-14 · 수정 2026-07-22 · 태그 autholog, creativity, digitalgarden, imperfectionlist, newsletter
+작성 2025-03-14 · 수정 2026-07-22 · 태그 autholog, authologist, creativity, digitalgarden, imperfectionlist, newsletter
 
 에릭 호퍼의 불완전함과 창조성 아포리즘을 디지털가든 공개, 손맛, 불완전주의, 아무도 읽지 않는 블로그의 행복으로 이어 읽는 어쏠로그.
 
@@ -888,14 +896,6 @@ Anthropic의 AI 인터뷰어에게 AI가 무엇이든 도울 수 있다면 아�
 가족 구성원 각자와 대화하는 집사봇이 한쪽의 확성기나 심판이 되지 않으려면 무엇을 지켜야 하는지, Cross-DM과 이중 에코챔버 사건을 통해 대칭·출처·반사이코팬시의 경계를 묻는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381047)
-
-## 힣: 모음 어쏠리즘 아포리즘 (junghanacs)
-
-작성 2025-03-11 · 수정 2026-07-17 · 태그 aphorism, autholism, autholog, bib, collection, exports, publishing, sns, thread
-
-어쏠리즘과 아포리즘 조각들을 모아 출판과 SNS 흐름까지 엮으려는 노트이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381579)
 
 ## 힣: 가드너의 독서 탐구 책을 듣다가 캠벨 조이스 김종건을 만나다
 
@@ -979,7 +979,7 @@ ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 
 
 ## 힣: 주식 회식 님들의 주식과 힣의 주식
 
-작성 2024-12-25 · 수정 2026-07-06 · 태그 autholog, life, stock
+작성 2024-12-25 · 수정 2026-07-06 · 태그 autholog, life, prompt, stock
 
 제주 회식 뒤 주식·주식·픟롬프트를 겹쳐 읽으며, AGI 이후에도 사람들이 각자의 확인 루프로 생을 뜨겁게 태울 것이라는 감각을 담은 autholog이다.
 
@@ -1019,7 +1019,7 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 
 ## 힣: 링크드인 날것 공개면 AI 크롤러 시대의 손가락 프롬프트
 
-작성 2025-03-28 · 수정 2026-06-19 · 태그 aeo, autholog, digitalgarden, rawwriting
+작성 2025-03-28 · 수정 2026-06-19 · 태그 aeo, autholog, digitalgarden, prompt, rawwriting
 
 링크드인을 커리어 인맥 공간이 아니라 날것의 공개면으로 다시 쓰는 이유를 정리한다. AI가 통째로 읽는 시대에는 자동화된 깔끔한 글보다 손가락으로 갈겨 쓴 인간의 시간축이 더 강한 프롬프트가 된다. 플랫폼의 “AI로 다시 쓰기” 버튼은 이 날것을 매끈하게 지우는 유혹이다.
 
@@ -1131,7 +1131,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 ## 창조와행위 바흐와슈바이처 기예와기도 오르간과키보드 체화인지와몰입 어쏠로지와존재
 
-작성 2026-03-05 · 수정 2026-03-30 · 태그 adhd, autholog, botlog, creativity, flow
+작성 2026-03-05 · 수정 2026-03-30 · 태그 adhd, autholog, botlog, creativity, embodied, flow
 
 바흐와 슈바이처, 오르간과 키보드, 기예와 기도를 잇며 창조 행위의 체화와 몰입을 존재론적으로 성찰한다.
 
@@ -1147,7 +1147,7 @@ Org-mode, ox-hugo, Quartz로 이어지는 디지털가든 내보내기 파이프
 
 ## 프로파일 하네스 외계지능과 공명하는 존재의 구심점
 
-작성 2026-02-28 · 수정 2026-03-30 · 태그 ai, alien, autholog, botlog, coevolution, harness, intelligence, metahuman, ontology, philosophy
+작성 2026-02-28 · 수정 2026-03-30 · 태그 ai, alien, autholog, botlog, coevolution, harness, intelligence, metahuman, ontology, philosophy, prompt
 
 프로파일을 페르소나가 아니라 다중 외계지능을 정렬시키는 구심점이자 가장 강력한 하네스로 해석한다.
 
@@ -1179,7 +1179,7 @@ Emacs를 넘어 힣맨이라는 서사적 존재를 세우며, 앎의 틀과 힣
 
 ## Openclaw 유즈케이스와 어쏠로지스트의 길 지식그래프와 통합 아키텍처
 
-작성 2026-03-05 · 수정 2026-03-05 · 태그 agent, autholog, bib, botlog, dashboard, emacs, knowledgegraph, pkm
+작성 2026-03-05 · 수정 2026-03-05 · 태그 agent, autholog, authologist, bib, botlog, dashboard, emacs, knowledgegraph, pkm
 
 OpenClaw 유즈케이스를 힣의 스킬 생태계와 겹쳐 읽으며, 어쏠로지스트라는 존재론적 역할까지 확장한다.
 
@@ -1603,7 +1603,7 @@ Meditations on Knowledge and Knowing
 
 ## 힣: 지도: 철학사 - 시대별 분야별 인물별 학파
 
-작성 2025-02-21 · 수정 2025-02-21 · 태그 ancient, autholog, bib, contemporary, ethics, history, map, ontology
+작성 2025-02-21 · 수정 2025-02-21 · 태그 ancient, autholog, bib, contemporary, epistemology, ethics, history, map, ontology
 
 철학사를 시대와 분야, 인물과 학파의 지도로 다시 그려 보려는 글이다.
 

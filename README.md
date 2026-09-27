@@ -10,7 +10,7 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,249개 중 287개
-- 마지막 동기화: 2026-09-21
+- 마지막 동기화: 2026-09-27
 
 ## 힣의 고뇌
 
@@ -52,7 +52,7 @@
 [GEB](https://notes.junghanacs.com/bib/20240713T204705/)의 이상한 고리인가? 쓸모 없는 쓸모인가. 태그의 태그라고 하면 어떨까? 어떤 단어는 온갖 개념들을 다 연결하기도 한다. 위와 아래, 크고 작음을 구분할 필요가 없는 녀석들을 만난다. 관련 없이 연결 된 어떤 것들. 메타노트는 이곳의 [분류체계](https://notes.junghanacs.com/meta/20250422T130749/)의 일부이다. 이곳은 정원이다. 그저 보는 곳이다.
 
 -   [folder: meta (538)](https://wikidocs.net/380477)
--   [tags: index (1311)](https://notes.junghanacs.com/tags/)
+-   [tags: index (1314)](https://notes.junghanacs.com/tags/)
 
 ## 서지노트: 삶의 흔적
 
@@ -96,4 +96,4 @@
 
 -   [folder: botlog (81)](https://wikidocs.net/382535)
 
-ExportDate: 2026-09-21 11:18, CountOrg: 3,598, CountGarden: 2,256, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.9), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-09-27 13:14, CountOrg: 3,601, CountGarden: 2,256, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.9), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Hostingkr &amp; Netlify](https://notes.junghanacs.com/notes/20240814T152821/)

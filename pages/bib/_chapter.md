@@ -8,6 +8,38 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 토머스쿤 과학혁명의구조 패러다임 과학사 로레인대스턴 규칙 알고리즘
+
+작성 2025-06-20 · 수정 2026-09-26 · 태그 bib, paradigm, philosophy, rule, science, structure
+
+패러다임 개념을 중심으로 과학이 직선적 축적이 아니라 틀의 전환 속에서 발전한다는 통찰을 보여주는 고전이다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250620T085156/)
+
+## 장대익 홍성욱 진화론 과학기술사 포스트휴먼 트랜스휴머니즘
+
+작성 2025-02-15 · 수정 2026-09-26 · 태그 bib, cybernetics, evolution, humanism, posthuman, posthumanism, science, technology, transhumanism
+
+장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250215T201657/)
+
+## 장회익 자연철학 온생명 스승 물리학 메타과학 앎의틀
+
+작성 2024-05-10 · 수정 2026-09-26 · 태그 autobiography, bib, guru, physics
+
+장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240510T113546/)
+
+## 슈테판츠바이크 전기작가 스토리텔링 성급한 사나이
+
+작성 2024-08-12 · 수정 2026-09-23 · 태그 autobiography, bib, guru
+
+슈테판 츠바이크의 삶과 전기를 함께 묶어 인간을 입체적으로 읽는 스토리텔링의 힘을 드러낸다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240812T140426/)
+
 ## 숀캐럴 이론물리학자 우주의 위대한 생각들 공간 시간 운동 양자 복잡성 창발
 
 작성 2025-02-24 · 수정 2026-09-20 · 태그 bib, physics, time, universe
@@ -178,7 +210,7 @@ Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스
 
 ## 지미소니 클로드섀넌 디지털 세상을 설계하다
 
-작성 2024-03-05 · 수정 2026-08-11 · 태그 bib, information
+작성 2024-03-05 · 수정 2026-08-11 · 태그 bib, informatics, information
 
 클로드 섀넌 전기는 정보이론의 탄생과 디지털 혁명의 밑바탕을 만든 천재의 삶을 생생하게 복원한다.
 
@@ -186,27 +218,11 @@ Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스
 
 ## 캐서린헤일스 우리는 어떻게 포스트휴먼 이 되었는가 사이버네틱스 정보과학
 
-작성 2024-05-15 · 수정 2026-08-11 · 태그 bib, cybernetics, posthuman
+작성 2024-05-15 · 수정 2026-08-11 · 태그 bib, cybernetics, informatics, posthuman
 
 사이버네틱스와 문학, 정보과학을 가로지르며 포스트휴먼 주체와 신체의 변형을 비판적으로 읽는다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240515T165300/)
-
-## 장대익 홍성욱 진화론 과학기술사 포스트휴먼
-
-작성 2025-02-15 · 수정 2026-08-11 · 태그 bib, cybernetics, evolution, posthuman, science, technology
-
-장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250215T201657/)
-
-## 토머스쿤 과학혁명의구조 패러다임
-
-작성 2025-06-20 · 수정 2026-08-11 · 태그 bib, paradigm, philosophy, science, structure
-
-패러다임 개념을 중심으로 과학이 직선적 축적이 아니라 틀의 전환 속에서 발전한다는 통찰을 보여주는 고전이다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250620T085156/)
 
 ## 필립K딕 PhilipKDick · 리들리스콧 RidleyScott · 에이드리언차이콥스키 AdrianTchaikovsky 인간·안드로이드·기억의 SF
 
@@ -370,7 +386,7 @@ BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 �
 
 ## 안톤체호프 단편 세계문학 내기
 
-작성 2026-02-15 · 수정 2026-08-03 · 태그 bib, literature, novel, shortstory
+작성 2026-02-15 · 수정 2026-08-03 · 태그 bib, literature, novel, realism, shortstory
 
 안톤 체호프는 사소한 일상과 인간의 우스움, 비애, 연민을 짧은 형식 안에 응축해 현대 단편소설의 완성자로 불린다. 러시아 문학의 거장이라는 이름을 넘어, 웃음과 비극이 동시에 살아 있는 리얼리즘의 감각을 보여준다.
 
@@ -594,7 +610,7 @@ U.G.와 지두 크리슈나무르티가 공유한 길 없음과, 관찰·가르�
 
 ## 다마지오 마뚜라나 바렐라 자기생성 인지 앎의나무 구성주의 신경생물학 체화인지 움벨트
 
-작성 2024-12-20 · 수정 2026-07-07 · 태그 bib, cognition, knowing
+작성 2024-12-20 · 수정 2026-07-07 · 태그 bib, cognition, embodied, knowing
 
 다마지오, 마뚜라나, 바렐라는 생명과 인지를 분리하지 않고 몸과 환경의 상호작용 속에서 앎이 어떻게 생겨나는지 보여준다.
 
@@ -634,7 +650,7 @@ U.G.와 지두 크리슈나무르티가 공유한 길 없음과, 관찰·가르�
 
 ## 장하석 과학철학 역사 능동적앎 실천 실용 실재 진리 지식관 인본주의
 
-작성 2025-02-17 · 수정 2026-07-06 · 태그 activist, bib, epistemology, knowledge, philosophy, practice, pragmatic, realism, science, truth
+작성 2025-02-17 · 수정 2026-07-06 · 태그 activist, bib, epistemology, humanism, knowledge, philosophy, practice, pragmatic, realism, science, truth
 
 장하석은 능동적 앎, 실천 시스템, 작업적 정합성, 행동하는 실재주의로 지식·진리·실재를 삶과 기술의 작동 속에서 다시 묻는 과학철학자다.
 
@@ -714,7 +730,7 @@ U.G.와 지두 크리슈나무르티가 공유한 길 없음과, 관찰·가르�
 
 ## 폰노이만 JohnVonNeumann 천재 미래 외계인 맨해튼
 
-작성 2024-10-11 · 수정 2026-05-28 · 태그 architecture, bib, computer, computing, theory
+작성 2024-10-11 · 수정 2026-05-28 · 태그 architecture, bib, computer, computing, game, theory
 
 John von Neumann은 computer architecture, game theory, computing, mathematics 전반에 깊은 흔적을 남긴 20세기 천재 과학자다.
 
@@ -754,7 +770,7 @@ John von Neumann은 computer architecture, game theory, computing, mathematics �
 
 ## 에라스무스 Erasmus 로테르담의 인문주의자 중재자 유럽정신
 
-작성 2024-06-25 · 수정 2026-05-01 · 태그 bib, education, peace, religion
+작성 2024-06-25 · 수정 2026-05-01 · 태그 bib, education, humanism, peace, religion
 
 에라스무스는 광신의 시대에 교육과 문장, 유머와 판단으로 유럽 정신의 품위와 평화를 지키려 한 르네상스 인문주의자다.
 
@@ -1008,14 +1024,6 @@ whhone은 Emacs, 안드로이드, 프라이버시, 생산성을 가로지르며 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250619T155352/)
 
-## 장회익 자연철학 온생명 스승 물리학
-
-작성 2024-05-10 · 수정 2026-04-03 · 태그 bib, person, physics
-
-장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240510T113546/)
-
 ## 루트번스타인 생각의탄생 월드플레이 아이 키우는 상상력 창조도구습관
 
 작성 2024-05-23 · 수정 2026-04-03 · 태그 bib, creativity, kids, polymath, world
@@ -1138,7 +1146,7 @@ pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Arm
 
 ## 기드모파상 (1850) 단편 세계문학 목걸이 여자의일생
 
-작성 2026-03-22 · 수정 2026-03-22 · 태그 bib, literature, novel, shortstory
+작성 2026-03-22 · 수정 2026-03-22 · 태그 bib, literature, novel, realism, shortstory
 
 기 드 모파상은 짧은 호흡 안에 인간의 허영과 위선, 욕망과 비애를 칼날처럼 포착한 프랑스 단편소설의 거장이다. 「목걸이」와 「비곗덩어리」로 대표되는 정밀한 구성과 씁쓸한 반전이 그의 문학적 힘을 드러낸다.
 
@@ -1178,7 +1186,7 @@ pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Arm
 
 ## 에이브러햄플렉스너 쓸모없는 지식의 쓸모 - 세상을 바꾼 과학자들의 순수학문 예찬
 
-작성 2025-04-05 · 수정 2026-03-18 · 태그 bib, essay, knowledge
+작성 2025-04-05 · 수정 2026-03-18 · 태그 bib, essay, knowledge, usefulness, useless
 
 플렉스너는 당장 쓸모없어 보이는 순수 학문이 결국 문명을 바꾸는 토양이 된다고 강하게 옹호한다.
 
@@ -1200,17 +1208,9 @@ M.C. Escher - 수학적 영감의 판화 예술
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260316T080000/)
 
-## 슈테판츠바이크 전기작가 스토리텔링 성급한 사나이
-
-작성 2024-08-12 · 수정 2026-03-16 · 태그 autobiography, bib, guru
-
-슈테판 츠바이크의 삶과 전기를 함께 묶어 인간을 입체적으로 읽는 스토리텔링의 힘을 드러낸다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240812T140426/)
-
 ## 토마스만 (1875-1955) 마의산 문명비평가 시민예술가
 
-작성 2026-03-14 · 수정 2026-03-14 · 태그 bib, literature, modernism
+작성 2026-03-14 · 수정 2026-03-14 · 태그 bib, humanism, literature, modernism
 
 토마스 만(1875-1955) — 시민과 예술가의 긴장을 80년간 살아낸 독일 문학의 거인. 마의산(1924)은 1차대전 직전 유럽 문명의 사망진단서. \"요양원 안에 있는 줄 모르고 있던 문명이 전쟁이라는 증상으로 터진 것.\"
 
@@ -1282,7 +1282,7 @@ M.C. Escher - 수학적 영감의 판화 예술
 
 ## 스튜어트러셀 인간 인공지능 공존 통제
 
-작성 2024-10-17 · 수정 2026-03-07 · 태그 ai, bib, control, guru, intelligence, problem
+작성 2024-10-17 · 수정 2026-03-07 · 태그 ai, bib, control, guru, human, intelligence, problem
 
 스튜어트 러셀은 인간의 선호와 가치에 정렬된 인공지능을 설계해야 한다는 통제 문제를 정면으로 다룬다.
 
@@ -1450,15 +1450,15 @@ Emanuel Jeff는 beads의 Rust 포팅과 멀티에이전트 오케스트레이션
 
 ## Emsi MyManus Claude-Desktop 클로드 에이전트
 
-작성 2025-07-23 · 수정 2025-07-23 · 태그 agent, ai, bib, claude, guru, llm, mcp
+작성 2025-07-23 · 수정 2025-07-23 · 태그 agent, ai, bib, claude, guru, llm, mcp, sandbox
 
 클로드 데스크톱과 MyManus 계열 도구를 통해 로컬 리눅스 환경에서 에이전트, MCP, 샌드박스 활용 가능성을 살핀다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250723T114703/)
 
-## zammad 오픈소스 헬프데스크 이슈 추척 시스템
+## zammad 임시 빈방
 
-작성 2025-07-21 · 수정 2025-07-21 · 태그 bib, opensource
+작성 2025-07-21 · 수정 2025-07-21 · 태그 bib, opensource, temp
 
 ¤zammad
 
@@ -1498,7 +1498,7 @@ Zamansky는 이맥스와 기술 교육을 연결하며, 프로그래밍을 가�
 
 ## 사르트르 1905 존재와무 현상학 실존주의
 
-작성 2025-07-02 · 수정 2025-07-02 · 태그 philosophy, existence, phenomenology
+작성 2025-07-02 · 수정 2025-07-02 · 태그 philosophy, living, existence, humanism, phenomenology
 
 20250702T055023
 
@@ -1576,9 +1576,9 @@ Zamansky는 이맥스와 기술 교육을 연결하며, 프로그래밍을 가�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241217T135151/)
 
-## Mistral 코드스트럴 Codestral
+## Mistral 코드스트럴 Codestral 임시 빈방
 
-작성 2025-06-24 · 수정 2025-06-24 · 태그 llm
+작성 2025-06-24 · 수정 2025-06-24 · 태그 temp
 
 20250624T140058
 
@@ -1810,7 +1810,7 @@ AI가 인간의 언어 환경을 바꾸는 시대에 필요한 새로운 문해�
 
 ## 메리올리버 시몬베유 자연의 장면 속 경이 기도 주의 삶의 방향
 
-작성 2024-02-25 · 수정 2025-06-12 · 태그 bib, nature, poetry, spirituality
+작성 2024-02-25 · 수정 2025-06-12 · 태그 bib, nature, poetry, silence, spirituality
 
 메리 올리버와 시몬 베유를 함께 모시며, 자연 앞의 경이와 기도, 주의, 고요, 삶의 방향을 함께 붙드는 노트다.
 
@@ -1986,7 +1986,7 @@ AI의 성공과 실패의 역사를 따라가며 의식기계 신화를 걷어�
 
 ## 모텐크리스티안센 닉채터 진화하는언어 언어게임
 
-작성 2024-09-03 · 수정 2025-06-07 · 태그 bib, language, linguistics, evolution
+작성 2024-09-03 · 수정 2025-06-07 · 태그 bib, language, game, linguistics, evolution
 
 진화하는 언어
 
@@ -2538,7 +2538,7 @@ C언어 문법과 시스템 프로그래밍, 임베디드 개발로 이어지는
 
 ## 레오나르도다빈치 1452 르네상스 폴리매스
 
-작성 2025-05-16 · 수정 2025-05-16 · 태그 bib, adhd, polymath, innovation
+작성 2025-05-16 · 수정 2025-05-16 · 태그 bib, adhd, polymath, innovation, humanism
 
 다빈치를 르네상스 예술가를 넘어 호기심과 통합적 사고의 전형인 폴리매스로 다시 바라보며 창조적 사고의 원형을 찾는다.
 
@@ -2578,7 +2578,7 @@ C언어 문법과 시스템 프로그래밍, 임베디드 개발로 이어지는
 
 ## 윤근식 과학교 교사 챗GPT 영작문 왕초보 코딩
 
-작성 2024-01-04 · 수정 2025-05-15 · 태그 beginner, chatgpt, coding, english, writing
+작성 2024-01-04 · 수정 2025-05-15 · 태그 beginner, chatgpt, coding, english, teacher, writing
 
 윤근식의 책은 챗GPT를 영어 작문과 왕초보 코딩 수업에 연결해 교실에서 바로 써볼 수 있는 활용법을 보여준다.
 
@@ -2602,7 +2602,7 @@ C언어 문법과 시스템 프로그래밍, 임베디드 개발로 이어지는
 
 ## 류이치사카모토 1952 작곡가 피아니스트 프로듀서 사회운동가 음악가
 
-작성 2025-05-13 · 수정 2025-05-13 · 태그 bib, world, music, innovation, film
+작성 2025-05-13 · 수정 2025-05-13 · 태그 bib, world, music, humanism, innovation, film
 
 류이치 사카모토의 음악, 영화음악, 사회운동을 함께 보며 동시대 음악가의 넓이와 미학적 감각을 살핀다.
 
@@ -3786,7 +3786,7 @@ PADAone의 글과 책을 바탕으로 일본 옵시디언 활용법과 Zenn 기�
 
 ## 게리클라인 김창준 통찰 창의력 프로그래머 애자일 실용주의 직관
 
-작성 2025-03-25 · 수정 2025-03-25 · 태그 bib, programmer, thinking, intuition, creativity
+작성 2025-03-25 · 수정 2025-03-25 · 태그 bib, pragmatic, programmer, thinking, intuition, creativity
 
 게리 클라인과 김창준의 작업은 통찰, 직관, 함께 자라기를 통해 실무적 창의성이 어떻게 생기는지 보여준다.
 
@@ -3794,7 +3794,7 @@ PADAone의 글과 책을 바탕으로 일본 옵시디언 활용법과 Zenn 기�
 
 ## 앤드류헌트 실용주의 사고 학습 프로그래머
 
-작성 2025-03-25 · 수정 2025-03-25 · 태그 bib, guru, learning, programmer, thinking
+작성 2025-03-25 · 수정 2025-03-25 · 태그 bib, guru, learning, pragmatic, programmer, thinking
 
 앤드류 헌트는 실용주의 프로그래밍과 학습법을 통해 개발자를 스스로 갱신하는 실천가로 그려낸다.
 
@@ -3962,7 +3962,7 @@ UCBLogo와 Snap!, SICP 교육을 잇는 브라이언 하비의 작업을 따라�
 
 ## 벤고르첼 Hyperon AGI Metta 인공지능 전문가
 
-작성 2024-12-13 · 수정 2025-03-16 · 태그 bib, singularity, agi, ai
+작성 2024-12-13 · 수정 2025-03-16 · 태그 agi, ai, bib, singularity
 
 벤 고르첼의 Hyperon·MeTTa·OpenCog 자료를 묶어 AGI를 향한 상징적 접근의 현재를 가늠한다.
 
@@ -4138,7 +4138,7 @@ UCBLogo와 Snap!, SICP 교육을 잇는 브라이언 하비의 작업을 따라�
 
 ## 오노레드발자크 1799 파리 옥탑방 소설 인간희극 불꽃 수도복
 
-작성 2025-02-26 · 수정 2025-02-26 · 태그 bib, novel
+작성 2025-02-26 · 수정 2025-02-26 · 태그 bib, realism, novel
 
 발자크는 『인간희극』으로 욕망과 돈, 도시와 계급의 움직임을 집요하게 포착한 프랑스 사실주의의 거장이다.
 
@@ -4802,7 +4802,7 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 
 ## 장피아제 발생적인식론 - 조작적구성주의
 
-작성 2024-12-10 · 수정 2024-12-10 · 태그 bib
+작성 2024-12-10 · 수정 2024-12-10 · 태그 bib, epistemology
 
 지식과 논리가 발달 과정에서 어떻게 구성되는지 설명하며 피아제의 조작적 구성주의를 간명하게 소개한다.
 
@@ -4858,7 +4858,7 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 
 ## 한상기: 지식론 인식론 - 입문서
 
-작성 2024-07-21 · 수정 2024-12-10 · 태그 bib
+작성 2024-07-21 · 수정 2024-12-10 · 태그 bib, epistemology
 
 지식이란 무엇인지, 믿음과 정당화는 어떻게 구별되는지 인식론의 핵심 논점을 명료하게 안내한다.
 
@@ -4954,7 +4954,7 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 
 ## 스티븐핑커 언어본능 본성 선한천사 계몽 - 이성, 과학, 휴머니즘, 진보
 
-작성 2024-12-05 · 수정 2024-12-05 · 태그 bib, enlightenment, progress
+작성 2024-12-05 · 수정 2024-12-05 · 태그 bib, enlightenment, humanism, progress
 
 언어, 인간 본성, 폭력의 감소, 계몽의 가치까지 아우르며 이성과 과학, 휴머니즘의 장기적 성과를 변호한다.
 

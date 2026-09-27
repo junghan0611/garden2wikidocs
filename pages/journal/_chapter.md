@@ -12,7 +12,7 @@
 
 작성 2026-09-21 · 수정 2026-09-21 · 태그 journal
 
-GLG AWAKE
+neomacs v0.0.19 정식 릴리즈로 §doomemacs-config 재측정 시점이 왔고, 하이NIX 현장 출장에서 nixos-zigbee 마스터·슬레이브 노드 설치를 직접 검증한 주. entwurf 0.25.0·herdr 플러그인 0.5.0을 sol 코디네이터·opus 실무자 체제로 전환하며 pi/claudecode 딜리버리 소켓 문제를 짚었고, 릭루빈·오바마·헤일스 영상을 오가며 '흔들리지 않고 갈 길을 가는 것' 하나로 돌직구를 다졌다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/journal/20260921T000000/)
 

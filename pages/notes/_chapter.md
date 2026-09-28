@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: i-am-emacs neomacs 이맥스 코어 리서치
+
+작성 2026-02-09 · 수정 2026-09-28 · 태그 architecture, autholog, emacs, research
+
+Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 실제 프로젝트와 수치로 추적한 리서치다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381850)
+
 ## 힣: 협력의 진화 - PR을 기다리는 시간과 이름을 밝히는 말하는 손
 
 작성 2025-07-20 · 수정 2026-09-27 · 태그 agent, autholog, contribution, cooperation, github, opensource
@@ -1119,14 +1127,6 @@ ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 
 제주 회식 뒤 주식·주식·픟롬프트를 겹쳐 읽으며, AGI 이후에도 사람들이 각자의 확인 루프로 생을 뜨겁게 태울 것이라는 감각을 담은 autholog이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381472)
-
-## 힣: i-am-emacs neomacs 이맥스 코어 리서치
-
-작성 2026-02-09 · 수정 2026-07-01 · 태그 architecture, autholog, emacs, research
-
-Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 실제 프로젝트와 수치로 추적한 리서치다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381850)
 
 ## 힣: 제주 재주 재수 - 정보과학회 전문가 막차
 

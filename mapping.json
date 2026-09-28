@@ -1,4 +1,16 @@
 {
+  "20260928T000000": {
+    "path": "pages/journal/20260928T000000.md",
+    "subject": "2026-09-28~2026-10-04_W39",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20260928T000000/",
+    "source_date": "2026-09-28T00:00:00+09:00",
+    "source_lastmod": "2026-09-28T06:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20260921T000000": {
     "path": "pages/journal/20260921T000000.md",
     "subject": "2026-09-21~2026-09-27_W38",
@@ -22647,6 +22659,23 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20260209T123532": {
+    "path": "pages/notes/20260209T123532.md",
+    "subject": "20260928 힣: i-am-emacs neomacs 이맥스 코어 리서치",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20260209T123532/",
+    "source_date": "2026-02-09T12:35:00+09:00",
+    "source_lastmod": "2026-09-28T09:04:00+09:00",
+    "description": "Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 실제 프로젝트와 수치로 추적한 리서치다.",
+    "tags": [
+      "architecture",
+      "autholog",
+      "emacs",
+      "research"
+    ],
+    "page_id": 381850,
+    "url": "https://wikidocs.net/381850"
+  },
   "20250720T171730": {
     "path": "pages/notes/20250720T171730.md",
     "subject": "20260927 힣: 협력의 진화 - PR을 기다리는 시간과 이름을 밝히는 말하는 손",
@@ -25373,23 +25402,6 @@
     ],
     "page_id": 381472,
     "url": "https://wikidocs.net/381472"
-  },
-  "20260209T123532": {
-    "path": "pages/notes/20260209T123532.md",
-    "subject": "20260701 힣: i-am-emacs neomacs 이맥스 코어 리서치",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20260209T123532/",
-    "source_date": "2026-02-09T12:35:00+09:00",
-    "source_lastmod": "2026-07-01T18:52:00+09:00",
-    "description": "Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 실제 프로젝트와 수치로 추적한 리서치다.",
-    "tags": [
-      "architecture",
-      "autholog",
-      "emacs",
-      "research"
-    ],
-    "page_id": 381850,
-    "url": "https://wikidocs.net/381850"
   },
   "20240730T091506": {
     "path": "pages/notes/20240730T091506.md",
@@ -36670,7 +36682,7 @@
   },
   "20260529T084444": {
     "path": "pages/botlog/20260529T084444.md",
-    "subject": "20260927 neomacs-config: 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집",
+    "subject": "20260927 neomacs-config: 담당자 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260529T084444/",
     "source_date": "2026-05-29T08:44:00+09:00",

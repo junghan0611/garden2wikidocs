@@ -8,7 +8,7 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 81개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
-## neomacs-config: 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집
+## neomacs-config: 담당자 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집
 
 작성 2026-05-29 · 수정 2026-09-27 · 태그 agent, botlog, dotfiles, emacs, reproducibility, verification
 

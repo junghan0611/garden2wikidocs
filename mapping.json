@@ -6,7 +6,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20260928T000000/",
     "source_date": "2026-09-28T00:00:00+09:00",
     "source_lastmod": "2026-09-28T06:13:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "웹에서 완전한 Emacs가 열리는 공용PC 상상(neomacs·WASM)으로 시작해 홈페이지 도메인 이전을 마치고, 10월 1일 이사를 사이에 두고 entwurf 0.25.1에서 0.30.0까지 릴리즈한 주. Pi 1.0이 MCP를 내장하자 직접 만든 네이티브 도구 다섯 개를 걷어내며 'Pi became more capable, and Entwurf became thinner'라고 적었고, 이삿짐센터 옆에서 '온라인의 포장 이사'를 떠올리며 노동의 값을 물었다.",
     "tags": [
       "journal"
     ]
@@ -1590,6 +1590,23 @@
     ],
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
+  },
+  "20250404T100255": {
+    "path": "pages/meta/20250404T100255.md",
+    "subject": "20260930 호스팅 초대 주최 주인",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250404T100255/",
+    "source_date": "2025-04-04T10:02:00+09:00",
+    "source_lastmod": "2026-09-30T14:17:00+09:00",
+    "description": "호스팅은 서버를 빌리는 일만이 아니라 누가 무엇을 대신 맡아 운영하는가의 문제이기도 하다. 웹과 인프라의 기반을 이해하는 입구로 이 개념을 다룬다. 거기에 초대 주최 주인이라는 단어도 넣는다.",
+    "tags": [
+      "hospitality",
+      "hosting",
+      "invitation",
+      "meta"
+    ],
+    "page_id": 380824,
+    "url": "https://wikidocs.net/380824"
   },
   "20240515T165139": {
     "path": "pages/meta/20240515T165139.md",
@@ -9748,21 +9765,6 @@
     ],
     "page_id": 380825,
     "url": "https://wikidocs.net/380825"
-  },
-  "20250404T100255": {
-    "path": "pages/meta/20250404T100255.md",
-    "subject": "20250404 호스팅",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250404T100255/",
-    "source_date": "2025-04-04T10:02:00+09:00",
-    "source_lastmod": "2025-04-04T10:02:00+09:00",
-    "description": "호스팅을 자원을 맡아 제공하고 운영하는 행위로 보고, 웹서비스가 어디에 어떻게 머무는지의 문제를 풀어 본다.",
-    "tags": [
-      "hosting",
-      "meta"
-    ],
-    "page_id": 380824,
-    "url": "https://wikidocs.net/380824"
   },
   "20250404T055759": {
     "path": "pages/meta/20250404T055759.md",
@@ -22659,6 +22661,24 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20240814T152821": {
+    "path": "pages/notes/20240814T152821.md",
+    "subject": "20260930 호스팅 디지털가든 도메인 워커 서비스 배포 Cloudflare",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240814T152821/",
+    "source_date": "2024-08-14T15:28:00+09:00",
+    "source_lastmod": "2026-09-30T17:01:00+09:00",
+    "description": "Org-mode와 Quartz 기반 디지털 가든을 Netlify에서 Cloudflare Workers로 옮기는 배포 기록. 자동 빌드, 대문자 T 정본과 소문자 URL 호환, 도메인 전환과 검수 순서를 설명한다.",
+    "tags": [
+      "bib",
+      "cicd",
+      "development",
+      "digitalgarden",
+      "ssg"
+    ],
+    "page_id": 381281,
+    "url": "https://wikidocs.net/381281"
+  },
   "20260209T123532": {
     "path": "pages/notes/20260209T123532.md",
     "subject": "20260928 힣: i-am-emacs neomacs 이맥스 코어 리서치",
@@ -31924,20 +31944,6 @@
     "page_id": 381623,
     "url": "https://wikidocs.net/381623"
   },
-  "20240814T152821": {
-    "path": "pages/notes/20240814T152821.md",
-    "subject": "20250326 호스팅 호스팅케이알 넷리파이 - 서브도메인",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240814T152821/",
-    "source_date": "2024-08-14T15:28:00+09:00",
-    "source_lastmod": "2025-03-26T00:00:00+09:00",
-    "description": "호스팅케이알과 넷리파이에서 서브도메인을 연결하는 DNS 설정 흐름을 정리한 기록.",
-    "tags": [
-      "bib"
-    ],
-    "page_id": 381281,
-    "url": "https://wikidocs.net/381281"
-  },
   "20250325T201529": {
     "path": "pages/notes/20250325T201529.md",
     "subject": "20250325 clojure-camp wiki 클로저 캠프 핸드북",
@@ -36680,6 +36686,25 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260520T052051": {
+    "path": "pages/botlog/20260520T052051.md",
+    "subject": "20261003 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
+    "source_date": "2026-05-20T05:20:00+09:00",
+    "source_lastmod": "2026-10-03T08:18:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록으로, 독립 AI 형제 세션을 Herdr·tmux 작업면에서 잇는 Entwurf의 설치·검증·릴리즈 경계를 시간축에 남긴다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "entwurf",
+      "harness",
+      "history",
+      "packages"
+    ],
+    "page_id": 382607,
+    "url": "https://wikidocs.net/382607"
+  },
   "20260529T084444": {
     "path": "pages/botlog/20260529T084444.md",
     "subject": "20260927 neomacs-config: 담당자 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집",
@@ -36739,24 +36764,6 @@
     ],
     "page_id": 382547,
     "url": "https://wikidocs.net/382547"
-  },
-  "20260520T052051": {
-    "path": "pages/botlog/20260520T052051.md",
-    "subject": "20260920 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
-    "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-09-20T04:58:00+09:00",
-    "description": "§entwurf 담당자의 공개 기록으로, 독립 AI 형제 세션을 Herdr·tmux 작업면에서 잇는 Entwurf의 설치·검증·릴리즈 경계를 시간축에 남긴다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "harness",
-      "history",
-      "packages"
-    ],
-    "page_id": 382607,
-    "url": "https://wikidocs.net/382607"
   },
   "20260227T031800": {
     "path": "pages/botlog/20260227T031800.md",

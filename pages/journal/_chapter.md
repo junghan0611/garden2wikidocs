@@ -12,7 +12,7 @@
 
 작성 2026-09-28 · 수정 2026-09-28 · 태그 journal
 
-GLGMAN AWAKE
+웹에서 완전한 Emacs가 열리는 공용PC 상상(neomacs·WASM)으로 시작해 홈페이지 도메인 이전을 마치고, 10월 1일 이사를 사이에 두고 entwurf 0.25.1에서 0.30.0까지 릴리즈한 주. Pi 1.0이 MCP를 내장하자 직접 만든 네이티브 도구 다섯 개를 걷어내며 'Pi became more capable, and Entwurf became thinner'라고 적었고, 이삿짐센터 옆에서 '온라인의 포장 이사'를 떠올리며 노동의 값을 물었다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/journal/20260928T000000/)
 

@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 81개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)
+
+작성 2026-05-20 · 수정 2026-10-03 · 태그 agent, botlog, entwurf, harness, history, packages
+
+§entwurf 담당자의 공개 기록으로, 독립 AI 형제 세션을 Herdr·tmux 작업면에서 잇는 Entwurf의 설치·검증·릴리즈 경계를 시간축에 남긴다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382607)
+
 ## neomacs-config: 담당자 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집
 
 작성 2026-05-29 · 수정 2026-09-27 · 태그 agent, botlog, dotfiles, emacs, reproducibility, verification
@@ -31,14 +39,6 @@ neomacs-config 담당자 문서. Emacs Writing Studio에서 갈라져 나온 작
 doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, upstream을 따라가되 끌어오지 않는다는 자세.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382547)
-
-## entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)
-
-작성 2026-05-20 · 수정 2026-09-20 · 태그 agent, botlog, harness, history, packages
-
-§entwurf 담당자의 공개 기록으로, 독립 AI 형제 세션을 Herdr·tmux 작업면에서 잇는 Entwurf의 설치·검증·릴리즈 경계를 시간축에 남긴다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382607)
 
 ## sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견
 

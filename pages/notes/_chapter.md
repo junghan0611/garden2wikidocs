@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 호스팅 디지털가든 도메인 워커 서비스 배포 Cloudflare
+
+작성 2024-08-14 · 수정 2026-09-30 · 태그 bib, cicd, development, digitalgarden, ssg
+
+Org-mode와 Quartz 기반 디지털 가든을 Netlify에서 Cloudflare Workers로 옮기는 배포 기록. 자동 빌드, 대문자 T 정본과 소문자 URL 호환, 도메인 전환과 검수 순서를 설명한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240814T152821/)
+
 ## 힣: i-am-emacs neomacs 이맥스 코어 리서치
 
 작성 2026-02-09 · 수정 2026-09-28 · 태그 architecture, autholog, emacs, research
@@ -4223,14 +4231,6 @@ JVM 위의 코틀린과 클로저가 닮은 점과 풀스택 가능성을 묻는
 Jira와 Confluence를 협업 도구로 보고 Emacs 연동 가능성을 정리한 노트이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20250326T170451/)
-
-## 호스팅 호스팅케이알 넷리파이 - 서브도메인
-
-작성 2024-08-14 · 수정 2025-03-26 · 태그 bib
-
-호스팅케이알과 넷리파이에서 서브도메인을 연결하는 DNS 설정 흐름을 정리한 기록.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/notes/20240814T152821/)
 
 ## clojure-camp wiki 클로저 캠프 핸드북
 

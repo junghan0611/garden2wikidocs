@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 호스팅 초대 주최 주인
+
+작성 2025-04-04 · 수정 2026-09-30 · 태그 hospitality, hosting, invitation, meta
+
+호스팅은 서버를 빌리는 일만이 아니라 누가 무엇을 대신 맡아 운영하는가의 문제이기도 하다. 웹과 인프라의 기반을 이해하는 입구로 이 개념을 다룬다. 거기에 초대 주최 주인이라는 단어도 넣는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250404T100255/)
+
 ## 사이버네틱스 포스트휴먼 포스트휴머니즘 트랜스휴머니즘
 
 작성 2024-05-15 · 수정 2026-09-26 · 태그 cybernetics, humanism, informatics, meta, posthuman, posthumanism, transhumanism
@@ -3687,14 +3695,6 @@ VSCode를 이맥스와 대비되는 대안이 아니라 함께 가져갈 개발 
 지피텔을 Emacs 안에서 LLM과 대화하게 해 주는 클라이언트로 보고, 관련 저장소와 활용 맥락을 모아 둔다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250404T125106/)
-
-## 호스팅
-
-작성 2025-04-04 · 수정 2025-04-04 · 태그 hosting, meta
-
-호스팅을 자원을 맡아 제공하고 운영하는 행위로 보고, 웹서비스가 어디에 어떻게 머무는지의 문제를 풀어 본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250404T100255/)
 
 ## 데브옵스 DevOps MLOps LLMOps
 

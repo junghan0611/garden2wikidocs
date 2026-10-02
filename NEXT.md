@@ -6,26 +6,26 @@
 # RAIL — 현재 좌표
 
 - [x] **1. 코어 발행면·2단계 push 안전장치 확립**
-- [ ] **2. 다음 가든 export를 코어 책으로 반영** ← CURRENT: export 입력 대기
-- [ ] **3. 책 공유용 짧은 도메인 연결** ← PAUSED: Netlify 리디렉션 사이트를 만들 시간 대기
+- [x] **2. 가든 `261fe0d31` export를 코어 책으로 반영** (push `8035cb60`, 라이브 289/289)
+- [ ] **3. 다음 가든 export 반영** ← CURRENT: export 입력 대기
+- [ ] **4. 책 공유용 짧은 도메인 연결** ← PAUSED: Netlify 리디렉션 사이트를 만들 시간 대기
 
-현재 좌표: 1 완료 → 2 입력 대기 → 3 보류
+현재 좌표: 2 완료 → 3 입력 대기 → 4 보류
 
-## NOW — 폴더 표지 provenance를 다음 가든 export와 함께 발행
+## NOW — 다음 가든 export 입력 대기
 
-- **Current**: `build.py`가 다섯 폴더 표지에 가든 폴더 URL provenance를 생성하고,
-  `audit.py`가 블록의 정확성·첫 위치를 검증한다. clean garden `fdef59dcd` 입력으로
-  `build --core → relink → audit --core`, 동일 출력 SHA256, unittest **86/86**을 통과했다.
-- **Next**: diff에는 표지 5개, generator/audit/테스트, source commit에 따른
-  `BUILD-MANIFEST.json`·README 동기화일만 남는다. GLG 승인 시 commit하고, 별도 push 승인 시에만
-  push 뒤 `status.py --list`로 동기화 상태를 확인한다.
-- **Blocker**: 없음 — 가든 worktree clean, origin/main과 일치(측정: 2026-08-29).
-- **Verify**: `audit --core` 경고 0, unittest 86/86, 같은 clean 입력의 build→relink 출력
-  SHA256 동일, `status.py --list` 미생성 0 / pending 0.
-- **Read**: SKILL.md 「폴더 = 챕터」 및 「삭제된 페이지의 page_id 는 부활하지 않는다」,
-  `build.py`의 `chapter_provenance_block`, `audit.py`의 `index_provenance_findings`.
+- **Current**: 마지막 반영은 가든 `261fe0d31`(2026-10-03, 1단계 push `8035cb60`). `status.py --list`
+  가 289/289 100%, 미생성 0, 미발행 1962(TOC 밖이라 정상)로 닫혔다. 발행면 288/500,
+  `autholog` 213개(측정: 이번 build 출력).
+- **Next**: GLG가 "가든 내보내기 완료"를 알리면 SKILL.md 「정상 갱신」 순서로 build→relink→
+  audit→unittest를 돌리고 diff를 보고한다. build가 `발행면 page_id 미회수 N개`를 찍으면 2단계 push.
+  commit 승인 뒤, push는 별도 요청이 있을 때만.
+- **Blocker**: 없음 — 가든 worktree clean(측정: 2026-10-03).
+- **Verify**: `audit --core` 통과(`--allow-missing-page-ids` 없이), unittest 86/86,
+  push 후 `status.py --list` pending 0.
+- **Read**: SKILL.md 「정상 갱신」·「신규 page_id가 있는 갱신」·「삭제된 페이지의 page_id 는 부활하지 않는다」.
 - **Do not touch**: `~/repos/gh/notes` 또는 `pages/` 생성물을 손편집하지 않는다. TOC 밖
-  page_id 링크를 만들지 않으며, GLG의 현재 세션 명시 승인 전 commit/push하지 않는다.
+  page_id 링크를 만들지 않으며, GLG의 현재 세션 명시 요청 전 push하지 않는다.
 
 ## DONE — 2026-07-27 세 판 + 2026-07-28 4판 (전부 push 완료)
 
@@ -90,7 +90,7 @@
 - **파이프라인**: `build --core` → `relink` → `audit --core`. `--garden-links` 는 기본이
   아니라 발행면을 갈아엎을 때만 켜는 안전판이다. build 가 `pages/` 를 rmtree 하므로
   **build 를 돌렸으면 relink 도 반드시 다시 돌린다.**
-- **Verify**: `audit --core` 통과 + `unittest` 84/84 + 같은 명령 두 번 빌드 sha256 diff 0줄
+- **Verify**: `audit --core` 통과 + `unittest` 86/86 + 같은 명령 두 번 빌드 sha256 diff 0줄
   + relink 재실행 시 바뀐 파일 0 + `status.py` 가 발행면 기준 100%/exit 0. push 전에는
   라이브 gid와 새 TOC 를 대조해 생성/삭제 수를 먼저 확인한다.
 - **신규 page_id 가 생기면 2단계 push**: `audit --core --allow-missing-page-ids` → 1차 push
@@ -110,6 +110,10 @@
 
 ## RECENT
 
+- [2026-10-03] 가든 `261fe0d31` 판은 신규 page_id 없이 1단계 push로 끝났다(수정 32, 신규
+  이미지 2). mapping 의 page_id 미회수 11개(2239/2250)는 전부 발행면 밖이라 audit 이
+  `--allow-missing-page-ids` 없이 통과했다. push 직후 pending 이 봇로그 2건 남았다가
+  약 2.5분 뒤 자동으로 0 이 됐다 — 수동 재트리거는 필요 없었다.
 - [2026-07-28] 가드가 **두 번째 입구**에서 걸렸다. 2판은 새로 쓴 노트가 태그를 달고
   들어온 경우였고, 4판은 이미 있던 링크 모음 노트가 수선되며 어쏠로그로 승격한 경우다.
   둘 다 옛 page_id 가 죽어 있었지만 도착 경로가 달랐다. "새 노트를 조심하라" 가 아니라

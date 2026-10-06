@@ -7,20 +7,22 @@
 
 - [x] **1. 코어 발행면·2단계 push 안전장치 확립**
 - [x] **2. 가든 `261fe0d31` export를 코어 책으로 반영** (push `8035cb60`, 라이브 289/289)
-- [ ] **3. 다음 가든 export 반영** ← CURRENT: export 입력 대기
+- [x] **3. 가든 `ccfa03bda` export를 코어 책으로 반영** (push `72ac10cd`, 라이브 289/289)
+- [ ] **3b. 다음 가든 export 반영** ← CURRENT: export 입력 대기
 - [ ] **4. 책 공유용 짧은 도메인 연결** ← PAUSED: Netlify 리디렉션 사이트를 만들 시간 대기
 
-현재 좌표: 2 완료 → 3 입력 대기 → 4 보류
+현재 좌표: 3 완료 → 3b 입력 대기 → 4 보류
 
 ## NOW — 다음 가든 export 입력 대기
 
-- **Current**: 마지막 반영은 가든 `261fe0d31`(2026-10-03, 1단계 push `8035cb60`). `status.py --list`
-  가 289/289 100%, 미생성 0, 미발행 1962(TOC 밖이라 정상)로 닫혔다. 발행면 288/500,
-  `autholog` 213개(측정: 이번 build 출력).
+- **Current**: 마지막 반영은 가든 `ccfa03bda`(2026-10-06, 1단계 push `72ac10cd`). `status.py --list`
+  가 289/289 100%, 미생성 0, 미발행 1963(TOC 밖이라 정상)로 닫혔다. 발행면 288/500,
+  `autholog` 213개 불변(측정: 이번 build 출력). 발행면 안에서 바뀐 것은 README·`notes/20240905T152133`
+  뿐이고 나머지(저널 2건·이미지 5장)는 발행면 밖이다.
 - **Next**: GLG가 "가든 내보내기 완료"를 알리면 SKILL.md 「정상 갱신」 순서로 build→relink→
   audit→unittest를 돌리고 diff를 보고한다. build가 `발행면 page_id 미회수 N개`를 찍으면 2단계 push.
   commit 승인 뒤, push는 별도 요청이 있을 때만.
-- **Blocker**: 없음 — 가든 worktree clean(측정: 2026-10-03).
+- **Blocker**: 없음 — 가든 worktree clean(측정: 2026-10-06).
 - **Verify**: `audit --core` 통과(`--allow-missing-page-ids` 없이), unittest 86/86,
   push 후 `status.py --list` pending 0.
 - **Read**: SKILL.md 「정상 갱신」·「신규 page_id가 있는 갱신」·「삭제된 페이지의 page_id 는 부활하지 않는다」.

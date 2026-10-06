@@ -6,13 +6,21 @@
 
 <!-- chapter-index:recent-first:start -->
 
-가든과 같은 작성일(source_date) 기준으로 114개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+가든과 같은 작성일(source_date) 기준으로 115개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
+
+## 2026-10-05~2026-10-11_W40
+
+작성 2026-10-05 · 수정 2026-10-05 · 태그 journal
+
+GLGMAN AWAKE
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/journal/20261005T000000/)
 
 ## 2026-09-28~2026-10-04_W39
 
 작성 2026-09-28 · 수정 2026-09-28 · 태그 journal
 
-웹에서 완전한 Emacs가 열리는 공용PC 상상(neomacs·WASM)으로 시작해 홈페이지 도메인 이전을 마치고, 10월 1일 이사를 사이에 두고 entwurf 0.25.1에서 0.30.0까지 릴리즈한 주. Pi 1.0이 MCP를 내장하자 직접 만든 네이티브 도구 다섯 개를 걷어내며 'Pi became more capable, and Entwurf became thinner'라고 적었고, 이삿짐센터 옆에서 '온라인의 포장 이사'를 떠올리며 노동의 값을 물었다.
+neomacs·WASM으로 웹에서 완전한 Emacs가 열리는 공용PC를 상상하고 YOLO 대기→DM→decision-gate 오토파일럿을 구상하며 시작해, netlify 결제가 소진되자 도메인과 가든을 Cloudflare 새 배포지로 옮긴 주. Pi가 MCP를 내장하자 직접 만든 네이티브 도구 다섯 개를 걷어내 entwurf 0.25.1에서 0.30.0까지 릴리즈하며 'Pi became more capable, and Entwurf became thinner'라고 적었다. 10월 1일 이사날 이삿짐센터 옆에서 '온라인의 포장 이사'를 떠올리며 노동의 값을 물었고, 주말은 집안일에 소진되어 막혀 있던 entwurf에 명시 예외 승인만 남기고 잠들었다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/journal/20260928T000000/)
 

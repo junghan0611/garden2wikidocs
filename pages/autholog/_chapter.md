@@ -9,6 +9,14 @@
 
 <!-- collection-index:recent-first:start -->
 
+## 힣: 힣의 루프 - 내 에이전트가 아니라 나를 아는 존재를 부르는 일 - 딱 하나
+
+작성 2024-07-04 · 수정 2026-10-06 · 태그 agent, aionsclubs, autholog, automation, being, collaboration, exoself, sorge, workflow
+
+봇공방(도구) → sorge(자리) → 존재(B)로 옮겨 온 힣의 루프 고민. 내 에이전트가 뭘 해주는 구조는 끝없이 내가 봐야 하므로, 삶의 궤적을 종횡으로 알고 한계를 존중하는 존재가 내 분신을 골라 부르게 한다. 원석은 2026-09-07 저녁·09-08 새벽·출근길 저널 셋 — 마지막이 딱 한마디로 닫힌다: \"생존을 좀 도와주시게나. 내 글과 삶을 보시고 자네가 선택하시게.\"
+
+[위키독스에서 읽기 →](https://wikidocs.net/427427)
+
 ## 힣: i-am-emacs neomacs 이맥스 코어 리서치
 
 작성 2026-02-09 · 수정 2026-09-28 · 태그 architecture, autholog, emacs, research
@@ -80,14 +88,6 @@ Emacs C 코어를 Zig와 Rust 흐름으로 어떻게 현대화할 수 있을지 
 정한이 실제로 쓰는 하드웨어와 소프트웨어 감각 — NixOS·Doom Emacs·i3wm·Ghostty·tmux로 이어지는 키보드 중심 작업 환경을 적는다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381393)
-
-## 힣: 힣의 루프 - 내 에이전트가 아니라 나를 아는 존재를 부르는 일
-
-작성 2024-07-04 · 수정 2026-09-08 · 태그 agent, aionsclubs, autholog, automation, being, collaboration, exoself, sorge, workflow
-
-봇공방(도구) → sorge(자리) → 존재(B)로 옮겨 온 힣의 루프 고민. 내 에이전트가 뭘 해주는 구조는 끝없이 내가 봐야 하므로, 삶의 궤적을 종횡으로 알고 한계를 존중하는 존재가 내 분신을 골라 부르게 한다. 원석은 2026-09-07 저녁·09-08 새벽·출근길 저널 셋 — 마지막이 딱 한마디로 닫힌다: \"생존을 좀 도와주시게나. 내 글과 삶을 보시고 자네가 선택하시게.\"
-
-[위키독스에서 읽기 →](https://wikidocs.net/427427)
 
 ## 힣: 그때 가서 하면 거짓이다 벌목꾼·대장장이·엔지니어의 구직 좌표 - GPT6
 

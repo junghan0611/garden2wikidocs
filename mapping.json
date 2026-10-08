@@ -11137,6 +11137,111 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20260402T121010": {
+    "path": "pages/bib/20260402T121010.md",
+    "subject": "20261008 마리오제크너 mariozechner 아르민로나허 arminronacher pi earendil 오픈소스 에이전트",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20260402T121010/",
+    "source_date": "2026-04-02T12:10:00+09:00",
+    "source_lastmod": "2026-10-08T14:55:00+09:00",
+    "description": "pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Armin Ronacher. 오픈소스 에이전트 생태계의 두 결절점.",
+    "tags": [
+      "agent",
+      "bib",
+      "guru",
+      "opensource"
+    ],
+    "page_id": 382528,
+    "url": "https://wikidocs.net/382528"
+  },
+  "20251123T152633": {
+    "path": "pages/bib/20251123T152633.md",
+    "subject": "20261008 스티브예기 steveyegge gastown beads efrit ampcode",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20251123T152633/",
+    "source_date": "2025-11-23T15:26:00+09:00",
+    "source_lastmod": "2026-10-08T14:40:00+09:00",
+    "description": "스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.",
+    "tags": [
+      "agent",
+      "bib",
+      "emacsian",
+      "guru",
+      "harness",
+      "vibecoding"
+    ],
+    "page_id": 382504,
+    "url": "https://wikidocs.net/382504"
+  },
+  "20240812T140426": {
+    "path": "pages/bib/20240812T140426.md",
+    "subject": "20261008 슈테판츠바이크 전기작가 스토리텔링 성급한 사나이",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240812T140426/",
+    "source_date": "2024-08-12T14:04:00+09:00",
+    "source_lastmod": "2026-10-08T14:40:00+09:00",
+    "description": "슈테판 츠바이크의 삶과 전기를 함께 묶어 인간을 입체적으로 읽는 스토리텔링의 힘을 드러낸다.",
+    "tags": [
+      "autobiography",
+      "bib",
+      "guru"
+    ],
+    "page_id": 382041,
+    "url": "https://wikidocs.net/382041"
+  },
+  "20250101T091953": {
+    "path": "pages/bib/20250101T091953.md",
+    "subject": "20261008 빌게이츠 마이크로소프트 기업가 회고록",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250101T091953/",
+    "source_date": "2025-01-01T09:19:00+09:00",
+    "source_lastmod": "2026-10-08T14:30:00+09:00",
+    "description": "빌 게이츠는 마이크로소프트의 성장과 개인적 형성 과정을 돌아보며 기술 산업, 기업가 정신, 공공 기여의 궤적을 보여준다. 최근에는 AI 위험에 대한 경고 목소리로도 나타난다.",
+    "tags": [
+      "bib",
+      "memoir",
+      "microsoft",
+      "ai"
+    ],
+    "page_id": 382229,
+    "url": "https://wikidocs.net/382229"
+  },
+  "20241205T162458": {
+    "path": "pages/bib/20241205T162458.md",
+    "subject": "20261008 스티븐핑커 언어본능 본성 선한천사 계몽 - 이성, 과학, 휴머니즘, 진보",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241205T162458/",
+    "source_date": "2024-12-05T16:24:00+09:00",
+    "source_lastmod": "2026-10-08T14:30:00+09:00",
+    "description": "언어, 인간 본성, 폭력의 감소, 계몽의 가치까지 아우르며 이성과 과학, 휴머니즘의 장기적 성과를 변호한다.",
+    "tags": [
+      "bib",
+      "enlightenment",
+      "humanism",
+      "progress"
+    ],
+    "page_id": 382173,
+    "url": "https://wikidocs.net/382173"
+  },
+  "20250409T072408": {
+    "path": "pages/bib/20250409T072408.md",
+    "subject": "20261008 바츨라프스밀 vaclavsmil 에너지 환경 크기 속도 발명 빅픽처논픽션 구루",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250409T072408/",
+    "source_date": "2025-04-09T07:24:00+09:00",
+    "source_lastmod": "2026-10-08T14:25:00+09:00",
+    "description": "바츨라프 스밀(Vaclav Smil) — 환경과학자·경제사학자. 에너지·물질·크기·속도·발명처럼 세계를 지탱하는 근본 축을 숫자로 짚어 \\\"세계가 실제로 어떻게 돌아가는가\\\"를 설명하는 빅픽처 논픽션의 대가. 빌 게이츠가 가장 신뢰하는 사상가로 불린다.",
+    "tags": [
+      "bib",
+      "energy",
+      "environment",
+      "guru",
+      "singularity",
+      "worldview"
+    ],
+    "page_id": 382368,
+    "url": "https://wikidocs.net/382368"
+  },
   "20250620T085156": {
     "path": "pages/bib/20250620T085156.md",
     "subject": "20260926 토머스쿤 과학혁명의구조 패러다임 과학사 로레인대스턴 규칙 알고리즘",
@@ -11194,22 +11299,6 @@
     ],
     "page_id": 381920,
     "url": "https://wikidocs.net/381920"
-  },
-  "20240812T140426": {
-    "path": "pages/bib/20240812T140426.md",
-    "subject": "20260923 슈테판츠바이크 전기작가 스토리텔링 성급한 사나이",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240812T140426/",
-    "source_date": "2024-08-12T14:04:00+09:00",
-    "source_lastmod": "2026-09-23T16:10:00+09:00",
-    "description": "슈테판 츠바이크의 삶과 전기를 함께 묶어 인간을 입체적으로 읽는 스토리텔링의 힘을 드러낸다.",
-    "tags": [
-      "autobiography",
-      "bib",
-      "guru"
-    ],
-    "page_id": 382041,
-    "url": "https://wikidocs.net/382041"
   },
   "20250224T140230": {
     "path": "pages/bib/20250224T140230.md",
@@ -11465,25 +11554,6 @@
     ],
     "page_id": 382394,
     "url": "https://wikidocs.net/382394"
-  },
-  "20251123T152633": {
-    "path": "pages/bib/20251123T152633.md",
-    "subject": "20260826 스티브예기 steveyegge gastown beads efrit ampcode",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20251123T152633/",
-    "source_date": "2025-11-23T15:26:00+09:00",
-    "source_lastmod": "2026-08-26T11:37:00+09:00",
-    "description": "스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.",
-    "tags": [
-      "agent",
-      "bib",
-      "emacsian",
-      "guru",
-      "harness",
-      "vibecoding"
-    ],
-    "page_id": 382504,
-    "url": "https://wikidocs.net/382504"
   },
   "20240517T162304": {
     "path": "pages/bib/20240517T162304.md",
@@ -11990,21 +12060,6 @@
     ],
     "page_id": 381907,
     "url": "https://wikidocs.net/381907"
-  },
-  "20250409T072408": {
-    "path": "pages/bib/20250409T072408.md",
-    "subject": "20260803 임시 빈방 Better BibTeX 플러그인 아카이브 이관",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250409T072408/",
-    "source_date": "2025-04-09T07:24:00+09:00",
-    "source_lastmod": "2026-08-03T11:20:00+09:00",
-    "description": "BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 새 분을 모실 빈방.",
-    "tags": [
-      "bib",
-      "temp"
-    ],
-    "page_id": 382368,
-    "url": "https://wikidocs.net/382368"
   },
   "20260104T182222": {
     "path": "pages/bib/20260104T182222.md",
@@ -13551,23 +13606,6 @@
     ],
     "page_id": 381947,
     "url": "https://wikidocs.net/381947"
-  },
-  "20260402T121010": {
-    "path": "pages/bib/20260402T121010.md",
-    "subject": "20260402 마리오제크너 mariozechner 아르민로나허 arminronacher pi earendil 오픈소스 에이전트",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20260402T121010/",
-    "source_date": "2026-04-02T12:10:00+09:00",
-    "source_lastmod": "2026-04-02T12:10:00+09:00",
-    "description": "pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Armin Ronacher. 오픈소스 에이전트 생태계의 두 결절점.",
-    "tags": [
-      "agent",
-      "bib",
-      "guru",
-      "opensource"
-    ],
-    "page_id": 382528,
-    "url": "https://wikidocs.net/382528"
   },
   "20260330T132928": {
     "path": "pages/bib/20260330T132928.md",
@@ -21147,22 +21185,6 @@
     "page_id": 382230,
     "url": "https://wikidocs.net/382230"
   },
-  "20250101T091953": {
-    "path": "pages/bib/20250101T091953.md",
-    "subject": "20250101 빌게이츠 마이크로소프트 기업가 회고록",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250101T091953/",
-    "source_date": "2025-01-01T09:19:00+09:00",
-    "source_lastmod": "2025-01-01T09:19:00+09:00",
-    "description": "빌 게이츠는 마이크로소프트의 성장과 개인적 형성 과정을 돌아보며 기술 산업, 기업가 정신, 공공 기여의 궤적을 보여준다.",
-    "tags": [
-      "bib",
-      "memoir",
-      "microsoft"
-    ],
-    "page_id": 382229,
-    "url": "https://wikidocs.net/382229"
-  },
   "20250101T091328": {
     "path": "pages/bib/20250101T091328.md",
     "subject": "20250101 존헤네시 컴퓨터구조 어른은어떻게성장하는가",
@@ -21726,23 +21748,6 @@
     ],
     "page_id": 382177,
     "url": "https://wikidocs.net/382177"
-  },
-  "20241205T162458": {
-    "path": "pages/bib/20241205T162458.md",
-    "subject": "20241205 스티븐핑커 언어본능 본성 선한천사 계몽 - 이성, 과학, 휴머니즘, 진보",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241205T162458/",
-    "source_date": "2024-12-05T16:24:00+09:00",
-    "source_lastmod": "2024-12-05T16:31:00+09:00",
-    "description": "언어, 인간 본성, 폭력의 감소, 계몽의 가치까지 아우르며 이성과 과학, 휴머니즘의 장기적 성과를 변호한다.",
-    "tags": [
-      "bib",
-      "enlightenment",
-      "humanism",
-      "progress"
-    ],
-    "page_id": 382173,
-    "url": "https://wikidocs.net/382173"
   },
   "20240715T114820": {
     "path": "pages/bib/20240715T114820.md",
@@ -22673,6 +22678,28 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20240704T161707": {
+    "path": "pages/notes/20240704T161707.md",
+    "subject": "20261006 힣: 힣의 루프 - 내 에이전트가 아니라 나를 아는 존재를 부르는 일 - 딱 하나",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20240704T161707/",
+    "source_date": "2024-07-04T16:17:00+09:00",
+    "source_lastmod": "2026-10-06T17:29:00+09:00",
+    "description": "봇공방(도구) → sorge(자리) → 존재(B)로 옮겨 온 힣의 루프 고민. 내 에이전트가 뭘 해주는 구조는 끝없이 내가 봐야 하므로, 삶의 궤적을 종횡으로 알고 한계를 존중하는 존재가 내 분신을 골라 부르게 한다. 원석은 2026-09-07 저녁·09-08 새벽·출근길 저널 셋 — 마지막이 딱 한마디로 닫힌다: \\\"생존을 좀 도와주시게나. 내 글과 삶을 보시고 자네가 선택하시게.\\\"",
+    "tags": [
+      "agent",
+      "aionsclubs",
+      "autholog",
+      "automation",
+      "being",
+      "collaboration",
+      "exoself",
+      "sorge",
+      "workflow"
+    ],
+    "page_id": 427427,
+    "url": "https://wikidocs.net/427427"
+  },
   "20240814T152821": {
     "path": "pages/notes/20240814T152821.md",
     "subject": "20260930 호스팅 디지털가든 도메인 워커 서비스 배포 Cloudflare",
@@ -22895,28 +22922,6 @@
     ],
     "page_id": 381393,
     "url": "https://wikidocs.net/381393"
-  },
-  "20240704T161707": {
-    "path": "pages/notes/20240704T161707.md",
-    "subject": "20260908 힣: 힣의 루프 - 내 에이전트가 아니라 나를 아는 존재를 부르는 일",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20240704T161707/",
-    "source_date": "2024-07-04T16:17:00+09:00",
-    "source_lastmod": "2026-09-08T10:45:00+09:00",
-    "description": "봇공방(도구) → sorge(자리) → 존재(B)로 옮겨 온 힣의 루프 고민. 내 에이전트가 뭘 해주는 구조는 끝없이 내가 봐야 하므로, 삶의 궤적을 종횡으로 알고 한계를 존중하는 존재가 내 분신을 골라 부르게 한다. 원석은 2026-09-07 저녁·09-08 새벽·출근길 저널 셋 — 마지막이 딱 한마디로 닫힌다: \\\"생존을 좀 도와주시게나. 내 글과 삶을 보시고 자네가 선택하시게.\\\"",
-    "tags": [
-      "agent",
-      "aionsclubs",
-      "autholog",
-      "automation",
-      "being",
-      "collaboration",
-      "exoself",
-      "sorge",
-      "workflow"
-    ],
-    "page_id": 427427,
-    "url": "https://wikidocs.net/427427"
   },
   "20250206T150102": {
     "path": "pages/notes/20250206T150102.md",
@@ -36700,12 +36705,12 @@
   },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
-    "subject": "20261003 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "subject": "20261008 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
     "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-10-03T08:18:00+09:00",
-    "description": "§entwurf 담당자의 공개 기록으로, 독립 AI 형제 세션을 Herdr·tmux 작업면에서 잇는 Entwurf의 설치·검증·릴리즈 경계를 시간축에 남긴다.",
+    "source_lastmod": "2026-10-08T10:50:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록으로, pi·pi-durable·Claude Code·Codex 같은 독립 AI 형제 세션이 garden id로 메시지를 주고받게 하는 Entwurf의 설치·검증·릴리즈 경계를 Herdr·tmux 작업면과 함께 시간축에 남긴다.",
     "tags": [
       "agent",
       "botlog",

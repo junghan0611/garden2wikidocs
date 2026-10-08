@@ -8,6 +8,54 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 마리오제크너 mariozechner 아르민로나허 arminronacher pi earendil 오픈소스 에이전트
+
+작성 2026-04-02 · 수정 2026-10-08 · 태그 agent, bib, guru, opensource
+
+pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Armin Ronacher. 오픈소스 에이전트 생태계의 두 결절점.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260402T121010/)
+
+## 스티브예기 steveyegge gastown beads efrit ampcode
+
+작성 2025-11-23 · 수정 2026-10-08 · 태그 agent, bib, emacsian, guru, harness, vibecoding
+
+스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20251123T152633/)
+
+## 슈테판츠바이크 전기작가 스토리텔링 성급한 사나이
+
+작성 2024-08-12 · 수정 2026-10-08 · 태그 autobiography, bib, guru
+
+슈테판 츠바이크의 삶과 전기를 함께 묶어 인간을 입체적으로 읽는 스토리텔링의 힘을 드러낸다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240812T140426/)
+
+## 빌게이츠 마이크로소프트 기업가 회고록
+
+작성 2025-01-01 · 수정 2026-10-08 · 태그 bib, memoir, microsoft, ai
+
+빌 게이츠는 마이크로소프트의 성장과 개인적 형성 과정을 돌아보며 기술 산업, 기업가 정신, 공공 기여의 궤적을 보여준다. 최근에는 AI 위험에 대한 경고 목소리로도 나타난다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250101T091953/)
+
+## 스티븐핑커 언어본능 본성 선한천사 계몽 - 이성, 과학, 휴머니즘, 진보
+
+작성 2024-12-05 · 수정 2026-10-08 · 태그 bib, enlightenment, humanism, progress
+
+언어, 인간 본성, 폭력의 감소, 계몽의 가치까지 아우르며 이성과 과학, 휴머니즘의 장기적 성과를 변호한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241205T162458/)
+
+## 바츨라프스밀 vaclavsmil 에너지 환경 크기 속도 발명 빅픽처논픽션 구루
+
+작성 2025-04-09 · 수정 2026-10-08 · 태그 bib, energy, environment, guru, singularity, worldview
+
+바츨라프 스밀(Vaclav Smil) — 환경과학자·경제사학자. 에너지·물질·크기·속도·발명처럼 세계를 지탱하는 근본 축을 숫자로 짚어 \"세계가 실제로 어떻게 돌아가는가\"를 설명하는 빅픽처 논픽션의 대가. 빌 게이츠가 가장 신뢰하는 사상가로 불린다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250409T072408/)
+
 ## 토머스쿤 과학혁명의구조 패러다임 과학사 로레인대스턴 규칙 알고리즘
 
 작성 2025-06-20 · 수정 2026-09-26 · 태그 bib, paradigm, philosophy, rule, science, structure
@@ -31,14 +79,6 @@
 장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240510T113546/)
-
-## 슈테판츠바이크 전기작가 스토리텔링 성급한 사나이
-
-작성 2024-08-12 · 수정 2026-09-23 · 태그 autobiography, bib, guru
-
-슈테판 츠바이크의 삶과 전기를 함께 묶어 인간을 입체적으로 읽는 스토리텔링의 힘을 드러낸다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240812T140426/)
 
 ## 숀캐럴 이론물리학자 우주의 위대한 생각들 공간 시간 운동 양자 복잡성 창발
 
@@ -151,14 +191,6 @@ ThePrimeagen은 속도·집중(ADHD), DHH는 에이전트 전향(Omarchy) — �
 Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스 감각을 읽고, 텍스트 중심 도구와 에이전트 자동화의 계보를 탐색한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250416T184305/)
-
-## 스티브예기 steveyegge gastown beads efrit ampcode
-
-작성 2025-11-23 · 수정 2026-08-26 · 태그 agent, bib, emacsian, guru, harness, vibecoding
-
-스티브 예기의 글과 실험은 바이브코딩, 에이전트 개발, 도구 선택에 대한 독특한 감각을 드러내며 프로그래머 문화에 영감을 준다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20251123T152633/)
 
 ## 스티븐울프럼 수학 소프트웨어 컴퓨터대수시스템 울프럼
 
@@ -367,14 +399,6 @@ Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스
 업스테이지와 Solar·Document AI를 한국형 생성형 AI 회사 허브로 묶는다. gptel 연동·번역·가격 줄·Open 2 베타 대기까지 운영 흔적을 남긴다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240325T132035/)
-
-## 임시 빈방 Better BibTeX 플러그인 아카이브 이관
-
-작성 2025-04-09 · 수정 2026-08-03 · 태그 bib, temp
-
-BBT 설정·키 포뮬러는 notes 20230816T070200으로 이관. 이 bib ID는 새 분을 모실 빈방.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250409T072408/)
 
 ## 노르만올러 NormanOhler 이준호 2차대전 전쟁사 마약 변절 생존 낯선부대
 
@@ -1031,14 +1055,6 @@ whhone은 Emacs, 안드로이드, 프라이버시, 생산성을 가로지르며 
 루트번스타인은 창조를 재능보다 습관과 도구의 문제로 보며 상상력과 월드플레이의 힘을 밝힌다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240523T100226/)
-
-## 마리오제크너 mariozechner 아르민로나허 arminronacher pi earendil 오픈소스 에이전트
-
-작성 2026-04-02 · 수정 2026-04-02 · 태그 agent, bib, guru, opensource
-
-pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Armin Ronacher. 오픈소스 에이전트 생태계의 두 결절점.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260402T121010/)
 
 ## 로버트피어시그 Pirsig 1928 선과모터사이클 가치 품질
 
@@ -4648,14 +4664,6 @@ LionyxML은 lemacs와 emacs-kick을 만든 개발자로, TUI와 GUI를 아우르
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250105T120726/)
 
-## 빌게이츠 마이크로소프트 기업가 회고록
-
-작성 2025-01-01 · 수정 2025-01-01 · 태그 bib, memoir, microsoft
-
-빌 게이츠는 마이크로소프트의 성장과 개인적 형성 과정을 돌아보며 기술 산업, 기업가 정신, 공공 기여의 궤적을 보여준다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250101T091953/)
-
 ## 존헤네시 컴퓨터구조 어른은어떻게성장하는가
 
 작성 2025-01-01 · 수정 2025-01-01 · 태그 bib
@@ -4951,14 +4959,6 @@ AI와 합성생물학 같은 초강력 기술의 파급을 설명하며 통제�
 레프 란다우의 고전역학과 이론물리학 전통을 통해 엄밀한 수학 형식과 물리적 직관이 만나는 고전을 가리킨다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241206T105127/)
-
-## 스티븐핑커 언어본능 본성 선한천사 계몽 - 이성, 과학, 휴머니즘, 진보
-
-작성 2024-12-05 · 수정 2024-12-05 · 태그 bib, enlightenment, humanism, progress
-
-언어, 인간 본성, 폭력의 감소, 계몽의 가치까지 아우르며 이성과 과학, 휴머니즘의 장기적 성과를 변호한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241205T162458/)
 
 ## 피터린츠 형식언어 오토마타 계산이론 정규문법
 

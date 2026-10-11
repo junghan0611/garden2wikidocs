@@ -8,6 +8,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 장회익 자연철학 온생명 스승 물리학 메타과학 앎의틀
+
+작성 2024-05-10 · 수정 2026-10-12 · 태그 autobiography, bib, guru, physics
+
+장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240510T113546/)
+
+## 장대익 홍성욱 진화론 과학기술사 포스트휴먼 트랜스휴머니즘
+
+작성 2025-02-15 · 수정 2026-10-11 · 태그 bib, cybernetics, evolution, humanism, posthuman, posthumanism, science, technology, transhumanism
+
+장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250215T201657/)
+
 ## 마리오제크너 mariozechner 아르민로나허 arminronacher pi earendil 오픈소스 에이전트
 
 작성 2026-04-02 · 수정 2026-10-08 · 태그 agent, bib, guru, opensource
@@ -63,22 +79,6 @@ pi를 만든 Mario Zechner와 pi를 시대적 맥락 위에 올려 읽어낸 Arm
 패러다임 개념을 중심으로 과학이 직선적 축적이 아니라 틀의 전환 속에서 발전한다는 통찰을 보여주는 고전이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250620T085156/)
-
-## 장대익 홍성욱 진화론 과학기술사 포스트휴먼 트랜스휴머니즘
-
-작성 2025-02-15 · 수정 2026-09-26 · 태그 bib, cybernetics, evolution, humanism, posthuman, posthumanism, science, technology, transhumanism
-
-장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250215T201657/)
-
-## 장회익 자연철학 온생명 스승 물리학 메타과학 앎의틀
-
-작성 2024-05-10 · 수정 2026-09-26 · 태그 autobiography, bib, guru, physics
-
-장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240510T113546/)
 
 ## 숀캐럴 이론물리학자 우주의 위대한 생각들 공간 시간 운동 양자 복잡성 창발
 

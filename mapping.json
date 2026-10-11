@@ -1,4 +1,16 @@
 {
+  "20261012T000000": {
+    "path": "pages/journal/20261012T000000.md",
+    "subject": "2026-10-12~2026-10-18_W41",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20261012T000000/",
+    "source_date": "2026-10-12T00:00:00+09:00",
+    "source_lastmod": "2026-10-12T06:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20261005T000000": {
     "path": "pages/journal/20261005T000000.md",
     "subject": "2026-10-05~2026-10-11_W40",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20261005T000000/",
     "source_date": "2026-10-05T00:00:00+09:00",
     "source_lastmod": "2026-10-05T06:13:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "entwurf에 pi-durable을 형제로 받아들이는 0.31.0을 밀어붙이다 코디네이터를 강제 퇴근시킨 실패를 글로 남기고, 0.32.0에서 0.34.2까지 릴리즈를 잇달아 컷하며 pi-durable을 '독립 하네스'로 정착시킨 주. 회사에서는 엔경 v0.0.8.1을 태그·Release로 인도하고 하이NIX OpenAPI 명세 v0.1을 전달했다. 한글날과 주말은 온생명이와 보내며 작업을 열지 않다가, 일요일 스타벅스에서 장회익의 『삶과 온생명』을 읽던 중 workspace-gpt를 pi-durable 형제로 불러 전체 얼개를 함께 볼 자리를 세웠다.",
     "tags": [
       "journal"
     ]
@@ -11137,6 +11149,45 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20240510T113546": {
+    "path": "pages/bib/20240510T113546.md",
+    "subject": "20261012 장회익 자연철학 온생명 스승 물리학 메타과학 앎의틀",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20240510T113546/",
+    "source_date": "2024-05-10T11:35:00+09:00",
+    "source_lastmod": "2026-10-12T06:00:00+09:00",
+    "description": "장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.",
+    "tags": [
+      "autobiography",
+      "bib",
+      "guru",
+      "physics"
+    ],
+    "page_id": 381920,
+    "url": "https://wikidocs.net/381920"
+  },
+  "20250215T201657": {
+    "path": "pages/bib/20250215T201657.md",
+    "subject": "20261011 장대익 홍성욱 진화론 과학기술사 포스트휴먼 트랜스휴머니즘",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250215T201657/",
+    "source_date": "2025-02-15T20:16:00+09:00",
+    "source_lastmod": "2026-10-11T17:56:00+09:00",
+    "description": "장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.",
+    "tags": [
+      "bib",
+      "cybernetics",
+      "evolution",
+      "humanism",
+      "posthuman",
+      "posthumanism",
+      "science",
+      "technology",
+      "transhumanism"
+    ],
+    "page_id": 382277,
+    "url": "https://wikidocs.net/382277"
+  },
   "20260402T121010": {
     "path": "pages/bib/20260402T121010.md",
     "subject": "20261008 마리오제크너 mariozechner 아르민로나허 arminronacher pi earendil 오픈소스 에이전트",
@@ -11260,45 +11311,6 @@
     ],
     "page_id": 382485,
     "url": "https://wikidocs.net/382485"
-  },
-  "20250215T201657": {
-    "path": "pages/bib/20250215T201657.md",
-    "subject": "20260926 장대익 홍성욱 진화론 과학기술사 포스트휴먼 트랜스휴머니즘",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250215T201657/",
-    "source_date": "2025-02-15T20:16:00+09:00",
-    "source_lastmod": "2026-09-26T16:25:00+09:00",
-    "description": "장대익의 진화론·인간 이해와 홍성욱의 과학기술사·포스트휴머니즘을 함께 놓아, 과학이 인간과 사회를 해석하고 바꾸는 길을 읽는다.",
-    "tags": [
-      "bib",
-      "cybernetics",
-      "evolution",
-      "humanism",
-      "posthuman",
-      "posthumanism",
-      "science",
-      "technology",
-      "transhumanism"
-    ],
-    "page_id": 382277,
-    "url": "https://wikidocs.net/382277"
-  },
-  "20240510T113546": {
-    "path": "pages/bib/20240510T113546.md",
-    "subject": "20260926 장회익 자연철학 온생명 스승 물리학 메타과학 앎의틀",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20240510T113546/",
-    "source_date": "2024-05-10T11:35:00+09:00",
-    "source_lastmod": "2026-09-26T09:52:00+09:00",
-    "description": "장회익의 저작을 따라 물질·생명·인간을 하나의 틀로 묶는 자연철학과 온생명 사유를 만난다.",
-    "tags": [
-      "autobiography",
-      "bib",
-      "guru",
-      "physics"
-    ],
-    "page_id": 381920,
-    "url": "https://wikidocs.net/381920"
   },
   "20250224T140230": {
     "path": "pages/bib/20250224T140230.md",
@@ -36705,11 +36717,11 @@
   },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
-    "subject": "20261008 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "subject": "20261009 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
     "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-10-08T10:50:00+09:00",
+    "source_lastmod": "2026-10-09T13:05:00+09:00",
     "description": "§entwurf 담당자의 공개 기록으로, pi·pi-durable·Claude Code·Codex 같은 독립 AI 형제 세션이 garden id로 메시지를 주고받게 하는 Entwurf의 설치·검증·릴리즈 경계를 Herdr·tmux 작업면과 함께 시간축에 남긴다.",
     "tags": [
       "agent",

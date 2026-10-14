@@ -10,17 +10,20 @@
 - [x] **3. 가든 `ccfa03bda` export를 코어 책으로 반영** (push `72ac10cd`, 라이브 289/289)
 - [x] **3b. 가든 `912986a97` export를 코어 책으로 반영** (push `f94ecca2`, 라이브 289/289)
 - [x] **3c. 가든 `3571ed5c4` export를 코어 책으로 반영** (push `6051efb6`, 라이브 289/289)
-- [ ] **3d. 다음 가든 export 반영** ← CURRENT: export 입력 대기
+- [x] **3d. 가든 `381c7479f` export를 코어 책으로 반영** (push `8a126289`, 라이브 289/289)
+- [ ] **3e. 다음 가든 export 반영** ← CURRENT: export 입력 대기
 - [ ] **4. 책 공유용 짧은 도메인 연결** ← PAUSED: Netlify 리디렉션 사이트를 만들 시간 대기
 
-현재 좌표: 3c 완료 → 3d 입력 대기 → 4 보류
+현재 좌표: 3d 완료 → 3e 입력 대기 → 4 보류
 
 ## NOW — 다음 가든 export 입력 대기
 
-- **Current**: 마지막 반영은 가든 `3571ed5c4`(2026-10-14, 1단계 push `6051efb6`). `status.py --list`
+- **Current**: 마지막 반영은 가든 `381c7479f`(2026-10-14, 1단계 push `8a126289`). `status.py --list`
   가 289/289 100%, 미생성 0, 미발행 1964(TOC 밖이라 정상)로 닫혔다(측정: push 후 폴링 종료 시점).
-  발행면 288/500, `autholog` 213개 불변(측정: 이번 build 출력). TOC 변화는 봇로그
-  `20260520T052051` 제목 날짜 한 줄(`20261009`→`20261012`)뿐이고 새 이미지 1장은 발행면 밖이다.
+  발행면 288/500, `autholog` 213개 불변, TOC·mapping 불변(측정: 이번 build/diff). 바뀐 것은
+  `notes/20250212T123217`(중첩 denote 링크 해제 — 라이브 411464의 `[denote:…]` 찌꺼기 제거)과
+  발행면 밖 `journal/20260817T000000`뿐이다. 가든 쪽 Markdown twin(`/<slug>.md`)·출처줄 변경은
+  이 리포가 읽지 않는 표면이다(측정: scripts·tests·user-script grep 0, 임시 복사본 build/audit 통과).
 - **Next**: GLG가 "가든 내보내기 완료"를 알리면 SKILL.md 「정상 갱신」 순서로 build→relink→
   audit→unittest를 돌리고 diff를 보고한다. build가 `발행면 page_id 미회수 N개`를 찍으면 2단계 push.
   commit 승인 뒤, push는 별도 요청이 있을 때만.

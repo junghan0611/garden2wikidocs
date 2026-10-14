@@ -1615,6 +1615,23 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20241004T135542": {
+    "path": "pages/meta/20241004T135542.md",
+    "subject": "20261014 책꼽문 인용 문장수집",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241004T135542/",
+    "source_date": "2024-10-04T13:55:00+09:00",
+    "source_lastmod": "2026-10-14T08:47:00+09:00",
+    "description": "책에서 건져 올린 꼽는 문장과 인용, 문장수집의 기쁨과 방법을 독서 실천의 일부로 다룬다.",
+    "tags": [
+      "bib",
+      "bookmemo",
+      "meta",
+      "quote"
+    ],
+    "page_id": 380692,
+    "url": "https://wikidocs.net/380692"
+  },
   "20250404T100255": {
     "path": "pages/meta/20250404T100255.md",
     "subject": "20260930 호스팅 초대 주최 주인",
@@ -9447,23 +9464,6 @@
     "page_id": 380709,
     "url": "https://wikidocs.net/380709"
   },
-  "20241004T135542": {
-    "path": "pages/meta/20241004T135542.md",
-    "subject": "20250415 책꼽문 인용 문장수집",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241004T135542/",
-    "source_date": "2024-10-04T13:55:00+09:00",
-    "source_lastmod": "2025-04-15T00:00:00+09:00",
-    "description": "책에서 건져 올린 꼽는 문장과 인용, 문장수집의 기쁨과 방법을 독서 실천의 일부로 다룬다.",
-    "tags": [
-      "bib",
-      "bookmemo",
-      "meta",
-      "quote"
-    ],
-    "page_id": 380692,
-    "url": "https://wikidocs.net/380692"
-  },
   "20230721T225100": {
     "path": "pages/meta/20230721T225100.md",
     "subject": "20250415 커뮤니티 모임 공동체 포럼",
@@ -11148,6 +11148,29 @@
     ],
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
+  },
+  "20250522T130638": {
+    "path": "pages/bib/20250522T130638.md",
+    "subject": "20261014 류시화 번역가 시인 명상가 지구별 여행자 아재",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250522T130638/",
+    "source_date": "2025-05-22T13:06:00+09:00",
+    "source_lastmod": "2026-10-14T08:50:00+09:00",
+    "description": "류시화(1958) — 시인·번역가·명상가. 『지구별 여행자』의 여행자이자 『새는 날아가면서 뒤돌아보지 않는다』『내가 생각한 인생이 아니야』의 산문가. 톨레·지브란·타고르·퀴블러 로스·오쇼를 한국어로 건너오게 한 번역가로, 영성의 언어를 쉬운 문장으로 옮기는 구도자의 목소리. 책으로도, 귀로도 다시 듣는 작가.",
+    "tags": [
+      "audiobook",
+      "awareness",
+      "bib",
+      "essay",
+      "meditation",
+      "poetry",
+      "reading",
+      "spirituality",
+      "storyteller",
+      "translator"
+    ],
+    "page_id": 382450,
+    "url": "https://wikidocs.net/382450"
   },
   "20240510T113546": {
     "path": "pages/bib/20240510T113546.md",
@@ -16564,22 +16587,6 @@
     ],
     "page_id": 381981,
     "url": "https://wikidocs.net/381981"
-  },
-  "20250522T130638": {
-    "path": "pages/bib/20250522T130638.md",
-    "subject": "20250522 류시화 (1958) 번역가 시인 명상가",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250522T130638/",
-    "source_date": "2025-05-22T13:06:00+09:00",
-    "source_lastmod": "2025-05-22T13:06:00+09:00",
-    "description": "긴 머리 구도자 류시화",
-    "tags": [
-      "bib",
-      "spirituality",
-      "translator"
-    ],
-    "page_id": 382450,
-    "url": "https://wikidocs.net/382450"
   },
   "20250522T113459": {
     "path": "pages/bib/20250522T113459.md",
@@ -36717,12 +36724,12 @@
   },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
-    "subject": "20261009 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "subject": "20261012 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
     "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-10-09T13:05:00+09:00",
-    "description": "§entwurf 담당자의 공개 기록으로, pi·pi-durable·Claude Code·Codex 같은 독립 AI 형제 세션이 garden id로 메시지를 주고받게 하는 Entwurf의 설치·검증·릴리즈 경계를 Herdr·tmux 작업면과 함께 시간축에 남긴다.",
+    "source_lastmod": "2026-10-12T06:46:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록. 독립 AI 형제들이 garden id로 만나는 원본 협업 데모와 core/Herdr0.35.0의 실제 npm 설치·복구, 보수적인 qualification 비용 절감과 미측정 경계를 시간축에 남긴다.",
     "tags": [
       "agent",
       "botlog",

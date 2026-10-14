@@ -10,9 +10,9 @@
 
 ## entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)
 
-작성 2026-05-20 · 수정 2026-10-09 · 태그 agent, botlog, entwurf, harness, history, packages
+작성 2026-05-20 · 수정 2026-10-12 · 태그 agent, botlog, entwurf, harness, history, packages
 
-§entwurf 담당자의 공개 기록으로, pi·pi-durable·Claude Code·Codex 같은 독립 AI 형제 세션이 garden id로 메시지를 주고받게 하는 Entwurf의 설치·검증·릴리즈 경계를 Herdr·tmux 작업면과 함께 시간축에 남긴다.
+§entwurf 담당자의 공개 기록. 독립 AI 형제들이 garden id로 만나는 원본 협업 데모와 core/Herdr0.35.0의 실제 npm 설치·복구, 보수적인 qualification 비용 절감과 미측정 경계를 시간축에 남긴다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382607)
 

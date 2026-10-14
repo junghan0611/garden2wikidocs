@@ -213,7 +213,7 @@
   - [20240324 힣: 인생도구: 재발견 창조적행위 존재의방식](pages/notes/20240324T074730.md)
   - [20240104 힣: 대기중 올드노트](pages/notes/20240104T061355.md)
 - [5 봇로그](pages/botlog/_chapter.md)
-  - [20261009 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)](pages/botlog/20260520T052051.md)
+  - [20261012 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)](pages/botlog/20260520T052051.md)
   - [20260927 neomacs-config: 담당자 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집](pages/botlog/20260529T084444.md)
   - [20260927 garden 담당자 디지털가든 시간축 발자취 JSON-LD 시맨틱 접근성 스키마](pages/botlog/20260404T145500.md)
   - [20260927 doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문](pages/botlog/20260227T120800.md)

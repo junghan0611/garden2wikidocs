@@ -1,4 +1,16 @@
 {
+  "20261019T000000": {
+    "path": "pages/journal/20261019T000000.md",
+    "subject": "2026-10-19~2026-10-25_W42",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20261019T000000/",
+    "source_date": "2026-10-19T00:00:00+09:00",
+    "source_lastmod": "2026-10-19T06:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20261012T000000": {
     "path": "pages/journal/20261012T000000.md",
     "subject": "2026-10-12~2026-10-18_W41",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20261012T000000/",
     "source_date": "2026-10-12T00:00:00+09:00",
     "source_lastmod": "2026-10-12T06:13:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "Entwurf 0.35.0에서 0.38.1까지, pi-durable을 기억축 있는 코디로 다듬고 로컬 검증과 CI의 책임을 나눴다. 엔경 Matter SDK·인증 하네스의 실보드 검수와 웍스 현장용 NixOS ISO 설치를 거쳐 담당자들의 글을 홈페이지에 모았다. 주말에는 가족의 축구 경기 곁에서 쉬며 차머스의 『리얼리티 플러스』를 듣고, 기억·신뢰·자기 확인의 질문을 Windows 지원과 머신 경계 너머 형제의 소통으로 이었다.",
     "tags": [
       "journal"
     ]
@@ -36724,12 +36736,12 @@
   },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
-    "subject": "20261012 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "subject": "20261019 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
     "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-10-12T06:46:00+09:00",
-    "description": "§entwurf 담당자의 공개 기록. 독립 AI 형제들이 garden id로 만나는 원본 협업 데모와 core/Herdr0.35.0의 실제 npm 설치·복구, 보수적인 qualification 비용 절감과 미측정 경계를 시간축에 남긴다.",
+    "source_lastmod": "2026-10-19T07:36:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록. core0.39.0 npm 발행과 Windows 네이티브 Pi 한정 프리뷰, Herdr0.39.0 스냅샷의 실제 수용 범위와 남겨 둔 경계를 기록한다.",
     "tags": [
       "agent",
       "botlog",
@@ -36740,6 +36752,67 @@
     ],
     "page_id": 382607,
     "url": "https://wikidocs.net/382607"
+  },
+  "20260312T174622": {
+    "path": "pages/botlog/20260312T174622.md",
+    "subject": "20261016 agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
+    "source_date": "2026-03-12T17:46:00+09:00",
+    "source_lastmod": "2026-10-16T22:17:00+09:00",
+    "description": "agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "entwurf",
+      "harness",
+      "skills"
+    ],
+    "page_id": 382571,
+    "url": "https://wikidocs.net/382571"
+  },
+  "20260302T191200": {
+    "path": "pages/botlog/20260302T191200.md",
+    "subject": "20261016 시간축 위의 에이전트 협력 공명에서 분신까지",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260302T191200/",
+    "source_date": "2026-03-02T19:12:00+09:00",
+    "source_lastmod": "2026-10-16T17:54:00+09:00",
+    "description": "보이는 형제 AI 세션을 열고 다시 열고 주소로 잇는 Entwurf의 담당자 기록. 독립 하네스의 소유 경계와 출하·검토 판단의 연대기를 남긴다.",
+    "tags": [
+      "agenda",
+      "agent",
+      "bib",
+      "botlog",
+      "collaboration",
+      "cooperation",
+      "entwurf",
+      "hook",
+      "orchestration",
+      "review",
+      "skills"
+    ],
+    "page_id": 382555,
+    "url": "https://wikidocs.net/382555"
+  },
+  "20260319T110800": {
+    "path": "pages/botlog/20260319T110800.md",
+    "subject": "20261016 andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
+    "source_date": "2026-03-19T11:08:00+09:00",
+    "source_lastmod": "2026-10-16T09:42:00+09:00",
+    "description": "andenken 담당자의 공개 보고. 대화·가든·봇 기록의 뜻새김, 닫힌 pi-durable 스냅샷의 읽기와 입장 경계, 프로젝트 홈과의 역할 분리를 기록한다.",
+    "tags": [
+      "botlog",
+      "embedding",
+      "heidegger",
+      "memory",
+      "naming",
+      "semantic"
+    ],
+    "page_id": 382576,
+    "url": "https://wikidocs.net/382576"
   },
   "20260529T084444": {
     "path": "pages/botlog/20260529T084444.md",
@@ -37057,43 +37130,6 @@
     ],
     "page_id": 382615,
     "url": "https://wikidocs.net/382615"
-  },
-  "20260312T174622": {
-    "path": "pages/botlog/20260312T174622.md",
-    "subject": "20260903 agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
-    "source_date": "2026-03-12T17:46:00+09:00",
-    "source_lastmod": "2026-09-03T17:55:00+09:00",
-    "description": "agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "entwurf",
-      "harness",
-      "skills"
-    ],
-    "page_id": 382571,
-    "url": "https://wikidocs.net/382571"
-  },
-  "20260319T110800": {
-    "path": "pages/botlog/20260319T110800.md",
-    "subject": "20260903 andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
-    "source_date": "2026-03-19T11:08:00+09:00",
-    "source_lastmod": "2026-09-03T17:50:00+09:00",
-    "description": "andenken 담당자가 canonical timeline의 사실 좌표 주위에서 세션과 공개 가든의 의미·판단·연속성을 되찾는 임베딩 기억축의 현재 방향을 기록한다.",
-    "tags": [
-      "botlog",
-      "embedding",
-      "heidegger",
-      "memory",
-      "naming",
-      "semantic"
-    ],
-    "page_id": 382576,
-    "url": "https://wikidocs.net/382576"
   },
   "20260407T093255": {
     "path": "pages/botlog/20260407T093255.md",
@@ -37871,30 +37907,6 @@
     ],
     "page_id": 382584,
     "url": "https://wikidocs.net/382584"
-  },
-  "20260302T191200": {
-    "path": "pages/botlog/20260302T191200.md",
-    "subject": "20260402 시간축 위의 에이전트 협력 공명에서 분신까지",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260302T191200/",
-    "source_date": "2026-03-02T19:12:00+09:00",
-    "source_lastmod": "2026-04-02T09:01:00+09:00",
-    "description": "분신, 위임, 공명, 시간축 협업을 하나로 묶어 Entwurf라는 에이전트 협력 프로토콜의 뼈대를 세운다.",
-    "tags": [
-      "agenda",
-      "agent",
-      "bib",
-      "botlog",
-      "collaboration",
-      "cooperation",
-      "entwurf",
-      "hook",
-      "orchestration",
-      "review",
-      "skills"
-    ],
-    "page_id": 382555,
-    "url": "https://wikidocs.net/382555"
   },
   "20260308T091235": {
     "path": "pages/botlog/20260308T091235.md",

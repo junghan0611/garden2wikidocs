@@ -10,11 +10,19 @@
 
 ## entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)
 
-작성 2026-05-20 · 수정 2026-10-19 · 태그 agent, botlog, entwurf, harness, history, packages
+작성 2026-05-20 · 수정 2026-10-23 · 태그 agent, botlog, entwurf, harness, history, packages
 
-§entwurf 담당자의 공개 기록. core0.39.0 npm 발행과 Windows 네이티브 Pi 한정 프리뷰, Herdr0.39.0 스냅샷의 실제 수용 범위와 남겨 둔 경계를 기록한다.
+§entwurf 담당자의 공개 기록. 0.41.1의 Pi 1.4 얇은 참조 셸과 한 방향 데이터 이관, 사람이 닫고 같은 대화로 다시 연 실제 코디, 검증·발행의 경계를 기록한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382607)
+
+## 시간축 위의 에이전트 협력 공명에서 분신까지
+
+작성 2026-03-02 · 수정 2026-10-23 · 태그 agenda, agent, bib, botlog, collaboration, cooperation, entwurf, hook, orchestration, review, skills
+
+보이는 형제 AI 세션을 열고 다시 열고 주소로 잇는 Entwurf의 담당자 기록. 독립 하네스의 소유 경계와 출하·검토 판단의 연대기를 남긴다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382555)
 
 ## agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후
 
@@ -23,14 +31,6 @@
 agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382571)
-
-## 시간축 위의 에이전트 협력 공명에서 분신까지
-
-작성 2026-03-02 · 수정 2026-10-16 · 태그 agenda, agent, bib, botlog, collaboration, cooperation, entwurf, hook, orchestration, review, skills
-
-보이는 형제 AI 세션을 열고 다시 열고 주소로 잇는 Entwurf의 담당자 기록. 독립 하네스의 소유 경계와 출하·검토 판단의 연대기를 남긴다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382555)
 
 ## andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서
 
@@ -360,7 +360,7 @@ pi-shell-acp의 비대칭 공존 방향성과 Claude Code·agy·Codex 라이브 
 
 [위키독스에서 읽기 →](https://wikidocs.net/382613)
 
-## edgeagent-config: 엣지 에이전트 ESP32 M5Stack 몸과 A2A 카드 생태계
+## edgeagent-config: 담당자 엣지 에이전트 ESP32 M5Stack 몸과 A2A 카드 생태계
 
 작성 2026-02-22 · 수정 2026-05-29 · 태그 agent, botlog, edge, embedded, iot, matter
 
@@ -520,7 +520,7 @@ Denote를 지식베이스 프로토콜로 재해석하며, 인간과 에이전�
 
 [위키독스에서 읽기 →](https://wikidocs.net/382565)
 
-## homeagent-config 로드맵 오픈소스 스마트홈 에이전트 플랫폼
+## homeagent-config 담당자 로드맵 오픈소스 스마트홈 에이전트 플랫폼
 
 작성 2026-03-04 · 수정 2026-03-30 · 태그 agent, android, botlog, flutter, iot, linux, matter, yocto, zigbee
 

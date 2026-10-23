@@ -8,6 +8,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 카를로로벨리 물리 철학 존재
+
+작성 2025-04-13 · 수정 2026-10-21 · 태그 bib, philosophy, physics, quantum
+
+카를로 로벨리는 현대 물리학을 철학과 인문학의 언어로 풀어내며 시간, 관계, 존재를 다시 생각하게 만드는 물리학자다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250413T161523/)
+
+## 대니얼데닛 데이비드차머스 - 의식·마음·AI 철학 직관
+
+작성 2024-10-17 · 수정 2026-10-19 · 태그 ai, bib, intuition, philosophy, polymath, thinking, toolsforthought
+
+대니얼 데닛과 데이비드 차머스의 대립을 축으로 의식·마음·AI를 두 철학의 서로 다른 물음으로 읽는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241017T205802/)
+
 ## 류시화 번역가 시인 명상가 지구별 여행자 아재
 
 작성 2025-05-22 · 수정 2026-10-14 · 태그 audiobook, awareness, bib, essay, meditation, poetry, reading, spirituality, storyteller, translator
@@ -367,14 +383,6 @@ Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스
 줄리아 캐머런의 두 책 『아티스트 웨이』와 『나를 위해 쓸 권리』를 모닝페이지 실천의 뿌리로 묶은 서지 노트. 창조적 회복과 \"쓸 권리\"라는 두 축을 함께 세운다. 여기에 날마다 글쓰기도 저자 루츠폰베르더도 모셨다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241214T045836/)
-
-## 대니얼데닛 데이비드차머스 의식·마음·AI 철학 직관
-
-작성 2024-10-17 · 수정 2026-08-03 · 태그 ai, bib, intuition, philosophy, polymath, thinking, toolsforthought
-
-대니얼 데닛과 데이비드 차머스의 대립을 축으로 의식·마음·AI를 두 철학의 서로 다른 물음으로 읽는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20241017T205802/)
 
 ## 크리스토퍼히친스 샘해리스 신 없이 죽음·종교 없는 영성
 
@@ -1023,14 +1031,6 @@ whhone은 Emacs, 안드로이드, 프라이버시, 생산성을 가로지르며 
 아낙시만드로스는 스승의 답을 넘어 아페이론과 세계 질서를 사유하며 앎의 틀 자체를 흔든 초기 철학자다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20260407T134051/)
-
-## 카를로로벨리 물리 철학 존재
-
-작성 2025-04-13 · 수정 2026-04-07 · 태그 bib, philosophy, physics, quantum
-
-카를로 로벨리는 현대 물리학을 철학과 인문학의 언어로 풀어내며 시간, 관계, 존재를 다시 생각하게 만드는 물리학자다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20250413T161523/)
 
 ## 스티브잡스 스티브워즈니악 애플 두 스티브
 

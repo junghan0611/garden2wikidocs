@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "source_repository": "https://github.com/junghan0611/garden",
-  "source_commit": "f9a7d83543db29edfcc46c50587c96fd21898ddd",
+  "source_commit": "76358fa49e0bd4c749428f8f0033e02c1ebc8f2e",
   "source_content_clean": true,
-  "source_content_sha256": "1ab0ed6fdfccd936b2a23fb552f7afdf67e76b92eafca146c04cbb6ef3833c60",
+  "source_content_sha256": "e707779ce72faccb4767bbce459c82fc86f30d0dafcd8f3e8664cefa14e0b50b",
   "folders": [
     "journal",
     "meta",

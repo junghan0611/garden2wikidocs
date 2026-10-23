@@ -11161,6 +11161,43 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20250413T161523": {
+    "path": "pages/bib/20250413T161523.md",
+    "subject": "20261021 카를로로벨리 물리 철학 존재",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250413T161523/",
+    "source_date": "2025-04-13T16:15:00+09:00",
+    "source_lastmod": "2026-10-21T20:25:00+09:00",
+    "description": "카를로 로벨리는 현대 물리학을 철학과 인문학의 언어로 풀어내며 시간, 관계, 존재를 다시 생각하게 만드는 물리학자다.",
+    "tags": [
+      "bib",
+      "philosophy",
+      "physics",
+      "quantum"
+    ],
+    "page_id": 382378,
+    "url": "https://wikidocs.net/382378"
+  },
+  "20241017T205802": {
+    "path": "pages/bib/20241017T205802.md",
+    "subject": "20261019 대니얼데닛 데이비드차머스 - 의식·마음·AI 철학 직관",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20241017T205802/",
+    "source_date": "2024-10-17T20:58:00+09:00",
+    "source_lastmod": "2026-10-19T09:59:00+09:00",
+    "description": "대니얼 데닛과 데이비드 차머스의 대립을 축으로 의식·마음·AI를 두 철학의 서로 다른 물음으로 읽는다.",
+    "tags": [
+      "ai",
+      "bib",
+      "intuition",
+      "philosophy",
+      "polymath",
+      "thinking",
+      "toolsforthought"
+    ],
+    "page_id": 382120,
+    "url": "https://wikidocs.net/382120"
+  },
   "20250522T130638": {
     "path": "pages/bib/20250522T130638.md",
     "subject": "20261014 류시화 번역가 시인 명상가 지구별 여행자 아재",
@@ -12021,26 +12058,6 @@
     ],
     "page_id": 382196,
     "url": "https://wikidocs.net/382196"
-  },
-  "20241017T205802": {
-    "path": "pages/bib/20241017T205802.md",
-    "subject": "20260803 대니얼데닛 데이비드차머스 의식·마음·AI 철학 직관",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20241017T205802/",
-    "source_date": "2024-10-17T20:58:00+09:00",
-    "source_lastmod": "2026-08-03T16:00:00+09:00",
-    "description": "대니얼 데닛과 데이비드 차머스의 대립을 축으로 의식·마음·AI를 두 철학의 서로 다른 물음으로 읽는다.",
-    "tags": [
-      "ai",
-      "bib",
-      "intuition",
-      "philosophy",
-      "polymath",
-      "thinking",
-      "toolsforthought"
-    ],
-    "page_id": 382120,
-    "url": "https://wikidocs.net/382120"
   },
   "20240718T140559": {
     "path": "pages/bib/20240718T140559.md",
@@ -13566,23 +13583,6 @@
     ],
     "page_id": 382530,
     "url": "https://wikidocs.net/382530"
-  },
-  "20250413T161523": {
-    "path": "pages/bib/20250413T161523.md",
-    "subject": "20260407 카를로로벨리 물리 철학 존재",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250413T161523/",
-    "source_date": "2025-04-13T16:15:00+09:00",
-    "source_lastmod": "2026-04-07T13:26:00+09:00",
-    "description": "카를로 로벨리는 현대 물리학을 철학과 인문학의 언어로 풀어내며 시간, 관계, 존재를 다시 생각하게 만드는 물리학자다.",
-    "tags": [
-      "bib",
-      "philosophy",
-      "physics",
-      "quantum"
-    ],
-    "page_id": 382378,
-    "url": "https://wikidocs.net/382378"
   },
   "20250518T101519": {
     "path": "pages/bib/20250518T101519.md",
@@ -36736,12 +36736,12 @@
   },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
-    "subject": "20261019 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "subject": "20261023 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
     "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-10-19T07:36:00+09:00",
-    "description": "§entwurf 담당자의 공개 기록. core0.39.0 npm 발행과 Windows 네이티브 Pi 한정 프리뷰, Herdr0.39.0 스냅샷의 실제 수용 범위와 남겨 둔 경계를 기록한다.",
+    "source_lastmod": "2026-10-23T10:02:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록. 0.41.1의 Pi 1.4 얇은 참조 셸과 한 방향 데이터 이관, 사람이 닫고 같은 대화로 다시 연 실제 코디, 검증·발행의 경계를 기록한다.",
     "tags": [
       "agent",
       "botlog",
@@ -36752,6 +36752,30 @@
     ],
     "page_id": 382607,
     "url": "https://wikidocs.net/382607"
+  },
+  "20260302T191200": {
+    "path": "pages/botlog/20260302T191200.md",
+    "subject": "20261023 시간축 위의 에이전트 협력 공명에서 분신까지",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260302T191200/",
+    "source_date": "2026-03-02T19:12:00+09:00",
+    "source_lastmod": "2026-10-23T10:02:00+09:00",
+    "description": "보이는 형제 AI 세션을 열고 다시 열고 주소로 잇는 Entwurf의 담당자 기록. 독립 하네스의 소유 경계와 출하·검토 판단의 연대기를 남긴다.",
+    "tags": [
+      "agenda",
+      "agent",
+      "bib",
+      "botlog",
+      "collaboration",
+      "cooperation",
+      "entwurf",
+      "hook",
+      "orchestration",
+      "review",
+      "skills"
+    ],
+    "page_id": 382555,
+    "url": "https://wikidocs.net/382555"
   },
   "20260312T174622": {
     "path": "pages/botlog/20260312T174622.md",
@@ -36770,30 +36794,6 @@
     ],
     "page_id": 382571,
     "url": "https://wikidocs.net/382571"
-  },
-  "20260302T191200": {
-    "path": "pages/botlog/20260302T191200.md",
-    "subject": "20261016 시간축 위의 에이전트 협력 공명에서 분신까지",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260302T191200/",
-    "source_date": "2026-03-02T19:12:00+09:00",
-    "source_lastmod": "2026-10-16T17:54:00+09:00",
-    "description": "보이는 형제 AI 세션을 열고 다시 열고 주소로 잇는 Entwurf의 담당자 기록. 독립 하네스의 소유 경계와 출하·검토 판단의 연대기를 남긴다.",
-    "tags": [
-      "agenda",
-      "agent",
-      "bib",
-      "botlog",
-      "collaboration",
-      "cooperation",
-      "entwurf",
-      "hook",
-      "orchestration",
-      "review",
-      "skills"
-    ],
-    "page_id": 382555,
-    "url": "https://wikidocs.net/382555"
   },
   "20260319T110800": {
     "path": "pages/botlog/20260319T110800.md",
@@ -37571,7 +37571,7 @@
   },
   "20260222T083800": {
     "path": "pages/botlog/20260222T083800.md",
-    "subject": "20260529 edgeagent-config: 엣지 에이전트 ESP32 M5Stack 몸과 A2A 카드 생태계",
+    "subject": "20260529 edgeagent-config: 담당자 엣지 에이전트 ESP32 M5Stack 몸과 A2A 카드 생태계",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260222T083800/",
     "source_date": "2026-02-22T08:38:00+09:00",
@@ -37933,7 +37933,7 @@
   },
   "20260304T200300": {
     "path": "pages/botlog/20260304T200300.md",
-    "subject": "20260330 homeagent-config 로드맵 오픈소스 스마트홈 에이전트 플랫폼",
+    "subject": "20260330 homeagent-config 담당자 로드맵 오픈소스 스마트홈 에이전트 플랫폼",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260304T200300/",
     "source_date": "2026-03-04T20:03:00+09:00",

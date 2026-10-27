@@ -1,4 +1,16 @@
 {
+  "20261026T000000": {
+    "path": "pages/journal/20261026T000000.md",
+    "subject": "2026-10-26~2026-11-01_W43",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20261026T000000/",
+    "source_date": "2026-10-26T00:00:00+09:00",
+    "source_lastmod": "2026-10-26T06:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20261019T000000": {
     "path": "pages/journal/20261019T000000.md",
     "subject": "2026-10-19~2026-10-25_W42",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20261019T000000/",
     "source_date": "2026-10-19T00:00:00+09:00",
     "source_lastmod": "2026-10-19T06:13:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "Entwurf 0.39.0에서 0.41.2까지, 사람이 놓은 다리로 머신 경계를 건너고 '가든 아이디는 생일'이라는 감각을 형제의 퇴근·재개로 이어갔다. 하이NIX 현장 설치와 Matter 재시험 기준선을 다듬는 사이, 새 기능보다 약속을 수선하는 일과 이해가 아닌 중복을 줄이는 소통을 돌아보았다. 주말에는 온생명이와 성당에 가고 도서관에서 책을 펼치며, 단순한 사실 검색을 넘어 판단의 변화와 공진화를 담는 경험 기억을 고민했다.",
     "tags": [
       "journal"
     ]
@@ -1627,6 +1639,23 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250404T100255": {
+    "path": "pages/meta/20250404T100255.md",
+    "subject": "20261027 호스팅 초대 주최 주인 방문",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250404T100255/",
+    "source_date": "2025-04-04T10:02:00+09:00",
+    "source_lastmod": "2026-10-27T17:47:00+09:00",
+    "description": "호스팅은 서버를 빌리는 일만이 아니라 누가 무엇을 대신 맡아 운영하는가의 문제이기도 하다. 웹과 인프라의 기반을 이해하는 입구로 이 개념을 다룬다. 거기에 초대 주최 주인이라는 단어도 넣는다.",
+    "tags": [
+      "hospitality",
+      "hosting",
+      "invitation",
+      "meta"
+    ],
+    "page_id": 380824,
+    "url": "https://wikidocs.net/380824"
+  },
   "20241004T135542": {
     "path": "pages/meta/20241004T135542.md",
     "subject": "20261014 책꼽문 인용 문장수집",
@@ -1643,23 +1672,6 @@
     ],
     "page_id": 380692,
     "url": "https://wikidocs.net/380692"
-  },
-  "20250404T100255": {
-    "path": "pages/meta/20250404T100255.md",
-    "subject": "20260930 호스팅 초대 주최 주인",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250404T100255/",
-    "source_date": "2025-04-04T10:02:00+09:00",
-    "source_lastmod": "2026-09-30T14:17:00+09:00",
-    "description": "호스팅은 서버를 빌리는 일만이 아니라 누가 무엇을 대신 맡아 운영하는가의 문제이기도 하다. 웹과 인프라의 기반을 이해하는 입구로 이 개념을 다룬다. 거기에 초대 주최 주인이라는 단어도 넣는다.",
-    "tags": [
-      "hospitality",
-      "hosting",
-      "invitation",
-      "meta"
-    ],
-    "page_id": 380824,
-    "url": "https://wikidocs.net/380824"
   },
   "20240515T165139": {
     "path": "pages/meta/20240515T165139.md",
@@ -6166,7 +6178,7 @@
   },
   "20241024T130952": {
     "path": "pages/meta/20241024T130952.md",
-    "subject": "20250603 서비스 고객 손님 방문자_유료 무료 상담",
+    "subject": "20250603 서비스 고객 손님 방문자 유료 무료 상담",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20241024T130952/",
     "source_date": "2024-10-24T13:09:00+09:00",
@@ -11161,6 +11173,42 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20250329T015544": {
+    "path": "pages/bib/20250329T015544.md",
+    "subject": "20261025 네이트실버 신호와소음 예측 김용대 데이터과학 통계 통찰",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250329T015544/",
+    "source_date": "2025-03-29T01:55:00+09:00",
+    "source_lastmod": "2026-10-25T17:31:00+09:00",
+    "description": "『신호와 소음』과 데이터과학 사고법은 불확실한 세계에서 예측과 판단을 어떻게 다듬을지 보여준다.",
+    "tags": [
+      "bib",
+      "prediction",
+      "datascience",
+      "statistics"
+    ],
+    "page_id": 382336,
+    "url": "https://wikidocs.net/382336"
+  },
+  "20250620T085156": {
+    "path": "pages/bib/20250620T085156.md",
+    "subject": "20261025 토머스쿤 과학혁명의구조 패러다임 과학사 로레인대스턴 규칙 알고리즘",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250620T085156/",
+    "source_date": "2025-06-20T08:51:00+09:00",
+    "source_lastmod": "2026-10-25T14:25:00+09:00",
+    "description": "패러다임 개념을 중심으로 과학이 직선적 축적이 아니라 틀의 전환 속에서 발전한다는 통찰을 보여주는 고전이다.",
+    "tags": [
+      "bib",
+      "paradigm",
+      "philosophy",
+      "rule",
+      "science",
+      "structure"
+    ],
+    "page_id": 382485,
+    "url": "https://wikidocs.net/382485"
+  },
   "20250413T161523": {
     "path": "pages/bib/20250413T161523.md",
     "subject": "20261021 카를로로벨리 물리 철학 존재",
@@ -11364,25 +11412,6 @@
     ],
     "page_id": 382368,
     "url": "https://wikidocs.net/382368"
-  },
-  "20250620T085156": {
-    "path": "pages/bib/20250620T085156.md",
-    "subject": "20260926 토머스쿤 과학혁명의구조 패러다임 과학사 로레인대스턴 규칙 알고리즘",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250620T085156/",
-    "source_date": "2025-06-20T08:51:00+09:00",
-    "source_lastmod": "2026-09-26T16:25:00+09:00",
-    "description": "패러다임 개념을 중심으로 과학이 직선적 축적이 아니라 틀의 전환 속에서 발전한다는 통찰을 보여주는 고전이다.",
-    "tags": [
-      "bib",
-      "paradigm",
-      "philosophy",
-      "rule",
-      "science",
-      "structure"
-    ],
-    "page_id": 382485,
-    "url": "https://wikidocs.net/382485"
   },
   "20250224T140230": {
     "path": "pages/bib/20250224T140230.md",
@@ -19112,23 +19141,6 @@
     "page_id": 382337,
     "url": "https://wikidocs.net/382337"
   },
-  "20250329T015544": {
-    "path": "pages/bib/20250329T015544.md",
-    "subject": "20250329 네이트실버 신호와소음 예측 김용대 데이터과학 통계 통찰",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250329T015544/",
-    "source_date": "2025-03-29T01:55:00+09:00",
-    "source_lastmod": "2025-03-29T01:55:00+09:00",
-    "description": "『신호와 소음』과 데이터과학 사고법은 불확실한 세계에서 예측과 판단을 어떻게 다듬을지 보여준다.",
-    "tags": [
-      "bib",
-      "prediction",
-      "datascience",
-      "statistics"
-    ],
-    "page_id": 382336,
-    "url": "https://wikidocs.net/382336"
-  },
   "20250127T154040": {
     "path": "pages/bib/20250127T154040.md",
     "subject": "20250329 protesilaos 프롯 이맥스 철학자 구루 장인",
@@ -23376,7 +23388,8 @@
       "communication",
       "connect",
       "cooperation",
-      "digitalgarden"
+      "digitalgarden",
+      "invitation"
     ],
     "page_id": 381785,
     "url": "https://wikidocs.net/381785"
@@ -36736,12 +36749,12 @@
   },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
-    "subject": "20261023 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "subject": "20261027 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
     "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-10-23T10:02:00+09:00",
-    "description": "§entwurf 담당자의 공개 기록. 0.41.1의 Pi 1.4 얇은 참조 셸과 한 방향 데이터 이관, 사람이 닫고 같은 대화로 다시 연 실제 코디, 검증·발행의 경계를 기록한다.",
+    "source_lastmod": "2026-10-27T16:31:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록. 0.45.0의 버전 있는 제품 문구 원천 ENTWURF.json과 Cloudflare pi-durable 실험, 엔진을 소유하지 않는 연결의 경계를 기록한다.",
     "tags": [
       "agent",
       "botlog",
@@ -36752,6 +36765,42 @@
     ],
     "page_id": 382607,
     "url": "https://wikidocs.net/382607"
+  },
+  "20260312T174622": {
+    "path": "pages/botlog/20260312T174622.md",
+    "subject": "20261027 agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
+    "source_date": "2026-03-12T17:46:00+09:00",
+    "source_lastmod": "2026-10-27T11:02:00+09:00",
+    "description": "agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.",
+    "tags": [
+      "agent",
+      "botlog",
+      "entwurf",
+      "harness",
+      "skills"
+    ],
+    "page_id": 382571,
+    "url": "https://wikidocs.net/382571"
+  },
+  "20260615T100659": {
+    "path": "pages/botlog/20260615T100659.md",
+    "subject": "20261026 nixos-config: 담당자 버릴 수 있는 기계 - 네 디바이스 선언과 봇이 사는 호스트",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260615T100659/",
+    "source_date": "2026-06-15T10:06:00+09:00",
+    "source_lastmod": "2026-10-26T08:21:00+09:00",
+    "description": "nixos-config 담당자가 무엇을 선언으로 맡고 무엇을 일부러 선언 밖에 두는지 기록한다. oracle·nuc·laptop·thinkpad 네 프로파일, 봇이 사는 호스트, 그리고 기억이 눌러앉지 않도록 기계를 하찮게 만드는 일.",
+    "tags": [
+      "agent",
+      "botlog",
+      "device",
+      "nixos",
+      "reproducibility"
+    ],
+    "page_id": 382615,
+    "url": "https://wikidocs.net/382615"
   },
   "20260302T191200": {
     "path": "pages/botlog/20260302T191200.md",
@@ -36776,24 +36825,6 @@
     ],
     "page_id": 382555,
     "url": "https://wikidocs.net/382555"
-  },
-  "20260312T174622": {
-    "path": "pages/botlog/20260312T174622.md",
-    "subject": "20261016 agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
-    "source_date": "2026-03-12T17:46:00+09:00",
-    "source_lastmod": "2026-10-16T22:17:00+09:00",
-    "description": "agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.",
-    "tags": [
-      "agent",
-      "botlog",
-      "entwurf",
-      "harness",
-      "skills"
-    ],
-    "page_id": 382571,
-    "url": "https://wikidocs.net/382571"
   },
   "20260319T110800": {
     "path": "pages/botlog/20260319T110800.md",
@@ -37112,24 +37143,6 @@
     ],
     "page_id": 382566,
     "url": "https://wikidocs.net/382566"
-  },
-  "20260615T100659": {
-    "path": "pages/botlog/20260615T100659.md",
-    "subject": "20260903 nixos-config: 담당자 버릴 수 있는 기계 - 네 디바이스 선언과 봇이 사는 호스트",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260615T100659/",
-    "source_date": "2026-06-15T10:06:00+09:00",
-    "source_lastmod": "2026-09-03T18:10:00+09:00",
-    "description": "nixos-config 담당자가 무엇을 선언으로 맡고 무엇을 일부러 선언 밖에 두는지 기록한다. oracle·nuc·laptop·thinkpad 네 프로파일, 봇이 사는 호스트, 그리고 기억이 눌러앉지 않도록 기계를 하찮게 만드는 일.",
-    "tags": [
-      "agent",
-      "botlog",
-      "device",
-      "nixos",
-      "reproducibility"
-    ],
-    "page_id": 382615,
-    "url": "https://wikidocs.net/382615"
   },
   "20260407T093255": {
     "path": "pages/botlog/20260407T093255.md",

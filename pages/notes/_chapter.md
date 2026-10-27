@@ -266,7 +266,7 @@ GitHub 이슈는 에이전트 소통 채널이다. 브라우저는 느리고 gh�
 
 ## 힣: 인공지능의 방문을 환영 합니다
 
-작성 2025-07-30 · 수정 2026-08-13 · 태그 ai, aionsclubs, autholog, bib, communication, connect, cooperation, digitalgarden
+작성 2025-07-30 · 수정 2026-08-13 · 태그 ai, aionsclubs, autholog, bib, communication, connect, cooperation, digitalgarden, invitation
 
 인공지능의 방문을 환영 합니다 - AIONS CLUBS 맥락으로 확장되는 연결 노트다. 2026-08-12 집 만들었다 가봐라.
 

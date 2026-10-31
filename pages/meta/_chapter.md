@@ -8,6 +8,30 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 메타지식 10
+
+작성 2025-04-20 · 수정 2026-10-31 · 태그 branches, knowledge, logic, mathematics, metameta, philosophy, preservation, propaedia, science
+
+메타지식 10은 철학, 과학, 수학, 논리 같은 지식의 큰 가지들을 서로 비춰 보는 묶음이다. 브리태니커식 프로피디아와 개인 지식 그래프 감각이 만나는 자리로 읽힌다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250420T173447/)
+
+## 과학 10.3
+
+작성 2025-04-28 · 수정 2026-10-31 · 태그 meta, propaedia, science, syntopicon
+
+과학을 역사와 철학에서 물리·생물·의학·사회·기술 과학으로 펼쳐 보는 넓은 전체 분과 지도다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250428T160822/)
+
+## 과학
+
+작성 2025-04-24 · 수정 2026-10-31 · 태그 metameta, science
+
+과학을 사실 축적이 아니라 개념·가설·실험·수학·검증을 통해 세계를 설명하는 지식 체계로 다룬다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T232904/)
+
 ## 호스팅 초대 주최 주인 방문
 
 작성 2025-04-04 · 수정 2026-10-27 · 태그 hospitality, hosting, invitation, meta
@@ -2552,14 +2576,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250428T160957/)
 
-## 과학 10.3
-
-작성 2025-04-28 · 수정 2025-04-28 · 태그 meta, propaedia, science
-
-과학을 역사와 철학에서 물리·생물·의학·사회·기술 과학으로 펼쳐 보는 넓은 전체 분과 지도다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250428T160822/)
-
 ## 수학 10.2
 
 작성 2025-04-28 · 수정 2025-04-28 · 태그 bib, mathematics, meta, propaedia
@@ -2719,14 +2735,6 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 감각을 단순한 자극 수용이 아니라 지각·직관·이해의 출발점이 되는 마음의 기본 작용으로 다룬다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T232934/)
-
-## 과학
-
-작성 2025-04-24 · 수정 2025-04-24 · 태그 metameta, science, syntopicon
-
-과학을 사실 축적이 아니라 개념·가설·실험·수학·검증을 통해 세계를 설명하는 지식 체계로 다룬다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T232904/)
 
 ## rhetoric 수사학
 
@@ -3383,14 +3391,6 @@ SICP를 중심으로 컴퓨터 과학의 핵심 개념, 스킴 실습, 관련 �
 신토피콘은 브리태니커의 위대한 책과 102개의 위대한 아이디어를 가로지르며 개념을 색인하는 방식에 주목한다. 한 권의 책을 넘어서 서로 다른 저자와 시대를 교차 독서하게 만드는 구조를 따라, 힣의 메타 지식 체계로 확장할 실마리를 모은다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250421T125513/)
-
-## 메타지식 10
-
-작성 2025-04-20 · 수정 2025-04-20 · 태그 propaedia, branches, knowledge, logic, mathematics, science, philosophy, preservation, meta
-
-메타지식 10은 철학, 과학, 수학, 논리 같은 지식의 큰 가지들을 서로 비춰 보는 묶음이다. 브리태니커식 프로피디아와 개인 지식 그래프 감각이 만나는 자리로 읽힌다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250420T173447/)
 
 ## 대체 대안 차이 비교 차별 분별 충돌
 

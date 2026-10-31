@@ -1639,6 +1639,60 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20250420T173447": {
+    "path": "pages/meta/20250420T173447.md",
+    "subject": "20261031 메타지식 10",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250420T173447/",
+    "source_date": "2025-04-20T17:34:00+09:00",
+    "source_lastmod": "2026-10-31T19:34:00+09:00",
+    "description": "메타지식 10은 철학, 과학, 수학, 논리 같은 지식의 큰 가지들을 서로 비춰 보는 묶음이다. 브리태니커식 프로피디아와 개인 지식 그래프 감각이 만나는 자리로 읽힌다.",
+    "tags": [
+      "branches",
+      "knowledge",
+      "logic",
+      "mathematics",
+      "metameta",
+      "philosophy",
+      "preservation",
+      "propaedia",
+      "science"
+    ],
+    "page_id": 380839,
+    "url": "https://wikidocs.net/380839"
+  },
+  "20250428T160822": {
+    "path": "pages/meta/20250428T160822.md",
+    "subject": "20261031 과학 10.3",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250428T160822/",
+    "source_date": "2025-04-28T16:08:00+09:00",
+    "source_lastmod": "2026-10-31T15:04:00+09:00",
+    "description": "과학을 역사와 철학에서 물리·생물·의학·사회·기술 과학으로 펼쳐 보는 넓은 전체 분과 지도다.",
+    "tags": [
+      "meta",
+      "propaedia",
+      "science",
+      "syntopicon"
+    ],
+    "page_id": 380959,
+    "url": "https://wikidocs.net/380959"
+  },
+  "20250424T232904": {
+    "path": "pages/meta/20250424T232904.md",
+    "subject": "20261031 과학",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250424T232904/",
+    "source_date": "2025-04-24T23:29:00+09:00",
+    "source_lastmod": "2026-10-31T15:01:00+09:00",
+    "description": "과학을 사실 축적이 아니라 개념·가설·실험·수학·검증을 통해 세계를 설명하는 지식 체계로 다룬다.",
+    "tags": [
+      "metameta",
+      "science"
+    ],
+    "page_id": 380934,
+    "url": "https://wikidocs.net/380934"
+  },
   "20250404T100255": {
     "path": "pages/meta/20250404T100255.md",
     "subject": "20261027 호스팅 초대 주최 주인 방문",
@@ -7382,22 +7436,6 @@
     "page_id": 380961,
     "url": "https://wikidocs.net/380961"
   },
-  "20250428T160822": {
-    "path": "pages/meta/20250428T160822.md",
-    "subject": "20250428 과학 10.3",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250428T160822/",
-    "source_date": "2025-04-28T16:08:00+09:00",
-    "source_lastmod": "2025-04-28T16:08:00+09:00",
-    "description": "과학을 역사와 철학에서 물리·생물·의학·사회·기술 과학으로 펼쳐 보는 넓은 전체 분과 지도다.",
-    "tags": [
-      "meta",
-      "propaedia",
-      "science"
-    ],
-    "page_id": 380959,
-    "url": "https://wikidocs.net/380959"
-  },
   "20250428T160744": {
     "path": "pages/meta/20250428T160744.md",
     "subject": "20250428 수학 10.2",
@@ -7745,22 +7783,6 @@
     ],
     "page_id": 380935,
     "url": "https://wikidocs.net/380935"
-  },
-  "20250424T232904": {
-    "path": "pages/meta/20250424T232904.md",
-    "subject": "20250424 과학",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250424T232904/",
-    "source_date": "2025-04-24T23:29:00+09:00",
-    "source_lastmod": "2025-04-24T23:29:00+09:00",
-    "description": "과학을 사실 축적이 아니라 개념·가설·실험·수학·검증을 통해 세계를 설명하는 지식 체계로 다룬다.",
-    "tags": [
-      "metameta",
-      "science",
-      "syntopicon"
-    ],
-    "page_id": 380934,
-    "url": "https://wikidocs.net/380934"
   },
   "20250424T232729": {
     "path": "pages/meta/20250424T232729.md",
@@ -9130,28 +9152,6 @@
     ],
     "page_id": 380840,
     "url": "https://wikidocs.net/380840"
-  },
-  "20250420T173447": {
-    "path": "pages/meta/20250420T173447.md",
-    "subject": "20250420 메타지식 10",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250420T173447/",
-    "source_date": "2025-04-20T17:34:00+09:00",
-    "source_lastmod": "2025-04-20T17:34:00+09:00",
-    "description": "메타지식 10은 철학, 과학, 수학, 논리 같은 지식의 큰 가지들을 서로 비춰 보는 묶음이다. 브리태니커식 프로피디아와 개인 지식 그래프 감각이 만나는 자리로 읽힌다.",
-    "tags": [
-      "propaedia",
-      "branches",
-      "knowledge",
-      "logic",
-      "mathematics",
-      "science",
-      "philosophy",
-      "preservation",
-      "meta"
-    ],
-    "page_id": 380839,
-    "url": "https://wikidocs.net/380839"
   },
   "20241226T115537": {
     "path": "pages/meta/20241226T115537.md",

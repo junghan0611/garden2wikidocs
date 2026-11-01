@@ -15,21 +15,22 @@
 - [x] **3f. 가든 `76358fa49` export를 코어 책으로 반영** (push `d7b38e6a`, 라이브 289/289)
 - [x] **3g. 가든 `adadbad15` export를 코어 책으로 반영** (push `93d91e84`, 라이브 289/289)
 - [x] **3h. 가든 `97adbb93c` export를 코어 책으로 반영** (push `2ecd57cb`, 라이브 289/289)
-- [ ] **3i. 다음 가든 export 반영** ← CURRENT: export 입력 대기
+- [x] **3i. 가든 `6dd568882` export를 코어 책으로 반영** (push `b4056c61`, 라이브 289/289)
+- [ ] **3j. 다음 가든 export 반영** ← CURRENT: export 입력 대기
 - [ ] **4. 책 공유용 짧은 도메인 연결** ← PAUSED: Netlify 리디렉션 사이트를 만들 시간 대기
 
-현재 좌표: 3h 완료 → 3i 입력 대기 → 4 보류
+현재 좌표: 3i 완료 → 3j 입력 대기 → 4 보류
 
 ## NOW — 다음 가든 export 입력 대기
 
-- **Current**: 마지막 반영은 가든 `97adbb93c`(2026-10-31, 1단계 push `2ecd57cb`). `status.py --list`
+- **Current**: 마지막 반영은 가든 `6dd568882`(2026-11-02, 1단계 push `b4056c61`). `status.py --list`
   가 289/289 100%, 미생성 0으로 닫혔다(측정: push 후 폴링 종료 시점). 발행면 288/500,
   `autholog` 213개 불변, 신규 page_id 0(측정: build 출력에 `미회수` 줄 없음). TOC 변화 없음.
-  바뀐 것은 mirror 전용 pages 16쪽과 asset 1개(총 2254쪽 불변)다.
+  바뀐 것은 mirror 전용 pages 37쪽, 신규 journal `20261102`(TOC 밖, 총 2255쪽)과 asset 3개다.
 - **Next**: GLG가 "가든 내보내기 완료"를 알리면 SKILL.md 「정상 갱신」 순서로 build→relink→
   audit→unittest를 돌리고 diff를 보고한다. build가 `발행면 page_id 미회수 N개`를 찍으면 2단계 push.
   commit 승인 뒤, push는 별도 요청이 있을 때만.
-- **Blocker**: 없음 — 가든 worktree clean(측정: 2026-10-31).
+- **Blocker**: 없음 — 가든 worktree clean(측정: 2026-11-02).
 - **Verify**: `audit --core` 통과(`--allow-missing-page-ids` 없이), unittest 86/86,
   push 후 `status.py --list` pending 0.
 - **Read**: SKILL.md 「정상 갱신」·「신규 page_id가 있는 갱신」·「삭제된 페이지의 page_id 는 부활하지 않는다」.

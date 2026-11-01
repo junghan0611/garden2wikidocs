@@ -8,9 +8,17 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
-## 메타지식 10
+## 고전물리학 고전역학 전자기 동역학 뉴턴역학 운동-퍼텐셜 에너지 해밀턴-라그랑주 - 최소작용의원리
 
-작성 2025-04-20 · 수정 2026-10-31 · 태그 branches, knowledge, logic, mathematics, metameta, philosophy, preservation, propaedia, science
+작성 2024-11-04 · 수정 2026-11-01 · 태그 bib, classicalmechanics, meta, physics
+
+고전역학을 뉴턴·라그랑주·해밀턴의 틀과 최소작용의 원리, 운동 서술의 변화까지 이어서 바라본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241104T151030/)
+
+## π 메타지식 10
+
+작성 2025-04-20 · 수정 2026-10-31 · 태그 branches, knowledge, logic, mathematics, meta, philosophy, preservation, propaedia, science
 
 메타지식 10은 철학, 과학, 수학, 논리 같은 지식의 큰 가지들을 서로 비춰 보는 묶음이다. 브리태니커식 프로피디아와 개인 지식 그래프 감각이 만나는 자리로 읽힌다.
 
@@ -64,7 +72,7 @@
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250428T160921/)
 
-## 역사
+## π 역사
 
 작성 2025-04-24 · 수정 2026-09-26 · 태그 history, meta, propaedia, syntopicon
 
@@ -144,9 +152,9 @@
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T231955/)
 
-## 프로피디아 파이데이아
+## π 프로피디아 파이데이아
 
-작성 2025-04-20 · 수정 2026-09-05 · 태그 bib, britannica, encyclopedia, knowledge, metameta, outline, paideia, propaedia
+작성 2025-04-20 · 수정 2026-09-05 · 태그 bib, britannica, encyclopedia, knowledge, meta, outline, paideia, propaedia
 
 브리태니커 프로피디아를 지식 전체의 개요이자 개별 메타와 신토피콘을 잇는 상위 설계도로 읽는다.
 
@@ -496,7 +504,7 @@ VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230814T144500/)
 
-## 기술 7 보유기술
+## π 기술 7 보유기술
 
 작성 2025-04-24 · 수정 2026-07-29 · 태그 meta, propaedia, skills, technology
 
@@ -1872,14 +1880,6 @@ Logseq, RemNote, Obsidian 등 노트테이킹 도구들의 경험과 이맥스 �
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241111T145257/)
 
-## 고전역학 - 뉴턴 라그랑주 해밀턴 - 최소작용의원리
-
-작성 2024-11-04 · 수정 2025-06-04 · 태그 bib, classicalmechanics, meta, physics
-
-고전역학을 뉴턴·라그랑주·해밀턴의 틀과 최소작용의 원리, 운동 서술의 변화까지 이어서 바라본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241104T151030/)
-
 ## 언어학 인지언어 전산언어
 
 작성 2024-10-10 · 수정 2025-06-04 · 태그 bib, cognition, computational, linguistics, meta
@@ -2720,7 +2720,7 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T233114/)
 
-## 죄
+## 죄 원죄 형벌 죄악
 
 작성 2025-04-24 · 수정 2025-04-24 · 태그 meta, sin, syntopicon
 
@@ -3296,7 +3296,7 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T150315/)
 
-## 종교 8
+## π 종교 8
 
 작성 2025-04-24 · 수정 2025-04-24 · 태그 meta, propaedia, religion
 
@@ -3304,7 +3304,7 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143717/)
 
-## 예술 6
+## π 예술 6
 
 작성 2025-04-24 · 수정 2025-04-24 · 태그 arts, meta, propaedia
 
@@ -3312,23 +3312,23 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143504/)
 
-## 사회 5
+## π 사회 5
 
-작성 2025-04-24 · 수정 2025-04-24 · 태그 meta, society, sociology
+작성 2025-04-24 · 수정 2025-04-24 · 태그 meta, propaedia, society, sociology
 
 사회는 인간을 사회적 동물로 보며 집단과 문화, 제도와 관계가 어떻게 형성되는지 추적한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143420/)
 
-## 인간의삶 인생 평생 4
+## π 인간의삶 인생 평생 4
 
-작성 2025-04-24 · 수정 2025-04-24 · 태그 human, life, meta
+작성 2025-04-24 · 수정 2025-04-24 · 태그 human, life, meta, propaedia
 
 인간의 삶을 진화와 발달, 성장과 노년, 일상과 생애 전반을 아우르는 큰 흐름으로 바라본다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143345/)
 
-## 생명
+## π 생명
 
 작성 2025-04-24 · 수정 2025-04-24 · 태그 biosphere, life, meta, propaedia
 
@@ -3336,15 +3336,15 @@ AI반도체와 AI가속기를 대규모 연산을 빠르게 처리하는 핵심 
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143231/)
 
-## 지구 2
+## π 지구 2
 
-작성 2025-04-24 · 수정 2025-04-24 · 태그 earth, propaedia, meta, cosmos, universe
+작성 2025-04-24 · 수정 2025-04-24 · 태그 cosmos, earth, meta, propaedia, universe
 
 지구의 속성·구조·구성을 중심으로 행성 자체와 물리적 조건을 체계적으로 살피는 개요를 담는다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250424T143134/)
 
-## 물질 에너지 1
+## π 물질 에너지 1
 
 작성 2025-04-24 · 수정 2025-04-24 · 태그 energy, matter, propaedia
 

@@ -1,4 +1,16 @@
 {
+  "20261102T000000": {
+    "path": "pages/journal/20261102T000000.md",
+    "subject": "2026-11-02~2026-11-08_W44",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20261102T000000/",
+    "source_date": "2026-11-02T00:00:00+09:00",
+    "source_lastmod": "2026-11-02T06:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20261026T000000": {
     "path": "pages/journal/20261026T000000.md",
     "subject": "2026-10-26~2026-11-01_W43",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20261026T000000/",
     "source_date": "2026-10-26T00:00:00+09:00",
     "source_lastmod": "2026-10-26T06:13:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "ENTWURF.json으로 형제에게 건네는 말의 정본을 세우고, Cloudflare의 pi-durable에 구독 로그인을 연결했다. 노트북도 반입할 수 없는 폐쇄망 현장에서 400여 대 플러그 연동을 견디며 재현 가능한 현장 세트와 최소 대응의 필요성을 새겼다. 주말에는 커밋에 함께한 형제의 가든 아이디를 남기고 EKG를 다시 열어, 책의 목차를 넘어 지식의 층위를 줌인·줌아웃하는 오래된 질문으로 돌아왔다.",
     "tags": [
       "journal"
     ]
@@ -1639,9 +1651,26 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20241104T151030": {
+    "path": "pages/meta/20241104T151030.md",
+    "subject": "20261101 고전물리학 고전역학 전자기 동역학 뉴턴역학 운동-퍼텐셜 에너지 해밀턴-라그랑주 - 최소작용의원리",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241104T151030/",
+    "source_date": "2024-11-04T15:10:00+09:00",
+    "source_lastmod": "2026-11-01T19:16:00+09:00",
+    "description": "고전역학을 뉴턴·라그랑주·해밀턴의 틀과 최소작용의 원리, 운동 서술의 변화까지 이어서 바라본다.",
+    "tags": [
+      "bib",
+      "classicalmechanics",
+      "meta",
+      "physics"
+    ],
+    "page_id": 380743,
+    "url": "https://wikidocs.net/380743"
+  },
   "20250420T173447": {
     "path": "pages/meta/20250420T173447.md",
-    "subject": "20261031 메타지식 10",
+    "subject": "20261031 π 메타지식 10",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250420T173447/",
     "source_date": "2025-04-20T17:34:00+09:00",
@@ -1652,7 +1681,7 @@
       "knowledge",
       "logic",
       "mathematics",
-      "metameta",
+      "meta",
       "philosophy",
       "preservation",
       "propaedia",
@@ -1766,7 +1795,7 @@
   },
   "20250424T143807": {
     "path": "pages/meta/20250424T143807.md",
-    "subject": "20260926 역사",
+    "subject": "20260926 π 역사",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T143807/",
     "source_date": "2025-04-24T14:38:00+09:00",
@@ -1944,7 +1973,7 @@
   },
   "20250420T152816": {
     "path": "pages/meta/20250420T152816.md",
-    "subject": "20260905 프로피디아 파이데이아",
+    "subject": "20260905 π 프로피디아 파이데이아",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250420T152816/",
     "source_date": "2025-04-20T15:28:00+09:00",
@@ -1955,7 +1984,7 @@
       "britannica",
       "encyclopedia",
       "knowledge",
-      "metameta",
+      "meta",
       "outline",
       "paideia",
       "propaedia"
@@ -2827,7 +2856,7 @@
   },
   "20250424T143631": {
     "path": "pages/meta/20250424T143631.md",
-    "subject": "20260729 기술 7 보유기술",
+    "subject": "20260729 π 기술 7 보유기술",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T143631/",
     "source_date": "2025-04-24T14:36:00+09:00",
@@ -5901,23 +5930,6 @@
     "page_id": 380746,
     "url": "https://wikidocs.net/380746"
   },
-  "20241104T151030": {
-    "path": "pages/meta/20241104T151030.md",
-    "subject": "20250604 고전역학 - 뉴턴 라그랑주 해밀턴 - 최소작용의원리",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241104T151030/",
-    "source_date": "2024-11-04T15:10:00+09:00",
-    "source_lastmod": "2025-06-04T00:00:00+09:00",
-    "description": "고전역학을 뉴턴·라그랑주·해밀턴의 틀과 최소작용의 원리, 운동 서술의 변화까지 이어서 바라본다.",
-    "tags": [
-      "bib",
-      "classicalmechanics",
-      "meta",
-      "physics"
-    ],
-    "page_id": 380743,
-    "url": "https://wikidocs.net/380743"
-  },
   "20241010T062839": {
     "path": "pages/meta/20241010T062839.md",
     "subject": "20250604 언어학 인지언어 전산언어",
@@ -7754,7 +7766,7 @@
   },
   "20250424T233044": {
     "path": "pages/meta/20250424T233044.md",
-    "subject": "20250424 죄",
+    "subject": "20250424 죄 원죄 형벌 죄악",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T233044/",
     "source_date": "2025-04-24T23:30:00+09:00",
@@ -8945,7 +8957,7 @@
   },
   "20250424T143717": {
     "path": "pages/meta/20250424T143717.md",
-    "subject": "20250424 종교 8",
+    "subject": "20250424 π 종교 8",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T143717/",
     "source_date": "2025-04-24T14:37:00+09:00",
@@ -8961,7 +8973,7 @@
   },
   "20250424T143504": {
     "path": "pages/meta/20250424T143504.md",
-    "subject": "20250424 예술 6",
+    "subject": "20250424 π 예술 6",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T143504/",
     "source_date": "2025-04-24T14:35:00+09:00",
@@ -8977,7 +8989,7 @@
   },
   "20250424T143420": {
     "path": "pages/meta/20250424T143420.md",
-    "subject": "20250424 사회 5",
+    "subject": "20250424 π 사회 5",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T143420/",
     "source_date": "2025-04-24T14:34:00+09:00",
@@ -8985,6 +8997,7 @@
     "description": "사회는 인간을 사회적 동물로 보며 집단과 문화, 제도와 관계가 어떻게 형성되는지 추적한다.",
     "tags": [
       "meta",
+      "propaedia",
       "society",
       "sociology"
     ],
@@ -8993,7 +9006,7 @@
   },
   "20250424T143345": {
     "path": "pages/meta/20250424T143345.md",
-    "subject": "20250424 인간의삶 인생 평생 4",
+    "subject": "20250424 π 인간의삶 인생 평생 4",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T143345/",
     "source_date": "2025-04-24T14:33:00+09:00",
@@ -9002,14 +9015,15 @@
     "tags": [
       "human",
       "life",
-      "meta"
+      "meta",
+      "propaedia"
     ],
     "page_id": 380847,
     "url": "https://wikidocs.net/380847"
   },
   "20250424T143231": {
     "path": "pages/meta/20250424T143231.md",
-    "subject": "20250424 생명",
+    "subject": "20250424 π 생명",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T143231/",
     "source_date": "2025-04-24T14:32:00+09:00",
@@ -9026,17 +9040,17 @@
   },
   "20250424T143134": {
     "path": "pages/meta/20250424T143134.md",
-    "subject": "20250424 지구 2",
+    "subject": "20250424 π 지구 2",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T143134/",
     "source_date": "2025-04-24T14:31:00+09:00",
     "source_lastmod": "2025-04-24T14:31:00+09:00",
     "description": "지구의 속성·구조·구성을 중심으로 행성 자체와 물리적 조건을 체계적으로 살피는 개요를 담는다.",
     "tags": [
-      "earth",
-      "propaedia",
-      "meta",
       "cosmos",
+      "earth",
+      "meta",
+      "propaedia",
       "universe"
     ],
     "page_id": 380845,
@@ -9044,7 +9058,7 @@
   },
   "20250424T142939": {
     "path": "pages/meta/20250424T142939.md",
-    "subject": "20250424 물질 에너지 1",
+    "subject": "20250424 π 물질 에너지 1",
     "folder": "meta",
     "source_url": "https://notes.junghanacs.com/meta/20250424T142939/",
     "source_date": "2025-04-24T14:29:00+09:00",

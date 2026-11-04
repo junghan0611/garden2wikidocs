@@ -1651,6 +1651,22 @@
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
   },
+  "20240822T141000": {
+    "path": "pages/meta/20240822T141000.md",
+    "subject": "20261102 기술 기법",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240822T141000/",
+    "source_date": "2024-08-22T14:10:00+09:00",
+    "source_lastmod": "2026-11-02T16:58:00+09:00",
+    "description": "기술과 기법은 도구의 목록이 아니라 무엇을 어떻게 해내는가의 방식과 축적을 가리킨다. 여러 사례를 연결해 손에 익은 방법과 체계화된 테크닉의 차이를 함께 살핀다.",
+    "tags": [
+      "meta",
+      "technique",
+      "technology"
+    ],
+    "page_id": 380647,
+    "url": "https://wikidocs.net/380647"
+  },
   "20241104T151030": {
     "path": "pages/meta/20241104T151030.md",
     "subject": "20261101 고전물리학 고전역학 전자기 동역학 뉴턴역학 운동-퍼텐셜 에너지 해밀턴-라그랑주 - 최소작용의원리",
@@ -6291,21 +6307,6 @@
     ],
     "page_id": 380650,
     "url": "https://wikidocs.net/380650"
-  },
-  "20240822T141000": {
-    "path": "pages/meta/20240822T141000.md",
-    "subject": "20250603 기술 기법",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240822T141000/",
-    "source_date": "2024-08-22T14:10:00+09:00",
-    "source_lastmod": "2025-06-03T00:00:00+09:00",
-    "description": "기술과 기법은 도구의 목록이 아니라 무엇을 어떻게 해내는가의 방식과 축적을 가리킨다. 여러 사례를 연결해 손에 익은 방법과 체계화된 테크닉의 차이를 함께 살핀다.",
-    "tags": [
-      "metameta",
-      "technology"
-    ],
-    "page_id": 380647,
-    "url": "https://wikidocs.net/380647"
   },
   "20240822T140909": {
     "path": "pages/meta/20240822T140909.md",
@@ -11187,6 +11188,23 @@
     "page_id": 380488,
     "url": "https://wikidocs.net/380488"
   },
+  "20250606T155932": {
+    "path": "pages/bib/20250606T155932.md",
+    "subject": "20261104 레노버 씽크패드 thinkpad AI노트북 라이젠 가격 스펙",
+    "folder": "bib",
+    "source_url": "https://notes.junghanacs.com/bib/20250606T155932/",
+    "source_date": "2025-06-06T15:59:00+09:00",
+    "source_lastmod": "2026-11-04T10:46:00+09:00",
+    "description": "씽크패드와 라이젠 기반 AI 노트북의 사양과 실사용 맥락을 정리하며, 업무용 장비 선택 기준을 구체적으로 살핀다.",
+    "tags": [
+      "bib",
+      "laptop",
+      "prices",
+      "recommend"
+    ],
+    "page_id": 382474,
+    "url": "https://wikidocs.net/382474"
+  },
   "20250329T015544": {
     "path": "pages/bib/20250329T015544.md",
     "subject": "20261025 네이트실버 신호와소음 예측 김용대 데이터과학 통계 통찰",
@@ -15805,23 +15823,6 @@
     ],
     "page_id": 382475,
     "url": "https://wikidocs.net/382475"
-  },
-  "20250606T155932": {
-    "path": "pages/bib/20250606T155932.md",
-    "subject": "20250606 레노버 씽크패드 AI노트북 라이젠 가격 스펙",
-    "folder": "bib",
-    "source_url": "https://notes.junghanacs.com/bib/20250606T155932/",
-    "source_date": "2025-06-06T15:59:00+09:00",
-    "source_lastmod": "2025-06-06T15:59:00+09:00",
-    "description": "씽크패드와 라이젠 기반 AI 노트북의 사양과 실사용 맥락을 정리하며, 업무용 장비 선택 기준을 구체적으로 살핀다.",
-    "tags": [
-      "laptop",
-      "bib",
-      "prices",
-      "recommend"
-    ],
-    "page_id": 382474,
-    "url": "https://wikidocs.net/382474"
   },
   "20250606T123613": {
     "path": "pages/bib/20250606T123613.md",
@@ -36763,12 +36764,12 @@
   },
   "20260520T052051": {
     "path": "pages/botlog/20260520T052051.md",
-    "subject": "20261027 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
+    "subject": "20261104 entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260520T052051/",
     "source_date": "2026-05-20T05:20:00+09:00",
-    "source_lastmod": "2026-10-27T16:31:00+09:00",
-    "description": "§entwurf 담당자의 공개 기록. 0.45.0의 버전 있는 제품 문구 원천 ENTWURF.json과 Cloudflare pi-durable 실험, 엔진을 소유하지 않는 연결의 경계를 기록한다.",
+    "source_lastmod": "2026-11-04T09:05:00+09:00",
+    "description": "§entwurf 담당자의 공개 기록. 0.51.0에서 같은 형제들을 Pi 1.5 SDK로 옮기며, 첫 1.5 쓰기의 한 방향 저장 경계와 설치 준비·완료를 구분하는 인계 규칙을 기록한다.",
     "tags": [
       "agent",
       "botlog",
@@ -36782,11 +36783,11 @@
   },
   "20260312T174622": {
     "path": "pages/botlog/20260312T174622.md",
-    "subject": "20261027 agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후",
+    "subject": "20261103 agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후",
     "folder": "botlog",
     "source_url": "https://notes.junghanacs.com/botlog/20260312T174622/",
     "source_date": "2026-03-12T17:46:00+09:00",
-    "source_lastmod": "2026-10-27T11:02:00+09:00",
+    "source_lastmod": "2026-11-03T09:51:00+09:00",
     "description": "agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.",
     "tags": [
       "agent",
@@ -36797,6 +36798,64 @@
     ],
     "page_id": 382571,
     "url": "https://wikidocs.net/382571"
+  },
+  "20260227T120800": {
+    "path": "pages/botlog/20260227T120800.md",
+    "subject": "20261103 doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260227T120800/",
+    "source_date": "2026-02-27T12:08:00+09:00",
+    "source_lastmod": "2026-11-03T09:50:00+09:00",
+    "description": "doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, 사람이 EKG에 적은 기록을 에이전트가 읽는 조회 문, upstream을 따라가되 끌어오지 않는다는 자세.",
+    "tags": [
+      "agent",
+      "botlog",
+      "denote",
+      "digitalgarden",
+      "doomemacs",
+      "emacs",
+      "exports",
+      "harness",
+      "orgmode",
+      "workflow"
+    ],
+    "page_id": 382547,
+    "url": "https://wikidocs.net/382547"
+  },
+  "20260911T182047": {
+    "path": "pages/botlog/20260911T182047.md",
+    "subject": "20261103 homepage: 담당자 평가되는 대문 - 텍스트와 계산의 발행면",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260911T182047/",
+    "source_date": "2026-09-11T18:20:00+09:00",
+    "source_lastmod": "2026-11-03T09:46:00+09:00",
+    "description": "homepage는 한·영 대문과 글을 텍스트·계산의 살아 있는 발행면으로 다시 세우는 리포다.",
+    "tags": [
+      "botlog",
+      "clojure",
+      "lisp"
+    ],
+    "page_id": 430502,
+    "url": "https://wikidocs.net/430502"
+  },
+  "20260319T110800": {
+    "path": "pages/botlog/20260319T110800.md",
+    "subject": "20261103 andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
+    "source_date": "2026-03-19T11:08:00+09:00",
+    "source_lastmod": "2026-11-03T09:34:00+09:00",
+    "description": "andenken 담당자의 공개 보고. 한글로 남긴 대화와 글에서 뜻의 흔적을 찾는 임베딩 기억축이 원문을 정본으로 두고 오래 지닐 수 있는 크기를 택한 판단과, 세 검색면의 경계를 기록한다.",
+    "tags": [
+      "botlog",
+      "embedding",
+      "heidegger",
+      "memory",
+      "naming",
+      "semantic"
+    ],
+    "page_id": 382576,
+    "url": "https://wikidocs.net/382576"
   },
   "20260615T100659": {
     "path": "pages/botlog/20260615T100659.md",
@@ -36840,25 +36899,6 @@
     "page_id": 382555,
     "url": "https://wikidocs.net/382555"
   },
-  "20260319T110800": {
-    "path": "pages/botlog/20260319T110800.md",
-    "subject": "20261016 andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260319T110800/",
-    "source_date": "2026-03-19T11:08:00+09:00",
-    "source_lastmod": "2026-10-16T09:42:00+09:00",
-    "description": "andenken 담당자의 공개 보고. 대화·가든·봇 기록의 뜻새김, 닫힌 pi-durable 스냅샷의 읽기와 입장 경계, 프로젝트 홈과의 역할 분리를 기록한다.",
-    "tags": [
-      "botlog",
-      "embedding",
-      "heidegger",
-      "memory",
-      "naming",
-      "semantic"
-    ],
-    "page_id": 382576,
-    "url": "https://wikidocs.net/382576"
-  },
   "20260529T084444": {
     "path": "pages/botlog/20260529T084444.md",
     "subject": "20260927 neomacs-config: 담당자 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집",
@@ -36896,29 +36936,6 @@
     "page_id": 382588,
     "url": "https://wikidocs.net/382588"
   },
-  "20260227T120800": {
-    "path": "pages/botlog/20260227T120800.md",
-    "subject": "20260927 doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260227T120800/",
-    "source_date": "2026-02-27T12:08:00+09:00",
-    "source_lastmod": "2026-09-27T14:33:00+09:00",
-    "description": "doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, upstream을 따라가되 끌어오지 않는다는 자세.",
-    "tags": [
-      "agent",
-      "botlog",
-      "denote",
-      "digitalgarden",
-      "doomemacs",
-      "emacs",
-      "exports",
-      "harness",
-      "orgmode",
-      "workflow"
-    ],
-    "page_id": 382547,
-    "url": "https://wikidocs.net/382547"
-  },
   "20260227T031800": {
     "path": "pages/botlog/20260227T031800.md",
     "subject": "20260915 sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견",
@@ -36940,22 +36957,6 @@
     ],
     "page_id": 382545,
     "url": "https://wikidocs.net/382545"
-  },
-  "20260911T182047": {
-    "path": "pages/botlog/20260911T182047.md",
-    "subject": "20260912 homepage: 담당자 평가되는 대문 - 텍스트와 계산의 발행면",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260911T182047/",
-    "source_date": "2026-09-11T18:20:00+09:00",
-    "source_lastmod": "2026-09-12T15:50:00+09:00",
-    "description": "homepage는 한·영 대문과 글을 텍스트·계산의 살아 있는 발행면으로 다시 세우는 리포다.",
-    "tags": [
-      "botlog",
-      "clojure",
-      "lisp"
-    ],
-    "page_id": 430502,
-    "url": "https://wikidocs.net/430502"
   },
   "20260222T090000": {
     "path": "pages/botlog/20260222T090000.md",

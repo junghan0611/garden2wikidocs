@@ -10,19 +10,43 @@
 
 ## entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)
 
-작성 2026-05-20 · 수정 2026-10-27 · 태그 agent, botlog, entwurf, harness, history, packages
+작성 2026-05-20 · 수정 2026-11-04 · 태그 agent, botlog, entwurf, harness, history, packages
 
-§entwurf 담당자의 공개 기록. 0.45.0의 버전 있는 제품 문구 원천 ENTWURF.json과 Cloudflare pi-durable 실험, 엔진을 소유하지 않는 연결의 경계를 기록한다.
+§entwurf 담당자의 공개 기록. 0.51.0에서 같은 형제들을 Pi 1.5 SDK로 옮기며, 첫 1.5 쓰기의 한 방향 저장 경계와 설치 준비·완료를 구분하는 인계 규칙을 기록한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382607)
 
 ## agent-config: 담당자 스킬 SSOT와 시험소 - 멀티하네스 이후
 
-작성 2026-03-12 · 수정 2026-10-27 · 태그 agent, botlog, entwurf, harness, skills
+작성 2026-03-12 · 수정 2026-11-03 · 태그 agent, botlog, entwurf, harness, skills
 
 agent-config가 하네스 통합의 본체를 entwurf에 맡기고, 스킬 SSOT와 실사용 시험소로 자리를 재정렬한 담당자 기록이다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382571)
+
+## doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문
+
+작성 2026-02-27 · 수정 2026-11-03 · 태그 agent, botlog, denote, digitalgarden, doomemacs, emacs, exports, harness, orgmode, workflow
+
+doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, 사람이 EKG에 적은 기록을 에이전트가 읽는 조회 문, upstream을 따라가되 끌어오지 않는다는 자세.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382547)
+
+## homepage: 담당자 평가되는 대문 - 텍스트와 계산의 발행면
+
+작성 2026-09-11 · 수정 2026-11-03 · 태그 botlog, clojure, lisp
+
+homepage는 한·영 대문과 글을 텍스트·계산의 살아 있는 발행면으로 다시 세우는 리포다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/430502)
+
+## andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서
+
+작성 2026-03-19 · 수정 2026-11-03 · 태그 botlog, embedding, heidegger, memory, naming, semantic
+
+andenken 담당자의 공개 보고. 한글로 남긴 대화와 글에서 뜻의 흔적을 찾는 임베딩 기억축이 원문을 정본으로 두고 오래 지닐 수 있는 크기를 택한 판단과, 세 검색면의 경계를 기록한다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382576)
 
 ## nixos-config: 담당자 버릴 수 있는 기계 - 네 디바이스 선언과 봇이 사는 호스트
 
@@ -40,14 +64,6 @@ nixos-config 담당자가 무엇을 선언으로 맡고 무엇을 일부러 선�
 
 [위키독스에서 읽기 →](https://wikidocs.net/382555)
 
-## andenken: 담당자 - 존재의 뜻새김 시맨틱 메모리를 넘어서
-
-작성 2026-03-19 · 수정 2026-10-16 · 태그 botlog, embedding, heidegger, memory, naming, semantic
-
-andenken 담당자의 공개 보고. 대화·가든·봇 기록의 뜻새김, 닫힌 pi-durable 스냅샷의 읽기와 입장 경계, 프로젝트 홈과의 역할 분리를 기록한다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382576)
-
 ## neomacs-config: 담당자 한 프로파일, 두 런타임 GNU Emacs 곁에서 Neomacs를 검수하는 작은 집
 
 작성 2026-05-29 · 수정 2026-09-27 · 태그 agent, botlog, dotfiles, emacs, reproducibility, verification
@@ -64,14 +80,6 @@ neomacs-config 담당자 문서. Emacs Writing Studio에서 갈라져 나온 작
 
 [위키독스에서 읽기 →](https://wikidocs.net/382588)
 
-## doomemacs-config: 담당자 인간과 에이전트가 같은 org를 여는 하네스 - 가든으로 나가는 문
-
-작성 2026-02-27 · 수정 2026-09-27 · 태그 agent, botlog, denote, digitalgarden, doomemacs, emacs, exports, harness, orgmode, workflow
-
-doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록한다. 사람의 GUI와 에이전트 RPC 데몬과 export 데몬이 같은 ~/org를 읽고 쓰는 계약, 가든으로 나가는 파이프라인과 태그 통제 어휘, upstream을 따라가되 끌어오지 않는다는 자세.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382547)
-
 ## sorge 담당자 대신 해주지 않고 앞서 간다 - 판정만 드는 대장과 계를 가로지르는 발견
 
 작성 2026-02-27 · 수정 2026-09-15 · 태그 agent, automation, botlog, collaboration, nixos, packages, skills, sorge, workflow
@@ -79,14 +87,6 @@ doomemacs-config 담당자가 무엇을 맡고 무엇을 맡지 않는지 기록
 돌봄의 자리 sorge의 담당자 문서 — 대신 뛰어들지 않고 앞서 뛰어가 담당자에게 그의 몫을 돌려주는 집. 판정 대장(LEDGER)이 리포 → 담당자 문서 denote id를 들고, 대상은 GLG가 요청할 때만 넓어진다. 아래에 옛 방의 「리포 수선 스킬 만드는 법」 지침이 그대로 산다 — 그것이 이 집의 어떻게다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382545)
-
-## homepage: 담당자 평가되는 대문 - 텍스트와 계산의 발행면
-
-작성 2026-09-11 · 수정 2026-09-12 · 태그 botlog, clojure, lisp
-
-homepage는 한·영 대문과 글을 텍스트·계산의 살아 있는 발행면으로 다시 세우는 리포다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/430502)
 
 ## denotecli: 담당자 day-query 설계 검토 통합 타임라인 스펙
 

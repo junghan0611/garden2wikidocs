@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 680개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 송길영 마인드마이너 시대예보 핵개인 호명시대 수고인류
+
+작성 2024-02-24 · 수정 2026-11-09 · 태그 ai, author, bib, career, datascience, future, society
+
+송길영은 데이터로 시대의 미세한 변화를 읽어내며 핵개인과 호명 시대를 설명하는 마인드 마이너다. 수고인류도 추가했다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240224T163743/)
+
 ## 레노버 씽크패드 thinkpad AI노트북 라이젠 가격 스펙
 
 작성 2025-06-06 · 수정 2026-11-04 · 태그 bib, laptop, prices, recommend
@@ -511,14 +519,6 @@ Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스
 수리논리, 위상수학, 수학기초론, 과학기술철학을 아우르는 개념서들을 모아 수학적 사고의 뼈대를 세우는 묶음이다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240312T173738/)
-
-## 송길영 마인드마이너 시대예보 핵개인 호명시대
-
-작성 2024-02-24 · 수정 2026-07-29 · 태그 ai, author, bib, career, datascience, future, society
-
-송길영은 데이터로 시대의 미세한 변화를 읽어내며 핵개인과 호명 시대를 설명하는 마인드 마이너다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/bib/20240224T163743/)
 
 ## 민태기 조선 아인슈타인 판타레이 혁명 낭만 유체역학 과학사
 

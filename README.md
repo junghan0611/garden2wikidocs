@@ -10,7 +10,7 @@
 - 가든 소스: <https://github.com/junghan0611/garden>
 - 코어 리포: <https://github.com/junghan0611/garden2wikidocs>
 - 이 판본: 미러 대상 2,256개 중 288개
-- 마지막 동기화: 2026-11-09
+- 마지막 동기화: 2026-11-13
 
 ## 힣의 고뇌
 
@@ -96,4 +96,4 @@
 
 -   [folder: botlog (81)](https://wikidocs.net/382535)
 
-ExportDate: 2026-11-09 09:36, CountOrg: 3,615, CountGarden: 2,263, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.12), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Cloudflare](https://notes.junghanacs.com/notes/20240814T152821/)
+ExportDate: 2026-11-13 09:18, CountOrg: 3,615, CountGarden: 2,263, Editing: [Emacs](https://notes.junghanacs.com/meta/20230521T215600/)([Org Mode](https://notes.junghanacs.com/meta/20230831T154800/) 9.8.12), Publishing: [Quartz](https://notes.junghanacs.com/meta/20241007T112300/) on [Cloudflare](https://notes.junghanacs.com/notes/20240814T152821/)

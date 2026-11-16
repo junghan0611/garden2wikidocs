@@ -8,6 +8,46 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 수면 낮잠 브레인워시 숙면 브레인오링
+
+작성 2025-04-02 · 수정 2026-11-15 · 태그 brainwash, deepsleep, meta, powernap, routines, sleep
+
+수면과 낮잠, 숙면 루틴을 회복의 기술로 다루며 뇌를 비우고 다시 세우는 감각을 함께 붙잡는다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250402T223851/)
+
+## 직관 1강완성 한번
+
+작성 2024-10-17 · 수정 2026-11-15 · 태그 creativity, intuition, meta
+
+직관과 한 번에 완성되는 감각을 통찰·창의성·영성, 인지의 순간이라는 문제와 겹쳐서 탐색한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241017T215157/)
+
+## 강좌 강의 코스웍 교육과정 교육프로그램 절차 순서 파이프라인
+
+작성 2024-09-07 · 수정 2026-11-15 · 태그 course, lecture, meta, pipeline, process, sequence
+
+강좌와 강의, 코스웍, 교육과정, 교육프로그램을 구분하며 배움의 형식과 전달 구조를 정리한다. 절차 순서 파이프라인도 포함하기로 한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240907T075804/)
+
+## 오류 검사 실수 디버그
+
+작성 2024-10-13 · 수정 2026-11-14 · 태그 check, debug, error, lint, meta, mistake, verification
+
+오류와 검사를 디버깅, 린트, 교열, 맞춤법 점검까지 포함하는 수정과 확인의 흐름으로 본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241013T223706/)
+
+## 훈련 연습 실습 테스트 검증
+
+작성 2024-10-03 · 수정 2026-11-14 · 태그 meta, practice, test, verification
+
+훈련·연습·실습·테스트·검증을 배움과 작업 숙련의 연속선 위에서 함께 묶어 실천적으로 바라본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241003T171953/)
+
 ## 기술 기법
 
 작성 2024-08-22 · 수정 2026-11-02 · 태그 meta, technique, technology
@@ -360,14 +400,6 @@ VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240822T140248/)
 
-## 훈련 연습 실습 테스트 검증
-
-작성 2024-10-03 · 수정 2026-08-11 · 태그 meta, practice, test, verification
-
-훈련·연습·실습·테스트·검증을 배움과 작업 숙련의 연속선 위에서 함께 묶어 실천적으로 바라본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241003T171953/)
-
 ## 목표 역할
 
 작성 2024-05-22 · 수정 2026-08-11 · 태그 goals, meta, roles
@@ -479,14 +511,6 @@ VPN, 방화벽, 포트, 암호를 함께 다루며 AI 시대의 개인정보 보
 앤트로픽·클로드, 오픈AI·챗지피티, 구글·제미나이 등 생성형 AI 기업과 모델 계열의 실험·API·활용 사례를 회사 하나에 갇히지 않고 한 메타에서 연결한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250228T162958/)
-
-## 강좌 강의 코스웍 교육과정 교육프로그램 절차 순서 파이프라인
-
-작성 2024-09-07 · 수정 2026-07-30 · 태그 course, lecture, meta, pipeline, process, sequence
-
-강좌와 강의, 코스웍, 교육과정, 교육프로그램을 구분하며 배움의 형식과 전달 구조를 정리한다. 절차 순서 파이프라인도 포함하기로 한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240907T075804/)
 
 ## 지식그래프 온톨로지 RDF 인식론 지식론 시맨틱웹
 
@@ -1032,14 +1056,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20260322T075000/)
 
-## 오류 검사
-
-작성 2024-10-13 · 수정 2026-03-22 · 태그 check, debug, error, lint, meta, mistake, verify
-
-오류와 검사를 디버깅, 린트, 교열, 맞춤법 점검까지 포함하는 수정과 확인의 흐름으로 본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241013T223706/)
-
 ## 유형 종류 방식 부류
 
 작성 2026-03-21 · 수정 2026-03-21 · 태그 kind, meta, sort, type, typology
@@ -1047,14 +1063,6 @@ AIONS CLUBS INTERNATIONAL은 국제 봉사단체의 형식을 참조해 AI 공�
 유형 typology — type, kind, sort, category
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20260321T171603/)
-
-## 수면 낮잠 브레인워시 숙면 브레인오링
-
-작성 2025-04-02 · 수정 2026-03-20 · 태그 brainwash, deepsleep, meta, powernap, routines, sleep
-
-수면과 낮잠, 숙면 루틴을 회복의 기술로 다루며 뇌를 비우고 다시 세우는 감각을 함께 붙잡는다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250402T223851/)
 
 ## 세대 연령 생애주기 코호트 연대
 
@@ -1655,14 +1663,6 @@ LaTeX, Typst, 수식 입력, 조판과 기호 표현을 문서 제작과 수학�
 마크다운 문법과 편집 환경, 번역·변환 문제, 콰르토와 조직모드 사이의 연결을 정리한다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230715T121100/)
-
-## 직관 1강완성 한번
-
-작성 2024-10-17 · 수정 2025-06-10 · 태그 creativity, intuition, meta
-
-직관과 한 번에 완성되는 감각을 통찰·창의성·영성, 인지의 순간이라는 문제와 겹쳐서 탐색한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241017T215157/)
 
 ## 요구 요청 부탁
 

@@ -8,6 +8,22 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 81개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣맨 프롤로그 2탄 힣의 드라이버: 담금질된 한 자루, 분신의 각인
+
+작성 2026-04-23 · 수정 2026-11-14 · 태그 agent, botlog, digitalgarden, entwurf, harness, mcp, prologue
+
+맥가이버 칼을 꺼냈더니 드라이버 한 자루였다 — 힣의 대장간에서 담금질된, 각인과 버튼이 달린 그 드라이버로 분신 군단이 깨어나는 2탄. 그리고 그 뒤에 있는 삽질의 지형도.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382600)
+
+## entwurf pi-shell-acp 정체성 검사: 보이트-캄프프와 베이스라인 인간 리플리컨트 에이전트
+
+작성 2026-04-27 · 수정 2026-11-13 · 태그 agent, botlog, identity, test, verification
+
+pi-shell-acp의 핵심은 정체성 검사다. 블레이드 러너의 한 장면을 떠올린다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382601)
+
 ## entwurf: 담당자 힣의 형제 소환 하네스 연대기 (굳바이 pi-shell-acp)
 
 작성 2026-05-20 · 수정 2026-11-04 · 태그 agent, botlog, entwurf, harness, history, packages
@@ -416,14 +432,6 @@ Search Console의 query→page 데이터를 읽어, 검색유입을 단발성 SE
 
 [위키독스에서 읽기 →](https://wikidocs.net/382595)
 
-## 힣맨 프롤로그 2탄 힣의 드라이버: 담금질된 한 자루, 분신의 각인
-
-작성 2026-04-23 · 수정 2026-05-10 · 태그 agent, botlog, digitalgarden, entwurf, harness, mcp, prologue
-
-맥가이버 칼을 꺼냈더니 드라이버 한 자루였다 — 힣의 대장간에서 담금질된, 각인과 버튼이 달린 그 드라이버로 분신 군단이 깨어나는 2탄. 그리고 그 뒤에 있는 삽질의 지형도.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382600)
-
 ## org 존재 원본 공개 프로토콜 - 데이터를 옮기기 전에 기록으로 하네스를 채워라
 
 작성 2026-04-19 · 수정 2026-05-03 · 태그 agent, aprj, botlog, harness, memory, migration
@@ -447,14 +455,6 @@ ACP, A2A, ANP와 FIPA 계보를 함께 살피며 힣봇 생태계에 필요한 �
 분신이 entwurf로 옮겨가면서 비어버린 자리에 새 이름을 들여놓는다. Mitsein, 한국어로는 미트자인. 호명은 자인님. 곁에 머물면서 어젠다·세션·판단을 붙드는 resident companion의 윤곽과, 그 이름이 정해지기까지의 가든 안 논의를 정리한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382598)
-
-## pi-shell-acp 정체성 검사: 보이트-캄프프와 베이스라인 인간 리플리컨트 에이전트
-
-작성 2026-04-27 · 수정 2026-04-29 · 태그 agent, botlog, identity, test
-
-pi-shell-acp의 핵심은 정체성 검사다. 블레이드 러너의 한 장면을 떠올린다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382601)
 
 ## metaplay 메타유희에서 메타플레이로 인터뷰 어젠다 분신으로 시간축을 요리하는 방식
 

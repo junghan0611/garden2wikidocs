@@ -8,6 +8,46 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 538개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 재현성 복기
+
+작성 2024-12-07 · 수정 2026-11-24 · 태그 bib, emacs, literate, meta, orgmode, replay, reproducibility
+
+작업을 다시 세우고 되짚을 수 있는 재현성과 복기의 감각을 묶으며, 기록 습관과 org-mode를 연결한다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241207T151519/)
+
+## 텍스트 에디터 편집기
+
+작성 2024-06-14 · 수정 2026-11-24 · 태그 editing, editor, emacs, meta, texteditor, toolsforthought
+
+텍스트 에디터는 코드를 쓰고 문서를 다듬는 기본 작업면이며, IDE와의 경계 속에서 편집 중심 도구의 역할을 드러낸다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240614T090202/)
+
+## 빔 네오빔 vim neovim
+
+작성 2023-08-14 · 수정 2026-11-24 · 태그 bib, community, emacs, meta, neovim, texteditor, vim
+
+빔과 네오빔을 편집기 이상의 문화와 공동체로 함께 다룬다. 이맥스와 이블, 관련 링크를 나란히 두며 텍스트 편집 전통과 현대적 사용 경험의 접점을 모은다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230814T173700/)
+
+## 이맥스
+
+작성 2023-05-21 · 수정 2026-11-24 · 태그 emacs, metameta, productivity, ritual, texteditor, workflow
+
+이맥스를 텍스트 편집기를 넘어 지식관리, 글쓰기, 재현성, 작업 의식이 만나는 중심 환경으로 바라본다.
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230521T215600/)
+
+## AI노트 세션
+
+작성 2025-02-19 · 수정 2026-11-21 · 태그 ainotes, bib, meta, notetaking, rag, session
+
+AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 노트 작성 환경으로 파악한다. 추가로 세션이라는 중요한 기억 단위를 여기 넣었다
+
+[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250219T212615/)
+
 ## 수면 낮잠 브레인워시 숙면 브레인오링
 
 작성 2025-04-02 · 수정 2026-11-15 · 태그 brainwash, deepsleep, meta, powernap, routines, sleep
@@ -1488,14 +1528,6 @@ IoT는 센서와 기기, 네트워크와 플랫폼이 연결되어 물리 세계
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241211T164108/)
 
-## 재현성 복기
-
-작성 2024-12-07 · 수정 2025-06-17 · 태그 bib, literate, meta, orgmode, replay, reproducibility
-
-작업을 다시 세우고 되짚을 수 있는 재현성과 복기의 감각을 묶으며, 기록 습관과 org-mode를 연결한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241207T151519/)
-
 ## 데이터과학 데이터사이언스 데이터마이닝
 
 작성 2024-10-10 · 수정 2025-06-17 · 태그 datascience, meta
@@ -1575,14 +1607,6 @@ LaTeX, Typst, 수식 입력, 조판과 기호 표현을 문서 제작과 수학�
 이메일과 편지, 메일링리스트, 서신 교환을 느린 소통과 기록의 매체라는 관점에서 함께 본다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241030T154002/)
-
-## 빔 네오빔 vim neovim
-
-작성 2023-08-14 · 수정 2025-06-14 · 태그 bib, community, meta, neovim, texteditor, vim
-
-빔과 네오빔을 편집기 이상의 문화와 공동체로 함께 다룬다. 이맥스와 이블, 관련 링크를 나란히 두며 텍스트 편집 전통과 현대적 사용 경험의 접점을 모은다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230814T173700/)
 
 ## 청소 정돈 분리수거
 
@@ -3784,14 +3808,6 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240620T171551/)
 
-## 이맥스
-
-작성 2023-05-21 · 수정 2025-03-28 · 태그 emacs, metameta, productivity, ritual, texteditor, workflow
-
-이맥스를 텍스트 편집기를 넘어 지식관리, 글쓰기, 재현성, 작업 의식이 만나는 중심 환경으로 바라본다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20230521T215600/)
-
 ## 가상머신 가상환경 가상현실
 
 작성 2025-03-27 · 수정 2025-03-27 · 태그 environment, jvm, machine, meta, reality, virtual
@@ -4048,14 +4064,6 @@ org-mode 기반 저널링 도구와 확장 패턴을 모아, 일상을 시간축
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20241006T075550/)
 
-## AI노트
-
-작성 2025-02-19 · 수정 2025-02-19 · 태그 ainotes, bib, meta, notetaking, rag
-
-AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 노트 작성 환경으로 파악한다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20250219T212615/)
-
 ## 시스템
 
 작성 2024-05-27 · 수정 2025-02-19 · 태그 meta, system
@@ -4159,14 +4167,6 @@ AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 �
 교재와 개념서, 입문서, 개론서를 함께 묶어 학습의 출발점이 되는 텍스트와 공개 교재 흐름을 살핀다.
 
 [가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240814T125007/)
-
-## 텍스트에디터 텍스트편집기
-
-작성 2024-06-14 · 수정 2025-02-13 · 태그 helix, meta, texteditor, zed
-
-텍스트 에디터는 코드를 쓰고 문서를 다듬는 기본 작업면이며, IDE와의 경계 속에서 편집 중심 도구의 역할을 드러낸다.
-
-[가든 원본에서 읽기 →](https://notes.junghanacs.com/meta/20240614T090202/)
 
 ## 의미 문맥 시맨틱
 

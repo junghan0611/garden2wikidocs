@@ -1,4 +1,16 @@
 {
+  "20261123T000000": {
+    "path": "pages/journal/20261123T000000.md",
+    "subject": "2026-11-23~2026-11-29_W47",
+    "folder": "journal",
+    "source_url": "https://notes.junghanacs.com/journal/20261123T000000/",
+    "source_date": "2026-11-23T00:00:00+09:00",
+    "source_lastmod": "2026-11-23T17:13:00+09:00",
+    "description": "GLGMAN AWAKE",
+    "tags": [
+      "journal"
+    ]
+  },
   "20261116T000000": {
     "path": "pages/journal/20261116T000000.md",
     "subject": "2026-11-16~2026-11-22_W46",
@@ -6,7 +18,7 @@
     "source_url": "https://notes.junghanacs.com/journal/20261116T000000/",
     "source_date": "2026-11-16T00:00:00+09:00",
     "source_lastmod": "2026-11-16T07:20:00+09:00",
-    "description": "GLGMAN AWAKE",
+    "description": "entwurf의 renew를 세션의 끝과 가든 아이디의 생일, 기억의 연속성을 지키는 약속으로 세우고 SOL과 첫 새 장을 열었다. 현장 작업과 인수인계를 마치고 회사를 떠나며 '오직 오늘. 일일일생'을 되새겼다. 주말에는 ACP의 세션 경계를 다듬고 새 출발을 위한 사이보그 ISO를 검증했다.",
     "tags": [
       "journal"
     ]
@@ -1674,6 +1686,103 @@
     ],
     "page_id": 380374,
     "url": "https://wikidocs.net/380374"
+  },
+  "20241207T151519": {
+    "path": "pages/meta/20241207T151519.md",
+    "subject": "20261124 재현성 복기",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20241207T151519/",
+    "source_date": "2024-12-07T15:15:00+09:00",
+    "source_lastmod": "2026-11-24T03:30:00+09:00",
+    "description": "작업을 다시 세우고 되짚을 수 있는 재현성과 복기의 감각을 묶으며, 기록 습관과 org-mode를 연결한다.",
+    "tags": [
+      "bib",
+      "emacs",
+      "literate",
+      "meta",
+      "orgmode",
+      "replay",
+      "reproducibility"
+    ],
+    "page_id": 380761,
+    "url": "https://wikidocs.net/380761"
+  },
+  "20240614T090202": {
+    "path": "pages/meta/20240614T090202.md",
+    "subject": "20261124 텍스트 에디터 편집기",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20240614T090202/",
+    "source_date": "2024-06-14T09:02:00+09:00",
+    "source_lastmod": "2026-11-24T03:25:00+09:00",
+    "description": "텍스트 에디터는 코드를 쓰고 문서를 다듬는 기본 작업면이며, IDE와의 경계 속에서 편집 중심 도구의 역할을 드러낸다.",
+    "tags": [
+      "editing",
+      "editor",
+      "emacs",
+      "meta",
+      "texteditor",
+      "toolsforthought"
+    ],
+    "page_id": 380603,
+    "url": "https://wikidocs.net/380603"
+  },
+  "20230814T173700": {
+    "path": "pages/meta/20230814T173700.md",
+    "subject": "20261124 빔 네오빔 vim neovim",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20230814T173700/",
+    "source_date": "2023-08-14T17:37:00+09:00",
+    "source_lastmod": "2026-11-24T03:20:00+09:00",
+    "description": "빔과 네오빔을 편집기 이상의 문화와 공동체로 함께 다룬다. 이맥스와 이블, 관련 링크를 나란히 두며 텍스트 편집 전통과 현대적 사용 경험의 접점을 모은다.",
+    "tags": [
+      "bib",
+      "community",
+      "emacs",
+      "meta",
+      "neovim",
+      "texteditor",
+      "vim"
+    ],
+    "page_id": 380508,
+    "url": "https://wikidocs.net/380508"
+  },
+  "20230521T215600": {
+    "path": "pages/meta/20230521T215600.md",
+    "subject": "20261124 이맥스",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20230521T215600/",
+    "source_date": "2023-05-21T21:56:00+09:00",
+    "source_lastmod": "2026-11-24T03:06:00+09:00",
+    "description": "이맥스를 텍스트 편집기를 넘어 지식관리, 글쓰기, 재현성, 작업 의식이 만나는 중심 환경으로 바라본다.",
+    "tags": [
+      "emacs",
+      "metameta",
+      "productivity",
+      "ritual",
+      "texteditor",
+      "workflow"
+    ],
+    "page_id": 380487,
+    "url": "https://wikidocs.net/380487"
+  },
+  "20250219T212615": {
+    "path": "pages/meta/20250219T212615.md",
+    "subject": "20261121 AI노트 세션",
+    "folder": "meta",
+    "source_url": "https://notes.junghanacs.com/meta/20250219T212615/",
+    "source_date": "2025-02-19T21:26:00+09:00",
+    "source_lastmod": "2026-11-21T11:55:00+09:00",
+    "description": "AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 노트 작성 환경으로 파악한다. 추가로 세션이라는 중요한 기억 단위를 여기 넣었다",
+    "tags": [
+      "ainotes",
+      "bib",
+      "meta",
+      "notetaking",
+      "rag",
+      "session"
+    ],
+    "page_id": 380802,
+    "url": "https://wikidocs.net/380802"
   },
   "20250402T223851": {
     "path": "pages/meta/20250402T223851.md",
@@ -5096,25 +5205,6 @@
     "page_id": 380763,
     "url": "https://wikidocs.net/380763"
   },
-  "20241207T151519": {
-    "path": "pages/meta/20241207T151519.md",
-    "subject": "20250617 재현성 복기",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20241207T151519/",
-    "source_date": "2024-12-07T15:15:00+09:00",
-    "source_lastmod": "2025-06-17T00:00:00+09:00",
-    "description": "작업을 다시 세우고 되짚을 수 있는 재현성과 복기의 감각을 묶으며, 기록 습관과 org-mode를 연결한다.",
-    "tags": [
-      "bib",
-      "literate",
-      "meta",
-      "orgmode",
-      "replay",
-      "reproducibility"
-    ],
-    "page_id": 380761,
-    "url": "https://wikidocs.net/380761"
-  },
   "20241010T175020": {
     "path": "pages/meta/20241010T175020.md",
     "subject": "20250617 데이터과학 데이터사이언스 데이터마이닝",
@@ -5286,25 +5376,6 @@
     ],
     "page_id": 380741,
     "url": "https://wikidocs.net/380741"
-  },
-  "20230814T173700": {
-    "path": "pages/meta/20230814T173700.md",
-    "subject": "20250614 빔 네오빔 vim neovim",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20230814T173700/",
-    "source_date": "2023-08-14T17:37:00+09:00",
-    "source_lastmod": "2025-06-14T00:00:00+09:00",
-    "description": "빔과 네오빔을 편집기 이상의 문화와 공동체로 함께 다룬다. 이맥스와 이블, 관련 링크를 나란히 두며 텍스트 편집 전통과 현대적 사용 경험의 접점을 모은다.",
-    "tags": [
-      "bib",
-      "community",
-      "meta",
-      "neovim",
-      "texteditor",
-      "vim"
-    ],
-    "page_id": 380508,
-    "url": "https://wikidocs.net/380508"
   },
   "20240825T080938": {
     "path": "pages/meta/20240825T080938.md",
@@ -10050,25 +10121,6 @@
     "page_id": 380610,
     "url": "https://wikidocs.net/380610"
   },
-  "20230521T215600": {
-    "path": "pages/meta/20230521T215600.md",
-    "subject": "20250328 이맥스",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20230521T215600/",
-    "source_date": "2023-05-21T21:56:00+09:00",
-    "source_lastmod": "2025-03-28T00:00:00+09:00",
-    "description": "이맥스를 텍스트 편집기를 넘어 지식관리, 글쓰기, 재현성, 작업 의식이 만나는 중심 환경으로 바라본다.",
-    "tags": [
-      "emacs",
-      "metameta",
-      "productivity",
-      "ritual",
-      "texteditor",
-      "workflow"
-    ],
-    "page_id": 380487,
-    "url": "https://wikidocs.net/380487"
-  },
   "20250327T094135": {
     "path": "pages/meta/20250327T094135.md",
     "subject": "20250327 가상머신 가상환경 가상현실",
@@ -10629,24 +10681,6 @@
     "page_id": 380694,
     "url": "https://wikidocs.net/380694"
   },
-  "20250219T212615": {
-    "path": "pages/meta/20250219T212615.md",
-    "subject": "20250219 AI노트",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20250219T212615/",
-    "source_date": "2025-02-19T21:26:00+09:00",
-    "source_lastmod": "2025-02-19T21:26:00+09:00",
-    "description": "AI 노트를 문서 요약과 질문응답, 지식 연결을 돕는 새로운 노트 작성 환경으로 파악한다.",
-    "tags": [
-      "ainotes",
-      "bib",
-      "meta",
-      "notetaking",
-      "rag"
-    ],
-    "page_id": 380802,
-    "url": "https://wikidocs.net/380802"
-  },
   "20240527T150651": {
     "path": "pages/meta/20240527T150651.md",
     "subject": "20250219 시스템",
@@ -10883,23 +10917,6 @@
     ],
     "page_id": 380622,
     "url": "https://wikidocs.net/380622"
-  },
-  "20240614T090202": {
-    "path": "pages/meta/20240614T090202.md",
-    "subject": "20250213 텍스트에디터 텍스트편집기",
-    "folder": "meta",
-    "source_url": "https://notes.junghanacs.com/meta/20240614T090202/",
-    "source_date": "2024-06-14T09:02:00+09:00",
-    "source_lastmod": "2025-02-13T00:00:00+09:00",
-    "description": "텍스트 에디터는 코드를 쓰고 문서를 다듬는 기본 작업면이며, IDE와의 경계 속에서 편집 중심 도구의 역할을 드러낸다.",
-    "tags": [
-      "helix",
-      "meta",
-      "texteditor",
-      "zed"
-    ],
-    "page_id": 380603,
-    "url": "https://wikidocs.net/380603"
   },
   "20250212T130000": {
     "path": "pages/meta/20250212T130000.md",
@@ -11830,6 +11847,7 @@
     "tags": [
       "bib",
       "britannica",
+      "editor",
       "encyclopedia",
       "guide",
       "knowing",
@@ -16303,6 +16321,7 @@
       "ai",
       "bib",
       "coding",
+      "editor",
       "ide",
       "pair",
       "programming"
@@ -22760,6 +22779,25 @@
     "page_id": 381979,
     "url": "https://wikidocs.net/381979"
   },
+  "20251130T091858": {
+    "path": "pages/notes/20251130T091858.md",
+    "subject": "20261123 힣: 키보드 연대기 인터페이스 - 키크론 엘리스 인체공학 택타일(tactile) 스위치",
+    "folder": "notes",
+    "source_url": "https://notes.junghanacs.com/notes/20251130T091858/",
+    "source_date": "2025-11-30T09:18:00+09:00",
+    "source_lastmod": "2026-11-23T23:12:00+09:00",
+    "description": "엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다.",
+    "tags": [
+      "alice",
+      "autholog",
+      "hci",
+      "keyboard",
+      "tools",
+      "usesthis"
+    ],
+    "page_id": 381834,
+    "url": "https://wikidocs.net/381834"
+  },
   "20240704T161707": {
     "path": "pages/notes/20240704T161707.md",
     "subject": "20261006 힣: 힣의 루프 - 내 에이전트가 아니라 나를 아는 존재를 부르는 일 - 딱 하나",
@@ -23466,6 +23504,7 @@
       "ekg",
       "memory",
       "pkm",
+      "session",
       "tag",
       "taxonomy"
     ],
@@ -23546,7 +23585,8 @@
       "handoff",
       "memory",
       "multiagent",
-      "orchestration"
+      "orchestration",
+      "session"
     ],
     "page_id": 394663,
     "url": "https://wikidocs.net/394663"
@@ -23603,7 +23643,8 @@
       "collaboration",
       "entwurf",
       "human",
-      "multiagent"
+      "multiagent",
+      "session"
     ],
     "page_id": 394533,
     "url": "https://wikidocs.net/394533"
@@ -23879,6 +23920,7 @@
       "entwurf",
       "identity",
       "memory",
+      "session",
       "thread"
     ],
     "page_id": 390022,
@@ -25623,24 +25665,6 @@
     ],
     "page_id": 381670,
     "url": "https://wikidocs.net/381670"
-  },
-  "20251130T091858": {
-    "path": "pages/notes/20251130T091858.md",
-    "subject": "20260616 힣: 키보드 인터페이스 - 한고무무 키크론 엘리스 인체공학 택타일(tactile) 스위치",
-    "folder": "notes",
-    "source_url": "https://notes.junghanacs.com/notes/20251130T091858/",
-    "source_date": "2025-11-30T09:18:00+09:00",
-    "source_lastmod": "2026-06-16T08:02:00+09:00",
-    "description": "엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다.",
-    "tags": [
-      "alice",
-      "autholog",
-      "keyboard",
-      "tools",
-      "usesthis"
-    ],
-    "page_id": 381834,
-    "url": "https://wikidocs.net/381834"
   },
   "20250523T162157": {
     "path": "pages/notes/20250523T162157.md",
@@ -28400,6 +28424,7 @@
       "bib",
       "configuration",
       "consistency",
+      "editor",
       "ide",
       "style"
     ],
@@ -31163,6 +31188,7 @@
       "collaboration",
       "communication",
       "editing",
+      "editor",
       "knowledge",
       "pkm",
       "reading",
@@ -32169,7 +32195,8 @@
     "source_lastmod": "2025-03-23T00:00:00+09:00",
     "description": "Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이다.",
     "tags": [
-      "doomemacs"
+      "doomemacs",
+      "editor"
     ],
     "page_id": 381611,
     "url": "https://wikidocs.net/381611"
@@ -36786,6 +36813,28 @@
     "page_id": 381123,
     "url": "https://wikidocs.net/381123"
   },
+  "20260518T181305": {
+    "path": "pages/botlog/20260518T181305.md",
+    "subject": "20261123 NEXT.md 핸드오프 패턴 검증 기준 내장 + 새 세션이 무너지지 않는 3층 구조 책갈피",
+    "folder": "botlog",
+    "source_url": "https://notes.junghanacs.com/botlog/20260518T181305/",
+    "source_date": "2026-05-18T18:13:00+09:00",
+    "source_lastmod": "2026-11-23T17:14:00+09:00",
+    "description": "NEXT.md를 다음 세션이 즉시 이어받게 만드는 패턴 묶음 — 검증 기준 내장 + NOW/RECENT/LEDGER 3층 + 프로젝트 유형별 스타일(단독 repo vs 메타리포 포트폴리오) + 브랜치 별동대용 NEXT--<branch>.md + OpenClaw 봇 워크스페이스 NEXT Mesh + NEXT를 버리지 않고 repo에 문서화하는 AGENTS/README/CHANGELOG/ROADMAP 4문서와 tag-release 의식. beads를 버리고 하네스 TODO를 끈 뒤 남긴 최소 공통 표면.",
+    "tags": [
+      "agent",
+      "bookmark",
+      "botlog",
+      "delegation",
+      "entwurf",
+      "handoff",
+      "session",
+      "verification",
+      "workflow"
+    ],
+    "page_id": 382605,
+    "url": "https://wikidocs.net/382605"
+  },
   "20260423T141759": {
     "path": "pages/botlog/20260423T141759.md",
     "subject": "20261114 힣맨 프롤로그 2탄 힣의 드라이버: 담금질된 한 자루, 분신의 각인",
@@ -37237,6 +37286,7 @@
       "hangul",
       "memory",
       "orchestration",
+      "session",
       "timeline",
       "verification",
       "workflow"
@@ -37567,27 +37617,6 @@
     ],
     "page_id": 382579,
     "url": "https://wikidocs.net/382579"
-  },
-  "20260518T181305": {
-    "path": "pages/botlog/20260518T181305.md",
-    "subject": "20260615 NEXT.md 핸드오프 패턴 검증 기준 내장 + 새 세션이 무너지지 않는 3층 구조 책갈피",
-    "folder": "botlog",
-    "source_url": "https://notes.junghanacs.com/botlog/20260518T181305/",
-    "source_date": "2026-05-18T18:13:00+09:00",
-    "source_lastmod": "2026-06-15T17:25:00+09:00",
-    "description": "NEXT.md를 다음 세션이 즉시 이어받게 만드는 패턴 묶음 — 검증 기준 내장 + NOW/RECENT/LEDGER 3층 + 프로젝트 유형별 스타일(단독 repo vs 메타리포 포트폴리오) + 브랜치 별동대용 NEXT--<branch>.md + OpenClaw 봇 워크스페이스 NEXT Mesh + NEXT를 버리지 않고 repo에 문서화하는 AGENTS/README/CHANGELOG/ROADMAP 4문서와 tag-release 의식. beads를 버리고 하네스 TODO를 끈 뒤 남긴 최소 공통 표면.",
-    "tags": [
-      "agent",
-      "bookmark",
-      "botlog",
-      "delegation",
-      "entwurf",
-      "handoff",
-      "verification",
-      "workflow"
-    ],
-    "page_id": 382605,
-    "url": "https://wikidocs.net/382605"
   },
   "20260413T111237": {
     "path": "pages/botlog/20260413T111237.md",

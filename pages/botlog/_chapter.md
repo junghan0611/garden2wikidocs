@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 81개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## NEXT.md 핸드오프 패턴 검증 기준 내장 + 새 세션이 무너지지 않는 3층 구조 책갈피
+
+작성 2026-05-18 · 수정 2026-11-23 · 태그 agent, bookmark, botlog, delegation, entwurf, handoff, session, verification, workflow
+
+NEXT.md를 다음 세션이 즉시 이어받게 만드는 패턴 묶음 — 검증 기준 내장 + NOW/RECENT/LEDGER 3층 + 프로젝트 유형별 스타일(단독 repo vs 메타리포 포트폴리오) + 브랜치 별동대용 NEXT--&lt;branch&gt;.md + OpenClaw 봇 워크스페이스 NEXT Mesh + NEXT를 버리지 않고 repo에 문서화하는 AGENTS/README/CHANGELOG/ROADMAP 4문서와 tag-release 의식. beads를 버리고 하네스 TODO를 끈 뒤 남긴 최소 공통 표면.
+
+[위키독스에서 읽기 →](https://wikidocs.net/382605)
+
 ## 힣맨 프롤로그 2탄 힣의 드라이버: 담금질된 한 자루, 분신의 각인
 
 작성 2026-04-23 · 수정 2026-11-14 · 태그 agent, botlog, digitalgarden, entwurf, harness, mcp, prologue
@@ -194,7 +202,7 @@ dictcli가 한영사전에서 힣의 낱말 연결망으로 중심을 옮긴 담
 
 ## cos: 비서실장님 - 프로젝트 경계를 넘는 담당자의 자기 시간축과 복귀 루프
 
-작성 2026-04-07 · 수정 2026-08-26 · 태그 agent, botlog, company, entwurf, hangul, memory, orchestration, timeline, verification, workflow
+작성 2026-04-07 · 수정 2026-08-26 · 태그 agent, botlog, company, entwurf, hangul, memory, orchestration, session, timeline, verification, workflow
 
 COS를 실험장으로 삼아 memory·git·NEXT를 결합하고, 새 세션이 이전 대화를 모르더라도 현재 판단과 경계에 도달하도록 설계한 에이전트 루프의 형성 과정.
 
@@ -335,14 +343,6 @@ PKM-AI를 노트에 챗봇이나 검색을 붙이는 기술이 아니라, 인간
 바이브코딩 담론을 넘어 사고, 창발, 하네스 엔지니어링, 1강완성의 발표 운영법으로 이어지는 개발자 AI 톡의 발제 구조를 정리한다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/382579)
-
-## NEXT.md 핸드오프 패턴 검증 기준 내장 + 새 세션이 무너지지 않는 3층 구조 책갈피
-
-작성 2026-05-18 · 수정 2026-06-15 · 태그 agent, bookmark, botlog, delegation, entwurf, handoff, verification, workflow
-
-NEXT.md를 다음 세션이 즉시 이어받게 만드는 패턴 묶음 — 검증 기준 내장 + NOW/RECENT/LEDGER 3층 + 프로젝트 유형별 스타일(단독 repo vs 메타리포 포트폴리오) + 브랜치 별동대용 NEXT--&lt;branch&gt;.md + OpenClaw 봇 워크스페이스 NEXT Mesh + NEXT를 버리지 않고 repo에 문서화하는 AGENTS/README/CHANGELOG/ROADMAP 4문서와 tag-release 의식. beads를 버리고 하네스 TODO를 끈 뒤 남긴 최소 공통 표면.
-
-[위키독스에서 읽기 →](https://wikidocs.net/382605)
 
 ## 터미널 이맥스 하네스 프론트엔드 완성 한글입력 클립보드 SSH원격 독립인스턴스 에이전트통합
 

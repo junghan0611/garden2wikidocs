@@ -274,7 +274,7 @@ Emergence AI의 Vivek Haldar를 통해 에이전트 시대의 Emacs와 유닉스
 
 ## 모티머애들러 파이데이아 평생공부 가이드 브리태니커 폴리매스
 
-작성 2025-04-15 · 수정 2026-08-22 · 태그 bib, britannica, encyclopedia, guide, knowing, knowledge, learning, lifelong, paideia, philosopher
+작성 2025-04-15 · 수정 2026-08-22 · 태그 bib, britannica, editor, encyclopedia, guide, knowing, knowledge, learning, lifelong, paideia, philosopher
 
 모티머 애들러는 브리태니커와 파이데이아 구상을 통해 고전 읽기와 평생교육을 하나의 교양 체계로 엮은 사상가다.
 
@@ -2266,7 +2266,7 @@ Zenn과 Qiita는 일본 개발자 생태계의 대표적 기술 글쓰기 플랫
 
 ## zen windsurf cursor 통합개발환경 GUI
 
-작성 2025-03-28 · 수정 2025-05-28 · 태그 agent, ai, bib, coding, ide, pair, programming
+작성 2025-03-28 · 수정 2025-05-28 · 태그 agent, ai, bib, coding, editor, ide, pair, programming
 
 Cursor와 Windsurf 같은 AI IDE는 GUI 기반 코딩 에이전트가 개발 흐름을 어떻게 바꾸는지 보여주는 전선이다.
 

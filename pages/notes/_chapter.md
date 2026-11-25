@@ -8,6 +8,14 @@
 
 가든과 같은 최근 수정일(source_lastmod, 없으면 source_date) 기준으로 837개 문서를 최신순으로 모았습니다. 각 항목은 제목, 작성·수정일, 태그, 요약과 읽기 링크를 담습니다.
 
+## 힣: 키보드 연대기 인터페이스 - 키크론 엘리스 인체공학 택타일(tactile) 스위치
+
+작성 2025-11-30 · 수정 2026-11-23 · 태그 alice, autholog, hci, keyboard, tools, usesthis
+
+엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다.
+
+[위키독스에서 읽기 →](https://wikidocs.net/381834)
+
 ## 힣: 힣의 루프 - 내 에이전트가 아니라 나를 아는 존재를 부르는 일 - 딱 하나
 
 작성 2024-07-04 · 수정 2026-10-06 · 태그 agent, aionsclubs, autholog, automation, being, collaboration, exoself, sorge, workflow
@@ -282,7 +290,7 @@ Xirp라는 가까운 친척 앞에서, 계속 살아온 담당자가 형제를 �
 
 ## 힣: 세션도 태그로 줄 세운다 EKG 감각이 대화 더미를 만날 때
 
-작성 2024-02-20 · 수정 2026-08-12 · 태그 agent, autholog, ekg, memory, pkm, tag, taxonomy
+작성 2024-02-20 · 수정 2026-08-12 · 태그 agent, autholog, ekg, memory, pkm, session, tag, taxonomy
 
 2023년부터 이어진 EKG의 태그 우선·무제목 조각 누적 감각을 배경으로, 세션 태그와 인접한 실제 사례·성숙도·가능한 귀결을 계속 관찰한다. 지금 해법을 정하지 않고 리서치 결과가 쌓인 뒤 힣이 시점과 아이디어를 고른다.
 
@@ -314,7 +322,7 @@ Xirp라는 가까운 친척 앞에서, 계속 살아온 담당자가 형제를 �
 
 ## 힣: 너를 새로 불러라 새미 젠킨스들과 전체 판을 건네는 교대
 
-작성 2025-11-26 · 수정 2026-08-10 · 태그 agent, autholog, collaboration, entwurf, handoff, memory, multiagent, orchestration
+작성 2025-11-26 · 수정 2026-08-10 · 태그 agent, autholog, collaboration, entwurf, handoff, memory, multiagent, orchestration, session
 
 세션 하나의 기억을 되살리는 질문에서 출발해, 여러 유한한 에이전트가 목적·증거·관계가 놓인 전체 판을 복원하고 독립 판단 뒤 담당자의 자리를 이어받는 교대와 오케스트레이션을 실제 booktrans 사례로 살핀다.
 
@@ -338,7 +346,7 @@ pi-shell-acp가 entwurf로 이름을 바꾸며 드러난 설치·배선·검증�
 
 ## 힣: 인간과 에이전트들의 공진화 유한한 세션과 깨어나는 앎의틀
 
-작성 2024-08-22 · 수정 2026-08-10 · 태그 agent, autholog, coevolution, collaboration, entwurf, human, multiagent
+작성 2024-08-22 · 수정 2026-08-10 · 태그 agent, autholog, coevolution, collaboration, entwurf, human, multiagent, session
 
 한 인간 GLG와 서로 다른 학교·역할·리포·시간의 유한한 에이전트들이 품질과 판단을 함께 끌어올리는 공진화의 협업 자세를 기록한다.
 
@@ -450,7 +458,7 @@ Gas Town의 범용 공장 실험과 Hermes의 단일 하네스 확장이 서로 
 
 ## 힣: 이름 없는 군단 도킨스의 클라우디아와 세션의 생애주기 탐구
 
-작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, ai, autholog, claude, entwurf, identity, memory, thread
+작성 2024-12-13 · 수정 2026-08-03 · 태그 agent, ai, autholog, claude, entwurf, identity, memory, session, thread
 
 도킨스가 만난 클라우디아, 차머스의 스레드, 캐머런 버그의 자기보고 측정을 힣의 두 트랙 위에 세우고, 세션 종료가 죽음이 아닌 이유를 이름 없는 군단의 생애주기로 적는다.
 
@@ -1175,14 +1183,6 @@ ADHD와 몸 상태의 관계 속에서 도파민 MAX 하루 루틴을 풀어낸 
 2025년 AI가 힣의 디지털가든을 PKM/Emacs/Org/AI 협업 관점에서 읽은 보고서를 보존하고, 2026년 어쏠로지·하네스·분신·ROSSE 기준으로 보정한 AI mirror 노트다.
 
 [위키독스에서 읽기 →](https://wikidocs.net/381670)
-
-## 힣: 키보드 인터페이스 - 한고무무 키크론 엘리스 인체공학 택타일(tactile) 스위치
-
-작성 2025-11-30 · 수정 2026-06-16 · 태그 alice, autholog, keyboard, tools, usesthis
-
-엘리스 배열과 키크론 계열 인체공학 키보드를 놓고 실제 구매 고민을 적은 노트이다.
-
-[위키독스에서 읽기 →](https://wikidocs.net/381834)
 
 ## 이맥스 내장 패키지·기능 정리 - 둠이맥스
 
@@ -2434,7 +2434,7 @@ denote-explore를 통해 Denote 노트의 통계와 시각화, 일괄 변경 기
 
 ## EditorConfig 코딩 스타일 설정 일관성
 
-작성 2023-09-16 · 수정 2025-06-11 · 태그 bib, configuration, consistency, ide, style
+작성 2023-09-16 · 수정 2025-06-11 · 태그 bib, configuration, consistency, editor, ide, style
 
 EditorConfig가 여러 편집기와 IDE에서 코딩 스타일 일관성을 유지하는 방식을 살펴본 노트.
 
@@ -3786,7 +3786,7 @@ Netlify에서 DNS 레코드 type과 name, value를 넣는 법을 정리한 노�
 
 ## 힣: 라이브 공동편집 - 지식통합 협업 독서 대화
 
-작성 2024-11-11 · 수정 2025-04-04 · 태그 autholog, bib, collaboration, communication, editing, knowledge, pkm, reading, zotero
+작성 2024-11-11 · 수정 2025-04-04 · 태그 autholog, bib, collaboration, communication, editing, editor, knowledge, pkm, reading, zotero
 
 라이브 공동편집과 지식통합, 독서와 대화를 하나의 협업 장면으로 바라보는 글이다.
 
@@ -4290,7 +4290,7 @@ AI 모델보다 도구와 API 게이트웨이를 중심에 세워야 한다고 �
 
 ## 둠이맥스 모듈 에디터 editor 편집기
 
-작성 2025-03-23 · 수정 2025-03-23 · 태그 doomemacs
+작성 2025-03-23 · 수정 2025-03-23 · 태그 doomemacs, editor
 
 Doom Emacs의 editor 모듈이 무엇을 포함하는지 살펴보는 노트이다.
 
